@@ -17,11 +17,11 @@ fighters.forEach(fighter => {
   // if (fs.existsSync(filePath)) return;
 
   const content = `---
-title: '${fighter.name}: Perfil y Línea de Tiempo'
-description: '${fighter.description}'
-publishDate: '${new Date().toISOString().split('T')[0]}'
-tags: ['UFC', '${fighter.name}', 'Perfil', 'Automated']
-heroImage: { src: './mma-generic-cover.jpg', color: '#0F172A' }
+title: "${fighter.name}: Perfil y Línea de Tiempo"
+description: "${fighter.description}"
+publishDate: "${new Date().toISOString().split('T')[0]}"
+tags: ["UFC", "${fighter.name}", "Perfil", "Automated"]
+heroImage: { src: "./mma-generic-cover.jpg", color: "#0F172A" }
 ---
 
 import FighterTimeline from '@/components/special/FighterTimeline.astro';
