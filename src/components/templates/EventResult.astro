@@ -1,0 +1,66 @@
+---
+interface Props {
+  eventName: string;
+  fightIds: number[];
+}
+
+const { eventName, fightIds } = Astro.props;
+const API_KEY = import.meta.env.MMA_API_KEY;
+
+// Fetch all fights in parallel
+const fightPromises = fightIds.map(id => 
+  fetch(`https://v1.mma.api-sports.io/fights?id=${id}`, { headers: { 'x-apisports-key': API_KEY } })
+    .then(res => res.json())
+);
+
+const results = await Promise.all(fightPromises);
+const fights = results.map(r => r.response?.[0]).filter(Boolean);
+---
+
+<div class="event-results my-8">
+  <h2 class="text-3xl font-black text-center mb-8 uppercase tracking-tighter text-slate-900 dark:text-white">
+    {eventName}
+  </h2>
+
+  <div class="space-y-4">
+    {fights.map((fight) => {
+      const f1 = fight.fighters.first;
+      const f2 = fight.fighters.second;
+      const isF1Winner = f1.winner;
+      const isF2Winner = f2.winner;
+
+      return (
+        <div class="fight-card bg-white dark:bg-slate-800 rounded-lg shadow-md overflow-hidden border-l-4 border-red-500">
+          <div class="flex flex-col md:flex-row items-center justify-between p-4 gap-4">
+            
+            {/* Fighter 1 */}
+            <div class={`fighter-1 flex items-center gap-4 flex-1 ${isF1Winner ? 'font-bold' : 'opacity-70'}`}>
+              <img src={f1.logo} alt={f1.name} class="w-12 h-12 rounded-full bg-slate-200 object-cover" />
+              <div class="text-left">
+                <span class="block text-lg">{f1.name}</span>
+                {isF1Winner && <span class="text-xs bg-green-100 text-green-800 px-2 py-0.5 rounded-full font-bold">WIN</span>}
+              </div>
+            </div>
+
+            {/* Result Info */}
+            <div class="result-info text-center min-w-[120px]">
+              <span class="block text-xs font-bold text-slate-400 uppercase tracking-widest">Método</span>
+              <span class="block font-bold text-red-500">{fight.status.long}</span>
+              <span class="text-xs text-slate-500">{fight.time}</span>
+            </div>
+
+            {/* Fighter 2 */}
+            <div class={`fighter-2 flex items-center gap-4 flex-1 justify-end ${isF2Winner ? 'font-bold' : 'opacity-70'}`}>
+              <div class="text-right">
+                <span class="block text-lg">{f2.name}</span>
+                {isF2Winner && <span class="text-xs bg-green-100 text-green-800 px-2 py-0.5 rounded-full font-bold">WIN</span>}
+              </div>
+              <img src={f2.logo} alt={f2.name} class="w-12 h-12 rounded-full bg-slate-200 object-cover" />
+            </div>
+
+          </div>
+        </div>
+      );
+    })}
+  </div>
+</div>
