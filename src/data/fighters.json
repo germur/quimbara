@@ -1,0 +1,44 @@
+[
+  {
+    "id": 214,
+    "name": "Jon Jones",
+    "slug": "jon-jones-timeline",
+    "description": "El rey libra por libra y campeón de dos divisiones."
+  },
+  {
+    "id": 1067,
+    "name": "Ilia Topuria",
+    "slug": "ilia-topuria-profile",
+    "description": "El Matador. Campeón de peso pluma e icono global."
+  },
+  {
+    "id": 146,
+    "name": "Conor McGregor",
+    "slug": "conor-mcgregor-legacy",
+    "description": "La cara del deporte. El primer doble campeón simultáneo."
+  },
+  {
+    "id": 260,
+    "name": "Islam Makhachev",
+    "slug": "islam-makhachev-dominance",
+    "description": "El heredero de Khabib y actual rey del peso ligero."
+  },
+  {
+    "id": 2436,
+    "name": "Alex Pereira",
+    "slug": "alex-pereira-poatan",
+    "description": "Poatan. El terror de dos divisiones con manos de piedra."
+  },
+  {
+    "id": 479,
+    "name": "Sean O'Malley",
+    "slug": "sean-omalley-suga",
+    "description": "Suga Show. Precisión quirúrgica y estilo único."
+  },
+  {
+    "id": 256,
+    "name": "Max Holloway",
+    "slug": "max-holloway-blessed",
+    "description": "Blessed. El mejor boxeador de la UFC y rey del BMF."
+  }
+]
