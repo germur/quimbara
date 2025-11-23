@@ -24,6 +24,21 @@ const profileResponse = await fetch(`https://v1.mma.api-sports.io/fighters?id=${
 const profileData = await profileResponse.json();
 const fighter = profileData.response?.[0];
 
+// Fetch Fighter Records (Detailed W-L Breakdown)
+const recordsResponse = await fetch(`https://v1.mma.api-sports.io/fighters/records?id=${fighterId}`, {
+  headers: { 'x-apisports-key': API_KEY }
+});
+const recordsData = await recordsResponse.json();
+const records = recordsData.response?.[0];
+
+// Calculate decision wins/losses (total - ko - sub)
+if (records) {
+  const decWins = records.total.win - (records.ko?.win || 0) - (records.sub?.win || 0);
+  const decLoss = records.total.loss - (records.ko?.loss || 0) - (records.sub?.loss || 0);
+  records.dec = { win: decWins, loss: decLoss };
+}
+
+
 // Fetch Recent Fights (2023-2025)
 const years = [2023, 2024, 2025];
 let recentFights = [];
@@ -95,6 +110,61 @@ const allEvents = [...historicalEvents, ...recentEvents].sort((a, b) => parseInt
     ) : (
         <div class="p-8 text-center text-red-500">No se pudo cargar el perfil del luchador.</div>
     )}
+
+    {/* Detailed Fight Record Section */}
+    {records && (
+        <div class="record-stats bg-gradient-to-r from-slate-800 to-slate-900 text-white p-8">
+            <h3 class="text-2xl font-bold mb-6 text-center">Récord Profesional</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                {/* Total Record */}
+                <div class="bg-slate-700/50 p-6 rounded-lg text-center border-2 border-green-500">
+                    <div class="text-5xl font-black mb-2 text-green-400">
+                        {records.total.win}-{records.total.loss}
+                    </div>
+                    <div class="text-sm text-slate-300 uppercase tracking-wider">Récord Total</div>
+                </div>
+
+                {/* Wins Breakdown */}
+                <div class="bg-slate-700/50 p-6 rounded-lg">
+                    <div class="text-xl font-bold mb-4 text-green-400 text-center">Victorias ({records.total.win})</div>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex justify-between">
+                            <span class="text-slate-300">Por KO/TKO:</span>
+                            <span class="font-bold text-white">{records.ko.win}</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-slate-300">Por Decisión:</span>
+                            <span class="font-bold text-white">{records.dec.win}</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-slate-300">Por Sumisión:</span>
+                            <span class="font-bold text-white">{records.sub.win}</span>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Losses Breakdown */}
+                <div class="bg-slate-700/50 p-6 rounded-lg">
+                    <div class="text-xl font-bold mb-4 text-red-400 text-center">Derrotas ({records.total.loss})</div>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex justify-between">
+                            <span class="text-slate-300">Por KO/TKO:</span>
+                            <span class="font-bold text-white">{records.ko.loss}</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-slate-300">Por Decisión:</span>
+                            <span class="font-bold text-white">{records.dec.loss}</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-slate-300">Por Sumisión:</span>
+                            <span class="font-bold text-white">{records.sub.loss}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )}
+
 
     <div class="timeline-container p-8 bg-gray-50">
         <h3 class="text-2xl font-bold mb-8 text-center text-slate-800">Línea de Tiempo Profesional</h3>
