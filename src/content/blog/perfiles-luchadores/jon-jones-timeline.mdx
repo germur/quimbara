@@ -1,0 +1,71 @@
+---
+title: 'La Línea de Tiempo de Jon Jones: El Camino del GOAT'
+description: 'Un recorrido visual por la carrera del peleador más dominante de la historia, desde su campeonato más joven hasta su reinado en el peso pesado.'
+publishDate: 2025-11-23
+tags: ['UFC', 'Jon Jones', 'GOAT', 'Heavyweight', 'Timeline']
+heroImage: { src: './jon-jones-cover.jpg', color: '#0F172A' }
+---
+
+import FighterTimeline from '@/components/special/FighterTimeline.astro';
+
+Esta no es solo una lista de peleas; es la historia de la excelencia marcial interrumpida solo por el caos personal. A continuación, verás cómo **Astro** y **API-Sports** se unen para traerte los datos más recientes de "Bones" Jones en tiempo real, combinados con los hitos históricos que definieron su legado.
+
+<FighterTimeline 
+  fighterId={214}
+  historicalEvents={[
+    {
+      year: '2008',
+      title: 'Debut en UFC (UFC 87)',
+      description: 'Jones entra al octágono por primera vez contra André Gusmão, ganando por decisión unánime y mostrando destellos de grandeza.',
+      type: 'fight'
+    },
+    {
+      year: '2011',
+      title: 'Campeón Más Joven de la Historia (UFC 128)',
+      description: 'Con solo 23 años, destruye a Shogun Rua para ganar el título de peso semipesado. Nace una leyenda.',
+      type: 'championship'
+    },
+    {
+      year: '2011',
+      title: 'Defensa vs Rampage Jackson (UFC 135)',
+      description: 'Somete al veterano Rampage en el cuarto asalto, consolidando su dominio.',
+      type: 'fight'
+    },
+    {
+      year: '2012',
+      title: 'La Rivalidad con Rashad Evans (UFC 145)',
+      description: 'Vence a su ex-compañero de equipo en una pelea cargada de emoción y rencor.',
+      type: 'fight'
+    },
+    {
+      year: '2013',
+      title: 'La Guerra contra Gustafsson (UFC 165)',
+      description: 'Llevado al límite por primera vez, Jones gana una decisión controvertida en una de las mejores peleas de la historia.',
+      type: 'fight'
+    },
+    {
+      year: '2015',
+      title: 'Primera Suspensión y Despojo del Título',
+      description: 'Tras un incidente de atropello y fuga, UFC le quita el cinturón y lo suspende indefinidamente.',
+      type: 'suspension'
+    },
+    {
+      year: '2017',
+      title: 'KO a Cormier y Positivo por Dopaje (UFC 214)',
+      description: 'Recupera el título con un KO espectacular, pero la victoria se anula tras dar positivo por Turinabol.',
+      type: 'suspension'
+    },
+    {
+      year: '2018',
+      title: 'El Regreso: Jones vs Gustafsson 2 (UFC 232)',
+      description: 'Vuelve para reclamar el título vacante, noqueando a Gustafsson y cerrando el capítulo de su rivalidad.',
+      type: 'return'
+    },
+    {
+      year: '2020',
+      title: 'Última Defensa en 205 lbs (UFC 247)',
+      description: 'Vence a Dominick Reyes en una decisión muy discutida y anuncia su subida al peso pesado.',
+      type: 'fight'
+    }
+  ]}
+/>

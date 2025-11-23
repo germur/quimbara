@@ -1,0 +1,119 @@
+---
+import { Image } from 'astro:assets';
+
+interface Props {
+  fighterId: number;
+  historicalEvents: {
+    year: string;
+    title: string;
+    description: string;
+    type: 'championship' | 'suspension' | 'fight' | 'return';
+  }[];
+}
+
+const { fighterId, historicalEvents } = Astro.props;
+
+const API_KEY = import.meta.env.MMA_API_KEY;
+
+// Fetch Profile
+const profileResponse = await fetch(`https://v1.mma.api-sports.io/fighters?id=${fighterId}`, {
+  headers: {
+    'x-apisports-key': API_KEY
+  }
+});
+const profileData = await profileResponse.json();
+const fighter = profileData.response?.[0];
+
+// Fetch Recent Fights (2023-2025)
+const years = [2023, 2024, 2025];
+let recentFights = [];
+
+for (const year of years) {
+    try {
+        const fightsResponse = await fetch(`https://v1.mma.api-sports.io/fights?fighter=${fighterId}&season=${year}`, {
+            headers: { 'x-apisports-key': API_KEY }
+        });
+        const fightsData = await fightsResponse.json();
+        if (fightsData.response) {
+            recentFights.push(...fightsData.response);
+        }
+    } catch (e) {
+        console.error(`Error fetching fights for ${year}`, e);
+    }
+}
+
+// Process Recent Fights into Timeline Events
+const recentEvents = recentFights
+    .filter(f => f.status.short === 'FT') // Only finished fights
+    .map(f => {
+        const isWinner = (f.fighters.first.id === fighterId && f.fighters.first.winner) || 
+                         (f.fighters.second.id === fighterId && f.fighters.second.winner);
+        const opponent = f.fighters.first.id === fighterId ? f.fighters.second.name : f.fighters.first.name;
+        
+        return {
+            year: new Date(f.date).getFullYear().toString(),
+            title: isWinner ? `Victoria vs ${opponent}` : `Derrota vs ${opponent}`,
+            description: `${f.slug}. ${isWinner ? 'Ganó' : 'Perdió'} el combate.`,
+            type: 'fight'
+        };
+    });
+
+// Combine and Sort
+const allEvents = [...historicalEvents, ...recentEvents].sort((a, b) => parseInt(b.year) - parseInt(a.year));
+
+---
+
+<div class="fighter-profile bg-white rounded-xl shadow-lg overflow-hidden my-8">
+    {fighter ? (
+        <div class="profile-header bg-slate-900 text-white p-8 flex flex-col md:flex-row items-center gap-8">
+            <div class="w-48 h-48 rounded-full overflow-hidden border-4 border-blue-500 shadow-xl shrink-0 bg-slate-800">
+                <img src={fighter.photo} alt={fighter.name} class="w-full h-full object-cover" />
+            </div>
+            <div class="text-center md:text-left">
+                <h2 class="text-4xl font-bold mb-2">{fighter.name}</h2>
+                <p class="text-xl text-blue-400 font-semibold mb-4">"{fighter.nickname}"</p>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+                    <div class="bg-slate-800 p-3 rounded-lg">
+                        <span class="block text-slate-400 text-xs uppercase">Altura</span>
+                        <span class="font-bold">{fighter.height}</span>
+                    </div>
+                    <div class="bg-slate-800 p-3 rounded-lg">
+                        <span class="block text-slate-400 text-xs uppercase">Peso</span>
+                        <span class="font-bold">{fighter.weight}</span>
+                    </div>
+                    <div class="bg-slate-800 p-3 rounded-lg">
+                        <span class="block text-slate-400 text-xs uppercase">Alcance</span>
+                        <span class="font-bold">{fighter.reach}</span>
+                    </div>
+                    <div class="bg-slate-800 p-3 rounded-lg">
+                        <span class="block text-slate-400 text-xs uppercase">Guardia</span>
+                        <span class="font-bold">{fighter.stance}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    ) : (
+        <div class="p-8 text-center text-red-500">No se pudo cargar el perfil del luchador.</div>
+    )}
+
+    <div class="timeline-container p-8 bg-gray-50">
+        <h3 class="text-2xl font-bold mb-8 text-center text-slate-800">Línea de Tiempo Profesional</h3>
+        <div class="relative border-l-4 border-blue-200 ml-4 md:ml-auto md:mr-auto md:w-2/3 space-y-8">
+            {allEvents.map((event) => (
+                <div class="mb-8 ml-6 relative">
+                    <div class={`absolute -left-10 w-6 h-6 rounded-full border-4 border-white shadow-sm ${
+                        event.type === 'championship' ? 'bg-yellow-500' :
+                        event.type === 'suspension' ? 'bg-red-500' :
+                        event.type === 'return' ? 'bg-green-500' :
+                        'bg-blue-500'
+                    }`}></div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                        <span class="text-sm font-bold text-blue-600 mb-1 block">{event.year}</span>
+                        <h4 class="text-lg font-bold text-gray-900 mb-2">{event.title}</h4>
+                        <p class="text-gray-600">{event.description}</p>
+                    </div>
+                </div>
+            ))}
+        </div>
+    </div>
+</div>
