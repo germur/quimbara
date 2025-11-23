@@ -16,11 +16,15 @@ fighters.forEach(fighter => {
   // Skip if file exists to avoid overwriting custom content (optional, currently overwriting for demo)
   // if (fs.existsSync(filePath)) return;
 
+  // Escape double quotes in name and description for YAML
+  const escapedName = fighter.name.replace(/"/g, '\\"');
+  const escapedDescription = fighter.description.replace(/"/g, '\\"');
+
   const content = `---
-title: "${fighter.name}: Perfil y Línea de Tiempo"
-description: "${fighter.description}"
+title: "${escapedName}: Perfil y Línea de Tiempo"
+description: "${escapedDescription}"
 publishDate: "${new Date().toISOString().split('T')[0]}"
-tags: ["UFC", "${fighter.name}", "Perfil", "Automated"]
+tags: ["UFC", "${escapedName}", "Perfil", "Automated"]
 heroImage: { src: "./mma-generic-cover.jpg", color: "#0F172A" }
 ---
 
