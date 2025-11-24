@@ -24,8 +24,14 @@ fighters.forEach(fighter => {
 title: "${escapedName}: Perfil y Línea de Tiempo"
 description: "${escapedDescription}"
 publishDate: "${new Date().toISOString().split('T')[0]}"
-tags: ["UFC", "${escapedName}", "Perfil", "Automated"]
-heroImage: { src: "./mma-generic-cover.jpg", color: "#0F172A" }
+tags:
+  - UFC
+  - ${escapedName}
+  - Perfil
+  - Automated
+heroImage:
+  src: "./mma-generic-cover.jpg"
+  color: "#0F172A"
 ---
 
 import FighterTimeline from '@/components/special/FighterTimeline.astro';
