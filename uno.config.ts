@@ -158,6 +158,11 @@ const themeColors = {
   card: {
     DEFAULT: 'hsl(var(--card) / <alpha-value>)',
     foreground: 'hsl(var(--card-foreground) / <alpha-value>)'
+  },
+  quimbara: {
+    primary: 'var(--quimbara-primary)',
+    secondary: 'var(--quimbara-secondary)',
+    dark: 'var(--quimbara-dark)'
   }
 }
 

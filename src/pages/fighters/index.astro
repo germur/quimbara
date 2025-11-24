@@ -1,0 +1,15 @@
+---
+import PageLayout from '@/layouts/BaseLayout.astro';
+import FighterGrid from '@/components/special/FighterGrid.astro';
+
+const meta = {
+	description: 'Directorio completo de luchadores de UFC. Perfiles, estadísticas y análisis detallado.',
+	title: 'Luchadores UFC | Quimbara',
+};
+---
+
+<PageLayout meta={meta}>
+	<div class="pt-24 pb-12">
+		<FighterGrid />
+	</div>
+</PageLayout>

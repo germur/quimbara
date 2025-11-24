@@ -49,7 +49,7 @@ export const theme: ThemeUserConfig = {
     menu: [
       { title: 'Noticias', link: '/blog/category/noticias-eventos' },
       { title: 'Análisis', link: '/blog/category/analisis-peleas' },
-      { title: 'Perfiles', link: '/blog/category/perfiles-luchadores' },
+      { title: 'Luchadores', link: '/fighters' },
       { title: 'Guías', link: '/blog/category/guias-principiantes' },
       { title: 'Cultura', link: '/blog/category/cultura-mma' },
       { title: 'Sobre Nosotros', link: '/about' }
@@ -81,8 +81,8 @@ export const theme: ThemeUserConfig = {
     /** Enable displaying a “Astro & Pure theme powered” link in your site’s footer. */
     credits: true,
     /** Optional details about the social media accounts for this site. */
-    social: { 
-      github: 'https://github.com/cworld1/astro-theme-pure', 
+    social: {
+      github: 'https://github.com/cworld1/astro-theme-pure',
       // Add other social links here if supported by the theme's icon set
     }
   },
