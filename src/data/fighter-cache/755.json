@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "id": 755,
+    "name": "Uros Medic",
+    "nickname": "The Doctor",
+    "photo": "https://media.api-sports.io/mma/fighters/755.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "171 lbs",
+    "reach": "71'",
+    "stance": "Southpaw",
+    "category": "Welterweight",
+    "team": {
+      "id": 90,
+      "name": "Kings MMA"
+    },
+    "last_update": "2025-11-16T00:01:39+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 755,
+      "name": "Uros Medic",
+      "photo": "https://media.api-sports.io/mma/fighters/755.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 10,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 821,
+      "date": "2023-07-29T23:40:00+00:00",
+      "time": "23:40",
+      "timestamp": 1690674000,
+      "timezone": "UTC",
+      "slug": "UFC 291: Poirier vs. Gaethje 2",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 755,
+          "name": "Uros Medic",
+          "logo": "https://media.api-sports.io/mma/fighters/755.png",
+          "winner": true
+        },
+        "second": {
+          "id": 809,
+          "name": "Matthew Semelsberger",
+          "logo": "https://media.api-sports.io/mma/fighters/809.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1039,
+      "date": "2023-11-18T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1700344800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 755,
+          "name": "Uros Medic",
+          "logo": "https://media.api-sports.io/mma/fighters/755.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2570,
+          "name": "Jonny Parsons",
+          "logo": "https://media.api-sports.io/mma/fighters/2570.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1080,
+      "date": "2023-11-18T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1700344800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2648,
+          "name": "Myktybek Orolbai",
+          "logo": "https://media.api-sports.io/mma/fighters/2648.png",
+          "winner": true
+        },
+        "second": {
+          "id": 755,
+          "name": "Uros Medic",
+          "logo": "https://media.api-sports.io/mma/fighters/755.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1346,
+      "date": "2024-04-27T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1714230000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Nicolau vs. Perez",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 755,
+          "name": "Uros Medic",
+          "logo": "https://media.api-sports.io/mma/fighters/755.png",
+          "winner": true
+        },
+        "second": {
+          "id": 223,
+          "name": "Tim Means",
+          "logo": "https://media.api-sports.io/mma/fighters/223.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1813,
+      "date": "2025-01-12T00:15:00+00:00",
+      "time": "00:15",
+      "timestamp": 1736640900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs Ribas 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 755,
+          "name": "Uros Medic",
+          "logo": "https://media.api-sports.io/mma/fighters/755.png",
+          "winner": false
+        },
+        "second": {
+          "id": 443,
+          "name": "Punahele Soriano",
+          "logo": "https://media.api-sports.io/mma/fighters/443.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2102,
+      "date": "2025-06-07T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1749312000,
+      "timezone": "UTC",
+      "slug": "UFC 316: Dvalishvili vs. O'Malley 2",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 755,
+          "name": "Uros Medic",
+          "logo": "https://media.api-sports.io/mma/fighters/755.png",
+          "winner": false
+        },
+        "second": {
+          "id": 704,
+          "name": "Khaos Williams",
+          "logo": "https://media.api-sports.io/mma/fighters/704.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2198,
+      "date": "2025-08-09T21:20:00+00:00",
+      "time": "21:20",
+      "timestamp": 1754774400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dolidze vs. Hernandez",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2404,
+          "name": "Gilbert Urbina",
+          "logo": "https://media.api-sports.io/mma/fighters/2404.png",
+          "winner": false
+        },
+        "second": {
+          "id": 755,
+          "name": "Uros Medic",
+          "logo": "https://media.api-sports.io/mma/fighters/755.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2369,
+      "date": "2025-11-09T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1762650000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Bonfim vs. Brown",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 755,
+          "name": "Uros Medic",
+          "logo": "https://media.api-sports.io/mma/fighters/755.png",
+          "winner": true
+        },
+        "second": {
+          "id": 590,
+          "name": "Muslim Salikhov",
+          "logo": "https://media.api-sports.io/mma/fighters/590.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:17.949Z"
+}

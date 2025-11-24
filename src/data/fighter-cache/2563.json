@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 2563,
+    "name": "Jafel Filho",
+    "nickname": "Pastor",
+    "photo": "https://media.api-sports.io/mma/fighters/2563.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "126 lbs",
+    "reach": "68.5'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 29,
+      "name": "Nova Uniao"
+    },
+    "last_update": "2025-10-18T12:06:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2563,
+      "name": "Jafel Filho",
+      "photo": "https://media.api-sports.io/mma/fighters/2563.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 0
+    },
+    "sub": {
+      "win": 10,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 619,
+      "date": "2023-03-18T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1679166000,
+      "timezone": "UTC",
+      "slug": "UFC 286: Edwards vs. Usman 3",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2563,
+          "name": "Jafel Filho",
+          "logo": "https://media.api-sports.io/mma/fighters/2563.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2507,
+          "name": "Muhammad Mokaev",
+          "logo": "https://media.api-sports.io/mma/fighters/2507.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 812,
+      "date": "2023-07-22T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1690041600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Aspinall vs. Tybura",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2441,
+          "name": "Daniel Barez",
+          "logo": "https://media.api-sports.io/mma/fighters/2441.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2563,
+          "name": "Jafel Filho",
+          "logo": "https://media.api-sports.io/mma/fighters/2563.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1230,
+      "date": "2024-03-16T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1710590400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tuivasa vs. Tybura",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 507,
+          "name": "Ode' Osbourne",
+          "logo": "https://media.api-sports.io/mma/fighters/507.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2563,
+          "name": "Jafel Filho",
+          "logo": "https://media.api-sports.io/mma/fighters/2563.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1547,
+      "date": "2024-08-10T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1723330800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tybura vs. Spivac 2",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2563,
+          "name": "Jafel Filho",
+          "logo": "https://media.api-sports.io/mma/fighters/2563.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2426,
+          "name": "Allan Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/2426.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2069,
+      "date": "2025-06-01T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1748736000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Barber",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2426,
+          "name": "Allan Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/2426.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2563,
+          "name": "Jafel Filho",
+          "logo": "https://media.api-sports.io/mma/fighters/2563.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2237,
+      "date": "2025-10-11T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1760221800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Oliveira vs. Gamrot",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2542,
+          "name": "Clayton Carpenter",
+          "logo": "https://media.api-sports.io/mma/fighters/2542.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2563,
+          "name": "Jafel Filho",
+          "logo": "https://media.api-sports.io/mma/fighters/2563.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:45.224Z"
+}

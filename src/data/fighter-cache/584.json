@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 584,
+    "name": "Alatengheili",
+    "nickname": "The Mongolian Knight",
+    "photo": "https://media.api-sports.io/mma/fighters/584.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "136 lbs",
+    "reach": "66'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 20,
+      "name": "Fight Ready"
+    },
+    "last_update": "2025-06-04T18:02:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 584,
+      "name": "Alatengheili",
+      "photo": "https://media.api-sports.io/mma/fighters/584.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 9,
+      "draw": 2
+    },
+    "ko": {
+      "win": 5,
+      "loss": 3
+    },
+    "sub": {
+      "win": 3,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 966,
+      "date": "2023-10-14T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1697284800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yusuff vs. Barboza",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 584,
+          "name": "Alatengheili",
+          "logo": "https://media.api-sports.io/mma/fighters/584.png",
+          "winner": false
+        },
+        "second": {
+          "id": 199,
+          "name": "TBA",
+          "logo": "https://media.api-sports.io/mma/fighters/199.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1024,
+      "date": "2023-10-14T20:30:00+00:00",
+      "time": "20:30",
+      "timestamp": 1697315400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yusuff vs. Barboza",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 584,
+          "name": "Alatengheili",
+          "logo": "https://media.api-sports.io/mma/fighters/584.png",
+          "winner": false
+        },
+        "second": {
+          "id": 299,
+          "name": "Chris Gutierrez",
+          "logo": "https://media.api-sports.io/mma/fighters/299.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1278,
+      "date": "2024-04-06T20:20:00+00:00",
+      "time": "20:20",
+      "timestamp": 1712434800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Curtis 2",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2637,
+          "name": "Victor Hugo",
+          "logo": "https://media.api-sports.io/mma/fighters/2637.png",
+          "winner": false
+        },
+        "second": {
+          "id": 584,
+          "name": "Alatengheili",
+          "logo": "https://media.api-sports.io/mma/fighters/584.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1427,
+      "date": "2024-05-18T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1716033600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Barboza vs. Murphy",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2421,
+          "name": "Kleydson Rodrigues",
+          "logo": "https://media.api-sports.io/mma/fighters/2421.png",
+          "winner": false
+        },
+        "second": {
+          "id": 584,
+          "name": "Alatengheili",
+          "logo": "https://media.api-sports.io/mma/fighters/584.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1376,
+      "date": "2024-05-18T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1716071400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Barboza vs. Murphy",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2421,
+          "name": "Kleidison Rodrigues",
+          "logo": "https://media.api-sports.io/mma/fighters/2421.png",
+          "winner": false
+        },
+        "second": {
+          "id": 584,
+          "name": "Alatengheili",
+          "logo": "https://media.api-sports.io/mma/fighters/584.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2012,
+      "date": "2025-04-26T23:20:00+00:00",
+      "time": "23:20",
+      "timestamp": 1745709600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Machado Garry vs. Prates",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 584,
+          "name": "Alatengheili",
+          "logo": "https://media.api-sports.io/mma/fighters/584.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2475,
+          "name": "Da'Mon Blackshear",
+          "logo": "https://media.api-sports.io/mma/fighters/2475.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:29.544Z"
+}

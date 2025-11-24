@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 2402,
+    "name": "Paddy Pimblett",
+    "nickname": "The Baddy",
+    "photo": "https://media.api-sports.io/mma/fighters/2402.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "156 lbs",
+    "reach": "73'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 814,
+      "name": "Next Generation MMA Liverpool"
+    },
+    "last_update": "2025-06-05T09:11:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2402,
+      "name": "Paddy Pimblett",
+      "photo": "https://media.api-sports.io/mma/fighters/2402.png"
+    },
+    "total": {
+      "win": 23,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 0
+    },
+    "sub": {
+      "win": 10,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 1014,
+      "date": "2023-12-17T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1702783800,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2402,
+          "name": "Paddy Pimblett",
+          "logo": "https://media.api-sports.io/mma/fighters/2402.png",
+          "winner": true
+        },
+        "second": {
+          "id": 441,
+          "name": "Tony Ferguson",
+          "logo": "https://media.api-sports.io/mma/fighters/441.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1438,
+      "date": "2024-07-27T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1722103200,
+      "timezone": "UTC",
+      "slug": "UFC 304: Edwards vs. Muhammad 2",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2402,
+          "name": "Paddy Pimblett",
+          "logo": "https://media.api-sports.io/mma/fighters/2402.png",
+          "winner": true
+        },
+        "second": {
+          "id": 670,
+          "name": "King Green",
+          "logo": "https://media.api-sports.io/mma/fighters/670.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1938,
+      "date": "2025-04-13T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1744515000,
+      "timezone": "UTC",
+      "slug": "UFC 314: Volkanovski vs. Lopes",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2402,
+          "name": "Paddy Pimblett",
+          "logo": "https://media.api-sports.io/mma/fighters/2402.png",
+          "winner": true
+        },
+        "second": {
+          "id": 895,
+          "name": "Michael Chandler",
+          "logo": "https://media.api-sports.io/mma/fighters/895.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:07.163Z"
+}

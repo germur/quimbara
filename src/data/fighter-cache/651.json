@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 651,
+    "name": "Mark O. Madsen",
+    "nickname": "The Olympian",
+    "photo": "https://media.api-sports.io/mma/fighters/651.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "154 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 20,
+      "name": "Fight Ready"
+    },
+    "last_update": "2025-06-04T18:36:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 651,
+      "name": "Mark O. Madsen",
+      "photo": "https://media.api-sports.io/mma/fighters/651.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 1
+    },
+    "sub": {
+      "win": 3,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 1004,
+      "date": "2023-11-12T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1699749000,
+      "timezone": "UTC",
+      "slug": "UFC 295: ProchÃ¡zka vs. Pereira",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 651,
+          "name": "Mark O. Madsen",
+          "logo": "https://media.api-sports.io/mma/fighters/651.png",
+          "winner": false
+        },
+        "second": {
+          "id": 472,
+          "name": "Jared Gordon",
+          "logo": "https://media.api-sports.io/mma/fighters/472.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:44.710Z"
+}

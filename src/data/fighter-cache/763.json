@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 763,
+    "name": "Nate Maness",
+    "nickname": "Mayhem",
+    "photo": "https://media.api-sports.io/mma/fighters/763.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "125 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 766,
+      "name": "TAG MMA"
+    },
+    "last_update": "2025-06-04T19:32:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 763,
+      "name": "Nate Maness",
+      "photo": "https://media.api-sports.io/mma/fighters/763.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 1
+    },
+    "sub": {
+      "win": 3,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 965,
+      "date": "2023-10-07T21:30:00+00:00",
+      "time": "21:30",
+      "timestamp": 1696714200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dawson vs. Green",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2581,
+          "name": "Mateus Mendonca",
+          "logo": "https://media.api-sports.io/mma/fighters/2581.png",
+          "winner": false
+        },
+        "second": {
+          "id": 763,
+          "name": "Nate Maness",
+          "logo": "https://media.api-sports.io/mma/fighters/763.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1457,
+      "date": "2024-06-15T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1718463600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Perez vs. Taira",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 763,
+          "name": "Nate Maness",
+          "logo": "https://media.api-sports.io/mma/fighters/763.png",
+          "winner": true
+        },
+        "second": {
+          "id": 815,
+          "name": "Jimmy Flick",
+          "logo": "https://media.api-sports.io/mma/fighters/815.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:59:04.837Z"
+}

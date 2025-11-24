@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 53,
+    "name": "Lando Vannata",
+    "nickname": "Groovy",
+    "photo": "https://media.api-sports.io/mma/fighters/53.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "156 lbs",
+    "reach": "71'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 44,
+      "name": "Jackson's MMA Acoma"
+    },
+    "last_update": "2025-06-04T13:37:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 53,
+      "name": "Lando Vannata",
+      "photo": "https://media.api-sports.io/mma/fighters/53.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 7,
+      "draw": 2
+    },
+    "ko": {
+      "win": 4,
+      "loss": 0
+    },
+    "sub": {
+      "win": 5,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 651,
+      "date": "2023-04-15T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1681597800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. Allen",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2429,
+          "name": "Daniel Zellhuber",
+          "logo": "https://media.api-sports.io/mma/fighters/2429.png",
+          "winner": true
+        },
+        "second": {
+          "id": 53,
+          "name": "Lando Vannata",
+          "logo": "https://media.api-sports.io/mma/fighters/53.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:34.832Z"
+}

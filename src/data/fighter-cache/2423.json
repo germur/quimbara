@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 2423,
+    "name": "Victor Martinez",
+    "nickname": "The Brick",
+    "photo": "https://media.api-sports.io/mma/fighters/2423.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "156 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 666,
+      "name": "Ferreira"
+    },
+    "last_update": "2025-06-05T09:22:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2423,
+      "name": "Victor Martinez",
+      "photo": "https://media.api-sports.io/mma/fighters/2423.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 3
+    },
+    "sub": {
+      "win": 0,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 575,
+      "date": "2023-02-25T23:15:00+00:00",
+      "time": "23:15",
+      "timestamp": 1677366900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Muniz vs. Allen",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2423,
+          "name": "Victor Martinez",
+          "logo": "https://media.api-sports.io/mma/fighters/2423.png",
+          "winner": false
+        },
+        "second": {
+          "id": 766,
+          "name": "Jordan Leavitt",
+          "logo": "https://media.api-sports.io/mma/fighters/766.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1386,
+      "date": "2024-05-18T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1716033600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Barboza vs. Murphy",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2664,
+          "name": "Tom Nolan",
+          "logo": "https://media.api-sports.io/mma/fighters/2664.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2423,
+          "name": "Victor Martinez",
+          "logo": "https://media.api-sports.io/mma/fighters/2423.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:26.521Z"
+}

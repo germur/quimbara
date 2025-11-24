@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 814,
+    "name": "Dennis Buzukja",
+    "nickname": "The Great",
+    "photo": "https://media.api-sports.io/mma/fighters/814.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "155 lbs",
+    "reach": "70.5'",
+    "stance": "Switch",
+    "category": "Featherweight",
+    "team": {
+      "id": 58,
+      "name": "Serra-Longo Fight"
+    },
+    "last_update": "2025-06-04T19:57:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 814,
+      "name": "Dennis Buzukja",
+      "photo": "https://media.api-sports.io/mma/fighters/814.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 1
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 837,
+      "date": "2023-08-05T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1691276400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Font",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 814,
+          "name": "Dennis Buzukja",
+          "logo": "https://media.api-sports.io/mma/fighters/814.png",
+          "winner": false
+        },
+        "second": {
+          "id": 607,
+          "name": "Sean Woodson",
+          "logo": "https://media.api-sports.io/mma/fighters/607.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1052,
+      "date": "2023-11-11T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1699743600,
+      "timezone": "UTC",
+      "slug": "UFC 295: ProchÃ¡zka vs. Pereira",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 707,
+          "name": "Jamall Emmers",
+          "logo": "https://media.api-sports.io/mma/fighters/707.png",
+          "winner": true
+        },
+        "second": {
+          "id": 814,
+          "name": "Dennis Buzukja",
+          "logo": "https://media.api-sports.io/mma/fighters/814.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1291,
+      "date": "2024-03-30T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1711810800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Fiorot",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2682,
+          "name": "Connor Matthews",
+          "logo": "https://media.api-sports.io/mma/fighters/2682.png",
+          "winner": false
+        },
+        "second": {
+          "id": 814,
+          "name": "Dennis Buzukja",
+          "logo": "https://media.api-sports.io/mma/fighters/814.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1630,
+      "date": "2024-08-24T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1724511600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Borralho",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2488,
+          "name": "Francis Marshall",
+          "logo": "https://media.api-sports.io/mma/fighters/2488.png",
+          "winner": true
+        },
+        "second": {
+          "id": 814,
+          "name": "Dennis Buzukja",
+          "logo": "https://media.api-sports.io/mma/fighters/814.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1581,
+      "date": "2024-08-25T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1724547600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Borralho",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 814,
+          "name": "Dennis Buzukja",
+          "logo": "https://media.api-sports.io/mma/fighters/814.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2671,
+          "name": "Danny Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/2671.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:57.395Z"
+}

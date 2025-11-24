@@ -1,0 +1,296 @@
+{
+  "profile": {
+    "id": 2583,
+    "name": "Melquizael Costa",
+    "nickname": "Melk Cauthy",
+    "photo": "https://media.api-sports.io/mma/fighters/2583.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "145 lbs",
+    "reach": "71'",
+    "stance": "Southpaw",
+    "category": "Featherweight",
+    "team": {
+      "id": 768,
+      "name": "Chute Boxe - Joao Emilio"
+    },
+    "last_update": "2025-06-05T10:42:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2583,
+      "name": "Melquizael Costa",
+      "photo": "https://media.api-sports.io/mma/fighters/2583.png"
+    },
+    "total": {
+      "win": 24,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 2
+    },
+    "sub": {
+      "win": 8,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 531,
+      "date": "2023-01-22T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1674351000,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2583,
+          "name": "Melquizael Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2583.png",
+          "winner": false
+        },
+        "second": {
+          "id": 401,
+          "name": "Thiago Moises",
+          "logo": "https://media.api-sports.io/mma/fighters/401.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 794,
+      "date": "2023-07-16T00:40:00+00:00",
+      "time": "00:40",
+      "timestamp": 1689468000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holm vs. Bueno Silva",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2583,
+          "name": "Melquizael Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2583.png",
+          "winner": true
+        },
+        "second": {
+          "id": 703,
+          "name": "Austin Lingo",
+          "logo": "https://media.api-sports.io/mma/fighters/703.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1061,
+      "date": "2023-12-02T22:15:00+00:00",
+      "time": "22:15",
+      "timestamp": 1701555300,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dariush vs. Tsarukyan",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2583,
+          "name": "Melquizael Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2583.png",
+          "winner": false
+        },
+        "second": {
+          "id": 632,
+          "name": "Steve Garcia",
+          "logo": "https://media.api-sports.io/mma/fighters/632.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1091,
+      "date": "2023-12-10T01:45:00+00:00",
+      "time": "01:45",
+      "timestamp": 1702172700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2583,
+          "name": "Melquizael Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2583.png",
+          "winner": false
+        },
+        "second": {
+          "id": 632,
+          "name": "Steve Garcia",
+          "logo": "https://media.api-sports.io/mma/fighters/632.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1430,
+      "date": "2024-06-15T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1718463600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Perez vs. Taira",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2366,
+          "name": "Shayilan Nuerdanbieke",
+          "logo": "https://media.api-sports.io/mma/fighters/2366.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2583,
+          "name": "Melquizael Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2583.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1849,
+      "date": "2025-02-23T00:40:00+00:00",
+      "time": "00:40",
+      "timestamp": 1740271200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cejudo vs. Song",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2583,
+          "name": "Melquizael Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2583.png",
+          "winner": true
+        },
+        "second": {
+          "id": 102,
+          "name": "Andre Fili",
+          "logo": "https://media.api-sports.io/mma/fighters/102.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1980,
+      "date": "2025-03-29T21:40:00+00:00",
+      "time": "21:40",
+      "timestamp": 1743284400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Erceg",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2583,
+          "name": "Melquizael Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2583.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2453,
+          "name": "Christian Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/2453.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2051,
+      "date": "2025-05-17T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1747522800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Morales",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2583,
+          "name": "Melquizael Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2583.png",
+          "winner": true
+        },
+        "second": {
+          "id": 216,
+          "name": "Julian Erosa",
+          "logo": "https://media.api-sports.io/mma/fighters/216.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2397,
+      "date": "2025-12-13T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1765641600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Kape",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 2585,
+          "name": "Morgan CharriÃ¨re",
+          "logo": "https://media.api-sports.io/mma/fighters/2585.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2583,
+          "name": "Melquizael Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2583.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:55:50.675Z"
+}

@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 817,
+    "name": "Jose Johnson",
+    "nickname": "Zhakwarius",
+    "photo": "https://media.api-sports.io/mma/fighters/817.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "128 lbs",
+    "reach": "71.5'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 335,
+      "name": "StrKings"
+    },
+    "last_update": "2025-06-04T19:59:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 817,
+      "name": "Jose Johnson",
+      "photo": "https://media.api-sports.io/mma/fighters/817.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 10,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 1
+    },
+    "sub": {
+      "win": 3,
+      "loss": 5
+    }
+  },
+  "fights": [
+    {
+      "id": 851,
+      "date": "2023-08-12T20:25:00+00:00",
+      "time": "20:25",
+      "timestamp": 1691871900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Luque vs. Dos Anjos",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 817,
+          "name": "Jose Johnson",
+          "logo": "https://media.api-sports.io/mma/fighters/817.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2475,
+          "name": "Da'Mon Blackshear",
+          "logo": "https://media.api-sports.io/mma/fighters/2475.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1030,
+      "date": "2023-11-18T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1700341200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 817,
+          "name": "Jose Johnson",
+          "logo": "https://media.api-sports.io/mma/fighters/817.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2395,
+          "name": "Chad Anheliger",
+          "logo": "https://media.api-sports.io/mma/fighters/2395.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1311,
+      "date": "2024-04-06T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1712412000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Allen",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2687,
+          "name": "Lucas Rocha",
+          "logo": "https://media.api-sports.io/mma/fighters/2687.png",
+          "winner": false
+        },
+        "second": {
+          "id": 817,
+          "name": "Jose Johnson",
+          "logo": "https://media.api-sports.io/mma/fighters/817.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1459,
+      "date": "2024-06-15T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1718474400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Perez vs. Taira",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 817,
+          "name": "Jose Johnson",
+          "logo": "https://media.api-sports.io/mma/fighters/817.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2527,
+          "name": "Asu Almabayev",
+          "logo": "https://media.api-sports.io/mma/fighters/2527.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1814,
+      "date": "2025-01-11T23:20:00+00:00",
+      "time": "23:20",
+      "timestamp": 1736637600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs Ribas 2",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2656,
+          "name": "Felipe Bunes",
+          "logo": "https://media.api-sports.io/mma/fighters/2656.png",
+          "winner": true
+        },
+        "second": {
+          "id": 817,
+          "name": "Jose Johnson",
+          "logo": "https://media.api-sports.io/mma/fighters/817.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:50.953Z"
+}

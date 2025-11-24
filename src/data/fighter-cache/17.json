@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 17,
+    "name": "Alexander Hernandez",
+    "nickname": "The Great Ape",
+    "photo": "https://media.api-sports.io/mma/fighters/17.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "155 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 751,
+      "name": "Mile High Militia"
+    },
+    "last_update": "2025-09-20T12:13:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 17,
+      "name": "Alexander Hernandez",
+      "photo": "https://media.api-sports.io/mma/fighters/17.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 3
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 572,
+      "date": "2023-02-19T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1676764800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Andrade vs. Blanchfield",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 17,
+          "name": "Alexander Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/17.png",
+          "winner": true
+        },
+        "second": {
+          "id": 274,
+          "name": "Jim Miller",
+          "logo": "https://media.api-sports.io/mma/fighters/274.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 984,
+      "date": "2023-10-07T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1696719600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dawson vs. Green",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 447,
+          "name": "Bill Algeo",
+          "logo": "https://media.api-sports.io/mma/fighters/447.png",
+          "winner": true
+        },
+        "second": {
+          "id": 17,
+          "name": "Alexander Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/17.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1308,
+      "date": "2024-04-06T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1712412000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Curtis 2",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 848,
+          "name": "Damon Jackson",
+          "logo": "https://media.api-sports.io/mma/fighters/848.png",
+          "winner": true
+        },
+        "second": {
+          "id": 17,
+          "name": "Alexander Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/17.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1679,
+      "date": "2024-10-05T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1728144000,
+      "timezone": "UTC",
+      "slug": "UFC 307: Pereira vs. Rountree Jr.",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 17,
+          "name": "Alexander Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/17.png",
+          "winner": true
+        },
+        "second": {
+          "id": 429,
+          "name": "Austin Hubbard",
+          "logo": "https://media.api-sports.io/mma/fighters/429.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1919,
+      "date": "2025-03-16T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1742085000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Dolidze 2",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 400,
+          "name": "Kurt Holobaugh",
+          "logo": "https://media.api-sports.io/mma/fighters/400.png",
+          "winner": false
+        },
+        "second": {
+          "id": 17,
+          "name": "Alexander Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/17.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2155,
+      "date": "2025-08-17T00:15:00+00:00",
+      "time": "00:15",
+      "timestamp": 1755389700,
+      "timezone": "UTC",
+      "slug": "UFC 319: Du Plessis vs. Chimaev",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 17,
+          "name": "Alexander Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/17.png",
+          "winner": true
+        },
+        "second": {
+          "id": 685,
+          "name": "Chase Hooper",
+          "logo": "https://media.api-sports.io/mma/fighters/685.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2306,
+      "date": "2025-09-13T22:45:00+00:00",
+      "time": "22:45",
+      "timestamp": 1757803500,
+      "timezone": "UTC",
+      "slug": "Noche UFC: Lopes vs. Silva",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 207,
+          "name": "Diego Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/207.png",
+          "winner": false
+        },
+        "second": {
+          "id": 17,
+          "name": "Alexander Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/17.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:26.204Z"
+}

@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 283,
+    "name": "Aiemann Zahabi",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/283.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "142 lbs",
+    "reach": "68.5'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 97,
+      "name": "TriStar Gym"
+    },
+    "last_update": "2025-10-26T00:00:45+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 283,
+      "name": "Aiemann Zahabi",
+      "photo": "https://media.api-sports.io/mma/fighters/283.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 735,
+      "date": "2023-06-11T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1686443400,
+      "timezone": "UTC",
+      "slug": "UFC 289: Nunes vs. Aldana",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 915,
+          "name": "Aoriqileng",
+          "logo": "https://media.api-sports.io/mma/fighters/915.png",
+          "winner": false
+        },
+        "second": {
+          "id": 283,
+          "name": "Aiemann Zahabi",
+          "logo": "https://media.api-sports.io/mma/fighters/283.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1272,
+      "date": "2024-03-02T10:30:00+00:00",
+      "time": "10:30",
+      "timestamp": 1709375400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Gaziev",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2392,
+          "name": "Javid Basharat",
+          "logo": "https://media.api-sports.io/mma/fighters/2392.png",
+          "winner": false
+        },
+        "second": {
+          "id": 283,
+          "name": "Aiemann Zahabi",
+          "logo": "https://media.api-sports.io/mma/fighters/283.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1570,
+      "date": "2024-09-07T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1725750000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Brady",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 283,
+          "name": "Aiemann Zahabi",
+          "logo": "https://media.api-sports.io/mma/fighters/283.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2580,
+          "name": "Marcus McGhee",
+          "logo": "https://media.api-sports.io/mma/fighters/2580.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1652,
+      "date": "2024-11-02T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1730552400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Albazi",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 134,
+          "name": "Pedro Munhoz",
+          "logo": "https://media.api-sports.io/mma/fighters/134.png",
+          "winner": false
+        },
+        "second": {
+          "id": 283,
+          "name": "Aiemann Zahabi",
+          "logo": "https://media.api-sports.io/mma/fighters/283.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1954,
+      "date": "2025-05-11T03:15:00+00:00",
+      "time": "03:15",
+      "timestamp": 1746933300,
+      "timezone": "UTC",
+      "slug": "UFC 315: Muhammad vs. Della Maddalena",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 283,
+          "name": "Aiemann Zahabi",
+          "logo": "https://media.api-sports.io/mma/fighters/283.png",
+          "winner": true
+        },
+        "second": {
+          "id": 43,
+          "name": "JosÃ© Aldo",
+          "logo": "https://media.api-sports.io/mma/fighters/43.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2256,
+      "date": "2025-10-19T00:45:00+00:00",
+      "time": "00:45",
+      "timestamp": 1760834700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: de Ridder vs. Allen",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 283,
+          "name": "Aiemann Zahabi",
+          "logo": "https://media.api-sports.io/mma/fighters/283.png",
+          "winner": true
+        },
+        "second": {
+          "id": 124,
+          "name": "Marlon Vera",
+          "logo": "https://media.api-sports.io/mma/fighters/124.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:28.165Z"
+}

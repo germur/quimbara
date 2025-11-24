@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 527,
+    "name": "Billy Quarantillo",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/527.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "145 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 243,
+      "name": "Gracie Tampa South"
+    },
+    "last_update": "2025-06-04T17:34:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 527,
+      "name": "Billy Quarantillo",
+      "photo": "https://media.api-sports.io/mma/fighters/527.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 2
+    },
+    "sub": {
+      "win": 5,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 656,
+      "date": "2023-04-16T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1681612200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. Allen",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 527,
+          "name": "Billy Quarantillo",
+          "logo": "https://media.api-sports.io/mma/fighters/527.png",
+          "winner": false
+        },
+        "second": {
+          "id": 193,
+          "name": "Edson Barboza",
+          "logo": "https://media.api-sports.io/mma/fighters/193.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 835,
+      "date": "2023-08-06T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1691281800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Font",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 848,
+          "name": "Damon Jackson",
+          "logo": "https://media.api-sports.io/mma/fighters/848.png",
+          "winner": false
+        },
+        "second": {
+          "id": 527,
+          "name": "Billy Quarantillo",
+          "logo": "https://media.api-sports.io/mma/fighters/527.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1259,
+      "date": "2024-03-23T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1711216800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ribas vs. Namajunas",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 200,
+          "name": "Opponent TBA",
+          "logo": "https://media.api-sports.io/mma/fighters/200.png",
+          "winner": false
+        },
+        "second": {
+          "id": 527,
+          "name": "Billy Quarantillo",
+          "logo": "https://media.api-sports.io/mma/fighters/527.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1325,
+      "date": "2024-03-23T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1711216800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ribas vs. Namajunas",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 702,
+          "name": "Youssef Zalal",
+          "logo": "https://media.api-sports.io/mma/fighters/702.png",
+          "winner": true
+        },
+        "second": {
+          "id": 527,
+          "name": "Billy Quarantillo",
+          "logo": "https://media.api-sports.io/mma/fighters/527.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1745,
+      "date": "2024-12-14T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1734202800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Covington vs. Buckley",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 527,
+          "name": "Billy Quarantillo",
+          "logo": "https://media.api-sports.io/mma/fighters/527.png",
+          "winner": false
+        },
+        "second": {
+          "id": 349,
+          "name": "Cub Swanson",
+          "logo": "https://media.api-sports.io/mma/fighters/349.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:42.017Z"
+}

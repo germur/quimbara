@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 704,
+    "name": "Khaos Williams",
+    "nickname": "The Oxfighter",
+    "photo": "https://media.api-sports.io/mma/fighters/704.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "170 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 250,
+      "name": "Murcielago MMA"
+    },
+    "last_update": "2025-06-14T12:01:05+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 704,
+      "name": "Khaos Williams",
+      "photo": "https://media.api-sports.io/mma/fighters/704.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 0
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 688,
+      "date": "2023-05-07T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1683419400,
+      "timezone": "UTC",
+      "slug": "UFC 288: Sterling vs. Cejudo",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2593,
+          "name": "Rolando Bedoya",
+          "logo": "https://media.api-sports.io/mma/fighters/2593.png",
+          "winner": false
+        },
+        "second": {
+          "id": 704,
+          "name": "Khaos Williams",
+          "logo": "https://media.api-sports.io/mma/fighters/704.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1390,
+      "date": "2024-05-18T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1716044400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Barboza vs. Murphy",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2365,
+          "name": "Carlston Harris",
+          "logo": "https://media.api-sports.io/mma/fighters/2365.png",
+          "winner": false
+        },
+        "second": {
+          "id": 704,
+          "name": "Khaos Williams",
+          "logo": "https://media.api-sports.io/mma/fighters/704.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1858,
+      "date": "2025-02-15T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1739653200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 704,
+          "name": "Khaos Williams",
+          "logo": "https://media.api-sports.io/mma/fighters/704.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2551,
+          "name": "Gabriel Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2551.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1894,
+      "date": "2025-02-15T22:35:00+00:00",
+      "time": "22:35",
+      "timestamp": 1739658900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 704,
+          "name": "Khaos Williams",
+          "logo": "https://media.api-sports.io/mma/fighters/704.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2551,
+          "name": "Gabriel Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2551.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2102,
+      "date": "2025-06-07T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1749312000,
+      "timezone": "UTC",
+      "slug": "UFC 316: Dvalishvili vs. O'Malley 2",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 755,
+          "name": "Uros Medic",
+          "logo": "https://media.api-sports.io/mma/fighters/755.png",
+          "winner": false
+        },
+        "second": {
+          "id": 704,
+          "name": "Khaos Williams",
+          "logo": "https://media.api-sports.io/mma/fighters/704.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2125,
+      "date": "2025-06-08T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1749340800,
+      "timezone": "UTC",
+      "slug": "UFC 316: Dvalishvili vs. O'Malley 2",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2748,
+          "name": "Andreas Gustafsson",
+          "logo": "https://media.api-sports.io/mma/fighters/2748.png",
+          "winner": true
+        },
+        "second": {
+          "id": 704,
+          "name": "Khaos Williams",
+          "logo": "https://media.api-sports.io/mma/fighters/704.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:28.071Z"
+}

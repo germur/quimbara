@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 2440,
+    "name": "Carlos Hernandez",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2440.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "125 lbs",
+    "reach": "67'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 180,
+      "name": "Valle Flow Striking"
+    },
+    "last_update": "2025-06-05T09:30:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2440,
+      "name": "Carlos Hernandez",
+      "photo": "https://media.api-sports.io/mma/fighters/2440.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 0,
+      "loss": 1
+    },
+    "sub": {
+      "win": 4,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 515,
+      "date": "2023-01-14T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1673733600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Imavov",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2440,
+          "name": "Carlos Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/2440.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2426,
+          "name": "Allan Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/2426.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 744,
+      "date": "2023-06-18T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1687048200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Cannonier",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2482,
+          "name": "Denys Bondar",
+          "logo": "https://media.api-sports.io/mma/fighters/2482.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2440,
+          "name": "Carlos Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/2440.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1083,
+      "date": "2023-12-10T01:05:00+00:00",
+      "time": "01:05",
+      "timestamp": 1702170300,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2440,
+          "name": "Carlos Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/2440.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2516,
+          "name": "Tatsuro Taira",
+          "logo": "https://media.api-sports.io/mma/fighters/2516.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1422,
+      "date": "2024-06-29T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1719669600,
+      "timezone": "UTC",
+      "slug": "UFC 303: Pereira vs. ProchÃ¡zka 2",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2440,
+          "name": "Carlos Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/2440.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2645,
+          "name": "Rei Tsuruya",
+          "logo": "https://media.api-sports.io/mma/fighters/2645.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1707,
+      "date": "2024-11-23T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1732320000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Figueiredo",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2440,
+          "name": "Carlos Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/2440.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2700,
+          "name": "Nyamjargal Tumendemberel",
+          "logo": "https://media.api-sports.io/mma/fighters/2700.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2018,
+      "date": "2025-05-17T20:45:00+00:00",
+      "time": "20:45",
+      "timestamp": 1747514700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Morales",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2440,
+          "name": "Carlos Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/2440.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2556,
+          "name": "HyunSung Park",
+          "logo": "https://media.api-sports.io/mma/fighters/2556.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:29.588Z"
+}

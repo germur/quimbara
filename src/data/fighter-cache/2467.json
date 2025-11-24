@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 2467,
+    "name": "Blood Diamond",
+    "nickname": "Blood",
+    "photo": "https://media.api-sports.io/mma/fighters/2467.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "170 lbs",
+    "reach": "76'",
+    "stance": "Switch",
+    "category": "Welterweight",
+    "team": {
+      "id": 48,
+      "name": "City Kickboxing"
+    },
+    "last_update": "2025-06-05T09:44:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2467,
+      "name": "Blood Diamond",
+      "photo": "https://media.api-sports.io/mma/fighters/2467.png"
+    },
+    "total": {
+      "win": 3,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 1,
+      "loss": 0
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 898,
+      "date": "2023-09-09T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1694302200,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2538,
+          "name": "Charlie Radtke",
+          "logo": "https://media.api-sports.io/mma/fighters/2538.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2467,
+          "name": "Blood Diamond",
+          "logo": "https://media.api-sports.io/mma/fighters/2467.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:42.384Z"
+}

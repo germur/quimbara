@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 747,
+    "name": "Jai Herbert",
+    "nickname": "Black Country Banger",
+    "photo": "https://media.api-sports.io/mma/fighters/747.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "156 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 112,
+      "name": "Renegade MMA"
+    },
+    "last_update": "2025-06-04T19:24:08+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 747,
+      "name": "Jai Herbert",
+      "photo": "https://media.api-sports.io/mma/fighters/747.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 6,
+      "draw": 1
+    },
+    "ko": {
+      "win": 9,
+      "loss": 3
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 614,
+      "date": "2023-03-18T17:15:00+00:00",
+      "time": "17:15",
+      "timestamp": 1679159700,
+      "timezone": "UTC",
+      "slug": "UFC 286: Edwards vs. Usman 3",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 849,
+          "name": "Ludovit Klein",
+          "logo": "https://media.api-sports.io/mma/fighters/849.png",
+          "winner": false
+        },
+        "second": {
+          "id": 747,
+          "name": "Jai Herbert",
+          "logo": "https://media.api-sports.io/mma/fighters/747.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 817,
+      "date": "2023-07-22T19:30:00+00:00",
+      "time": "19:30",
+      "timestamp": 1690054200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Aspinall vs. Tybura",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 591,
+          "name": "FarÃ©s Ziam",
+          "logo": "https://media.api-sports.io/mma/fighters/591.png",
+          "winner": true
+        },
+        "second": {
+          "id": 747,
+          "name": "Jai Herbert",
+          "logo": "https://media.api-sports.io/mma/fighters/747.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1526,
+      "date": "2024-08-03T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1722672000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2593,
+          "name": "Rolando Bedoya",
+          "logo": "https://media.api-sports.io/mma/fighters/2593.png",
+          "winner": false
+        },
+        "second": {
+          "id": 747,
+          "name": "Jai Herbert",
+          "logo": "https://media.api-sports.io/mma/fighters/747.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1867,
+      "date": "2025-03-22T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1742670000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Edwards vs. Brady",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2697,
+          "name": "Chris Padilla",
+          "logo": "https://media.api-sports.io/mma/fighters/2697.png",
+          "winner": true
+        },
+        "second": {
+          "id": 747,
+          "name": "Jai Herbert",
+          "logo": "https://media.api-sports.io/mma/fighters/747.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:12.338Z"
+}

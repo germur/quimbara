@@ -1,0 +1,352 @@
+{
+  "profile": {
+    "id": 2582,
+    "name": "Mateusz Rebecki",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2582.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "155 lbs",
+    "reach": "66'",
+    "stance": "Southpaw",
+    "category": "Lightweight",
+    "team": {
+      "id": 830,
+      "name": "BKS Skorpion Szczecin"
+    },
+    "last_update": "2025-11-01T12:04:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2582,
+      "name": "Mateusz Rebecki",
+      "photo": "https://media.api-sports.io/mma/fighters/2582.png"
+    },
+    "total": {
+      "win": 20,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 2
+    },
+    "sub": {
+      "win": 7,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 514,
+      "date": "2023-01-14T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1673735400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Imavov",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2588,
+          "name": "Nick Fiore",
+          "logo": "https://media.api-sports.io/mma/fighters/2588.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2582,
+          "name": "Mateusz Rebecki",
+          "logo": "https://media.api-sports.io/mma/fighters/2582.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 756,
+      "date": "2023-06-24T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1687629600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Topuria",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2576,
+          "name": "Loik Radzhabov",
+          "logo": "https://media.api-sports.io/mma/fighters/2576.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2582,
+          "name": "Mateusz Rebecki",
+          "logo": "https://media.api-sports.io/mma/fighters/2582.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1054,
+      "date": "2023-11-12T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1699750800,
+      "timezone": "UTC",
+      "slug": "UFC 295: Jones vs. Miocic",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2591,
+          "name": "Nurullo Aliev",
+          "logo": "https://media.api-sports.io/mma/fighters/2591.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2582,
+          "name": "Mateusz Rebecki",
+          "logo": "https://media.api-sports.io/mma/fighters/2582.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1078,
+      "date": "2023-11-12T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1699752600,
+      "timezone": "UTC",
+      "slug": "UFC 295: ProchÃ¡zka vs. Pereira",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 342,
+          "name": "Roosevelt Roberts",
+          "logo": "https://media.api-sports.io/mma/fighters/342.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2582,
+          "name": "Mateusz Rebecki",
+          "logo": "https://media.api-sports.io/mma/fighters/2582.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1284,
+      "date": "2024-03-16T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1710601200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tuivasa vs. Tybura",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 200,
+          "name": "Opponent TBA",
+          "logo": "https://media.api-sports.io/mma/fighters/200.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2582,
+          "name": "Mateusz Rebecki",
+          "logo": "https://media.api-sports.io/mma/fighters/2582.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1345,
+      "date": "2024-04-27T23:15:00+00:00",
+      "time": "23:15",
+      "timestamp": 1714259700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Nicolau vs. Perez",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2582,
+          "name": "Mateusz Rebecki",
+          "logo": "https://media.api-sports.io/mma/fighters/2582.png",
+          "winner": false
+        },
+        "second": {
+          "id": 209,
+          "name": "Joel Alvarez",
+          "logo": "https://media.api-sports.io/mma/fighters/209.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1424,
+      "date": "2024-05-11T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1715439600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Nascimento",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2582,
+          "name": "Mateusz Rebecki",
+          "logo": "https://media.api-sports.io/mma/fighters/2582.png",
+          "winner": false
+        },
+        "second": {
+          "id": 207,
+          "name": "Diego Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/207.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1381,
+      "date": "2024-05-11T23:05:00+00:00",
+      "time": "23:05",
+      "timestamp": 1715468700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Nascimento",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2582,
+          "name": "Mateusz Rebecki",
+          "logo": "https://media.api-sports.io/mma/fighters/2582.png",
+          "winner": false
+        },
+        "second": {
+          "id": 207,
+          "name": "Diego Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/207.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1658,
+      "date": "2024-10-26T06:00:00+00:00",
+      "time": "06:00",
+      "timestamp": 1729922400,
+      "timezone": "UTC",
+      "slug": "UFC 308: Topuria vs. Holloway",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2648,
+          "name": "Myktybek Orolbai",
+          "logo": "https://media.api-sports.io/mma/fighters/2648.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2582,
+          "name": "Mateusz Rebecki",
+          "logo": "https://media.api-sports.io/mma/fighters/2582.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2192,
+      "date": "2025-08-03T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1754190000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Taira vs. Park",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2379,
+          "name": "Chris Duncan",
+          "logo": "https://media.api-sports.io/mma/fighters/2379.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2582,
+          "name": "Mateusz Rebecki",
+          "logo": "https://media.api-sports.io/mma/fighters/2582.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2348,
+      "date": "2025-10-25T16:30:00+00:00",
+      "time": "16:30",
+      "timestamp": 1761409800,
+      "timezone": "UTC",
+      "slug": "UFC 321: Aspinall vs. Gane",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2582,
+          "name": "Mateusz Rebecki",
+          "logo": "https://media.api-sports.io/mma/fighters/2582.png",
+          "winner": false
+        },
+        "second": {
+          "id": 849,
+          "name": "Ludovit Klein",
+          "logo": "https://media.api-sports.io/mma/fighters/849.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:47.565Z"
+}

@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 2587,
+    "name": "Nick Aguirre",
+    "nickname": "Slick",
+    "photo": "https://media.api-sports.io/mma/fighters/2587.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "136 lbs",
+    "reach": "74'",
+    "stance": "Southpaw",
+    "category": "Featherweight",
+    "team": {
+      "id": 180,
+      "name": "Valle Flow Striking"
+    },
+    "last_update": "2025-06-05T10:44:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2587,
+      "name": "Nick Aguirre",
+      "photo": "https://media.api-sports.io/mma/fighters/2587.png"
+    },
+    "total": {
+      "win": 7,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 0
+    },
+    "sub": {
+      "win": 4,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 516,
+      "date": "2023-01-14T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1673701200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Imavov",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2587,
+          "name": "Nick Aguirre",
+          "logo": "https://media.api-sports.io/mma/fighters/2587.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2476,
+          "name": "Dan Argueta",
+          "logo": "https://media.api-sports.io/mma/fighters/2476.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 951,
+      "date": "2023-11-18T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1700348400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2587,
+          "name": "Nick Aguirre",
+          "logo": "https://media.api-sports.io/mma/fighters/2587.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2618,
+          "name": "Payton Talbott",
+          "logo": "https://media.api-sports.io/mma/fighters/2618.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:01.912Z"
+}

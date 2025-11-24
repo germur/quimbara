@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 2496,
+    "name": "Joseph Holmes",
+    "nickname": "Ugly Man",
+    "photo": "https://media.api-sports.io/mma/fighters/2496.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 4'",
+    "weight": "189 lbs",
+    "reach": "80'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 179,
+      "name": "W4R Training Center"
+    },
+    "last_update": "2025-06-05T09:58:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2496,
+      "name": "Joseph Holmes",
+      "photo": "https://media.api-sports.io/mma/fighters/2496.png"
+    },
+    "total": {
+      "win": 8,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 1
+    },
+    "sub": {
+      "win": 6,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 685,
+      "date": "2023-05-06T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1683412200,
+      "timezone": "UTC",
+      "slug": "UFC 288: Sterling vs. Cejudo",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2541,
+          "name": "Claudio Ribeiro",
+          "logo": "https://media.api-sports.io/mma/fighters/2541.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2496,
+          "name": "Joseph Holmes",
+          "logo": "https://media.api-sports.io/mma/fighters/2496.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:49:52.275Z"
+}

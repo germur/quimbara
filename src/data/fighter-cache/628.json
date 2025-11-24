@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 628,
+    "name": "Phil Rowe",
+    "nickname": "The Fresh Prince",
+    "photo": "https://media.api-sports.io/mma/fighters/628.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "171 lbs",
+    "reach": "80.5'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 164,
+      "name": "Fusion X-Cel"
+    },
+    "last_update": "2025-11-08T12:43:05+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 628,
+      "name": "Phil Rowe",
+      "photo": "https://media.api-sports.io/mma/fighters/628.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 1
+    },
+    "sub": {
+      "win": 4,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 754,
+      "date": "2023-06-24T18:55:00+00:00",
+      "time": "18:55",
+      "timestamp": 1687632900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Topuria",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 628,
+          "name": "Phil Rowe",
+          "logo": "https://media.api-sports.io/mma/fighters/628.png",
+          "winner": false
+        },
+        "second": {
+          "id": 405,
+          "name": "Neil Magny",
+          "logo": "https://media.api-sports.io/mma/fighters/405.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1359,
+      "date": "2024-06-01T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1717257600,
+      "timezone": "UTC",
+      "slug": "UFC 302: Makhachev vs. Poirier",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 656,
+          "name": "Jake Matthews",
+          "logo": "https://media.api-sports.io/mma/fighters/656.png",
+          "winner": true
+        },
+        "second": {
+          "id": 628,
+          "name": "Phil Rowe",
+          "logo": "https://media.api-sports.io/mma/fighters/628.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2136,
+      "date": "2025-06-14T23:35:00+00:00",
+      "time": "23:35",
+      "timestamp": 1749944100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Usman vs. Buckley",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2412,
+          "name": "Ange Loosa",
+          "logo": "https://media.api-sports.io/mma/fighters/2412.png",
+          "winner": false
+        },
+        "second": {
+          "id": 628,
+          "name": "Phil Rowe",
+          "logo": "https://media.api-sports.io/mma/fighters/628.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2356,
+      "date": "2025-11-01T20:35:00+00:00",
+      "time": "20:35",
+      "timestamp": 1762029300,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Garcia vs. Onama",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2785,
+          "name": "Seokhyeon Ko",
+          "logo": "https://media.api-sports.io/mma/fighters/2785.png",
+          "winner": true
+        },
+        "second": {
+          "id": 628,
+          "name": "Phil Rowe",
+          "logo": "https://media.api-sports.io/mma/fighters/628.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:48.830Z"
+}

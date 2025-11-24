@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 2375,
+    "name": "Josh Quinlan",
+    "nickname": "Bushido",
+    "photo": "https://media.api-sports.io/mma/fighters/2375.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "169 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 404,
+      "name": "Wand Fight"
+    },
+    "last_update": "2025-06-05T08:58:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2375,
+      "name": "Josh Quinlan",
+      "photo": "https://media.api-sports.io/mma/fighters/2375.png"
+    },
+    "total": {
+      "win": 6,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 682,
+      "date": "2023-04-29T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1682809200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Simon",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2605,
+          "name": "Trey Waters",
+          "logo": "https://media.api-sports.io/mma/fighters/2605.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2375,
+          "name": "Josh Quinlan",
+          "logo": "https://media.api-sports.io/mma/fighters/2375.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1219,
+      "date": "2024-02-17T15:30:00+00:00",
+      "time": "15:30",
+      "timestamp": 1708183800,
+      "timezone": "UTC",
+      "slug": "UFC 298: Volkanovski vs. Topuria",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2655,
+          "name": "Danny Barlow",
+          "logo": "https://media.api-sports.io/mma/fighters/2655.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2375,
+          "name": "Josh Quinlan",
+          "logo": "https://media.api-sports.io/mma/fighters/2375.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1458,
+      "date": "2024-06-15T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1718474400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Perez vs. Taira",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2460,
+          "name": "Adam Fugitt",
+          "logo": "https://media.api-sports.io/mma/fighters/2460.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2375,
+          "name": "Josh Quinlan",
+          "logo": "https://media.api-sports.io/mma/fighters/2375.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:21.135Z"
+}

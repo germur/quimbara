@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 2399,
+    "name": "Bryan Battle",
+    "nickname": "The Butcher",
+    "photo": "https://media.api-sports.io/mma/fighters/2399.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "175 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 769,
+      "name": "Carolina Combat Sports & Fitness"
+    },
+    "last_update": "2025-08-23T12:01:16+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2399,
+      "name": "Bryan Battle",
+      "photo": "https://media.api-sports.io/mma/fighters/2399.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 0
+    },
+    "sub": {
+      "win": 6,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 699,
+      "date": "2023-05-13T16:55:00+00:00",
+      "time": "16:55",
+      "timestamp": 1683996900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Almeida",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 715,
+          "name": "Gabe Green",
+          "logo": "https://media.api-sports.io/mma/fighters/715.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2399,
+          "name": "Bryan Battle",
+          "logo": "https://media.api-sports.io/mma/fighters/2399.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 938,
+      "date": "2023-09-23T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1695511800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Fiziev vs. Gamrot",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2387,
+          "name": "AJ Fletcher",
+          "logo": "https://media.api-sports.io/mma/fighters/2387.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2399,
+          "name": "Bryan Battle",
+          "logo": "https://media.api-sports.io/mma/fighters/2399.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1229,
+      "date": "2024-03-16T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1710601200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tuivasa vs. Tybura",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2412,
+          "name": "Ange Loosa",
+          "logo": "https://media.api-sports.io/mma/fighters/2412.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2399,
+          "name": "Bryan Battle",
+          "logo": "https://media.api-sports.io/mma/fighters/2399.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1640,
+      "date": "2024-09-28T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1727521200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moicano vs. Saint Denis",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2399,
+          "name": "Bryan Battle",
+          "logo": "https://media.api-sports.io/mma/fighters/2399.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2620,
+          "name": "Kevin Jousset",
+          "logo": "https://media.api-sports.io/mma/fighters/2620.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1728,
+      "date": "2024-12-07T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1733590800,
+      "timezone": "UTC",
+      "slug": "UFC 310: Pantoja vs. Asakura",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2399,
+          "name": "Bryan Battle",
+          "logo": "https://media.api-sports.io/mma/fighters/2399.png",
+          "winner": true
+        },
+        "second": {
+          "id": 457,
+          "name": "Randy Brown",
+          "logo": "https://media.api-sports.io/mma/fighters/457.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2087,
+      "date": "2025-08-16T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1755352800,
+      "timezone": "UTC",
+      "slug": "UFC 319: Du Plessis vs. Chimaev",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2590,
+          "name": "Nursulton Ruziboev",
+          "logo": "https://media.api-sports.io/mma/fighters/2590.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2399,
+          "name": "Bryan Battle",
+          "logo": "https://media.api-sports.io/mma/fighters/2399.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:45.143Z"
+}

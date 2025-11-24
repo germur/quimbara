@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 609,
+    "name": "Omar Morales",
+    "nickname": "Venezuelan Fighter",
+    "photo": "https://media.api-sports.io/mma/fighters/609.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "155 lbs",
+    "reach": "73'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 275,
+      "name": "KO Zone"
+    },
+    "last_update": "2025-06-04T18:15:06+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 609,
+      "name": "Omar Morales",
+      "photo": "https://media.api-sports.io/mma/fighters/609.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 1
+    },
+    "sub": {
+      "win": 5,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 617,
+      "date": "2023-03-18T19:30:00+00:00",
+      "time": "19:30",
+      "timestamp": 1679167800,
+      "timezone": "UTC",
+      "slug": "UFC 286: Edwards vs. Usman 3",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 609,
+          "name": "Omar Morales",
+          "logo": "https://media.api-sports.io/mma/fighters/609.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2379,
+          "name": "Chris Duncan",
+          "logo": "https://media.api-sports.io/mma/fighters/2379.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:04.392Z"
+}

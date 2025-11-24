@@ -1,0 +1,296 @@
+{
+  "profile": {
+    "id": 519,
+    "name": "Terrance McKinney",
+    "nickname": "T. Wrecks",
+    "photo": "https://media.api-sports.io/mma/fighters/519.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "155 lbs",
+    "reach": "73.5'",
+    "stance": "Switch",
+    "category": "Lightweight",
+    "team": {
+      "id": 164,
+      "name": "Fusion X-Cel"
+    },
+    "last_update": "2025-07-05T12:04:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 519,
+      "name": "Terrance McKinney",
+      "photo": "https://media.api-sports.io/mma/fighters/519.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 5
+    },
+    "sub": {
+      "win": 9,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 525,
+      "date": "2023-01-21T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1674342000,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 519,
+          "name": "Terrance McKinney",
+          "logo": "https://media.api-sports.io/mma/fighters/519.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2560,
+          "name": "Ismael Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2560.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 804,
+      "date": "2023-07-16T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1689472800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holm vs. Bueno Silva",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 519,
+          "name": "Terrance McKinney",
+          "logo": "https://media.api-sports.io/mma/fighters/519.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2586,
+          "name": "Nazim Sadykhov",
+          "logo": "https://media.api-sports.io/mma/fighters/2586.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 847,
+      "date": "2023-08-12T22:05:00+00:00",
+      "time": "22:05",
+      "timestamp": 1691877900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Luque vs. Dos Anjos",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 801,
+          "name": "Mike Breeden",
+          "logo": "https://media.api-sports.io/mma/fighters/801.png",
+          "winner": false
+        },
+        "second": {
+          "id": 519,
+          "name": "Terrance McKinney",
+          "logo": "https://media.api-sports.io/mma/fighters/519.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 999,
+      "date": "2023-10-14T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1697284800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yusuff vs. Barboza",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2379,
+          "name": "Chris Duncan",
+          "logo": "https://media.api-sports.io/mma/fighters/2379.png",
+          "winner": false
+        },
+        "second": {
+          "id": 519,
+          "name": "Terrance McKinney",
+          "logo": "https://media.api-sports.io/mma/fighters/519.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1021,
+      "date": "2023-10-14T21:30:00+00:00",
+      "time": "21:30",
+      "timestamp": 1697319000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yusuff vs. Barboza",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2634,
+          "name": "Brendon Marotte",
+          "logo": "https://media.api-sports.io/mma/fighters/2634.png",
+          "winner": false
+        },
+        "second": {
+          "id": 519,
+          "name": "Terrance McKinney",
+          "logo": "https://media.api-sports.io/mma/fighters/519.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1372,
+      "date": "2024-05-11T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1715428800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Nascimento",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2547,
+          "name": "Esteban Ribovics",
+          "logo": "https://media.api-sports.io/mma/fighters/2547.png",
+          "winner": true
+        },
+        "second": {
+          "id": 519,
+          "name": "Terrance McKinney",
+          "logo": "https://media.api-sports.io/mma/fighters/519.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1836,
+      "date": "2025-02-01T15:30:00+00:00",
+      "time": "15:30",
+      "timestamp": 1738423800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Adesanya vs. Imavov",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 119,
+          "name": "Damir Hadzovic",
+          "logo": "https://media.api-sports.io/mma/fighters/119.png",
+          "winner": false
+        },
+        "second": {
+          "id": 519,
+          "name": "Terrance McKinney",
+          "logo": "https://media.api-sports.io/mma/fighters/519.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2148,
+      "date": "2025-06-29T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1751155200,
+      "timezone": "UTC",
+      "slug": "UFC 317: Topuria vs. Oliveira",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2519,
+          "name": "Viacheslav Borshchev",
+          "logo": "https://media.api-sports.io/mma/fighters/2519.png",
+          "winner": false
+        },
+        "second": {
+          "id": 519,
+          "name": "Terrance McKinney",
+          "logo": "https://media.api-sports.io/mma/fighters/519.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2384,
+      "date": "2025-12-07T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1765072800,
+      "timezone": "UTC",
+      "slug": "UFC 323: Dvalishvili vs. Yan 2",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 2379,
+          "name": "Chris Duncan",
+          "logo": "https://media.api-sports.io/mma/fighters/2379.png",
+          "winner": false
+        },
+        "second": {
+          "id": 519,
+          "name": "Terrance McKinney",
+          "logo": "https://media.api-sports.io/mma/fighters/519.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:19.152Z"
+}

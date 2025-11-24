@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 639,
+    "name": "DuÅ¡ko Todorovic",
+    "nickname": "Thunder",
+    "photo": "https://media.api-sports.io/mma/fighters/639.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "186 lbs",
+    "reach": "74'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 280,
+      "name": "Secutor"
+    },
+    "last_update": "2025-09-20T12:09:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 639,
+      "name": "DuÅ¡ko Todorovic",
+      "photo": "https://media.api-sports.io/mma/fighters/639.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 4
+    },
+    "sub": {
+      "win": 3,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 611,
+      "date": "2023-03-18T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1679162400,
+      "timezone": "UTC",
+      "slug": "UFC 286: Edwards vs. Usman 3",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 639,
+          "name": "Dusko Todorovic",
+          "logo": "https://media.api-sports.io/mma/fighters/639.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2540,
+          "name": "Christian Leroy Duncan",
+          "logo": "https://media.api-sports.io/mma/fighters/2540.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1620,
+      "date": "2024-11-09T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1731168000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Magny vs. Prates",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 639,
+          "name": "Dusko Todorovic",
+          "logo": "https://media.api-sports.io/mma/fighters/639.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2717,
+          "name": "Mansur Abdul-Malik",
+          "logo": "https://media.api-sports.io/mma/fighters/2717.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2019,
+      "date": "2025-06-01T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1748739600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Barber",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 639,
+          "name": "Dusko Todorovic",
+          "logo": "https://media.api-sports.io/mma/fighters/639.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2640,
+          "name": "Zachary Reese",
+          "logo": "https://media.api-sports.io/mma/fighters/2640.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2025,
+      "date": "2025-09-13T21:50:00+00:00",
+      "time": "21:50",
+      "timestamp": 1757800200,
+      "timezone": "UTC",
+      "slug": "Noche UFC: Lopes vs. Silva",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 639,
+          "name": "DuÅ¡ko Todorovic",
+          "logo": "https://media.api-sports.io/mma/fighters/639.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2711,
+          "name": "Jose Daniel Medina",
+          "logo": "https://media.api-sports.io/mma/fighters/2711.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:49:32.933Z"
+}

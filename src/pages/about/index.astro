@@ -1,6 +1,6 @@
 ---
 import PageLayout from '@/layouts/BaseLayout.astro';
-import { Image } from 'astro:assets';
+
 import config from '@/site-config';
 
 const meta = {
@@ -53,7 +53,7 @@ const meta = {
 					Síguenos en nuestras redes sociales para estar al día con cada KO, sumisión y decisión polémica.
 				</p>
 				<div class="flex justify-center gap-6">
-					{config.footer.links.map(social => (
+					{config.footer?.links?.map(social => (
 						<a 
 							href={social.link} 
 							target="_blank" 

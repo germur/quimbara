@@ -1,0 +1,296 @@
+{
+  "profile": {
+    "id": 2466,
+    "name": "BenoÃ®t Saint Denis",
+    "nickname": "God of War",
+    "photo": "https://media.api-sports.io/mma/fighters/2466.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "155 lbs",
+    "reach": "73'",
+    "stance": "Southpaw",
+    "category": "Lightweight",
+    "team": {
+      "id": 770,
+      "name": "CYFIT"
+    },
+    "last_update": "2025-11-23T00:07:09+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2466,
+      "name": "BenoÃ®t Saint Denis",
+      "photo": "https://media.api-sports.io/mma/fighters/2466.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 2
+    },
+    "sub": {
+      "win": 11,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 777,
+      "date": "2023-07-01T23:15:00+00:00",
+      "time": "23:15",
+      "timestamp": 1688253300,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Magomedov",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2466,
+          "name": "Benoit Saint Denis",
+          "logo": "https://media.api-sports.io/mma/fighters/2466.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2560,
+          "name": "Ismael Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2560.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 892,
+      "date": "2023-09-02T20:30:00+00:00",
+      "time": "20:30",
+      "timestamp": 1693686600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 401,
+          "name": "Thiago Moises",
+          "logo": "https://media.api-sports.io/mma/fighters/401.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2466,
+          "name": "Benoit Saint Denis",
+          "logo": "https://media.api-sports.io/mma/fighters/2466.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1016,
+      "date": "2023-11-12T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1699759800,
+      "timezone": "UTC",
+      "slug": "UFC 295: ProchÃ¡zka vs. Pereira",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2466,
+          "name": "Benoit Saint Denis",
+          "logo": "https://media.api-sports.io/mma/fighters/2466.png",
+          "winner": true
+        },
+        "second": {
+          "id": 322,
+          "name": "Matt Frevola",
+          "logo": "https://media.api-sports.io/mma/fighters/322.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1198,
+      "date": "2024-03-09T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1710010800,
+      "timezone": "UTC",
+      "slug": "UFC 299: O'Malley vs. Vera 2",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2466,
+          "name": "BenoÃ®t Saint Denis",
+          "logo": "https://media.api-sports.io/mma/fighters/2466.png",
+          "winner": false
+        },
+        "second": {
+          "id": 255,
+          "name": "Dustin Poirier",
+          "logo": "https://media.api-sports.io/mma/fighters/255.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1434,
+      "date": "2024-09-28T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1727521200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moicano vs. Saint Denis",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2466,
+          "name": "BenoÃ®t Saint Denis",
+          "logo": "https://media.api-sports.io/mma/fighters/2466.png",
+          "winner": false
+        },
+        "second": {
+          "id": 44,
+          "name": "Renato Moicano",
+          "logo": "https://media.api-sports.io/mma/fighters/44.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2030,
+      "date": "2025-05-11T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1746928800,
+      "timezone": "UTC",
+      "slug": "UFC 315: Muhammad vs. Della Maddalena",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 209,
+          "name": "Joel Ãlvarez",
+          "logo": "https://media.api-sports.io/mma/fighters/209.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2466,
+          "name": "BenoÃ®t Saint Denis",
+          "logo": "https://media.api-sports.io/mma/fighters/2466.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2073,
+      "date": "2025-05-11T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1746928800,
+      "timezone": "UTC",
+      "slug": "UFC 315: Muhammad vs. Della Maddalena",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 421,
+          "name": "Kyle Prepolec",
+          "logo": "https://media.api-sports.io/mma/fighters/421.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2466,
+          "name": "BenoÃ®t Saint Denis",
+          "logo": "https://media.api-sports.io/mma/fighters/2466.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2215,
+      "date": "2025-09-06T21:15:00+00:00",
+      "time": "21:15",
+      "timestamp": 1757193300,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Imavov vs. Borralho",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2694,
+          "name": "Mauricio Ruffy",
+          "logo": "https://media.api-sports.io/mma/fighters/2694.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2466,
+          "name": "BenoÃ®t Saint Denis",
+          "logo": "https://media.api-sports.io/mma/fighters/2466.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2334,
+      "date": "2025-11-16T03:05:00+00:00",
+      "time": "03:05",
+      "timestamp": 1763262300,
+      "timezone": "UTC",
+      "slug": "UFC 322: Della Maddalena vs. Makhachev",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2466,
+          "name": "BenoÃ®t Saint Denis",
+          "logo": "https://media.api-sports.io/mma/fighters/2466.png",
+          "winner": true
+        },
+        "second": {
+          "id": 149,
+          "name": "Beneil Dariush",
+          "logo": "https://media.api-sports.io/mma/fighters/149.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:34.516Z"
+}

@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 235,
+    "name": "John Makdessi",
+    "nickname": "The Bull",
+    "photo": "https://media.api-sports.io/mma/fighters/235.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "155 lbs",
+    "reach": "68'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 14,
+      "name": "Roufusport"
+    },
+    "last_update": "2025-06-04T15:08:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 235,
+      "name": "John Makdessi",
+      "photo": "https://media.api-sports.io/mma/fighters/235.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 2
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 896,
+      "date": "2023-09-10T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1694305800,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 235,
+          "name": "John Makdessi",
+          "logo": "https://media.api-sports.io/mma/fighters/235.png",
+          "winner": false
+        },
+        "second": {
+          "id": 654,
+          "name": "Jamie Mullarkey",
+          "logo": "https://media.api-sports.io/mma/fighters/654.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:23.528Z"
+}

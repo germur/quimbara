@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 2482,
+    "name": "Denys Bondar",
+    "nickname": "Psycho",
+    "photo": "https://media.api-sports.io/mma/fighters/2482.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "126 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 394,
+      "name": "Kharkov Top"
+    },
+    "last_update": "2025-06-05T09:51:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2482,
+      "name": "Denys Bondar",
+      "photo": "https://media.api-sports.io/mma/fighters/2482.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 1
+    },
+    "sub": {
+      "win": 10,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 744,
+      "date": "2023-06-18T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1687048200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Cannonier",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2482,
+          "name": "Denys Bondar",
+          "logo": "https://media.api-sports.io/mma/fighters/2482.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2440,
+          "name": "Carlos Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/2440.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1204,
+      "date": "2024-02-24T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1708790400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Royval 2",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2482,
+          "name": "Denys Bondar",
+          "logo": "https://media.api-sports.io/mma/fighters/2482.png",
+          "winner": false
+        },
+        "second": {
+          "id": 757,
+          "name": "Ronaldo RodrÃ­guez",
+          "logo": "https://media.api-sports.io/mma/fighters/757.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:41.003Z"
+}

@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 795,
+    "name": "Daniel Pineda",
+    "nickname": "The Pit",
+    "photo": "https://media.api-sports.io/mma/fighters/795.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "145 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 89,
+      "name": "4oz Fight Club"
+    },
+    "last_update": "2025-06-04T19:48:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 795,
+      "name": "Daniel Pineda",
+      "photo": "https://media.api-sports.io/mma/fighters/795.png"
+    },
+    "total": {
+      "win": 28,
+      "loss": 17,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 3
+    },
+    "sub": {
+      "win": 19,
+      "loss": 6
+    }
+  },
+  "fights": [
+    {
+      "id": 634,
+      "date": "2023-03-25T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1679783400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vera vs. Sandhagen",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 819,
+          "name": "Tucker Lutz",
+          "logo": "https://media.api-sports.io/mma/fighters/819.png",
+          "winner": false
+        },
+        "second": {
+          "id": 795,
+          "name": "Daniel Pineda",
+          "logo": "https://media.api-sports.io/mma/fighters/795.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 726,
+      "date": "2023-06-04T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1685847600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kara-France vs. Albazi",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 795,
+          "name": "Daniel Pineda",
+          "logo": "https://media.api-sports.io/mma/fighters/795.png",
+          "winner": false
+        },
+        "second": {
+          "id": 97,
+          "name": "Alex Caceres",
+          "logo": "https://media.api-sports.io/mma/fighters/97.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1461,
+      "date": "2024-07-27T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1722096000,
+      "timezone": "UTC",
+      "slug": "UFC 304: Edwards vs. Muhammad 2",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 795,
+          "name": "Daniel Pineda",
+          "logo": "https://media.api-sports.io/mma/fighters/795.png",
+          "winner": false
+        },
+        "second": {
+          "id": 227,
+          "name": "Nathaniel Wood",
+          "logo": "https://media.api-sports.io/mma/fighters/227.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1665,
+      "date": "2024-10-19T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1729350000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hernandez vs. Pereira",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 795,
+          "name": "Daniel Pineda",
+          "logo": "https://media.api-sports.io/mma/fighters/795.png",
+          "winner": false
+        },
+        "second": {
+          "id": 495,
+          "name": "Darren Elkins",
+          "logo": "https://media.api-sports.io/mma/fighters/495.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:51.755Z"
+}

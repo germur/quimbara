@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2554,
+    "name": "Gaston BolaÃ±os",
+    "nickname": "The Dreamkiller",
+    "photo": "https://media.api-sports.io/mma/fighters/2554.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "135 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 10,
+      "name": "Combat Sports Academy"
+    },
+    "last_update": "2025-06-05T10:27:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2554,
+      "name": "Gaston BolaÃ±os",
+      "photo": "https://media.api-sports.io/mma/fighters/2554.png"
+    },
+    "total": {
+      "win": 8,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 1
+    },
+    "sub": {
+      "win": 0,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 653,
+      "date": "2023-04-15T21:50:00+00:00",
+      "time": "21:50",
+      "timestamp": 1681595400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. Allen",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2554,
+          "name": "Gaston BolaÃ±os",
+          "logo": "https://media.api-sports.io/mma/fighters/2554.png",
+          "winner": true
+        },
+        "second": {
+          "id": 745,
+          "name": "Aaron Phillips",
+          "logo": "https://media.api-sports.io/mma/fighters/745.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1097,
+      "date": "2024-01-13T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1705150800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ankalaev vs. Walker 2",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2554,
+          "name": "Gaston BolaÃ±os",
+          "logo": "https://media.api-sports.io/mma/fighters/2554.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2580,
+          "name": "Marcus McGhee",
+          "logo": "https://media.api-sports.io/mma/fighters/2580.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1725,
+      "date": "2024-11-09T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1731168000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Magny vs. Prates",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2738,
+          "name": "Cortavious Romious",
+          "logo": "https://media.api-sports.io/mma/fighters/2738.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2554,
+          "name": "Gaston BolaÃ±os",
+          "logo": "https://media.api-sports.io/mma/fighters/2554.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2029,
+      "date": "2025-05-04T00:20:00+00:00",
+      "time": "00:20",
+      "timestamp": 1746318000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Figueiredo",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2712,
+          "name": "Quang Le",
+          "logo": "https://media.api-sports.io/mma/fighters/2712.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2554,
+          "name": "Gaston BolaÃ±os",
+          "logo": "https://media.api-sports.io/mma/fighters/2554.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:08.863Z"
+}

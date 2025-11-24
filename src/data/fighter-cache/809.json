@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 809,
+    "name": "Matthew Semelsberger",
+    "nickname": "Semi the Jedi",
+    "photo": "https://media.api-sports.io/mma/fighters/809.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "171 lbs",
+    "reach": "75'",
+    "stance": "Switch",
+    "category": "Welterweight",
+    "team": {
+      "id": 357,
+      "name": "Crazy 88 Brazilian Jiu-Jitsu"
+    },
+    "last_update": "2025-06-04T19:55:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 809,
+      "name": "Matthew Semelsberger",
+      "photo": "https://media.api-sports.io/mma/fighters/809.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 3
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 671,
+      "date": "2023-04-22T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1682204400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Pavlovich vs. Blaydes",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 809,
+          "name": "Matthew Semelsberger",
+          "logo": "https://media.api-sports.io/mma/fighters/809.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2370,
+          "name": "Jeremiah Wells",
+          "logo": "https://media.api-sports.io/mma/fighters/2370.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 821,
+      "date": "2023-07-29T23:40:00+00:00",
+      "time": "23:40",
+      "timestamp": 1690674000,
+      "timezone": "UTC",
+      "slug": "UFC 291: Poirier vs. Gaethje 2",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 755,
+          "name": "Uros Medic",
+          "logo": "https://media.api-sports.io/mma/fighters/755.png",
+          "winner": true
+        },
+        "second": {
+          "id": 809,
+          "name": "Matthew Semelsberger",
+          "logo": "https://media.api-sports.io/mma/fighters/809.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1190,
+      "date": "2024-01-13T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1705150800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ankalaev vs. Walker 2",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2372,
+          "name": "Preston Parsons",
+          "logo": "https://media.api-sports.io/mma/fighters/2372.png",
+          "winner": true
+        },
+        "second": {
+          "id": 809,
+          "name": "Matthew Semelsberger",
+          "logo": "https://media.api-sports.io/mma/fighters/809.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1726,
+      "date": "2024-11-09T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1731157200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Magny vs. Prates",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2538,
+          "name": "Charles Radtke",
+          "logo": "https://media.api-sports.io/mma/fighters/2538.png",
+          "winner": true
+        },
+        "second": {
+          "id": 809,
+          "name": "Matthew Semelsberger",
+          "logo": "https://media.api-sports.io/mma/fighters/809.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:33.685Z"
+}

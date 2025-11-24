@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2365,
+    "name": "Carlston Harris",
+    "nickname": "Mocambique",
+    "photo": "https://media.api-sports.io/mma/fighters/2365.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "170 lbs",
+    "reach": "76'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 646,
+      "name": "Renovacao Fight"
+    },
+    "last_update": "2025-06-05T08:53:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2365,
+      "name": "Carlston Harris",
+      "photo": "https://media.api-sports.io/mma/fighters/2365.png"
+    },
+    "total": {
+      "win": 19,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 4
+    },
+    "sub": {
+      "win": 6,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 603,
+      "date": "2023-03-11T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1678564800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Dvalishvili",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 807,
+          "name": "Jared Gooden",
+          "logo": "https://media.api-sports.io/mma/fighters/807.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2365,
+          "name": "Carlston Harris",
+          "logo": "https://media.api-sports.io/mma/fighters/2365.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 834,
+      "date": "2023-08-05T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1691278200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Font",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2365,
+          "name": "Carlston Harris",
+          "logo": "https://media.api-sports.io/mma/fighters/2365.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2370,
+          "name": "Jeremiah Wells",
+          "logo": "https://media.api-sports.io/mma/fighters/2370.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1390,
+      "date": "2024-05-18T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1716044400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Barboza vs. Murphy",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2365,
+          "name": "Carlston Harris",
+          "logo": "https://media.api-sports.io/mma/fighters/2365.png",
+          "winner": false
+        },
+        "second": {
+          "id": 704,
+          "name": "Khaos Williams",
+          "logo": "https://media.api-sports.io/mma/fighters/704.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1764,
+      "date": "2025-01-12T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1736647200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs Ribas 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2365,
+          "name": "Carlston Harris",
+          "logo": "https://media.api-sports.io/mma/fighters/2365.png",
+          "winner": false
+        },
+        "second": {
+          "id": 897,
+          "name": "Santiago Ponzinibbio",
+          "logo": "https://media.api-sports.io/mma/fighters/897.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:46.507Z"
+}

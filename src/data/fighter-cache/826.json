@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 826,
+    "name": "Phil Hawes",
+    "nickname": "No Hype",
+    "photo": "https://media.api-sports.io/mma/fighters/826.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "185 lbs",
+    "reach": "77.5'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 341,
+      "name": "Marquez MMA"
+    },
+    "last_update": "2025-06-04T20:03:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 826,
+      "name": "Phil Hawes",
+      "photo": "https://media.api-sports.io/mma/fighters/826.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 5
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 684,
+      "date": "2023-05-06T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1683414000,
+      "timezone": "UTC",
+      "slug": "UFC 288: Sterling vs. Cejudo",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2557,
+          "name": "Ikram Aliskerov",
+          "logo": "https://media.api-sports.io/mma/fighters/2557.png",
+          "winner": true
+        },
+        "second": {
+          "id": 826,
+          "name": "Phil Hawes",
+          "logo": "https://media.api-sports.io/mma/fighters/826.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1108,
+      "date": "2024-01-13T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1705161600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ankalaev vs. Walker 2",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2535,
+          "name": "Brunno Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/2535.png",
+          "winner": true
+        },
+        "second": {
+          "id": 826,
+          "name": "Phil Hawes",
+          "logo": "https://media.api-sports.io/mma/fighters/826.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:11.882Z"
+}

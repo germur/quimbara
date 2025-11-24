@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2576,
+    "name": "Loik Radzhabov",
+    "nickname": "The Tajik Tank",
+    "photo": "https://media.api-sports.io/mma/fighters/2576.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "155 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-06-05T10:38:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2576,
+      "name": "Loik Radzhabov",
+      "photo": "https://media.api-sports.io/mma/fighters/2576.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 6,
+      "draw": 1
+    },
+    "ko": {
+      "win": 8,
+      "loss": 1
+    },
+    "sub": {
+      "win": 5,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 587,
+      "date": "2023-03-04T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1677969000,
+      "timezone": "UTC",
+      "slug": "UFC 285: Jones vs. Gane",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2576,
+          "name": "Loik Radzhabov",
+          "logo": "https://media.api-sports.io/mma/fighters/2576.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2547,
+          "name": "Esteban Ribovics",
+          "logo": "https://media.api-sports.io/mma/fighters/2547.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 756,
+      "date": "2023-06-24T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1687629600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Topuria",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2576,
+          "name": "Loik Radzhabov",
+          "logo": "https://media.api-sports.io/mma/fighters/2576.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2582,
+          "name": "Mateusz Rebecki",
+          "logo": "https://media.api-sports.io/mma/fighters/2582.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1279,
+      "date": "2024-03-02T10:30:00+00:00",
+      "time": "10:30",
+      "timestamp": 1709375400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Gaziev",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2576,
+          "name": "Loik Radzhabov",
+          "logo": "https://media.api-sports.io/mma/fighters/2576.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2677,
+          "name": "Abdul-Kareem Al-Selwady",
+          "logo": "https://media.api-sports.io/mma/fighters/2677.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1514,
+      "date": "2024-07-20T13:30:00+00:00",
+      "time": "13:30",
+      "timestamp": 1721482200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lemos vs. Jandiroba",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2518,
+          "name": "Trey Ogden",
+          "logo": "https://media.api-sports.io/mma/fighters/2518.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2576,
+          "name": "Loik Radzhabov",
+          "logo": "https://media.api-sports.io/mma/fighters/2576.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:37.610Z"
+}

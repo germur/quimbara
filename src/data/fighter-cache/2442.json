@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 2442,
+    "name": "Fernie Garcia",
+    "nickname": "Fernie",
+    "photo": "https://media.api-sports.io/mma/fighters/2442.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "146 lbs",
+    "reach": "67'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 2,
+      "name": "Fortis MMA"
+    },
+    "last_update": "2025-06-05T09:31:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2442,
+      "name": "Fernie Garcia",
+      "photo": "https://media.api-sports.io/mma/fighters/2442.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 1,
+      "loss": 1
+    },
+    "sub": {
+      "win": 3,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 882,
+      "date": "2023-08-26T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1693054800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. The Korean Zombie",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2442,
+          "name": "Fernie Garcia",
+          "logo": "https://media.api-sports.io/mma/fighters/2442.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2592,
+          "name": "Rinya Nakamura",
+          "logo": "https://media.api-sports.io/mma/fighters/2592.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1275,
+      "date": "2024-02-10T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1707570000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hermansson vs. Pyfer",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2657,
+          "name": "Hyder Amil",
+          "logo": "https://media.api-sports.io/mma/fighters/2657.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2442,
+          "name": "Fernie Garcia",
+          "logo": "https://media.api-sports.io/mma/fighters/2442.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:06.103Z"
+}

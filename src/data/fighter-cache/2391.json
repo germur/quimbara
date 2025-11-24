@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 2391,
+    "name": "Chidi Njokuani",
+    "nickname": "Bang Bang",
+    "photo": "https://media.api-sports.io/mma/fighters/2391.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "172 lbs",
+    "reach": "80'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 306,
+      "name": "Janjira Muay Thai"
+    },
+    "last_update": "2025-07-20T00:00:58+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2391,
+      "name": "Chidi Njokuani",
+      "photo": "https://media.api-sports.io/mma/fighters/2391.png"
+    },
+    "total": {
+      "win": 25,
+      "loss": 10,
+      "draw": 0
+    },
+    "ko": {
+      "win": 15,
+      "loss": 5
+    },
+    "sub": {
+      "win": 1,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 633,
+      "date": "2023-03-25T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1679785200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vera vs. Sandhagen",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2410,
+          "name": "Albert Duraev",
+          "logo": "https://media.api-sports.io/mma/fighters/2410.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2391,
+          "name": "Chidi Njokuani",
+          "logo": "https://media.api-sports.io/mma/fighters/2391.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 873,
+      "date": "2023-08-26T10:40:00+00:00",
+      "time": "10:40",
+      "timestamp": 1693046400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. The Korean Zombie",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 108,
+          "name": "Michal Oleksiejczuk",
+          "logo": "https://media.api-sports.io/mma/fighters/108.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2391,
+          "name": "Chidi Njokuani",
+          "logo": "https://media.api-sports.io/mma/fighters/2391.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1226,
+      "date": "2024-03-30T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1711821600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Fiorot",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 759,
+          "name": "Rhys McKee",
+          "logo": "https://media.api-sports.io/mma/fighters/759.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2391,
+          "name": "Chidi Njokuani",
+          "logo": "https://media.api-sports.io/mma/fighters/2391.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1644,
+      "date": "2024-10-12T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1728745200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Taira",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 807,
+          "name": "Jared Gooden",
+          "logo": "https://media.api-sports.io/mma/fighters/807.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2391,
+          "name": "Chidi Njokuani",
+          "logo": "https://media.api-sports.io/mma/fighters/2391.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1916,
+      "date": "2025-03-16T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1742086800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Dolidze 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 159,
+          "name": "Elizeu Zaleski dos Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/159.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2391,
+          "name": "Chidi Njokuani",
+          "logo": "https://media.api-sports.io/mma/fighters/2391.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2118,
+      "date": "2025-07-13T00:20:00+00:00",
+      "time": "00:20",
+      "timestamp": 1752366000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Teixeira",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2391,
+          "name": "Chidi Njokuani",
+          "logo": "https://media.api-sports.io/mma/fighters/2391.png",
+          "winner": false
+        },
+        "second": {
+          "id": 656,
+          "name": "Jake Matthews",
+          "logo": "https://media.api-sports.io/mma/fighters/656.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:49.254Z"
+}

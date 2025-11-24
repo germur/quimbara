@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 745,
+    "name": "Aaron Phillips",
+    "nickname": "The Dragon",
+    "photo": "https://media.api-sports.io/mma/fighters/745.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "136 lbs",
+    "reach": "71'",
+    "stance": "Southpaw",
+    "category": "Bantamweight",
+    "team": {
+      "id": 329,
+      "name": "Headkicks MMA"
+    },
+    "last_update": "2025-06-04T19:23:06+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 745,
+      "name": "Aaron Phillips",
+      "photo": "https://media.api-sports.io/mma/fighters/745.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 653,
+      "date": "2023-04-15T21:50:00+00:00",
+      "time": "21:50",
+      "timestamp": 1681595400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. Allen",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2554,
+          "name": "Gaston BolaÃ±os",
+          "logo": "https://media.api-sports.io/mma/fighters/2554.png",
+          "winner": true
+        },
+        "second": {
+          "id": 745,
+          "name": "Aaron Phillips",
+          "logo": "https://media.api-sports.io/mma/fighters/745.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:25.425Z"
+}

@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 602,
+    "name": "Yair Rodriguez",
+    "nickname": "El Pantera",
+    "photo": "https://media.api-sports.io/mma/fighters/602.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "146 lbs",
+    "reach": "71'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 180,
+      "name": "Valle Flow Striking"
+    },
+    "last_update": "2025-06-04T18:11:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 602,
+      "name": "Yair Rodriguez",
+      "photo": "https://media.api-sports.io/mma/fighters/602.png"
+    },
+    "total": {
+      "win": 21,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 3
+    },
+    "sub": {
+      "win": 5,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 558,
+      "date": "2023-02-12T04:30:00+00:00",
+      "time": "04:30",
+      "timestamp": 1676176200,
+      "timezone": "UTC",
+      "slug": "UFC 284: Makhachev vs. Volkanovski",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 306,
+          "name": "Josh Emmett",
+          "logo": "https://media.api-sports.io/mma/fighters/306.png",
+          "winner": false
+        },
+        "second": {
+          "id": 602,
+          "name": "Yair Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/602.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 787,
+      "date": "2023-07-09T04:30:00+00:00",
+      "time": "04:30",
+      "timestamp": 1688877000,
+      "timezone": "UTC",
+      "slug": "UFC 290: Volkanovski vs. Rodriguez",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 602,
+          "name": "Yair Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/602.png",
+          "winner": false
+        },
+        "second": {
+          "id": 361,
+          "name": "Alexander Volkanovski",
+          "logo": "https://media.api-sports.io/mma/fighters/361.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1184,
+      "date": "2024-02-24T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1708801200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Royval 2",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 840,
+          "name": "Brian Ortega",
+          "logo": "https://media.api-sports.io/mma/fighters/840.png",
+          "winner": true
+        },
+        "second": {
+          "id": 602,
+          "name": "Yair Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/602.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1939,
+      "date": "2025-04-13T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1744513200,
+      "timezone": "UTC",
+      "slug": "UFC 314: Volkanovski vs. Lopes",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2774,
+          "name": "Patricio Pitbull",
+          "logo": "https://media.api-sports.io/mma/fighters/2774.png",
+          "winner": false
+        },
+        "second": {
+          "id": 602,
+          "name": "Yair Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/602.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:22.693Z"
+}

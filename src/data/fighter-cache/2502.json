@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2502,
+    "name": "Maheshate",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2502.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "155 lbs",
+    "reach": "71.5'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 786,
+      "name": "UFC Performance Institute Shanghai"
+    },
+    "last_update": "2025-08-30T00:07:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2502,
+      "name": "Maheshate",
+      "photo": "https://media.api-sports.io/mma/fighters/2502.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 1
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 706,
+      "date": "2023-05-20T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1684625400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs. Hill",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2519,
+          "name": "Viacheslav Borshchev",
+          "logo": "https://media.api-sports.io/mma/fighters/2519.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2502,
+          "name": "Maheshate",
+          "logo": "https://media.api-sports.io/mma/fighters/2502.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1310,
+      "date": "2024-04-27T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1714219200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Nicolau vs. Perez",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2502,
+          "name": "Maheshate",
+          "logo": "https://media.api-sports.io/mma/fighters/2502.png",
+          "winner": true
+        },
+        "second": {
+          "id": 547,
+          "name": "Gabriel Benitez",
+          "logo": "https://media.api-sports.io/mma/fighters/547.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1741,
+      "date": "2024-11-23T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1732320000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Figueiredo",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 878,
+          "name": "Nikolas Motta",
+          "logo": "https://media.api-sports.io/mma/fighters/878.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2502,
+          "name": "Maheshate",
+          "logo": "https://media.api-sports.io/mma/fighters/2502.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2209,
+      "date": "2025-08-23T09:30:00+00:00",
+      "time": "09:30",
+      "timestamp": 1755941400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Walker vs. Zhang",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2783,
+          "name": "Gauge Young",
+          "logo": "https://media.api-sports.io/mma/fighters/2783.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2502,
+          "name": "Maheshate",
+          "logo": "https://media.api-sports.io/mma/fighters/2502.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:40.521Z"
+}

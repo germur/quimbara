@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 2,
+    "name": "Geoff Neal",
+    "nickname": "Handz of Steel",
+    "photo": "https://media.api-sports.io/mma/fighters/2.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "171 lbs",
+    "reach": "75'",
+    "stance": "Southpaw",
+    "category": "Welterweight",
+    "team": {
+      "id": 2,
+      "name": "Fortis MMA"
+    },
+    "last_update": "2025-08-24T00:07:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2,
+      "name": "Geoff Neal",
+      "photo": "https://media.api-sports.io/mma/fighters/2.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 10,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 594,
+      "date": "2023-03-05T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1677988800,
+      "timezone": "UTC",
+      "slug": "UFC 285: Jones vs. Gane",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 735,
+          "name": "Shavkat Rakhmonov",
+          "logo": "https://media.api-sports.io/mma/fighters/735.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2,
+          "name": "Geoff Neal",
+          "logo": "https://media.api-sports.io/mma/fighters/2.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1183,
+      "date": "2024-02-17T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1708196400,
+      "timezone": "UTC",
+      "slug": "UFC 298: Volkanovski vs. Topuria",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2434,
+          "name": "Ian Machado Garry",
+          "logo": "https://media.api-sports.io/mma/fighters/2434.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2,
+          "name": "Geoff Neal",
+          "logo": "https://media.api-sports.io/mma/fighters/2.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1575,
+      "date": "2024-10-26T06:00:00+00:00",
+      "time": "06:00",
+      "timestamp": 1729922400,
+      "timezone": "UTC",
+      "slug": "UFC 308: Topuria vs. Holloway",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 367,
+          "name": "Rafael Dos Anjos",
+          "logo": "https://media.api-sports.io/mma/fighters/367.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2,
+          "name": "Geoff Neal",
+          "logo": "https://media.api-sports.io/mma/fighters/2.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1940,
+      "date": "2025-04-13T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1744511400,
+      "timezone": "UTC",
+      "slug": "UFC 314: Volkanovski vs. Lopes",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2654,
+          "name": "Carlos Prates",
+          "logo": "https://media.api-sports.io/mma/fighters/2654.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2,
+          "name": "Geoff Neal",
+          "logo": "https://media.api-sports.io/mma/fighters/2.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2205,
+      "date": "2025-08-17T03:20:00+00:00",
+      "time": "03:20",
+      "timestamp": 1755400800,
+      "timezone": "UTC",
+      "slug": "UFC 319: Du Plessis vs. Chimaev",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2654,
+          "name": "Carlos Prates",
+          "logo": "https://media.api-sports.io/mma/fighters/2654.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2,
+          "name": "Geoff Neal",
+          "logo": "https://media.api-sports.io/mma/fighters/2.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:03.047Z"
+}

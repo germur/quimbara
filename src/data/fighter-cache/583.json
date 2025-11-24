@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 583,
+    "name": "Batgerel Danaa",
+    "nickname": "Storm",
+    "photo": "https://media.api-sports.io/mma/fighters/583.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "135 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 20,
+      "name": "Fight Ready"
+    },
+    "last_update": "2025-06-04T18:02:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 583,
+      "name": "Batgerel Danaa",
+      "photo": "https://media.api-sports.io/mma/fighters/583.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 2
+    },
+    "sub": {
+      "win": 2,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 666,
+      "date": "2023-04-22T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1682193600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Pavlovich vs. Blaydes",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 583,
+          "name": "Batgerel Danaa",
+          "logo": "https://media.api-sports.io/mma/fighters/583.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2398,
+          "name": "Brady Hiestand",
+          "logo": "https://media.api-sports.io/mma/fighters/2398.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:32.356Z"
+}

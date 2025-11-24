@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 332,
+    "name": "Arman Tsarukyan",
+    "nickname": "Ahalkalakets",
+    "photo": "https://media.api-sports.io/mma/fighters/332.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "156 lbs",
+    "reach": "72.5'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 21,
+      "name": "American Top"
+    },
+    "last_update": "2025-11-24T00:15:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 332,
+      "name": "Arman Tsarukyan",
+      "photo": "https://media.api-sports.io/mma/fighters/332.png"
+    },
+    "total": {
+      "win": 22,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 1
+    },
+    "sub": {
+      "win": 5,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 749,
+      "date": "2023-06-18T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1687060800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Cannonier",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 566,
+          "name": "Joaquim Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/566.png",
+          "winner": false
+        },
+        "second": {
+          "id": 332,
+          "name": "Arman Tsarukyan",
+          "logo": "https://media.api-sports.io/mma/fighters/332.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1065,
+      "date": "2023-12-03T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1701570600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dariush vs. Tsarukyan",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 332,
+          "name": "Arman Tsarukyan",
+          "logo": "https://media.api-sports.io/mma/fighters/332.png",
+          "winner": true
+        },
+        "second": {
+          "id": 149,
+          "name": "Beneil Dariush",
+          "logo": "https://media.api-sports.io/mma/fighters/149.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1199,
+      "date": "2024-04-13T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1713031200,
+      "timezone": "UTC",
+      "slug": "UFC 300: Pereira vs. Hill",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 332,
+          "name": "Arman Tsarukyan",
+          "logo": "https://media.api-sports.io/mma/fighters/332.png",
+          "winner": true
+        },
+        "second": {
+          "id": 47,
+          "name": "Charles Oliveira",
+          "logo": "https://media.api-sports.io/mma/fighters/47.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1775,
+      "date": "2025-01-18T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1737226800,
+      "timezone": "UTC",
+      "slug": "UFC 311: Makhachev vs. Tsarukyan 2",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 332,
+          "name": "Arman Tsarukyan",
+          "logo": "https://media.api-sports.io/mma/fighters/332.png",
+          "winner": false
+        },
+        "second": {
+          "id": 333,
+          "name": "Islam Makhachev",
+          "logo": "https://media.api-sports.io/mma/fighters/333.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2247,
+      "date": "2025-11-22T20:30:00+00:00",
+      "time": "20:30",
+      "timestamp": 1763843400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tsarukyan vs. Hooker",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 516,
+          "name": "Dan Hooker",
+          "logo": "https://media.api-sports.io/mma/fighters/516.png",
+          "winner": false
+        },
+        "second": {
+          "id": 332,
+          "name": "Arman Tsarukyan",
+          "logo": "https://media.api-sports.io/mma/fighters/332.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:30.414Z"
+}

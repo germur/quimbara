@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 2568,
+    "name": "Jesse Butler",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2568.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "136 lbs",
+    "reach": "73'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 66,
+      "name": "Kron Gracie Jiu-Jitsu"
+    },
+    "last_update": "2025-06-05T10:34:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2568,
+      "name": "Jesse Butler",
+      "photo": "https://media.api-sports.io/mma/fighters/2568.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 1,
+      "loss": 2
+    },
+    "sub": {
+      "win": 8,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 727,
+      "date": "2023-06-04T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1685845800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kara-France vs. Albazi",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2568,
+          "name": "Jesse Butler",
+          "logo": "https://media.api-sports.io/mma/fighters/2568.png",
+          "winner": false
+        },
+        "second": {
+          "id": 274,
+          "name": "Jim Miller",
+          "logo": "https://media.api-sports.io/mma/fighters/274.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1032,
+      "date": "2023-11-18T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1700305200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2568,
+          "name": "Jesse Butler",
+          "logo": "https://media.api-sports.io/mma/fighters/2568.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2566,
+          "name": "Jeka Saragih",
+          "logo": "https://media.api-sports.io/mma/fighters/2566.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1398,
+      "date": "2024-06-08T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1717851600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Imavov",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2568,
+          "name": "Jesse Butler",
+          "logo": "https://media.api-sports.io/mma/fighters/2568.png",
+          "winner": false
+        },
+        "second": {
+          "id": 291,
+          "name": "Brad Katona",
+          "logo": "https://media.api-sports.io/mma/fighters/291.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:15.813Z"
+}

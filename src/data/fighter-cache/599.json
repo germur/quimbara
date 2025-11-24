@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 599,
+    "name": "Tyson Nam",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/599.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "126 lbs",
+    "reach": "68'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 272,
+      "name": "Sports Lab"
+    },
+    "last_update": "2025-06-04T18:10:05+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 599,
+      "name": "Tyson Nam",
+      "photo": "https://media.api-sports.io/mma/fighters/599.png"
+    },
+    "total": {
+      "win": 21,
+      "loss": 14,
+      "draw": 1
+    },
+    "ko": {
+      "win": 13,
+      "loss": 3
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 602,
+      "date": "2023-03-11T20:20:00+00:00",
+      "time": "20:20",
+      "timestamp": 1678566000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Dvalishvili",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 675,
+          "name": "Bruno Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/675.png",
+          "winner": true
+        },
+        "second": {
+          "id": 599,
+          "name": "Tyson Nam",
+          "logo": "https://media.api-sports.io/mma/fighters/599.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 796,
+      "date": "2023-07-15T23:50:00+00:00",
+      "time": "23:50",
+      "timestamp": 1689465000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holm vs. Bueno Silva",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2528,
+          "name": "Azat Maksum",
+          "logo": "https://media.api-sports.io/mma/fighters/2528.png",
+          "winner": true
+        },
+        "second": {
+          "id": 599,
+          "name": "Tyson Nam",
+          "logo": "https://media.api-sports.io/mma/fighters/599.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:59:17.536Z"
+}

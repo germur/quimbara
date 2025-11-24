@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 2556,
+    "name": "HyunSung Park",
+    "nickname": "Peace of Mind",
+    "photo": "https://media.api-sports.io/mma/fighters/2556.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "126 lbs",
+    "reach": "66'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 829,
+      "name": "MMA Story"
+    },
+    "last_update": "2025-10-25T00:00:46+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2556,
+      "name": "HyunSung Park",
+      "photo": "https://media.api-sports.io/mma/fighters/2556.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 1,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 0
+    },
+    "sub": {
+      "win": 5,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 541,
+      "date": "2023-02-04T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1675537200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Spivac",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2556,
+          "name": "HyunSung Park",
+          "logo": "https://media.api-sports.io/mma/fighters/2556.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2596,
+          "name": "SeungGuk Choi",
+          "logo": "https://media.api-sports.io/mma/fighters/2596.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1087,
+      "date": "2023-12-09T16:30:00+00:00",
+      "time": "16:30",
+      "timestamp": 1702139400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2597,
+          "name": "Shannon Ross",
+          "logo": "https://media.api-sports.io/mma/fighters/2597.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2556,
+          "name": "HyunSung Park",
+          "logo": "https://media.api-sports.io/mma/fighters/2556.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1395,
+      "date": "2024-06-01T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1717250400,
+      "timezone": "UTC",
+      "slug": "UFC 302: Makhachev vs. Poirier",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2679,
+          "name": "Andre Lima",
+          "logo": "https://media.api-sports.io/mma/fighters/2679.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2556,
+          "name": "HyunSung Park",
+          "logo": "https://media.api-sports.io/mma/fighters/2556.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1869,
+      "date": "2025-02-08T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1739055600,
+      "timezone": "UTC",
+      "slug": "UFC 312: Du Plessis vs. Strickland 2",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2700,
+          "name": "Nyamjargal Tumendemberel",
+          "logo": "https://media.api-sports.io/mma/fighters/2700.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2556,
+          "name": "HyunSung Park",
+          "logo": "https://media.api-sports.io/mma/fighters/2556.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2018,
+      "date": "2025-05-17T20:45:00+00:00",
+      "time": "20:45",
+      "timestamp": 1747514700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Morales",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2440,
+          "name": "Carlos Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/2440.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2556,
+          "name": "HyunSung Park",
+          "logo": "https://media.api-sports.io/mma/fighters/2556.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2191,
+      "date": "2025-08-03T03:45:00+00:00",
+      "time": "03:45",
+      "timestamp": 1754192700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Taira vs. Park",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2556,
+          "name": "HyunSung Park",
+          "logo": "https://media.api-sports.io/mma/fighters/2556.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2516,
+          "name": "Tatsuro Taira",
+          "logo": "https://media.api-sports.io/mma/fighters/2516.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2276,
+      "date": "2025-10-18T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1760788800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: de Ridder vs. Allen",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2556,
+          "name": "HyunSung Park",
+          "logo": "https://media.api-sports.io/mma/fighters/2556.png",
+          "winner": false
+        },
+        "second": {
+          "id": 675,
+          "name": "Bruno Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/675.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:43.793Z"
+}

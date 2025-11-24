@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 516,
+    "name": "Dan Hooker",
+    "nickname": "The Hangman",
+    "photo": "https://media.api-sports.io/mma/fighters/516.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "155 lbs",
+    "reach": "75'",
+    "stance": "Switch",
+    "category": "Lightweight",
+    "team": {
+      "id": 48,
+      "name": "City Kickboxing"
+    },
+    "last_update": "2025-11-23T12:15:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 516,
+      "name": "Dan Hooker",
+      "photo": "https://media.api-sports.io/mma/fighters/516.png"
+    },
+    "total": {
+      "win": 24,
+      "loss": 12,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 3
+    },
+    "sub": {
+      "win": 7,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 790,
+      "date": "2023-07-09T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1688869800,
+      "timezone": "UTC",
+      "slug": "UFC 290: Volkanovski vs. Rodriguez",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 516,
+          "name": "Dan Hooker",
+          "logo": "https://media.api-sports.io/mma/fighters/516.png",
+          "winner": true
+        },
+        "second": {
+          "id": 56,
+          "name": "Jalin Turner",
+          "logo": "https://media.api-sports.io/mma/fighters/56.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1565,
+      "date": "2024-08-17T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1723917600,
+      "timezone": "UTC",
+      "slug": "UFC 305: Du Plessis vs. Adesanya",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 516,
+          "name": "Dan Hooker",
+          "logo": "https://media.api-sports.io/mma/fighters/516.png",
+          "winner": true
+        },
+        "second": {
+          "id": 860,
+          "name": "Mateusz Gamrot",
+          "logo": "https://media.api-sports.io/mma/fighters/860.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2247,
+      "date": "2025-11-22T20:30:00+00:00",
+      "time": "20:30",
+      "timestamp": 1763843400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tsarukyan vs. Hooker",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 516,
+          "name": "Dan Hooker",
+          "logo": "https://media.api-sports.io/mma/fighters/516.png",
+          "winner": false
+        },
+        "second": {
+          "id": 332,
+          "name": "Arman Tsarukyan",
+          "logo": "https://media.api-sports.io/mma/fighters/332.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:48.207Z"
+}

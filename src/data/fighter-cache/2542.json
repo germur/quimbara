@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2542,
+    "name": "Clayton Carpenter",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2542.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "126 lbs",
+    "reach": "66'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 1,
+      "name": "MMA LAB"
+    },
+    "last_update": "2025-10-18T12:05:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2542,
+      "name": "Clayton Carpenter",
+      "photo": "https://media.api-sports.io/mma/fighters/2542.png"
+    },
+    "total": {
+      "win": 8,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 0
+    },
+    "sub": {
+      "win": 4,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 567,
+      "date": "2023-02-18T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1676754000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Andrade vs. Blanchfield",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2368,
+          "name": "Juancamilo Ronderos",
+          "logo": "https://media.api-sports.io/mma/fighters/2368.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2542,
+          "name": "Clayton Carpenter",
+          "logo": "https://media.api-sports.io/mma/fighters/2542.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1646,
+      "date": "2024-10-12T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1728734400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Taira",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2687,
+          "name": "Lucas Rocha",
+          "logo": "https://media.api-sports.io/mma/fighters/2687.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2542,
+          "name": "Clayton Carpenter",
+          "logo": "https://media.api-sports.io/mma/fighters/2542.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1770,
+      "date": "2025-01-18T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1737241200,
+      "timezone": "UTC",
+      "slug": "UFC 311: Makhachev vs. Moicano",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2542,
+          "name": "Clayton Carpenter",
+          "logo": "https://media.api-sports.io/mma/fighters/2542.png",
+          "winner": false
+        },
+        "second": {
+          "id": 732,
+          "name": "Tagir Ulanbekov",
+          "logo": "https://media.api-sports.io/mma/fighters/732.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2237,
+      "date": "2025-10-11T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1760221800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Oliveira vs. Gamrot",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2542,
+          "name": "Clayton Carpenter",
+          "logo": "https://media.api-sports.io/mma/fighters/2542.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2563,
+          "name": "Jafel Filho",
+          "logo": "https://media.api-sports.io/mma/fighters/2563.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:33.794Z"
+}

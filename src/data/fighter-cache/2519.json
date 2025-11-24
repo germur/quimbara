@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 2519,
+    "name": "Viacheslav Borshchev",
+    "nickname": "Slava Claus",
+    "photo": "https://media.api-sports.io/mma/fighters/2519.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "156 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 23,
+      "name": "Alpha Male"
+    },
+    "last_update": "2025-11-22T12:01:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2519,
+      "name": "Viacheslav Borshchev",
+      "photo": "https://media.api-sports.io/mma/fighters/2519.png"
+    },
+    "total": {
+      "win": 8,
+      "loss": 7,
+      "draw": 1
+    },
+    "ko": {
+      "win": 6,
+      "loss": 0
+    },
+    "sub": {
+      "win": 0,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 706,
+      "date": "2023-05-20T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1684625400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs. Hill",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2519,
+          "name": "Viacheslav Borshchev",
+          "logo": "https://media.api-sports.io/mma/fighters/2519.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2502,
+          "name": "Maheshate",
+          "logo": "https://media.api-sports.io/mma/fighters/2502.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1053,
+      "date": "2023-11-12T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1699750800,
+      "timezone": "UTC",
+      "slug": "UFC 295: ProchÃ¡zka vs. Pereira",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2519,
+          "name": "Viacheslav Borshchev",
+          "logo": "https://media.api-sports.io/mma/fighters/2519.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2586,
+          "name": "Nazim Sadykhov",
+          "logo": "https://media.api-sports.io/mma/fighters/2586.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1366,
+      "date": "2024-05-11T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1715428800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Nascimento",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2519,
+          "name": "Viacheslav Borshchev",
+          "logo": "https://media.api-sports.io/mma/fighters/2519.png",
+          "winner": false
+        },
+        "second": {
+          "id": 685,
+          "name": "Chase Hooper",
+          "logo": "https://media.api-sports.io/mma/fighters/685.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1578,
+      "date": "2024-08-24T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1724511600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Borralho",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2692,
+          "name": "James Llontop",
+          "logo": "https://media.api-sports.io/mma/fighters/2692.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2519,
+          "name": "Viacheslav Borshchev",
+          "logo": "https://media.api-sports.io/mma/fighters/2519.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1827,
+      "date": "2025-02-09T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1739066400,
+      "timezone": "UTC",
+      "slug": "UFC 312: Du Plessis vs. Strickland 2",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2519,
+          "name": "Viacheslav Borshchev",
+          "logo": "https://media.api-sports.io/mma/fighters/2519.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2664,
+          "name": "Tom Nolan",
+          "logo": "https://media.api-sports.io/mma/fighters/2664.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2148,
+      "date": "2025-06-29T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1751155200,
+      "timezone": "UTC",
+      "slug": "UFC 317: Topuria vs. Oliveira",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2519,
+          "name": "Viacheslav Borshchev",
+          "logo": "https://media.api-sports.io/mma/fighters/2519.png",
+          "winner": false
+        },
+        "second": {
+          "id": 519,
+          "name": "Terrance McKinney",
+          "logo": "https://media.api-sports.io/mma/fighters/519.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2399,
+      "date": "2025-11-15T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1763247600,
+      "timezone": "UTC",
+      "slug": "UFC 322: Della Maddalena vs. Makhachev",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2784,
+          "name": "Matheus Camilo",
+          "logo": "https://media.api-sports.io/mma/fighters/2784.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2519,
+          "name": "Viacheslav Borshchev",
+          "logo": "https://media.api-sports.io/mma/fighters/2519.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:25.138Z"
+}

@@ -1,0 +1,324 @@
+{
+  "profile": {
+    "id": 2516,
+    "name": "Tatsuro Taira",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2516.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "125 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 681,
+      "name": "Paraestra Okinawa"
+    },
+    "last_update": "2025-08-10T00:06:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2516,
+      "name": "Tatsuro Taira",
+      "photo": "https://media.api-sports.io/mma/fighters/2516.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 1,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 0
+    },
+    "sub": {
+      "win": 7,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 543,
+      "date": "2023-02-05T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1675566000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Spivac",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2569,
+          "name": "Jesus Aguilar",
+          "logo": "https://media.api-sports.io/mma/fighters/2569.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2516,
+          "name": "Tatsuro Taira",
+          "logo": "https://media.api-sports.io/mma/fighters/2516.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 784,
+      "date": "2023-07-09T01:10:00+00:00",
+      "time": "01:10",
+      "timestamp": 1688865000,
+      "timezone": "UTC",
+      "slug": "UFC 290: Volkanovski vs. Rodriguez",
+      "is_main": false,
+      "category": "Catch Weight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2545,
+          "name": "Edgar Chairez",
+          "logo": "https://media.api-sports.io/mma/fighters/2545.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2516,
+          "name": "Tatsuro Taira",
+          "logo": "https://media.api-sports.io/mma/fighters/2516.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 988,
+      "date": "2023-10-14T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1697284800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yusuff vs. Barboza",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2516,
+          "name": "Tatsuro Taira",
+          "logo": "https://media.api-sports.io/mma/fighters/2516.png",
+          "winner": false
+        },
+        "second": {
+          "id": 708,
+          "name": "David Dvorak",
+          "logo": "https://media.api-sports.io/mma/fighters/708.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1083,
+      "date": "2023-12-10T01:05:00+00:00",
+      "time": "01:05",
+      "timestamp": 1702170300,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2440,
+          "name": "Carlos Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/2440.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2516,
+          "name": "Tatsuro Taira",
+          "logo": "https://media.api-sports.io/mma/fighters/2516.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1423,
+      "date": "2024-06-01T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1717279200,
+      "timezone": "UTC",
+      "slug": "UFC 302: Makhachev vs. Poirier",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2516,
+          "name": "Tatsuro Taira",
+          "logo": "https://media.api-sports.io/mma/fighters/2516.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1431,
+      "date": "2024-06-15T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1718474400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Perez vs. Taira",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2516,
+          "name": "Tatsuro Taira",
+          "logo": "https://media.api-sports.io/mma/fighters/2516.png",
+          "winner": true
+        },
+        "second": {
+          "id": 314,
+          "name": "Alex Perez",
+          "logo": "https://media.api-sports.io/mma/fighters/314.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1617,
+      "date": "2024-10-12T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1728745200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Taira",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2516,
+          "name": "Tatsuro Taira",
+          "logo": "https://media.api-sports.io/mma/fighters/2516.png",
+          "winner": false
+        },
+        "second": {
+          "id": 716,
+          "name": "Brandon Royval",
+          "logo": "https://media.api-sports.io/mma/fighters/716.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2107,
+      "date": "2025-08-02T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1754154000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Albazi vs. Taira",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2516,
+          "name": "Tatsuro Taira",
+          "logo": "https://media.api-sports.io/mma/fighters/2516.png",
+          "winner": false
+        },
+        "second": {
+          "id": 746,
+          "name": "Amir Albazi",
+          "logo": "https://media.api-sports.io/mma/fighters/746.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2191,
+      "date": "2025-08-03T03:45:00+00:00",
+      "time": "03:45",
+      "timestamp": 1754192700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Taira vs. Park",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2556,
+          "name": "HyunSung Park",
+          "logo": "https://media.api-sports.io/mma/fighters/2556.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2516,
+          "name": "Tatsuro Taira",
+          "logo": "https://media.api-sports.io/mma/fighters/2516.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2389,
+      "date": "2025-12-06T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1765054800,
+      "timezone": "UTC",
+      "slug": "UFC 323: Dvalishvili vs. Yan 2",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 2516,
+          "name": "Tatsuro Taira",
+          "logo": "https://media.api-sports.io/mma/fighters/2516.png",
+          "winner": false
+        },
+        "second": {
+          "id": 604,
+          "name": "Brandon Moreno",
+          "logo": "https://media.api-sports.io/mma/fighters/604.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:59:14.701Z"
+}

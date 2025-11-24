@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 400,
+    "name": "Kurt Holobaugh",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/400.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "156 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 190,
+      "name": "Gracie United"
+    },
+    "last_update": "2025-06-07T12:03:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 400,
+      "name": "Kurt Holobaugh",
+      "photo": "https://media.api-sports.io/mma/fighters/400.png"
+    },
+    "total": {
+      "win": 22,
+      "loss": 10,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 1
+    },
+    "sub": {
+      "win": 10,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 845,
+      "date": "2023-08-08T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1691517600,
+      "timezone": "UTC",
+      "slug": "The Ultimate Fighter 31 Semifinal: McGregor vs. Chandler",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2188,
+          "name": "Jason Knight",
+          "logo": "https://media.api-sports.io/mma/fighters/2188.png",
+          "winner": false
+        },
+        "second": {
+          "id": 400,
+          "name": "Kurt Holobaugh",
+          "logo": "https://media.api-sports.io/mma/fighters/400.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 865,
+      "date": "2023-08-20T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1692491400,
+      "timezone": "UTC",
+      "slug": "UFC 292: Sterling vs. O'Malley",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 429,
+          "name": "Austin Hubbard",
+          "logo": "https://media.api-sports.io/mma/fighters/429.png",
+          "winner": false
+        },
+        "second": {
+          "id": 400,
+          "name": "Kurt Holobaugh",
+          "logo": "https://media.api-sports.io/mma/fighters/400.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1261,
+      "date": "2024-03-23T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1711206000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ribas vs. Namajunas",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2518,
+          "name": "Trey Ogden",
+          "logo": "https://media.api-sports.io/mma/fighters/2518.png",
+          "winner": true
+        },
+        "second": {
+          "id": 400,
+          "name": "Kurt Holobaugh",
+          "logo": "https://media.api-sports.io/mma/fighters/400.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1517,
+      "date": "2024-07-20T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1721491200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lemos vs. Jandiroba",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2644,
+          "name": "Kaynan Kruschewsky",
+          "logo": "https://media.api-sports.io/mma/fighters/2644.png",
+          "winner": false
+        },
+        "second": {
+          "id": 400,
+          "name": "Kurt Holobaugh",
+          "logo": "https://media.api-sports.io/mma/fighters/400.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1919,
+      "date": "2025-03-16T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1742085000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Dolidze 2",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 400,
+          "name": "Kurt Holobaugh",
+          "logo": "https://media.api-sports.io/mma/fighters/400.png",
+          "winner": false
+        },
+        "second": {
+          "id": 17,
+          "name": "Alexander Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/17.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2070,
+      "date": "2025-05-31T22:40:00+00:00",
+      "time": "22:40",
+      "timestamp": 1748731200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Barber",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 766,
+          "name": "Jordan Leavitt",
+          "logo": "https://media.api-sports.io/mma/fighters/766.png",
+          "winner": true
+        },
+        "second": {
+          "id": 400,
+          "name": "Kurt Holobaugh",
+          "logo": "https://media.api-sports.io/mma/fighters/400.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:33.381Z"
+}

@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 100,
+    "name": "Bryan Barberena",
+    "nickname": "Bam Bam",
+    "photo": "https://media.api-sports.io/mma/fighters/100.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "186 lbs",
+    "reach": "72.5'",
+    "stance": "Southpaw",
+    "category": "Welterweight",
+    "team": {
+      "id": 68,
+      "name": "Gym-O"
+    },
+    "last_update": "2025-06-04T14:00:36+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 100,
+      "name": "Bryan Barberena",
+      "photo": "https://media.api-sports.io/mma/fighters/100.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 12,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 2
+    },
+    "sub": {
+      "win": 2,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 622,
+      "date": "2023-03-18T21:30:00+00:00",
+      "time": "21:30",
+      "timestamp": 1679175000,
+      "timezone": "UTC",
+      "slug": "UFC 286: Edwards vs. Usman 3",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 100,
+          "name": "Bryan Barberena",
+          "logo": "https://media.api-sports.io/mma/fighters/100.png",
+          "winner": false
+        },
+        "second": {
+          "id": 166,
+          "name": "Gunnar Nelson",
+          "logo": "https://media.api-sports.io/mma/fighters/166.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 808,
+      "date": "2023-07-22T17:20:00+00:00",
+      "time": "17:20",
+      "timestamp": 1690046400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Aspinall vs. Tybura",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 100,
+          "name": "Bryan Barberena",
+          "logo": "https://media.api-sports.io/mma/fighters/100.png",
+          "winner": false
+        },
+        "second": {
+          "id": 648,
+          "name": "Makhmud Muradov",
+          "logo": "https://media.api-sports.io/mma/fighters/648.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1227,
+      "date": "2024-03-16T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1710601200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tuivasa vs. Tybura",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 100,
+          "name": "Bryan Barberena",
+          "logo": "https://media.api-sports.io/mma/fighters/100.png",
+          "winner": false
+        },
+        "second": {
+          "id": 316,
+          "name": "Gerald Meerschaert",
+          "logo": "https://media.api-sports.io/mma/fighters/316.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:43.774Z"
+}

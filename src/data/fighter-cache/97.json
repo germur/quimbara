@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 97,
+    "name": "Alex Caceres",
+    "nickname": "Bruce Leeroy",
+    "photo": "https://media.api-sports.io/mma/fighters/97.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "145 lbs",
+    "reach": "73.5'",
+    "stance": "Southpaw",
+    "category": "Featherweight",
+    "team": {
+      "id": 1,
+      "name": "MMA LAB"
+    },
+    "last_update": "2025-06-04T13:59:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 97,
+      "name": "Alex Caceres",
+      "photo": "https://media.api-sports.io/mma/fighters/97.png"
+    },
+    "total": {
+      "win": 21,
+      "loss": 15,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 1
+    },
+    "sub": {
+      "win": 7,
+      "loss": 7
+    }
+  },
+  "fights": [
+    {
+      "id": 726,
+      "date": "2023-06-04T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1685847600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kara-France vs. Albazi",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 795,
+          "name": "Daniel Pineda",
+          "logo": "https://media.api-sports.io/mma/fighters/795.png",
+          "winner": false
+        },
+        "second": {
+          "id": 97,
+          "name": "Alex Caceres",
+          "logo": "https://media.api-sports.io/mma/fighters/97.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 881,
+      "date": "2023-08-26T12:15:00+00:00",
+      "time": "12:15",
+      "timestamp": 1693052100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. The Korean Zombie",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 97,
+          "name": "Alex Caceres",
+          "logo": "https://media.api-sports.io/mma/fighters/97.png",
+          "winner": false
+        },
+        "second": {
+          "id": 649,
+          "name": "Giga Chikadze",
+          "logo": "https://media.api-sports.io/mma/fighters/649.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1374,
+      "date": "2024-05-11T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1715439600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Nascimento",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 607,
+          "name": "Sean Woodson",
+          "logo": "https://media.api-sports.io/mma/fighters/607.png",
+          "winner": true
+        },
+        "second": {
+          "id": 97,
+          "name": "Alex Caceres",
+          "logo": "https://media.api-sports.io/mma/fighters/97.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:32.306Z"
+}

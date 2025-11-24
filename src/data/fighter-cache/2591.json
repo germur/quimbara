@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 2591,
+    "name": "Nurullo Aliev",
+    "nickname": "Tajik Eagle",
+    "photo": "https://media.api-sports.io/mma/fighters/2591.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "155 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 160,
+      "name": "Kaizen MMA"
+    },
+    "last_update": "2025-11-24T00:06:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2591,
+      "name": "Nurullo Aliev",
+      "photo": "https://media.api-sports.io/mma/fighters/2591.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 0,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 0
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 578,
+      "date": "2023-02-25T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1677366000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Muniz vs. Allen",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2591,
+          "name": "Nurullo Aliev",
+          "logo": "https://media.api-sports.io/mma/fighters/2591.png",
+          "winner": true
+        },
+        "second": {
+          "id": 797,
+          "name": "Rafael Alves",
+          "logo": "https://media.api-sports.io/mma/fighters/797.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1054,
+      "date": "2023-11-12T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1699750800,
+      "timezone": "UTC",
+      "slug": "UFC 295: Jones vs. Miocic",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2591,
+          "name": "Nurullo Aliev",
+          "logo": "https://media.api-sports.io/mma/fighters/2591.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2582,
+          "name": "Mateusz Rebecki",
+          "logo": "https://media.api-sports.io/mma/fighters/2582.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1815,
+      "date": "2025-01-11T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1736600400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs Ribas 2",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2610,
+          "name": "Yanal Ashmouz",
+          "logo": "https://media.api-sports.io/mma/fighters/2610.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2591,
+          "name": "Nurullo Aliev",
+          "logo": "https://media.api-sports.io/mma/fighters/2591.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1843,
+      "date": "2025-01-11T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1736600400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs Ribas 2",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 481,
+          "name": "Joe Solecki",
+          "logo": "https://media.api-sports.io/mma/fighters/481.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2591,
+          "name": "Nurullo Aliev",
+          "logo": "https://media.api-sports.io/mma/fighters/2591.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2375,
+      "date": "2025-11-22T15:30:00+00:00",
+      "time": "15:30",
+      "timestamp": 1763825400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tsarukyan vs. Hooker",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2832,
+          "name": "Shem Rock",
+          "logo": "https://media.api-sports.io/mma/fighters/2832.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2591,
+          "name": "Nurullo Aliev",
+          "logo": "https://media.api-sports.io/mma/fighters/2591.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:02.928Z"
+}

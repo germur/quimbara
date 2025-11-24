@@ -1,0 +1,352 @@
+{
+  "profile": {
+    "id": 2595,
+    "name": "Sedriques Dumas",
+    "nickname": "The Reaper",
+    "photo": "https://media.api-sports.io/mma/fighters/2595.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "186 lbs",
+    "reach": "79'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 704,
+      "name": "Remedy BJJ & MMA"
+    },
+    "last_update": "2025-09-20T12:05:35+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2595,
+      "name": "Sedriques Dumas",
+      "photo": "https://media.api-sports.io/mma/fighters/2595.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 2
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 599,
+      "date": "2023-03-11T21:40:00+00:00",
+      "time": "21:40",
+      "timestamp": 1678570800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Dvalishvili",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2497,
+          "name": "Josh Fremd",
+          "logo": "https://media.api-sports.io/mma/fighters/2497.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2595,
+          "name": "Sedriques Dumas",
+          "logo": "https://media.api-sports.io/mma/fighters/2595.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 761,
+      "date": "2023-06-24T15:30:00+00:00",
+      "time": "15:30",
+      "timestamp": 1687620600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Topuria",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2595,
+          "name": "Sedriques Dumas",
+          "logo": "https://media.api-sports.io/mma/fighters/2595.png",
+          "winner": true
+        },
+        "second": {
+          "id": 818,
+          "name": "Cody Brundage",
+          "logo": "https://media.api-sports.io/mma/fighters/818.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1012,
+      "date": "2023-10-21T16:15:00+00:00",
+      "time": "16:15",
+      "timestamp": 1697904900,
+      "timezone": "UTC",
+      "slug": "UFC 294: Makhachev vs. Volkanovski 2",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2595,
+          "name": "Sedriques Dumas",
+          "logo": "https://media.api-sports.io/mma/fighters/2595.png",
+          "winner": true
+        },
+        "second": {
+          "id": 906,
+          "name": "Abu Azaitar",
+          "logo": "https://media.api-sports.io/mma/fighters/906.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1296,
+      "date": "2024-03-30T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1711821600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Fiorot",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2595,
+          "name": "Sedriques Dumas",
+          "logo": "https://media.api-sports.io/mma/fighters/2595.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2590,
+          "name": "Nursulton Ruziboev",
+          "logo": "https://media.api-sports.io/mma/fighters/2590.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1447,
+      "date": "2024-06-22T17:20:00+00:00",
+      "time": "17:20",
+      "timestamp": 1719076800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2480,
+          "name": "Denis Tiuliulin",
+          "logo": "https://media.api-sports.io/mma/fighters/2480.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2595,
+          "name": "Sedriques Dumas",
+          "logo": "https://media.api-sports.io/mma/fighters/2595.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1529,
+      "date": "2024-08-03T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1722672000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2480,
+          "name": "Denis Tiuliulin",
+          "logo": "https://media.api-sports.io/mma/fighters/2480.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2595,
+          "name": "Sedriques Dumas",
+          "logo": "https://media.api-sports.io/mma/fighters/2595.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1766,
+      "date": "2025-01-18T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1737219600,
+      "timezone": "UTC",
+      "slug": "UFC 311: Makhachev vs. Tsarukyan 2",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2595,
+          "name": "Sedriques Dumas",
+          "logo": "https://media.api-sports.io/mma/fighters/2595.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2640,
+          "name": "Zachary Reese",
+          "logo": "https://media.api-sports.io/mma/fighters/2640.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1930,
+      "date": "2025-04-12T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1744500600,
+      "timezone": "UTC",
+      "slug": "UFC 314: Volkanovski vs. Lopes",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 108,
+          "name": "Michal Oleksiejczuk",
+          "logo": "https://media.api-sports.io/mma/fighters/108.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2595,
+          "name": "Sedriques Dumas",
+          "logo": "https://media.api-sports.io/mma/fighters/2595.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2159,
+      "date": "2025-06-28T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1751153400,
+      "timezone": "UTC",
+      "slug": "UFC 317: Topuria vs. Oliveira",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2794,
+          "name": "Jackson McVey",
+          "logo": "https://media.api-sports.io/mma/fighters/2794.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2595,
+          "name": "Sedriques Dumas",
+          "logo": "https://media.api-sports.io/mma/fighters/2595.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2222,
+      "date": "2025-09-13T20:20:00+00:00",
+      "time": "20:20",
+      "timestamp": 1757794800,
+      "timezone": "UTC",
+      "slug": "Noche UFC: Lopes vs. Silva",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2595,
+          "name": "Sedriques Dumas",
+          "logo": "https://media.api-sports.io/mma/fighters/2595.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2640,
+          "name": "Zachary Reese",
+          "logo": "https://media.api-sports.io/mma/fighters/2640.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2361,
+      "date": "2025-11-01T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1761998400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Garcia vs. Onama",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2595,
+          "name": "Sedriques Dumas",
+          "logo": "https://media.api-sports.io/mma/fighters/2595.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2821,
+          "name": "Donte Johnson",
+          "logo": "https://media.api-sports.io/mma/fighters/2821.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:20.277Z"
+}

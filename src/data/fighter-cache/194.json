@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 194,
+    "name": "Justin Gaethje",
+    "nickname": "The Highlight",
+    "photo": "https://media.api-sports.io/mma/fighters/194.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "156 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 19,
+      "name": "Elevation Fight"
+    },
+    "last_update": "2025-06-04T14:47:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 194,
+      "name": "Justin Gaethje",
+      "photo": "https://media.api-sports.io/mma/fighters/194.png"
+    },
+    "total": {
+      "win": 26,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 20,
+      "loss": 3
+    },
+    "sub": {
+      "win": 1,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 621,
+      "date": "2023-03-18T21:45:00+00:00",
+      "time": "21:45",
+      "timestamp": 1679175900,
+      "timezone": "UTC",
+      "slug": "UFC 286: Edwards vs. Usman 3",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 330,
+          "name": "Rafael Fiziev",
+          "logo": "https://media.api-sports.io/mma/fighters/330.png",
+          "winner": false
+        },
+        "second": {
+          "id": 194,
+          "name": "Justin Gaethje",
+          "logo": "https://media.api-sports.io/mma/fighters/194.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 827,
+      "date": "2023-07-30T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1690689600,
+      "timezone": "UTC",
+      "slug": "UFC 291: Poirier vs. Gaethje 2",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 194,
+          "name": "Justin Gaethje",
+          "logo": "https://media.api-sports.io/mma/fighters/194.png",
+          "winner": true
+        },
+        "second": {
+          "id": 255,
+          "name": "Dustin Poirier",
+          "logo": "https://media.api-sports.io/mma/fighters/255.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1223,
+      "date": "2024-04-13T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1713031200,
+      "timezone": "UTC",
+      "slug": "UFC 300: Pereira vs. Hill",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 256,
+          "name": "Max Holloway",
+          "logo": "https://media.api-sports.io/mma/fighters/256.png",
+          "winner": true
+        },
+        "second": {
+          "id": 194,
+          "name": "Justin Gaethje",
+          "logo": "https://media.api-sports.io/mma/fighters/194.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1874,
+      "date": "2025-03-08T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1741460400,
+      "timezone": "UTC",
+      "slug": "UFC 313: Pereira vs. Ankalaev",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 199,
+          "name": "TBA",
+          "logo": "https://media.api-sports.io/mma/fighters/199.png",
+          "winner": false
+        },
+        "second": {
+          "id": 194,
+          "name": "Justin Gaethje",
+          "logo": "https://media.api-sports.io/mma/fighters/194.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1956,
+      "date": "2025-03-09T04:45:00+00:00",
+      "time": "04:45",
+      "timestamp": 1741495500,
+      "timezone": "UTC",
+      "slug": "UFC 313: Pereira vs. Ankalaev",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 330,
+          "name": "Rafael Fiziev",
+          "logo": "https://media.api-sports.io/mma/fighters/330.png",
+          "winner": false
+        },
+        "second": {
+          "id": 194,
+          "name": "Justin Gaethje",
+          "logo": "https://media.api-sports.io/mma/fighters/194.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:26.314Z"
+}

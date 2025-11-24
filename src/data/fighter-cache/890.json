@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 890,
+    "name": "Natan Levy",
+    "nickname": "Lethal",
+    "photo": "https://media.api-sports.io/mma/fighters/890.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "157 lbs",
+    "reach": "71'",
+    "stance": "Southpaw",
+    "category": "Lightweight",
+    "team": {
+      "id": 31,
+      "name": "Xtreme Couture"
+    },
+    "last_update": "2025-06-04T20:35:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 890,
+      "name": "Natan Levy",
+      "photo": "https://media.api-sports.io/mma/fighters/890.png"
+    },
+    "total": {
+      "win": 8,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 0,
+      "loss": 0
+    },
+    "sub": {
+      "win": 3,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 962,
+      "date": "2023-09-16T23:15:00+00:00",
+      "time": "23:15",
+      "timestamp": 1694906100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Grasso vs. Shevchenko 2",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2292,
+          "name": "Alex Reyes",
+          "logo": "https://media.api-sports.io/mma/fighters/2292.png",
+          "winner": false
+        },
+        "second": {
+          "id": 890,
+          "name": "Natan Levy",
+          "logo": "https://media.api-sports.io/mma/fighters/890.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1234,
+      "date": "2024-03-16T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1710590400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tuivasa vs. Tybura",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 420,
+          "name": "Mike Davis",
+          "logo": "https://media.api-sports.io/mma/fighters/420.png",
+          "winner": true
+        },
+        "second": {
+          "id": 890,
+          "name": "Natan Levy",
+          "logo": "https://media.api-sports.io/mma/fighters/890.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:57.374Z"
+}

@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 2620,
+    "name": "Kevin Jousset",
+    "nickname": "Air",
+    "photo": "https://media.api-sports.io/mma/fighters/2620.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "171 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 48,
+      "name": "City Kickboxing"
+    },
+    "last_update": "2025-06-05T11:00:35+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2620,
+      "name": "Kevin Jousset",
+      "photo": "https://media.api-sports.io/mma/fighters/2620.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 2
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 955,
+      "date": "2023-09-09T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1694298600,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2621,
+          "name": "Kiefer Crosbie",
+          "logo": "https://media.api-sports.io/mma/fighters/2621.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2620,
+          "name": "Kevin Jousset",
+          "logo": "https://media.api-sports.io/mma/fighters/2620.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1082,
+      "date": "2023-12-10T02:40:00+00:00",
+      "time": "02:40",
+      "timestamp": 1702176000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2620,
+          "name": "Kevin Jousset",
+          "logo": "https://media.api-sports.io/mma/fighters/2620.png",
+          "winner": true
+        },
+        "second": {
+          "id": 588,
+          "name": "Song Kenan",
+          "logo": "https://media.api-sports.io/mma/fighters/588.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1369,
+      "date": "2024-05-11T20:20:00+00:00",
+      "time": "20:20",
+      "timestamp": 1715458800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Nascimento",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2620,
+          "name": "Kevin Jousset",
+          "logo": "https://media.api-sports.io/mma/fighters/2620.png",
+          "winner": false
+        },
+        "second": {
+          "id": 807,
+          "name": "Jared Gooden",
+          "logo": "https://media.api-sports.io/mma/fighters/807.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1640,
+      "date": "2024-09-28T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1727521200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moicano vs. Saint Denis",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2399,
+          "name": "Bryan Battle",
+          "logo": "https://media.api-sports.io/mma/fighters/2399.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2620,
+          "name": "Kevin Jousset",
+          "logo": "https://media.api-sports.io/mma/fighters/2620.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1851,
+      "date": "2025-02-09T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1739059200,
+      "timezone": "UTC",
+      "slug": "UFC 312: Du Plessis vs. Strickland 2",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2620,
+          "name": "Kevin Jousset",
+          "logo": "https://media.api-sports.io/mma/fighters/2620.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2755,
+          "name": "Jonathan Micallef",
+          "logo": "https://media.api-sports.io/mma/fighters/2755.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:25.326Z"
+}

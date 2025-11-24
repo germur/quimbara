@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "id": 2602,
+    "name": "Themba Gorimbo",
+    "nickname": "The Answer",
+    "photo": "https://media.api-sports.io/mma/fighters/2602.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "171 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 31,
+      "name": "Xtreme Couture"
+    },
+    "last_update": "2025-11-09T00:00:56+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2602,
+      "name": "Themba Gorimbo",
+      "photo": "https://media.api-sports.io/mma/fighters/2602.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 1
+    },
+    "sub": {
+      "win": 6,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 566,
+      "date": "2023-02-18T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1676754000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Andrade vs. Blanchfield",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2602,
+          "name": "Themba Gorimbo",
+          "logo": "https://media.api-sports.io/mma/fighters/2602.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2387,
+          "name": "AJ Fletcher",
+          "logo": "https://media.api-sports.io/mma/fighters/2387.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 712,
+      "date": "2023-05-20T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1684612800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs. Hill",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2602,
+          "name": "Themba Gorimbo",
+          "logo": "https://media.api-sports.io/mma/fighters/2602.png",
+          "winner": true
+        },
+        "second": {
+          "id": 392,
+          "name": "Takashi Sato",
+          "logo": "https://media.api-sports.io/mma/fighters/392.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1210,
+      "date": "2024-02-03T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1706965200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dolidze vs. Imavov",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2509,
+          "name": "Pete Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/2509.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2602,
+          "name": "Themba Gorimbo",
+          "logo": "https://media.api-sports.io/mma/fighters/2602.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1125,
+      "date": "2024-02-03T21:10:00+00:00",
+      "time": "21:10",
+      "timestamp": 1706994600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dolidze vs. Imavov",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2509,
+          "name": "Pete Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/2509.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2602,
+          "name": "Themba Gorimbo",
+          "logo": "https://media.api-sports.io/mma/fighters/2602.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1384,
+      "date": "2024-05-18T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1716044400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Barboza vs. Murphy",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 459,
+          "name": "Ramiz Brahimaj",
+          "logo": "https://media.api-sports.io/mma/fighters/459.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2602,
+          "name": "Themba Gorimbo",
+          "logo": "https://media.api-sports.io/mma/fighters/2602.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1643,
+      "date": "2024-10-12T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1728734400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Taira",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 224,
+          "name": "Niko Price",
+          "logo": "https://media.api-sports.io/mma/fighters/224.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2602,
+          "name": "Themba Gorimbo",
+          "logo": "https://media.api-sports.io/mma/fighters/2602.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1758,
+      "date": "2024-12-07T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1733590800,
+      "timezone": "UTC",
+      "slug": "UFC 310: Pantoja vs. Asakura",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2602,
+          "name": "Themba Gorimbo",
+          "logo": "https://media.api-sports.io/mma/fighters/2602.png",
+          "winner": false
+        },
+        "second": {
+          "id": 99,
+          "name": "Vicente Luque",
+          "logo": "https://media.api-sports.io/mma/fighters/99.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2350,
+      "date": "2025-11-02T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1762043400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Garcia vs. Onama",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2602,
+          "name": "Themba Gorimbo",
+          "logo": "https://media.api-sports.io/mma/fighters/2602.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2370,
+          "name": "Jeremiah Wells",
+          "logo": "https://media.api-sports.io/mma/fighters/2370.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:11.051Z"
+}

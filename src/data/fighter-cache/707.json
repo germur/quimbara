@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 707,
+    "name": "Jamall Emmers",
+    "nickname": "Pretty Boy",
+    "photo": "https://media.api-sports.io/mma/fighters/707.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "145 lbs",
+    "reach": "74'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 311,
+      "name": "Pinnacle MMA"
+    },
+    "last_update": "2025-11-15T12:07:35+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 707,
+      "name": "Jamall Emmers",
+      "photo": "https://media.api-sports.io/mma/fighters/707.png"
+    },
+    "total": {
+      "win": 21,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 3
+    },
+    "sub": {
+      "win": 3,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 564,
+      "date": "2023-02-18T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1676754000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Andrade vs. Blanchfield",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2383,
+          "name": "Khusein Askhabov",
+          "logo": "https://media.api-sports.io/mma/fighters/2383.png",
+          "winner": false
+        },
+        "second": {
+          "id": 707,
+          "name": "Jamall Emmers",
+          "logo": "https://media.api-sports.io/mma/fighters/707.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 760,
+      "date": "2023-06-24T16:10:00+00:00",
+      "time": "16:10",
+      "timestamp": 1687623000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Topuria",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2562,
+          "name": "Jack Jenkins",
+          "logo": "https://media.api-sports.io/mma/fighters/2562.png",
+          "winner": true
+        },
+        "second": {
+          "id": 707,
+          "name": "Jamall Emmers",
+          "logo": "https://media.api-sports.io/mma/fighters/707.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1052,
+      "date": "2023-11-11T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1699743600,
+      "timezone": "UTC",
+      "slug": "UFC 295: ProchÃ¡zka vs. Pereira",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 707,
+          "name": "Jamall Emmers",
+          "logo": "https://media.api-sports.io/mma/fighters/707.png",
+          "winner": true
+        },
+        "second": {
+          "id": 814,
+          "name": "Dennis Buzukja",
+          "logo": "https://media.api-sports.io/mma/fighters/814.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1320,
+      "date": "2024-03-30T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1711810800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Fiorot",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 707,
+          "name": "Jamall Emmers",
+          "logo": "https://media.api-sports.io/mma/fighters/707.png",
+          "winner": false
+        },
+        "second": {
+          "id": 694,
+          "name": "Nate Landwehr",
+          "logo": "https://media.api-sports.io/mma/fighters/694.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1990,
+      "date": "2025-03-29T20:25:00+00:00",
+      "time": "20:25",
+      "timestamp": 1743279900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Erceg",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2489,
+          "name": "Gabriel Miranda",
+          "logo": "https://media.api-sports.io/mma/fighters/2489.png",
+          "winner": false
+        },
+        "second": {
+          "id": 707,
+          "name": "Jamall Emmers",
+          "logo": "https://media.api-sports.io/mma/fighters/707.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2363,
+      "date": "2025-11-08T23:40:00+00:00",
+      "time": "23:40",
+      "timestamp": 1762645200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Bonfim vs. Brown",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 707,
+          "name": "Jamall Emmers",
+          "logo": "https://media.api-sports.io/mma/fighters/707.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2657,
+          "name": "Hyder Amil",
+          "logo": "https://media.api-sports.io/mma/fighters/2657.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:55:21.472Z"
+}

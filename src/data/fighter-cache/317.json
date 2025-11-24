@@ -1,0 +1,352 @@
+{
+  "profile": {
+    "id": 317,
+    "name": "Kevin Holland",
+    "nickname": "Trailblazer",
+    "photo": "https://media.api-sports.io/mma/fighters/317.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "170 lbs",
+    "reach": "81'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 157,
+      "name": "Travis Lutter BJJ"
+    },
+    "last_update": "2025-10-26T00:03:11+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 317,
+      "name": "Kevin Holland",
+      "photo": "https://media.api-sports.io/mma/fighters/317.png"
+    },
+    "total": {
+      "win": 28,
+      "loss": 14,
+      "draw": 0
+    },
+    "ko": {
+      "win": 13,
+      "loss": 2
+    },
+    "sub": {
+      "win": 10,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 645,
+      "date": "2023-04-09T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1681007400,
+      "timezone": "UTC",
+      "slug": "UFC 287: Pereira vs. Adesanya 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 897,
+          "name": "Santiago Ponzinibbio",
+          "logo": "https://media.api-sports.io/mma/fighters/897.png",
+          "winner": false
+        },
+        "second": {
+          "id": 317,
+          "name": "Kevin Holland",
+          "logo": "https://media.api-sports.io/mma/fighters/317.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 831,
+      "date": "2023-07-30T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1690682400,
+      "timezone": "UTC",
+      "slug": "UFC 291: Poirier vs. Gaethje 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 317,
+          "name": "Kevin Holland",
+          "logo": "https://media.api-sports.io/mma/fighters/317.png",
+          "winner": true
+        },
+        "second": {
+          "id": 418,
+          "name": "Michael Chiesa",
+          "logo": "https://media.api-sports.io/mma/fighters/418.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 943,
+      "date": "2023-09-17T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1694921400,
+      "timezone": "UTC",
+      "slug": "Noche UFC: Grasso vs. Shevchenko 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2411,
+          "name": "Jack Della Maddalena",
+          "logo": "https://media.api-sports.io/mma/fighters/2411.png",
+          "winner": true
+        },
+        "second": {
+          "id": 317,
+          "name": "Kevin Holland",
+          "logo": "https://media.api-sports.io/mma/fighters/317.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1170,
+      "date": "2024-03-09T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1710010800,
+      "timezone": "UTC",
+      "slug": "UFC 299: O'Malley vs. Vera 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2659,
+          "name": "Michael Page",
+          "logo": "https://media.api-sports.io/mma/fighters/2659.png",
+          "winner": true
+        },
+        "second": {
+          "id": 317,
+          "name": "Kevin Holland",
+          "logo": "https://media.api-sports.io/mma/fighters/317.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1428,
+      "date": "2024-06-01T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1717264800,
+      "timezone": "UTC",
+      "slug": "UFC 302: Makhachev vs. Poirier",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 108,
+          "name": "Michal Oleksiejczuk",
+          "logo": "https://media.api-sports.io/mma/fighters/108.png",
+          "winner": false
+        },
+        "second": {
+          "id": 317,
+          "name": "Kevin Holland",
+          "logo": "https://media.api-sports.io/mma/fighters/317.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1609,
+      "date": "2024-10-05T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1728151200,
+      "timezone": "UTC",
+      "slug": "UFC 307: Pereira vs. Rountree Jr.",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 317,
+          "name": "Kevin Holland",
+          "logo": "https://media.api-sports.io/mma/fighters/317.png",
+          "winner": false
+        },
+        "second": {
+          "id": 417,
+          "name": "Roman Dolidze",
+          "logo": "https://media.api-sports.io/mma/fighters/417.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1779,
+      "date": "2025-01-19T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1737255600,
+      "timezone": "UTC",
+      "slug": "UFC 311: Makhachev vs. Moicano",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2735,
+          "name": "Reinier de Ridder",
+          "logo": "https://media.api-sports.io/mma/fighters/2735.png",
+          "winner": true
+        },
+        "second": {
+          "id": 317,
+          "name": "Kevin Holland",
+          "logo": "https://media.api-sports.io/mma/fighters/317.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1897,
+      "date": "2025-03-22T21:30:00+00:00",
+      "time": "21:30",
+      "timestamp": 1742679000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Edwards vs. Brady",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 317,
+          "name": "Kevin Holland",
+          "logo": "https://media.api-sports.io/mma/fighters/317.png",
+          "winner": true
+        },
+        "second": {
+          "id": 166,
+          "name": "Gunnar Nelson",
+          "logo": "https://media.api-sports.io/mma/fighters/166.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2046,
+      "date": "2025-06-08T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1749348000,
+      "timezone": "UTC",
+      "slug": "UFC 316: Dvalishvili vs. O'Malley 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 317,
+          "name": "Kevin Holland",
+          "logo": "https://media.api-sports.io/mma/fighters/317.png",
+          "winner": true
+        },
+        "second": {
+          "id": 99,
+          "name": "Vicente Luque",
+          "logo": "https://media.api-sports.io/mma/fighters/99.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2182,
+      "date": "2025-07-19T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1752948000,
+      "timezone": "UTC",
+      "slug": "UFC 318: Holloway vs. Poirier 3",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 541,
+          "name": "Daniel Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/541.png",
+          "winner": true
+        },
+        "second": {
+          "id": 317,
+          "name": "Kevin Holland",
+          "logo": "https://media.api-sports.io/mma/fighters/317.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2270,
+      "date": "2025-10-19T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1760835600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: de Ridder vs. Allen",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2438,
+          "name": "Mike Malott",
+          "logo": "https://media.api-sports.io/mma/fighters/2438.png",
+          "winner": true
+        },
+        "second": {
+          "id": 317,
+          "name": "Kevin Holland",
+          "logo": "https://media.api-sports.io/mma/fighters/317.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:23.961Z"
+}

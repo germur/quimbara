@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 41,
+    "name": "Raphael Assuncao",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/41.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "136 lbs",
+    "reach": "66.5'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 34,
+      "name": "Ascension MMA"
+    },
+    "last_update": "2025-06-04T13:31:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 41,
+      "name": "Raphael Assuncao",
+      "photo": "https://media.api-sports.io/mma/fighters/41.png"
+    },
+    "total": {
+      "win": 28,
+      "loss": 10,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 3
+    },
+    "sub": {
+      "win": 10,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 598,
+      "date": "2023-03-11T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1678564800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Dvalishvili",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 668,
+          "name": "Davey Grant",
+          "logo": "https://media.api-sports.io/mma/fighters/668.png",
+          "winner": true
+        },
+        "second": {
+          "id": 41,
+          "name": "Raphael Assuncao",
+          "logo": "https://media.api-sports.io/mma/fighters/41.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:46.401Z"
+}

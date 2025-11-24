@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 775,
+    "name": "JP Buys",
+    "nickname": "Young Savage",
+    "photo": "https://media.api-sports.io/mma/fighters/775.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "136 lbs",
+    "reach": "67'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 31,
+      "name": "Xtreme Couture"
+    },
+    "last_update": "2025-06-04T19:38:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 775,
+      "name": "JP Buys",
+      "photo": "https://media.api-sports.io/mma/fighters/775.png"
+    },
+    "total": {
+      "win": 9,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 4
+    },
+    "sub": {
+      "win": 5,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 846,
+      "date": "2023-08-12T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1691879400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Luque vs. Dos Anjos",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2580,
+          "name": "Marcus McGhee",
+          "logo": "https://media.api-sports.io/mma/fighters/2580.png",
+          "winner": true
+        },
+        "second": {
+          "id": 775,
+          "name": "JP Buys",
+          "logo": "https://media.api-sports.io/mma/fighters/775.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:19.975Z"
+}

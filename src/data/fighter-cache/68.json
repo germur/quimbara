@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 68,
+    "name": "Kelvin Gastelum",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/68.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "191 lbs",
+    "reach": "71'",
+    "stance": "Southpaw",
+    "category": "Middleweight",
+    "team": {
+      "id": 20,
+      "name": "Fight Ready"
+    },
+    "last_update": "2025-09-20T12:12:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 68,
+      "name": "Kelvin Gastelum",
+      "photo": "https://media.api-sports.io/mma/fighters/68.png"
+    },
+    "total": {
+      "win": 21,
+      "loss": 10,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 0
+    },
+    "sub": {
+      "win": 6,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 638,
+      "date": "2023-04-09T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1681003800,
+      "timezone": "UTC",
+      "slug": "UFC 287: Pereira vs. Adesanya 2",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 68,
+          "name": "Kelvin Gastelum",
+          "logo": "https://media.api-sports.io/mma/fighters/68.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2313,
+          "name": "Chris Curtis",
+          "logo": "https://media.api-sports.io/mma/fighters/2313.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1068,
+      "date": "2023-12-03T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1701565200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dariush vs. Tsarukyan",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 68,
+          "name": "Kelvin Gastelum",
+          "logo": "https://media.api-sports.io/mma/fighters/68.png",
+          "winner": false
+        },
+        "second": {
+          "id": 679,
+          "name": "Sean Brady",
+          "logo": "https://media.api-sports.io/mma/fighters/679.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1350,
+      "date": "2024-06-22T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1719054000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 541,
+          "name": "Daniel Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/541.png",
+          "winner": false
+        },
+        "second": {
+          "id": 68,
+          "name": "Kelvin Gastelum",
+          "logo": "https://media.api-sports.io/mma/fighters/68.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1924,
+      "date": "2025-03-30T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1743294600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Erceg",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 776,
+          "name": "Joe Pyfer",
+          "logo": "https://media.api-sports.io/mma/fighters/776.png",
+          "winner": false
+        },
+        "second": {
+          "id": 68,
+          "name": "Kelvin Gastelum",
+          "logo": "https://media.api-sports.io/mma/fighters/68.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2020,
+      "date": "2025-06-08T03:20:00+00:00",
+      "time": "03:20",
+      "timestamp": 1749352800,
+      "timezone": "UTC",
+      "slug": "UFC 316: Dvalishvili vs. O'Malley 2",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 776,
+          "name": "Joe Pyfer",
+          "logo": "https://media.api-sports.io/mma/fighters/776.png",
+          "winner": true
+        },
+        "second": {
+          "id": 68,
+          "name": "Kelvin Gastelum",
+          "logo": "https://media.api-sports.io/mma/fighters/68.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2304,
+      "date": "2025-09-13T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1757802600,
+      "timezone": "UTC",
+      "slug": "Noche UFC: Lopes vs. Silva",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 767,
+          "name": "Dustin Stoltzfus",
+          "logo": "https://media.api-sports.io/mma/fighters/767.png",
+          "winner": false
+        },
+        "second": {
+          "id": 68,
+          "name": "Kelvin Gastelum",
+          "logo": "https://media.api-sports.io/mma/fighters/68.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:49:57.755Z"
+}

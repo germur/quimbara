@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 2580,
+    "name": "Marcus McGhee",
+    "nickname": "The Maniac",
+    "photo": "https://media.api-sports.io/mma/fighters/2580.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "136 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 1,
+      "name": "MMA LAB"
+    },
+    "last_update": "2025-08-02T12:04:36+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2580,
+      "name": "Marcus McGhee",
+      "photo": "https://media.api-sports.io/mma/fighters/2580.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 1,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 0
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 675,
+      "date": "2023-04-29T21:15:00+00:00",
+      "time": "21:15",
+      "timestamp": 1682802900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Simon",
+      "is_main": false,
+      "category": "Catch Weight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2580,
+          "name": "Marcus McGhee",
+          "logo": "https://media.api-sports.io/mma/fighters/2580.png",
+          "winner": true
+        },
+        "second": {
+          "id": 469,
+          "name": "Journey Newson",
+          "logo": "https://media.api-sports.io/mma/fighters/469.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 846,
+      "date": "2023-08-12T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1691879400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Luque vs. Dos Anjos",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2580,
+          "name": "Marcus McGhee",
+          "logo": "https://media.api-sports.io/mma/fighters/2580.png",
+          "winner": true
+        },
+        "second": {
+          "id": 775,
+          "name": "JP Buys",
+          "logo": "https://media.api-sports.io/mma/fighters/775.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1097,
+      "date": "2024-01-13T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1705150800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ankalaev vs. Walker 2",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2554,
+          "name": "Gaston BolaÃ±os",
+          "logo": "https://media.api-sports.io/mma/fighters/2554.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2580,
+          "name": "Marcus McGhee",
+          "logo": "https://media.api-sports.io/mma/fighters/2580.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1570,
+      "date": "2024-09-07T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1725750000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Brady",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 283,
+          "name": "Aiemann Zahabi",
+          "logo": "https://media.api-sports.io/mma/fighters/283.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2580,
+          "name": "Marcus McGhee",
+          "logo": "https://media.api-sports.io/mma/fighters/2580.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1695,
+      "date": "2024-11-16T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1731776400,
+      "timezone": "UTC",
+      "slug": "UFC 309: Jones vs. Miocic",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2580,
+          "name": "Marcus McGhee",
+          "logo": "https://media.api-sports.io/mma/fighters/2580.png",
+          "winner": true
+        },
+        "second": {
+          "id": 58,
+          "name": "Jonathan Martinez",
+          "logo": "https://media.api-sports.io/mma/fighters/58.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2149,
+      "date": "2025-07-26T20:40:00+00:00",
+      "time": "20:40",
+      "timestamp": 1753562400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. de Ridder",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2580,
+          "name": "Marcus McGhee",
+          "logo": "https://media.api-sports.io/mma/fighters/2580.png",
+          "winner": false
+        },
+        "second": {
+          "id": 118,
+          "name": "Petr Yan",
+          "logo": "https://media.api-sports.io/mma/fighters/118.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:28.268Z"
+}

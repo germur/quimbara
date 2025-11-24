@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2412,
+    "name": "Ange Loosa",
+    "nickname": "The Last Ninja",
+    "photo": "https://media.api-sports.io/mma/fighters/2412.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "170 lbs",
+    "reach": "74'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-06-21T12:03:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2412,
+      "name": "Ange Loosa",
+      "photo": "https://media.api-sports.io/mma/fighters/2412.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 0
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 888,
+      "date": "2023-09-02T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1693677600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 759,
+          "name": "Rhys McKee",
+          "logo": "https://media.api-sports.io/mma/fighters/759.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2412,
+          "name": "Ange Loosa",
+          "logo": "https://media.api-sports.io/mma/fighters/2412.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1229,
+      "date": "2024-03-16T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1710601200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tuivasa vs. Tybura",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2412,
+          "name": "Ange Loosa",
+          "logo": "https://media.api-sports.io/mma/fighters/2412.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2399,
+          "name": "Bryan Battle",
+          "logo": "https://media.api-sports.io/mma/fighters/2399.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1482,
+      "date": "2024-07-13T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1720893600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Namajunas vs. Cortez",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2412,
+          "name": "Ange Loosa",
+          "logo": "https://media.api-sports.io/mma/fighters/2412.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2551,
+          "name": "Gabriel Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2551.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2136,
+      "date": "2025-06-14T23:35:00+00:00",
+      "time": "23:35",
+      "timestamp": 1749944100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Usman vs. Buckley",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2412,
+          "name": "Ange Loosa",
+          "logo": "https://media.api-sports.io/mma/fighters/2412.png",
+          "winner": false
+        },
+        "second": {
+          "id": 628,
+          "name": "Phil Rowe",
+          "logo": "https://media.api-sports.io/mma/fighters/628.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:36.884Z"
+}

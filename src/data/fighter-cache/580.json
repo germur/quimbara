@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 580,
+    "name": "Sumudaerji",
+    "nickname": "The Tibetan Eagle",
+    "photo": "https://media.api-sports.io/mma/fighters/580.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "126 lbs",
+    "reach": "72'",
+    "stance": "Southpaw",
+    "category": "Flyweight",
+    "team": {
+      "id": 23,
+      "name": "Alpha Male"
+    },
+    "last_update": "2025-08-30T00:09:07+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 580,
+      "name": "Sumudaerji",
+      "photo": "https://media.api-sports.io/mma/fighters/580.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 13,
+      "loss": 0
+    },
+    "sub": {
+      "win": 1,
+      "loss": 6
+    }
+  },
+  "fights": [
+    {
+      "id": 1093,
+      "date": "2023-12-10T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1702179000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 580,
+          "name": "Sumudaerji",
+          "logo": "https://media.api-sports.io/mma/fighters/580.png",
+          "winner": false
+        },
+        "second": {
+          "id": 660,
+          "name": "Tim Elliott",
+          "logo": "https://media.api-sports.io/mma/fighters/660.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1084,
+      "date": "2023-12-10T04:30:00+00:00",
+      "time": "04:30",
+      "timestamp": 1702182600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2426,
+          "name": "Allan Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/2426.png",
+          "winner": false
+        },
+        "second": {
+          "id": 580,
+          "name": "Sumudaerji",
+          "logo": "https://media.api-sports.io/mma/fighters/580.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1394,
+      "date": "2024-06-01T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1717250400,
+      "timezone": "UTC",
+      "slug": "UFC 302: Makhachev vs. Poirier",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": false
+        },
+        "second": {
+          "id": 580,
+          "name": "Sumudaerji",
+          "logo": "https://media.api-sports.io/mma/fighters/580.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1664,
+      "date": "2024-10-19T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1729350000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hernandez vs. Pereira",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 580,
+          "name": "Sumudaerji",
+          "logo": "https://media.api-sports.io/mma/fighters/580.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2472,
+          "name": "Charles Johnson",
+          "logo": "https://media.api-sports.io/mma/fighters/2472.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1931,
+      "date": "2025-04-12T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1744498800,
+      "timezone": "UTC",
+      "slug": "UFC 314: Volkanovski vs. Lopes",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2704,
+          "name": "Mitch Raposo",
+          "logo": "https://media.api-sports.io/mma/fighters/2704.png",
+          "winner": false
+        },
+        "second": {
+          "id": 580,
+          "name": "Sumudaerji",
+          "logo": "https://media.api-sports.io/mma/fighters/580.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2172,
+      "date": "2025-08-23T10:30:00+00:00",
+      "time": "10:30",
+      "timestamp": 1755945000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Walker vs. Zhang",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2575,
+          "name": "Kevin Borjas",
+          "logo": "https://media.api-sports.io/mma/fighters/2575.png",
+          "winner": false
+        },
+        "second": {
+          "id": 580,
+          "name": "Sumudaerji",
+          "logo": "https://media.api-sports.io/mma/fighters/580.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:59:11.974Z"
+}

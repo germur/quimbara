@@ -1,15 +1,19 @@
 ---
-import { Image } from 'astro:assets';
-import fighters from '@/data/fighters.json';
+import fightersData from '../../data/fighters.json';
+
+// Define Fighter interface
+interface Fighter {
+  id: number;
+  name: string;
+  slug: string;
+  description: string;
+  division: string;
+}
+
+const fighters = fightersData as Fighter[];
 
 // Get unique divisions
-const divisions = [...new Set(fighters.map(f => f.division))].sort();
-
-// Group fighters by division
-const fightersByDivision = divisions.reduce((acc, division) => {
-  acc[division] = fighters.filter(f => f.division === division);
-  return acc;
-}, {});
+const divisions = [...new Set(fighters.map((f) => f.division))].sort();
 ---
 
 <div class="container mx-auto px-4 py-8">
@@ -23,7 +27,7 @@ const fightersByDivision = divisions.reduce((acc, division) => {
     >
       Todos
     </button>
-    {divisions.map(division => (
+    {divisions.map((division) => (
       <button 
         class="px-4 py-2 rounded-full bg-slate-800 text-slate-300 hover:bg-quimbara-primary hover:text-white transition-colors"
         data-filter={division}
@@ -35,7 +39,7 @@ const fightersByDivision = divisions.reduce((acc, division) => {
 
   <!-- Fighters Grid -->
   <div id="fighters-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-    {fighters.map(fighter => (
+    {fighters.map((fighter) => (
       <a 
         href={`/blog/perfiles-luchadores/${fighter.slug}`}
         class="group relative block bg-slate-800 rounded-xl overflow-hidden hover:ring-2 hover:ring-quimbara-primary transition-all duration-300 fighter-card"
@@ -59,7 +63,7 @@ const fightersByDivision = divisions.reduce((acc, division) => {
               {fighter.name}
             </h3>
             <p class="text-sm text-slate-400 mt-1 line-clamp-1">
-              {fighter.description.replace(/"/g, '')}
+              {fighter.description ? fighter.description.replace(/\"/g, '') : ''}
             </p>
           </div>
         </div>
@@ -70,14 +74,17 @@ const fightersByDivision = divisions.reduce((acc, division) => {
 
 <script>
   // Filter Logic
-  const buttons = document.querySelectorAll('[data-filter]');
-  const cards = document.querySelectorAll('.fighter-card');
+  const buttons = document.querySelectorAll<HTMLButtonElement>('[data-filter]');
+  const cards = document.querySelectorAll<HTMLElement>('.fighter-card');
 
   buttons.forEach(btn => {
     btn.addEventListener('click', () => {
       // Update active state
-      buttons.forEach(b => b.classList.remove('bg-quimbara-primary', 'text-white'));
-      buttons.forEach(b => b.classList.add('bg-slate-800', 'text-slate-300'));
+      buttons.forEach(b => {
+        b.classList.remove('bg-quimbara-primary', 'text-white');
+        b.classList.add('bg-slate-800', 'text-slate-300');
+      });
+      
       btn.classList.remove('bg-slate-800', 'text-slate-300');
       btn.classList.add('bg-quimbara-primary', 'text-white');
 
@@ -94,6 +101,9 @@ const fightersByDivision = divisions.reduce((acc, division) => {
   });
 
   // Set initial active state
-  document.querySelector('[data-filter="all"]').classList.remove('bg-slate-800', 'text-slate-300');
-  document.querySelector('[data-filter="all"]').classList.add('bg-quimbara-primary', 'text-white');
+  const allBtn = document.querySelector<HTMLButtonElement>('[data-filter="all"]');
+  if (allBtn) {
+    allBtn.classList.remove('bg-slate-800', 'text-slate-300');
+    allBtn.classList.add('bg-quimbara-primary', 'text-white');
+  }
 </script>

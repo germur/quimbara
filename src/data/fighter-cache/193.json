@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 193,
+    "name": "Edson Barboza",
+    "nickname": "Junior",
+    "photo": "https://media.api-sports.io/mma/fighters/193.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "145 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 21,
+      "name": "American Top"
+    },
+    "last_update": "2025-08-23T12:07:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 193,
+      "name": "Edson Barboza",
+      "photo": "https://media.api-sports.io/mma/fighters/193.png"
+    },
+    "total": {
+      "win": 24,
+      "loss": 12,
+      "draw": 0
+    },
+    "ko": {
+      "win": 14,
+      "loss": 4
+    },
+    "sub": {
+      "win": 1,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 656,
+      "date": "2023-04-16T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1681612200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. Allen",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 527,
+          "name": "Billy Quarantillo",
+          "logo": "https://media.api-sports.io/mma/fighters/527.png",
+          "winner": false
+        },
+        "second": {
+          "id": 193,
+          "name": "Edson Barboza",
+          "logo": "https://media.api-sports.io/mma/fighters/193.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 967,
+      "date": "2023-10-15T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1697331600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yusuff vs. Barboza",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 193,
+          "name": "Edson Barboza",
+          "logo": "https://media.api-sports.io/mma/fighters/193.png",
+          "winner": true
+        },
+        "second": {
+          "id": 237,
+          "name": "Sodiq Yusuff",
+          "logo": "https://media.api-sports.io/mma/fighters/237.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1354,
+      "date": "2024-05-18T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1716044400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Barboza vs. Murphy",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 593,
+          "name": "Lerone Murphy",
+          "logo": "https://media.api-sports.io/mma/fighters/593.png",
+          "winner": true
+        },
+        "second": {
+          "id": 193,
+          "name": "Edson Barboza",
+          "logo": "https://media.api-sports.io/mma/fighters/193.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1840,
+      "date": "2025-02-23T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1740276000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cejudo vs. Song",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 632,
+          "name": "Steve Garcia",
+          "logo": "https://media.api-sports.io/mma/fighters/632.png",
+          "winner": false
+        },
+        "second": {
+          "id": 193,
+          "name": "Edson Barboza",
+          "logo": "https://media.api-sports.io/mma/fighters/193.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2152,
+      "date": "2025-08-16T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1755387000,
+      "timezone": "UTC",
+      "slug": "UFC 319: Du Plessis vs. Chimaev",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 502,
+          "name": "Drakkar Klose",
+          "logo": "https://media.api-sports.io/mma/fighters/502.png",
+          "winner": true
+        },
+        "second": {
+          "id": 193,
+          "name": "Edson Barboza",
+          "logo": "https://media.api-sports.io/mma/fighters/193.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2383,
+      "date": "2025-12-06T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1765054800,
+      "timezone": "UTC",
+      "slug": "UFC 323: Dvalishvili vs. Yan 2",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 56,
+          "name": "Jalin Turner",
+          "logo": "https://media.api-sports.io/mma/fighters/56.png",
+          "winner": false
+        },
+        "second": {
+          "id": 193,
+          "name": "Edson Barboza",
+          "logo": "https://media.api-sports.io/mma/fighters/193.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:55:03.117Z"
+}

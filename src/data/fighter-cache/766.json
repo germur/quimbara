@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 766,
+    "name": "Jordan Leavitt",
+    "nickname": "The Monkey King",
+    "photo": "https://media.api-sports.io/mma/fighters/766.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "155 lbs",
+    "reach": "71'",
+    "stance": "Southpaw",
+    "category": "Lightweight",
+    "team": {
+      "id": 17,
+      "name": "Syndicate MMA"
+    },
+    "last_update": "2025-06-07T12:03:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 766,
+      "name": "Jordan Leavitt",
+      "photo": "https://media.api-sports.io/mma/fighters/766.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 0
+    },
+    "sub": {
+      "win": 6,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 575,
+      "date": "2023-02-25T23:15:00+00:00",
+      "time": "23:15",
+      "timestamp": 1677366900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Muniz vs. Allen",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2423,
+          "name": "Victor Martinez",
+          "logo": "https://media.api-sports.io/mma/fighters/2423.png",
+          "winner": false
+        },
+        "second": {
+          "id": 766,
+          "name": "Jordan Leavitt",
+          "logo": "https://media.api-sports.io/mma/fighters/766.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1037,
+      "date": "2023-11-18T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1700350200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 766,
+          "name": "Jordan Leavitt",
+          "logo": "https://media.api-sports.io/mma/fighters/766.png",
+          "winner": false
+        },
+        "second": {
+          "id": 685,
+          "name": "Chase Hooper",
+          "logo": "https://media.api-sports.io/mma/fighters/685.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1834,
+      "date": "2025-02-01T06:00:00+00:00",
+      "time": "06:00",
+      "timestamp": 1738389600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Adesanya vs. Imavov",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2677,
+          "name": "Abdul-Kareem Al-Selwady",
+          "logo": "https://media.api-sports.io/mma/fighters/2677.png",
+          "winner": false
+        },
+        "second": {
+          "id": 766,
+          "name": "Jordan Leavitt",
+          "logo": "https://media.api-sports.io/mma/fighters/766.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2070,
+      "date": "2025-05-31T22:40:00+00:00",
+      "time": "22:40",
+      "timestamp": 1748731200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Barber",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 766,
+          "name": "Jordan Leavitt",
+          "logo": "https://media.api-sports.io/mma/fighters/766.png",
+          "winner": true
+        },
+        "second": {
+          "id": 400,
+          "name": "Kurt Holobaugh",
+          "logo": "https://media.api-sports.io/mma/fighters/400.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:24.911Z"
+}

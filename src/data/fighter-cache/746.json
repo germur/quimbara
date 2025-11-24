@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 746,
+    "name": "Amir Albazi",
+    "nickname": "The Prince",
+    "photo": "https://media.api-sports.io/mma/fighters/746.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "125 lbs",
+    "reach": "68'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 20,
+      "name": "Fight Ready"
+    },
+    "last_update": "2025-08-09T12:01:35+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 746,
+      "name": "Amir Albazi",
+      "photo": "https://media.api-sports.io/mma/fighters/746.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 0
+    },
+    "sub": {
+      "win": 9,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 725,
+      "date": "2023-06-04T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1685849400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kara-France vs. Albazi",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 746,
+          "name": "Amir Albazi",
+          "logo": "https://media.api-sports.io/mma/fighters/746.png",
+          "winner": true
+        },
+        "second": {
+          "id": 63,
+          "name": "Kai Kara-France",
+          "logo": "https://media.api-sports.io/mma/fighters/63.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1160,
+      "date": "2024-02-25T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1708833600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Albazi",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 746,
+          "name": "Amir Albazi",
+          "logo": "https://media.api-sports.io/mma/fighters/746.png",
+          "winner": false
+        },
+        "second": {
+          "id": 604,
+          "name": "Brandon Moreno",
+          "logo": "https://media.api-sports.io/mma/fighters/604.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1660,
+      "date": "2024-11-02T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1730563200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Albazi",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 746,
+          "name": "Amir Albazi",
+          "logo": "https://media.api-sports.io/mma/fighters/746.png",
+          "winner": false
+        },
+        "second": {
+          "id": 604,
+          "name": "Brandon Moreno",
+          "logo": "https://media.api-sports.io/mma/fighters/604.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2107,
+      "date": "2025-08-02T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1754154000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Albazi vs. Taira",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2516,
+          "name": "Tatsuro Taira",
+          "logo": "https://media.api-sports.io/mma/fighters/2516.png",
+          "winner": false
+        },
+        "second": {
+          "id": 746,
+          "name": "Amir Albazi",
+          "logo": "https://media.api-sports.io/mma/fighters/746.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:19.878Z"
+}

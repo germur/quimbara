@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 442,
+    "name": "Jamie Pickett",
+    "nickname": "The Night Wolf",
+    "photo": "https://media.api-sports.io/mma/fighters/442.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "186 lbs",
+    "reach": "80'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 209,
+      "name": "Port City Sports Performance"
+    },
+    "last_update": "2025-06-04T16:51:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 442,
+      "name": "Jamie Pickett",
+      "photo": "https://media.api-sports.io/mma/fighters/442.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 11,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 2
+    },
+    "sub": {
+      "win": 0,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 596,
+      "date": "2023-03-05T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1677985200,
+      "timezone": "UTC",
+      "slug": "UFC 285: Jones vs. Gane",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 442,
+          "name": "Jamie Pickett",
+          "logo": "https://media.api-sports.io/mma/fighters/442.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2532,
+          "name": "Bo Nickal",
+          "logo": "https://media.api-sports.io/mma/fighters/2532.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 858,
+      "date": "2023-08-12T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1691881200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Luque vs. Dos Anjos",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 442,
+          "name": "Jamie Pickett",
+          "logo": "https://media.api-sports.io/mma/fighters/442.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2497,
+          "name": "Josh Fremd",
+          "logo": "https://media.api-sports.io/mma/fighters/2497.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1281,
+      "date": "2024-03-02T10:30:00+00:00",
+      "time": "10:30",
+      "timestamp": 1709375400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Gaziev",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 442,
+          "name": "Jamie Pickett",
+          "logo": "https://media.api-sports.io/mma/fighters/442.png",
+          "winner": false
+        },
+        "second": {
+          "id": 258,
+          "name": "Eryk Anders",
+          "logo": "https://media.api-sports.io/mma/fighters/258.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:49:46.775Z"
+}

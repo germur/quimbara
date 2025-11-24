@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 588,
+    "name": "Song Kenan",
+    "nickname": "The Assassin",
+    "photo": "https://media.api-sports.io/mma/fighters/588.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "171 lbs",
+    "reach": "71.5'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 86,
+      "name": "Beijing Black Tiger"
+    },
+    "last_update": "2025-08-30T00:01:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 588,
+      "name": "Song Kenan",
+      "photo": "https://media.api-sports.io/mma/fighters/588.png"
+    },
+    "total": {
+      "win": 22,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 5
+    },
+    "sub": {
+      "win": 9,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 583,
+      "date": "2023-03-05T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1677976200,
+      "timezone": "UTC",
+      "slug": "UFC 285: Jones vs. Gane",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 588,
+          "name": "Song Kenan",
+          "logo": "https://media.api-sports.io/mma/fighters/588.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2434,
+          "name": "Ian Garry",
+          "logo": "https://media.api-sports.io/mma/fighters/2434.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 874,
+      "date": "2023-08-26T10:15:00+00:00",
+      "time": "10:15",
+      "timestamp": 1693044900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. The Korean Zombie",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2593,
+          "name": "Rolando Bedoya",
+          "logo": "https://media.api-sports.io/mma/fighters/2593.png",
+          "winner": false
+        },
+        "second": {
+          "id": 588,
+          "name": "Song Kenan",
+          "logo": "https://media.api-sports.io/mma/fighters/588.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1082,
+      "date": "2023-12-10T02:40:00+00:00",
+      "time": "02:40",
+      "timestamp": 1702176000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2620,
+          "name": "Kevin Jousset",
+          "logo": "https://media.api-sports.io/mma/fighters/2620.png",
+          "winner": true
+        },
+        "second": {
+          "id": 588,
+          "name": "Song Kenan",
+          "logo": "https://media.api-sports.io/mma/fighters/588.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1534,
+      "date": "2024-08-17T14:30:00+00:00",
+      "time": "14:30",
+      "timestamp": 1723905000,
+      "timezone": "UTC",
+      "slug": "UFC 305: Du Plessis vs. Adesanya",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 893,
+          "name": "Ricky Glenn",
+          "logo": "https://media.api-sports.io/mma/fighters/893.png",
+          "winner": false
+        },
+        "second": {
+          "id": 588,
+          "name": "Song Kenan",
+          "logo": "https://media.api-sports.io/mma/fighters/588.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1710,
+      "date": "2024-11-23T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1732330800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Figueiredo",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 590,
+          "name": "Muslim Salikhov",
+          "logo": "https://media.api-sports.io/mma/fighters/590.png",
+          "winner": true
+        },
+        "second": {
+          "id": 588,
+          "name": "Song Kenan",
+          "logo": "https://media.api-sports.io/mma/fighters/588.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2206,
+      "date": "2025-08-23T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1755914400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Walker vs. Zhang",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2621,
+          "name": "Kiefer Crosbie",
+          "logo": "https://media.api-sports.io/mma/fighters/2621.png",
+          "winner": false
+        },
+        "second": {
+          "id": 588,
+          "name": "Song Kenan",
+          "logo": "https://media.api-sports.io/mma/fighters/588.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:06.936Z"
+}

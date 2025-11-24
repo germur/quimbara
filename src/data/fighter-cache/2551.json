@@ -1,0 +1,324 @@
+{
+  "profile": {
+    "id": 2551,
+    "name": "Gabriel Bonfim",
+    "nickname": "Marretinha",
+    "photo": "https://media.api-sports.io/mma/fighters/2551.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "170 lbs",
+    "reach": "72.5'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 199,
+      "name": "Cerrado MMA"
+    },
+    "last_update": "2025-11-16T00:04:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2551,
+      "name": "Gabriel Bonfim",
+      "photo": "https://media.api-sports.io/mma/fighters/2551.png"
+    },
+    "total": {
+      "win": 19,
+      "loss": 1,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 1
+    },
+    "sub": {
+      "win": 13,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 532,
+      "date": "2023-01-22T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1674349200,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 730,
+          "name": "Mounir Lazzez",
+          "logo": "https://media.api-sports.io/mma/fighters/730.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2551,
+          "name": "Gabriel Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2551.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 823,
+      "date": "2023-07-30T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1690680600,
+      "timezone": "UTC",
+      "slug": "UFC 291: Poirier vs. Gaethje 2",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 370,
+          "name": "Trevin Giles",
+          "logo": "https://media.api-sports.io/mma/fighters/370.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2551,
+          "name": "Gabriel Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2551.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 952,
+      "date": "2023-11-05T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1699151400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Almeida vs. Lewis",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 652,
+          "name": "Nicolas Dalby",
+          "logo": "https://media.api-sports.io/mma/fighters/652.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2551,
+          "name": "Gabriel Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2551.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1482,
+      "date": "2024-07-13T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1720893600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Namajunas vs. Cortez",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2412,
+          "name": "Ange Loosa",
+          "logo": "https://media.api-sports.io/mma/fighters/2412.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2551,
+          "name": "Gabriel Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2551.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1858,
+      "date": "2025-02-15T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1739653200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 704,
+          "name": "Khaos Williams",
+          "logo": "https://media.api-sports.io/mma/fighters/704.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2551,
+          "name": "Gabriel Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2551.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1894,
+      "date": "2025-02-15T22:35:00+00:00",
+      "time": "22:35",
+      "timestamp": 1739658900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 704,
+          "name": "Khaos Williams",
+          "logo": "https://media.api-sports.io/mma/fighters/704.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2551,
+          "name": "Gabriel Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2551.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1979,
+      "date": "2025-03-29T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1743249600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Erceg",
+      "is_main": false,
+      "category": null,
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 429,
+          "name": "Austin Hubbard",
+          "logo": "https://media.api-sports.io/mma/fighters/429.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2551,
+          "name": "Gabriel Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2551.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2120,
+      "date": "2025-07-13T03:10:00+00:00",
+      "time": "03:10",
+      "timestamp": 1752376200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Teixeira",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2551,
+          "name": "Gabriel Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2551.png",
+          "winner": true
+        },
+        "second": {
+          "id": 181,
+          "name": "Stephen Thompson",
+          "logo": "https://media.api-sports.io/mma/fighters/181.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2287,
+      "date": "2025-10-11T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1760194800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Oliveira vs. Gamrot",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 457,
+          "name": "Randy Brown",
+          "logo": "https://media.api-sports.io/mma/fighters/457.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2551,
+          "name": "Gabriel Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2551.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2330,
+      "date": "2025-11-09T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1762653600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Bonfim vs. Brown",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 457,
+          "name": "Randy Brown",
+          "logo": "https://media.api-sports.io/mma/fighters/457.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2551,
+          "name": "Gabriel Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2551.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:01.656Z"
+}

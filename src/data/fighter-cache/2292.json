@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 2292,
+    "name": "Alex Reyes",
+    "nickname": "The Executioner",
+    "photo": "https://media.api-sports.io/mma/fighters/2292.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "156 lbs",
+    "reach": "73'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 599,
+      "name": "Drysdale Jiu-Jitsu"
+    },
+    "last_update": "2025-06-05T08:16:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2292,
+      "name": "Alex Reyes",
+      "photo": "https://media.api-sports.io/mma/fighters/2292.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 3
+    },
+    "sub": {
+      "win": 4,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 962,
+      "date": "2023-09-16T23:15:00+00:00",
+      "time": "23:15",
+      "timestamp": 1694906100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Grasso vs. Shevchenko 2",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2292,
+          "name": "Alex Reyes",
+          "logo": "https://media.api-sports.io/mma/fighters/2292.png",
+          "winner": false
+        },
+        "second": {
+          "id": 890,
+          "name": "Natan Levy",
+          "logo": "https://media.api-sports.io/mma/fighters/890.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 977,
+      "date": "2023-09-16T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1694907000,
+      "timezone": "UTC",
+      "slug": "Noche UFC: Grasso vs. Shevchenko 2",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2626,
+          "name": "Charlie Campbell",
+          "logo": "https://media.api-sports.io/mma/fighters/2626.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2292,
+          "name": "Alex Reyes",
+          "logo": "https://media.api-sports.io/mma/fighters/2292.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1518,
+      "date": "2024-08-17T14:30:00+00:00",
+      "time": "14:30",
+      "timestamp": 1723905000,
+      "timezone": "UTC",
+      "slug": "UFC 305: Du Plessis vs. Adesanya",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2292,
+          "name": "Alex Reyes",
+          "logo": "https://media.api-sports.io/mma/fighters/2292.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2664,
+          "name": "Tom Nolan",
+          "logo": "https://media.api-sports.io/mma/fighters/2664.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:24.841Z"
+}

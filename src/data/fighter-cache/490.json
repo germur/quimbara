@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 490,
+    "name": "Jonathan Pearce",
+    "nickname": "JSP",
+    "photo": "https://media.api-sports.io/mma/fighters/490.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "145 lbs",
+    "reach": "71'",
+    "stance": "Switch",
+    "category": "Featherweight",
+    "team": {
+      "id": 20,
+      "name": "Fight Ready"
+    },
+    "last_update": "2025-06-04T17:15:35+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 490,
+      "name": "Jonathan Pearce",
+      "photo": "https://media.api-sports.io/mma/fighters/490.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 1029,
+      "date": "2023-11-18T21:20:00+00:00",
+      "time": "21:20",
+      "timestamp": 1700342400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2384,
+          "name": "Joanderson Brito",
+          "logo": "https://media.api-sports.io/mma/fighters/2384.png",
+          "winner": true
+        },
+        "second": {
+          "id": 490,
+          "name": "Jonathan Pearce",
+          "logo": "https://media.api-sports.io/mma/fighters/490.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1383,
+      "date": "2024-04-27T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1714230000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Nicolau vs. Perez",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2478,
+          "name": "David Onama",
+          "logo": "https://media.api-sports.io/mma/fighters/2478.png",
+          "winner": true
+        },
+        "second": {
+          "id": 490,
+          "name": "Jonathan Pearce",
+          "logo": "https://media.api-sports.io/mma/fighters/490.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1687,
+      "date": "2024-10-12T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1728734400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Taira",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 1333,
+          "name": "Pat Sabatini",
+          "logo": "https://media.api-sports.io/mma/fighters/1333.png",
+          "winner": true
+        },
+        "second": {
+          "id": 490,
+          "name": "Jonathan Pearce",
+          "logo": "https://media.api-sports.io/mma/fighters/490.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:55:31.254Z"
+}

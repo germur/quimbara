@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 2575,
+    "name": "Kevin Borjas",
+    "nickname": "El Gallo Negro",
+    "photo": "https://media.api-sports.io/mma/fighters/2575.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "125 lbs",
+    "reach": "68'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 152,
+      "name": "Pitbull Martial Arts Center"
+    },
+    "last_update": "2025-08-30T00:08:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2575,
+      "name": "Kevin Borjas",
+      "photo": "https://media.api-sports.io/mma/fighters/2575.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 1
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 924,
+      "date": "2023-11-11T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1699745400,
+      "timezone": "UTC",
+      "slug": "UFC 295: ProchÃ¡zka vs. Pereira",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2575,
+          "name": "Kevin Borjas",
+          "logo": "https://media.api-sports.io/mma/fighters/2575.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1326,
+      "date": "2024-05-04T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1714831200,
+      "timezone": "UTC",
+      "slug": "UFC 301: Pantoja vs. Erceg",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2575,
+          "name": "Kevin Borjas",
+          "logo": "https://media.api-sports.io/mma/fighters/2575.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2462,
+          "name": "Alessandro Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2462.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1558,
+      "date": "2024-09-15T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1726358400,
+      "timezone": "UTC",
+      "slug": "Riyadh Season Noche UFC: OâMalley vs. Dvalishvili",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2575,
+          "name": "Kevin Borjas",
+          "logo": "https://media.api-sports.io/mma/fighters/2575.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2545,
+          "name": "Ãdgar ChÃ¡irez",
+          "logo": "https://media.api-sports.io/mma/fighters/2545.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1811,
+      "date": "2025-03-29T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1743289200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Erceg",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2575,
+          "name": "Kevin Borjas",
+          "logo": "https://media.api-sports.io/mma/fighters/2575.png",
+          "winner": true
+        },
+        "second": {
+          "id": 757,
+          "name": "Ronaldo RodrÃ­guez",
+          "logo": "https://media.api-sports.io/mma/fighters/757.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2172,
+      "date": "2025-08-23T10:30:00+00:00",
+      "time": "10:30",
+      "timestamp": 1755945000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Walker vs. Zhang",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2575,
+          "name": "Kevin Borjas",
+          "logo": "https://media.api-sports.io/mma/fighters/2575.png",
+          "winner": false
+        },
+        "second": {
+          "id": 580,
+          "name": "Sumudaerji",
+          "logo": "https://media.api-sports.io/mma/fighters/580.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:56.588Z"
+}

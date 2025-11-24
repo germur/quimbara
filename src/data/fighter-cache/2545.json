@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "id": 2545,
+    "name": "Ãdgar ChÃ¡irez",
+    "nickname": "Puro Chicali",
+    "photo": "https://media.api-sports.io/mma/fighters/2545.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "126 lbs",
+    "reach": "71'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 79,
+      "name": "Entram Gym"
+    },
+    "last_update": "2025-09-20T00:01:18+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2545,
+      "name": "Ãdgar ChÃ¡irez",
+      "photo": "https://media.api-sports.io/mma/fighters/2545.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 0
+    },
+    "sub": {
+      "win": 8,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 784,
+      "date": "2023-07-09T01:10:00+00:00",
+      "time": "01:10",
+      "timestamp": 1688865000,
+      "timezone": "UTC",
+      "slug": "UFC 290: Volkanovski vs. Rodriguez",
+      "is_main": false,
+      "category": "Catch Weight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2545,
+          "name": "Edgar Chairez",
+          "logo": "https://media.api-sports.io/mma/fighters/2545.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2516,
+          "name": "Tatsuro Taira",
+          "logo": "https://media.api-sports.io/mma/fighters/2516.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 906,
+      "date": "2023-09-17T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1694910600,
+      "timezone": "UTC",
+      "slug": "Noche UFC: Grasso vs. Shevchenko 2",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2477,
+          "name": "Daniel Lacerda",
+          "logo": "https://media.api-sports.io/mma/fighters/2477.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2545,
+          "name": "Edgar Chairez",
+          "logo": "https://media.api-sports.io/mma/fighters/2545.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1019,
+      "date": "2023-10-14T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1697326200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yusuff vs. Barboza",
+      "is_main": true,
+      "category": "Catch Weight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2477,
+          "name": "Daniel Lacerda",
+          "logo": "https://media.api-sports.io/mma/fighters/2477.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2545,
+          "name": "Ãdgar ChÃ¡irez",
+          "logo": "https://media.api-sports.io/mma/fighters/2545.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1189,
+      "date": "2024-02-24T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1708790400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Royval 2",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2477,
+          "name": "Daniel Lacerda",
+          "logo": "https://media.api-sports.io/mma/fighters/2477.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2545,
+          "name": "Ãdgar ChÃ¡irez",
+          "logo": "https://media.api-sports.io/mma/fighters/2545.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1670,
+      "date": "2024-09-14T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1726329600,
+      "timezone": "UTC",
+      "slug": "UFC 306 â Riyadh Season Noche UFC: OâMalley vs. Dvalishvili",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2545,
+          "name": "Ãdgar ChÃ¡irez",
+          "logo": "https://media.api-sports.io/mma/fighters/2545.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1558,
+      "date": "2024-09-15T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1726358400,
+      "timezone": "UTC",
+      "slug": "Riyadh Season Noche UFC: OâMalley vs. Dvalishvili",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2575,
+          "name": "Kevin Borjas",
+          "logo": "https://media.api-sports.io/mma/fighters/2575.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2545,
+          "name": "Ãdgar ChÃ¡irez",
+          "logo": "https://media.api-sports.io/mma/fighters/2545.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1923,
+      "date": "2025-03-30T00:45:00+00:00",
+      "time": "00:45",
+      "timestamp": 1743295500,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Erceg",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2394,
+          "name": "CJ Vergara",
+          "logo": "https://media.api-sports.io/mma/fighters/2394.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2545,
+          "name": "Ãdgar ChÃ¡irez",
+          "logo": "https://media.api-sports.io/mma/fighters/2545.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2224,
+      "date": "2025-09-13T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1757761200,
+      "timezone": "UTC",
+      "slug": "Noche UFC: Lopes vs. Silva",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2462,
+          "name": "Alessandro Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2462.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2545,
+          "name": "Ãdgar ChÃ¡irez",
+          "logo": "https://media.api-sports.io/mma/fighters/2545.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:24.060Z"
+}

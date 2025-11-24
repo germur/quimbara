@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "id": 716,
+    "name": "Brandon Royval",
+    "nickname": "Raw Dawg",
+    "photo": "https://media.api-sports.io/mma/fighters/716.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "125 lbs",
+    "reach": "68'",
+    "stance": "Southpaw",
+    "category": "Flyweight",
+    "team": {
+      "id": 751,
+      "name": "Mile High Militia"
+    },
+    "last_update": "2025-07-06T00:08:05+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 716,
+      "name": "Brandon Royval",
+      "photo": "https://media.api-sports.io/mma/fighters/716.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 1
+    },
+    "sub": {
+      "win": 9,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 648,
+      "date": "2023-04-16T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1681603200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. Allen",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 905,
+          "name": "Matheus Nicolau",
+          "logo": "https://media.api-sports.io/mma/fighters/905.png",
+          "winner": false
+        },
+        "second": {
+          "id": 716,
+          "name": "Brandon Royval",
+          "logo": "https://media.api-sports.io/mma/fighters/716.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1010,
+      "date": "2023-12-17T04:30:00+00:00",
+      "time": "04:30",
+      "timestamp": 1702787400,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 716,
+          "name": "Brandon Royval",
+          "logo": "https://media.api-sports.io/mma/fighters/716.png",
+          "winner": false
+        },
+        "second": {
+          "id": 250,
+          "name": "Alexandre Pantoja",
+          "logo": "https://media.api-sports.io/mma/fighters/250.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1208,
+      "date": "2024-02-24T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1708801200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Royval 2",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 716,
+          "name": "Brandon Royval",
+          "logo": "https://media.api-sports.io/mma/fighters/716.png",
+          "winner": true
+        },
+        "second": {
+          "id": 604,
+          "name": "Brandon Moreno",
+          "logo": "https://media.api-sports.io/mma/fighters/604.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1617,
+      "date": "2024-10-12T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1728745200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Taira",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2516,
+          "name": "Tatsuro Taira",
+          "logo": "https://media.api-sports.io/mma/fighters/2516.png",
+          "winner": false
+        },
+        "second": {
+          "id": 716,
+          "name": "Brandon Royval",
+          "logo": "https://media.api-sports.io/mma/fighters/716.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1841,
+      "date": "2025-03-02T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1740873600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Kape",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 892,
+          "name": "Manel Kape",
+          "logo": "https://media.api-sports.io/mma/fighters/892.png",
+          "winner": false
+        },
+        "second": {
+          "id": 716,
+          "name": "Brandon Royval",
+          "logo": "https://media.api-sports.io/mma/fighters/716.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2078,
+      "date": "2025-06-29T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1751167800,
+      "timezone": "UTC",
+      "slug": "UFC 317: Topuria vs. Oliveira",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": true
+        },
+        "second": {
+          "id": 716,
+          "name": "Brandon Royval",
+          "logo": "https://media.api-sports.io/mma/fighters/716.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2079,
+      "date": "2025-06-29T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1751169600,
+      "timezone": "UTC",
+      "slug": "UFC 317: Topuria vs. Oliveira",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 892,
+          "name": "Manel Kape",
+          "logo": "https://media.api-sports.io/mma/fighters/892.png",
+          "winner": false
+        },
+        "second": {
+          "id": 716,
+          "name": "Brandon Royval",
+          "logo": "https://media.api-sports.io/mma/fighters/716.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2347,
+      "date": "2025-12-13T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1765652400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Kape",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 892,
+          "name": "Manel Kape",
+          "logo": "https://media.api-sports.io/mma/fighters/892.png",
+          "winner": false
+        },
+        "second": {
+          "id": 716,
+          "name": "Brandon Royval",
+          "logo": "https://media.api-sports.io/mma/fighters/716.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:26.836Z"
+}

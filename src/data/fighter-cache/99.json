@@ -1,0 +1,324 @@
+{
+  "profile": {
+    "id": 99,
+    "name": "Vicente Luque",
+    "nickname": "The Silent Assassin",
+    "photo": "https://media.api-sports.io/mma/fighters/99.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "170 lbs",
+    "reach": "75.5'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-10-18T12:10:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 99,
+      "name": "Vicente Luque",
+      "photo": "https://media.api-sports.io/mma/fighters/99.png"
+    },
+    "total": {
+      "win": 23,
+      "loss": 11,
+      "draw": 1
+    },
+    "ko": {
+      "win": 11,
+      "loss": 2
+    },
+    "sub": {
+      "win": 9,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 853,
+      "date": "2023-08-13T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1691890200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Luque vs. Dos Anjos",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 367,
+          "name": "Rafael Dos Anjos",
+          "logo": "https://media.api-sports.io/mma/fighters/367.png",
+          "winner": false
+        },
+        "second": {
+          "id": 99,
+          "name": "Vicente Luque",
+          "logo": "https://media.api-sports.io/mma/fighters/99.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1017,
+      "date": "2023-12-17T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1702782000,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2434,
+          "name": "Ian Garry",
+          "logo": "https://media.api-sports.io/mma/fighters/2434.png",
+          "winner": false
+        },
+        "second": {
+          "id": 99,
+          "name": "Vicente Luque",
+          "logo": "https://media.api-sports.io/mma/fighters/99.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1295,
+      "date": "2024-03-30T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1711821600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Fiorot",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 790,
+          "name": "Joaquin Buckley",
+          "logo": "https://media.api-sports.io/mma/fighters/790.png",
+          "winner": true
+        },
+        "second": {
+          "id": 99,
+          "name": "Vicente Luque",
+          "logo": "https://media.api-sports.io/mma/fighters/99.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1175,
+      "date": "2024-03-31T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1711857600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Brady vs. Luque",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 99,
+          "name": "Vicente Luque",
+          "logo": "https://media.api-sports.io/mma/fighters/99.png",
+          "winner": false
+        },
+        "second": {
+          "id": 679,
+          "name": "Sean Brady",
+          "logo": "https://media.api-sports.io/mma/fighters/679.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1475,
+      "date": "2024-08-03T20:30:00+00:00",
+      "time": "20:30",
+      "timestamp": 1722717000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 1162,
+          "name": "Nick Diaz",
+          "logo": "https://media.api-sports.io/mma/fighters/1162.png",
+          "winner": false
+        },
+        "second": {
+          "id": 99,
+          "name": "Vicente Luque",
+          "logo": "https://media.api-sports.io/mma/fighters/99.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1758,
+      "date": "2024-12-07T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1733590800,
+      "timezone": "UTC",
+      "slug": "UFC 310: Pantoja vs. Asakura",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2602,
+          "name": "Themba Gorimbo",
+          "logo": "https://media.api-sports.io/mma/fighters/2602.png",
+          "winner": false
+        },
+        "second": {
+          "id": 99,
+          "name": "Vicente Luque",
+          "logo": "https://media.api-sports.io/mma/fighters/99.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1720,
+      "date": "2024-12-07T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1733598000,
+      "timezone": "UTC",
+      "slug": "UFC 310: Muhammad vs. Rakhmonov",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 1162,
+          "name": "Nick Diaz",
+          "logo": "https://media.api-sports.io/mma/fighters/1162.png",
+          "winner": false
+        },
+        "second": {
+          "id": 99,
+          "name": "Vicente Luque",
+          "logo": "https://media.api-sports.io/mma/fighters/99.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2046,
+      "date": "2025-06-08T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1749348000,
+      "timezone": "UTC",
+      "slug": "UFC 316: Dvalishvili vs. O'Malley 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 317,
+          "name": "Kevin Holland",
+          "logo": "https://media.api-sports.io/mma/fighters/317.png",
+          "winner": true
+        },
+        "second": {
+          "id": 99,
+          "name": "Vicente Luque",
+          "logo": "https://media.api-sports.io/mma/fighters/99.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2261,
+      "date": "2025-10-11T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1760184000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Oliveira vs. Gamrot",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 897,
+          "name": "Santiago Ponzinibbio",
+          "logo": "https://media.api-sports.io/mma/fighters/897.png",
+          "winner": false
+        },
+        "second": {
+          "id": 99,
+          "name": "Vicente Luque",
+          "logo": "https://media.api-sports.io/mma/fighters/99.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2345,
+      "date": "2025-10-12T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1760227200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Oliveira vs. Gamrot",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 209,
+          "name": "Joel Ãlvarez",
+          "logo": "https://media.api-sports.io/mma/fighters/209.png",
+          "winner": true
+        },
+        "second": {
+          "id": 99,
+          "name": "Vicente Luque",
+          "logo": "https://media.api-sports.io/mma/fighters/99.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:20.744Z"
+}

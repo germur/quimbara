@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 563,
+    "name": "Hakeem Dawodu",
+    "nickname": "Mean",
+    "photo": "https://media.api-sports.io/mma/fighters/563.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "146 lbs",
+    "reach": "73.5'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 252,
+      "name": "Champion's Creed MMA"
+    },
+    "last_update": "2025-06-04T17:52:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 563,
+      "name": "Hakeem Dawodu",
+      "photo": "https://media.api-sports.io/mma/fighters/563.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 4,
+      "draw": 1
+    },
+    "ko": {
+      "win": 7,
+      "loss": 0
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 854,
+      "date": "2023-08-13T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1691888400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Luque vs. Dos Anjos",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 563,
+          "name": "Hakeem Dawodu",
+          "logo": "https://media.api-sports.io/mma/fighters/563.png",
+          "winner": false
+        },
+        "second": {
+          "id": 349,
+          "name": "Cub Swanson",
+          "logo": "https://media.api-sports.io/mma/fighters/349.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:55:14.340Z"
+}

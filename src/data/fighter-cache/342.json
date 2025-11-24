@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 342,
+    "name": "Roosevelt Roberts",
+    "nickname": "The Predator",
+    "photo": "https://media.api-sports.io/mma/fighters/342.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "155 lbs",
+    "reach": "73'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-06-04T16:01:31+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 342,
+      "name": "Roosevelt Roberts",
+      "photo": "https://media.api-sports.io/mma/fighters/342.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 1
+    },
+    "sub": {
+      "win": 5,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 820,
+      "date": "2023-07-25T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1690308000,
+      "timezone": "UTC",
+      "slug": "The Ultimate Fighter 31 Semifinal: McGregor vs. Chandler",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 342,
+          "name": "Roosevelt Roberts",
+          "logo": "https://media.api-sports.io/mma/fighters/342.png",
+          "winner": false
+        },
+        "second": {
+          "id": 429,
+          "name": "Austin Hubbard",
+          "logo": "https://media.api-sports.io/mma/fighters/429.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1078,
+      "date": "2023-11-12T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1699752600,
+      "timezone": "UTC",
+      "slug": "UFC 295: ProchÃ¡zka vs. Pereira",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 342,
+          "name": "Roosevelt Roberts",
+          "logo": "https://media.api-sports.io/mma/fighters/342.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2582,
+          "name": "Mateusz Rebecki",
+          "logo": "https://media.api-sports.io/mma/fighters/2582.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1671,
+      "date": "2024-09-28T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1727510400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moicano vs. Saint Denis",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 342,
+          "name": "Roosevelt Roberts",
+          "logo": "https://media.api-sports.io/mma/fighters/342.png",
+          "winner": false
+        },
+        "second": {
+          "id": 849,
+          "name": "Ludovit Klein",
+          "logo": "https://media.api-sports.io/mma/fighters/849.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:16.021Z"
+}

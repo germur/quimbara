@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2477,
+    "name": "Daniel Lacerda",
+    "nickname": "Miojo",
+    "photo": "https://media.api-sports.io/mma/fighters/2477.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "127 lbs",
+    "reach": "70'",
+    "stance": "Switch",
+    "category": "Flyweight",
+    "team": {
+      "id": 38,
+      "name": "Chute Boxe"
+    },
+    "last_update": "2025-06-05T09:49:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2477,
+      "name": "Daniel Lacerda",
+      "photo": "https://media.api-sports.io/mma/fighters/2477.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 4
+    },
+    "sub": {
+      "win": 6,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 627,
+      "date": "2023-03-25T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1679778000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vera vs. Sandhagen",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2477,
+          "name": "Daniel Lacerda",
+          "logo": "https://media.api-sports.io/mma/fighters/2477.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2394,
+          "name": "CJ Vergara",
+          "logo": "https://media.api-sports.io/mma/fighters/2394.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 906,
+      "date": "2023-09-17T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1694910600,
+      "timezone": "UTC",
+      "slug": "Noche UFC: Grasso vs. Shevchenko 2",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2477,
+          "name": "Daniel Lacerda",
+          "logo": "https://media.api-sports.io/mma/fighters/2477.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2545,
+          "name": "Edgar Chairez",
+          "logo": "https://media.api-sports.io/mma/fighters/2545.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1019,
+      "date": "2023-10-14T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1697326200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yusuff vs. Barboza",
+      "is_main": true,
+      "category": "Catch Weight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2477,
+          "name": "Daniel Lacerda",
+          "logo": "https://media.api-sports.io/mma/fighters/2477.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2545,
+          "name": "Ãdgar ChÃ¡irez",
+          "logo": "https://media.api-sports.io/mma/fighters/2545.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1189,
+      "date": "2024-02-24T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1708790400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Royval 2",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2477,
+          "name": "Daniel Lacerda",
+          "logo": "https://media.api-sports.io/mma/fighters/2477.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2545,
+          "name": "Ãdgar ChÃ¡irez",
+          "logo": "https://media.api-sports.io/mma/fighters/2545.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:38.030Z"
+}

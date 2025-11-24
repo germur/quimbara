@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 2313,
+    "name": "Chris Curtis",
+    "nickname": "Action-Man",
+    "photo": "https://media.api-sports.io/mma/fighters/2313.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "185 lbs",
+    "reach": "75.5'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 31,
+      "name": "Xtreme Couture"
+    },
+    "last_update": "2025-07-19T12:00:37+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2313,
+      "name": "Chris Curtis",
+      "photo": "https://media.api-sports.io/mma/fighters/2313.png"
+    },
+    "total": {
+      "win": 31,
+      "loss": 12,
+      "draw": 0
+    },
+    "ko": {
+      "win": 17,
+      "loss": 2
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 638,
+      "date": "2023-04-09T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1681003800,
+      "timezone": "UTC",
+      "slug": "UFC 287: Pereira vs. Adesanya 2",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 68,
+          "name": "Kelvin Gastelum",
+          "logo": "https://media.api-sports.io/mma/fighters/68.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2313,
+          "name": "Chris Curtis",
+          "logo": "https://media.api-sports.io/mma/fighters/2313.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 733,
+      "date": "2023-06-11T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1686447000,
+      "timezone": "UTC",
+      "slug": "UFC 289: Nunes vs. Aldana",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2313,
+          "name": "Chris Curtis",
+          "logo": "https://media.api-sports.io/mma/fighters/2313.png",
+          "winner": false
+        },
+        "second": {
+          "id": 831,
+          "name": "Nassourdine Imavov",
+          "logo": "https://media.api-sports.io/mma/fighters/831.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 911,
+      "date": "2023-09-16T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1694887200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Grasso vs. Shevchenko 2",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 28,
+          "name": "Anthony Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/28.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2313,
+          "name": "Chris Curtis",
+          "logo": "https://media.api-sports.io/mma/fighters/2313.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1115,
+      "date": "2024-01-20T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1705777200,
+      "timezone": "UTC",
+      "slug": "UFC 297: Strickland vs. Du Plessis",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 293,
+          "name": "Marc-Andre Barriault",
+          "logo": "https://media.api-sports.io/mma/fighters/293.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2313,
+          "name": "Chris Curtis",
+          "logo": "https://media.api-sports.io/mma/fighters/2313.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1195,
+      "date": "2024-04-06T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1712412000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Curtis 2",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2313,
+          "name": "Chris Curtis",
+          "logo": "https://media.api-sports.io/mma/fighters/2313.png",
+          "winner": false
+        },
+        "second": {
+          "id": 513,
+          "name": "Brendan Allen",
+          "logo": "https://media.api-sports.io/mma/fighters/513.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1819,
+      "date": "2025-01-11T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1736611200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs Ribas 2",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 262,
+          "name": "Roman Kopylov",
+          "logo": "https://media.api-sports.io/mma/fighters/262.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2313,
+          "name": "Chris Curtis",
+          "logo": "https://media.api-sports.io/mma/fighters/2313.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2115,
+      "date": "2025-07-12T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1752328800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Teixeira",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2313,
+          "name": "Chris Curtis",
+          "logo": "https://media.api-sports.io/mma/fighters/2313.png",
+          "winner": true
+        },
+        "second": {
+          "id": 32,
+          "name": "Max Griffin",
+          "logo": "https://media.api-sports.io/mma/fighters/32.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:50.619Z"
+}

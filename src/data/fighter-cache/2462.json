@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 2462,
+    "name": "Alessandro Costa",
+    "nickname": "Nono",
+    "photo": "https://media.api-sports.io/mma/fighters/2462.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 4'",
+    "weight": "125 lbs",
+    "reach": "67'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 110,
+      "name": "Lobo Gym MMA"
+    },
+    "last_update": "2025-09-20T12:05:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2462,
+      "name": "Alessandro Costa",
+      "photo": "https://media.api-sports.io/mma/fighters/2462.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 2
+    },
+    "sub": {
+      "win": 6,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 742,
+      "date": "2023-06-18T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1687051800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Cannonier",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2462,
+          "name": "Alessandro Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2462.png",
+          "winner": true
+        },
+        "second": {
+          "id": 815,
+          "name": "Jimmy Flick",
+          "logo": "https://media.api-sports.io/mma/fighters/815.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1073,
+      "date": "2023-11-12T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1699756200,
+      "timezone": "UTC",
+      "slug": "UFC 295: ProchÃ¡zka vs. Pereira",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2462,
+          "name": "Alessandro Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2462.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2599,
+          "name": "Steve Erceg",
+          "logo": "https://media.api-sports.io/mma/fighters/2599.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1326,
+      "date": "2024-05-04T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1714831200,
+      "timezone": "UTC",
+      "slug": "UFC 301: Pantoja vs. Erceg",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2575,
+          "name": "Kevin Borjas",
+          "logo": "https://media.api-sports.io/mma/fighters/2575.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2462,
+          "name": "Alessandro Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2462.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1556,
+      "date": "2024-09-08T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1725753600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Brady",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2462,
+          "name": "Alessandro Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2462.png",
+          "winner": false
+        },
+        "second": {
+          "id": 218,
+          "name": "Matt Schnell",
+          "logo": "https://media.api-sports.io/mma/fighters/218.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2224,
+      "date": "2025-09-13T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1757761200,
+      "timezone": "UTC",
+      "slug": "Noche UFC: Lopes vs. Silva",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2462,
+          "name": "Alessandro Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2462.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2545,
+          "name": "Ãdgar ChÃ¡irez",
+          "logo": "https://media.api-sports.io/mma/fighters/2545.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2301,
+      "date": "2025-09-13T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1757793600,
+      "timezone": "UTC",
+      "slug": "Noche UFC: Lopes vs. Silva",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2813,
+          "name": "Alden Coria",
+          "logo": "https://media.api-sports.io/mma/fighters/2813.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2462,
+          "name": "Alessandro Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2462.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:15.705Z"
+}

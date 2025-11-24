@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 447,
+    "name": "Bill Algeo",
+    "nickname": "SeÃ±or Perfecto",
+    "photo": "https://media.api-sports.io/mma/fighters/447.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "146 lbs",
+    "reach": "73'",
+    "stance": "Switch",
+    "category": "Featherweight",
+    "team": {
+      "id": 211,
+      "name": "Algeo MMA and Kickboxing"
+    },
+    "last_update": "2025-06-04T16:54:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 447,
+      "name": "Bill Algeo",
+      "photo": "https://media.api-sports.io/mma/fighters/447.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 2
+    },
+    "sub": {
+      "win": 7,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 647,
+      "date": "2023-04-16T00:20:00+00:00",
+      "time": "00:20",
+      "timestamp": 1681604400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. Allen",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 647,
+          "name": "TJ Brown",
+          "logo": "https://media.api-sports.io/mma/fighters/647.png",
+          "winner": false
+        },
+        "second": {
+          "id": 447,
+          "name": "Bill Algeo",
+          "logo": "https://media.api-sports.io/mma/fighters/447.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 984,
+      "date": "2023-10-07T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1696719600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dawson vs. Green",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 447,
+          "name": "Bill Algeo",
+          "logo": "https://media.api-sports.io/mma/fighters/447.png",
+          "winner": true
+        },
+        "second": {
+          "id": 17,
+          "name": "Alexander Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/17.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1292,
+      "date": "2024-03-30T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1711821600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Fiorot",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 346,
+          "name": "Kyle Nelson",
+          "logo": "https://media.api-sports.io/mma/fighters/346.png",
+          "winner": true
+        },
+        "second": {
+          "id": 447,
+          "name": "Bill Algeo",
+          "logo": "https://media.api-sports.io/mma/fighters/447.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1483,
+      "date": "2024-07-20T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1721491200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lemos vs. Jandiroba",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 447,
+          "name": "Bill Algeo",
+          "logo": "https://media.api-sports.io/mma/fighters/447.png",
+          "winner": false
+        },
+        "second": {
+          "id": 690,
+          "name": "Dooho Choi",
+          "logo": "https://media.api-sports.io/mma/fighters/690.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:40.628Z"
+}

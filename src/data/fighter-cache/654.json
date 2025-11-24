@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 654,
+    "name": "Jamie Mullarkey",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/654.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "155 lbs",
+    "reach": "74'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 304,
+      "name": "Bangtao Muay Thai"
+    },
+    "last_update": "2025-10-05T00:02:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 654,
+      "name": "Jamie Mullarkey",
+      "photo": "https://media.api-sports.io/mma/fighters/654.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 10,
+      "loss": 6
+    },
+    "sub": {
+      "win": 3,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 556,
+      "date": "2023-02-12T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1676163600,
+      "timezone": "UTC",
+      "slug": "UFC 284: Makhachev vs. Volkanovski",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2550,
+          "name": "Francisco Prado",
+          "logo": "https://media.api-sports.io/mma/fighters/2550.png",
+          "winner": false
+        },
+        "second": {
+          "id": 654,
+          "name": "Jamie Mullarkey",
+          "logo": "https://media.api-sports.io/mma/fighters/654.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 721,
+      "date": "2023-06-03T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1685833200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kara-France vs. Albazi",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 833,
+          "name": "Muhammad Naimov",
+          "logo": "https://media.api-sports.io/mma/fighters/833.png",
+          "winner": true
+        },
+        "second": {
+          "id": 654,
+          "name": "Jamie Mullarkey",
+          "logo": "https://media.api-sports.io/mma/fighters/654.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 896,
+      "date": "2023-09-10T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1694305800,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 235,
+          "name": "John Makdessi",
+          "logo": "https://media.api-sports.io/mma/fighters/235.png",
+          "winner": false
+        },
+        "second": {
+          "id": 654,
+          "name": "Jamie Mullarkey",
+          "logo": "https://media.api-sports.io/mma/fighters/654.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1090,
+      "date": "2023-12-10T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1702180800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 654,
+          "name": "Jamie Mullarkey",
+          "logo": "https://media.api-sports.io/mma/fighters/654.png",
+          "winner": false
+        },
+        "second": {
+          "id": 236,
+          "name": "Nasrat Haqparast",
+          "logo": "https://media.api-sports.io/mma/fighters/236.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1348,
+      "date": "2024-05-04T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1714831200,
+      "timezone": "UTC",
+      "slug": "UFC 301: Pantoja vs. Erceg",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 654,
+          "name": "Jamie Mullarkey",
+          "logo": "https://media.api-sports.io/mma/fighters/654.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2694,
+          "name": "Mauricio Ruffy",
+          "logo": "https://media.api-sports.io/mma/fighters/2694.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2265,
+      "date": "2025-09-28T00:40:00+00:00",
+      "time": "00:40",
+      "timestamp": 1759020000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ulberg vs. Reyes",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2593,
+          "name": "Rolando Bedoya",
+          "logo": "https://media.api-sports.io/mma/fighters/2593.png",
+          "winner": false
+        },
+        "second": {
+          "id": 654,
+          "name": "Jamie Mullarkey",
+          "logo": "https://media.api-sports.io/mma/fighters/654.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:15.142Z"
+}

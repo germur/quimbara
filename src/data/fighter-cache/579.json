@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 579,
+    "name": "JunYong Park",
+    "nickname": "The Iron Turtle",
+    "photo": "https://media.api-sports.io/mma/fighters/579.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "186 lbs",
+    "reach": "73'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 263,
+      "name": "Korean Top"
+    },
+    "last_update": "2025-11-01T12:05:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 579,
+      "name": "JunYong Park",
+      "photo": "https://media.api-sports.io/mma/fighters/579.png"
+    },
+    "total": {
+      "win": 19,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 1
+    },
+    "sub": {
+      "win": 6,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 542,
+      "date": "2023-02-04T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1675537200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Spivac",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2480,
+          "name": "Denis Tiuliulin",
+          "logo": "https://media.api-sports.io/mma/fighters/2480.png",
+          "winner": false
+        },
+        "second": {
+          "id": 579,
+          "name": "Junyong Park",
+          "logo": "https://media.api-sports.io/mma/fighters/579.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 802,
+      "date": "2023-07-16T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1689476400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holm vs. Bueno Silva",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 579,
+          "name": "Junyong Park",
+          "logo": "https://media.api-sports.io/mma/fighters/579.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2410,
+          "name": "Albert Duraev",
+          "logo": "https://media.api-sports.io/mma/fighters/2410.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1085,
+      "date": "2023-12-09T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1702148400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 614,
+          "name": "Andre Muniz",
+          "logo": "https://media.api-sports.io/mma/fighters/614.png",
+          "winner": true
+        },
+        "second": {
+          "id": 579,
+          "name": "JunYong Park",
+          "logo": "https://media.api-sports.io/mma/fighters/579.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1485,
+      "date": "2024-07-20T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1721491200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: 7/20",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 579,
+          "name": "JunYong Park",
+          "logo": "https://media.api-sports.io/mma/fighters/579.png",
+          "winner": false
+        },
+        "second": {
+          "id": 681,
+          "name": "Brad Tavares",
+          "logo": "https://media.api-sports.io/mma/fighters/681.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1689,
+      "date": "2024-10-12T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1728745200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Taira",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 579,
+          "name": "JunYong Park",
+          "logo": "https://media.api-sports.io/mma/fighters/579.png",
+          "winner": true
+        },
+        "second": {
+          "id": 681,
+          "name": "Brad Tavares",
+          "logo": "https://media.api-sports.io/mma/fighters/681.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2032,
+      "date": "2025-06-21T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1750528800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 579,
+          "name": "JunYong Park",
+          "logo": "https://media.api-sports.io/mma/fighters/579.png",
+          "winner": true
+        },
+        "second": {
+          "id": 241,
+          "name": "Ismail Naurdiev",
+          "logo": "https://media.api-sports.io/mma/fighters/241.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2244,
+      "date": "2025-10-25T17:10:00+00:00",
+      "time": "17:10",
+      "timestamp": 1761412200,
+      "timezone": "UTC",
+      "slug": "UFC 321: Aspinall vs. Gane",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 579,
+          "name": "JunYong Park",
+          "logo": "https://media.api-sports.io/mma/fighters/579.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2557,
+          "name": "Ikram Aliskerov",
+          "logo": "https://media.api-sports.io/mma/fighters/2557.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:49:56.379Z"
+}

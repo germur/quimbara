@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 2577,
+    "name": "Luan Lacerda",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2577.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "136 lbs",
+    "reach": "71.5'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 29,
+      "name": "Nova Uniao"
+    },
+    "last_update": "2025-10-18T00:02:35+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2577,
+      "name": "Luan Lacerda",
+      "photo": "https://media.api-sports.io/mma/fighters/2577.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 0,
+      "loss": 1
+    },
+    "sub": {
+      "win": 10,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 524,
+      "date": "2023-01-21T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1674342000,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 246,
+          "name": "Cody Stamann",
+          "logo": "https://media.api-sports.io/mma/fighters/246.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2577,
+          "name": "Luan Lacerda",
+          "logo": "https://media.api-sports.io/mma/fighters/2577.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 723,
+      "date": "2023-06-03T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1685800800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kara-France vs. Albazi",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2577,
+          "name": "Luan Lacerda",
+          "logo": "https://media.api-sports.io/mma/fighters/2577.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2475,
+          "name": "Da'Mon Blackshear",
+          "logo": "https://media.api-sports.io/mma/fighters/2475.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2344,
+      "date": "2025-10-11T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1760184000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Oliveira vs. Gamrot",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2393,
+          "name": "Saimon Oliveira",
+          "logo": "https://media.api-sports.io/mma/fighters/2393.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2577,
+          "name": "Luan Lacerda",
+          "logo": "https://media.api-sports.io/mma/fighters/2577.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:25.525Z"
+}

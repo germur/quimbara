@@ -1,0 +1,296 @@
+{
+  "profile": {
+    "id": 429,
+    "name": "Austin Hubbard",
+    "nickname": "Thud",
+    "photo": "https://media.api-sports.io/mma/fighters/429.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "156 lbs",
+    "reach": "71'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 180,
+      "name": "Valle Flow Striking"
+    },
+    "last_update": "2025-08-29T12:00:09+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 429,
+      "name": "Austin Hubbard",
+      "photo": "https://media.api-sports.io/mma/fighters/429.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 0
+    },
+    "sub": {
+      "win": 2,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 820,
+      "date": "2023-07-25T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1690308000,
+      "timezone": "UTC",
+      "slug": "The Ultimate Fighter 31 Semifinal: McGregor vs. Chandler",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 342,
+          "name": "Roosevelt Roberts",
+          "logo": "https://media.api-sports.io/mma/fighters/342.png",
+          "winner": false
+        },
+        "second": {
+          "id": 429,
+          "name": "Austin Hubbard",
+          "logo": "https://media.api-sports.io/mma/fighters/429.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 865,
+      "date": "2023-08-20T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1692491400,
+      "timezone": "UTC",
+      "slug": "UFC 292: Sterling vs. O'Malley",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 429,
+          "name": "Austin Hubbard",
+          "logo": "https://media.api-sports.io/mma/fighters/429.png",
+          "winner": false
+        },
+        "second": {
+          "id": 400,
+          "name": "Kurt Holobaugh",
+          "logo": "https://media.api-sports.io/mma/fighters/400.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1342,
+      "date": "2024-04-27T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1714219200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Nicolau vs. Perez",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2505,
+          "name": "Michal Figlak",
+          "logo": "https://media.api-sports.io/mma/fighters/2505.png",
+          "winner": false
+        },
+        "second": {
+          "id": 429,
+          "name": "Austin Hubbard",
+          "logo": "https://media.api-sports.io/mma/fighters/429.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1679,
+      "date": "2024-10-05T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1728144000,
+      "timezone": "UTC",
+      "slug": "UFC 307: Pereira vs. Rountree Jr.",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 17,
+          "name": "Alexander Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/17.png",
+          "winner": true
+        },
+        "second": {
+          "id": 429,
+          "name": "Austin Hubbard",
+          "logo": "https://media.api-sports.io/mma/fighters/429.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1979,
+      "date": "2025-03-29T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1743249600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Erceg",
+      "is_main": false,
+      "category": null,
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 429,
+          "name": "Austin Hubbard",
+          "logo": "https://media.api-sports.io/mma/fighters/429.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2551,
+          "name": "Gabriel Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2551.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1989,
+      "date": "2025-03-29T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1743249600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Erceg",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 429,
+          "name": "Austin Hubbard",
+          "logo": "https://media.api-sports.io/mma/fighters/429.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2560,
+          "name": "Ismael Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2560.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1957,
+      "date": "2025-03-29T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1743260400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Erceg",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 429,
+          "name": "Austin Hubbard",
+          "logo": "https://media.api-sports.io/mma/fighters/429.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2429,
+          "name": "Daniel Zellhuber",
+          "logo": "https://media.api-sports.io/mma/fighters/2429.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2004,
+      "date": "2025-03-29T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1743278400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Erceg",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 429,
+          "name": "Austin Hubbard",
+          "logo": "https://media.api-sports.io/mma/fighters/429.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2658,
+          "name": "MarQuel Mederos",
+          "logo": "https://media.api-sports.io/mma/fighters/2658.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2207,
+      "date": "2025-08-22T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1755903600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Walker vs. Zhang",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 429,
+          "name": "Austin Hubbard",
+          "logo": "https://media.api-sports.io/mma/fighters/429.png",
+          "winner": false
+        },
+        "second": {
+          "id": 912,
+          "name": "Rongzhu",
+          "logo": "https://media.api-sports.io/mma/fighters/912.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:31.784Z"
+}

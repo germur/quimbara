@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 59,
+    "name": "Shane Young",
+    "nickname": "Smokin&#x27;",
+    "photo": "https://media.api-sports.io/mma/fighters/59.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "149 lbs",
+    "reach": "72.5'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 48,
+      "name": "City Kickboxing"
+    },
+    "last_update": "2025-06-04T13:40:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 59,
+      "name": "Shane Young",
+      "photo": "https://media.api-sports.io/mma/fighters/59.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 1
+    },
+    "sub": {
+      "win": 4,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 551,
+      "date": "2023-02-11T23:45:00+00:00",
+      "time": "23:45",
+      "timestamp": 1676159100,
+      "timezone": "UTC",
+      "slug": "UFC 284: Makhachev vs. Volkanovski",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2531,
+          "name": "Blake Bilder",
+          "logo": "https://media.api-sports.io/mma/fighters/2531.png",
+          "winner": true
+        },
+        "second": {
+          "id": 59,
+          "name": "Shane Young",
+          "logo": "https://media.api-sports.io/mma/fighters/59.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 899,
+      "date": "2023-09-09T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1694275200,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2489,
+          "name": "Gabriel Miranda",
+          "logo": "https://media.api-sports.io/mma/fighters/2489.png",
+          "winner": false
+        },
+        "second": {
+          "id": 59,
+          "name": "Shane Young",
+          "logo": "https://media.api-sports.io/mma/fighters/59.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 929,
+      "date": "2023-09-09T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1694300400,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2489,
+          "name": "Gabriel Miranda",
+          "logo": "https://media.api-sports.io/mma/fighters/2489.png",
+          "winner": true
+        },
+        "second": {
+          "id": 59,
+          "name": "Shane Young",
+          "logo": "https://media.api-sports.io/mma/fighters/59.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:08.907Z"
+}

@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 227,
+    "name": "Nathaniel Wood",
+    "nickname": "The Prospect",
+    "photo": "https://media.api-sports.io/mma/fighters/227.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "145 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 126,
+      "name": "Great Britain Top"
+    },
+    "last_update": "2025-11-01T12:04:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 227,
+      "name": "Nathaniel Wood",
+      "photo": "https://media.api-sports.io/mma/fighters/227.png"
+    },
+    "total": {
+      "win": 21,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 2
+    },
+    "sub": {
+      "win": 5,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 815,
+      "date": "2023-07-22T20:30:00+00:00",
+      "time": "20:30",
+      "timestamp": 1690057800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Aspinall vs. Tybura",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 102,
+          "name": "Andre Fili",
+          "logo": "https://media.api-sports.io/mma/fighters/102.png",
+          "winner": false
+        },
+        "second": {
+          "id": 227,
+          "name": "Nathaniel Wood",
+          "logo": "https://media.api-sports.io/mma/fighters/227.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1011,
+      "date": "2023-10-21T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1697900400,
+      "timezone": "UTC",
+      "slug": "UFC 294: Makhachev vs. Volkanovski 2",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 833,
+          "name": "Muhammad Naimov",
+          "logo": "https://media.api-sports.io/mma/fighters/833.png",
+          "winner": true
+        },
+        "second": {
+          "id": 227,
+          "name": "Nathaniel Wood",
+          "logo": "https://media.api-sports.io/mma/fighters/227.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1461,
+      "date": "2024-07-27T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1722096000,
+      "timezone": "UTC",
+      "slug": "UFC 304: Edwards vs. Muhammad 2",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 795,
+          "name": "Daniel Pineda",
+          "logo": "https://media.api-sports.io/mma/fighters/795.png",
+          "winner": false
+        },
+        "second": {
+          "id": 227,
+          "name": "Nathaniel Wood",
+          "logo": "https://media.api-sports.io/mma/fighters/227.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1694,
+      "date": "2024-11-02T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1730552400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Albazi",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 227,
+          "name": "Nathaniel Wood",
+          "logo": "https://media.api-sports.io/mma/fighters/227.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2657,
+          "name": "Hyder Amil",
+          "logo": "https://media.api-sports.io/mma/fighters/2657.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1868,
+      "date": "2025-03-22T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1742673600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Edwards vs. Brady",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2585,
+          "name": "Morgan CharriÃ¨re",
+          "logo": "https://media.api-sports.io/mma/fighters/2585.png",
+          "winner": false
+        },
+        "second": {
+          "id": 227,
+          "name": "Nathaniel Wood",
+          "logo": "https://media.api-sports.io/mma/fighters/227.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2315,
+      "date": "2025-10-25T15:50:00+00:00",
+      "time": "15:50",
+      "timestamp": 1761407400,
+      "timezone": "UTC",
+      "slug": "UFC 321: Aspinall vs. Gane",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2759,
+          "name": "Jose Miguel Delgado",
+          "logo": "https://media.api-sports.io/mma/fighters/2759.png",
+          "winner": false
+        },
+        "second": {
+          "id": 227,
+          "name": "Nathaniel Wood",
+          "logo": "https://media.api-sports.io/mma/fighters/227.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:00.497Z"
+}

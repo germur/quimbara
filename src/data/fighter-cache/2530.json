@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 2530,
+    "name": "Billy Ray Goff",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2530.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "170 lbs",
+    "reach": "72'",
+    "stance": "Switch",
+    "category": "Welterweight",
+    "team": {
+      "id": 722,
+      "name": "Dexter Vale Tudo"
+    },
+    "last_update": "2025-06-08T00:04:08+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2530,
+      "name": "Billy Ray Goff",
+      "photo": "https://media.api-sports.io/mma/fighters/2530.png"
+    },
+    "total": {
+      "win": 9,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 1
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 877,
+      "date": "2023-08-26T09:50:00+00:00",
+      "time": "09:50",
+      "timestamp": 1693043400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. The Korean Zombie",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2613,
+          "name": "Yusaku Kinoshita",
+          "logo": "https://media.api-sports.io/mma/fighters/2613.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2530,
+          "name": "Billy Goff",
+          "logo": "https://media.api-sports.io/mma/fighters/2530.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1367,
+      "date": "2024-05-11T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1715428800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Nascimento",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2605,
+          "name": "Trey Waters",
+          "logo": "https://media.api-sports.io/mma/fighters/2605.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2530,
+          "name": "Billy Ray Goff",
+          "logo": "https://media.api-sports.io/mma/fighters/2530.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1871,
+      "date": "2025-02-15T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1739624400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2424,
+          "name": "Nikolay Veretennikov",
+          "logo": "https://media.api-sports.io/mma/fighters/2424.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2530,
+          "name": "Billy Ray Goff",
+          "logo": "https://media.api-sports.io/mma/fighters/2530.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1795,
+      "date": "2025-02-22T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1740236400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cejudo vs. Song",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2530,
+          "name": "Billy Ray Goff",
+          "logo": "https://media.api-sports.io/mma/fighters/2530.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2460,
+          "name": "Adam Fugitt",
+          "logo": "https://media.api-sports.io/mma/fighters/2460.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1892,
+      "date": "2025-02-22T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1740265200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cejudo vs. Song",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2530,
+          "name": "Billy Ray Goff",
+          "logo": "https://media.api-sports.io/mma/fighters/2530.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2460,
+          "name": "Adam Fugitt",
+          "logo": "https://media.api-sports.io/mma/fighters/2460.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2068,
+      "date": "2025-05-31T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1748710800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Barber",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2785,
+          "name": "Seokhyeon Ko",
+          "logo": "https://media.api-sports.io/mma/fighters/2785.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2530,
+          "name": "Billy Ray Goff",
+          "logo": "https://media.api-sports.io/mma/fighters/2530.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2110,
+      "date": "2025-06-01T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1748745000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Barber",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 459,
+          "name": "Ramiz Brahimaj",
+          "logo": "https://media.api-sports.io/mma/fighters/459.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2530,
+          "name": "Billy Ray Goff",
+          "logo": "https://media.api-sports.io/mma/fighters/2530.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:41.011Z"
+}

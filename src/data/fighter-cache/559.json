@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 559,
+    "name": "Wellington Turman",
+    "nickname": "The Prodigy",
+    "photo": "https://media.api-sports.io/mma/fighters/559.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "171 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 25,
+      "name": "Teixeira MMA & Fitness"
+    },
+    "last_update": "2025-06-04T17:50:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 559,
+      "name": "Wellington Turman",
+      "photo": "https://media.api-sports.io/mma/fighters/559.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 2
+    },
+    "sub": {
+      "win": 8,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 755,
+      "date": "2023-06-24T17:50:00+00:00",
+      "time": "17:50",
+      "timestamp": 1687629000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Topuria",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 559,
+          "name": "Wellington Turman",
+          "logo": "https://media.api-sports.io/mma/fighters/559.png",
+          "winner": false
+        },
+        "second": {
+          "id": 457,
+          "name": "Randy Brown",
+          "logo": "https://media.api-sports.io/mma/fighters/457.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1063,
+      "date": "2023-12-02T21:30:00+00:00",
+      "time": "21:30",
+      "timestamp": 1701552600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dariush vs. Tsarukyan",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 807,
+          "name": "Jared Gooden",
+          "logo": "https://media.api-sports.io/mma/fighters/807.png",
+          "winner": true
+        },
+        "second": {
+          "id": 559,
+          "name": "Wellington Turman",
+          "logo": "https://media.api-sports.io/mma/fighters/559.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:25.768Z"
+}

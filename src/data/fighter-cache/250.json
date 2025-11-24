@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 250,
+    "name": "Alexandre Pantoja",
+    "nickname": "The Cannibal",
+    "photo": "https://media.api-sports.io/mma/fighters/250.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "125 lbs",
+    "reach": "67.5'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 21,
+      "name": "American Top"
+    },
+    "last_update": "2025-07-06T00:09:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 250,
+      "name": "Alexandre Pantoja",
+      "photo": "https://media.api-sports.io/mma/fighters/250.png"
+    },
+    "total": {
+      "win": 28,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 0
+    },
+    "sub": {
+      "win": 10,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 788,
+      "date": "2023-07-09T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1688873400,
+      "timezone": "UTC",
+      "slug": "UFC 290: Volkanovski vs. Rodriguez",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 250,
+          "name": "Alexandre Pantoja",
+          "logo": "https://media.api-sports.io/mma/fighters/250.png",
+          "winner": true
+        },
+        "second": {
+          "id": 604,
+          "name": "Brandon Moreno",
+          "logo": "https://media.api-sports.io/mma/fighters/604.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1010,
+      "date": "2023-12-17T04:30:00+00:00",
+      "time": "04:30",
+      "timestamp": 1702787400,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 716,
+          "name": "Brandon Royval",
+          "logo": "https://media.api-sports.io/mma/fighters/716.png",
+          "winner": false
+        },
+        "second": {
+          "id": 250,
+          "name": "Alexandre Pantoja",
+          "logo": "https://media.api-sports.io/mma/fighters/250.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1331,
+      "date": "2024-05-04T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1714845600,
+      "timezone": "UTC",
+      "slug": "UFC 301: Pantoja vs. Erceg",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2599,
+          "name": "Steve Erceg",
+          "logo": "https://media.api-sports.io/mma/fighters/2599.png",
+          "winner": false
+        },
+        "second": {
+          "id": 250,
+          "name": "Alexandre Pantoja",
+          "logo": "https://media.api-sports.io/mma/fighters/250.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1719,
+      "date": "2024-12-07T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1733598000,
+      "timezone": "UTC",
+      "slug": "UFC 310: Pantoja vs. Asakura",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2736,
+          "name": "Kai Asakura",
+          "logo": "https://media.api-sports.io/mma/fighters/2736.png",
+          "winner": false
+        },
+        "second": {
+          "id": 250,
+          "name": "Alexandre Pantoja",
+          "logo": "https://media.api-sports.io/mma/fighters/250.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2081,
+      "date": "2025-06-29T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1751169600,
+      "timezone": "UTC",
+      "slug": "UFC 317: Topuria vs. Oliveira",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 63,
+          "name": "Kai Kara-France",
+          "logo": "https://media.api-sports.io/mma/fighters/63.png",
+          "winner": false
+        },
+        "second": {
+          "id": 250,
+          "name": "Alexandre Pantoja",
+          "logo": "https://media.api-sports.io/mma/fighters/250.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2387,
+      "date": "2025-12-07T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1765074600,
+      "timezone": "UTC",
+      "slug": "UFC 323: Dvalishvili vs. Yan 2",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": false
+        },
+        "second": {
+          "id": 250,
+          "name": "Alexandre Pantoja",
+          "logo": "https://media.api-sports.io/mma/fighters/250.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:17.089Z"
+}

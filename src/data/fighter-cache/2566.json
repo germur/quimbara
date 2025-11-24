@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 2566,
+    "name": "Jeka Saragih",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2566.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "145 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 700,
+      "name": "Batam Fighter Club"
+    },
+    "last_update": "2025-06-14T12:04:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2566,
+      "name": "Jeka Saragih",
+      "photo": "https://media.api-sports.io/mma/fighters/2566.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 1
+    },
+    "sub": {
+      "win": 4,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 538,
+      "date": "2023-02-04T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1675537200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Spivac",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2526,
+          "name": "Anshul Jubli",
+          "logo": "https://media.api-sports.io/mma/fighters/2526.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2566,
+          "name": "Jeka Saragih",
+          "logo": "https://media.api-sports.io/mma/fighters/2566.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1032,
+      "date": "2023-11-18T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1700305200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2568,
+          "name": "Jesse Butler",
+          "logo": "https://media.api-sports.io/mma/fighters/2568.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2566,
+          "name": "Jeka Saragih",
+          "logo": "https://media.api-sports.io/mma/fighters/2566.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1074,
+      "date": "2023-11-18T20:05:00+00:00",
+      "time": "20:05",
+      "timestamp": 1700337900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2501,
+          "name": "Lucas Alexander",
+          "logo": "https://media.api-sports.io/mma/fighters/2501.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2566,
+          "name": "Jeka Saragih",
+          "logo": "https://media.api-sports.io/mma/fighters/2566.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1436,
+      "date": "2024-06-15T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1718463600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Perez vs. Taira",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2609,
+          "name": "Westin Wilson",
+          "logo": "https://media.api-sports.io/mma/fighters/2609.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2566,
+          "name": "Jeka Saragih",
+          "logo": "https://media.api-sports.io/mma/fighters/2566.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2077,
+      "date": "2025-06-07T23:15:00+00:00",
+      "time": "23:15",
+      "timestamp": 1749338100,
+      "timezone": "UTC",
+      "slug": "UFC 316: Dvalishvili vs. O'Malley 2",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2787,
+          "name": "Joo Sang Yoo",
+          "logo": "https://media.api-sports.io/mma/fighters/2787.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2566,
+          "name": "Jeka Saragih",
+          "logo": "https://media.api-sports.io/mma/fighters/2566.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:55:24.245Z"
+}

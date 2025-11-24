@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 2569,
+    "name": "Jesus Aguilar",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2569.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 4'",
+    "weight": "126 lbs",
+    "reach": "62.5'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 79,
+      "name": "Entram Gym"
+    },
+    "last_update": "2025-09-20T12:07:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2569,
+      "name": "Jesus Aguilar",
+      "photo": "https://media.api-sports.io/mma/fighters/2569.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 1,
+      "loss": 0
+    },
+    "sub": {
+      "win": 7,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 543,
+      "date": "2023-02-05T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1675566000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Spivac",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2569,
+          "name": "Jesus Aguilar",
+          "logo": "https://media.api-sports.io/mma/fighters/2569.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2516,
+          "name": "Tatsuro Taira",
+          "logo": "https://media.api-sports.io/mma/fighters/2516.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 781,
+      "date": "2023-07-08T22:20:00+00:00",
+      "time": "22:20",
+      "timestamp": 1688854800,
+      "timezone": "UTC",
+      "slug": "UFC 290: Volkanovski vs. Rodriguez",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2569,
+          "name": "Jesus Aguilar",
+          "logo": "https://media.api-sports.io/mma/fighters/2569.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2597,
+          "name": "Shannon Ross",
+          "logo": "https://media.api-sports.io/mma/fighters/2597.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1193,
+      "date": "2024-02-24T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1708790400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Royval 2",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2581,
+          "name": "Mateus Mendonca",
+          "logo": "https://media.api-sports.io/mma/fighters/2581.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2569,
+          "name": "Jesus Aguilar",
+          "logo": "https://media.api-sports.io/mma/fighters/2569.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1551,
+      "date": "2024-08-17T14:30:00+00:00",
+      "time": "14:30",
+      "timestamp": 1723905000,
+      "timezone": "UTC",
+      "slug": "UFC 305: Du Plessis vs. Adesanya",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2569,
+          "name": "Jesus Aguilar",
+          "logo": "https://media.api-sports.io/mma/fighters/2569.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2709,
+          "name": "Stewart Nicoll",
+          "logo": "https://media.api-sports.io/mma/fighters/2709.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1791,
+      "date": "2025-02-15T22:50:00+00:00",
+      "time": "22:50",
+      "timestamp": 1739659800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2569,
+          "name": "Jesus Aguilar",
+          "logo": "https://media.api-sports.io/mma/fighters/2569.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2636,
+          "name": "Rafael Estevam",
+          "logo": "https://media.api-sports.io/mma/fighters/2636.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2220,
+      "date": "2025-09-13T20:40:00+00:00",
+      "time": "20:40",
+      "timestamp": 1757796000,
+      "timezone": "UTC",
+      "slug": "Noche UFC: Lopes vs. Silva",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2778,
+          "name": "Luis Gurule",
+          "logo": "https://media.api-sports.io/mma/fighters/2778.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2569,
+          "name": "Jesus Aguilar",
+          "logo": "https://media.api-sports.io/mma/fighters/2569.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:46.586Z"
+}

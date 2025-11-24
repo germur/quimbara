@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 219,
+    "name": "Alex Morono",
+    "nickname": "The Great White",
+    "photo": "https://media.api-sports.io/mma/fighters/219.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "171 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 2,
+      "name": "Fortis MMA"
+    },
+    "last_update": "2025-06-04T15:00:06+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 219,
+      "name": "Alex Morono",
+      "photo": "https://media.api-sports.io/mma/fighters/219.png"
+    },
+    "total": {
+      "win": 24,
+      "loss": 12,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 4
+    },
+    "sub": {
+      "win": 7,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 705,
+      "date": "2023-05-13T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1684004400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Almeida",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 219,
+          "name": "Alex Morono",
+          "logo": "https://media.api-sports.io/mma/fighters/219.png",
+          "winner": true
+        },
+        "second": {
+          "id": 223,
+          "name": "Tim Means",
+          "logo": "https://media.api-sports.io/mma/fighters/223.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 985,
+      "date": "2023-10-08T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1696723200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dawson vs. Green",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 790,
+          "name": "Joaquin Buckley",
+          "logo": "https://media.api-sports.io/mma/fighters/790.png",
+          "winner": true
+        },
+        "second": {
+          "id": 219,
+          "name": "Alex Morono",
+          "logo": "https://media.api-sports.io/mma/fighters/219.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1304,
+      "date": "2024-04-06T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1712401200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Curtis 2",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 219,
+          "name": "Alex Morono",
+          "logo": "https://media.api-sports.io/mma/fighters/219.png",
+          "winner": true
+        },
+        "second": {
+          "id": 272,
+          "name": "Court McGee",
+          "logo": "https://media.api-sports.io/mma/fighters/272.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1377,
+      "date": "2024-06-01T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1717264800,
+      "timezone": "UTC",
+      "slug": "UFC 302: Makhachev vs. Poirier",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 219,
+          "name": "Alex Morono",
+          "logo": "https://media.api-sports.io/mma/fighters/219.png",
+          "winner": false
+        },
+        "second": {
+          "id": 224,
+          "name": "Niko Price",
+          "logo": "https://media.api-sports.io/mma/fighters/224.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1404,
+      "date": "2024-06-01T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1717264800,
+      "timezone": "UTC",
+      "slug": "UFC 302: Makhachev vs. Poirier",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 219,
+          "name": "Alex Morono",
+          "logo": "https://media.api-sports.io/mma/fighters/219.png",
+          "winner": false
+        },
+        "second": {
+          "id": 224,
+          "name": "Niko Price",
+          "logo": "https://media.api-sports.io/mma/fighters/224.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1690,
+      "date": "2024-10-12T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1728745200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Taira",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 219,
+          "name": "Alex Morono",
+          "logo": "https://media.api-sports.io/mma/fighters/219.png",
+          "winner": false
+        },
+        "second": {
+          "id": 541,
+          "name": "Daniel Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/541.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1875,
+      "date": "2025-03-09T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1741483800,
+      "timezone": "UTC",
+      "slug": "UFC 313: Pereira vs. Ankalaev",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2742,
+          "name": "Carlos Leal",
+          "logo": "https://media.api-sports.io/mma/fighters/2742.png",
+          "winner": true
+        },
+        "second": {
+          "id": 219,
+          "name": "Alex Morono",
+          "logo": "https://media.api-sports.io/mma/fighters/219.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:34.131Z"
+}

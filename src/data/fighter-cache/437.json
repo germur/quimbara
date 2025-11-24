@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 437,
+    "name": "Christos Giagos",
+    "nickname": "The Spartan",
+    "photo": "https://media.api-sports.io/mma/fighters/437.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "156 lbs",
+    "reach": "71.5'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-06-04T16:49:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 437,
+      "name": "Christos Giagos",
+      "photo": "https://media.api-sports.io/mma/fighters/437.png"
+    },
+    "total": {
+      "win": 20,
+      "loss": 12,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 3
+    },
+    "sub": {
+      "win": 4,
+      "loss": 6
+    }
+  },
+  "fights": [
+    {
+      "id": 661,
+      "date": "2023-04-22T21:40:00+00:00",
+      "time": "21:40",
+      "timestamp": 1682199600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Pavlovich vs. Blaydes",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 437,
+          "name": "Christos Giagos",
+          "logo": "https://media.api-sports.io/mma/fighters/437.png",
+          "winner": true
+        },
+        "second": {
+          "id": 893,
+          "name": "Ricky Glenn",
+          "logo": "https://media.api-sports.io/mma/fighters/893.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 913,
+      "date": "2023-09-17T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1694917800,
+      "timezone": "UTC",
+      "slug": "Noche UFC: Grasso vs. Shevchenko 2",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 437,
+          "name": "Christos Giagos",
+          "logo": "https://media.api-sports.io/mma/fighters/437.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2429,
+          "name": "Daniel Zellhuber",
+          "logo": "https://media.api-sports.io/mma/fighters/2429.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1251,
+      "date": "2024-04-06T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1712412000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Curtis 2",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 437,
+          "name": "Christos Giagos",
+          "logo": "https://media.api-sports.io/mma/fighters/437.png",
+          "winner": false
+        },
+        "second": {
+          "id": 867,
+          "name": "Ignacio Bahamondes",
+          "logo": "https://media.api-sports.io/mma/fighters/867.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:42.727Z"
+}

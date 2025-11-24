@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 819,
+    "name": "Tucker Lutz",
+    "nickname": "Top Gun",
+    "photo": "https://media.api-sports.io/mma/fighters/819.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "146 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 363,
+      "name": "Ground Control Academy"
+    },
+    "last_update": "2025-06-04T20:00:06+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 819,
+      "name": "Tucker Lutz",
+      "photo": "https://media.api-sports.io/mma/fighters/819.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 634,
+      "date": "2023-03-25T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1679783400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vera vs. Sandhagen",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 819,
+          "name": "Tucker Lutz",
+          "logo": "https://media.api-sports.io/mma/fighters/819.png",
+          "winner": false
+        },
+        "second": {
+          "id": 795,
+          "name": "Daniel Pineda",
+          "logo": "https://media.api-sports.io/mma/fighters/795.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 792,
+      "date": "2023-07-16T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1689471000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holm vs. Bueno Silva",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 813,
+          "name": "Melsik Baghdasaryan",
+          "logo": "https://media.api-sports.io/mma/fighters/813.png",
+          "winner": true
+        },
+        "second": {
+          "id": 819,
+          "name": "Tucker Lutz",
+          "logo": "https://media.api-sports.io/mma/fighters/819.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:17.209Z"
+}

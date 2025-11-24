@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 823,
+    "name": "Tafon Nchukwi",
+    "nickname": "Da Don",
+    "photo": "https://media.api-sports.io/mma/fighters/823.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "189 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 65,
+      "name": "Lloyd Irvin"
+    },
+    "last_update": "2025-06-04T20:02:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 823,
+      "name": "Tafon Nchukwi",
+      "photo": "https://media.api-sports.io/mma/fighters/823.png"
+    },
+    "total": {
+      "win": 6,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 2
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 857,
+      "date": "2023-08-12T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1691883000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Luque vs. Dos Anjos",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 823,
+          "name": "Tafon Nchukwi",
+          "logo": "https://media.api-sports.io/mma/fighters/823.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2396,
+          "name": "AJ Dobson",
+          "logo": "https://media.api-sports.io/mma/fighters/2396.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:23.030Z"
+}

@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 703,
+    "name": "Austin Lingo",
+    "nickname": "Lights Out",
+    "photo": "https://media.api-sports.io/mma/fighters/703.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "146 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 2,
+      "name": "Fortis MMA"
+    },
+    "last_update": "2025-06-04T19:02:11+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 703,
+      "name": "Austin Lingo",
+      "photo": "https://media.api-sports.io/mma/fighters/703.png"
+    },
+    "total": {
+      "win": 9,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 0
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 631,
+      "date": "2023-03-26T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1679790600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vera vs. Sandhagen",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 703,
+          "name": "Austin Lingo",
+          "logo": "https://media.api-sports.io/mma/fighters/703.png",
+          "winner": false
+        },
+        "second": {
+          "id": 694,
+          "name": "Nate Landwehr",
+          "logo": "https://media.api-sports.io/mma/fighters/694.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 794,
+      "date": "2023-07-16T00:40:00+00:00",
+      "time": "00:40",
+      "timestamp": 1689468000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holm vs. Bueno Silva",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2583,
+          "name": "Melquizael Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2583.png",
+          "winner": true
+        },
+        "second": {
+          "id": 703,
+          "name": "Austin Lingo",
+          "logo": "https://media.api-sports.io/mma/fighters/703.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:39.230Z"
+}

@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 21,
+    "name": "Henry Cejudo",
+    "nickname": "Triple C",
+    "photo": "https://media.api-sports.io/mma/fighters/21.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 4'",
+    "weight": "135 lbs",
+    "reach": "64'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 20,
+      "name": "Fight Ready"
+    },
+    "last_update": "2025-06-04T13:21:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 21,
+      "name": "Henry Cejudo",
+      "photo": "https://media.api-sports.io/mma/fighters/21.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 1
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 690,
+      "date": "2023-05-07T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1683432000,
+      "timezone": "UTC",
+      "slug": "UFC 288: Sterling vs. Cejudo",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 21,
+          "name": "Henry Cejudo",
+          "logo": "https://media.api-sports.io/mma/fighters/21.png",
+          "winner": false
+        },
+        "second": {
+          "id": 84,
+          "name": "Aljamain Sterling",
+          "logo": "https://media.api-sports.io/mma/fighters/84.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1154,
+      "date": "2024-02-17T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1708196400,
+      "timezone": "UTC",
+      "slug": "UFC 298: Volkanovski vs. Topuria",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 21,
+          "name": "Henry Cejudo",
+          "logo": "https://media.api-sports.io/mma/fighters/21.png",
+          "winner": false
+        },
+        "second": {
+          "id": 290,
+          "name": "Merab Dvalishvili",
+          "logo": "https://media.api-sports.io/mma/fighters/290.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1796,
+      "date": "2025-02-23T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1740283200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cejudo vs. Song",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 126,
+          "name": "Song Yadong",
+          "logo": "https://media.api-sports.io/mma/fighters/126.png",
+          "winner": true
+        },
+        "second": {
+          "id": 21,
+          "name": "Henry Cejudo",
+          "logo": "https://media.api-sports.io/mma/fighters/21.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2391,
+      "date": "2025-12-07T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1765078200,
+      "timezone": "UTC",
+      "slug": "UFC 323: Dvalishvili vs. Yan 2",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 2618,
+          "name": "Payton Talbott",
+          "logo": "https://media.api-sports.io/mma/fighters/2618.png",
+          "winner": false
+        },
+        "second": {
+          "id": 21,
+          "name": "Henry Cejudo",
+          "logo": "https://media.api-sports.io/mma/fighters/21.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:11.642Z"
+}

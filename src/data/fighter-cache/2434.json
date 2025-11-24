@@ -1,0 +1,324 @@
+{
+  "profile": {
+    "id": 2434,
+    "name": "Ian Machado Garry",
+    "nickname": "The Future",
+    "photo": "https://media.api-sports.io/mma/fighters/2434.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "171 lbs",
+    "reach": "74.5'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 708,
+      "name": "Chute Boxe - Diego Lima"
+    },
+    "last_update": "2025-11-24T00:13:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2434,
+      "name": "Ian Machado Garry",
+      "photo": "https://media.api-sports.io/mma/fighters/2434.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 1,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 0
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 583,
+      "date": "2023-03-05T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1677976200,
+      "timezone": "UTC",
+      "slug": "UFC 285: Jones vs. Gane",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 588,
+          "name": "Song Kenan",
+          "logo": "https://media.api-sports.io/mma/fighters/588.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2434,
+          "name": "Ian Garry",
+          "logo": "https://media.api-sports.io/mma/fighters/2434.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 703,
+      "date": "2023-05-13T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1684008000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Almeida",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2434,
+          "name": "Ian Garry",
+          "logo": "https://media.api-sports.io/mma/fighters/2434.png",
+          "winner": true
+        },
+        "second": {
+          "id": 541,
+          "name": "Daniel Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/541.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 869,
+      "date": "2023-08-20T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1692500400,
+      "timezone": "UTC",
+      "slug": "UFC 292: Sterling vs. O'Malley",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2434,
+          "name": "Ian Garry",
+          "logo": "https://media.api-sports.io/mma/fighters/2434.png",
+          "winner": true
+        },
+        "second": {
+          "id": 405,
+          "name": "Neil Magny",
+          "logo": "https://media.api-sports.io/mma/fighters/405.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1017,
+      "date": "2023-12-17T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1702782000,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2434,
+          "name": "Ian Garry",
+          "logo": "https://media.api-sports.io/mma/fighters/2434.png",
+          "winner": false
+        },
+        "second": {
+          "id": 99,
+          "name": "Vicente Luque",
+          "logo": "https://media.api-sports.io/mma/fighters/99.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1183,
+      "date": "2024-02-17T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1708196400,
+      "timezone": "UTC",
+      "slug": "UFC 298: Volkanovski vs. Topuria",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2434,
+          "name": "Ian Machado Garry",
+          "logo": "https://media.api-sports.io/mma/fighters/2434.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2,
+          "name": "Geoff Neal",
+          "logo": "https://media.api-sports.io/mma/fighters/2.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1470,
+      "date": "2024-06-29T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1719684000,
+      "timezone": "UTC",
+      "slug": "UFC 303: Pereira vs. ProchÃ¡zka 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2659,
+          "name": "Michael Page",
+          "logo": "https://media.api-sports.io/mma/fighters/2659.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2434,
+          "name": "Ian Machado Garry",
+          "logo": "https://media.api-sports.io/mma/fighters/2434.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1747,
+      "date": "2024-12-07T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1733598000,
+      "timezone": "UTC",
+      "slug": "UFC 310: Pantoja vs. Asakura",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2434,
+          "name": "Ian Machado Garry",
+          "logo": "https://media.api-sports.io/mma/fighters/2434.png",
+          "winner": false
+        },
+        "second": {
+          "id": 735,
+          "name": "Shavkat Rakhmonov",
+          "logo": "https://media.api-sports.io/mma/fighters/735.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1629,
+      "date": "2024-12-14T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1734202800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Machado Garry vs. Buckley",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 790,
+          "name": "Joaquin Buckley",
+          "logo": "https://media.api-sports.io/mma/fighters/790.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2434,
+          "name": "Ian Machado Garry",
+          "logo": "https://media.api-sports.io/mma/fighters/2434.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2014,
+      "date": "2025-04-27T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1745724600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Machado Garry vs. Prates",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2654,
+          "name": "Carlos Prates",
+          "logo": "https://media.api-sports.io/mma/fighters/2654.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2434,
+          "name": "Ian Machado Garry",
+          "logo": "https://media.api-sports.io/mma/fighters/2434.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2246,
+      "date": "2025-11-22T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1763841600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tsarukyan vs. Hooker",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2434,
+          "name": "Ian Machado Garry",
+          "logo": "https://media.api-sports.io/mma/fighters/2434.png",
+          "winner": true
+        },
+        "second": {
+          "id": 15,
+          "name": "Belal Muhammad",
+          "logo": "https://media.api-sports.io/mma/fighters/15.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:08.688Z"
+}

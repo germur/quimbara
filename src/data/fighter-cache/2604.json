@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 2604,
+    "name": "Trevor Peek",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2604.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "155 lbs",
+    "reach": "70'",
+    "stance": "Switch",
+    "category": "Lightweight",
+    "team": {
+      "id": 706,
+      "name": "Agoge Combatives"
+    },
+    "last_update": "2025-06-05T10:52:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2604,
+      "name": "Trevor Peek",
+      "photo": "https://media.api-sports.io/mma/fighters/2604.png"
+    },
+    "total": {
+      "win": 9,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 0
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 573,
+      "date": "2023-02-25T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1677358800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Muniz vs. Allen",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2604,
+          "name": "Trevor Peek",
+          "logo": "https://media.api-sports.io/mma/fighters/2604.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2485,
+          "name": "Erick Gonzalez",
+          "logo": "https://media.api-sports.io/mma/fighters/2485.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 759,
+      "date": "2023-06-24T16:45:00+00:00",
+      "time": "16:45",
+      "timestamp": 1687625100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Topuria",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2539,
+          "name": "Chepe Mariscal",
+          "logo": "https://media.api-sports.io/mma/fighters/2539.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2604,
+          "name": "Trevor Peek",
+          "logo": "https://media.api-sports.io/mma/fighters/2604.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 990,
+      "date": "2023-10-21T17:15:00+00:00",
+      "time": "17:15",
+      "timestamp": 1697908500,
+      "timezone": "UTC",
+      "slug": "UFC 294: Makhachev vs. Volkanovski 2",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2604,
+          "name": "Trevor Peek",
+          "logo": "https://media.api-sports.io/mma/fighters/2604.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2628,
+          "name": "Mohammad Yahya",
+          "logo": "https://media.api-sports.io/mma/fighters/2628.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1307,
+      "date": "2024-04-06T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1712412000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Curtis 2",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2626,
+          "name": "Charlie Campbell",
+          "logo": "https://media.api-sports.io/mma/fighters/2626.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2604,
+          "name": "Trevor Peek",
+          "logo": "https://media.api-sports.io/mma/fighters/2604.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1569,
+      "date": "2024-09-07T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1725721200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Brady",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2610,
+          "name": "Yanal Ashmouz",
+          "logo": "https://media.api-sports.io/mma/fighters/2610.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2604,
+          "name": "Trevor Peek",
+          "logo": "https://media.api-sports.io/mma/fighters/2604.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2003,
+      "date": "2025-05-03T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1746284400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Figueiredo",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2567,
+          "name": "JeongYeong Lee",
+          "logo": "https://media.api-sports.io/mma/fighters/2567.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2604,
+          "name": "Trevor Peek",
+          "logo": "https://media.api-sports.io/mma/fighters/2604.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:22.011Z"
+}

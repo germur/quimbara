@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2616,
+    "name": "Felipe dos Santos",
+    "nickname": "Lipe Detona",
+    "photo": "https://media.api-sports.io/mma/fighters/2616.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "125 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 38,
+      "name": "Chute Boxe"
+    },
+    "last_update": "2025-06-05T10:58:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2616,
+      "name": "Felipe dos Santos",
+      "photo": "https://media.api-sports.io/mma/fighters/2616.png"
+    },
+    "total": {
+      "win": 8,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 0
+    },
+    "sub": {
+      "win": 3,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 942,
+      "date": "2023-09-10T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1694314800,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2616,
+          "name": "Felipe dos Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/2616.png",
+          "winner": false
+        },
+        "second": {
+          "id": 892,
+          "name": "Manel Kape",
+          "logo": "https://media.api-sports.io/mma/fighters/892.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1158,
+      "date": "2024-02-24T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1708790400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Royval 2",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2616,
+          "name": "Felipe dos Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/2616.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2386,
+          "name": "Victor Altamirano",
+          "logo": "https://media.api-sports.io/mma/fighters/2386.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1555,
+      "date": "2024-09-07T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1725710400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Brady",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2679,
+          "name": "Andre Lima",
+          "logo": "https://media.api-sports.io/mma/fighters/2679.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2616,
+          "name": "Felipe dos Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/2616.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1866,
+      "date": "2025-03-22T18:40:00+00:00",
+      "time": "18:40",
+      "timestamp": 1742668800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Edwards vs. Brady",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2616,
+          "name": "Felipe dos Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/2616.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2733,
+          "name": "Lone'er Kavanagh",
+          "logo": "https://media.api-sports.io/mma/fighters/2733.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:42.387Z"
+}

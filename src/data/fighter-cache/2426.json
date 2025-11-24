@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "id": 2426,
+    "name": "Allan Nascimento",
+    "nickname": "Puro Osso",
+    "photo": "https://media.api-sports.io/mma/fighters/2426.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "127 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 38,
+      "name": "Chute Boxe"
+    },
+    "last_update": "2025-11-08T12:41:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2426,
+      "name": "Allan Nascimento",
+      "photo": "https://media.api-sports.io/mma/fighters/2426.png"
+    },
+    "total": {
+      "win": 21,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 1,
+      "loss": 0
+    },
+    "sub": {
+      "win": 15,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 515,
+      "date": "2023-01-14T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1673733600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Imavov",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2440,
+          "name": "Carlos Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/2440.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2426,
+          "name": "Allan Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/2426.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1084,
+      "date": "2023-12-10T04:30:00+00:00",
+      "time": "04:30",
+      "timestamp": 1702182600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2426,
+          "name": "Allan Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/2426.png",
+          "winner": false
+        },
+        "second": {
+          "id": 580,
+          "name": "Sumudaerji",
+          "logo": "https://media.api-sports.io/mma/fighters/580.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1547,
+      "date": "2024-08-10T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1723330800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tybura vs. Spivac 2",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2563,
+          "name": "Jafel Filho",
+          "logo": "https://media.api-sports.io/mma/fighters/2563.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2426,
+          "name": "Allan Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/2426.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1946,
+      "date": "2025-03-01T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1740844800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kape vs. Almabayev",
+      "is_main": true,
+      "category": null,
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2426,
+          "name": "Allan Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/2426.png",
+          "winner": false
+        },
+        "second": {
+          "id": 199,
+          "name": "TBA",
+          "logo": "https://media.api-sports.io/mma/fighters/199.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1852,
+      "date": "2025-03-02T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1740873600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Kape",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2426,
+          "name": "Allan Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/2426.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2527,
+          "name": "Asu Almabayev",
+          "logo": "https://media.api-sports.io/mma/fighters/2527.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2069,
+      "date": "2025-06-01T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1748736000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Barber",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2426,
+          "name": "Allan Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/2426.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2563,
+          "name": "Jafel Filho",
+          "logo": "https://media.api-sports.io/mma/fighters/2563.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2352,
+      "date": "2025-11-01T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1761998400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Garcia vs. Onama",
+      "is_main": false,
+      "category": null,
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2636,
+          "name": "Rafael Estevam",
+          "logo": "https://media.api-sports.io/mma/fighters/2636.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2426,
+          "name": "Allan Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/2426.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2362,
+      "date": "2025-11-01T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1762009200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Garcia vs. Onama",
+      "is_main": true,
+      "category": "Catch Weight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 777,
+          "name": "Cody Durden",
+          "logo": "https://media.api-sports.io/mma/fighters/777.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2426,
+          "name": "Allan Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/2426.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:18.503Z"
+}

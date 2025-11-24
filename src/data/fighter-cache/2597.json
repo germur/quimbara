@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 2597,
+    "name": "Shannon Ross",
+    "nickname": "The Turkish Delight",
+    "photo": "https://media.api-sports.io/mma/fighters/2597.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "126 lbs",
+    "reach": "66'",
+    "stance": "Switch",
+    "category": "Flyweight",
+    "team": {
+      "id": 697,
+      "name": "Platinum Boxing Club"
+    },
+    "last_update": "2025-06-05T10:49:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2597,
+      "name": "Shannon Ross",
+      "photo": "https://media.api-sports.io/mma/fighters/2597.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 5
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 555,
+      "date": "2023-02-12T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1676165400,
+      "timezone": "UTC",
+      "slug": "UFC 284: Makhachev vs. Volkanovski",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2421,
+          "name": "Kleydson Rodrigues",
+          "logo": "https://media.api-sports.io/mma/fighters/2421.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2597,
+          "name": "Shannon Ross",
+          "logo": "https://media.api-sports.io/mma/fighters/2597.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 781,
+      "date": "2023-07-08T22:20:00+00:00",
+      "time": "22:20",
+      "timestamp": 1688854800,
+      "timezone": "UTC",
+      "slug": "UFC 290: Volkanovski vs. Rodriguez",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2569,
+          "name": "Jesus Aguilar",
+          "logo": "https://media.api-sports.io/mma/fighters/2569.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2597,
+          "name": "Shannon Ross",
+          "logo": "https://media.api-sports.io/mma/fighters/2597.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1087,
+      "date": "2023-12-09T16:30:00+00:00",
+      "time": "16:30",
+      "timestamp": 1702139400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2597,
+          "name": "Shannon Ross",
+          "logo": "https://media.api-sports.io/mma/fighters/2597.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2556,
+          "name": "HyunSung Park",
+          "logo": "https://media.api-sports.io/mma/fighters/2556.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:59:10.606Z"
+}

@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 296,
+    "name": "Bryce Mitchell",
+    "nickname": "Thug Nasty",
+    "photo": "https://media.api-sports.io/mma/fighters/296.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "146 lbs",
+    "reach": "70'",
+    "stance": "Southpaw",
+    "category": "Bantamweight",
+    "team": {
+      "id": 151,
+      "name": "Barata MMA"
+    },
+    "last_update": "2025-08-02T12:02:13+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 296,
+      "name": "Bryce Mitchell",
+      "photo": "https://media.api-sports.io/mma/fighters/296.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 1,
+      "loss": 1
+    },
+    "sub": {
+      "win": 9,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 936,
+      "date": "2023-09-24T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1695515400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Fiziev vs. Gamrot",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 230,
+          "name": "Dan Ige",
+          "logo": "https://media.api-sports.io/mma/fighters/230.png",
+          "winner": false
+        },
+        "second": {
+          "id": 296,
+          "name": "Bryce Mitchell",
+          "logo": "https://media.api-sports.io/mma/fighters/296.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1094,
+      "date": "2023-12-17T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1702782000,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 296,
+          "name": "Bryce Mitchell",
+          "logo": "https://media.api-sports.io/mma/fighters/296.png",
+          "winner": false
+        },
+        "second": {
+          "id": 306,
+          "name": "Josh Emmett",
+          "logo": "https://media.api-sports.io/mma/fighters/306.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1757,
+      "date": "2024-12-07T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1733598000,
+      "timezone": "UTC",
+      "slug": "UFC 310: Pantoja vs. Asakura",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 98,
+          "name": "Kron Gracie",
+          "logo": "https://media.api-sports.io/mma/fighters/98.png",
+          "winner": false
+        },
+        "second": {
+          "id": 296,
+          "name": "Bryce Mitchell",
+          "logo": "https://media.api-sports.io/mma/fighters/296.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1962,
+      "date": "2025-04-13T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1744511400,
+      "timezone": "UTC",
+      "slug": "UFC 314: Volkanovski vs. Lopes",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2666,
+          "name": "Jean Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/2666.png",
+          "winner": true
+        },
+        "second": {
+          "id": 296,
+          "name": "Bryce Mitchell",
+          "logo": "https://media.api-sports.io/mma/fighters/296.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2151,
+      "date": "2025-07-26T18:40:00+00:00",
+      "time": "18:40",
+      "timestamp": 1753555200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. de Ridder",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 38,
+          "name": "Said Nurmagomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/38.png",
+          "winner": false
+        },
+        "second": {
+          "id": 296,
+          "name": "Bryce Mitchell",
+          "logo": "https://media.api-sports.io/mma/fighters/296.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:39.337Z"
+}

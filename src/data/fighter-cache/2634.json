@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 2634,
+    "name": "Brendon Marotte",
+    "nickname": "The Kid",
+    "photo": "https://media.api-sports.io/mma/fighters/2634.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "145 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 196,
+      "name": "New England Cartel"
+    },
+    "last_update": "2025-06-05T11:07:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2634,
+      "name": "Brendon Marotte",
+      "photo": "https://media.api-sports.io/mma/fighters/2634.png"
+    },
+    "total": {
+      "win": 8,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 1
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 1021,
+      "date": "2023-10-14T21:30:00+00:00",
+      "time": "21:30",
+      "timestamp": 1697319000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yusuff vs. Barboza",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2634,
+          "name": "Brendon Marotte",
+          "logo": "https://media.api-sports.io/mma/fighters/2634.png",
+          "winner": false
+        },
+        "second": {
+          "id": 519,
+          "name": "Terrance McKinney",
+          "logo": "https://media.api-sports.io/mma/fighters/519.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1271,
+      "date": "2024-03-02T18:10:00+00:00",
+      "time": "18:10",
+      "timestamp": 1709403000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Gaziev",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2634,
+          "name": "Brendon Marotte",
+          "logo": "https://media.api-sports.io/mma/fighters/2634.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2628,
+          "name": "Mohammad Yahya",
+          "logo": "https://media.api-sports.io/mma/fighters/2628.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1567,
+      "date": "2024-09-07T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1725710400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Brady",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2634,
+          "name": "Brendon Marotte",
+          "logo": "https://media.api-sports.io/mma/fighters/2634.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2559,
+          "name": "Isaac Dulgarian",
+          "logo": "https://media.api-sports.io/mma/fighters/2559.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:43.430Z"
+}

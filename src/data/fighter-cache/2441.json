@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 2441,
+    "name": "Daniel Barez",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2441.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "126 lbs",
+    "reach": "66'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 79,
+      "name": "Entram Gym"
+    },
+    "last_update": "2025-06-05T09:31:07+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2441,
+      "name": "Daniel Barez",
+      "photo": "https://media.api-sports.io/mma/fighters/2441.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 0
+    },
+    "sub": {
+      "win": 6,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 812,
+      "date": "2023-07-22T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1690041600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Aspinall vs. Tybura",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2441,
+          "name": "Daniel Barez",
+          "logo": "https://media.api-sports.io/mma/fighters/2441.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2563,
+          "name": "Jafel Filho",
+          "logo": "https://media.api-sports.io/mma/fighters/2563.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1587,
+      "date": "2024-09-28T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1727510400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moicano vs. Saint Denis",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2386,
+          "name": "Victor Altamirano",
+          "logo": "https://media.api-sports.io/mma/fighters/2386.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2441,
+          "name": "Daniel Barez",
+          "logo": "https://media.api-sports.io/mma/fighters/2441.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1802,
+      "date": "2025-03-15T20:40:00+00:00",
+      "time": "20:40",
+      "timestamp": 1742071200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Dolidze 2",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2679,
+          "name": "Andre Lima",
+          "logo": "https://media.api-sports.io/mma/fighters/2679.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2441,
+          "name": "Daniel Barez",
+          "logo": "https://media.api-sports.io/mma/fighters/2441.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:36.608Z"
+}

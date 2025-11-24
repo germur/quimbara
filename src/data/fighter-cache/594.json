@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 594,
+    "name": "Zubaira Tukhugov",
+    "nickname": "Warrior",
+    "photo": "https://media.api-sports.io/mma/fighters/594.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "157 lbs",
+    "reach": "68'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 268,
+      "name": "Krepost"
+    },
+    "last_update": "2025-06-04T18:07:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 594,
+      "name": "Zubaira Tukhugov",
+      "photo": "https://media.api-sports.io/mma/fighters/594.png"
+    },
+    "total": {
+      "win": 20,
+      "loss": 6,
+      "draw": 1
+    },
+    "ko": {
+      "win": 7,
+      "loss": 1
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 552,
+      "date": "2023-02-11T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1676156400,
+      "timezone": "UTC",
+      "slug": "UFC 284: Makhachev vs. Volkanovski",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2546,
+          "name": "Elves Brener",
+          "logo": "https://media.api-sports.io/mma/fighters/2546.png",
+          "winner": true
+        },
+        "second": {
+          "id": 594,
+          "name": "Zubaira Tukhugov",
+          "logo": "https://media.api-sports.io/mma/fighters/594.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:30.911Z"
+}

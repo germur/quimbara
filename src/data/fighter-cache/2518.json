@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 2518,
+    "name": "Trey Ogden",
+    "nickname": "Shamurai",
+    "photo": "https://media.api-sports.io/mma/fighters/2518.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "155 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 218,
+      "name": "Marathon MMA"
+    },
+    "last_update": "2025-06-05T10:09:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2518,
+      "name": "Trey Ogden",
+      "photo": "https://media.api-sports.io/mma/fighters/2518.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 0,
+      "loss": 0
+    },
+    "sub": {
+      "win": 11,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 635,
+      "date": "2023-04-08T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1680994800,
+      "timezone": "UTC",
+      "slug": "UFC 287: Pereira vs. Adesanya 2",
+      "is_main": false,
+      "category": "Catch Weight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2518,
+          "name": "Trey Ogden",
+          "logo": "https://media.api-sports.io/mma/fighters/2518.png",
+          "winner": false
+        },
+        "second": {
+          "id": 867,
+          "name": "Ignacio Bahamondes",
+          "logo": "https://media.api-sports.io/mma/fighters/867.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1034,
+      "date": "2023-11-18T19:20:00+00:00",
+      "time": "19:20",
+      "timestamp": 1700335200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 878,
+          "name": "Nikolas Motta",
+          "logo": "https://media.api-sports.io/mma/fighters/878.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2518,
+          "name": "Trey Ogden",
+          "logo": "https://media.api-sports.io/mma/fighters/2518.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1261,
+      "date": "2024-03-23T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1711206000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ribas vs. Namajunas",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2518,
+          "name": "Trey Ogden",
+          "logo": "https://media.api-sports.io/mma/fighters/2518.png",
+          "winner": true
+        },
+        "second": {
+          "id": 400,
+          "name": "Kurt Holobaugh",
+          "logo": "https://media.api-sports.io/mma/fighters/400.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1514,
+      "date": "2024-07-20T13:30:00+00:00",
+      "time": "13:30",
+      "timestamp": 1721482200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lemos vs. Jandiroba",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2518,
+          "name": "Trey Ogden",
+          "logo": "https://media.api-sports.io/mma/fighters/2518.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2576,
+          "name": "Loik Radzhabov",
+          "logo": "https://media.api-sports.io/mma/fighters/2576.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1821,
+      "date": "2025-01-11T22:40:00+00:00",
+      "time": "22:40",
+      "timestamp": 1736635200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs Ribas 2",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2518,
+          "name": "Trey Ogden",
+          "logo": "https://media.api-sports.io/mma/fighters/2518.png",
+          "winner": false
+        },
+        "second": {
+          "id": 401,
+          "name": "Thiago Moises",
+          "logo": "https://media.api-sports.io/mma/fighters/401.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:23.621Z"
+}

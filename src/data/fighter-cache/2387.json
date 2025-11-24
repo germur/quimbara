@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 2387,
+    "name": "AJ Fletcher",
+    "nickname": "The Ghost",
+    "photo": "https://media.api-sports.io/mma/fighters/2387.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "170 lbs",
+    "reach": "67'",
+    "stance": "Switch",
+    "category": "Welterweight",
+    "team": {
+      "id": 654,
+      "name": "Gladiators Academy Of Lafayette"
+    },
+    "last_update": "2025-06-05T09:04:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2387,
+      "name": "AJ Fletcher",
+      "photo": "https://media.api-sports.io/mma/fighters/2387.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 0
+    },
+    "sub": {
+      "win": 5,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 566,
+      "date": "2023-02-18T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1676754000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Andrade vs. Blanchfield",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2602,
+          "name": "Themba Gorimbo",
+          "logo": "https://media.api-sports.io/mma/fighters/2602.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2387,
+          "name": "AJ Fletcher",
+          "logo": "https://media.api-sports.io/mma/fighters/2387.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 938,
+      "date": "2023-09-23T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1695511800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Fiziev vs. Gamrot",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2387,
+          "name": "AJ Fletcher",
+          "logo": "https://media.api-sports.io/mma/fighters/2387.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2399,
+          "name": "Bryan Battle",
+          "logo": "https://media.api-sports.io/mma/fighters/2399.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:32.766Z"
+}

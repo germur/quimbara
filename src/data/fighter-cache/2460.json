@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 2460,
+    "name": "Adam Fugitt",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2460.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "170 lbs",
+    "reach": "77'",
+    "stance": "Southpaw",
+    "category": "Welterweight",
+    "team": {
+      "id": 689,
+      "name": "Art Of War MMA"
+    },
+    "last_update": "2025-07-26T12:06:08+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2460,
+      "name": "Adam Fugitt",
+      "photo": "https://media.api-sports.io/mma/fighters/2460.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 2
+    },
+    "sub": {
+      "win": 3,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 548,
+      "date": "2023-02-05T06:00:00+00:00",
+      "time": "06:00",
+      "timestamp": 1675576800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Spivac",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2460,
+          "name": "Adam Fugitt",
+          "logo": "https://media.api-sports.io/mma/fighters/2460.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2613,
+          "name": "Yusaku Kinoshita",
+          "logo": "https://media.api-sports.io/mma/fighters/2613.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 739,
+      "date": "2023-06-11T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1686452400,
+      "timezone": "UTC",
+      "slug": "UFC 289: Nunes vs. Aldana",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2460,
+          "name": "Adam Fugitt",
+          "logo": "https://media.api-sports.io/mma/fighters/2460.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2438,
+          "name": "Mike Malott",
+          "logo": "https://media.api-sports.io/mma/fighters/2438.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1458,
+      "date": "2024-06-15T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1718474400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Perez vs. Taira",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2460,
+          "name": "Adam Fugitt",
+          "logo": "https://media.api-sports.io/mma/fighters/2460.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2375,
+          "name": "Josh Quinlan",
+          "logo": "https://media.api-sports.io/mma/fighters/2375.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1795,
+      "date": "2025-02-22T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1740236400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cejudo vs. Song",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2530,
+          "name": "Billy Ray Goff",
+          "logo": "https://media.api-sports.io/mma/fighters/2530.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2460,
+          "name": "Adam Fugitt",
+          "logo": "https://media.api-sports.io/mma/fighters/2460.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1892,
+      "date": "2025-02-22T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1740265200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cejudo vs. Song",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2530,
+          "name": "Billy Ray Goff",
+          "logo": "https://media.api-sports.io/mma/fighters/2530.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2460,
+          "name": "Adam Fugitt",
+          "logo": "https://media.api-sports.io/mma/fighters/2460.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2059,
+      "date": "2025-07-19T23:20:00+00:00",
+      "time": "23:20",
+      "timestamp": 1752967200,
+      "timezone": "UTC",
+      "slug": "UFC 318: Holloway vs. Poirier 3",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2752,
+          "name": "Islam Dulatov",
+          "logo": "https://media.api-sports.io/mma/fighters/2752.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2460,
+          "name": "Adam Fugitt",
+          "logo": "https://media.api-sports.io/mma/fighters/2460.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:31.339Z"
+}

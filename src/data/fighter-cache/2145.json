@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 2145,
+    "name": "Taylor Lapilus",
+    "nickname": "Double Impact",
+    "photo": "https://media.api-sports.io/mma/fighters/2145.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "136 lbs",
+    "reach": "73'",
+    "stance": "Southpaw",
+    "category": "Bantamweight",
+    "team": {
+      "id": 113,
+      "name": "MMA Factory"
+    },
+    "last_update": "2025-06-05T07:03:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2145,
+      "name": "Taylor Lapilus",
+      "photo": "https://media.api-sports.io/mma/fighters/2145.png"
+    },
+    "total": {
+      "win": 21,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 0
+    },
+    "sub": {
+      "win": 6,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 939,
+      "date": "2023-09-02T16:10:00+00:00",
+      "time": "16:10",
+      "timestamp": 1693671000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 325,
+          "name": "Muin Gafurov",
+          "logo": "https://media.api-sports.io/mma/fighters/325.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2145,
+          "name": "Taylor Lapilus",
+          "logo": "https://media.api-sports.io/mma/fighters/2145.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 956,
+      "date": "2023-09-02T18:30:00+00:00",
+      "time": "18:30",
+      "timestamp": 1693679400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2536,
+          "name": "Caolan Loughran",
+          "logo": "https://media.api-sports.io/mma/fighters/2536.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2145,
+          "name": "Taylor Lapilus",
+          "logo": "https://media.api-sports.io/mma/fighters/2145.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1099,
+      "date": "2024-01-13T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1705150800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ankalaev vs. Walker 2",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2145,
+          "name": "Taylor Lapilus",
+          "logo": "https://media.api-sports.io/mma/fighters/2145.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2548,
+          "name": "Farid Basharat",
+          "logo": "https://media.api-sports.io/mma/fighters/2548.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1407,
+      "date": "2024-06-08T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1717851600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Imavov",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2145,
+          "name": "Taylor Lapilus",
+          "logo": "https://media.api-sports.io/mma/fighters/2145.png",
+          "winner": true
+        },
+        "second": {
+          "id": 246,
+          "name": "Cody Stamann",
+          "logo": "https://media.api-sports.io/mma/fighters/246.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1673,
+      "date": "2024-09-28T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1727510400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moicano vs. Saint Denis",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 282,
+          "name": "Vince Morales",
+          "logo": "https://media.api-sports.io/mma/fighters/282.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2145,
+          "name": "Taylor Lapilus",
+          "logo": "https://media.api-sports.io/mma/fighters/2145.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:01.735Z"
+}

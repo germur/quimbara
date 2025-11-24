@@ -1,0 +1,296 @@
+{
+  "profile": {
+    "id": 2630,
+    "name": "Shara Magomedov",
+    "nickname": "Bullet",
+    "photo": "https://media.api-sports.io/mma/fighters/2630.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "185 lbs",
+    "reach": "73'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 633,
+      "name": "GOR MMA"
+    },
+    "last_update": "2025-08-02T12:04:06+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2630,
+      "name": "Shara Magomedov",
+      "photo": "https://media.api-sports.io/mma/fighters/2630.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 1,
+      "draw": 0
+    },
+    "ko": {
+      "win": 12,
+      "loss": 0
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 1002,
+      "date": "2023-10-21T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1697896800,
+      "timezone": "UTC",
+      "slug": "UFC 294: Makhachev vs. Volkanovski 2",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 674,
+          "name": "Bruno Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/674.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2630,
+          "name": "Shara Magomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/2630.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1503,
+      "date": "2024-06-22T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1719054000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 483,
+          "name": "Antonio Trocoli",
+          "logo": "https://media.api-sports.io/mma/fighters/483.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2630,
+          "name": "Shara Magomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/2630.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1352,
+      "date": "2024-06-22T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1719082800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Chimaev",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2381,
+          "name": "Ihor Potieria",
+          "logo": "https://media.api-sports.io/mma/fighters/2381.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2630,
+          "name": "Shara Magomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/2630.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1425,
+      "date": "2024-06-22T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1719082800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Chimaev",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2381,
+          "name": "Ihor Potieria",
+          "logo": "https://media.api-sports.io/mma/fighters/2381.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2630,
+          "name": "Shara Magomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/2630.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1454,
+      "date": "2024-06-22T19:30:00+00:00",
+      "time": "19:30",
+      "timestamp": 1719084600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Chimaev",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2702,
+          "name": "Joilton Lutterbach",
+          "logo": "https://media.api-sports.io/mma/fighters/2702.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2630,
+          "name": "Shara Magomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/2630.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1538,
+      "date": "2024-08-03T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1722682800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 108,
+          "name": "Michal Oleksiejczuk",
+          "logo": "https://media.api-sports.io/mma/fighters/108.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2630,
+          "name": "Shara Magomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/2630.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1659,
+      "date": "2024-10-26T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1729936800,
+      "timezone": "UTC",
+      "slug": "UFC 308: Topuria vs. Holloway",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2464,
+          "name": "Armen Petrosyan",
+          "logo": "https://media.api-sports.io/mma/fighters/2464.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2630,
+          "name": "Shara Magomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/2630.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1783,
+      "date": "2025-02-01T18:30:00+00:00",
+      "time": "18:30",
+      "timestamp": 1738434600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Adesanya vs. Imavov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2659,
+          "name": "Michael Page",
+          "logo": "https://media.api-sports.io/mma/fighters/2659.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2630,
+          "name": "Shara Magomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/2630.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2084,
+      "date": "2025-07-26T20:15:00+00:00",
+      "time": "20:15",
+      "timestamp": 1753560900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. de Ridder",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 293,
+          "name": "Marc-Andre Barriault",
+          "logo": "https://media.api-sports.io/mma/fighters/293.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2630,
+          "name": "Shara Magomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/2630.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:21.655Z"
+}

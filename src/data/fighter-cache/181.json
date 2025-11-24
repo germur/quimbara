@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 181,
+    "name": "Stephen Thompson",
+    "nickname": "Wonderboy",
+    "photo": "https://media.api-sports.io/mma/fighters/181.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "171 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 107,
+      "name": "Upstate Karate"
+    },
+    "last_update": "2025-07-20T00:05:09+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 181,
+      "name": "Stephen Thompson",
+      "photo": "https://media.api-sports.io/mma/fighters/181.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 8,
+      "draw": 1
+    },
+    "ko": {
+      "win": 8,
+      "loss": 2
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 1013,
+      "date": "2023-12-17T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1702785600,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 181,
+          "name": "Stephen Thompson",
+          "logo": "https://media.api-sports.io/mma/fighters/181.png",
+          "winner": false
+        },
+        "second": {
+          "id": 735,
+          "name": "Shavkat Rakhmonov",
+          "logo": "https://media.api-sports.io/mma/fighters/735.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1610,
+      "date": "2024-10-05T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1728144000,
+      "timezone": "UTC",
+      "slug": "UFC 307: Pereira vs. Rountree Jr.",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 790,
+          "name": "Joaquin Buckley",
+          "logo": "https://media.api-sports.io/mma/fighters/790.png",
+          "winner": true
+        },
+        "second": {
+          "id": 181,
+          "name": "Stephen Thompson",
+          "logo": "https://media.api-sports.io/mma/fighters/181.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2120,
+      "date": "2025-07-13T03:10:00+00:00",
+      "time": "03:10",
+      "timestamp": 1752376200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Teixeira",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2551,
+          "name": "Gabriel Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2551.png",
+          "winner": true
+        },
+        "second": {
+          "id": 181,
+          "name": "Stephen Thompson",
+          "logo": "https://media.api-sports.io/mma/fighters/181.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:08.309Z"
+}

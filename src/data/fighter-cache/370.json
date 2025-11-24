@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 370,
+    "name": "Trevin Giles",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/370.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "170 lbs",
+    "reach": "74'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 179,
+      "name": "W4R Training Center"
+    },
+    "last_update": "2025-06-07T12:05:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 370,
+      "name": "Trevin Giles",
+      "photo": "https://media.api-sports.io/mma/fighters/370.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 3
+    },
+    "sub": {
+      "win": 5,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 626,
+      "date": "2023-03-25T21:30:00+00:00",
+      "time": "21:30",
+      "timestamp": 1679779800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vera vs. Sandhagen",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2372,
+          "name": "Preston Parsons",
+          "logo": "https://media.api-sports.io/mma/fighters/2372.png",
+          "winner": false
+        },
+        "second": {
+          "id": 370,
+          "name": "Trevin Giles",
+          "logo": "https://media.api-sports.io/mma/fighters/370.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 823,
+      "date": "2023-07-30T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1690680600,
+      "timezone": "UTC",
+      "slug": "UFC 291: Poirier vs. Gaethje 2",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 370,
+          "name": "Trevin Giles",
+          "logo": "https://media.api-sports.io/mma/fighters/370.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2551,
+          "name": "Gabriel Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2551.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1138,
+      "date": "2024-02-10T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1707570000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hermansson vs. Pyfer",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2654,
+          "name": "Carlos Prates",
+          "logo": "https://media.api-sports.io/mma/fighters/2654.png",
+          "winner": true
+        },
+        "second": {
+          "id": 370,
+          "name": "Trevin Giles",
+          "logo": "https://media.api-sports.io/mma/fighters/370.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1653,
+      "date": "2024-11-02T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1730563200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Albazi",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 370,
+          "name": "Trevin Giles",
+          "logo": "https://media.api-sports.io/mma/fighters/370.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2438,
+          "name": "Mike Malott",
+          "logo": "https://media.api-sports.io/mma/fighters/2438.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2101,
+      "date": "2025-05-31T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1748732400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Barber",
+      "is_main": false,
+      "category": "Catch Weight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2748,
+          "name": "Andreas Gustafsson",
+          "logo": "https://media.api-sports.io/mma/fighters/2748.png",
+          "winner": false
+        },
+        "second": {
+          "id": 370,
+          "name": "Trevin Giles",
+          "logo": "https://media.api-sports.io/mma/fighters/370.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:15.187Z"
+}

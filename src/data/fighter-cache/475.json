@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 475,
+    "name": "Vinc Pichel",
+    "nickname": "From Hell",
+    "photo": "https://media.api-sports.io/mma/fighters/475.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "156 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 16,
+      "name": "FactoryX Muay Thai"
+    },
+    "last_update": "2025-06-04T17:08:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 475,
+      "name": "Vinc Pichel",
+      "photo": "https://media.api-sports.io/mma/fighters/475.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 1
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 1003,
+      "date": "2023-11-05T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1699146000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Almeida vs. Lewis",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 475,
+          "name": "Vinc Pichel",
+          "logo": "https://media.api-sports.io/mma/fighters/475.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2560,
+          "name": "Ismael Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2560.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1347,
+      "date": "2024-05-04T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1714831200,
+      "timezone": "UTC",
+      "slug": "UFC 301: Pantoja vs. Erceg",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 475,
+          "name": "Vinc Pichel",
+          "logo": "https://media.api-sports.io/mma/fighters/475.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2560,
+          "name": "Ismael Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2560.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1948,
+      "date": "2025-03-29T20:50:00+00:00",
+      "time": "20:50",
+      "timestamp": 1743281400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Erceg",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 475,
+          "name": "Vinc Pichel",
+          "logo": "https://media.api-sports.io/mma/fighters/475.png",
+          "winner": false
+        },
+        "second": {
+          "id": 907,
+          "name": "Rafa Garcia",
+          "logo": "https://media.api-sports.io/mma/fighters/907.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:27.917Z"
+}

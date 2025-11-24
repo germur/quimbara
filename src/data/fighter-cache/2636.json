@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2636,
+    "name": "Rafael Estevam",
+    "nickname": "Macapa",
+    "photo": "https://media.api-sports.io/mma/fighters/2636.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "130 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 29,
+      "name": "Nova Uniao"
+    },
+    "last_update": "2025-11-08T00:00:47+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2636,
+      "name": "Rafael Estevam",
+      "photo": "https://media.api-sports.io/mma/fighters/2636.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 0,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 0
+    },
+    "sub": {
+      "win": 3,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 1035,
+      "date": "2023-11-18T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1700334000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2636,
+          "name": "Rafael Estevam",
+          "logo": "https://media.api-sports.io/mma/fighters/2636.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2472,
+          "name": "Charles Johnson",
+          "logo": "https://media.api-sports.io/mma/fighters/2472.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1791,
+      "date": "2025-02-15T22:50:00+00:00",
+      "time": "22:50",
+      "timestamp": 1739659800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2569,
+          "name": "Jesus Aguilar",
+          "logo": "https://media.api-sports.io/mma/fighters/2569.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2636,
+          "name": "Rafael Estevam",
+          "logo": "https://media.api-sports.io/mma/fighters/2636.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2190,
+      "date": "2025-08-02T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1754173800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Taira vs. Park",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2656,
+          "name": "Felipe Bunes",
+          "logo": "https://media.api-sports.io/mma/fighters/2656.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2636,
+          "name": "Rafael Estevam",
+          "logo": "https://media.api-sports.io/mma/fighters/2636.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2352,
+      "date": "2025-11-01T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1761998400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Garcia vs. Onama",
+      "is_main": false,
+      "category": null,
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2636,
+          "name": "Rafael Estevam",
+          "logo": "https://media.api-sports.io/mma/fighters/2636.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2426,
+          "name": "Allan Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/2426.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:59:06.440Z"
+}

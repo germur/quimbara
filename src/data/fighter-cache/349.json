@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 349,
+    "name": "Cub Swanson",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/349.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "146 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 759,
+      "name": "Bloodline Combat"
+    },
+    "last_update": "2025-06-04T16:05:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 349,
+      "name": "Cub Swanson",
+      "photo": "https://media.api-sports.io/mma/fighters/349.png"
+    },
+    "total": {
+      "win": 29,
+      "loss": 14,
+      "draw": 0
+    },
+    "ko": {
+      "win": 13,
+      "loss": 3
+    },
+    "sub": {
+      "win": 4,
+      "loss": 7
+    }
+  },
+  "fights": [
+    {
+      "id": 854,
+      "date": "2023-08-13T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1691888400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Luque vs. Dos Anjos",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 563,
+          "name": "Hakeem Dawodu",
+          "logo": "https://media.api-sports.io/mma/fighters/563.png",
+          "winner": false
+        },
+        "second": {
+          "id": 349,
+          "name": "Cub Swanson",
+          "logo": "https://media.api-sports.io/mma/fighters/349.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1408,
+      "date": "2024-06-29T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1719676800,
+      "timezone": "UTC",
+      "slug": "UFC 303: Pereira vs. ProchÃ¡zka 2",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 102,
+          "name": "Andre Fili",
+          "logo": "https://media.api-sports.io/mma/fighters/102.png",
+          "winner": true
+        },
+        "second": {
+          "id": 349,
+          "name": "Cub Swanson",
+          "logo": "https://media.api-sports.io/mma/fighters/349.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1745,
+      "date": "2024-12-14T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1734202800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Covington vs. Buckley",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 527,
+          "name": "Billy Quarantillo",
+          "logo": "https://media.api-sports.io/mma/fighters/527.png",
+          "winner": false
+        },
+        "second": {
+          "id": 349,
+          "name": "Cub Swanson",
+          "logo": "https://media.api-sports.io/mma/fighters/349.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:48.994Z"
+}

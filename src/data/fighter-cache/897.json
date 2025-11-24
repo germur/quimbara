@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 897,
+    "name": "Santiago Ponzinibbio",
+    "nickname": "Argentine Dagger",
+    "photo": "https://media.api-sports.io/mma/fighters/897.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "170 lbs",
+    "reach": "73'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 21,
+      "name": "American Top"
+    },
+    "last_update": "2025-10-18T00:00:08+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 897,
+      "name": "Santiago Ponzinibbio",
+      "photo": "https://media.api-sports.io/mma/fighters/897.png"
+    },
+    "total": {
+      "win": 31,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 17,
+      "loss": 5
+    },
+    "sub": {
+      "win": 6,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 645,
+      "date": "2023-04-09T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1681007400,
+      "timezone": "UTC",
+      "slug": "UFC 287: Pereira vs. Adesanya 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 897,
+          "name": "Santiago Ponzinibbio",
+          "logo": "https://media.api-sports.io/mma/fighters/897.png",
+          "winner": false
+        },
+        "second": {
+          "id": 317,
+          "name": "Kevin Holland",
+          "logo": "https://media.api-sports.io/mma/fighters/317.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 910,
+      "date": "2023-09-16T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1694887200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Grasso vs. Shevchenko 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 897,
+          "name": "Santiago Ponzinibbio",
+          "logo": "https://media.api-sports.io/mma/fighters/897.png",
+          "winner": false
+        },
+        "second": {
+          "id": 541,
+          "name": "Daniel Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/541.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 964,
+      "date": "2023-09-16T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1694887200,
+      "timezone": "UTC",
+      "slug": "Noche UFC: Grasso vs. Shevchenko 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 200,
+          "name": "Opponent TBA",
+          "logo": "https://media.api-sports.io/mma/fighters/200.png",
+          "winner": false
+        },
+        "second": {
+          "id": 897,
+          "name": "Santiago Ponzinibbio",
+          "logo": "https://media.api-sports.io/mma/fighters/897.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1479,
+      "date": "2024-07-13T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1720893600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Namajunas vs. Cortez",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 590,
+          "name": "Muslim Salikhov",
+          "logo": "https://media.api-sports.io/mma/fighters/590.png",
+          "winner": true
+        },
+        "second": {
+          "id": 897,
+          "name": "Santiago Ponzinibbio",
+          "logo": "https://media.api-sports.io/mma/fighters/897.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1764,
+      "date": "2025-01-12T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1736647200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs Ribas 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2365,
+          "name": "Carlston Harris",
+          "logo": "https://media.api-sports.io/mma/fighters/2365.png",
+          "winner": false
+        },
+        "second": {
+          "id": 897,
+          "name": "Santiago Ponzinibbio",
+          "logo": "https://media.api-sports.io/mma/fighters/897.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1997,
+      "date": "2025-05-04T03:55:00+00:00",
+      "time": "03:55",
+      "timestamp": 1746330900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Figueiredo",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 541,
+          "name": "Daniel Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/541.png",
+          "winner": true
+        },
+        "second": {
+          "id": 897,
+          "name": "Santiago Ponzinibbio",
+          "logo": "https://media.api-sports.io/mma/fighters/897.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2261,
+      "date": "2025-10-11T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1760184000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Oliveira vs. Gamrot",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 897,
+          "name": "Santiago Ponzinibbio",
+          "logo": "https://media.api-sports.io/mma/fighters/897.png",
+          "winner": false
+        },
+        "second": {
+          "id": 99,
+          "name": "Vicente Luque",
+          "logo": "https://media.api-sports.io/mma/fighters/99.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:02.729Z"
+}

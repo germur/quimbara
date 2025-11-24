@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 71,
+    "name": "Rani Yahya",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/71.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "136 lbs",
+    "reach": "67'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 21,
+      "name": "American Top"
+    },
+    "last_update": "2025-06-04T13:46:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 71,
+      "name": "Rani Yahya",
+      "photo": "https://media.api-sports.io/mma/fighters/71.png"
+    },
+    "total": {
+      "win": 28,
+      "loss": 12,
+      "draw": 1
+    },
+    "ko": {
+      "win": 0,
+      "loss": 4
+    },
+    "sub": {
+      "win": 21,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 662,
+      "date": "2023-04-22T22:05:00+00:00",
+      "time": "22:05",
+      "timestamp": 1682201100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Pavlovich vs. Blaydes",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 253,
+          "name": "Montel Jackson",
+          "logo": "https://media.api-sports.io/mma/fighters/253.png",
+          "winner": true
+        },
+        "second": {
+          "id": 71,
+          "name": "Rani Yahya",
+          "logo": "https://media.api-sports.io/mma/fighters/71.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1324,
+      "date": "2024-04-27T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1714219200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Nicolau vs. Perez",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2520,
+          "name": "Victor Henry",
+          "logo": "https://media.api-sports.io/mma/fighters/2520.png",
+          "winner": true
+        },
+        "second": {
+          "id": 71,
+          "name": "Rani Yahya",
+          "logo": "https://media.api-sports.io/mma/fighters/71.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:43.660Z"
+}

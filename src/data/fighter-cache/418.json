@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 418,
+    "name": "Michael Chiesa",
+    "nickname": "Maverick",
+    "photo": "https://media.api-sports.io/mma/fighters/418.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "170 lbs",
+    "reach": "75.5'",
+    "stance": "Southpaw",
+    "category": "Welterweight",
+    "team": {
+      "id": 49,
+      "name": "Sikjitsu"
+    },
+    "last_update": "2025-06-22T00:02:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 418,
+      "name": "Michael Chiesa",
+      "photo": "https://media.api-sports.io/mma/fighters/418.png"
+    },
+    "total": {
+      "win": 20,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 0,
+      "loss": 1
+    },
+    "sub": {
+      "win": 13,
+      "loss": 5
+    }
+  },
+  "fights": [
+    {
+      "id": 831,
+      "date": "2023-07-30T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1690682400,
+      "timezone": "UTC",
+      "slug": "UFC 291: Poirier vs. Gaethje 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 317,
+          "name": "Kevin Holland",
+          "logo": "https://media.api-sports.io/mma/fighters/317.png",
+          "winner": true
+        },
+        "second": {
+          "id": 418,
+          "name": "Michael Chiesa",
+          "logo": "https://media.api-sports.io/mma/fighters/418.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1478,
+      "date": "2024-08-03T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1722682800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 418,
+          "name": "Michael Chiesa",
+          "logo": "https://media.api-sports.io/mma/fighters/418.png",
+          "winner": true
+        },
+        "second": {
+          "id": 441,
+          "name": "Tony Ferguson",
+          "logo": "https://media.api-sports.io/mma/fighters/441.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1718,
+      "date": "2024-12-07T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1733583600,
+      "timezone": "UTC",
+      "slug": "UFC 310: Pantoja vs. Asakura",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 32,
+          "name": "Max Griffin",
+          "logo": "https://media.api-sports.io/mma/fighters/32.png",
+          "winner": false
+        },
+        "second": {
+          "id": 418,
+          "name": "Michael Chiesa",
+          "logo": "https://media.api-sports.io/mma/fighters/418.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2063,
+      "date": "2025-06-15T00:40:00+00:00",
+      "time": "00:40",
+      "timestamp": 1749948000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Usman vs. Buckley",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 272,
+          "name": "Court McGee",
+          "logo": "https://media.api-sports.io/mma/fighters/272.png",
+          "winner": false
+        },
+        "second": {
+          "id": 418,
+          "name": "Michael Chiesa",
+          "logo": "https://media.api-sports.io/mma/fighters/418.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:36.478Z"
+}

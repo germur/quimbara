@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 650,
+    "name": "Jack Shore",
+    "nickname": "Tank",
+    "photo": "https://media.api-sports.io/mma/fighters/650.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "145 lbs",
+    "reach": "71'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 286,
+      "name": "Shore Mixed Martial Arts Centre of Excellence"
+    },
+    "last_update": "2025-06-04T18:35:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 650,
+      "name": "Jack Shore",
+      "photo": "https://media.api-sports.io/mma/fighters/650.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 1
+    },
+    "sub": {
+      "win": 9,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 616,
+      "date": "2023-03-18T19:45:00+00:00",
+      "time": "19:45",
+      "timestamp": 1679168700,
+      "timezone": "UTC",
+      "slug": "UFC 286: Edwards vs. Usman 3",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 376,
+          "name": "Makwan Amirkhani",
+          "logo": "https://media.api-sports.io/mma/fighters/376.png",
+          "winner": false
+        },
+        "second": {
+          "id": 650,
+          "name": "Jack Shore",
+          "logo": "https://media.api-sports.io/mma/fighters/650.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1334,
+      "date": "2024-05-04T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1714838400,
+      "timezone": "UTC",
+      "slug": "UFC 301: Pantoja vs. Erceg",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2384,
+          "name": "Joanderson Brito",
+          "logo": "https://media.api-sports.io/mma/fighters/2384.png",
+          "winner": true
+        },
+        "second": {
+          "id": 650,
+          "name": "Jack Shore",
+          "logo": "https://media.api-sports.io/mma/fighters/650.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1716,
+      "date": "2024-11-02T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1730552400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Albazi",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 702,
+          "name": "Youssef Zalal",
+          "logo": "https://media.api-sports.io/mma/fighters/702.png",
+          "winner": true
+        },
+        "second": {
+          "id": 650,
+          "name": "Jack Shore",
+          "logo": "https://media.api-sports.io/mma/fighters/650.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:55:20.060Z"
+}

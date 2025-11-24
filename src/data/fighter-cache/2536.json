@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 2536,
+    "name": "CaolÃ¡n Loughran",
+    "nickname": "The Don",
+    "photo": "https://media.api-sports.io/mma/fighters/2536.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "136 lbs",
+    "reach": "68'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 99,
+      "name": "Kaobon"
+    },
+    "last_update": "2025-06-05T10:18:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2536,
+      "name": "CaolÃ¡n Loughran",
+      "photo": "https://media.api-sports.io/mma/fighters/2536.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 0
+    },
+    "sub": {
+      "win": 2,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 956,
+      "date": "2023-09-02T18:30:00+00:00",
+      "time": "18:30",
+      "timestamp": 1693679400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2536,
+          "name": "Caolan Loughran",
+          "logo": "https://media.api-sports.io/mma/fighters/2536.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2145,
+          "name": "Taylor Lapilus",
+          "logo": "https://media.api-sports.io/mma/fighters/2145.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 893,
+      "date": "2023-09-02T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1693681200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2536,
+          "name": "Caolan Loughran",
+          "logo": "https://media.api-sports.io/mma/fighters/2536.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2611,
+          "name": "Yanis Ghemmouri",
+          "logo": "https://media.api-sports.io/mma/fighters/2611.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1225,
+      "date": "2024-03-30T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1711810800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Fiorot",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2536,
+          "name": "CaolÃ¡n Loughran",
+          "logo": "https://media.api-sports.io/mma/fighters/2536.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2669,
+          "name": "Angel Pacheco",
+          "logo": "https://media.api-sports.io/mma/fighters/2669.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1455,
+      "date": "2024-07-27T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1722096000,
+      "timezone": "UTC",
+      "slug": "UFC 304: Edwards vs. Muhammad 2",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2536,
+          "name": "CaolÃ¡n Loughran",
+          "logo": "https://media.api-sports.io/mma/fighters/2536.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2494,
+          "name": "Jake Hadley",
+          "logo": "https://media.api-sports.io/mma/fighters/2494.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1865,
+      "date": "2025-03-22T16:20:00+00:00",
+      "time": "16:20",
+      "timestamp": 1742660400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Edwards vs. Brady",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2536,
+          "name": "CaolÃ¡n Loughran",
+          "logo": "https://media.api-sports.io/mma/fighters/2536.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2719,
+          "name": "Nathan Fletcher",
+          "logo": "https://media.api-sports.io/mma/fighters/2719.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:42.095Z"
+}

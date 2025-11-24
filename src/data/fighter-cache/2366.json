@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 2366,
+    "name": "Shayilan Nuerdanbieke",
+    "nickname": "Wolverine",
+    "photo": "https://media.api-sports.io/mma/fighters/2366.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "145 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 520,
+      "name": "China Top"
+    },
+    "last_update": "2025-06-05T08:53:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2366,
+      "name": "Shayilan Nuerdanbieke",
+      "photo": "https://media.api-sports.io/mma/fighters/2366.png"
+    },
+    "total": {
+      "win": 39,
+      "loss": 12,
+      "draw": 0
+    },
+    "ko": {
+      "win": 19,
+      "loss": 3
+    },
+    "sub": {
+      "win": 10,
+      "loss": 7
+    }
+  },
+  "fights": [
+    {
+      "id": 636,
+      "date": "2023-04-08T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1680993000,
+      "timezone": "UTC",
+      "slug": "UFC 287: Pereira vs. Adesanya 2",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 632,
+          "name": "Steve Garcia",
+          "logo": "https://media.api-sports.io/mma/fighters/632.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2366,
+          "name": "Shayilan Nuerdanbieke",
+          "logo": "https://media.api-sports.io/mma/fighters/2366.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1430,
+      "date": "2024-06-15T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1718463600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Perez vs. Taira",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2366,
+          "name": "Shayilan Nuerdanbieke",
+          "logo": "https://media.api-sports.io/mma/fighters/2366.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2583,
+          "name": "Melquizael Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2583.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:10.276Z"
+}

@@ -1,0 +1,352 @@
+{
+  "profile": {
+    "id": 2543,
+    "name": "Daniel Marcos",
+    "nickname": "Soncora",
+    "photo": "https://media.api-sports.io/mma/fighters/2543.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "135 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 301,
+      "name": "American Combat Gym"
+    },
+    "last_update": "2025-11-23T12:04:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2543,
+      "name": "Daniel Marcos",
+      "photo": "https://media.api-sports.io/mma/fighters/2543.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 1,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 0
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 528,
+      "date": "2023-01-21T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1674342000,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2543,
+          "name": "Daniel Marcos",
+          "logo": "https://media.api-sports.io/mma/fighters/2543.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2393,
+          "name": "Saimon Oliveira",
+          "logo": "https://media.api-sports.io/mma/fighters/2393.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 819,
+      "date": "2023-07-22T18:40:00+00:00",
+      "time": "18:40",
+      "timestamp": 1690051200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Aspinall vs. Tybura",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2543,
+          "name": "Daniel Marcos",
+          "logo": "https://media.api-sports.io/mma/fighters/2543.png",
+          "winner": true
+        },
+        "second": {
+          "id": 668,
+          "name": "Davey Grant",
+          "logo": "https://media.api-sports.io/mma/fighters/668.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1015,
+      "date": "2023-11-04T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1699106400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Almeida vs. Lewis",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2543,
+          "name": "Daniel Marcos",
+          "logo": "https://media.api-sports.io/mma/fighters/2543.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2637,
+          "name": "Victor Hugo",
+          "logo": "https://media.api-sports.io/mma/fighters/2637.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1044,
+      "date": "2023-11-05T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1699142400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Almeida vs. Lewis",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2543,
+          "name": "Daniel Marcos",
+          "logo": "https://media.api-sports.io/mma/fighters/2543.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2637,
+          "name": "Victor Hugo",
+          "logo": "https://media.api-sports.io/mma/fighters/2637.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1092,
+      "date": "2023-12-10T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1702170000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": false,
+      "category": "Catch Weight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2651,
+          "name": "Carlos Vera",
+          "logo": "https://media.api-sports.io/mma/fighters/2651.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2543,
+          "name": "Daniel Marcos",
+          "logo": "https://media.api-sports.io/mma/fighters/2543.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1142,
+      "date": "2024-02-10T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1707570000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hermansson vs. Pyfer",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 915,
+          "name": "Aoriqileng",
+          "logo": "https://media.api-sports.io/mma/fighters/915.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2543,
+          "name": "Daniel Marcos",
+          "logo": "https://media.api-sports.io/mma/fighters/2543.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1414,
+      "date": "2024-06-08T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1717851600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Imavov",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2543,
+          "name": "Daniel Marcos",
+          "logo": "https://media.api-sports.io/mma/fighters/2543.png",
+          "winner": true
+        },
+        "second": {
+          "id": 750,
+          "name": "John Castaneda",
+          "logo": "https://media.api-sports.io/mma/fighters/750.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1749,
+      "date": "2024-12-14T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1734202800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Covington vs. Buckley",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2543,
+          "name": "Daniel Marcos",
+          "logo": "https://media.api-sports.io/mma/fighters/2543.png",
+          "winner": true
+        },
+        "second": {
+          "id": 769,
+          "name": "Adrian Yanez",
+          "logo": "https://media.api-sports.io/mma/fighters/769.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1999,
+      "date": "2025-05-04T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1746327600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Figueiredo",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2543,
+          "name": "Daniel Marcos",
+          "logo": "https://media.api-sports.io/mma/fighters/2543.png",
+          "winner": false
+        },
+        "second": {
+          "id": 253,
+          "name": "Montel Jackson",
+          "logo": "https://media.api-sports.io/mma/fighters/253.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2366,
+      "date": "2025-11-08T21:35:00+00:00",
+      "time": "21:35",
+      "timestamp": 1762637700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Bonfim vs. Brown",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2543,
+          "name": "Daniel Marcos",
+          "logo": "https://media.api-sports.io/mma/fighters/2543.png",
+          "winner": true
+        },
+        "second": {
+          "id": 467,
+          "name": "Miles Johns",
+          "logo": "https://media.api-sports.io/mma/fighters/467.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2342,
+      "date": "2025-11-22T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1763805600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tsarukyan vs. Hooker",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2543,
+          "name": "Daniel Marcos",
+          "logo": "https://media.api-sports.io/mma/fighters/2543.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2705,
+          "name": "Felipe Lima",
+          "logo": "https://media.api-sports.io/mma/fighters/2705.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:00.394Z"
+}

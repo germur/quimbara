@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 730,
+    "name": "Mounir Lazzez",
+    "nickname": "The Sniper",
+    "photo": "https://media.api-sports.io/mma/fighters/730.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "171 lbs",
+    "reach": "76'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 320,
+      "name": "Nogueira Dubai"
+    },
+    "last_update": "2025-06-04T19:15:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 730,
+      "name": "Mounir Lazzez",
+      "photo": "https://media.api-sports.io/mma/fighters/730.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 1
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 532,
+      "date": "2023-01-22T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1674349200,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 730,
+          "name": "Mounir Lazzez",
+          "logo": "https://media.api-sports.io/mma/fighters/730.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2551,
+          "name": "Gabriel Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2551.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:40.616Z"
+}

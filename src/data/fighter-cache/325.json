@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 325,
+    "name": "Muin Gafurov",
+    "nickname": "Tajik",
+    "photo": "https://media.api-sports.io/mma/fighters/325.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "136 lbs",
+    "reach": "68'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 17,
+      "name": "Syndicate MMA"
+    },
+    "last_update": "2025-06-04T15:53:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 325,
+      "name": "Muin Gafurov",
+      "photo": "https://media.api-sports.io/mma/fighters/325.png"
+    },
+    "total": {
+      "win": 20,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 10,
+      "loss": 0
+    },
+    "sub": {
+      "win": 7,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 720,
+      "date": "2023-06-03T22:10:00+00:00",
+      "time": "22:10",
+      "timestamp": 1685830200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kara-France vs. Albazi",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 325,
+          "name": "Muin Gafurov",
+          "logo": "https://media.api-sports.io/mma/fighters/325.png",
+          "winner": false
+        },
+        "second": {
+          "id": 750,
+          "name": "John Castaneda",
+          "logo": "https://media.api-sports.io/mma/fighters/750.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 939,
+      "date": "2023-09-02T16:10:00+00:00",
+      "time": "16:10",
+      "timestamp": 1693671000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 325,
+          "name": "Muin Gafurov",
+          "logo": "https://media.api-sports.io/mma/fighters/325.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2145,
+          "name": "Taylor Lapilus",
+          "logo": "https://media.api-sports.io/mma/fighters/2145.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1001,
+      "date": "2023-10-21T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1697911200,
+      "timezone": "UTC",
+      "slug": "UFC 294: Makhachev vs. Volkanovski 2",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 325,
+          "name": "Muin Gafurov",
+          "logo": "https://media.api-sports.io/mma/fighters/325.png",
+          "winner": false
+        },
+        "second": {
+          "id": 38,
+          "name": "Said Nurmagomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/38.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1449,
+      "date": "2024-06-22T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1719043200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 325,
+          "name": "Muin Gafurov",
+          "logo": "https://media.api-sports.io/mma/fighters/325.png",
+          "winner": true
+        },
+        "second": {
+          "id": 66,
+          "name": "Kyung Ho Kang",
+          "logo": "https://media.api-sports.io/mma/fighters/66.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1768,
+      "date": "2025-01-19T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1737244800,
+      "timezone": "UTC",
+      "slug": "UFC 311: Makhachev vs. Moicano",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 325,
+          "name": "Muin Gafurov",
+          "logo": "https://media.api-sports.io/mma/fighters/325.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2592,
+          "name": "Rinya Nakamura",
+          "logo": "https://media.api-sports.io/mma/fighters/2592.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:36.661Z"
+}

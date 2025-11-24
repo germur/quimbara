@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 98,
+    "name": "Kron Gracie",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/98.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "145 lbs",
+    "reach": "70'",
+    "stance": "Southpaw",
+    "category": "Featherweight",
+    "team": {
+      "id": 66,
+      "name": "Kron Gracie Jiu-Jitsu"
+    },
+    "last_update": "2025-06-04T13:59:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 98,
+      "name": "Kron Gracie",
+      "photo": "https://media.api-sports.io/mma/fighters/98.png"
+    },
+    "total": {
+      "win": 5,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 0,
+      "loss": 0
+    },
+    "sub": {
+      "win": 5,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 694,
+      "date": "2023-05-07T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1683424800,
+      "timezone": "UTC",
+      "slug": "UFC 288: Sterling vs. Cejudo",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 425,
+          "name": "Charles Jourdain",
+          "logo": "https://media.api-sports.io/mma/fighters/425.png",
+          "winner": true
+        },
+        "second": {
+          "id": 98,
+          "name": "Kron Gracie",
+          "logo": "https://media.api-sports.io/mma/fighters/98.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1757,
+      "date": "2024-12-07T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1733598000,
+      "timezone": "UTC",
+      "slug": "UFC 310: Pantoja vs. Asakura",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 98,
+          "name": "Kron Gracie",
+          "logo": "https://media.api-sports.io/mma/fighters/98.png",
+          "winner": false
+        },
+        "second": {
+          "id": 296,
+          "name": "Bryce Mitchell",
+          "logo": "https://media.api-sports.io/mma/fighters/296.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:55:39.575Z"
+}

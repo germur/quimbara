@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 2384,
+    "name": "Joanderson Brito",
+    "nickname": "Tubarao",
+    "photo": "https://media.api-sports.io/mma/fighters/2384.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "146 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 768,
+      "name": "Chute Boxe - Joao Emilio"
+    },
+    "last_update": "2025-06-05T09:02:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2384,
+      "name": "Joanderson Brito",
+      "photo": "https://media.api-sports.io/mma/fighters/2384.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 5,
+      "draw": 1
+    },
+    "ko": {
+      "win": 8,
+      "loss": 1
+    },
+    "sub": {
+      "win": 7,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 768,
+      "date": "2023-07-01T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1688248800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Magomedov",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2609,
+          "name": "Westin Wilson",
+          "logo": "https://media.api-sports.io/mma/fighters/2609.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2384,
+          "name": "Joanderson Brito",
+          "logo": "https://media.api-sports.io/mma/fighters/2384.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1029,
+      "date": "2023-11-18T21:20:00+00:00",
+      "time": "21:20",
+      "timestamp": 1700342400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2384,
+          "name": "Joanderson Brito",
+          "logo": "https://media.api-sports.io/mma/fighters/2384.png",
+          "winner": true
+        },
+        "second": {
+          "id": 490,
+          "name": "Jonathan Pearce",
+          "logo": "https://media.api-sports.io/mma/fighters/490.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1334,
+      "date": "2024-05-04T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1714838400,
+      "timezone": "UTC",
+      "slug": "UFC 301: Pantoja vs. Erceg",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2384,
+          "name": "Joanderson Brito",
+          "logo": "https://media.api-sports.io/mma/fighters/2384.png",
+          "winner": true
+        },
+        "second": {
+          "id": 650,
+          "name": "Jack Shore",
+          "logo": "https://media.api-sports.io/mma/fighters/650.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1586,
+      "date": "2024-09-28T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1727521200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moicano vs. Saint Denis",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2384,
+          "name": "Joanderson Brito",
+          "logo": "https://media.api-sports.io/mma/fighters/2384.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2522,
+          "name": "William Gomis",
+          "logo": "https://media.api-sports.io/mma/fighters/2522.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1974,
+      "date": "2025-04-06T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1743908400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Murphy",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2384,
+          "name": "Joanderson Brito",
+          "logo": "https://media.api-sports.io/mma/fighters/2384.png",
+          "winner": false
+        },
+        "second": {
+          "id": 1333,
+          "name": "Pat Sabatini",
+          "logo": "https://media.api-sports.io/mma/fighters/1333.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2396,
+      "date": "2025-12-13T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1765652400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Kape",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 813,
+          "name": "Melsik Baghdasaryan",
+          "logo": "https://media.api-sports.io/mma/fighters/813.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2384,
+          "name": "Joanderson Brito",
+          "logo": "https://media.api-sports.io/mma/fighters/2384.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:55:26.998Z"
+}

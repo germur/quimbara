@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2491,
+    "name": "Garrett Armfield",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2491.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "135 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 218,
+      "name": "Marathon MMA"
+    },
+    "last_update": "2025-06-05T09:56:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2491,
+      "name": "Garrett Armfield",
+      "photo": "https://media.api-sports.io/mma/fighters/2491.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 0
+    },
+    "sub": {
+      "win": 2,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 876,
+      "date": "2023-08-26T11:05:00+00:00",
+      "time": "11:05",
+      "timestamp": 1693047900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. The Korean Zombie",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2491,
+          "name": "Garrett Armfield",
+          "logo": "https://media.api-sports.io/mma/fighters/2491.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2603,
+          "name": "Toshiomi Kazama",
+          "logo": "https://media.api-sports.io/mma/fighters/2603.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1114,
+      "date": "2024-01-20T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1705770000,
+      "timezone": "UTC",
+      "slug": "UFC 297: Strickland vs. Du Plessis",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2491,
+          "name": "Garrett Armfield",
+          "logo": "https://media.api-sports.io/mma/fighters/2491.png",
+          "winner": true
+        },
+        "second": {
+          "id": 291,
+          "name": "Brad Katona",
+          "logo": "https://media.api-sports.io/mma/fighters/291.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1460,
+      "date": "2024-06-15T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1718474400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Perez vs. Taira",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2491,
+          "name": "Garrett Armfield",
+          "logo": "https://media.api-sports.io/mma/fighters/2491.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2398,
+          "name": "Brady Hiestand",
+          "logo": "https://media.api-sports.io/mma/fighters/2398.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1650,
+      "date": "2024-11-02T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1730552400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Albazi",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2491,
+          "name": "Garrett Armfield",
+          "logo": "https://media.api-sports.io/mma/fighters/2491.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2662,
+          "name": "Serhiy Sidey",
+          "logo": "https://media.api-sports.io/mma/fighters/2662.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:07.478Z"
+}

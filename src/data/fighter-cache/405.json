@@ -1,0 +1,296 @@
+{
+  "profile": {
+    "id": 405,
+    "name": "Neil Magny",
+    "nickname": "The Haitian Sensation",
+    "photo": "https://media.api-sports.io/mma/fighters/405.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "170 lbs",
+    "reach": "80'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 828,
+      "name": "Pound 4 Pound Muay Thai"
+    },
+    "last_update": "2025-10-04T12:05:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 405,
+      "name": "Neil Magny",
+      "photo": "https://media.api-sports.io/mma/fighters/405.png"
+    },
+    "total": {
+      "win": 30,
+      "loss": 14,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 5
+    },
+    "sub": {
+      "win": 4,
+      "loss": 6
+    }
+  },
+  "fights": [
+    {
+      "id": 535,
+      "date": "2023-01-22T04:25:00+00:00",
+      "time": "04:25",
+      "timestamp": 1674361500,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 405,
+          "name": "Neil Magny",
+          "logo": "https://media.api-sports.io/mma/fighters/405.png",
+          "winner": false
+        },
+        "second": {
+          "id": 396,
+          "name": "Gilbert Burns",
+          "logo": "https://media.api-sports.io/mma/fighters/396.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 754,
+      "date": "2023-06-24T18:55:00+00:00",
+      "time": "18:55",
+      "timestamp": 1687632900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Topuria",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 628,
+          "name": "Phil Rowe",
+          "logo": "https://media.api-sports.io/mma/fighters/628.png",
+          "winner": false
+        },
+        "second": {
+          "id": 405,
+          "name": "Neil Magny",
+          "logo": "https://media.api-sports.io/mma/fighters/405.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 869,
+      "date": "2023-08-20T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1692500400,
+      "timezone": "UTC",
+      "slug": "UFC 292: Sterling vs. O'Malley",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2434,
+          "name": "Ian Garry",
+          "logo": "https://media.api-sports.io/mma/fighters/2434.png",
+          "winner": true
+        },
+        "second": {
+          "id": 405,
+          "name": "Neil Magny",
+          "logo": "https://media.api-sports.io/mma/fighters/405.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1119,
+      "date": "2024-01-20T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1705777200,
+      "timezone": "UTC",
+      "slug": "UFC 297: Strickland vs. Du Plessis",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2438,
+          "name": "Mike Malott",
+          "logo": "https://media.api-sports.io/mma/fighters/2438.png",
+          "winner": false
+        },
+        "second": {
+          "id": 405,
+          "name": "Neil Magny",
+          "logo": "https://media.api-sports.io/mma/fighters/405.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1582,
+      "date": "2024-08-24T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1724522400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Borralho",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2425,
+          "name": "Michael Morales",
+          "logo": "https://media.api-sports.io/mma/fighters/2425.png",
+          "winner": true
+        },
+        "second": {
+          "id": 405,
+          "name": "Neil Magny",
+          "logo": "https://media.api-sports.io/mma/fighters/405.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1621,
+      "date": "2024-11-09T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1731168000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Magny vs. Prates",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2654,
+          "name": "Carlos Prates",
+          "logo": "https://media.api-sports.io/mma/fighters/2654.png",
+          "winner": true
+        },
+        "second": {
+          "id": 405,
+          "name": "Neil Magny",
+          "logo": "https://media.api-sports.io/mma/fighters/405.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2092,
+      "date": "2025-07-19T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1752962400,
+      "timezone": "UTC",
+      "slug": "UFC 318: Holloway vs Poirier 3",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 166,
+          "name": "Gunnar Nelson",
+          "logo": "https://media.api-sports.io/mma/fighters/166.png",
+          "winner": false
+        },
+        "second": {
+          "id": 405,
+          "name": "Neil Magny",
+          "logo": "https://media.api-sports.io/mma/fighters/405.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2194,
+      "date": "2025-08-03T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1754184600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Taira vs. Park",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 159,
+          "name": "Elizeu Zaleski dos Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/159.png",
+          "winner": false
+        },
+        "second": {
+          "id": 405,
+          "name": "Neil Magny",
+          "logo": "https://media.api-sports.io/mma/fighters/405.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2283,
+      "date": "2025-09-27T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1758996000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ulberg vs. Reyes",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 405,
+          "name": "Neil Magny",
+          "logo": "https://media.api-sports.io/mma/fighters/405.png",
+          "winner": true
+        },
+        "second": {
+          "id": 656,
+          "name": "Jake Matthews",
+          "logo": "https://media.api-sports.io/mma/fighters/656.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:43.349Z"
+}

@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 291,
+    "name": "Brad Katona",
+    "nickname": "Superman",
+    "photo": "https://media.api-sports.io/mma/fighters/291.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "135 lbs",
+    "reach": "64.5'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 40,
+      "name": "SBG Ireland"
+    },
+    "last_update": "2025-06-04T15:36:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 291,
+      "name": "Brad Katona",
+      "photo": "https://media.api-sports.io/mma/fighters/291.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 1,
+      "loss": 0
+    },
+    "sub": {
+      "win": 4,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 832,
+      "date": "2023-08-01T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1690912800,
+      "timezone": "UTC",
+      "slug": "The Ultimate Fighter 31 Semifinal: McGregor vs. Chandler",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 764,
+          "name": "Timur Valiev",
+          "logo": "https://media.api-sports.io/mma/fighters/764.png",
+          "winner": false
+        },
+        "second": {
+          "id": 291,
+          "name": "Brad Katona",
+          "logo": "https://media.api-sports.io/mma/fighters/291.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 866,
+      "date": "2023-08-20T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1692489600,
+      "timezone": "UTC",
+      "slug": "UFC 292: Sterling vs. O'Malley",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2026,
+          "name": "Cody Gibson",
+          "logo": "https://media.api-sports.io/mma/fighters/2026.png",
+          "winner": false
+        },
+        "second": {
+          "id": 291,
+          "name": "Brad Katona",
+          "logo": "https://media.api-sports.io/mma/fighters/291.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1114,
+      "date": "2024-01-20T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1705770000,
+      "timezone": "UTC",
+      "slug": "UFC 297: Strickland vs. Du Plessis",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2491,
+          "name": "Garrett Armfield",
+          "logo": "https://media.api-sports.io/mma/fighters/2491.png",
+          "winner": true
+        },
+        "second": {
+          "id": 291,
+          "name": "Brad Katona",
+          "logo": "https://media.api-sports.io/mma/fighters/291.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1398,
+      "date": "2024-06-08T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1717851600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Imavov",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2568,
+          "name": "Jesse Butler",
+          "logo": "https://media.api-sports.io/mma/fighters/2568.png",
+          "winner": false
+        },
+        "second": {
+          "id": 291,
+          "name": "Brad Katona",
+          "logo": "https://media.api-sports.io/mma/fighters/291.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1649,
+      "date": "2024-10-19T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1729339200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hernandez vs. Pereira",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2685,
+          "name": "Jean Matsumoto",
+          "logo": "https://media.api-sports.io/mma/fighters/2685.png",
+          "winner": true
+        },
+        "second": {
+          "id": 291,
+          "name": "Brad Katona",
+          "logo": "https://media.api-sports.io/mma/fighters/291.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1969,
+      "date": "2025-05-10T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1746916200,
+      "timezone": "UTC",
+      "slug": "UFC 315: Muhammad vs. Della Maddalena",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2678,
+          "name": "Bekzat Almakhan",
+          "logo": "https://media.api-sports.io/mma/fighters/2678.png",
+          "winner": true
+        },
+        "second": {
+          "id": 291,
+          "name": "Brad Katona",
+          "logo": "https://media.api-sports.io/mma/fighters/291.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:35.179Z"
+}

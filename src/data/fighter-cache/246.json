@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 246,
+    "name": "Cody Stamann",
+    "nickname": "The Spartan",
+    "photo": "https://media.api-sports.io/mma/fighters/246.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "135 lbs",
+    "reach": "64.5'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 108,
+      "name": "Michigan Top"
+    },
+    "last_update": "2025-06-04T15:13:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 246,
+      "name": "Cody Stamann",
+      "photo": "https://media.api-sports.io/mma/fighters/246.png"
+    },
+    "total": {
+      "win": 21,
+      "loss": 8,
+      "draw": 1
+    },
+    "ko": {
+      "win": 7,
+      "loss": 0
+    },
+    "sub": {
+      "win": 2,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 524,
+      "date": "2023-01-21T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1674342000,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 246,
+          "name": "Cody Stamann",
+          "logo": "https://media.api-sports.io/mma/fighters/246.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2577,
+          "name": "Luan Lacerda",
+          "logo": "https://media.api-sports.io/mma/fighters/2577.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 697,
+      "date": "2023-05-13T17:30:00+00:00",
+      "time": "17:30",
+      "timestamp": 1683999000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Almeida",
+      "is_main": false,
+      "category": "Catch Weight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 901,
+          "name": "Douglas Silva de Andrade",
+          "logo": "https://media.api-sports.io/mma/fighters/901.png",
+          "winner": true
+        },
+        "second": {
+          "id": 246,
+          "name": "Cody Stamann",
+          "logo": "https://media.api-sports.io/mma/fighters/246.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1407,
+      "date": "2024-06-08T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1717851600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Imavov",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2145,
+          "name": "Taylor Lapilus",
+          "logo": "https://media.api-sports.io/mma/fighters/2145.png",
+          "winner": true
+        },
+        "second": {
+          "id": 246,
+          "name": "Cody Stamann",
+          "logo": "https://media.api-sports.io/mma/fighters/246.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1723,
+      "date": "2024-11-09T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1731157200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Magny vs. Prates",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2475,
+          "name": "Da'Mon Blackshear",
+          "logo": "https://media.api-sports.io/mma/fighters/2475.png",
+          "winner": true
+        },
+        "second": {
+          "id": 246,
+          "name": "Cody Stamann",
+          "logo": "https://media.api-sports.io/mma/fighters/246.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:53.164Z"
+}

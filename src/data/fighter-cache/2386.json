@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2386,
+    "name": "Victor Altamirano",
+    "nickname": "El MagnÃ­fico",
+    "photo": "https://media.api-sports.io/mma/fighters/2386.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "126 lbs",
+    "reach": "70'",
+    "stance": "Switch",
+    "category": "Flyweight",
+    "team": {
+      "id": 653,
+      "name": "Double Five Mid-Cities"
+    },
+    "last_update": "2025-06-05T09:03:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2386,
+      "name": "Victor Altamirano",
+      "photo": "https://media.api-sports.io/mma/fighters/2386.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 0
+    },
+    "sub": {
+      "win": 4,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 628,
+      "date": "2023-03-25T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1679774400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vera vs. Sandhagen",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2385,
+          "name": "Vinicius Salvador",
+          "logo": "https://media.api-sports.io/mma/fighters/2385.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2386,
+          "name": "Victor Altamirano",
+          "logo": "https://media.api-sports.io/mma/fighters/2386.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 728,
+      "date": "2023-06-04T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1685844000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kara-France vs. Albazi",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2386,
+          "name": "Victor Altamirano",
+          "logo": "https://media.api-sports.io/mma/fighters/2386.png",
+          "winner": false
+        },
+        "second": {
+          "id": 660,
+          "name": "Tim Elliott",
+          "logo": "https://media.api-sports.io/mma/fighters/660.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1158,
+      "date": "2024-02-24T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1708790400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Royval 2",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2616,
+          "name": "Felipe dos Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/2616.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2386,
+          "name": "Victor Altamirano",
+          "logo": "https://media.api-sports.io/mma/fighters/2386.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1587,
+      "date": "2024-09-28T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1727510400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moicano vs. Saint Denis",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2386,
+          "name": "Victor Altamirano",
+          "logo": "https://media.api-sports.io/mma/fighters/2386.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2441,
+          "name": "Daniel Barez",
+          "logo": "https://media.api-sports.io/mma/fighters/2441.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:59:18.947Z"
+}

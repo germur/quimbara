@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2609,
+    "name": "Westin Wilson",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2609.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "146 lbs",
+    "reach": "73'",
+    "stance": "Southpaw",
+    "category": "Featherweight",
+    "team": {
+      "id": 107,
+      "name": "Upstate Karate"
+    },
+    "last_update": "2025-08-30T00:04:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2609,
+      "name": "Westin Wilson",
+      "photo": "https://media.api-sports.io/mma/fighters/2609.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 3
+    },
+    "sub": {
+      "win": 12,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 768,
+      "date": "2023-07-01T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1688248800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Magomedov",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2609,
+          "name": "Westin Wilson",
+          "logo": "https://media.api-sports.io/mma/fighters/2609.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2384,
+          "name": "Joanderson Brito",
+          "logo": "https://media.api-sports.io/mma/fighters/2384.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1191,
+      "date": "2024-01-13T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1705150800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ankalaev vs. Walker 2",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2666,
+          "name": "Jean Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/2666.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2609,
+          "name": "Westin Wilson",
+          "logo": "https://media.api-sports.io/mma/fighters/2609.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1436,
+      "date": "2024-06-15T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1718463600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Perez vs. Taira",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2609,
+          "name": "Westin Wilson",
+          "logo": "https://media.api-sports.io/mma/fighters/2609.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2566,
+          "name": "Jeka Saragih",
+          "logo": "https://media.api-sports.io/mma/fighters/2566.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2210,
+      "date": "2025-08-23T07:50:00+00:00",
+      "time": "07:50",
+      "timestamp": 1755935400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Walker vs. Zhang",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2609,
+          "name": "Westin Wilson",
+          "logo": "https://media.api-sports.io/mma/fighters/2609.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2612,
+          "name": "Yizha",
+          "logo": "https://media.api-sports.io/mma/fighters/2612.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:19.934Z"
+}

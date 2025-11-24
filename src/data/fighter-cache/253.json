@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 253,
+    "name": "Montel Jackson",
+    "nickname": "Quik",
+    "photo": "https://media.api-sports.io/mma/fighters/253.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "136 lbs",
+    "reach": "75'",
+    "stance": "Southpaw",
+    "category": "Bantamweight",
+    "team": {
+      "id": 120,
+      "name": "Pura Vida BJJ"
+    },
+    "last_update": "2025-10-19T00:00:42+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 253,
+      "name": "Montel Jackson",
+      "photo": "https://media.api-sports.io/mma/fighters/253.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 0
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 662,
+      "date": "2023-04-22T22:05:00+00:00",
+      "time": "22:05",
+      "timestamp": 1682201100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Pavlovich vs. Blaydes",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 253,
+          "name": "Montel Jackson",
+          "logo": "https://media.api-sports.io/mma/fighters/253.png",
+          "winner": true
+        },
+        "second": {
+          "id": 71,
+          "name": "Rani Yahya",
+          "logo": "https://media.api-sports.io/mma/fighters/71.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 979,
+      "date": "2023-10-07T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1696716000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dawson vs. Green",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 253,
+          "name": "Montel Jackson",
+          "logo": "https://media.api-sports.io/mma/fighters/253.png",
+          "winner": false
+        },
+        "second": {
+          "id": 299,
+          "name": "Chris Gutierrez",
+          "logo": "https://media.api-sports.io/mma/fighters/299.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1450,
+      "date": "2024-06-22T17:40:00+00:00",
+      "time": "17:40",
+      "timestamp": 1719078000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Chimaev",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 253,
+          "name": "Montel Jackson",
+          "logo": "https://media.api-sports.io/mma/fighters/253.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2548,
+          "name": "Farid Basharat",
+          "logo": "https://media.api-sports.io/mma/fighters/2548.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1510,
+      "date": "2024-07-13T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1720882800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Namajunas vs. Cortez",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2475,
+          "name": "Da'Mon Blackshear",
+          "logo": "https://media.api-sports.io/mma/fighters/2475.png",
+          "winner": false
+        },
+        "second": {
+          "id": 253,
+          "name": "Montel Jackson",
+          "logo": "https://media.api-sports.io/mma/fighters/253.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1999,
+      "date": "2025-05-04T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1746327600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Figueiredo",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2543,
+          "name": "Daniel Marcos",
+          "logo": "https://media.api-sports.io/mma/fighters/2543.png",
+          "winner": false
+        },
+        "second": {
+          "id": 253,
+          "name": "Montel Jackson",
+          "logo": "https://media.api-sports.io/mma/fighters/253.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2268,
+      "date": "2025-10-12T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1760229000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Oliveira vs. Gamrot",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 253,
+          "name": "Montel Jackson",
+          "logo": "https://media.api-sports.io/mma/fighters/253.png",
+          "winner": false
+        },
+        "second": {
+          "id": 180,
+          "name": "Deiveson Figueiredo",
+          "logo": "https://media.api-sports.io/mma/fighters/180.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:35.288Z"
+}

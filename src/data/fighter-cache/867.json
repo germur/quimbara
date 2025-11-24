@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 867,
+    "name": "Ignacio Bahamondes",
+    "nickname": "La Jaula",
+    "photo": "https://media.api-sports.io/mma/fighters/867.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "156 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 180,
+      "name": "Valle Flow Striking"
+    },
+    "last_update": "2025-06-28T12:10:07+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 867,
+      "name": "Ignacio Bahamondes",
+      "photo": "https://media.api-sports.io/mma/fighters/867.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 0
+    },
+    "sub": {
+      "win": 2,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 635,
+      "date": "2023-04-08T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1680994800,
+      "timezone": "UTC",
+      "slug": "UFC 287: Pereira vs. Adesanya 2",
+      "is_main": false,
+      "category": "Catch Weight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2518,
+          "name": "Trey Ogden",
+          "logo": "https://media.api-sports.io/mma/fighters/2518.png",
+          "winner": false
+        },
+        "second": {
+          "id": 867,
+          "name": "Ignacio Bahamondes",
+          "logo": "https://media.api-sports.io/mma/fighters/867.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 844,
+      "date": "2023-08-06T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1691283600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Font",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 849,
+          "name": "Ludovit Klein",
+          "logo": "https://media.api-sports.io/mma/fighters/849.png",
+          "winner": true
+        },
+        "second": {
+          "id": 867,
+          "name": "Ignacio Bahamondes",
+          "logo": "https://media.api-sports.io/mma/fighters/867.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1251,
+      "date": "2024-04-06T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1712412000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Curtis 2",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 437,
+          "name": "Christos Giagos",
+          "logo": "https://media.api-sports.io/mma/fighters/437.png",
+          "winner": false
+        },
+        "second": {
+          "id": 867,
+          "name": "Ignacio Bahamondes",
+          "logo": "https://media.api-sports.io/mma/fighters/867.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1557,
+      "date": "2024-09-14T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1726329600,
+      "timezone": "UTC",
+      "slug": "UFC 306 â Riyadh Season Noche UFC: OâMalley vs. Dvalishvili",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 867,
+          "name": "Ignacio Bahamondes",
+          "logo": "https://media.api-sports.io/mma/fighters/867.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2503,
+          "name": "Manuel Torres",
+          "logo": "https://media.api-sports.io/mma/fighters/2503.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1907,
+      "date": "2025-03-09T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1741492800,
+      "timezone": "UTC",
+      "slug": "UFC 313: Pereira vs. Ankalaev",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 867,
+          "name": "Ignacio Bahamondes",
+          "logo": "https://media.api-sports.io/mma/fighters/867.png",
+          "winner": true
+        },
+        "second": {
+          "id": 56,
+          "name": "Jalin Turner",
+          "logo": "https://media.api-sports.io/mma/fighters/56.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2158,
+      "date": "2025-06-21T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1750503600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 867,
+          "name": "Ignacio Bahamondes",
+          "logo": "https://media.api-sports.io/mma/fighters/867.png",
+          "winner": false
+        },
+        "second": {
+          "id": 330,
+          "name": "Rafael Fiziev",
+          "logo": "https://media.api-sports.io/mma/fighters/330.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2057,
+      "date": "2025-06-21T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1750539600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 867,
+          "name": "Ignacio Bahamondes",
+          "logo": "https://media.api-sports.io/mma/fighters/867.png",
+          "winner": false
+        },
+        "second": {
+          "id": 330,
+          "name": "Rafael Fiziev",
+          "logo": "https://media.api-sports.io/mma/fighters/330.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:09.451Z"
+}

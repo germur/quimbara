@@ -1,0 +1,324 @@
+{
+  "profile": {
+    "id": 892,
+    "name": "Manel Kape",
+    "nickname": "Starboy",
+    "photo": "https://media.api-sports.io/mma/fighters/892.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "126 lbs",
+    "reach": "68'",
+    "stance": "Southpaw",
+    "category": "Flyweight",
+    "team": {
+      "id": 31,
+      "name": "Xtreme Couture"
+    },
+    "last_update": "2025-07-06T00:08:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 892,
+      "name": "Manel Kape",
+      "photo": "https://media.api-sports.io/mma/fighters/892.png"
+    },
+    "total": {
+      "win": 21,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 13,
+      "loss": 0
+    },
+    "sub": {
+      "win": 5,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 903,
+      "date": "2023-09-09T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1694282400,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 892,
+          "name": "Manel Kape",
+          "logo": "https://media.api-sports.io/mma/fighters/892.png",
+          "winner": false
+        },
+        "second": {
+          "id": 63,
+          "name": "Kai Kara-France",
+          "logo": "https://media.api-sports.io/mma/fighters/63.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 942,
+      "date": "2023-09-10T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1694314800,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2616,
+          "name": "Felipe dos Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/2616.png",
+          "winner": false
+        },
+        "second": {
+          "id": 892,
+          "name": "Manel Kape",
+          "logo": "https://media.api-sports.io/mma/fighters/892.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1104,
+      "date": "2024-01-14T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1705195800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ankalaev vs. Walker 2",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 892,
+          "name": "Manel Kape",
+          "logo": "https://media.api-sports.io/mma/fighters/892.png",
+          "winner": false
+        },
+        "second": {
+          "id": 905,
+          "name": "Matheus Nicolau",
+          "logo": "https://media.api-sports.io/mma/fighters/905.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1309,
+      "date": "2024-04-27T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1714179600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Nicolau vs. Kape 2",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 892,
+          "name": "Manel Kape",
+          "logo": "https://media.api-sports.io/mma/fighters/892.png",
+          "winner": false
+        },
+        "second": {
+          "id": 905,
+          "name": "Matheus Nicolau",
+          "logo": "https://media.api-sports.io/mma/fighters/905.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1440,
+      "date": "2024-07-27T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1722096000,
+      "timezone": "UTC",
+      "slug": "UFC 304: Edwards vs. Muhammad 2",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 892,
+          "name": "Manel Kape",
+          "logo": "https://media.api-sports.io/mma/fighters/892.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2507,
+          "name": "Muhammad Mokaev",
+          "logo": "https://media.api-sports.io/mma/fighters/2507.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1740,
+      "date": "2024-12-14T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1734202800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Covington vs. Buckley",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 675,
+          "name": "Bruno Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/675.png",
+          "winner": false
+        },
+        "second": {
+          "id": 892,
+          "name": "Manel Kape",
+          "logo": "https://media.api-sports.io/mma/fighters/892.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1841,
+      "date": "2025-03-02T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1740873600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Kape",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 892,
+          "name": "Manel Kape",
+          "logo": "https://media.api-sports.io/mma/fighters/892.png",
+          "winner": false
+        },
+        "second": {
+          "id": 716,
+          "name": "Brandon Royval",
+          "logo": "https://media.api-sports.io/mma/fighters/716.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1905,
+      "date": "2025-03-02T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1740880800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kape vs. Almabayev",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2527,
+          "name": "Asu Almabayev",
+          "logo": "https://media.api-sports.io/mma/fighters/2527.png",
+          "winner": false
+        },
+        "second": {
+          "id": 892,
+          "name": "Manel Kape",
+          "logo": "https://media.api-sports.io/mma/fighters/892.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2079,
+      "date": "2025-06-29T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1751169600,
+      "timezone": "UTC",
+      "slug": "UFC 317: Topuria vs. Oliveira",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 892,
+          "name": "Manel Kape",
+          "logo": "https://media.api-sports.io/mma/fighters/892.png",
+          "winner": false
+        },
+        "second": {
+          "id": 716,
+          "name": "Brandon Royval",
+          "logo": "https://media.api-sports.io/mma/fighters/716.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2347,
+      "date": "2025-12-13T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1765652400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Kape",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 892,
+          "name": "Manel Kape",
+          "logo": "https://media.api-sports.io/mma/fighters/892.png",
+          "winner": false
+        },
+        "second": {
+          "id": 716,
+          "name": "Brandon Royval",
+          "logo": "https://media.api-sports.io/mma/fighters/716.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:59.332Z"
+}

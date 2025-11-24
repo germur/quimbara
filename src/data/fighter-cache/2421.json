@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2421,
+    "name": "Kleydson Rodrigues",
+    "nickname": "KR",
+    "photo": "https://media.api-sports.io/mma/fighters/2421.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "135 lbs",
+    "reach": "67'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 30,
+      "name": "Nogueira"
+    },
+    "last_update": "2025-06-05T09:21:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2421,
+      "name": "Kleydson Rodrigues",
+      "photo": "https://media.api-sports.io/mma/fighters/2421.png"
+    },
+    "total": {
+      "win": 8,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 0
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 555,
+      "date": "2023-02-12T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1676165400,
+      "timezone": "UTC",
+      "slug": "UFC 284: Makhachev vs. Volkanovski",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2421,
+          "name": "Kleydson Rodrigues",
+          "logo": "https://media.api-sports.io/mma/fighters/2421.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2597,
+          "name": "Shannon Ross",
+          "logo": "https://media.api-sports.io/mma/fighters/2597.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 941,
+      "date": "2023-09-02T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1693674000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2421,
+          "name": "Kleidison Rodrigues",
+          "logo": "https://media.api-sports.io/mma/fighters/2421.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2548,
+          "name": "Farid Basharat",
+          "logo": "https://media.api-sports.io/mma/fighters/2548.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1427,
+      "date": "2024-05-18T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1716033600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Barboza vs. Murphy",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2421,
+          "name": "Kleydson Rodrigues",
+          "logo": "https://media.api-sports.io/mma/fighters/2421.png",
+          "winner": false
+        },
+        "second": {
+          "id": 584,
+          "name": "Alatengheili",
+          "logo": "https://media.api-sports.io/mma/fighters/584.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1376,
+      "date": "2024-05-18T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1716071400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Barboza vs. Murphy",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2421,
+          "name": "Kleidison Rodrigues",
+          "logo": "https://media.api-sports.io/mma/fighters/2421.png",
+          "winner": false
+        },
+        "second": {
+          "id": 584,
+          "name": "Alatengheili",
+          "logo": "https://media.api-sports.io/mma/fighters/584.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:21.366Z"
+}

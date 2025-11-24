@@ -1,0 +1,296 @@
+{
+  "profile": {
+    "id": 849,
+    "name": "Ludovit Klein",
+    "nickname": "Mr. Highlight",
+    "photo": "https://media.api-sports.io/mma/fighters/849.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "156 lbs",
+    "reach": "72.5'",
+    "stance": "Southpaw",
+    "category": "Lightweight",
+    "team": {
+      "id": 375,
+      "name": "Spartakus Fight Gym"
+    },
+    "last_update": "2025-11-01T12:05:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 849,
+      "name": "Ludovit Klein",
+      "photo": "https://media.api-sports.io/mma/fighters/849.png"
+    },
+    "total": {
+      "win": 23,
+      "loss": 5,
+      "draw": 1
+    },
+    "ko": {
+      "win": 9,
+      "loss": 1
+    },
+    "sub": {
+      "win": 8,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 614,
+      "date": "2023-03-18T17:15:00+00:00",
+      "time": "17:15",
+      "timestamp": 1679159700,
+      "timezone": "UTC",
+      "slug": "UFC 286: Edwards vs. Usman 3",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 849,
+          "name": "Ludovit Klein",
+          "logo": "https://media.api-sports.io/mma/fighters/849.png",
+          "winner": false
+        },
+        "second": {
+          "id": 747,
+          "name": "Jai Herbert",
+          "logo": "https://media.api-sports.io/mma/fighters/747.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 844,
+      "date": "2023-08-06T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1691283600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Font",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 849,
+          "name": "Ludovit Klein",
+          "logo": "https://media.api-sports.io/mma/fighters/849.png",
+          "winner": true
+        },
+        "second": {
+          "id": 867,
+          "name": "Ignacio Bahamondes",
+          "logo": "https://media.api-sports.io/mma/fighters/867.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1302,
+      "date": "2024-03-02T10:30:00+00:00",
+      "time": "10:30",
+      "timestamp": 1709375400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Gaziev",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2683,
+          "name": "AJ Cunningham",
+          "logo": "https://media.api-sports.io/mma/fighters/2683.png",
+          "winner": false
+        },
+        "second": {
+          "id": 849,
+          "name": "Ludovit Klein",
+          "logo": "https://media.api-sports.io/mma/fighters/849.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1263,
+      "date": "2024-03-02T20:30:00+00:00",
+      "time": "20:30",
+      "timestamp": 1709411400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Gaziev",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 849,
+          "name": "Ludovit Klein",
+          "logo": "https://media.api-sports.io/mma/fighters/849.png",
+          "winner": false
+        },
+        "second": {
+          "id": 209,
+          "name": "Joel Alvarez",
+          "logo": "https://media.api-sports.io/mma/fighters/209.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1420,
+      "date": "2024-06-08T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1717851600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Imavov",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 849,
+          "name": "Ludovit Klein",
+          "logo": "https://media.api-sports.io/mma/fighters/849.png",
+          "winner": true
+        },
+        "second": {
+          "id": 401,
+          "name": "Thiago Moises",
+          "logo": "https://media.api-sports.io/mma/fighters/401.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1656,
+      "date": "2024-09-28T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1727510400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moicano vs. Saint Denis",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 878,
+          "name": "Nikolas Motta",
+          "logo": "https://media.api-sports.io/mma/fighters/878.png",
+          "winner": false
+        },
+        "second": {
+          "id": 849,
+          "name": "Ludovit Klein",
+          "logo": "https://media.api-sports.io/mma/fighters/849.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1671,
+      "date": "2024-09-28T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1727510400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moicano vs. Saint Denis",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 342,
+          "name": "Roosevelt Roberts",
+          "logo": "https://media.api-sports.io/mma/fighters/342.png",
+          "winner": false
+        },
+        "second": {
+          "id": 849,
+          "name": "Ludovit Klein",
+          "logo": "https://media.api-sports.io/mma/fighters/849.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2054,
+      "date": "2025-06-01T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1748746800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Barber",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 849,
+          "name": "Ludovit Klein",
+          "logo": "https://media.api-sports.io/mma/fighters/849.png",
+          "winner": false
+        },
+        "second": {
+          "id": 860,
+          "name": "Mateusz Gamrot",
+          "logo": "https://media.api-sports.io/mma/fighters/860.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2348,
+      "date": "2025-10-25T16:30:00+00:00",
+      "time": "16:30",
+      "timestamp": 1761409800,
+      "timezone": "UTC",
+      "slug": "UFC 321: Aspinall vs. Gane",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2582,
+          "name": "Mateusz Rebecki",
+          "logo": "https://media.api-sports.io/mma/fighters/2582.png",
+          "winner": false
+        },
+        "second": {
+          "id": 849,
+          "name": "Ludovit Klein",
+          "logo": "https://media.api-sports.io/mma/fighters/849.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:39.003Z"
+}

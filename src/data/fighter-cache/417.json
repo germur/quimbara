@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "id": 417,
+    "name": "Roman Dolidze",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/417.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "185 lbs",
+    "reach": "76'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 31,
+      "name": "Xtreme Couture"
+    },
+    "last_update": "2025-08-17T00:03:22+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 417,
+      "name": "Roman Dolidze",
+      "photo": "https://media.api-sports.io/mma/fighters/417.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 0
+    },
+    "sub": {
+      "win": 3,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 624,
+      "date": "2023-03-18T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1679173200,
+      "timezone": "UTC",
+      "slug": "UFC 286: Edwards vs. Usman 3",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 417,
+          "name": "Roman Dolidze",
+          "logo": "https://media.api-sports.io/mma/fighters/417.png",
+          "winner": false
+        },
+        "second": {
+          "id": 503,
+          "name": "Marvin Vettori",
+          "logo": "https://media.api-sports.io/mma/fighters/503.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 974,
+      "date": "2023-11-11T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1699729200,
+      "timezone": "UTC",
+      "slug": "UFC 295: Jones vs. Miocic",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 417,
+          "name": "Roman Dolidze",
+          "logo": "https://media.api-sports.io/mma/fighters/417.png",
+          "winner": false
+        },
+        "second": {
+          "id": 200,
+          "name": "Opponent TBA",
+          "logo": "https://media.api-sports.io/mma/fighters/200.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1130,
+      "date": "2024-02-03T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1706976000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dolidze vs. Imavov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 831,
+          "name": "Nassourdine Imavov",
+          "logo": "https://media.api-sports.io/mma/fighters/831.png",
+          "winner": true
+        },
+        "second": {
+          "id": 417,
+          "name": "Roman Dolidze",
+          "logo": "https://media.api-sports.io/mma/fighters/417.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1362,
+      "date": "2024-06-01T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1717264800,
+      "timezone": "UTC",
+      "slug": "UFC 302: Makhachev vs. Poirier",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 199,
+          "name": "TBA",
+          "logo": "https://media.api-sports.io/mma/fighters/199.png",
+          "winner": false
+        },
+        "second": {
+          "id": 417,
+          "name": "Roman Dolidze",
+          "logo": "https://media.api-sports.io/mma/fighters/417.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1504,
+      "date": "2024-06-29T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1719684000,
+      "timezone": "UTC",
+      "slug": "UFC 303: Pereira vs. ProchÃ¡zka 2",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 417,
+          "name": "Roman Dolidze",
+          "logo": "https://media.api-sports.io/mma/fighters/417.png",
+          "winner": true
+        },
+        "second": {
+          "id": 213,
+          "name": "Anthony Smith",
+          "logo": "https://media.api-sports.io/mma/fighters/213.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1609,
+      "date": "2024-10-05T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1728151200,
+      "timezone": "UTC",
+      "slug": "UFC 307: Pereira vs. Rountree Jr.",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 317,
+          "name": "Kevin Holland",
+          "logo": "https://media.api-sports.io/mma/fighters/317.png",
+          "winner": false
+        },
+        "second": {
+          "id": 417,
+          "name": "Roman Dolidze",
+          "logo": "https://media.api-sports.io/mma/fighters/417.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1803,
+      "date": "2025-03-16T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1742088600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Dolidze 2",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 417,
+          "name": "Roman Dolidze",
+          "logo": "https://media.api-sports.io/mma/fighters/417.png",
+          "winner": true
+        },
+        "second": {
+          "id": 503,
+          "name": "Marvin Vettori",
+          "logo": "https://media.api-sports.io/mma/fighters/503.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2122,
+      "date": "2025-08-10T01:45:00+00:00",
+      "time": "01:45",
+      "timestamp": 1754790300,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dolidze vs. Hernandez",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 28,
+          "name": "Anthony Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/28.png",
+          "winner": true
+        },
+        "second": {
+          "id": 417,
+          "name": "Roman Dolidze",
+          "logo": "https://media.api-sports.io/mma/fighters/417.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:16.085Z"
+}

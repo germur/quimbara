@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 2560,
+    "name": "Ismael Bonfim",
+    "nickname": "Marreta",
+    "photo": "https://media.api-sports.io/mma/fighters/2560.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "161 lbs",
+    "reach": "71.5'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 199,
+      "name": "Cerrado MMA"
+    },
+    "last_update": "2025-11-16T00:00:42+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2560,
+      "name": "Ismael Bonfim",
+      "photo": "https://media.api-sports.io/mma/fighters/2560.png"
+    },
+    "total": {
+      "win": 20,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 2
+    },
+    "sub": {
+      "win": 4,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 525,
+      "date": "2023-01-21T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1674342000,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 519,
+          "name": "Terrance McKinney",
+          "logo": "https://media.api-sports.io/mma/fighters/519.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2560,
+          "name": "Ismael Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2560.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 777,
+      "date": "2023-07-01T23:15:00+00:00",
+      "time": "23:15",
+      "timestamp": 1688253300,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Magomedov",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2466,
+          "name": "Benoit Saint Denis",
+          "logo": "https://media.api-sports.io/mma/fighters/2466.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2560,
+          "name": "Ismael Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2560.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1003,
+      "date": "2023-11-05T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1699146000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Almeida vs. Lewis",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 475,
+          "name": "Vinc Pichel",
+          "logo": "https://media.api-sports.io/mma/fighters/475.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2560,
+          "name": "Ismael Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2560.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1347,
+      "date": "2024-05-04T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1714831200,
+      "timezone": "UTC",
+      "slug": "UFC 301: Pantoja vs. Erceg",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 475,
+          "name": "Vinc Pichel",
+          "logo": "https://media.api-sports.io/mma/fighters/475.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2560,
+          "name": "Ismael Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2560.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1862,
+      "date": "2025-02-16T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1739667600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2586,
+          "name": "Nazim Sadykhov",
+          "logo": "https://media.api-sports.io/mma/fighters/2586.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2560,
+          "name": "Ismael Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2560.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1989,
+      "date": "2025-03-29T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1743249600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Erceg",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 429,
+          "name": "Austin Hubbard",
+          "logo": "https://media.api-sports.io/mma/fighters/429.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2560,
+          "name": "Ismael Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2560.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2370,
+      "date": "2025-11-09T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1762648200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Bonfim vs. Brown",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2560,
+          "name": "Ismael Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2560.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2697,
+          "name": "Chris Padilla",
+          "logo": "https://media.api-sports.io/mma/fighters/2697.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:10.877Z"
+}

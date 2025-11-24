@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 2385,
+    "name": "Vinicius Salvador",
+    "nickname": "Fenomeno",
+    "photo": "https://media.api-sports.io/mma/fighters/2385.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "136 lbs",
+    "reach": "70.5'",
+    "stance": "Southpaw",
+    "category": "Bantamweight",
+    "team": {
+      "id": 222,
+      "name": "Ribas Family"
+    },
+    "last_update": "2025-06-05T09:03:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2385,
+      "name": "Vinicius Salvador",
+      "photo": "https://media.api-sports.io/mma/fighters/2385.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 13,
+      "loss": 3
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 628,
+      "date": "2023-03-25T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1679774400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vera vs. Sandhagen",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2385,
+          "name": "Vinicius Salvador",
+          "logo": "https://media.api-sports.io/mma/fighters/2385.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2386,
+          "name": "Victor Altamirano",
+          "logo": "https://media.api-sports.io/mma/fighters/2386.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 824,
+      "date": "2023-07-29T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1690673400,
+      "timezone": "UTC",
+      "slug": "UFC 291: Poirier vs. Gaethje 2",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2385,
+          "name": "Vinicius Salvador",
+          "logo": "https://media.api-sports.io/mma/fighters/2385.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2394,
+          "name": "CJ Vergara",
+          "logo": "https://media.api-sports.io/mma/fighters/2394.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1392,
+      "date": "2024-05-18T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1716044400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Barboza vs. Murphy",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2385,
+          "name": "Vinicius Salvador",
+          "logo": "https://media.api-sports.io/mma/fighters/2385.png",
+          "winner": false
+        },
+        "second": {
+          "id": 769,
+          "name": "Adrian Yanez",
+          "logo": "https://media.api-sports.io/mma/fighters/769.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:11.528Z"
+}

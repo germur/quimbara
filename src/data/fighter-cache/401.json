@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 401,
+    "name": "Thiago Moises",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/401.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "155 lbs",
+    "reach": "70.5'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 21,
+      "name": "American Top"
+    },
+    "last_update": "2025-06-04T16:31:10+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 401,
+      "name": "Thiago Moises",
+      "photo": "https://media.api-sports.io/mma/fighters/401.png"
+    },
+    "total": {
+      "win": 19,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 3
+    },
+    "sub": {
+      "win": 8,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 531,
+      "date": "2023-01-22T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1674351000,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2583,
+          "name": "Melquizael Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2583.png",
+          "winner": false
+        },
+        "second": {
+          "id": 401,
+          "name": "Thiago Moises",
+          "logo": "https://media.api-sports.io/mma/fighters/401.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 892,
+      "date": "2023-09-02T20:30:00+00:00",
+      "time": "20:30",
+      "timestamp": 1693686600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 401,
+          "name": "Thiago Moises",
+          "logo": "https://media.api-sports.io/mma/fighters/401.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2466,
+          "name": "Benoit Saint Denis",
+          "logo": "https://media.api-sports.io/mma/fighters/2466.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1315,
+      "date": "2024-03-16T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1710590400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tuivasa vs. Tybura",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2688,
+          "name": "Mitch Ramirez",
+          "logo": "https://media.api-sports.io/mma/fighters/2688.png",
+          "winner": false
+        },
+        "second": {
+          "id": 401,
+          "name": "Thiago Moises",
+          "logo": "https://media.api-sports.io/mma/fighters/401.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1236,
+      "date": "2024-03-17T01:20:00+00:00",
+      "time": "01:20",
+      "timestamp": 1710638400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tuivasa vs. Tybura",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 653,
+          "name": "Brad Riddell",
+          "logo": "https://media.api-sports.io/mma/fighters/653.png",
+          "winner": false
+        },
+        "second": {
+          "id": 401,
+          "name": "Thiago Moises",
+          "logo": "https://media.api-sports.io/mma/fighters/401.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1420,
+      "date": "2024-06-08T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1717851600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Imavov",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 849,
+          "name": "Ludovit Klein",
+          "logo": "https://media.api-sports.io/mma/fighters/849.png",
+          "winner": true
+        },
+        "second": {
+          "id": 401,
+          "name": "Thiago Moises",
+          "logo": "https://media.api-sports.io/mma/fighters/401.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1821,
+      "date": "2025-01-11T22:40:00+00:00",
+      "time": "22:40",
+      "timestamp": 1736635200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs Ribas 2",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2518,
+          "name": "Trey Ogden",
+          "logo": "https://media.api-sports.io/mma/fighters/2518.png",
+          "winner": false
+        },
+        "second": {
+          "id": 401,
+          "name": "Thiago Moises",
+          "logo": "https://media.api-sports.io/mma/fighters/401.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2053,
+      "date": "2025-05-17T22:15:00+00:00",
+      "time": "22:15",
+      "timestamp": 1747520100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Morales",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 401,
+          "name": "Thiago Moises",
+          "logo": "https://media.api-sports.io/mma/fighters/401.png",
+          "winner": false
+        },
+        "second": {
+          "id": 472,
+          "name": "Jared Gordon",
+          "logo": "https://media.api-sports.io/mma/fighters/472.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:20.632Z"
+}

@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 2411,
+    "name": "Jack Della Maddalena",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2411.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "170 lbs",
+    "reach": "73'",
+    "stance": "Switch",
+    "category": "Welterweight",
+    "team": {
+      "id": 662,
+      "name": "Scrappy MMA"
+    },
+    "last_update": "2025-11-23T00:11:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2411,
+      "name": "Jack Della Maddalena",
+      "photo": "https://media.api-sports.io/mma/fighters/2411.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 12,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 559,
+      "date": "2023-02-12T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1676174400,
+      "timezone": "UTC",
+      "slug": "UFC 284: Makhachev vs. Volkanovski",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 457,
+          "name": "Randy Brown",
+          "logo": "https://media.api-sports.io/mma/fighters/457.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2411,
+          "name": "Jack Della Maddalena",
+          "logo": "https://media.api-sports.io/mma/fighters/2411.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 800,
+      "date": "2023-07-16T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1689480000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holm vs. Bueno Silva",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2529,
+          "name": "Bassil Hafez",
+          "logo": "https://media.api-sports.io/mma/fighters/2529.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2411,
+          "name": "Jack Della Maddalena",
+          "logo": "https://media.api-sports.io/mma/fighters/2411.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 943,
+      "date": "2023-09-17T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1694921400,
+      "timezone": "UTC",
+      "slug": "Noche UFC: Grasso vs. Shevchenko 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2411,
+          "name": "Jack Della Maddalena",
+          "logo": "https://media.api-sports.io/mma/fighters/2411.png",
+          "winner": true
+        },
+        "second": {
+          "id": 317,
+          "name": "Kevin Holland",
+          "logo": "https://media.api-sports.io/mma/fighters/317.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1172,
+      "date": "2024-03-09T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1710010800,
+      "timezone": "UTC",
+      "slug": "UFC 299: O'Malley vs. Vera 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2411,
+          "name": "Jack Della Maddalena",
+          "logo": "https://media.api-sports.io/mma/fighters/2411.png",
+          "winner": true
+        },
+        "second": {
+          "id": 396,
+          "name": "Gilbert Burns",
+          "logo": "https://media.api-sports.io/mma/fighters/396.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1806,
+      "date": "2025-03-22T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1742666400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Edwards vs. Della Maddalena",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2411,
+          "name": "Jack Della Maddalena",
+          "logo": "https://media.api-sports.io/mma/fighters/2411.png",
+          "winner": false
+        },
+        "second": {
+          "id": 165,
+          "name": "Leon Edwards",
+          "logo": "https://media.api-sports.io/mma/fighters/165.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1900,
+      "date": "2025-05-11T04:50:00+00:00",
+      "time": "04:50",
+      "timestamp": 1746939000,
+      "timezone": "UTC",
+      "slug": "UFC 315: Muhammad vs. Della Maddalena",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2411,
+          "name": "Jack Della Maddalena",
+          "logo": "https://media.api-sports.io/mma/fighters/2411.png",
+          "winner": true
+        },
+        "second": {
+          "id": 15,
+          "name": "Belal Muhammad",
+          "logo": "https://media.api-sports.io/mma/fighters/15.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2296,
+      "date": "2025-11-16T05:30:00+00:00",
+      "time": "05:30",
+      "timestamp": 1763271000,
+      "timezone": "UTC",
+      "slug": "UFC 322: Della Maddalena vs. Makhachev",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 333,
+          "name": "Islam Makhachev",
+          "logo": "https://media.api-sports.io/mma/fighters/333.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2411,
+          "name": "Jack Della Maddalena",
+          "logo": "https://media.api-sports.io/mma/fighters/2411.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:11.494Z"
+}

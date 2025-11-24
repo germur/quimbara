@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 425,
+    "name": "Charles Jourdain",
+    "nickname": "Air",
+    "photo": "https://media.api-sports.io/mma/fighters/425.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "135 lbs",
+    "reach": "69'",
+    "stance": "Switch",
+    "category": "Bantamweight",
+    "team": {
+      "id": 682,
+      "name": "Brazilian Top  Canada"
+    },
+    "last_update": "2025-10-25T12:07:06+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 425,
+      "name": "Charles Jourdain",
+      "photo": "https://media.api-sports.io/mma/fighters/425.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 8,
+      "draw": 1
+    },
+    "ko": {
+      "win": 8,
+      "loss": 1
+    },
+    "sub": {
+      "win": 6,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 694,
+      "date": "2023-05-07T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1683424800,
+      "timezone": "UTC",
+      "slug": "UFC 288: Sterling vs. Cejudo",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 425,
+          "name": "Charles Jourdain",
+          "logo": "https://media.api-sports.io/mma/fighters/425.png",
+          "winner": true
+        },
+        "second": {
+          "id": 98,
+          "name": "Kron Gracie",
+          "logo": "https://media.api-sports.io/mma/fighters/98.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 931,
+      "date": "2023-09-23T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1695510000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Fiziev vs. Gamrot",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 425,
+          "name": "Charles Jourdain",
+          "logo": "https://media.api-sports.io/mma/fighters/425.png",
+          "winner": true
+        },
+        "second": {
+          "id": 37,
+          "name": "Ricardo Ramos",
+          "logo": "https://media.api-sports.io/mma/fighters/37.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1116,
+      "date": "2024-01-20T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1705770000,
+      "timezone": "UTC",
+      "slug": "UFC 297: Strickland vs. Du Plessis",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 607,
+          "name": "Sean Woodson",
+          "logo": "https://media.api-sports.io/mma/fighters/607.png",
+          "winner": true
+        },
+        "second": {
+          "id": 425,
+          "name": "Charles Jourdain",
+          "logo": "https://media.api-sports.io/mma/fighters/425.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1441,
+      "date": "2024-06-29T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1719676800,
+      "timezone": "UTC",
+      "slug": "UFC 303: Pereira vs. ProchÃ¡zka 2",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2666,
+          "name": "Jean Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/2666.png",
+          "winner": true
+        },
+        "second": {
+          "id": 425,
+          "name": "Charles Jourdain",
+          "logo": "https://media.api-sports.io/mma/fighters/425.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1674,
+      "date": "2024-11-02T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1730552400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Albazi",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2520,
+          "name": "Victor Henry",
+          "logo": "https://media.api-sports.io/mma/fighters/2520.png",
+          "winner": false
+        },
+        "second": {
+          "id": 425,
+          "name": "Charles Jourdain",
+          "logo": "https://media.api-sports.io/mma/fighters/425.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2090,
+      "date": "2025-06-14T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1749943800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Usman vs. Buckley",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 425,
+          "name": "Charles Jourdain",
+          "logo": "https://media.api-sports.io/mma/fighters/425.png",
+          "winner": false
+        },
+        "second": {
+          "id": 72,
+          "name": "Ricky Simon",
+          "logo": "https://media.api-sports.io/mma/fighters/72.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2289,
+      "date": "2025-10-18T23:45:00+00:00",
+      "time": "23:45",
+      "timestamp": 1760831100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: de Ridder vs. Allen",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 668,
+          "name": "Davey Grant",
+          "logo": "https://media.api-sports.io/mma/fighters/668.png",
+          "winner": false
+        },
+        "second": {
+          "id": 425,
+          "name": "Charles Jourdain",
+          "logo": "https://media.api-sports.io/mma/fighters/425.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:47.613Z"
+}

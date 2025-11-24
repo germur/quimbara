@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 832,
+    "name": "Gregory Rodrigues",
+    "nickname": "Robocop",
+    "photo": "https://media.api-sports.io/mma/fighters/832.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "186 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-11-23T00:05:07+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 832,
+      "name": "Gregory Rodrigues",
+      "photo": "https://media.api-sports.io/mma/fighters/832.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 4
+    },
+    "sub": {
+      "win": 3,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 530,
+      "date": "2023-01-22T02:10:00+00:00",
+      "time": "02:10",
+      "timestamp": 1674353400,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2535,
+          "name": "Brunno Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/2535.png",
+          "winner": true
+        },
+        "second": {
+          "id": 832,
+          "name": "Gregory Rodrigues",
+          "logo": "https://media.api-sports.io/mma/fighters/832.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 864,
+      "date": "2023-08-20T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1692493200,
+      "timezone": "UTC",
+      "slug": "UFC 292: Sterling vs. O'Malley",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2480,
+          "name": "Denis Tiuliulin",
+          "logo": "https://media.api-sports.io/mma/fighters/2480.png",
+          "winner": false
+        },
+        "second": {
+          "id": 832,
+          "name": "Gregory Rodrigues",
+          "logo": "https://media.api-sports.io/mma/fighters/832.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1147,
+      "date": "2024-02-10T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1707580800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hermansson vs. Pyfer",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 832,
+          "name": "Gregory Rodrigues",
+          "logo": "https://media.api-sports.io/mma/fighters/832.png",
+          "winner": true
+        },
+        "second": {
+          "id": 681,
+          "name": "Brad Tavares",
+          "logo": "https://media.api-sports.io/mma/fighters/681.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1469,
+      "date": "2024-07-27T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1722103200,
+      "timezone": "UTC",
+      "slug": "UFC 304: Edwards vs. Muhammad 2",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 832,
+          "name": "Gregory Rodrigues",
+          "logo": "https://media.api-sports.io/mma/fighters/832.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2540,
+          "name": "Christian Leroy Duncan",
+          "logo": "https://media.api-sports.io/mma/fighters/2540.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1793,
+      "date": "2025-02-16T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1739671200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 832,
+          "name": "Gregory Rodrigues",
+          "logo": "https://media.api-sports.io/mma/fighters/832.png",
+          "winner": false
+        },
+        "second": {
+          "id": 294,
+          "name": "Jared Cannonier",
+          "logo": "https://media.api-sports.io/mma/fighters/294.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1944,
+      "date": "2025-06-29T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1751160600,
+      "timezone": "UTC",
+      "slug": "UFC 317: Topuria vs. Oliveira",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 832,
+          "name": "Gregory Rodrigues",
+          "logo": "https://media.api-sports.io/mma/fighters/832.png",
+          "winner": true
+        },
+        "second": {
+          "id": 244,
+          "name": "Jack Hermansson",
+          "logo": "https://media.api-sports.io/mma/fighters/244.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2316,
+      "date": "2025-11-16T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1763258400,
+      "timezone": "UTC",
+      "slug": "UFC 322: Della Maddalena vs. Makhachev",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 832,
+          "name": "Gregory Rodrigues",
+          "logo": "https://media.api-sports.io/mma/fighters/832.png",
+          "winner": true
+        },
+        "second": {
+          "id": 262,
+          "name": "Roman Kopylov",
+          "logo": "https://media.api-sports.io/mma/fighters/262.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:49:39.818Z"
+}

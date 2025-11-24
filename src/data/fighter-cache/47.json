@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 47,
+    "name": "Charles Oliveira",
+    "nickname": "Do Bronxs",
+    "photo": "https://media.api-sports.io/mma/fighters/47.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "155 lbs",
+    "reach": "74'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 38,
+      "name": "Chute Boxe"
+    },
+    "last_update": "2025-10-19T00:02:07+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 47,
+      "name": "Charles Oliveira",
+      "photo": "https://media.api-sports.io/mma/fighters/47.png"
+    },
+    "total": {
+      "win": 35,
+      "loss": 11,
+      "draw": 0
+    },
+    "ko": {
+      "win": 10,
+      "loss": 5
+    },
+    "sub": {
+      "win": 21,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 738,
+      "date": "2023-06-11T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1686454200,
+      "timezone": "UTC",
+      "slug": "UFC 289: Nunes vs. Aldana",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 149,
+          "name": "Beneil Dariush",
+          "logo": "https://media.api-sports.io/mma/fighters/149.png",
+          "winner": false
+        },
+        "second": {
+          "id": 47,
+          "name": "Charles Oliveira",
+          "logo": "https://media.api-sports.io/mma/fighters/47.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1199,
+      "date": "2024-04-13T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1713031200,
+      "timezone": "UTC",
+      "slug": "UFC 300: Pereira vs. Hill",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 332,
+          "name": "Arman Tsarukyan",
+          "logo": "https://media.api-sports.io/mma/fighters/332.png",
+          "winner": true
+        },
+        "second": {
+          "id": 47,
+          "name": "Charles Oliveira",
+          "logo": "https://media.api-sports.io/mma/fighters/47.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1680,
+      "date": "2024-11-16T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1731783600,
+      "timezone": "UTC",
+      "slug": "UFC 309: Jones vs. Miocic",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 895,
+          "name": "Michael Chandler",
+          "logo": "https://media.api-sports.io/mma/fighters/895.png",
+          "winner": false
+        },
+        "second": {
+          "id": 47,
+          "name": "Charles Oliveira",
+          "logo": "https://media.api-sports.io/mma/fighters/47.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1945,
+      "date": "2025-06-29T04:30:00+00:00",
+      "time": "04:30",
+      "timestamp": 1751171400,
+      "timezone": "UTC",
+      "slug": "UFC 317: Topuria vs. Oliveira",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 47,
+          "name": "Charles Oliveira",
+          "logo": "https://media.api-sports.io/mma/fighters/47.png",
+          "winner": false
+        },
+        "second": {
+          "id": 855,
+          "name": "Ilia Topuria",
+          "logo": "https://media.api-sports.io/mma/fighters/855.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2238,
+      "date": "2025-10-12T01:20:00+00:00",
+      "time": "01:20",
+      "timestamp": 1760232000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Oliveira vs. Gamrot",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 860,
+          "name": "Mateusz Gamrot",
+          "logo": "https://media.api-sports.io/mma/fighters/860.png",
+          "winner": false
+        },
+        "second": {
+          "id": 47,
+          "name": "Charles Oliveira",
+          "logo": "https://media.api-sports.io/mma/fighters/47.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:37.248Z"
+}

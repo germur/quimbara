@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 901,
+    "name": "Douglas Silva de Andrade",
+    "nickname": "D Silva",
+    "photo": "https://media.api-sports.io/mma/fighters/901.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "136 lbs",
+    "reach": "68.5'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 136,
+      "name": "Corinthians MMA"
+    },
+    "last_update": "2025-06-04T20:41:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 901,
+      "name": "Douglas Silva de Andrade",
+      "photo": "https://media.api-sports.io/mma/fighters/901.png"
+    },
+    "total": {
+      "win": 29,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 20,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 697,
+      "date": "2023-05-13T17:30:00+00:00",
+      "time": "17:30",
+      "timestamp": 1683999000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Almeida",
+      "is_main": false,
+      "category": "Catch Weight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 901,
+          "name": "Douglas Silva de Andrade",
+          "logo": "https://media.api-sports.io/mma/fighters/901.png",
+          "winner": true
+        },
+        "second": {
+          "id": 246,
+          "name": "Cody Stamann",
+          "logo": "https://media.api-sports.io/mma/fighters/246.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1442,
+      "date": "2024-06-15T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1718474400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Perez vs. Taira",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 467,
+          "name": "Miles Johns",
+          "logo": "https://media.api-sports.io/mma/fighters/467.png",
+          "winner": true
+        },
+        "second": {
+          "id": 901,
+          "name": "Douglas Silva de Andrade",
+          "logo": "https://media.api-sports.io/mma/fighters/901.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1881,
+      "date": "2025-03-01T21:15:00+00:00",
+      "time": "21:15",
+      "timestamp": 1740863700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kape vs. Almabayev",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 750,
+          "name": "John Castaneda",
+          "logo": "https://media.api-sports.io/mma/fighters/750.png",
+          "winner": false
+        },
+        "second": {
+          "id": 901,
+          "name": "Douglas Silva de Andrade",
+          "logo": "https://media.api-sports.io/mma/fighters/901.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:04.722Z"
+}

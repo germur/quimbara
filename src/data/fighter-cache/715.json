@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 715,
+    "name": "Gabe Green",
+    "nickname": "Gifted",
+    "photo": "https://media.api-sports.io/mma/fighters/715.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "170 lbs",
+    "reach": "73'",
+    "stance": "Switch",
+    "category": "Lightweight",
+    "team": {
+      "id": 90,
+      "name": "Kings MMA"
+    },
+    "last_update": "2025-06-04T19:08:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 715,
+      "name": "Gabe Green",
+      "photo": "https://media.api-sports.io/mma/fighters/715.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 3
+    },
+    "sub": {
+      "win": 6,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 699,
+      "date": "2023-05-13T16:55:00+00:00",
+      "time": "16:55",
+      "timestamp": 1683996900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Almeida",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 715,
+          "name": "Gabe Green",
+          "logo": "https://media.api-sports.io/mma/fighters/715.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2399,
+          "name": "Bryan Battle",
+          "logo": "https://media.api-sports.io/mma/fighters/2399.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1340,
+      "date": "2024-04-27T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1714219200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Nicolau vs. Kape 2",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2692,
+          "name": "James Llontop",
+          "logo": "https://media.api-sports.io/mma/fighters/2692.png",
+          "winner": false
+        },
+        "second": {
+          "id": 715,
+          "name": "Gabe Green",
+          "logo": "https://media.api-sports.io/mma/fighters/715.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2047,
+      "date": "2025-05-17T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1747519200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Morales",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2784,
+          "name": "Matheus Camilo",
+          "logo": "https://media.api-sports.io/mma/fighters/2784.png",
+          "winner": false
+        },
+        "second": {
+          "id": 715,
+          "name": "Gabe Green",
+          "logo": "https://media.api-sports.io/mma/fighters/715.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:03.700Z"
+}

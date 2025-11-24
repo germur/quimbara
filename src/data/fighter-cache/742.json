@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 742,
+    "name": "Malcolm Gordon",
+    "nickname": "X",
+    "photo": "https://media.api-sports.io/mma/fighters/742.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "127 lbs",
+    "reach": "71'",
+    "stance": "Switch",
+    "category": "Flyweight",
+    "team": {
+      "id": 327,
+      "name": "Adrenaline Training Center"
+    },
+    "last_update": "2025-06-04T19:21:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 742,
+      "name": "Malcolm Gordon",
+      "photo": "https://media.api-sports.io/mma/fighters/742.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 5
+    },
+    "sub": {
+      "win": 6,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 612,
+      "date": "2023-03-18T18:05:00+00:00",
+      "time": "18:05",
+      "timestamp": 1679162700,
+      "timezone": "UTC",
+      "slug": "UFC 286: Edwards vs. Usman 3",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 742,
+          "name": "Malcolm Gordon",
+          "logo": "https://media.api-sports.io/mma/fighters/742.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2494,
+          "name": "Jake Hadley",
+          "logo": "https://media.api-sports.io/mma/fighters/2494.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1112,
+      "date": "2024-01-20T15:30:00+00:00",
+      "time": "15:30",
+      "timestamp": 1705764600,
+      "timezone": "UTC",
+      "slug": "UFC 297: Strickland vs. Du Plessis",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 815,
+          "name": "Jimmy Flick",
+          "logo": "https://media.api-sports.io/mma/fighters/815.png",
+          "winner": true
+        },
+        "second": {
+          "id": 742,
+          "name": "Malcolm Gordon",
+          "logo": "https://media.api-sports.io/mma/fighters/742.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:57.960Z"
+}

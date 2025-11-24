@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 769,
+    "name": "Adrian Yanez",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/769.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "136 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 340,
+      "name": "Metro Fight Club"
+    },
+    "last_update": "2025-11-15T12:01:13+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 769,
+      "name": "Adrian Yanez",
+      "photo": "https://media.api-sports.io/mma/fighters/769.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 2
+    },
+    "sub": {
+      "win": 2,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 644,
+      "date": "2023-04-09T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1681009200,
+      "timezone": "UTC",
+      "slug": "UFC 287: Pereira vs. Adesanya 2",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 769,
+          "name": "Adrian Yanez",
+          "logo": "https://media.api-sports.io/mma/fighters/769.png",
+          "winner": false
+        },
+        "second": {
+          "id": 456,
+          "name": "Rob Font",
+          "logo": "https://media.api-sports.io/mma/fighters/456.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 992,
+      "date": "2023-10-15T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1697329800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yusuff vs. Barboza",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 769,
+          "name": "Adrian Yanez",
+          "logo": "https://media.api-sports.io/mma/fighters/769.png",
+          "winner": false
+        },
+        "second": {
+          "id": 58,
+          "name": "Jonathan Martinez",
+          "logo": "https://media.api-sports.io/mma/fighters/58.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1392,
+      "date": "2024-05-18T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1716044400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Barboza vs. Murphy",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2385,
+          "name": "Vinicius Salvador",
+          "logo": "https://media.api-sports.io/mma/fighters/2385.png",
+          "winner": false
+        },
+        "second": {
+          "id": 769,
+          "name": "Adrian Yanez",
+          "logo": "https://media.api-sports.io/mma/fighters/769.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1749,
+      "date": "2024-12-14T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1734202800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Covington vs. Buckley",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2543,
+          "name": "Daniel Marcos",
+          "logo": "https://media.api-sports.io/mma/fighters/2543.png",
+          "winner": true
+        },
+        "second": {
+          "id": 769,
+          "name": "Adrian Yanez",
+          "logo": "https://media.api-sports.io/mma/fighters/769.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2332,
+      "date": "2025-11-08T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1762606800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Bonfim vs. Brown",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2474,
+          "name": "Cristian QuiÃ±onez",
+          "logo": "https://media.api-sports.io/mma/fighters/2474.png",
+          "winner": false
+        },
+        "second": {
+          "id": 769,
+          "name": "Adrian Yanez",
+          "logo": "https://media.api-sports.io/mma/fighters/769.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:26.796Z"
+}

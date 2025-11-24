@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 2485,
+    "name": "Erick Gonzalez",
+    "nickname": "The Ghost Pepper",
+    "photo": "https://media.api-sports.io/mma/fighters/2485.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "155 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 675,
+      "name": "Fight Science MMA"
+    },
+    "last_update": "2025-06-05T09:53:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2485,
+      "name": "Erick Gonzalez",
+      "photo": "https://media.api-sports.io/mma/fighters/2485.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 2
+    },
+    "sub": {
+      "win": 1,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 573,
+      "date": "2023-02-25T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1677358800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Muniz vs. Allen",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2604,
+          "name": "Trevor Peek",
+          "logo": "https://media.api-sports.io/mma/fighters/2604.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2485,
+          "name": "Erick Gonzalez",
+          "logo": "https://media.api-sports.io/mma/fighters/2485.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:57.998Z"
+}

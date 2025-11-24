@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 590,
+    "name": "Muslim Salikhov",
+    "nickname": "King of Kung Fu",
+    "photo": "https://media.api-sports.io/mma/fighters/590.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "170 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 833,
+      "name": "Abdulmanap Nurmagomedov Martial Arts School"
+    },
+    "last_update": "2025-11-16T00:02:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 590,
+      "name": "Muslim Salikhov",
+      "photo": "https://media.api-sports.io/mma/fighters/590.png"
+    },
+    "total": {
+      "win": 22,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 15,
+      "loss": 2
+    },
+    "sub": {
+      "win": 2,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 753,
+      "date": "2023-06-18T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1687053600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Cannonier",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 590,
+          "name": "Muslim Salikhov",
+          "logo": "https://media.api-sports.io/mma/fighters/590.png",
+          "winner": false
+        },
+        "second": {
+          "id": 652,
+          "name": "Nicolas Dalby",
+          "logo": "https://media.api-sports.io/mma/fighters/652.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1048,
+      "date": "2023-12-16T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1702767600,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 590,
+          "name": "Muslim Salikhov",
+          "logo": "https://media.api-sports.io/mma/fighters/590.png",
+          "winner": false
+        },
+        "second": {
+          "id": 457,
+          "name": "Randy Brown",
+          "logo": "https://media.api-sports.io/mma/fighters/457.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1200,
+      "date": "2024-02-03T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1706976000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dolidze vs. Imavov",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 590,
+          "name": "Muslim Salikhov",
+          "logo": "https://media.api-sports.io/mma/fighters/590.png",
+          "winner": false
+        },
+        "second": {
+          "id": 457,
+          "name": "Randy Brown",
+          "logo": "https://media.api-sports.io/mma/fighters/457.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1479,
+      "date": "2024-07-13T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1720893600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Namajunas vs. Cortez",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 590,
+          "name": "Muslim Salikhov",
+          "logo": "https://media.api-sports.io/mma/fighters/590.png",
+          "winner": true
+        },
+        "second": {
+          "id": 897,
+          "name": "Santiago Ponzinibbio",
+          "logo": "https://media.api-sports.io/mma/fighters/897.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1710,
+      "date": "2024-11-23T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1732330800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Figueiredo",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 590,
+          "name": "Muslim Salikhov",
+          "logo": "https://media.api-sports.io/mma/fighters/590.png",
+          "winner": true
+        },
+        "second": {
+          "id": 588,
+          "name": "Song Kenan",
+          "logo": "https://media.api-sports.io/mma/fighters/588.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2183,
+      "date": "2025-07-26T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1753516800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. de Ridder",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2742,
+          "name": "Carlos Leal",
+          "logo": "https://media.api-sports.io/mma/fighters/2742.png",
+          "winner": false
+        },
+        "second": {
+          "id": 590,
+          "name": "Muslim Salikhov",
+          "logo": "https://media.api-sports.io/mma/fighters/590.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2369,
+      "date": "2025-11-09T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1762650000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Bonfim vs. Brown",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 755,
+          "name": "Uros Medic",
+          "logo": "https://media.api-sports.io/mma/fighters/755.png",
+          "winner": true
+        },
+        "second": {
+          "id": 590,
+          "name": "Muslim Salikhov",
+          "logo": "https://media.api-sports.io/mma/fighters/590.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:41.984Z"
+}

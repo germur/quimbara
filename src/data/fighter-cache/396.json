@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 396,
+    "name": "Gilbert Burns",
+    "nickname": "Durinho",
+    "photo": "https://media.api-sports.io/mma/fighters/396.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "171 lbs",
+    "reach": "71'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-06-04T16:28:37+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 396,
+      "name": "Gilbert Burns",
+      "photo": "https://media.api-sports.io/mma/fighters/396.png"
+    },
+    "total": {
+      "win": 22,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 3
+    },
+    "sub": {
+      "win": 9,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 535,
+      "date": "2023-01-22T04:25:00+00:00",
+      "time": "04:25",
+      "timestamp": 1674361500,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 405,
+          "name": "Neil Magny",
+          "logo": "https://media.api-sports.io/mma/fighters/405.png",
+          "winner": false
+        },
+        "second": {
+          "id": 396,
+          "name": "Gilbert Burns",
+          "logo": "https://media.api-sports.io/mma/fighters/396.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 643,
+      "date": "2023-04-09T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1681011000,
+      "timezone": "UTC",
+      "slug": "UFC 287: Pereira vs. Adesanya 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 164,
+          "name": "Jorge Masvidal",
+          "logo": "https://media.api-sports.io/mma/fighters/164.png",
+          "winner": false
+        },
+        "second": {
+          "id": 396,
+          "name": "Gilbert Burns",
+          "logo": "https://media.api-sports.io/mma/fighters/396.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 691,
+      "date": "2023-05-07T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1683430200,
+      "timezone": "UTC",
+      "slug": "UFC 288: Sterling vs. Cejudo",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 396,
+          "name": "Gilbert Burns",
+          "logo": "https://media.api-sports.io/mma/fighters/396.png",
+          "winner": false
+        },
+        "second": {
+          "id": 15,
+          "name": "Belal Muhammad",
+          "logo": "https://media.api-sports.io/mma/fighters/15.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1172,
+      "date": "2024-03-09T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1710010800,
+      "timezone": "UTC",
+      "slug": "UFC 299: O'Malley vs. Vera 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2411,
+          "name": "Jack Della Maddalena",
+          "logo": "https://media.api-sports.io/mma/fighters/2411.png",
+          "winner": true
+        },
+        "second": {
+          "id": 396,
+          "name": "Gilbert Burns",
+          "logo": "https://media.api-sports.io/mma/fighters/396.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1501,
+      "date": "2024-09-07T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1725721200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Brady",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 679,
+          "name": "Sean Brady",
+          "logo": "https://media.api-sports.io/mma/fighters/679.png",
+          "winner": true
+        },
+        "second": {
+          "id": 396,
+          "name": "Gilbert Burns",
+          "logo": "https://media.api-sports.io/mma/fighters/396.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1952,
+      "date": "2025-05-11T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1746928800,
+      "timezone": "UTC",
+      "slug": "UFC 315: Muhammad vs. Della Maddalena",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2425,
+          "name": "Michael Morales",
+          "logo": "https://media.api-sports.io/mma/fighters/2425.png",
+          "winner": false
+        },
+        "second": {
+          "id": 396,
+          "name": "Gilbert Burns",
+          "logo": "https://media.api-sports.io/mma/fighters/396.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2016,
+      "date": "2025-05-18T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1747530000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Morales",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2425,
+          "name": "Michael Morales",
+          "logo": "https://media.api-sports.io/mma/fighters/2425.png",
+          "winner": true
+        },
+        "second": {
+          "id": 396,
+          "name": "Gilbert Burns",
+          "logo": "https://media.api-sports.io/mma/fighters/396.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:04.422Z"
+}

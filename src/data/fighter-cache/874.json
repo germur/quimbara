@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 874,
+    "name": "Sean Strickland",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/874.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "185 lbs",
+    "reach": "76'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 31,
+      "name": "Xtreme Couture"
+    },
+    "last_update": "2025-06-04T20:27:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 874,
+      "name": "Sean Strickland",
+      "photo": "https://media.api-sports.io/mma/fighters/874.png"
+    },
+    "total": {
+      "win": 29,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 2
+    },
+    "sub": {
+      "win": 4,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 518,
+      "date": "2023-01-15T02:15:00+00:00",
+      "time": "02:15",
+      "timestamp": 1673748900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Imavov",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 831,
+          "name": "Nassourdine Imavov",
+          "logo": "https://media.api-sports.io/mma/fighters/831.png",
+          "winner": false
+        },
+        "second": {
+          "id": 874,
+          "name": "Sean Strickland",
+          "logo": "https://media.api-sports.io/mma/fighters/874.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 773,
+      "date": "2023-07-02T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1688261400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Magomedov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2459,
+          "name": "Abus Magomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/2459.png",
+          "winner": false
+        },
+        "second": {
+          "id": 874,
+          "name": "Sean Strickland",
+          "logo": "https://media.api-sports.io/mma/fighters/874.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 901,
+      "date": "2023-09-10T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1694318400,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 874,
+          "name": "Sean Strickland",
+          "logo": "https://media.api-sports.io/mma/fighters/874.png",
+          "winner": true
+        },
+        "second": {
+          "id": 70,
+          "name": "Israel Adesanya",
+          "logo": "https://media.api-sports.io/mma/fighters/70.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1117,
+      "date": "2024-01-20T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1705777200,
+      "timezone": "UTC",
+      "slug": "UFC 297: Strickland vs. Du Plessis",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 856,
+          "name": "Dricus Du Plessis",
+          "logo": "https://media.api-sports.io/mma/fighters/856.png",
+          "winner": true
+        },
+        "second": {
+          "id": 874,
+          "name": "Sean Strickland",
+          "logo": "https://media.api-sports.io/mma/fighters/874.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1382,
+      "date": "2024-06-01T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1717264800,
+      "timezone": "UTC",
+      "slug": "UFC 302: Makhachev vs. Poirier",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 551,
+          "name": "Paulo Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/551.png",
+          "winner": false
+        },
+        "second": {
+          "id": 874,
+          "name": "Sean Strickland",
+          "logo": "https://media.api-sports.io/mma/fighters/874.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1788,
+      "date": "2025-02-09T05:00:00+00:00",
+      "time": "05:00",
+      "timestamp": 1739077200,
+      "timezone": "UTC",
+      "slug": "UFC 312: Du Plessis vs. Strickland 2",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 874,
+          "name": "Sean Strickland",
+          "logo": "https://media.api-sports.io/mma/fighters/874.png",
+          "winner": false
+        },
+        "second": {
+          "id": 856,
+          "name": "Dricus Du Plessis",
+          "logo": "https://media.api-sports.io/mma/fighters/856.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:18.902Z"
+}

@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2611,
+    "name": "Yanis Ghemmouri",
+    "nickname": "The Desert Warrior",
+    "photo": "https://media.api-sports.io/mma/fighters/2611.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "136 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 720,
+      "name": "Bulgarian Top"
+    },
+    "last_update": "2025-06-05T10:56:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2611,
+      "name": "Yanis Ghemmouri",
+      "photo": "https://media.api-sports.io/mma/fighters/2611.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 2
+    },
+    "sub": {
+      "win": 4,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 893,
+      "date": "2023-09-02T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1693681200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2536,
+          "name": "Caolan Loughran",
+          "logo": "https://media.api-sports.io/mma/fighters/2536.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2611,
+          "name": "Yanis Ghemmouri",
+          "logo": "https://media.api-sports.io/mma/fighters/2611.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 960,
+      "date": "2023-09-02T19:30:00+00:00",
+      "time": "19:30",
+      "timestamp": 1693683000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2611,
+          "name": "Yanis Ghemmouri",
+          "logo": "https://media.api-sports.io/mma/fighters/2611.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2522,
+          "name": "William Gomis",
+          "logo": "https://media.api-sports.io/mma/fighters/2522.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1269,
+      "date": "2024-03-02T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1709406000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Gaziev",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2611,
+          "name": "Yanis Ghemmouri",
+          "logo": "https://media.api-sports.io/mma/fighters/2611.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2675,
+          "name": "Vinicius Oliveira",
+          "logo": "https://media.api-sports.io/mma/fighters/2675.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1426,
+      "date": "2024-06-29T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1719676800,
+      "timezone": "UTC",
+      "slug": "UFC 303: Pereira vs. ProchÃ¡zka 2",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2611,
+          "name": "Yanis Ghemmouri",
+          "logo": "https://media.api-sports.io/mma/fighters/2611.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2618,
+          "name": "Payton Talbott",
+          "logo": "https://media.api-sports.io/mma/fighters/2618.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:14.320Z"
+}

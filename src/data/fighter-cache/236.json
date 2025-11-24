@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 236,
+    "name": "Nasrat Haqparast",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/236.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "156 lbs",
+    "reach": "72'",
+    "stance": "Southpaw",
+    "category": "Lightweight",
+    "team": {
+      "id": 97,
+      "name": "TriStar Gym"
+    },
+    "last_update": "2025-06-04T15:08:36+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 236,
+      "name": "Nasrat Haqparast",
+      "photo": "https://media.api-sports.io/mma/fighters/236.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 10,
+      "loss": 1
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 953,
+      "date": "2023-09-10T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1694304000,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2619,
+          "name": "Landon QuiÃ±ones",
+          "logo": "https://media.api-sports.io/mma/fighters/2619.png",
+          "winner": false
+        },
+        "second": {
+          "id": 236,
+          "name": "Nasrat Haqparast",
+          "logo": "https://media.api-sports.io/mma/fighters/236.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1090,
+      "date": "2023-12-10T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1702180800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 654,
+          "name": "Jamie Mullarkey",
+          "logo": "https://media.api-sports.io/mma/fighters/654.png",
+          "winner": false
+        },
+        "second": {
+          "id": 236,
+          "name": "Nasrat Haqparast",
+          "logo": "https://media.api-sports.io/mma/fighters/236.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1243,
+      "date": "2024-06-22T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1719043200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 472,
+          "name": "Jared Gordon",
+          "logo": "https://media.api-sports.io/mma/fighters/472.png",
+          "winner": false
+        },
+        "second": {
+          "id": 236,
+          "name": "Nasrat Haqparast",
+          "logo": "https://media.api-sports.io/mma/fighters/236.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1797,
+      "date": "2025-03-02T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1740877200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kape vs. Almabayev",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2547,
+          "name": "Esteban Ribovics",
+          "logo": "https://media.api-sports.io/mma/fighters/2547.png",
+          "winner": false
+        },
+        "second": {
+          "id": 236,
+          "name": "Nasrat Haqparast",
+          "logo": "https://media.api-sports.io/mma/fighters/236.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2359,
+      "date": "2025-10-25T06:00:00+00:00",
+      "time": "06:00",
+      "timestamp": 1761372000,
+      "timezone": "UTC",
+      "slug": "UFC 321: Aspinall vs. Gane",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2747,
+          "name": "Quillan Salkilld",
+          "logo": "https://media.api-sports.io/mma/fighters/2747.png",
+          "winner": true
+        },
+        "second": {
+          "id": 236,
+          "name": "Nasrat Haqparast",
+          "logo": "https://media.api-sports.io/mma/fighters/236.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:55.972Z"
+}

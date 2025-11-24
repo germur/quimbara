@@ -1,0 +1,296 @@
+{
+  "profile": {
+    "id": 230,
+    "name": "Dan Ige",
+    "nickname": "50K",
+    "photo": "https://media.api-sports.io/mma/fighters/230.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "146 lbs",
+    "reach": "71'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 31,
+      "name": "Xtreme Couture"
+    },
+    "last_update": "2025-07-27T00:04:05+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 230,
+      "name": "Dan Ige",
+      "photo": "https://media.api-sports.io/mma/fighters/230.png"
+    },
+    "total": {
+      "win": 19,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 0
+    },
+    "sub": {
+      "win": 5,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 519,
+      "date": "2023-01-15T01:40:00+00:00",
+      "time": "01:40",
+      "timestamp": 1673746800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Imavov",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 848,
+          "name": "Damon Jackson",
+          "logo": "https://media.api-sports.io/mma/fighters/848.png",
+          "winner": false
+        },
+        "second": {
+          "id": 230,
+          "name": "Dan Ige",
+          "logo": "https://media.api-sports.io/mma/fighters/230.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 740,
+      "date": "2023-06-11T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1686450600,
+      "timezone": "UTC",
+      "slug": "UFC 289: Nunes vs. Aldana",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 694,
+          "name": "Nate Landwehr",
+          "logo": "https://media.api-sports.io/mma/fighters/694.png",
+          "winner": false
+        },
+        "second": {
+          "id": 230,
+          "name": "Dan Ige",
+          "logo": "https://media.api-sports.io/mma/fighters/230.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 936,
+      "date": "2023-09-24T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1695515400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Fiziev vs. Gamrot",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 230,
+          "name": "Dan Ige",
+          "logo": "https://media.api-sports.io/mma/fighters/230.png",
+          "winner": false
+        },
+        "second": {
+          "id": 296,
+          "name": "Bryce Mitchell",
+          "logo": "https://media.api-sports.io/mma/fighters/296.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1245,
+      "date": "2024-02-10T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1707580800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hermansson vs. Pyfer",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 102,
+          "name": "Andre Fili",
+          "logo": "https://media.api-sports.io/mma/fighters/102.png",
+          "winner": false
+        },
+        "second": {
+          "id": 230,
+          "name": "Dan Ige",
+          "logo": "https://media.api-sports.io/mma/fighters/230.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1145,
+      "date": "2024-02-11T00:15:00+00:00",
+      "time": "00:15",
+      "timestamp": 1707610500,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hermansson vs. Pyfer",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 593,
+          "name": "Lerone Murphy",
+          "logo": "https://media.api-sports.io/mma/fighters/593.png",
+          "winner": false
+        },
+        "second": {
+          "id": 230,
+          "name": "Dan Ige",
+          "logo": "https://media.api-sports.io/mma/fighters/230.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1505,
+      "date": "2024-06-29T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1719684000,
+      "timezone": "UTC",
+      "slug": "UFC 303: Pereira vs. ProchÃ¡zka 2",
+      "is_main": true,
+      "category": "Catch Weight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2417,
+          "name": "Diego Lopes",
+          "logo": "https://media.api-sports.io/mma/fighters/2417.png",
+          "winner": true
+        },
+        "second": {
+          "id": 230,
+          "name": "Dan Ige",
+          "logo": "https://media.api-sports.io/mma/fighters/230.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1574,
+      "date": "2024-10-26T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1729936800,
+      "timezone": "UTC",
+      "slug": "UFC 308: Topuria vs. Holloway",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 230,
+          "name": "Dan Ige",
+          "logo": "https://media.api-sports.io/mma/fighters/230.png",
+          "winner": false
+        },
+        "second": {
+          "id": 593,
+          "name": "Lerone Murphy",
+          "logo": "https://media.api-sports.io/mma/fighters/593.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1933,
+      "date": "2025-04-13T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1744507800,
+      "timezone": "UTC",
+      "slug": "UFC 314: Volkanovski vs. Lopes",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 607,
+          "name": "Sean Woodson",
+          "logo": "https://media.api-sports.io/mma/fighters/607.png",
+          "winner": false
+        },
+        "second": {
+          "id": 230,
+          "name": "Dan Ige",
+          "logo": "https://media.api-sports.io/mma/fighters/230.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2175,
+      "date": "2025-07-20T02:55:00+00:00",
+      "time": "02:55",
+      "timestamp": 1752980100,
+      "timezone": "UTC",
+      "slug": "UFC 318: Holloway vs. Poirier 3",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2774,
+          "name": "Patricio Pitbull",
+          "logo": "https://media.api-sports.io/mma/fighters/2774.png",
+          "winner": true
+        },
+        "second": {
+          "id": 230,
+          "name": "Dan Ige",
+          "logo": "https://media.api-sports.io/mma/fighters/230.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:50.364Z"
+}

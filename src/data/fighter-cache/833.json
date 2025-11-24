@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "id": 833,
+    "name": "Muhammad Naimov",
+    "nickname": "Hillman",
+    "photo": "https://media.api-sports.io/mma/fighters/833.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "146 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 19,
+      "name": "Elevation Fight"
+    },
+    "last_update": "2025-06-28T12:07:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 833,
+      "name": "Muhammad Naimov",
+      "photo": "https://media.api-sports.io/mma/fighters/833.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 0
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 721,
+      "date": "2023-06-03T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1685833200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kara-France vs. Albazi",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 833,
+          "name": "Muhammad Naimov",
+          "logo": "https://media.api-sports.io/mma/fighters/833.png",
+          "winner": true
+        },
+        "second": {
+          "id": 654,
+          "name": "Jamie Mullarkey",
+          "logo": "https://media.api-sports.io/mma/fighters/654.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1011,
+      "date": "2023-10-21T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1697900400,
+      "timezone": "UTC",
+      "slug": "UFC 294: Makhachev vs. Volkanovski 2",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 833,
+          "name": "Muhammad Naimov",
+          "logo": "https://media.api-sports.io/mma/fighters/833.png",
+          "winner": true
+        },
+        "second": {
+          "id": 227,
+          "name": "Nathaniel Wood",
+          "logo": "https://media.api-sports.io/mma/fighters/227.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1221,
+      "date": "2024-02-24T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1708790400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Royval 2",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 833,
+          "name": "Muhammad Naimov",
+          "logo": "https://media.api-sports.io/mma/fighters/833.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2486,
+          "name": "Erik Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/2486.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1499,
+      "date": "2024-06-22T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1719043200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2705,
+          "name": "Felipe Lima",
+          "logo": "https://media.api-sports.io/mma/fighters/2705.png",
+          "winner": true
+        },
+        "second": {
+          "id": 833,
+          "name": "Muhammad Naimov",
+          "logo": "https://media.api-sports.io/mma/fighters/833.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1451,
+      "date": "2024-06-22T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1719082800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Chimaev",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 813,
+          "name": "Melsik Baghdasaryan",
+          "logo": "https://media.api-sports.io/mma/fighters/813.png",
+          "winner": false
+        },
+        "second": {
+          "id": 833,
+          "name": "Muhammad Naimov",
+          "logo": "https://media.api-sports.io/mma/fighters/833.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1829,
+      "date": "2025-02-01T16:30:00+00:00",
+      "time": "16:30",
+      "timestamp": 1738427400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Adesanya vs. Imavov",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2716,
+          "name": "Kaan Ofli",
+          "logo": "https://media.api-sports.io/mma/fighters/2716.png",
+          "winner": false
+        },
+        "second": {
+          "id": 833,
+          "name": "Muhammad Naimov",
+          "logo": "https://media.api-sports.io/mma/fighters/833.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2094,
+      "date": "2025-06-21T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1750532400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2753,
+          "name": "Bogdan Grad",
+          "logo": "https://media.api-sports.io/mma/fighters/2753.png",
+          "winner": false
+        },
+        "second": {
+          "id": 833,
+          "name": "Muhammad Naimov",
+          "logo": "https://media.api-sports.io/mma/fighters/833.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2380,
+      "date": "2025-12-06T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1765054800,
+      "timezone": "UTC",
+      "slug": "UFC 323: Dvalishvili vs. Yan 2",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 2718,
+          "name": "Mairon Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/2718.png",
+          "winner": false
+        },
+        "second": {
+          "id": 833,
+          "name": "Muhammad Naimov",
+          "logo": "https://media.api-sports.io/mma/fighters/833.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:55:57.663Z"
+}

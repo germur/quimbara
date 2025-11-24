@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 853,
+    "name": "Jacob Malkoun",
+    "nickname": "Mamba",
+    "photo": "https://media.api-sports.io/mma/fighters/853.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "185 lbs",
+    "reach": "73'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 51,
+      "name": "PMA Super Martial Arts Centre"
+    },
+    "last_update": "2025-06-04T20:17:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 853,
+      "name": "Jacob Malkoun",
+      "photo": "https://media.api-sports.io/mma/fighters/853.png"
+    },
+    "total": {
+      "win": 8,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 1
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 932,
+      "date": "2023-09-23T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1695470400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Fiziev vs. Gamrot",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 853,
+          "name": "Jacob Malkoun",
+          "logo": "https://media.api-sports.io/mma/fighters/853.png",
+          "winner": false
+        },
+        "second": {
+          "id": 830,
+          "name": "Aliaskhab Khizriev",
+          "logo": "https://media.api-sports.io/mma/fighters/830.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 970,
+      "date": "2023-09-23T21:30:00+00:00",
+      "time": "21:30",
+      "timestamp": 1695504600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Fiziev vs. Gamrot",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 818,
+          "name": "Cody Brundage",
+          "logo": "https://media.api-sports.io/mma/fighters/818.png",
+          "winner": true
+        },
+        "second": {
+          "id": 853,
+          "name": "Jacob Malkoun",
+          "logo": "https://media.api-sports.io/mma/fighters/853.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1276,
+      "date": "2024-03-30T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1711810800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Fiorot",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 853,
+          "name": "Jacob Malkoun",
+          "logo": "https://media.api-sports.io/mma/fighters/853.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2405,
+          "name": "Andre Petroski",
+          "logo": "https://media.api-sports.io/mma/fighters/2405.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1533,
+      "date": "2024-08-17T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1723910400,
+      "timezone": "UTC",
+      "slug": "UFC 305: Du Plessis vs. Adesanya",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 316,
+          "name": "Gerald Meerschaert",
+          "logo": "https://media.api-sports.io/mma/fighters/316.png",
+          "winner": false
+        },
+        "second": {
+          "id": 853,
+          "name": "Jacob Malkoun",
+          "logo": "https://media.api-sports.io/mma/fighters/853.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:49:45.389Z"
+}

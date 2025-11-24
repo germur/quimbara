@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 441,
+    "name": "Tony Ferguson",
+    "nickname": "El Cucuy",
+    "photo": "https://media.api-sports.io/mma/fighters/441.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "170 lbs",
+    "reach": "76.5'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 208,
+      "name": "Snap Down City Academy"
+    },
+    "last_update": "2025-06-04T16:51:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 441,
+      "name": "Tony Ferguson",
+      "photo": "https://media.api-sports.io/mma/fighters/441.png"
+    },
+    "total": {
+      "win": 26,
+      "loss": 11,
+      "draw": 0
+    },
+    "ko": {
+      "win": 13,
+      "loss": 2
+    },
+    "sub": {
+      "win": 8,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 830,
+      "date": "2023-07-30T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1690684200,
+      "timezone": "UTC",
+      "slug": "UFC 291: Poirier vs. Gaethje 2",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 670,
+          "name": "Bobby Green",
+          "logo": "https://media.api-sports.io/mma/fighters/670.png",
+          "winner": true
+        },
+        "second": {
+          "id": 441,
+          "name": "Tony Ferguson",
+          "logo": "https://media.api-sports.io/mma/fighters/441.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1014,
+      "date": "2023-12-17T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1702783800,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2402,
+          "name": "Paddy Pimblett",
+          "logo": "https://media.api-sports.io/mma/fighters/2402.png",
+          "winner": true
+        },
+        "second": {
+          "id": 441,
+          "name": "Tony Ferguson",
+          "logo": "https://media.api-sports.io/mma/fighters/441.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1478,
+      "date": "2024-08-03T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1722682800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 418,
+          "name": "Michael Chiesa",
+          "logo": "https://media.api-sports.io/mma/fighters/418.png",
+          "winner": true
+        },
+        "second": {
+          "id": 441,
+          "name": "Tony Ferguson",
+          "logo": "https://media.api-sports.io/mma/fighters/441.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:13.819Z"
+}

@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 118,
+    "name": "Petr Yan",
+    "nickname": "No Mercy",
+    "photo": "https://media.api-sports.io/mma/fighters/118.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "135 lbs",
+    "reach": "67'",
+    "stance": "Switch",
+    "category": "Bantamweight",
+    "team": {
+      "id": 755,
+      "name": "BK Arkhangel Mikhail"
+    },
+    "last_update": "2025-08-02T12:05:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 118,
+      "name": "Petr Yan",
+      "photo": "https://media.api-sports.io/mma/fighters/118.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 0
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 604,
+      "date": "2023-03-12T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1678584600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Dvalishvili",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 290,
+          "name": "Merab Dvalishvili",
+          "logo": "https://media.api-sports.io/mma/fighters/290.png",
+          "winner": true
+        },
+        "second": {
+          "id": 118,
+          "name": "Petr Yan",
+          "logo": "https://media.api-sports.io/mma/fighters/118.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1171,
+      "date": "2024-03-09T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1710010800,
+      "timezone": "UTC",
+      "slug": "UFC 299: O'Malley vs. Vera 2",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 126,
+          "name": "Song Yadong",
+          "logo": "https://media.api-sports.io/mma/fighters/126.png",
+          "winner": false
+        },
+        "second": {
+          "id": 118,
+          "name": "Petr Yan",
+          "logo": "https://media.api-sports.io/mma/fighters/118.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1608,
+      "date": "2024-11-23T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1732330800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Figueiredo",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 180,
+          "name": "Deiveson Figueiredo",
+          "logo": "https://media.api-sports.io/mma/fighters/180.png",
+          "winner": false
+        },
+        "second": {
+          "id": 118,
+          "name": "Petr Yan",
+          "logo": "https://media.api-sports.io/mma/fighters/118.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2149,
+      "date": "2025-07-26T20:40:00+00:00",
+      "time": "20:40",
+      "timestamp": 1753562400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. de Ridder",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2580,
+          "name": "Marcus McGhee",
+          "logo": "https://media.api-sports.io/mma/fighters/2580.png",
+          "winner": false
+        },
+        "second": {
+          "id": 118,
+          "name": "Petr Yan",
+          "logo": "https://media.api-sports.io/mma/fighters/118.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2386,
+      "date": "2025-12-07T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1765076400,
+      "timezone": "UTC",
+      "slug": "UFC 323: Dvalishvili vs. Yan 2",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 118,
+          "name": "Petr Yan",
+          "logo": "https://media.api-sports.io/mma/fighters/118.png",
+          "winner": false
+        },
+        "second": {
+          "id": 290,
+          "name": "Merab Dvalishvili",
+          "logo": "https://media.api-sports.io/mma/fighters/290.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:42.273Z"
+}

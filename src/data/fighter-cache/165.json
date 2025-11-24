@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 165,
+    "name": "Leon Edwards",
+    "nickname": "Rocky",
+    "photo": "https://media.api-sports.io/mma/fighters/165.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "171 lbs",
+    "reach": "74'",
+    "stance": "Southpaw",
+    "category": "Welterweight",
+    "team": {
+      "id": 112,
+      "name": "Renegade MMA"
+    },
+    "last_update": "2025-11-23T00:08:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 165,
+      "name": "Leon Edwards",
+      "photo": "https://media.api-sports.io/mma/fighters/165.png"
+    },
+    "total": {
+      "win": 22,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 0
+    },
+    "sub": {
+      "win": 3,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 620,
+      "date": "2023-03-18T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1679182200,
+      "timezone": "UTC",
+      "slug": "UFC 286: Edwards vs. Usman 3",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 135,
+          "name": "Kamaru Usman",
+          "logo": "https://media.api-sports.io/mma/fighters/135.png",
+          "winner": false
+        },
+        "second": {
+          "id": 165,
+          "name": "Leon Edwards",
+          "logo": "https://media.api-sports.io/mma/fighters/165.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1009,
+      "date": "2023-12-17T05:00:00+00:00",
+      "time": "05:00",
+      "timestamp": 1702789200,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 565,
+          "name": "Colby Covington",
+          "logo": "https://media.api-sports.io/mma/fighters/565.png",
+          "winner": false
+        },
+        "second": {
+          "id": 165,
+          "name": "Leon Edwards",
+          "logo": "https://media.api-sports.io/mma/fighters/165.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1411,
+      "date": "2024-07-27T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1722103200,
+      "timezone": "UTC",
+      "slug": "UFC 304: Edwards vs. Muhammad 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 15,
+          "name": "Belal Muhammad",
+          "logo": "https://media.api-sports.io/mma/fighters/15.png",
+          "winner": true
+        },
+        "second": {
+          "id": 165,
+          "name": "Leon Edwards",
+          "logo": "https://media.api-sports.io/mma/fighters/165.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1806,
+      "date": "2025-03-22T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1742666400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Edwards vs. Della Maddalena",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2411,
+          "name": "Jack Della Maddalena",
+          "logo": "https://media.api-sports.io/mma/fighters/2411.png",
+          "winner": false
+        },
+        "second": {
+          "id": 165,
+          "name": "Leon Edwards",
+          "logo": "https://media.api-sports.io/mma/fighters/165.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1920,
+      "date": "2025-03-22T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1742682600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Edwards vs. Brady",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 679,
+          "name": "Sean Brady",
+          "logo": "https://media.api-sports.io/mma/fighters/679.png",
+          "winner": true
+        },
+        "second": {
+          "id": 165,
+          "name": "Leon Edwards",
+          "logo": "https://media.api-sports.io/mma/fighters/165.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2298,
+      "date": "2025-11-16T03:35:00+00:00",
+      "time": "03:35",
+      "timestamp": 1763264100,
+      "timezone": "UTC",
+      "slug": "UFC 322: Della Maddalena vs. Makhachev",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2654,
+          "name": "Carlos Prates",
+          "logo": "https://media.api-sports.io/mma/fighters/2654.png",
+          "winner": true
+        },
+        "second": {
+          "id": 165,
+          "name": "Leon Edwards",
+          "logo": "https://media.api-sports.io/mma/fighters/165.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:30.890Z"
+}

@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 878,
+    "name": "Nikolas Motta",
+    "nickname": "Iron",
+    "photo": "https://media.api-sports.io/mma/fighters/878.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "155 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 31,
+      "name": "Xtreme Couture"
+    },
+    "last_update": "2025-06-28T12:07:37+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 878,
+      "name": "Nikolas Motta",
+      "photo": "https://media.api-sports.io/mma/fighters/878.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 10,
+      "loss": 4
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 752,
+      "date": "2023-06-18T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1687055400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Cannonier",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 878,
+          "name": "Nikolas Motta",
+          "logo": "https://media.api-sports.io/mma/fighters/878.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2503,
+          "name": "Manuel Torres",
+          "logo": "https://media.api-sports.io/mma/fighters/2503.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1034,
+      "date": "2023-11-18T19:20:00+00:00",
+      "time": "19:20",
+      "timestamp": 1700335200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 878,
+          "name": "Nikolas Motta",
+          "logo": "https://media.api-sports.io/mma/fighters/878.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2518,
+          "name": "Trey Ogden",
+          "logo": "https://media.api-sports.io/mma/fighters/2518.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1102,
+      "date": "2024-01-13T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1705150800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ankalaev vs. Walker 2",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2664,
+          "name": "Tom Nolan",
+          "logo": "https://media.api-sports.io/mma/fighters/2664.png",
+          "winner": false
+        },
+        "second": {
+          "id": 878,
+          "name": "Nikolas Motta",
+          "logo": "https://media.api-sports.io/mma/fighters/878.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1656,
+      "date": "2024-09-28T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1727510400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moicano vs. Saint Denis",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 878,
+          "name": "Nikolas Motta",
+          "logo": "https://media.api-sports.io/mma/fighters/878.png",
+          "winner": false
+        },
+        "second": {
+          "id": 849,
+          "name": "Ludovit Klein",
+          "logo": "https://media.api-sports.io/mma/fighters/849.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1741,
+      "date": "2024-11-23T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1732320000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Figueiredo",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 878,
+          "name": "Nikolas Motta",
+          "logo": "https://media.api-sports.io/mma/fighters/878.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2502,
+          "name": "Maheshate",
+          "logo": "https://media.api-sports.io/mma/fighters/2502.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2056,
+      "date": "2025-06-21T19:30:00+00:00",
+      "time": "19:30",
+      "timestamp": 1750534200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 878,
+          "name": "Nikolas Motta",
+          "logo": "https://media.api-sports.io/mma/fighters/878.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2586,
+          "name": "Nazim Sadykhov",
+          "logo": "https://media.api-sports.io/mma/fighters/2586.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:01.550Z"
+}

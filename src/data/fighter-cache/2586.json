@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 2586,
+    "name": "Nazim Sadykhov",
+    "nickname": "Black Wolf",
+    "photo": "https://media.api-sports.io/mma/fighters/2586.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "155 lbs",
+    "reach": "69'",
+    "stance": "Southpaw",
+    "category": "Lightweight",
+    "team": {
+      "id": 58,
+      "name": "Serra-Longo Fight"
+    },
+    "last_update": "2025-06-28T12:08:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2586,
+      "name": "Nazim Sadykhov",
+      "photo": "https://media.api-sports.io/mma/fighters/2586.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 1,
+      "draw": 1
+    },
+    "ko": {
+      "win": 8,
+      "loss": 0
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 562,
+      "date": "2023-02-18T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1676754000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Andrade vs. Blanchfield",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2487,
+          "name": "Evan Elder",
+          "logo": "https://media.api-sports.io/mma/fighters/2487.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2586,
+          "name": "Nazim Sadykhov",
+          "logo": "https://media.api-sports.io/mma/fighters/2586.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 804,
+      "date": "2023-07-16T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1689472800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holm vs. Bueno Silva",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 519,
+          "name": "Terrance McKinney",
+          "logo": "https://media.api-sports.io/mma/fighters/519.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2586,
+          "name": "Nazim Sadykhov",
+          "logo": "https://media.api-sports.io/mma/fighters/2586.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1053,
+      "date": "2023-11-12T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1699750800,
+      "timezone": "UTC",
+      "slug": "UFC 295: ProchÃ¡zka vs. Pereira",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2519,
+          "name": "Viacheslav Borshchev",
+          "logo": "https://media.api-sports.io/mma/fighters/2519.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2586,
+          "name": "Nazim Sadykhov",
+          "logo": "https://media.api-sports.io/mma/fighters/2586.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1511,
+      "date": "2024-07-13T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1720882800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Namajunas vs. Cortez",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 199,
+          "name": "TBA",
+          "logo": "https://media.api-sports.io/mma/fighters/199.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2586,
+          "name": "Nazim Sadykhov",
+          "logo": "https://media.api-sports.io/mma/fighters/2586.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1862,
+      "date": "2025-02-16T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1739667600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2586,
+          "name": "Nazim Sadykhov",
+          "logo": "https://media.api-sports.io/mma/fighters/2586.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2560,
+          "name": "Ismael Bonfim",
+          "logo": "https://media.api-sports.io/mma/fighters/2560.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2056,
+      "date": "2025-06-21T19:30:00+00:00",
+      "time": "19:30",
+      "timestamp": 1750534200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 878,
+          "name": "Nikolas Motta",
+          "logo": "https://media.api-sports.io/mma/fighters/878.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2586,
+          "name": "Nazim Sadykhov",
+          "logo": "https://media.api-sports.io/mma/fighters/2586.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2390,
+      "date": "2025-12-07T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1765069200,
+      "timezone": "UTC",
+      "slug": "UFC 323: Dvalishvili vs. Yan 2",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 591,
+          "name": "FarÃ©s Ziam",
+          "logo": "https://media.api-sports.io/mma/fighters/591.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2586,
+          "name": "Nazim Sadykhov",
+          "logo": "https://media.api-sports.io/mma/fighters/2586.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:58.744Z"
+}

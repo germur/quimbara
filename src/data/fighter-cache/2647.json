@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2647,
+    "name": "Xiao Long",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2647.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "135 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 786,
+      "name": "UFC Performance Institute Shanghai"
+    },
+    "last_update": "2025-08-30T00:03:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2647,
+      "name": "Xiao Long",
+      "photo": "https://media.api-sports.io/mma/fighters/2647.png"
+    },
+    "total": {
+      "win": 27,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 3
+    },
+    "sub": {
+      "win": 10,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 1076,
+      "date": "2023-12-09T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1702137600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2641,
+          "name": "ChangHo Lee",
+          "logo": "https://media.api-sports.io/mma/fighters/2641.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2647,
+          "name": "Xiao Long",
+          "logo": "https://media.api-sports.io/mma/fighters/2647.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1453,
+      "date": "2024-06-22T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1719043200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2641,
+          "name": "ChangHo Lee",
+          "logo": "https://media.api-sports.io/mma/fighters/2641.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2647,
+          "name": "Xiao Long",
+          "logo": "https://media.api-sports.io/mma/fighters/2647.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1717,
+      "date": "2024-11-23T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1732320000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Figueiredo",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2712,
+          "name": "Quang Le",
+          "logo": "https://media.api-sports.io/mma/fighters/2712.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2647,
+          "name": "Xiao Long",
+          "logo": "https://media.api-sports.io/mma/fighters/2647.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2208,
+      "date": "2025-08-23T07:25:00+00:00",
+      "time": "07:25",
+      "timestamp": 1755933900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Walker vs. Zhang",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2726,
+          "name": "SuYoung You",
+          "logo": "https://media.api-sports.io/mma/fighters/2726.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2647,
+          "name": "Xiao Long",
+          "logo": "https://media.api-sports.io/mma/fighters/2647.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:12.950Z"
+}

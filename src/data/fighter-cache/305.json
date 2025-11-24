@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 305,
+    "name": "Michael Johnson",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/305.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "156 lbs",
+    "reach": "73.5'",
+    "stance": "Southpaw",
+    "category": "Lightweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-08-23T12:03:05+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 305,
+      "name": "Michael Johnson",
+      "photo": "https://media.api-sports.io/mma/fighters/305.png"
+    },
+    "total": {
+      "win": 24,
+      "loss": 19,
+      "draw": 0
+    },
+    "ko": {
+      "win": 10,
+      "loss": 3
+    },
+    "sub": {
+      "win": 2,
+      "loss": 9
+    }
+  },
+  "fights": [
+    {
+      "id": 717,
+      "date": "2023-05-20T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1684623600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs. Hill",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 305,
+          "name": "Michael Johnson",
+          "logo": "https://media.api-sports.io/mma/fighters/305.png",
+          "winner": false
+        },
+        "second": {
+          "id": 207,
+          "name": "Diego Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/207.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1148,
+      "date": "2024-02-10T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1707580800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hermansson vs. Pyfer",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2544,
+          "name": "Darrius Flowers",
+          "logo": "https://media.api-sports.io/mma/fighters/2544.png",
+          "winner": false
+        },
+        "second": {
+          "id": 305,
+          "name": "Michael Johnson",
+          "logo": "https://media.api-sports.io/mma/fighters/305.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1375,
+      "date": "2024-05-11T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1715439600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Nascimento",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 322,
+          "name": "Matt Frevola",
+          "logo": "https://media.api-sports.io/mma/fighters/322.png",
+          "winner": false
+        },
+        "second": {
+          "id": 305,
+          "name": "Michael Johnson",
+          "logo": "https://media.api-sports.io/mma/fighters/305.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1742,
+      "date": "2024-12-14T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1734192000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Covington vs. Buckley",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 596,
+          "name": "Ottman Azaitar",
+          "logo": "https://media.api-sports.io/mma/fighters/596.png",
+          "winner": false
+        },
+        "second": {
+          "id": 305,
+          "name": "Michael Johnson",
+          "logo": "https://media.api-sports.io/mma/fighters/305.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2176,
+      "date": "2025-07-20T02:15:00+00:00",
+      "time": "02:15",
+      "timestamp": 1752977700,
+      "timezone": "UTC",
+      "slug": "UFC 318: Holloway vs. Poirier 3",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2429,
+          "name": "Daniel Zellhuber",
+          "logo": "https://media.api-sports.io/mma/fighters/2429.png",
+          "winner": false
+        },
+        "second": {
+          "id": 305,
+          "name": "Michael Johnson",
+          "logo": "https://media.api-sports.io/mma/fighters/305.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2169,
+      "date": "2025-08-16T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1755352800,
+      "timezone": "UTC",
+      "slug": "UFC 319: Du Plessis vs. Chimaev",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2429,
+          "name": "Daniel Zellhuber",
+          "logo": "https://media.api-sports.io/mma/fighters/2429.png",
+          "winner": false
+        },
+        "second": {
+          "id": 305,
+          "name": "Michael Johnson",
+          "logo": "https://media.api-sports.io/mma/fighters/305.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:50.331Z"
+}

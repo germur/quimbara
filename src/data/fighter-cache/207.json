@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 207,
+    "name": "Diego Ferreira",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/207.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "156 lbs",
+    "reach": "74'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 2,
+      "name": "Fortis MMA"
+    },
+    "last_update": "2025-09-20T12:12:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 207,
+      "name": "Diego Ferreira",
+      "photo": "https://media.api-sports.io/mma/fighters/207.png"
+    },
+    "total": {
+      "win": 19,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 4
+    },
+    "sub": {
+      "win": 7,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 717,
+      "date": "2023-05-20T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1684623600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs. Hill",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 305,
+          "name": "Michael Johnson",
+          "logo": "https://media.api-sports.io/mma/fighters/305.png",
+          "winner": false
+        },
+        "second": {
+          "id": 207,
+          "name": "Diego Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/207.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1424,
+      "date": "2024-05-11T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1715439600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Nascimento",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2582,
+          "name": "Mateusz Rebecki",
+          "logo": "https://media.api-sports.io/mma/fighters/2582.png",
+          "winner": false
+        },
+        "second": {
+          "id": 207,
+          "name": "Diego Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/207.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1381,
+      "date": "2024-05-11T23:05:00+00:00",
+      "time": "23:05",
+      "timestamp": 1715468700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Nascimento",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2582,
+          "name": "Mateusz Rebecki",
+          "logo": "https://media.api-sports.io/mma/fighters/2582.png",
+          "winner": false
+        },
+        "second": {
+          "id": 207,
+          "name": "Diego Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/207.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1772,
+      "date": "2025-01-19T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1737248400,
+      "timezone": "UTC",
+      "slug": "UFC 311: Makhachev vs. Moicano",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 207,
+          "name": "Diego Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/207.png",
+          "winner": false
+        },
+        "second": {
+          "id": 215,
+          "name": "Grant Dawson",
+          "logo": "https://media.api-sports.io/mma/fighters/215.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2088,
+      "date": "2025-08-16T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1755381600,
+      "timezone": "UTC",
+      "slug": "UFC 319: Du Plessis vs. Chimaev",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 207,
+          "name": "Diego Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/207.png",
+          "winner": false
+        },
+        "second": {
+          "id": 670,
+          "name": "King Green",
+          "logo": "https://media.api-sports.io/mma/fighters/670.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2306,
+      "date": "2025-09-13T22:45:00+00:00",
+      "time": "22:45",
+      "timestamp": 1757803500,
+      "timezone": "UTC",
+      "slug": "Noche UFC: Lopes vs. Silva",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 207,
+          "name": "Diego Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/207.png",
+          "winner": false
+        },
+        "second": {
+          "id": 17,
+          "name": "Alexander Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/17.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:50.976Z"
+}

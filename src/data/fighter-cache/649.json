@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 649,
+    "name": "Giga Chikadze",
+    "nickname": "Ninja",
+    "photo": "https://media.api-sports.io/mma/fighters/649.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "146 lbs",
+    "reach": "74'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 90,
+      "name": "Kings MMA"
+    },
+    "last_update": "2025-06-04T18:35:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 649,
+      "name": "Giga Chikadze",
+      "photo": "https://media.api-sports.io/mma/fighters/649.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 0
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 881,
+      "date": "2023-08-26T12:15:00+00:00",
+      "time": "12:15",
+      "timestamp": 1693052100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. The Korean Zombie",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 97,
+          "name": "Alex Caceres",
+          "logo": "https://media.api-sports.io/mma/fighters/97.png",
+          "winner": false
+        },
+        "second": {
+          "id": 649,
+          "name": "Giga Chikadze",
+          "logo": "https://media.api-sports.io/mma/fighters/649.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1046,
+      "date": "2023-12-17T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1702780200,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 649,
+          "name": "Giga Chikadze",
+          "logo": "https://media.api-sports.io/mma/fighters/649.png",
+          "winner": false
+        },
+        "second": {
+          "id": 306,
+          "name": "Josh Emmett",
+          "logo": "https://media.api-sports.io/mma/fighters/306.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1439,
+      "date": "2024-07-27T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1722103200,
+      "timezone": "UTC",
+      "slug": "UFC 304: Edwards vs. Muhammad 2",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 649,
+          "name": "Giga Chikadze",
+          "logo": "https://media.api-sports.io/mma/fighters/649.png",
+          "winner": false
+        },
+        "second": {
+          "id": 225,
+          "name": "Arnold Allen",
+          "logo": "https://media.api-sports.io/mma/fighters/225.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1966,
+      "date": "2025-04-27T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1745721000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Machado Garry vs. Prates",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2478,
+          "name": "David Onama",
+          "logo": "https://media.api-sports.io/mma/fighters/2478.png",
+          "winner": true
+        },
+        "second": {
+          "id": 649,
+          "name": "Giga Chikadze",
+          "logo": "https://media.api-sports.io/mma/fighters/649.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2394,
+      "date": "2025-12-13T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1765652400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Kape",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 2773,
+          "name": "Kevin Vallejos",
+          "logo": "https://media.api-sports.io/mma/fighters/2773.png",
+          "winner": false
+        },
+        "second": {
+          "id": 649,
+          "name": "Giga Chikadze",
+          "logo": "https://media.api-sports.io/mma/fighters/649.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:55:12.957Z"
+}

@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 668,
+    "name": "Davey Grant",
+    "nickname": "Dangerous",
+    "photo": "https://media.api-sports.io/mma/fighters/668.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "136 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 297,
+      "name": "SBG Bishop Auckland"
+    },
+    "last_update": "2025-10-25T12:06:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 668,
+      "name": "Davey Grant",
+      "photo": "https://media.api-sports.io/mma/fighters/668.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 0
+    },
+    "sub": {
+      "win": 9,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 598,
+      "date": "2023-03-11T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1678564800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Dvalishvili",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 668,
+          "name": "Davey Grant",
+          "logo": "https://media.api-sports.io/mma/fighters/668.png",
+          "winner": true
+        },
+        "second": {
+          "id": 41,
+          "name": "Raphael Assuncao",
+          "logo": "https://media.api-sports.io/mma/fighters/41.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 819,
+      "date": "2023-07-22T18:40:00+00:00",
+      "time": "18:40",
+      "timestamp": 1690051200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Aspinall vs. Tybura",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2543,
+          "name": "Daniel Marcos",
+          "logo": "https://media.api-sports.io/mma/fighters/2543.png",
+          "winner": true
+        },
+        "second": {
+          "id": 668,
+          "name": "Davey Grant",
+          "logo": "https://media.api-sports.io/mma/fighters/668.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1255,
+      "date": "2024-03-24T01:20:00+00:00",
+      "time": "01:20",
+      "timestamp": 1711243200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ribas vs. Namajunas",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2026,
+          "name": "Cody Gibson",
+          "logo": "https://media.api-sports.io/mma/fighters/2026.png",
+          "winner": false
+        },
+        "second": {
+          "id": 668,
+          "name": "Davey Grant",
+          "logo": "https://media.api-sports.io/mma/fighters/668.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1750,
+      "date": "2024-12-14T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1734192000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Covington vs. Buckley",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2660,
+          "name": "Ramon Taveras",
+          "logo": "https://media.api-sports.io/mma/fighters/2660.png",
+          "winner": false
+        },
+        "second": {
+          "id": 668,
+          "name": "Davey Grant",
+          "logo": "https://media.api-sports.io/mma/fighters/668.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1971,
+      "date": "2025-04-05T23:40:00+00:00",
+      "time": "23:40",
+      "timestamp": 1743896400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Murphy",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2457,
+          "name": "Daniel Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/2457.png",
+          "winner": false
+        },
+        "second": {
+          "id": 668,
+          "name": "Davey Grant",
+          "logo": "https://media.api-sports.io/mma/fighters/668.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2184,
+      "date": "2025-07-26T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1753516800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. de Ridder",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2475,
+          "name": "Da'Mon Blackshear",
+          "logo": "https://media.api-sports.io/mma/fighters/2475.png",
+          "winner": false
+        },
+        "second": {
+          "id": 668,
+          "name": "Davey Grant",
+          "logo": "https://media.api-sports.io/mma/fighters/668.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2289,
+      "date": "2025-10-18T23:45:00+00:00",
+      "time": "23:45",
+      "timestamp": 1760831100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: de Ridder vs. Allen",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 668,
+          "name": "Davey Grant",
+          "logo": "https://media.api-sports.io/mma/fighters/668.png",
+          "winner": false
+        },
+        "second": {
+          "id": 425,
+          "name": "Charles Jourdain",
+          "logo": "https://media.api-sports.io/mma/fighters/425.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:01.777Z"
+}

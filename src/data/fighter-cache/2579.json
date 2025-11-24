@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 2579,
+    "name": "Manolo Zecchini",
+    "nickname": "Angelo Veneziano",
+    "photo": "https://media.api-sports.io/mma/fighters/2579.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "146 lbs",
+    "reach": "68'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 55,
+      "name": "Jackson-Wink MMA"
+    },
+    "last_update": "2025-06-05T10:40:13+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2579,
+      "name": "Manolo Zecchini",
+      "photo": "https://media.api-sports.io/mma/fighters/2579.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 2
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 894,
+      "date": "2023-09-02T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1693681200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2579,
+          "name": "Manolo Zecchini",
+          "logo": "https://media.api-sports.io/mma/fighters/2579.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2585,
+          "name": "Morgan CharriÃ¨re",
+          "logo": "https://media.api-sports.io/mma/fighters/2585.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:55:47.846Z"
+}

@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 2605,
+    "name": "Trey Waters",
+    "nickname": "The Truth",
+    "photo": "https://media.api-sports.io/mma/fighters/2605.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 5'",
+    "weight": "170 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 648,
+      "name": "Elevate MMA"
+    },
+    "last_update": "2025-09-13T12:04:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2605,
+      "name": "Trey Waters",
+      "photo": "https://media.api-sports.io/mma/fighters/2605.png"
+    },
+    "total": {
+      "win": 9,
+      "loss": 1,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 0
+    },
+    "sub": {
+      "win": 3,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 682,
+      "date": "2023-04-29T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1682809200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Simon",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2605,
+          "name": "Trey Waters",
+          "logo": "https://media.api-sports.io/mma/fighters/2605.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2375,
+          "name": "Josh Quinlan",
+          "logo": "https://media.api-sports.io/mma/fighters/2375.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1367,
+      "date": "2024-05-11T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1715428800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Nascimento",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2605,
+          "name": "Trey Waters",
+          "logo": "https://media.api-sports.io/mma/fighters/2605.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2530,
+          "name": "Billy Ray Goff",
+          "logo": "https://media.api-sports.io/mma/fighters/2530.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2217,
+      "date": "2025-09-06T17:15:00+00:00",
+      "time": "17:15",
+      "timestamp": 1757178900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Imavov vs. Borralho",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2605,
+          "name": "Trey Waters",
+          "logo": "https://media.api-sports.io/mma/fighters/2605.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2594,
+          "name": "Sam Patterson",
+          "logo": "https://media.api-sports.io/mma/fighters/2594.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:16.561Z"
+}

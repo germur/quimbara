@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 223,
+    "name": "Tim Means",
+    "nickname": "The Dirty Bird",
+    "photo": "https://media.api-sports.io/mma/fighters/223.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "171 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 123,
+      "name": "Fit NHB"
+    },
+    "last_update": "2025-06-04T15:02:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 223,
+      "name": "Tim Means",
+      "photo": "https://media.api-sports.io/mma/fighters/223.png"
+    },
+    "total": {
+      "win": 33,
+      "loss": 17,
+      "draw": 1
+    },
+    "ko": {
+      "win": 20,
+      "loss": 3
+    },
+    "sub": {
+      "win": 5,
+      "loss": 8
+    }
+  },
+  "fights": [
+    {
+      "id": 705,
+      "date": "2023-05-13T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1684004400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Almeida",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 219,
+          "name": "Alex Morono",
+          "logo": "https://media.api-sports.io/mma/fighters/219.png",
+          "winner": true
+        },
+        "second": {
+          "id": 223,
+          "name": "Tim Means",
+          "logo": "https://media.api-sports.io/mma/fighters/223.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 937,
+      "date": "2023-09-23T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1695506400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Fiziev vs. Gamrot",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2463,
+          "name": "Andre Fialho",
+          "logo": "https://media.api-sports.io/mma/fighters/2463.png",
+          "winner": false
+        },
+        "second": {
+          "id": 223,
+          "name": "Tim Means",
+          "logo": "https://media.api-sports.io/mma/fighters/223.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1346,
+      "date": "2024-04-27T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1714230000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Nicolau vs. Perez",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 755,
+          "name": "Uros Medic",
+          "logo": "https://media.api-sports.io/mma/fighters/755.png",
+          "winner": true
+        },
+        "second": {
+          "id": 223,
+          "name": "Tim Means",
+          "logo": "https://media.api-sports.io/mma/fighters/223.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1678,
+      "date": "2024-10-05T14:30:00+00:00",
+      "time": "14:30",
+      "timestamp": 1728138600,
+      "timezone": "UTC",
+      "slug": "UFC 307: Pereira vs. Rountree Jr.",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 223,
+          "name": "Tim Means",
+          "logo": "https://media.api-sports.io/mma/fighters/223.png",
+          "winner": false
+        },
+        "second": {
+          "id": 272,
+          "name": "Court McGee",
+          "logo": "https://media.api-sports.io/mma/fighters/272.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:12.419Z"
+}

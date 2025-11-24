@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 258,
+    "name": "Eryk Anders",
+    "nickname": "Ya Boi",
+    "photo": "https://media.api-sports.io/mma/fighters/258.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "193 lbs",
+    "reach": "75'",
+    "stance": "Southpaw",
+    "category": "Middleweight",
+    "team": {
+      "id": 1,
+      "name": "MMA LAB"
+    },
+    "last_update": "2025-08-16T12:05:06+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 258,
+      "name": "Eryk Anders",
+      "photo": "https://media.api-sports.io/mma/fighters/258.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 10,
+      "loss": 1
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 741,
+      "date": "2023-06-11T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1686448800,
+      "timezone": "UTC",
+      "slug": "UFC 289: Nunes vs. Aldana",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 258,
+          "name": "Eryk Anders",
+          "logo": "https://media.api-sports.io/mma/fighters/258.png",
+          "winner": false
+        },
+        "second": {
+          "id": 293,
+          "name": "Marc-Andre Barriault",
+          "logo": "https://media.api-sports.io/mma/fighters/293.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1281,
+      "date": "2024-03-02T10:30:00+00:00",
+      "time": "10:30",
+      "timestamp": 1709375400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Gaziev",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 442,
+          "name": "Jamie Pickett",
+          "logo": "https://media.api-sports.io/mma/fighters/442.png",
+          "winner": false
+        },
+        "second": {
+          "id": 258,
+          "name": "Eryk Anders",
+          "logo": "https://media.api-sports.io/mma/fighters/258.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1623,
+      "date": "2024-11-16T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1731776400,
+      "timezone": "UTC",
+      "slug": "UFC 309: Jones vs. Miocic",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 258,
+          "name": "Eryk Anders",
+          "logo": "https://media.api-sports.io/mma/fighters/258.png",
+          "winner": false
+        },
+        "second": {
+          "id": 665,
+          "name": "Chris Weidman",
+          "logo": "https://media.api-sports.io/mma/fighters/665.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1759,
+      "date": "2024-12-07T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1733583600,
+      "timezone": "UTC",
+      "slug": "UFC 310: Pantoja vs. Asakura",
+      "is_main": false,
+      "category": "Catch Weight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 258,
+          "name": "Eryk Anders",
+          "logo": "https://media.api-sports.io/mma/fighters/258.png",
+          "winner": true
+        },
+        "second": {
+          "id": 665,
+          "name": "Chris Weidman",
+          "logo": "https://media.api-sports.io/mma/fighters/665.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2203,
+      "date": "2025-08-09T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1754780400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dolidze vs. Hernandez",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2540,
+          "name": "Christian Leroy Duncan",
+          "logo": "https://media.api-sports.io/mma/fighters/2540.png",
+          "winner": true
+        },
+        "second": {
+          "id": 258,
+          "name": "Eryk Anders",
+          "logo": "https://media.api-sports.io/mma/fighters/258.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:49:37.053Z"
+}

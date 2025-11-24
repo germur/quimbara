@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 797,
+    "name": "Rafael Alves",
+    "nickname": "The Turn",
+    "photo": "https://media.api-sports.io/mma/fighters/797.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "155 lbs",
+    "reach": "68'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 98,
+      "name": "MMA Masters"
+    },
+    "last_update": "2025-06-04T19:49:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 797,
+      "name": "Rafael Alves",
+      "photo": "https://media.api-sports.io/mma/fighters/797.png"
+    },
+    "total": {
+      "win": 20,
+      "loss": 12,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 4
+    },
+    "sub": {
+      "win": 8,
+      "loss": 6
+    }
+  },
+  "fights": [
+    {
+      "id": 578,
+      "date": "2023-02-25T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1677366000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Muniz vs. Allen",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2591,
+          "name": "Nurullo Aliev",
+          "logo": "https://media.api-sports.io/mma/fighters/2591.png",
+          "winner": true
+        },
+        "second": {
+          "id": 797,
+          "name": "Rafael Alves",
+          "logo": "https://media.api-sports.io/mma/fighters/797.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:10.388Z"
+}

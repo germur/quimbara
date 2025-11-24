@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 392,
+    "name": "Takashi Sato",
+    "nickname": "Ten",
+    "photo": "https://media.api-sports.io/mma/fighters/392.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "170 lbs",
+    "reach": "73'",
+    "stance": "Southpaw",
+    "category": "Welterweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-06-04T16:26:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 392,
+      "name": "Takashi Sato",
+      "photo": "https://media.api-sports.io/mma/fighters/392.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 2
+    },
+    "sub": {
+      "win": 2,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 712,
+      "date": "2023-05-20T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1684612800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs. Hill",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2602,
+          "name": "Themba Gorimbo",
+          "logo": "https://media.api-sports.io/mma/fighters/2602.png",
+          "winner": true
+        },
+        "second": {
+          "id": 392,
+          "name": "Takashi Sato",
+          "logo": "https://media.api-sports.io/mma/fighters/392.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:09.676Z"
+}

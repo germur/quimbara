@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 647,
+    "name": "TJ Brown",
+    "nickname": "Downtown",
+    "photo": "https://media.api-sports.io/mma/fighters/647.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "146 lbs",
+    "reach": "72'",
+    "stance": "Switch",
+    "category": "Featherweight",
+    "team": {
+      "id": 284,
+      "name": "Westside Fight"
+    },
+    "last_update": "2025-06-04T18:34:06+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 647,
+      "name": "TJ Brown",
+      "photo": "https://media.api-sports.io/mma/fighters/647.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 11,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 3
+    },
+    "sub": {
+      "win": 10,
+      "loss": 5
+    }
+  },
+  "fights": [
+    {
+      "id": 647,
+      "date": "2023-04-16T00:20:00+00:00",
+      "time": "00:20",
+      "timestamp": 1681604400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. Allen",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 647,
+          "name": "TJ Brown",
+          "logo": "https://media.api-sports.io/mma/fighters/647.png",
+          "winner": false
+        },
+        "second": {
+          "id": 447,
+          "name": "Bill Algeo",
+          "logo": "https://media.api-sports.io/mma/fighters/447.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 997,
+      "date": "2023-10-14T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1697322600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yusuff vs. Barboza",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 647,
+          "name": "TJ Brown",
+          "logo": "https://media.api-sports.io/mma/fighters/647.png",
+          "winner": false
+        },
+        "second": {
+          "id": 495,
+          "name": "Darren Elkins",
+          "logo": "https://media.api-sports.io/mma/fighters/495.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:15.827Z"
+}

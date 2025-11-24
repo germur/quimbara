@@ -1,0 +1,324 @@
+{
+  "profile": {
+    "id": 2557,
+    "name": "Ikram Aliskerov",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2557.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "185 lbs",
+    "reach": "76'",
+    "stance": "Southpaw",
+    "category": "Middleweight",
+    "team": {
+      "id": 679,
+      "name": "KHK MMA"
+    },
+    "last_update": "2025-11-01T12:06:12+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2557,
+      "name": "Ikram Aliskerov",
+      "photo": "https://media.api-sports.io/mma/fighters/2557.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 2
+    },
+    "sub": {
+      "win": 5,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 684,
+      "date": "2023-05-06T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1683414000,
+      "timezone": "UTC",
+      "slug": "UFC 288: Sterling vs. Cejudo",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2557,
+          "name": "Ikram Aliskerov",
+          "logo": "https://media.api-sports.io/mma/fighters/2557.png",
+          "winner": true
+        },
+        "second": {
+          "id": 826,
+          "name": "Phil Hawes",
+          "logo": "https://media.api-sports.io/mma/fighters/826.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 921,
+      "date": "2023-10-21T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1697914800,
+      "timezone": "UTC",
+      "slug": "UFC 294: Makhachev vs. Volkanovski 2",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 398,
+          "name": "Warlley Alves",
+          "logo": "https://media.api-sports.io/mma/fighters/398.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2557,
+          "name": "Ikram Aliskerov",
+          "logo": "https://media.api-sports.io/mma/fighters/2557.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1157,
+      "date": "2024-02-18T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1708225200,
+      "timezone": "UTC",
+      "slug": "UFC 298: Volkanovski vs. Topuria",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2557,
+          "name": "Ikram Aliskerov",
+          "logo": "https://media.api-sports.io/mma/fighters/2557.png",
+          "winner": false
+        },
+        "second": {
+          "id": 28,
+          "name": "Anthony Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/28.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1446,
+      "date": "2024-06-15T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1718492400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Perez vs. Taira",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2557,
+          "name": "Ikram Aliskerov",
+          "logo": "https://media.api-sports.io/mma/fighters/2557.png",
+          "winner": false
+        },
+        "second": {
+          "id": 614,
+          "name": "Andre Muniz",
+          "logo": "https://media.api-sports.io/mma/fighters/614.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1491,
+      "date": "2024-06-16T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1718499600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Perez vs. Taira",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 483,
+          "name": "Antonio Trocoli",
+          "logo": "https://media.api-sports.io/mma/fighters/483.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2557,
+          "name": "Ikram Aliskerov",
+          "logo": "https://media.api-sports.io/mma/fighters/2557.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1492,
+      "date": "2024-06-22T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1719054000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2557,
+          "name": "Ikram Aliskerov",
+          "logo": "https://media.api-sports.io/mma/fighters/2557.png",
+          "winner": false
+        },
+        "second": {
+          "id": 67,
+          "name": "Robert Whittaker",
+          "logo": "https://media.api-sports.io/mma/fighters/67.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1831,
+      "date": "2025-02-01T09:00:00+00:00",
+      "time": "09:00",
+      "timestamp": 1738400400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Adesanya vs. Imavov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 614,
+          "name": "Andre Muniz",
+          "logo": "https://media.api-sports.io/mma/fighters/614.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2557,
+          "name": "Ikram Aliskerov",
+          "logo": "https://media.api-sports.io/mma/fighters/2557.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1968,
+      "date": "2025-04-27T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1745715600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Machado Garry vs. Prates",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 614,
+          "name": "Andre Muniz",
+          "logo": "https://media.api-sports.io/mma/fighters/614.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2557,
+          "name": "Ikram Aliskerov",
+          "logo": "https://media.api-sports.io/mma/fighters/2557.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2100,
+      "date": "2025-07-19T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1752940800,
+      "timezone": "UTC",
+      "slug": "UFC 318: Holloway vs Poirier 3",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2535,
+          "name": "Brunno Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/2535.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2557,
+          "name": "Ikram Aliskerov",
+          "logo": "https://media.api-sports.io/mma/fighters/2557.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2244,
+      "date": "2025-10-25T17:10:00+00:00",
+      "time": "17:10",
+      "timestamp": 1761412200,
+      "timezone": "UTC",
+      "slug": "UFC 321: Aspinall vs. Gane",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 579,
+          "name": "JunYong Park",
+          "logo": "https://media.api-sports.io/mma/fighters/579.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2557,
+          "name": "Ikram Aliskerov",
+          "logo": "https://media.api-sports.io/mma/fighters/2557.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:49:42.562Z"
+}

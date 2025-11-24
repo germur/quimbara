@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 306,
+    "name": "Josh Emmett",
+    "nickname": "CC0",
+    "photo": "https://media.api-sports.io/mma/fighters/306.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "146 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 23,
+      "name": "Alpha Male"
+    },
+    "last_update": "2025-10-12T00:02:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 306,
+      "name": "Josh Emmett",
+      "photo": "https://media.api-sports.io/mma/fighters/306.png"
+    },
+    "total": {
+      "win": 19,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 558,
+      "date": "2023-02-12T04:30:00+00:00",
+      "time": "04:30",
+      "timestamp": 1676176200,
+      "timezone": "UTC",
+      "slug": "UFC 284: Makhachev vs. Volkanovski",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 306,
+          "name": "Josh Emmett",
+          "logo": "https://media.api-sports.io/mma/fighters/306.png",
+          "winner": false
+        },
+        "second": {
+          "id": 602,
+          "name": "Yair Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/602.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 762,
+      "date": "2023-06-24T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1687640400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Topuria",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 855,
+          "name": "Ilia Topuria",
+          "logo": "https://media.api-sports.io/mma/fighters/855.png",
+          "winner": true
+        },
+        "second": {
+          "id": 306,
+          "name": "Josh Emmett",
+          "logo": "https://media.api-sports.io/mma/fighters/306.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1046,
+      "date": "2023-12-17T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1702780200,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 649,
+          "name": "Giga Chikadze",
+          "logo": "https://media.api-sports.io/mma/fighters/649.png",
+          "winner": false
+        },
+        "second": {
+          "id": 306,
+          "name": "Josh Emmett",
+          "logo": "https://media.api-sports.io/mma/fighters/306.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1094,
+      "date": "2023-12-17T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1702782000,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 296,
+          "name": "Bryce Mitchell",
+          "logo": "https://media.api-sports.io/mma/fighters/296.png",
+          "winner": false
+        },
+        "second": {
+          "id": 306,
+          "name": "Josh Emmett",
+          "logo": "https://media.api-sports.io/mma/fighters/306.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1929,
+      "date": "2025-04-06T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1743910200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Murphy",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 593,
+          "name": "Lerone Murphy",
+          "logo": "https://media.api-sports.io/mma/fighters/593.png",
+          "winner": true
+        },
+        "second": {
+          "id": 306,
+          "name": "Josh Emmett",
+          "logo": "https://media.api-sports.io/mma/fighters/306.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2284,
+      "date": "2025-10-05T02:45:00+00:00",
+      "time": "02:45",
+      "timestamp": 1759632300,
+      "timezone": "UTC",
+      "slug": "UFC 320: Ankalaev vs. Pereira 2",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 702,
+          "name": "Youssef Zalal",
+          "logo": "https://media.api-sports.io/mma/fighters/702.png",
+          "winner": true
+        },
+        "second": {
+          "id": 306,
+          "name": "Josh Emmett",
+          "logo": "https://media.api-sports.io/mma/fighters/306.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:55:33.984Z"
+}

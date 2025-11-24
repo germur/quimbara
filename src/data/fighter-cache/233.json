@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 233,
+    "name": "Marc Diakiese",
+    "nickname": "Bonecrusher",
+    "photo": "https://media.api-sports.io/mma/fighters/233.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "155 lbs",
+    "reach": "73'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 126,
+      "name": "Great Britain Top"
+    },
+    "last_update": "2025-06-04T15:07:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 233,
+      "name": "Marc Diakiese",
+      "photo": "https://media.api-sports.io/mma/fighters/233.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 0
+    },
+    "sub": {
+      "win": 1,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 806,
+      "date": "2023-07-22T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1690048800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Aspinall vs. Tybura",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 209,
+          "name": "Joel Alvarez",
+          "logo": "https://media.api-sports.io/mma/fighters/209.png",
+          "winner": true
+        },
+        "second": {
+          "id": 233,
+          "name": "Marc Diakiese",
+          "logo": "https://media.api-sports.io/mma/fighters/233.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1023,
+      "date": "2023-11-04T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1699135200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Almeida vs. Lewis",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 233,
+          "name": "Marc Diakiese",
+          "logo": "https://media.api-sports.io/mma/fighters/233.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2632,
+          "name": "KauÃª Fernandes",
+          "logo": "https://media.api-sports.io/mma/fighters/2632.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:43.325Z"
+}

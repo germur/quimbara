@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 467,
+    "name": "Miles Johns",
+    "nickname": "Chapo",
+    "photo": "https://media.api-sports.io/mma/fighters/467.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "135 lbs",
+    "reach": "66'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 218,
+      "name": "Marathon MMA"
+    },
+    "last_update": "2025-11-15T12:03:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 467,
+      "name": "Miles Johns",
+      "photo": "https://media.api-sports.io/mma/fighters/467.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 915,
+      "date": "2023-09-23T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1695508200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Fiziev vs. Gamrot",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 467,
+          "name": "Miles Johns",
+          "logo": "https://media.api-sports.io/mma/fighters/467.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2476,
+          "name": "Dan Argueta",
+          "logo": "https://media.api-sports.io/mma/fighters/2476.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1317,
+      "date": "2024-03-23T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1711206000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ribas vs. Namajunas",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2026,
+          "name": "Cody Gibson",
+          "logo": "https://media.api-sports.io/mma/fighters/2026.png",
+          "winner": false
+        },
+        "second": {
+          "id": 467,
+          "name": "Miles Johns",
+          "logo": "https://media.api-sports.io/mma/fighters/467.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1442,
+      "date": "2024-06-15T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1718474400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Perez vs. Taira",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 467,
+          "name": "Miles Johns",
+          "logo": "https://media.api-sports.io/mma/fighters/467.png",
+          "winner": true
+        },
+        "second": {
+          "id": 901,
+          "name": "Douglas Silva de Andrade",
+          "logo": "https://media.api-sports.io/mma/fighters/901.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1703,
+      "date": "2024-11-09T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1731168000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Magny vs. Prates",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 467,
+          "name": "Miles Johns",
+          "logo": "https://media.api-sports.io/mma/fighters/467.png",
+          "winner": false
+        },
+        "second": {
+          "id": 133,
+          "name": "Cody Garbrandt",
+          "logo": "https://media.api-sports.io/mma/fighters/133.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1761,
+      "date": "2024-12-14T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1734192000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Covington vs. Buckley",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2705,
+          "name": "Felipe Lima",
+          "logo": "https://media.api-sports.io/mma/fighters/2705.png",
+          "winner": true
+        },
+        "second": {
+          "id": 467,
+          "name": "Miles Johns",
+          "logo": "https://media.api-sports.io/mma/fighters/467.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2167,
+      "date": "2025-08-09T23:45:00+00:00",
+      "time": "23:45",
+      "timestamp": 1754783100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dolidze vs. Hernandez",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2685,
+          "name": "Jean Matsumoto",
+          "logo": "https://media.api-sports.io/mma/fighters/2685.png",
+          "winner": true
+        },
+        "second": {
+          "id": 467,
+          "name": "Miles Johns",
+          "logo": "https://media.api-sports.io/mma/fighters/467.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2366,
+      "date": "2025-11-08T21:35:00+00:00",
+      "time": "21:35",
+      "timestamp": 1762637700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Bonfim vs. Brown",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2543,
+          "name": "Daniel Marcos",
+          "logo": "https://media.api-sports.io/mma/fighters/2543.png",
+          "winner": true
+        },
+        "second": {
+          "id": 467,
+          "name": "Miles Johns",
+          "logo": "https://media.api-sports.io/mma/fighters/467.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:55:53.403Z"
+}

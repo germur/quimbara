@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 126,
+    "name": "Song Yadong",
+    "nickname": "Kung Fu Kid",
+    "photo": "https://media.api-sports.io/mma/fighters/126.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "136 lbs",
+    "reach": "67'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 23,
+      "name": "Alpha Male"
+    },
+    "last_update": "2025-06-04T14:13:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 126,
+      "name": "Song Yadong",
+      "photo": "https://media.api-sports.io/mma/fighters/126.png"
+    },
+    "total": {
+      "win": 22,
+      "loss": 8,
+      "draw": 1
+    },
+    "ko": {
+      "win": 9,
+      "loss": 2
+    },
+    "sub": {
+      "win": 3,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 677,
+      "date": "2023-04-30T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1682818200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Simon",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 72,
+          "name": "Ricky Simon",
+          "logo": "https://media.api-sports.io/mma/fighters/72.png",
+          "winner": false
+        },
+        "second": {
+          "id": 126,
+          "name": "Song Yadong",
+          "logo": "https://media.api-sports.io/mma/fighters/126.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1071,
+      "date": "2023-12-10T05:00:00+00:00",
+      "time": "05:00",
+      "timestamp": 1702184400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 299,
+          "name": "Chris Gutierrez",
+          "logo": "https://media.api-sports.io/mma/fighters/299.png",
+          "winner": false
+        },
+        "second": {
+          "id": 126,
+          "name": "Song Yadong",
+          "logo": "https://media.api-sports.io/mma/fighters/126.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1171,
+      "date": "2024-03-09T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1710010800,
+      "timezone": "UTC",
+      "slug": "UFC 299: O'Malley vs. Vera 2",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 126,
+          "name": "Song Yadong",
+          "logo": "https://media.api-sports.io/mma/fighters/126.png",
+          "winner": false
+        },
+        "second": {
+          "id": 118,
+          "name": "Petr Yan",
+          "logo": "https://media.api-sports.io/mma/fighters/118.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1796,
+      "date": "2025-02-23T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1740283200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cejudo vs. Song",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 126,
+          "name": "Song Yadong",
+          "logo": "https://media.api-sports.io/mma/fighters/126.png",
+          "winner": true
+        },
+        "second": {
+          "id": 21,
+          "name": "Henry Cejudo",
+          "logo": "https://media.api-sports.io/mma/fighters/21.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:58.867Z"
+}

@@ -1,0 +1,296 @@
+{
+  "profile": {
+    "id": 2475,
+    "name": "Da&#x27;Mon Blackshear",
+    "nickname": "The Monster",
+    "photo": "https://media.api-sports.io/mma/fighters/2475.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "136 lbs",
+    "reach": "72'",
+    "stance": "Switch",
+    "category": "Bantamweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-06-05T09:48:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2475,
+      "name": "Da&#x27;Mon Blackshear",
+      "photo": "https://media.api-sports.io/mma/fighters/2475.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 7,
+      "draw": 1
+    },
+    "ko": {
+      "win": 2,
+      "loss": 1
+    },
+    "sub": {
+      "win": 11,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 586,
+      "date": "2023-03-04T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1677970800,
+      "timezone": "UTC",
+      "slug": "UFC 285: Jones vs. Gane",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2548,
+          "name": "Farid Basharat",
+          "logo": "https://media.api-sports.io/mma/fighters/2548.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2475,
+          "name": "Da'Mon Blackshear",
+          "logo": "https://media.api-sports.io/mma/fighters/2475.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 723,
+      "date": "2023-06-03T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1685800800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kara-France vs. Albazi",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2577,
+          "name": "Luan Lacerda",
+          "logo": "https://media.api-sports.io/mma/fighters/2577.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2475,
+          "name": "Da'Mon Blackshear",
+          "logo": "https://media.api-sports.io/mma/fighters/2475.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 851,
+      "date": "2023-08-12T20:25:00+00:00",
+      "time": "20:25",
+      "timestamp": 1691871900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Luque vs. Dos Anjos",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 817,
+          "name": "Jose Johnson",
+          "logo": "https://media.api-sports.io/mma/fighters/817.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2475,
+          "name": "Da'Mon Blackshear",
+          "logo": "https://media.api-sports.io/mma/fighters/2475.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 870,
+      "date": "2023-08-20T02:15:00+00:00",
+      "time": "02:15",
+      "timestamp": 1692497700,
+      "timezone": "UTC",
+      "slug": "UFC 292: Sterling vs. O'Malley",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 7,
+          "name": "Mario Bautista",
+          "logo": "https://media.api-sports.io/mma/fighters/7.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2475,
+          "name": "Da'Mon Blackshear",
+          "logo": "https://media.api-sports.io/mma/fighters/2475.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1510,
+      "date": "2024-07-13T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1720882800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Namajunas vs. Cortez",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2475,
+          "name": "Da'Mon Blackshear",
+          "logo": "https://media.api-sports.io/mma/fighters/2475.png",
+          "winner": false
+        },
+        "second": {
+          "id": 253,
+          "name": "Montel Jackson",
+          "logo": "https://media.api-sports.io/mma/fighters/253.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1723,
+      "date": "2024-11-09T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1731157200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Magny vs. Prates",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2475,
+          "name": "Da'Mon Blackshear",
+          "logo": "https://media.api-sports.io/mma/fighters/2475.png",
+          "winner": true
+        },
+        "second": {
+          "id": 246,
+          "name": "Cody Stamann",
+          "logo": "https://media.api-sports.io/mma/fighters/246.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1918,
+      "date": "2025-03-16T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1742083200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Dolidze 2",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2026,
+          "name": "Cody Gibson",
+          "logo": "https://media.api-sports.io/mma/fighters/2026.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2475,
+          "name": "Da'Mon Blackshear",
+          "logo": "https://media.api-sports.io/mma/fighters/2475.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2012,
+      "date": "2025-04-26T23:20:00+00:00",
+      "time": "23:20",
+      "timestamp": 1745709600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Machado Garry vs. Prates",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 584,
+          "name": "Alatengheili",
+          "logo": "https://media.api-sports.io/mma/fighters/584.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2475,
+          "name": "Da'Mon Blackshear",
+          "logo": "https://media.api-sports.io/mma/fighters/2475.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2184,
+      "date": "2025-07-26T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1753516800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. de Ridder",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2475,
+          "name": "Da'Mon Blackshear",
+          "logo": "https://media.api-sports.io/mma/fighters/2475.png",
+          "winner": false
+        },
+        "second": {
+          "id": 668,
+          "name": "Davey Grant",
+          "logo": "https://media.api-sports.io/mma/fighters/668.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:57.389Z"
+}

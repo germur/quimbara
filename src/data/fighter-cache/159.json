@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 159,
+    "name": "Elizeu Zaleski dos Santos",
+    "nickname": "Capoeira",
+    "photo": "https://media.api-sports.io/mma/fighters/159.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "171 lbs",
+    "reach": "73'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 95,
+      "name": "CM System"
+    },
+    "last_update": "2025-08-10T00:02:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 159,
+      "name": "Elizeu Zaleski dos Santos",
+      "photo": "https://media.api-sports.io/mma/fighters/159.png"
+    },
+    "total": {
+      "win": 25,
+      "loss": 10,
+      "draw": 1
+    },
+    "ko": {
+      "win": 15,
+      "loss": 3
+    },
+    "sub": {
+      "win": 3,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 730,
+      "date": "2023-06-04T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1685840400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kara-France vs. Albazi",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 159,
+          "name": "Elizeu Zaleski dos Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/159.png",
+          "winner": true
+        },
+        "second": {
+          "id": 683,
+          "name": "Abubakar Nurmagomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/683.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 945,
+      "date": "2023-11-05T00:05:00+00:00",
+      "time": "00:05",
+      "timestamp": 1699142700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Almeida vs. Lewis",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 159,
+          "name": "Elizeu Zaleski dos Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/159.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2513,
+          "name": "Rinat Fakhretdinov",
+          "logo": "https://media.api-sports.io/mma/fighters/2513.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1397,
+      "date": "2024-06-01T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1717264800,
+      "timezone": "UTC",
+      "slug": "UFC 302: Makhachev vs. Poirier",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 159,
+          "name": "Elizeu Zaleski dos Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/159.png",
+          "winner": false
+        },
+        "second": {
+          "id": 457,
+          "name": "Randy Brown",
+          "logo": "https://media.api-sports.io/mma/fighters/457.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1724,
+      "date": "2024-11-09T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1731157200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Magny vs. Prates",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 652,
+          "name": "Nicolas Dalby",
+          "logo": "https://media.api-sports.io/mma/fighters/652.png",
+          "winner": false
+        },
+        "second": {
+          "id": 159,
+          "name": "Elizeu Zaleski dos Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/159.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1748,
+      "date": "2024-11-09T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1731157200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Magny vs. Prates",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2743,
+          "name": "Zach Scroggin",
+          "logo": "https://media.api-sports.io/mma/fighters/2743.png",
+          "winner": false
+        },
+        "second": {
+          "id": 159,
+          "name": "Elizeu Zaleski dos Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/159.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1916,
+      "date": "2025-03-16T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1742086800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Dolidze 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 159,
+          "name": "Elizeu Zaleski dos Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/159.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2391,
+          "name": "Chidi Njokuani",
+          "logo": "https://media.api-sports.io/mma/fighters/2391.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2194,
+      "date": "2025-08-03T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1754184600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Taira vs. Park",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 159,
+          "name": "Elizeu Zaleski dos Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/159.png",
+          "winner": false
+        },
+        "second": {
+          "id": 405,
+          "name": "Neil Magny",
+          "logo": "https://media.api-sports.io/mma/fighters/405.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:58.915Z"
+}

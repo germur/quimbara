@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 2538,
+    "name": "Charles Radtke",
+    "nickname": "Chuck Buffalo",
+    "photo": "https://media.api-sports.io/mma/fighters/2538.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "171 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 180,
+      "name": "Valle Flow Striking"
+    },
+    "last_update": "2025-11-08T12:48:15+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2538,
+      "name": "Charles Radtke",
+      "photo": "https://media.api-sports.io/mma/fighters/2538.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 3
+    },
+    "sub": {
+      "win": 2,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 898,
+      "date": "2023-09-09T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1694302200,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2538,
+          "name": "Charlie Radtke",
+          "logo": "https://media.api-sports.io/mma/fighters/2538.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2467,
+          "name": "Blood Diamond",
+          "logo": "https://media.api-sports.io/mma/fighters/2467.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1134,
+      "date": "2024-02-03T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1706976000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dolidze vs. Imavov",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2538,
+          "name": "Charles Radtke",
+          "logo": "https://media.api-sports.io/mma/fighters/2538.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2404,
+          "name": "Gilbert Urbina",
+          "logo": "https://media.api-sports.io/mma/fighters/2404.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1412,
+      "date": "2024-06-08T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1717851600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Imavov",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2654,
+          "name": "Carlos Prates",
+          "logo": "https://media.api-sports.io/mma/fighters/2654.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2538,
+          "name": "Charles Radtke",
+          "logo": "https://media.api-sports.io/mma/fighters/2538.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1726,
+      "date": "2024-11-09T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1731157200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Magny vs. Prates",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2538,
+          "name": "Charles Radtke",
+          "logo": "https://media.api-sports.io/mma/fighters/2538.png",
+          "winner": true
+        },
+        "second": {
+          "id": 809,
+          "name": "Matthew Semelsberger",
+          "logo": "https://media.api-sports.io/mma/fighters/809.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1951,
+      "date": "2025-05-11T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1746927000,
+      "timezone": "UTC",
+      "slug": "UFC 315: Muhammad vs. Della Maddalena",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2538,
+          "name": "Charles Radtke",
+          "logo": "https://media.api-sports.io/mma/fighters/2538.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2438,
+          "name": "Mike Malott",
+          "logo": "https://media.api-sports.io/mma/fighters/2438.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2351,
+      "date": "2025-11-01T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1762039800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Garcia vs. Onama",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2776,
+          "name": "Daniel Frunza",
+          "logo": "https://media.api-sports.io/mma/fighters/2776.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2538,
+          "name": "Charles Radtke",
+          "logo": "https://media.api-sports.io/mma/fighters/2538.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:47.890Z"
+}

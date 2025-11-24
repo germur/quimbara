@@ -1,0 +1,352 @@
+{
+  "profile": {
+    "id": 2381,
+    "name": "Ihor Potieria",
+    "nickname": "Duelist",
+    "photo": "https://media.api-sports.io/mma/fighters/2381.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "188 lbs",
+    "reach": "75'",
+    "stance": "Southpaw",
+    "category": "Middleweight",
+    "team": {
+      "id": 665,
+      "name": "Aurum Sport Club"
+    },
+    "last_update": "2025-06-05T09:01:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2381,
+      "name": "Ihor Potieria",
+      "photo": "https://media.api-sports.io/mma/fighters/2381.png"
+    },
+    "total": {
+      "win": 20,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 5
+    },
+    "sub": {
+      "win": 6,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 529,
+      "date": "2023-01-22T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1674349200,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2381,
+          "name": "Ihor Potieria",
+          "logo": "https://media.api-sports.io/mma/fighters/2381.png",
+          "winner": true
+        },
+        "second": {
+          "id": 736,
+          "name": "Mauricio Rua",
+          "logo": "https://media.api-sports.io/mma/fighters/736.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 704,
+      "date": "2023-05-13T19:40:00+00:00",
+      "time": "19:40",
+      "timestamp": 1684006800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Almeida",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2381,
+          "name": "Ihor Potieria",
+          "logo": "https://media.api-sports.io/mma/fighters/2381.png",
+          "winner": false
+        },
+        "second": {
+          "id": 862,
+          "name": "Carlos Ulberg",
+          "logo": "https://media.api-sports.io/mma/fighters/862.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1062,
+      "date": "2023-12-02T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1701554400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dariush vs. Tsarukyan",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2381,
+          "name": "Ihor Potieria",
+          "logo": "https://media.api-sports.io/mma/fighters/2381.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2639,
+          "name": "Rodolfo Bellato",
+          "logo": "https://media.api-sports.io/mma/fighters/2639.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1268,
+      "date": "2024-02-10T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1707580800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hermansson vs. Pyfer",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2381,
+          "name": "Ihor Potieria",
+          "logo": "https://media.api-sports.io/mma/fighters/2381.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2661,
+          "name": "Robert Bryczek",
+          "logo": "https://media.api-sports.io/mma/fighters/2661.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1140,
+      "date": "2024-02-11T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1707615000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hermansson vs. Pyfer",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2381,
+          "name": "Ihor Potieria",
+          "logo": "https://media.api-sports.io/mma/fighters/2381.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2661,
+          "name": "Robert Bryczek",
+          "logo": "https://media.api-sports.io/mma/fighters/2661.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1403,
+      "date": "2024-05-04T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1714845600,
+      "timezone": "UTC",
+      "slug": "UFC 301: Pantoja vs. Erceg",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2381,
+          "name": "Ihor Potieria",
+          "logo": "https://media.api-sports.io/mma/fighters/2381.png",
+          "winner": false
+        },
+        "second": {
+          "id": 426,
+          "name": "Michel Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/426.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1332,
+      "date": "2024-05-05T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1714878000,
+      "timezone": "UTC",
+      "slug": "UFC 301: Pantoja vs. Erceg",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2381,
+          "name": "Ihor Potieria",
+          "logo": "https://media.api-sports.io/mma/fighters/2381.png",
+          "winner": false
+        },
+        "second": {
+          "id": 426,
+          "name": "Michel Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/426.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1352,
+      "date": "2024-06-22T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1719082800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Chimaev",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2381,
+          "name": "Ihor Potieria",
+          "logo": "https://media.api-sports.io/mma/fighters/2381.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2630,
+          "name": "Shara Magomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/2630.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1425,
+      "date": "2024-06-22T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1719082800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Chimaev",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2381,
+          "name": "Ihor Potieria",
+          "logo": "https://media.api-sports.io/mma/fighters/2381.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2630,
+          "name": "Shara Magomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/2630.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1633,
+      "date": "2024-10-05T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1728144000,
+      "timezone": "UTC",
+      "slug": "UFC 307: Pereira vs. Rountree Jr.",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2381,
+          "name": "Ihor Potieria",
+          "logo": "https://media.api-sports.io/mma/fighters/2381.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2631,
+          "name": "Cesar Almeida",
+          "logo": "https://media.api-sports.io/mma/fighters/2631.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1820,
+      "date": "2025-01-11T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1736636400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs Ribas 2",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2381,
+          "name": "Ihor Potieria",
+          "logo": "https://media.api-sports.io/mma/fighters/2381.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2750,
+          "name": "Marco Tulio",
+          "logo": "https://media.api-sports.io/mma/fighters/2750.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:49:41.196Z"
+}

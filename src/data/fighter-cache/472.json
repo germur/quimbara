@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 472,
+    "name": "Jared Gordon",
+    "nickname": "Flash",
+    "photo": "https://media.api-sports.io/mma/fighters/472.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "156 lbs",
+    "reach": "68'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-09-20T12:13:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 472,
+      "name": "Jared Gordon",
+      "photo": "https://media.api-sports.io/mma/fighters/472.png"
+    },
+    "total": {
+      "win": 21,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 4
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 669,
+      "date": "2023-04-23T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1682208000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Pavlovich vs. Blaydes",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 472,
+          "name": "Jared Gordon",
+          "logo": "https://media.api-sports.io/mma/fighters/472.png",
+          "winner": false
+        },
+        "second": {
+          "id": 670,
+          "name": "Bobby Green",
+          "logo": "https://media.api-sports.io/mma/fighters/670.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1004,
+      "date": "2023-11-12T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1699749000,
+      "timezone": "UTC",
+      "slug": "UFC 295: ProchÃ¡zka vs. Pereira",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 651,
+          "name": "Mark O. Madsen",
+          "logo": "https://media.api-sports.io/mma/fighters/651.png",
+          "winner": false
+        },
+        "second": {
+          "id": 472,
+          "name": "Jared Gordon",
+          "logo": "https://media.api-sports.io/mma/fighters/472.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1243,
+      "date": "2024-06-22T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1719043200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 472,
+          "name": "Jared Gordon",
+          "logo": "https://media.api-sports.io/mma/fighters/472.png",
+          "winner": false
+        },
+        "second": {
+          "id": 236,
+          "name": "Nasrat Haqparast",
+          "logo": "https://media.api-sports.io/mma/fighters/236.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1824,
+      "date": "2025-02-15T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1739653200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 199,
+          "name": "TBA",
+          "logo": "https://media.api-sports.io/mma/fighters/199.png",
+          "winner": false
+        },
+        "second": {
+          "id": 472,
+          "name": "Jared Gordon",
+          "logo": "https://media.api-sports.io/mma/fighters/472.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2053,
+      "date": "2025-05-17T22:15:00+00:00",
+      "time": "22:15",
+      "timestamp": 1747520100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Morales",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 401,
+          "name": "Thiago Moises",
+          "logo": "https://media.api-sports.io/mma/fighters/401.png",
+          "winner": false
+        },
+        "second": {
+          "id": 472,
+          "name": "Jared Gordon",
+          "logo": "https://media.api-sports.io/mma/fighters/472.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2225,
+      "date": "2025-09-13T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1757806200,
+      "timezone": "UTC",
+      "slug": "Noche UFC: Lopes vs. Silva",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 472,
+          "name": "Jared Gordon",
+          "logo": "https://media.api-sports.io/mma/fighters/472.png",
+          "winner": false
+        },
+        "second": {
+          "id": 907,
+          "name": "Rafa Garcia",
+          "logo": "https://media.api-sports.io/mma/fighters/907.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:16.547Z"
+}

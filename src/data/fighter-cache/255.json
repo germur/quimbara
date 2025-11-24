@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 255,
+    "name": "Dustin Poirier",
+    "nickname": "The Diamond",
+    "photo": "https://media.api-sports.io/mma/fighters/255.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "155 lbs",
+    "reach": "72'",
+    "stance": "Southpaw",
+    "category": "Lightweight",
+    "team": {
+      "id": 21,
+      "name": "American Top"
+    },
+    "last_update": "2025-07-27T00:05:46+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 255,
+      "name": "Dustin Poirier",
+      "photo": "https://media.api-sports.io/mma/fighters/255.png"
+    },
+    "total": {
+      "win": 30,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 16,
+      "loss": 3
+    },
+    "sub": {
+      "win": 7,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 827,
+      "date": "2023-07-30T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1690689600,
+      "timezone": "UTC",
+      "slug": "UFC 291: Poirier vs. Gaethje 2",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 194,
+          "name": "Justin Gaethje",
+          "logo": "https://media.api-sports.io/mma/fighters/194.png",
+          "winner": true
+        },
+        "second": {
+          "id": 255,
+          "name": "Dustin Poirier",
+          "logo": "https://media.api-sports.io/mma/fighters/255.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1198,
+      "date": "2024-03-09T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1710010800,
+      "timezone": "UTC",
+      "slug": "UFC 299: O'Malley vs. Vera 2",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2466,
+          "name": "BenoÃ®t Saint Denis",
+          "logo": "https://media.api-sports.io/mma/fighters/2466.png",
+          "winner": false
+        },
+        "second": {
+          "id": 255,
+          "name": "Dustin Poirier",
+          "logo": "https://media.api-sports.io/mma/fighters/255.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1361,
+      "date": "2024-06-01T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1717264800,
+      "timezone": "UTC",
+      "slug": "UFC 302: Makhachev vs. Poirier",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 255,
+          "name": "Dustin Poirier",
+          "logo": "https://media.api-sports.io/mma/fighters/255.png",
+          "winner": false
+        },
+        "second": {
+          "id": 333,
+          "name": "Islam Makhachev",
+          "logo": "https://media.api-sports.io/mma/fighters/333.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2060,
+      "date": "2025-07-20T04:30:00+00:00",
+      "time": "04:30",
+      "timestamp": 1752985800,
+      "timezone": "UTC",
+      "slug": "UFC 318: Holloway vs. Poirier 3",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 255,
+          "name": "Dustin Poirier",
+          "logo": "https://media.api-sports.io/mma/fighters/255.png",
+          "winner": false
+        },
+        "second": {
+          "id": 256,
+          "name": "Max Holloway",
+          "logo": "https://media.api-sports.io/mma/fighters/256.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:55.140Z"
+}

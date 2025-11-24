@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "id": 2590,
+    "name": "Nursulton Ruziboev",
+    "nickname": "Black",
+    "photo": "https://media.api-sports.io/mma/fighters/2590.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 5'",
+    "weight": "185 lbs",
+    "reach": "76'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 825,
+      "name": "Shahrixon MMA"
+    },
+    "last_update": "2025-08-23T12:00:37+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2590,
+      "name": "Nursulton Ruziboev",
+      "photo": "https://media.api-sports.io/mma/fighters/2590.png"
+    },
+    "total": {
+      "win": 36,
+      "loss": 9,
+      "draw": 2
+    },
+    "ko": {
+      "win": 13,
+      "loss": 1
+    },
+    "sub": {
+      "win": 20,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 778,
+      "date": "2023-07-01T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1688252400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Magomedov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2590,
+          "name": "Nursulton Ruziboev",
+          "logo": "https://media.api-sports.io/mma/fighters/2590.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2535,
+          "name": "Brunno Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/2535.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 947,
+      "date": "2023-11-04T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1699117200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blaydes vs. Almeida",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2590,
+          "name": "Nursulton Ruziboev",
+          "logo": "https://media.api-sports.io/mma/fighters/2590.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2428,
+          "name": "Caio Borralho",
+          "logo": "https://media.api-sports.io/mma/fighters/2428.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1296,
+      "date": "2024-03-30T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1711821600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Fiorot",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2595,
+          "name": "Sedriques Dumas",
+          "logo": "https://media.api-sports.io/mma/fighters/2595.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2590,
+          "name": "Nursulton Ruziboev",
+          "logo": "https://media.api-sports.io/mma/fighters/2590.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1406,
+      "date": "2024-05-11T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1715439600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Nascimento",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2590,
+          "name": "Nursulton Ruziboev",
+          "logo": "https://media.api-sports.io/mma/fighters/2590.png",
+          "winner": false
+        },
+        "second": {
+          "id": 790,
+          "name": "Joaquin Buckley",
+          "logo": "https://media.api-sports.io/mma/fighters/790.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1594,
+      "date": "2024-10-26T06:00:00+00:00",
+      "time": "06:00",
+      "timestamp": 1729922400,
+      "timezone": "UTC",
+      "slug": "UFC 308: Topuria vs. Holloway",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2590,
+          "name": "Nursulton Ruziboev",
+          "logo": "https://media.api-sports.io/mma/fighters/2590.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2513,
+          "name": "Rinat Fakhretdinov",
+          "logo": "https://media.api-sports.io/mma/fighters/2513.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1902,
+      "date": "2025-02-22T23:20:00+00:00",
+      "time": "23:20",
+      "timestamp": 1740266400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cejudo vs. Song",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2770,
+          "name": "Eric McConico",
+          "logo": "https://media.api-sports.io/mma/fighters/2770.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2590,
+          "name": "Nursulton Ruziboev",
+          "logo": "https://media.api-sports.io/mma/fighters/2590.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2050,
+      "date": "2025-05-17T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1747524600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Morales",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2590,
+          "name": "Nursulton Ruziboev",
+          "logo": "https://media.api-sports.io/mma/fighters/2590.png",
+          "winner": true
+        },
+        "second": {
+          "id": 767,
+          "name": "Dustin Stoltzfus",
+          "logo": "https://media.api-sports.io/mma/fighters/767.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2087,
+      "date": "2025-08-16T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1755352800,
+      "timezone": "UTC",
+      "slug": "UFC 319: Du Plessis vs. Chimaev",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2590,
+          "name": "Nursulton Ruziboev",
+          "logo": "https://media.api-sports.io/mma/fighters/2590.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2399,
+          "name": "Bryan Battle",
+          "logo": "https://media.api-sports.io/mma/fighters/2399.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:09.115Z"
+}

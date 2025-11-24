@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 70,
+    "name": "Israel Adesanya",
+    "nickname": "The Last Stylebender",
+    "photo": "https://media.api-sports.io/mma/fighters/70.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 4'",
+    "weight": "185 lbs",
+    "reach": "80'",
+    "stance": "Switch",
+    "category": "Middleweight",
+    "team": {
+      "id": 48,
+      "name": "City Kickboxing"
+    },
+    "last_update": "2025-06-04T13:45:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 70,
+      "name": "Israel Adesanya",
+      "photo": "https://media.api-sports.io/mma/fighters/70.png"
+    },
+    "total": {
+      "win": 24,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 16,
+      "loss": 2
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 642,
+      "date": "2023-04-09T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1681012800,
+      "timezone": "UTC",
+      "slug": "UFC 287: Pereira vs. Adesanya 2",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 70,
+          "name": "Israel Adesanya",
+          "logo": "https://media.api-sports.io/mma/fighters/70.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2436,
+          "name": "Alex Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/2436.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 901,
+      "date": "2023-09-10T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1694318400,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 874,
+          "name": "Sean Strickland",
+          "logo": "https://media.api-sports.io/mma/fighters/874.png",
+          "winner": true
+        },
+        "second": {
+          "id": 70,
+          "name": "Israel Adesanya",
+          "logo": "https://media.api-sports.io/mma/fighters/70.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1357,
+      "date": "2024-08-17T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1723917600,
+      "timezone": "UTC",
+      "slug": "UFC 305: Du Plessis vs. Adesanya",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 70,
+          "name": "Israel Adesanya",
+          "logo": "https://media.api-sports.io/mma/fighters/70.png",
+          "winner": false
+        },
+        "second": {
+          "id": 856,
+          "name": "Dricus Du Plessis",
+          "logo": "https://media.api-sports.io/mma/fighters/856.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1781,
+      "date": "2025-02-01T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1738436400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Adesanya vs. Imavov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 831,
+          "name": "Nassourdine Imavov",
+          "logo": "https://media.api-sports.io/mma/fighters/831.png",
+          "winner": true
+        },
+        "second": {
+          "id": 70,
+          "name": "Israel Adesanya",
+          "logo": "https://media.api-sports.io/mma/fighters/70.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:49:44.026Z"
+}

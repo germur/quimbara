@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 137,
+    "name": "Robbie Lawler",
+    "nickname": "Ruthless",
+    "photo": "https://media.api-sports.io/mma/fighters/137.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "170 lbs",
+    "reach": "74'",
+    "stance": "Southpaw",
+    "category": "Welterweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-06-04T14:19:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 137,
+      "name": "Robbie Lawler",
+      "photo": "https://media.api-sports.io/mma/fighters/137.png"
+    },
+    "total": {
+      "win": 30,
+      "loss": 16,
+      "draw": 0
+    },
+    "ko": {
+      "win": 22,
+      "loss": 3
+    },
+    "sub": {
+      "win": 1,
+      "loss": 6
+    }
+  },
+  "fights": [
+    {
+      "id": 783,
+      "date": "2023-07-09T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1688866200,
+      "timezone": "UTC",
+      "slug": "UFC 290: Volkanovski vs. Rodriguez",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 224,
+          "name": "Niko Price",
+          "logo": "https://media.api-sports.io/mma/fighters/224.png",
+          "winner": false
+        },
+        "second": {
+          "id": 137,
+          "name": "Robbie Lawler",
+          "logo": "https://media.api-sports.io/mma/fighters/137.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:59.957Z"
+}

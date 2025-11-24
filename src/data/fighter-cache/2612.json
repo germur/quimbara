@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2612,
+    "name": "Yizha",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2612.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "144 lbs",
+    "reach": "71'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 685,
+      "name": "Enbo Gedou"
+    },
+    "last_update": "2025-08-30T00:04:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2612,
+      "name": "Yizha",
+      "photo": "https://media.api-sports.io/mma/fighters/2612.png"
+    },
+    "total": {
+      "win": 25,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 1
+    },
+    "sub": {
+      "win": 13,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 539,
+      "date": "2023-02-05T05:15:00+00:00",
+      "time": "05:15",
+      "timestamp": 1675574100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Spivac",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2612,
+          "name": "Yi Zha",
+          "logo": "https://media.api-sports.io/mma/fighters/2612.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2567,
+          "name": "JeongYeong Lee",
+          "logo": "https://media.api-sports.io/mma/fighters/2567.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1075,
+      "date": "2023-12-09T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1702137600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2612,
+          "name": "Yizha",
+          "logo": "https://media.api-sports.io/mma/fighters/2612.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2643,
+          "name": "Kaiwen",
+          "logo": "https://media.api-sports.io/mma/fighters/2643.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1500,
+      "date": "2024-09-07T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1725710400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Brady",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2552,
+          "name": "Gabriel Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/2552.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2612,
+          "name": "Yizha",
+          "logo": "https://media.api-sports.io/mma/fighters/2612.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2210,
+      "date": "2025-08-23T07:50:00+00:00",
+      "time": "07:50",
+      "timestamp": 1755935400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Walker vs. Zhang",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2609,
+          "name": "Westin Wilson",
+          "logo": "https://media.api-sports.io/mma/fighters/2609.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2612,
+          "name": "Yizha",
+          "logo": "https://media.api-sports.io/mma/fighters/2612.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:24.060Z"
+}

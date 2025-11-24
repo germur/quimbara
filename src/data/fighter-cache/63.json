@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 63,
+    "name": "Kai Kara-France",
+    "nickname": "Don&#x27;t Blink",
+    "photo": "https://media.api-sports.io/mma/fighters/63.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 4'",
+    "weight": "125 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 48,
+      "name": "City Kickboxing"
+    },
+    "last_update": "2025-07-06T00:09:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 63,
+      "name": "Kai Kara-France",
+      "photo": "https://media.api-sports.io/mma/fighters/63.png"
+    },
+    "total": {
+      "win": 25,
+      "loss": 11,
+      "draw": 0
+    },
+    "ko": {
+      "win": 12,
+      "loss": 3
+    },
+    "sub": {
+      "win": 3,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 725,
+      "date": "2023-06-04T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1685849400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kara-France vs. Albazi",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 746,
+          "name": "Amir Albazi",
+          "logo": "https://media.api-sports.io/mma/fighters/746.png",
+          "winner": true
+        },
+        "second": {
+          "id": 63,
+          "name": "Kai Kara-France",
+          "logo": "https://media.api-sports.io/mma/fighters/63.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 903,
+      "date": "2023-09-09T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1694282400,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 892,
+          "name": "Manel Kape",
+          "logo": "https://media.api-sports.io/mma/fighters/892.png",
+          "winner": false
+        },
+        "second": {
+          "id": 63,
+          "name": "Kai Kara-France",
+          "logo": "https://media.api-sports.io/mma/fighters/63.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1508,
+      "date": "2024-08-17T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1723917600,
+      "timezone": "UTC",
+      "slug": "UFC 305: Du Plessis vs. Adesanya",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2599,
+          "name": "Steve Erceg",
+          "logo": "https://media.api-sports.io/mma/fighters/2599.png",
+          "winner": false
+        },
+        "second": {
+          "id": 63,
+          "name": "Kai Kara-France",
+          "logo": "https://media.api-sports.io/mma/fighters/63.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2081,
+      "date": "2025-06-29T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1751169600,
+      "timezone": "UTC",
+      "slug": "UFC 317: Topuria vs. Oliveira",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 63,
+          "name": "Kai Kara-France",
+          "logo": "https://media.api-sports.io/mma/fighters/63.png",
+          "winner": false
+        },
+        "second": {
+          "id": 250,
+          "name": "Alexandre Pantoja",
+          "logo": "https://media.api-sports.io/mma/fighters/250.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:55.226Z"
+}

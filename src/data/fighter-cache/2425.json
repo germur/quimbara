@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 2425,
+    "name": "Michael Morales",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2425.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "170 lbs",
+    "reach": "79'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 79,
+      "name": "Entram Gym"
+    },
+    "last_update": "2025-11-23T00:09:05+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2425,
+      "name": "Michael Morales",
+      "photo": "https://media.api-sports.io/mma/fighters/2425.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 0,
+      "draw": 0
+    },
+    "ko": {
+      "win": 13,
+      "loss": 0
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 775,
+      "date": "2023-07-02T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1688257800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Magomedov",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2425,
+          "name": "Michael Morales",
+          "logo": "https://media.api-sports.io/mma/fighters/2425.png",
+          "winner": true
+        },
+        "second": {
+          "id": 32,
+          "name": "Max Griffin",
+          "logo": "https://media.api-sports.io/mma/fighters/32.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1036,
+      "date": "2023-11-19T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1700352000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 656,
+          "name": "Jake Matthews",
+          "logo": "https://media.api-sports.io/mma/fighters/656.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2425,
+          "name": "Michael Morales",
+          "logo": "https://media.api-sports.io/mma/fighters/2425.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1582,
+      "date": "2024-08-24T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1724522400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Borralho",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2425,
+          "name": "Michael Morales",
+          "logo": "https://media.api-sports.io/mma/fighters/2425.png",
+          "winner": true
+        },
+        "second": {
+          "id": 405,
+          "name": "Neil Magny",
+          "logo": "https://media.api-sports.io/mma/fighters/405.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1952,
+      "date": "2025-05-11T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1746928800,
+      "timezone": "UTC",
+      "slug": "UFC 315: Muhammad vs. Della Maddalena",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2425,
+          "name": "Michael Morales",
+          "logo": "https://media.api-sports.io/mma/fighters/2425.png",
+          "winner": false
+        },
+        "second": {
+          "id": 396,
+          "name": "Gilbert Burns",
+          "logo": "https://media.api-sports.io/mma/fighters/396.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2016,
+      "date": "2025-05-18T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1747530000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Morales",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2425,
+          "name": "Michael Morales",
+          "logo": "https://media.api-sports.io/mma/fighters/2425.png",
+          "winner": true
+        },
+        "second": {
+          "id": 396,
+          "name": "Gilbert Burns",
+          "logo": "https://media.api-sports.io/mma/fighters/396.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2374,
+      "date": "2025-11-16T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1763265600,
+      "timezone": "UTC",
+      "slug": "UFC 322: Della Maddalena vs. Makhachev",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2425,
+          "name": "Michael Morales",
+          "logo": "https://media.api-sports.io/mma/fighters/2425.png",
+          "winner": true
+        },
+        "second": {
+          "id": 679,
+          "name": "Sean Brady",
+          "logo": "https://media.api-sports.io/mma/fighters/679.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:37.854Z"
+}

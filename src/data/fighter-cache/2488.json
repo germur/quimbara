@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2488,
+    "name": "Francis Marshall",
+    "nickname": "Fire",
+    "photo": "https://media.api-sports.io/mma/fighters/2488.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "146 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 21,
+      "name": "American Top"
+    },
+    "last_update": "2025-06-05T09:54:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2488,
+      "name": "Francis Marshall",
+      "photo": "https://media.api-sports.io/mma/fighters/2488.png"
+    },
+    "total": {
+      "win": 8,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 1,
+      "loss": 1
+    },
+    "sub": {
+      "win": 4,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 665,
+      "date": "2023-04-22T20:55:00+00:00",
+      "time": "20:55",
+      "timestamp": 1682196900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Pavlovich vs. Blaydes",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2522,
+          "name": "William Gomis",
+          "logo": "https://media.api-sports.io/mma/fighters/2522.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2488,
+          "name": "Francis Marshall",
+          "logo": "https://media.api-sports.io/mma/fighters/2488.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 848,
+      "date": "2023-08-12T21:40:00+00:00",
+      "time": "21:40",
+      "timestamp": 1691876400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Luque vs. Dos Anjos",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2559,
+          "name": "Isaac Dulgarian",
+          "logo": "https://media.api-sports.io/mma/fighters/2559.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2488,
+          "name": "Francis Marshall",
+          "logo": "https://media.api-sports.io/mma/fighters/2488.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1630,
+      "date": "2024-08-24T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1724511600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Borralho",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2488,
+          "name": "Francis Marshall",
+          "logo": "https://media.api-sports.io/mma/fighters/2488.png",
+          "winner": true
+        },
+        "second": {
+          "id": 814,
+          "name": "Dennis Buzukja",
+          "logo": "https://media.api-sports.io/mma/fighters/814.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1800,
+      "date": "2025-03-09T01:15:00+00:00",
+      "time": "01:15",
+      "timestamp": 1741482900,
+      "timezone": "UTC",
+      "slug": "UFC 313: Pereira vs. Ankalaev",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2488,
+          "name": "Francis Marshall",
+          "logo": "https://media.api-sports.io/mma/fighters/2488.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2718,
+          "name": "Mairon Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/2718.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:55:07.295Z"
+}

@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 893,
+    "name": "Ricky Glenn",
+    "nickname": "The Gladiator",
+    "photo": "https://media.api-sports.io/mma/fighters/893.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "171 lbs",
+    "reach": "70.5'",
+    "stance": "Southpaw",
+    "category": "Welterweight",
+    "team": {
+      "id": 391,
+      "name": "Absolute Mixed Martial Arts"
+    },
+    "last_update": "2025-06-04T20:37:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 893,
+      "name": "Ricky Glenn",
+      "photo": "https://media.api-sports.io/mma/fighters/893.png"
+    },
+    "total": {
+      "win": 22,
+      "loss": 9,
+      "draw": 2
+    },
+    "ko": {
+      "win": 13,
+      "loss": 2
+    },
+    "sub": {
+      "win": 3,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 661,
+      "date": "2023-04-22T21:40:00+00:00",
+      "time": "21:40",
+      "timestamp": 1682199600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Pavlovich vs. Blaydes",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 437,
+          "name": "Christos Giagos",
+          "logo": "https://media.api-sports.io/mma/fighters/437.png",
+          "winner": true
+        },
+        "second": {
+          "id": 893,
+          "name": "Ricky Glenn",
+          "logo": "https://media.api-sports.io/mma/fighters/893.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 978,
+      "date": "2023-10-07T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1696721400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dawson vs. Green",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 893,
+          "name": "Ricky Glenn",
+          "logo": "https://media.api-sports.io/mma/fighters/893.png",
+          "winner": false
+        },
+        "second": {
+          "id": 150,
+          "name": "Drew Dober",
+          "logo": "https://media.api-sports.io/mma/fighters/150.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1534,
+      "date": "2024-08-17T14:30:00+00:00",
+      "time": "14:30",
+      "timestamp": 1723905000,
+      "timezone": "UTC",
+      "slug": "UFC 305: Du Plessis vs. Adesanya",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 893,
+          "name": "Ricky Glenn",
+          "logo": "https://media.api-sports.io/mma/fighters/893.png",
+          "winner": false
+        },
+        "second": {
+          "id": 588,
+          "name": "Song Kenan",
+          "logo": "https://media.api-sports.io/mma/fighters/588.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:57.203Z"
+}

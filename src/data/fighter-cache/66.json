@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 66,
+    "name": "Kyung Ho Kang",
+    "nickname": "Mr. Perfect",
+    "photo": "https://media.api-sports.io/mma/fighters/66.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "136 lbs",
+    "reach": "73'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 50,
+      "name": "Busan  M.A.D."
+    },
+    "last_update": "2025-06-04T13:43:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 66,
+      "name": "Kyung Ho Kang",
+      "photo": "https://media.api-sports.io/mma/fighters/66.png"
+    },
+    "total": {
+      "win": 19,
+      "loss": 11,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 1
+    },
+    "sub": {
+      "win": 12,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 743,
+      "date": "2023-06-18T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1687050000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Cannonier",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2474,
+          "name": "Cristian QuiÃ±onez",
+          "logo": "https://media.api-sports.io/mma/fighters/2474.png",
+          "winner": false
+        },
+        "second": {
+          "id": 66,
+          "name": "Kyung Ho Kang",
+          "logo": "https://media.api-sports.io/mma/fighters/66.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1043,
+      "date": "2023-11-12T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1699747200,
+      "timezone": "UTC",
+      "slug": "UFC 295: ProchÃ¡zka vs. Pereira",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 66,
+          "name": "Kyung Ho Kang",
+          "logo": "https://media.api-sports.io/mma/fighters/66.png",
+          "winner": false
+        },
+        "second": {
+          "id": 750,
+          "name": "John Castaneda",
+          "logo": "https://media.api-sports.io/mma/fighters/750.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1006,
+      "date": "2023-11-18T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1700305200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 66,
+          "name": "Kyung Ho Kang",
+          "logo": "https://media.api-sports.io/mma/fighters/66.png",
+          "winner": false
+        },
+        "second": {
+          "id": 750,
+          "name": "John Castaneda",
+          "logo": "https://media.api-sports.io/mma/fighters/750.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1045,
+      "date": "2023-11-18T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1700305200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 66,
+          "name": "Kyung Ho Kang",
+          "logo": "https://media.api-sports.io/mma/fighters/66.png",
+          "winner": false
+        },
+        "second": {
+          "id": 750,
+          "name": "John Castaneda",
+          "logo": "https://media.api-sports.io/mma/fighters/750.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1449,
+      "date": "2024-06-22T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1719043200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 325,
+          "name": "Muin Gafurov",
+          "logo": "https://media.api-sports.io/mma/fighters/325.png",
+          "winner": true
+        },
+        "second": {
+          "id": 66,
+          "name": "Kyung Ho Kang",
+          "logo": "https://media.api-sports.io/mma/fighters/66.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:24.141Z"
+}

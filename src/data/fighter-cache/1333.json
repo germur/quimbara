@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 1333,
+    "name": "Pat Sabatini",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/1333.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "145 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 341,
+      "name": "Marquez MMA"
+    },
+    "last_update": "2025-11-23T00:01:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 1333,
+      "name": "Pat Sabatini",
+      "photo": "https://media.api-sports.io/mma/fighters/1333.png"
+    },
+    "total": {
+      "win": 20,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 3
+    },
+    "sub": {
+      "win": 12,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 751,
+      "date": "2023-06-18T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1687057200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Cannonier",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2430,
+          "name": "Lucas Almeida",
+          "logo": "https://media.api-sports.io/mma/fighters/2430.png",
+          "winner": false
+        },
+        "second": {
+          "id": 1333,
+          "name": "Pat Sabatini",
+          "logo": "https://media.api-sports.io/mma/fighters/1333.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1025,
+      "date": "2023-11-12T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1699758000,
+      "timezone": "UTC",
+      "slug": "UFC 295: ProchÃ¡zka vs. Pereira",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 1333,
+          "name": "Pat Sabatini",
+          "logo": "https://media.api-sports.io/mma/fighters/1333.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2417,
+          "name": "Diego Lopes",
+          "logo": "https://media.api-sports.io/mma/fighters/2417.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1293,
+      "date": "2024-03-30T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1711810800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Fiorot",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 694,
+          "name": "Nate Landwehr",
+          "logo": "https://media.api-sports.io/mma/fighters/694.png",
+          "winner": false
+        },
+        "second": {
+          "id": 1333,
+          "name": "Pat Sabatini",
+          "logo": "https://media.api-sports.io/mma/fighters/1333.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1687,
+      "date": "2024-10-12T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1728734400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Taira",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 1333,
+          "name": "Pat Sabatini",
+          "logo": "https://media.api-sports.io/mma/fighters/1333.png",
+          "winner": true
+        },
+        "second": {
+          "id": 490,
+          "name": "Jonathan Pearce",
+          "logo": "https://media.api-sports.io/mma/fighters/490.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1974,
+      "date": "2025-04-06T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1743908400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Murphy",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2384,
+          "name": "Joanderson Brito",
+          "logo": "https://media.api-sports.io/mma/fighters/2384.png",
+          "winner": false
+        },
+        "second": {
+          "id": 1333,
+          "name": "Pat Sabatini",
+          "logo": "https://media.api-sports.io/mma/fighters/1333.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2372,
+      "date": "2025-11-16T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1763253000,
+      "timezone": "UTC",
+      "slug": "UFC 322: Della Maddalena vs. Makhachev",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2539,
+          "name": "Chepe Mariscal",
+          "logo": "https://media.api-sports.io/mma/fighters/2539.png",
+          "winner": false
+        },
+        "second": {
+          "id": 1333,
+          "name": "Pat Sabatini",
+          "logo": "https://media.api-sports.io/mma/fighters/1333.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:03.276Z"
+}

@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 330,
+    "name": "Rafael Fiziev",
+    "nickname": "Ataman",
+    "photo": "https://media.api-sports.io/mma/fighters/330.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "156 lbs",
+    "reach": "71'",
+    "stance": "Switch",
+    "category": "Lightweight",
+    "team": {
+      "id": 35,
+      "name": "Tiger Muay Thai"
+    },
+    "last_update": "2025-06-28T12:10:35+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 330,
+      "name": "Rafael Fiziev",
+      "photo": "https://media.api-sports.io/mma/fighters/330.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 2
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 621,
+      "date": "2023-03-18T21:45:00+00:00",
+      "time": "21:45",
+      "timestamp": 1679175900,
+      "timezone": "UTC",
+      "slug": "UFC 286: Edwards vs. Usman 3",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 330,
+          "name": "Rafael Fiziev",
+          "logo": "https://media.api-sports.io/mma/fighters/330.png",
+          "winner": false
+        },
+        "second": {
+          "id": 194,
+          "name": "Justin Gaethje",
+          "logo": "https://media.api-sports.io/mma/fighters/194.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 916,
+      "date": "2023-09-24T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1695517200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Fiziev vs. Gamrot",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 860,
+          "name": "Mateusz Gamrot",
+          "logo": "https://media.api-sports.io/mma/fighters/860.png",
+          "winner": true
+        },
+        "second": {
+          "id": 330,
+          "name": "Rafael Fiziev",
+          "logo": "https://media.api-sports.io/mma/fighters/330.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1956,
+      "date": "2025-03-09T04:45:00+00:00",
+      "time": "04:45",
+      "timestamp": 1741495500,
+      "timezone": "UTC",
+      "slug": "UFC 313: Pereira vs. Ankalaev",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 330,
+          "name": "Rafael Fiziev",
+          "logo": "https://media.api-sports.io/mma/fighters/330.png",
+          "winner": false
+        },
+        "second": {
+          "id": 194,
+          "name": "Justin Gaethje",
+          "logo": "https://media.api-sports.io/mma/fighters/194.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2158,
+      "date": "2025-06-21T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1750503600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 867,
+          "name": "Ignacio Bahamondes",
+          "logo": "https://media.api-sports.io/mma/fighters/867.png",
+          "winner": false
+        },
+        "second": {
+          "id": 330,
+          "name": "Rafael Fiziev",
+          "logo": "https://media.api-sports.io/mma/fighters/330.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2057,
+      "date": "2025-06-21T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1750539600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 867,
+          "name": "Ignacio Bahamondes",
+          "logo": "https://media.api-sports.io/mma/fighters/867.png",
+          "winner": false
+        },
+        "second": {
+          "id": 330,
+          "name": "Rafael Fiziev",
+          "logo": "https://media.api-sports.io/mma/fighters/330.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:54:11.768Z"
+}

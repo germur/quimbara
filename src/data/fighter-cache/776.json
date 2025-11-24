@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 776,
+    "name": "Joe Pyfer",
+    "nickname": "Bodybagz",
+    "photo": "https://media.api-sports.io/mma/fighters/776.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "185 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 341,
+      "name": "Marquez MMA"
+    },
+    "last_update": "2025-10-11T12:03:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 776,
+      "name": "Joe Pyfer",
+      "photo": "https://media.api-sports.io/mma/fighters/776.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 1
+    },
+    "sub": {
+      "win": 3,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 640,
+      "date": "2023-04-09T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1680998400,
+      "timezone": "UTC",
+      "slug": "UFC 287: Pereira vs. Adesanya 2",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 776,
+          "name": "Joe Pyfer",
+          "logo": "https://media.api-sports.io/mma/fighters/776.png",
+          "winner": true
+        },
+        "second": {
+          "id": 316,
+          "name": "Gerald Meerschaert",
+          "logo": "https://media.api-sports.io/mma/fighters/316.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 983,
+      "date": "2023-10-08T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1696725000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dawson vs. Green",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 731,
+          "name": "Abdul Razak Alhassan",
+          "logo": "https://media.api-sports.io/mma/fighters/731.png",
+          "winner": false
+        },
+        "second": {
+          "id": 776,
+          "name": "Joe Pyfer",
+          "logo": "https://media.api-sports.io/mma/fighters/776.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1144,
+      "date": "2024-02-10T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1707580800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hermansson vs. Pyfer",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 776,
+          "name": "Joe Pyfer",
+          "logo": "https://media.api-sports.io/mma/fighters/776.png",
+          "winner": false
+        },
+        "second": {
+          "id": 244,
+          "name": "Jack Hermansson",
+          "logo": "https://media.api-sports.io/mma/fighters/244.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1299,
+      "date": "2024-06-29T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1719676800,
+      "timezone": "UTC",
+      "slug": "UFC 303: Pereira vs. ProchÃ¡zka 2",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 293,
+          "name": "Marc-Andre Barriault",
+          "logo": "https://media.api-sports.io/mma/fighters/293.png",
+          "winner": false
+        },
+        "second": {
+          "id": 776,
+          "name": "Joe Pyfer",
+          "logo": "https://media.api-sports.io/mma/fighters/776.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1924,
+      "date": "2025-03-30T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1743294600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Erceg",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 776,
+          "name": "Joe Pyfer",
+          "logo": "https://media.api-sports.io/mma/fighters/776.png",
+          "winner": false
+        },
+        "second": {
+          "id": 68,
+          "name": "Kelvin Gastelum",
+          "logo": "https://media.api-sports.io/mma/fighters/68.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2020,
+      "date": "2025-06-08T03:20:00+00:00",
+      "time": "03:20",
+      "timestamp": 1749352800,
+      "timezone": "UTC",
+      "slug": "UFC 316: Dvalishvili vs. O'Malley 2",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 776,
+          "name": "Joe Pyfer",
+          "logo": "https://media.api-sports.io/mma/fighters/776.png",
+          "winner": true
+        },
+        "second": {
+          "id": 68,
+          "name": "Kelvin Gastelum",
+          "logo": "https://media.api-sports.io/mma/fighters/68.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2236,
+      "date": "2025-10-04T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1759600800,
+      "timezone": "UTC",
+      "slug": "UFC 320: Ankalaev vs. Pereira 2",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 776,
+          "name": "Joe Pyfer",
+          "logo": "https://media.api-sports.io/mma/fighters/776.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2459,
+          "name": "Abus Magomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/2459.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:49:49.528Z"
+}

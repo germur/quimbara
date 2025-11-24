@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 399,
+    "name": "Raoni Barcelos",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/399.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "136 lbs",
+    "reach": "67'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 761,
+      "name": "Top Brother MMA"
+    },
+    "last_update": "2025-11-15T12:06:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 399,
+      "name": "Raoni Barcelos",
+      "photo": "https://media.api-sports.io/mma/fighters/399.png"
+    },
+    "total": {
+      "win": 21,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 1
+    },
+    "sub": {
+      "win": 3,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 522,
+      "date": "2023-01-15T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1673740800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Imavov",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 399,
+          "name": "Raoni Barcelos",
+          "logo": "https://media.api-sports.io/mma/fighters/399.png",
+          "winner": false
+        },
+        "second": {
+          "id": 842,
+          "name": "Umar Nurmagomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/842.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 833,
+      "date": "2023-08-05T23:20:00+00:00",
+      "time": "23:20",
+      "timestamp": 1691277600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Font",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 399,
+          "name": "Raoni Barcelos",
+          "logo": "https://media.api-sports.io/mma/fighters/399.png",
+          "winner": false
+        },
+        "second": {
+          "id": 698,
+          "name": "Kyler Phillips",
+          "logo": "https://media.api-sports.io/mma/fighters/698.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1212,
+      "date": "2024-02-24T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1708790400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Royval 2",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 399,
+          "name": "Raoni Barcelos",
+          "logo": "https://media.api-sports.io/mma/fighters/399.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2474,
+          "name": "Cristian QuiÃ±onez",
+          "logo": "https://media.api-sports.io/mma/fighters/2474.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1767,
+      "date": "2025-01-19T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1737253800,
+      "timezone": "UTC",
+      "slug": "UFC 311: Makhachev vs. Moicano",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 399,
+          "name": "Raoni Barcelos",
+          "logo": "https://media.api-sports.io/mma/fighters/399.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2618,
+          "name": "Payton Talbott",
+          "logo": "https://media.api-sports.io/mma/fighters/2618.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2103,
+      "date": "2025-06-15T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1749956400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Usman vs. Buckley",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 399,
+          "name": "Raoni Barcelos",
+          "logo": "https://media.api-sports.io/mma/fighters/399.png",
+          "winner": true
+        },
+        "second": {
+          "id": 133,
+          "name": "Cody Garbrandt",
+          "logo": "https://media.api-sports.io/mma/fighters/133.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2364,
+      "date": "2025-11-08T23:15:00+00:00",
+      "time": "23:15",
+      "timestamp": 1762643700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Bonfim vs. Brown",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 399,
+          "name": "Raoni Barcelos",
+          "logo": "https://media.api-sports.io/mma/fighters/399.png",
+          "winner": true
+        },
+        "second": {
+          "id": 72,
+          "name": "Ricky Simon",
+          "logo": "https://media.api-sports.io/mma/fighters/72.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:45.035Z"
+}

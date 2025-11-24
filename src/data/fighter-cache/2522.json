@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "id": 2522,
+    "name": "William Gomis",
+    "nickname": "The Jaguar",
+    "photo": "https://media.api-sports.io/mma/fighters/2522.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "145 lbs",
+    "reach": "73'",
+    "stance": "Southpaw",
+    "category": "Featherweight",
+    "team": {
+      "id": 113,
+      "name": "MMA Factory"
+    },
+    "last_update": "2025-09-13T12:09:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2522,
+      "name": "William Gomis",
+      "photo": "https://media.api-sports.io/mma/fighters/2522.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 0
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 665,
+      "date": "2023-04-22T20:55:00+00:00",
+      "time": "20:55",
+      "timestamp": 1682196900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Pavlovich vs. Blaydes",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2522,
+          "name": "William Gomis",
+          "logo": "https://media.api-sports.io/mma/fighters/2522.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2488,
+          "name": "Francis Marshall",
+          "logo": "https://media.api-sports.io/mma/fighters/2488.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 887,
+      "date": "2023-09-02T19:15:00+00:00",
+      "time": "19:15",
+      "timestamp": 1693682100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2430,
+          "name": "Lucas Almeida",
+          "logo": "https://media.api-sports.io/mma/fighters/2430.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2522,
+          "name": "William Gomis",
+          "logo": "https://media.api-sports.io/mma/fighters/2522.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 960,
+      "date": "2023-09-02T19:30:00+00:00",
+      "time": "19:30",
+      "timestamp": 1693683000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2611,
+          "name": "Yanis Ghemmouri",
+          "logo": "https://media.api-sports.io/mma/fighters/2611.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2522,
+          "name": "William Gomis",
+          "logo": "https://media.api-sports.io/mma/fighters/2522.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1133,
+      "date": "2024-02-04T00:15:00+00:00",
+      "time": "00:15",
+      "timestamp": 1707005700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dolidze vs. Imavov",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 813,
+          "name": "Melsik Baghdasaryan",
+          "logo": "https://media.api-sports.io/mma/fighters/813.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2522,
+          "name": "William Gomis",
+          "logo": "https://media.api-sports.io/mma/fighters/2522.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1330,
+      "date": "2024-05-05T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1714867200,
+      "timezone": "UTC",
+      "slug": "UFC 301: Pantoja vs. Erceg",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2522,
+          "name": "William Gomis",
+          "logo": "https://media.api-sports.io/mma/fighters/2522.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2666,
+          "name": "Jean Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/2666.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1586,
+      "date": "2024-09-28T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1727521200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moicano vs. Saint Denis",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2384,
+          "name": "Joanderson Brito",
+          "logo": "https://media.api-sports.io/mma/fighters/2384.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2522,
+          "name": "William Gomis",
+          "logo": "https://media.api-sports.io/mma/fighters/2522.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1882,
+      "date": "2025-03-02T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1740875400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kape vs. Almabayev",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2522,
+          "name": "William Gomis",
+          "logo": "https://media.api-sports.io/mma/fighters/2522.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2657,
+          "name": "Hyder Amil",
+          "logo": "https://media.api-sports.io/mma/fighters/2657.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2214,
+      "date": "2025-09-06T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1757185200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Imavov vs. Borralho",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2801,
+          "name": "Robert Ruchala",
+          "logo": "https://media.api-sports.io/mma/fighters/2801.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2522,
+          "name": "William Gomis",
+          "logo": "https://media.api-sports.io/mma/fighters/2522.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:21.298Z"
+}

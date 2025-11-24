@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 2398,
+    "name": "Brady Hiestand",
+    "nickname": "Bam Bam",
+    "photo": "https://media.api-sports.io/mma/fighters/2398.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "135 lbs",
+    "reach": "71'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 49,
+      "name": "Sikjitsu"
+    },
+    "last_update": "2025-06-05T09:09:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2398,
+      "name": "Brady Hiestand",
+      "photo": "https://media.api-sports.io/mma/fighters/2398.png"
+    },
+    "total": {
+      "win": 9,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 1
+    },
+    "sub": {
+      "win": 3,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 666,
+      "date": "2023-04-22T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1682193600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Pavlovich vs. Blaydes",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 583,
+          "name": "Batgerel Danaa",
+          "logo": "https://media.api-sports.io/mma/fighters/583.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2398,
+          "name": "Brady Hiestand",
+          "logo": "https://media.api-sports.io/mma/fighters/2398.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1460,
+      "date": "2024-06-15T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1718474400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Perez vs. Taira",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2491,
+          "name": "Garrett Armfield",
+          "logo": "https://media.api-sports.io/mma/fighters/2491.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2398,
+          "name": "Brady Hiestand",
+          "logo": "https://media.api-sports.io/mma/fighters/2398.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1666,
+      "date": "2024-10-19T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1729350000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hernandez vs. Pereira",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2494,
+          "name": "Jake Hadley",
+          "logo": "https://media.api-sports.io/mma/fighters/2494.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2398,
+          "name": "Brady Hiestand",
+          "logo": "https://media.api-sports.io/mma/fighters/2398.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:36.557Z"
+}

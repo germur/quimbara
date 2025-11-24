@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 673,
+    "name": "Matt Brown",
+    "nickname": "The Immortal",
+    "photo": "https://media.api-sports.io/mma/fighters/673.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "170 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 300,
+      "name": "Immortal Martial Arts"
+    },
+    "last_update": "2025-06-04T18:47:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 673,
+      "name": "Matt Brown",
+      "photo": "https://media.api-sports.io/mma/fighters/673.png"
+    },
+    "total": {
+      "win": 26,
+      "loss": 19,
+      "draw": 0
+    },
+    "ko": {
+      "win": 17,
+      "loss": 3
+    },
+    "sub": {
+      "win": 7,
+      "loss": 10
+    }
+  },
+  "fights": [
+    {
+      "id": 695,
+      "date": "2023-05-13T18:30:00+00:00",
+      "time": "18:30",
+      "timestamp": 1684002600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Almeida",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 272,
+          "name": "Court McGee",
+          "logo": "https://media.api-sports.io/mma/fighters/272.png",
+          "winner": false
+        },
+        "second": {
+          "id": 673,
+          "name": "Matt Brown",
+          "logo": "https://media.api-sports.io/mma/fighters/673.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:32.266Z"
+}

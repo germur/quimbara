@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 290,
+    "name": "Merab Dvalishvili",
+    "nickname": "The Machine",
+    "photo": "https://media.api-sports.io/mma/fighters/290.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "135 lbs",
+    "reach": "68'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 58,
+      "name": "Serra-Longo Fight"
+    },
+    "last_update": "2025-10-12T00:04:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 290,
+      "name": "Merab Dvalishvili",
+      "photo": "https://media.api-sports.io/mma/fighters/290.png"
+    },
+    "total": {
+      "win": 21,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 0
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 604,
+      "date": "2023-03-12T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1678584600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Dvalishvili",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 290,
+          "name": "Merab Dvalishvili",
+          "logo": "https://media.api-sports.io/mma/fighters/290.png",
+          "winner": true
+        },
+        "second": {
+          "id": 118,
+          "name": "Petr Yan",
+          "logo": "https://media.api-sports.io/mma/fighters/118.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1154,
+      "date": "2024-02-17T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1708196400,
+      "timezone": "UTC",
+      "slug": "UFC 298: Volkanovski vs. Topuria",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 21,
+          "name": "Henry Cejudo",
+          "logo": "https://media.api-sports.io/mma/fighters/21.png",
+          "winner": false
+        },
+        "second": {
+          "id": 290,
+          "name": "Merab Dvalishvili",
+          "logo": "https://media.api-sports.io/mma/fighters/290.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1181,
+      "date": "2024-09-14T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1726336800,
+      "timezone": "UTC",
+      "slug": "UFC 306 â Riyadh Season Noche UFC: OâMalley vs. Dvalishvili",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 290,
+          "name": "Merab Dvalishvili",
+          "logo": "https://media.api-sports.io/mma/fighters/290.png",
+          "winner": true
+        },
+        "second": {
+          "id": 479,
+          "name": "Sean O'Malley",
+          "logo": "https://media.api-sports.io/mma/fighters/479.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1776,
+      "date": "2025-01-19T04:30:00+00:00",
+      "time": "04:30",
+      "timestamp": 1737261000,
+      "timezone": "UTC",
+      "slug": "UFC 311: Makhachev vs. Moicano",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 842,
+          "name": "Umar Nurmagomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/842.png",
+          "winner": false
+        },
+        "second": {
+          "id": 290,
+          "name": "Merab Dvalishvili",
+          "logo": "https://media.api-sports.io/mma/fighters/290.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2022,
+      "date": "2025-06-08T04:45:00+00:00",
+      "time": "04:45",
+      "timestamp": 1749357900,
+      "timezone": "UTC",
+      "slug": "UFC 316: Dvalishvili vs. O'Malley 2",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 479,
+          "name": "Sean O'Malley",
+          "logo": "https://media.api-sports.io/mma/fighters/479.png",
+          "winner": false
+        },
+        "second": {
+          "id": 290,
+          "name": "Merab Dvalishvili",
+          "logo": "https://media.api-sports.io/mma/fighters/290.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2234,
+      "date": "2025-10-05T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1759635000,
+      "timezone": "UTC",
+      "slug": "UFC 320: Ankalaev vs. Pereira 2",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 20,
+          "name": "Cory Sandhagen",
+          "logo": "https://media.api-sports.io/mma/fighters/20.png",
+          "winner": false
+        },
+        "second": {
+          "id": 290,
+          "name": "Merab Dvalishvili",
+          "logo": "https://media.api-sports.io/mma/fighters/290.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2386,
+      "date": "2025-12-07T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1765076400,
+      "timezone": "UTC",
+      "slug": "UFC 323: Dvalishvili vs. Yan 2",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 118,
+          "name": "Petr Yan",
+          "logo": "https://media.api-sports.io/mma/fighters/118.png",
+          "winner": false
+        },
+        "second": {
+          "id": 290,
+          "name": "Merab Dvalishvili",
+          "logo": "https://media.api-sports.io/mma/fighters/290.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:33.897Z"
+}

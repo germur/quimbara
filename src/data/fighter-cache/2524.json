@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 2524,
+    "name": "Yohan Lainesse",
+    "nickname": "White Lion",
+    "photo": "https://media.api-sports.io/mma/fighters/2524.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "170 lbs",
+    "reach": "76'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 682,
+      "name": "Brazilian Top  Canada"
+    },
+    "last_update": "2025-06-05T10:12:35+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2524,
+      "name": "Yohan Lainesse",
+      "photo": "https://media.api-sports.io/mma/fighters/2524.png"
+    },
+    "total": {
+      "win": 9,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 1
+    },
+    "sub": {
+      "win": 0,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 582,
+      "date": "2023-02-26T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1677369600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Muniz vs. Allen",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2524,
+          "name": "Yohan Lainesse",
+          "logo": "https://media.api-sports.io/mma/fighters/2524.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2438,
+          "name": "Mike Malott",
+          "logo": "https://media.api-sports.io/mma/fighters/2438.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1111,
+      "date": "2024-01-20T15:30:00+00:00",
+      "time": "15:30",
+      "timestamp": 1705764600,
+      "timezone": "UTC",
+      "slug": "UFC 297: Strickland vs. Du Plessis",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2594,
+          "name": "Sam Patterson",
+          "logo": "https://media.api-sports.io/mma/fighters/2594.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2524,
+          "name": "Yohan Lainesse",
+          "logo": "https://media.api-sports.io/mma/fighters/2524.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:22.115Z"
+}

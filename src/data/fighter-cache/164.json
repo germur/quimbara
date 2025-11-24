@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 164,
+    "name": "Jorge Masvidal",
+    "nickname": "Gamebred",
+    "photo": "https://media.api-sports.io/mma/fighters/164.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "170 lbs",
+    "reach": "74'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 21,
+      "name": "American Top"
+    },
+    "last_update": "2025-06-04T14:32:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 164,
+      "name": "Jorge Masvidal",
+      "photo": "https://media.api-sports.io/mma/fighters/164.png"
+    },
+    "total": {
+      "win": 35,
+      "loss": 17,
+      "draw": 0
+    },
+    "ko": {
+      "win": 16,
+      "loss": 2
+    },
+    "sub": {
+      "win": 2,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 643,
+      "date": "2023-04-09T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1681011000,
+      "timezone": "UTC",
+      "slug": "UFC 287: Pereira vs. Adesanya 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 164,
+          "name": "Jorge Masvidal",
+          "logo": "https://media.api-sports.io/mma/fighters/164.png",
+          "winner": false
+        },
+        "second": {
+          "id": 396,
+          "name": "Gilbert Burns",
+          "logo": "https://media.api-sports.io/mma/fighters/396.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:19.768Z"
+}

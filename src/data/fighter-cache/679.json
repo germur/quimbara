@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 679,
+    "name": "Sean Brady",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/679.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "170 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 303,
+      "name": "Renzo Gracie Philly"
+    },
+    "last_update": "2025-11-23T00:09:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 679,
+      "name": "Sean Brady",
+      "photo": "https://media.api-sports.io/mma/fighters/679.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 1,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 1
+    },
+    "sub": {
+      "win": 6,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 1068,
+      "date": "2023-12-03T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1701565200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dariush vs. Tsarukyan",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 68,
+          "name": "Kelvin Gastelum",
+          "logo": "https://media.api-sports.io/mma/fighters/68.png",
+          "winner": false
+        },
+        "second": {
+          "id": 679,
+          "name": "Sean Brady",
+          "logo": "https://media.api-sports.io/mma/fighters/679.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1175,
+      "date": "2024-03-31T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1711857600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Brady vs. Luque",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 99,
+          "name": "Vicente Luque",
+          "logo": "https://media.api-sports.io/mma/fighters/99.png",
+          "winner": false
+        },
+        "second": {
+          "id": 679,
+          "name": "Sean Brady",
+          "logo": "https://media.api-sports.io/mma/fighters/679.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1501,
+      "date": "2024-09-07T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1725721200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Brady",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 679,
+          "name": "Sean Brady",
+          "logo": "https://media.api-sports.io/mma/fighters/679.png",
+          "winner": true
+        },
+        "second": {
+          "id": 396,
+          "name": "Gilbert Burns",
+          "logo": "https://media.api-sports.io/mma/fighters/396.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1920,
+      "date": "2025-03-22T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1742682600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Edwards vs. Brady",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 679,
+          "name": "Sean Brady",
+          "logo": "https://media.api-sports.io/mma/fighters/679.png",
+          "winner": true
+        },
+        "second": {
+          "id": 165,
+          "name": "Leon Edwards",
+          "logo": "https://media.api-sports.io/mma/fighters/165.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2374,
+      "date": "2025-11-16T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1763265600,
+      "timezone": "UTC",
+      "slug": "UFC 322: Della Maddalena vs. Makhachev",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2425,
+          "name": "Michael Morales",
+          "logo": "https://media.api-sports.io/mma/fighters/2425.png",
+          "winner": true
+        },
+        "second": {
+          "id": 679,
+          "name": "Sean Brady",
+          "logo": "https://media.api-sports.io/mma/fighters/679.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:04.104Z"
+}

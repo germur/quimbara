@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 2474,
+    "name": "Cristian QuiÃ±onez",
+    "nickname": "Problema",
+    "photo": "https://media.api-sports.io/mma/fighters/2474.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "135 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 79,
+      "name": "Entram Gym"
+    },
+    "last_update": "2025-11-15T12:00:37+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2474,
+      "name": "Cristian QuiÃ±onez",
+      "photo": "https://media.api-sports.io/mma/fighters/2474.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 10,
+      "loss": 2
+    },
+    "sub": {
+      "win": 3,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 743,
+      "date": "2023-06-18T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1687050000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Cannonier",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2474,
+          "name": "Cristian QuiÃ±onez",
+          "logo": "https://media.api-sports.io/mma/fighters/2474.png",
+          "winner": false
+        },
+        "second": {
+          "id": 66,
+          "name": "Kyung Ho Kang",
+          "logo": "https://media.api-sports.io/mma/fighters/66.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1212,
+      "date": "2024-02-24T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1708790400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Royval 2",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 399,
+          "name": "Raoni Barcelos",
+          "logo": "https://media.api-sports.io/mma/fighters/399.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2474,
+          "name": "Cristian QuiÃ±onez",
+          "logo": "https://media.api-sports.io/mma/fighters/2474.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2332,
+      "date": "2025-11-08T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1762606800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Bonfim vs. Brown",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2474,
+          "name": "Cristian QuiÃ±onez",
+          "logo": "https://media.api-sports.io/mma/fighters/2474.png",
+          "winner": false
+        },
+        "second": {
+          "id": 769,
+          "name": "Adrian Yanez",
+          "logo": "https://media.api-sports.io/mma/fighters/769.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:55.975Z"
+}

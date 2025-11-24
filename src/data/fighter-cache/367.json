@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 367,
+    "name": "Rafael Dos Anjos",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/367.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "171 lbs",
+    "reach": "70'",
+    "stance": "Southpaw",
+    "category": "Welterweight",
+    "team": {
+      "id": 29,
+      "name": "Nova Uniao"
+    },
+    "last_update": "2025-06-04T16:14:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 367,
+      "name": "Rafael Dos Anjos",
+      "photo": "https://media.api-sports.io/mma/fighters/367.png"
+    },
+    "total": {
+      "win": 32,
+      "loss": 17,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 4
+    },
+    "sub": {
+      "win": 11,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 853,
+      "date": "2023-08-13T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1691890200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Luque vs. Dos Anjos",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 367,
+          "name": "Rafael Dos Anjos",
+          "logo": "https://media.api-sports.io/mma/fighters/367.png",
+          "winner": false
+        },
+        "second": {
+          "id": 99,
+          "name": "Vicente Luque",
+          "logo": "https://media.api-sports.io/mma/fighters/99.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1166,
+      "date": "2024-03-09T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1710003600,
+      "timezone": "UTC",
+      "slug": "UFC 299: O'Malley vs. Vera 2",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 367,
+          "name": "Rafael Dos Anjos",
+          "logo": "https://media.api-sports.io/mma/fighters/367.png",
+          "winner": false
+        },
+        "second": {
+          "id": 860,
+          "name": "Mateusz Gamrot",
+          "logo": "https://media.api-sports.io/mma/fighters/860.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1575,
+      "date": "2024-10-26T06:00:00+00:00",
+      "time": "06:00",
+      "timestamp": 1729922400,
+      "timezone": "UTC",
+      "slug": "UFC 308: Topuria vs. Holloway",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 367,
+          "name": "Rafael Dos Anjos",
+          "logo": "https://media.api-sports.io/mma/fighters/367.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2,
+          "name": "Geoff Neal",
+          "logo": "https://media.api-sports.io/mma/fighters/2.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:53.019Z"
+}

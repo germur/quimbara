@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 2503,
+    "name": "Manuel Torres",
+    "nickname": "El Loco",
+    "photo": "https://media.api-sports.io/mma/fighters/2503.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "156 lbs",
+    "reach": "73'",
+    "stance": "Switch",
+    "category": "Lightweight",
+    "team": {
+      "id": 79,
+      "name": "Entram Gym"
+    },
+    "last_update": "2025-06-05T10:02:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2503,
+      "name": "Manuel Torres",
+      "photo": "https://media.api-sports.io/mma/fighters/2503.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 1
+    },
+    "sub": {
+      "win": 7,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 752,
+      "date": "2023-06-18T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1687055400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Cannonier",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 878,
+          "name": "Nikolas Motta",
+          "logo": "https://media.api-sports.io/mma/fighters/878.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2503,
+          "name": "Manuel Torres",
+          "logo": "https://media.api-sports.io/mma/fighters/2503.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1196,
+      "date": "2024-02-24T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1708801200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Royval 2",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2379,
+          "name": "Chris Duncan",
+          "logo": "https://media.api-sports.io/mma/fighters/2379.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2503,
+          "name": "Manuel Torres",
+          "logo": "https://media.api-sports.io/mma/fighters/2503.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1557,
+      "date": "2024-09-14T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1726329600,
+      "timezone": "UTC",
+      "slug": "UFC 306 â Riyadh Season Noche UFC: OâMalley vs. Dvalishvili",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 867,
+          "name": "Ignacio Bahamondes",
+          "logo": "https://media.api-sports.io/mma/fighters/867.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2503,
+          "name": "Manuel Torres",
+          "logo": "https://media.api-sports.io/mma/fighters/2503.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1925,
+      "date": "2025-03-30T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1743292800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Erceg",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 150,
+          "name": "Drew Dober",
+          "logo": "https://media.api-sports.io/mma/fighters/150.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2503,
+          "name": "Manuel Torres",
+          "logo": "https://media.api-sports.io/mma/fighters/2503.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2382,
+      "date": "2025-12-07T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1765074600,
+      "timezone": "UTC",
+      "slug": "UFC 323: Dvalishvili vs. Yan 2",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 2503,
+          "name": "Manuel Torres",
+          "logo": "https://media.api-sports.io/mma/fighters/2503.png",
+          "winner": false
+        },
+        "second": {
+          "id": 215,
+          "name": "Grant Dawson",
+          "logo": "https://media.api-sports.io/mma/fighters/215.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:41.911Z"
+}

@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 541,
+    "name": "Daniel Rodriguez",
+    "nickname": "D-Rod",
+    "photo": "https://media.api-sports.io/mma/fighters/541.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "170 lbs",
+    "reach": "74'",
+    "stance": "Southpaw",
+    "category": "Welterweight",
+    "team": {
+      "id": 31,
+      "name": "Xtreme Couture"
+    },
+    "last_update": "2025-06-04T17:41:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 541,
+      "name": "Daniel Rodriguez",
+      "photo": "https://media.api-sports.io/mma/fighters/541.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 1
+    },
+    "sub": {
+      "win": 4,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 703,
+      "date": "2023-05-13T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1684008000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Almeida",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2434,
+          "name": "Ian Garry",
+          "logo": "https://media.api-sports.io/mma/fighters/2434.png",
+          "winner": true
+        },
+        "second": {
+          "id": 541,
+          "name": "Daniel Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/541.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 910,
+      "date": "2023-09-16T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1694887200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Grasso vs. Shevchenko 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 897,
+          "name": "Santiago Ponzinibbio",
+          "logo": "https://media.api-sports.io/mma/fighters/897.png",
+          "winner": false
+        },
+        "second": {
+          "id": 541,
+          "name": "Daniel Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/541.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1350,
+      "date": "2024-06-22T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1719054000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 541,
+          "name": "Daniel Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/541.png",
+          "winner": false
+        },
+        "second": {
+          "id": 68,
+          "name": "Kelvin Gastelum",
+          "logo": "https://media.api-sports.io/mma/fighters/68.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1690,
+      "date": "2024-10-12T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1728745200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Taira",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 219,
+          "name": "Alex Morono",
+          "logo": "https://media.api-sports.io/mma/fighters/219.png",
+          "winner": false
+        },
+        "second": {
+          "id": 541,
+          "name": "Daniel Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/541.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1997,
+      "date": "2025-05-04T03:55:00+00:00",
+      "time": "03:55",
+      "timestamp": 1746330900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Figueiredo",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 541,
+          "name": "Daniel Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/541.png",
+          "winner": true
+        },
+        "second": {
+          "id": 897,
+          "name": "Santiago Ponzinibbio",
+          "logo": "https://media.api-sports.io/mma/fighters/897.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2182,
+      "date": "2025-07-19T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1752948000,
+      "timezone": "UTC",
+      "slug": "UFC 318: Holloway vs. Poirier 3",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 541,
+          "name": "Daniel Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/541.png",
+          "winner": true
+        },
+        "second": {
+          "id": 317,
+          "name": "Kevin Holland",
+          "logo": "https://media.api-sports.io/mma/fighters/317.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:54.749Z"
+}

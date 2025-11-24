@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 402,
+    "name": "Clay Guida",
+    "nickname": "The Carpenter",
+    "photo": "https://media.api-sports.io/mma/fighters/402.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "154 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 23,
+      "name": "Alpha Male"
+    },
+    "last_update": "2025-06-04T16:31:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 402,
+      "name": "Clay Guida",
+      "photo": "https://media.api-sports.io/mma/fighters/402.png"
+    },
+    "total": {
+      "win": 38,
+      "loss": 21,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 2
+    },
+    "sub": {
+      "win": 15,
+      "loss": 9
+    }
+  },
+  "fights": [
+    {
+      "id": 660,
+      "date": "2023-04-16T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1681605000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. Allen",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 907,
+          "name": "Rafa Garcia",
+          "logo": "https://media.api-sports.io/mma/fighters/907.png",
+          "winner": true
+        },
+        "second": {
+          "id": 402,
+          "name": "Clay Guida",
+          "logo": "https://media.api-sports.io/mma/fighters/402.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1058,
+      "date": "2023-12-03T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1701563400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dariush vs. Tsarukyan",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 566,
+          "name": "Joaquim Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/566.png",
+          "winner": true
+        },
+        "second": {
+          "id": 402,
+          "name": "Clay Guida",
+          "logo": "https://media.api-sports.io/mma/fighters/402.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1730,
+      "date": "2024-12-07T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1733583600,
+      "timezone": "UTC",
+      "slug": "UFC 310: Pantoja vs. Asakura",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 685,
+          "name": "Chase Hooper",
+          "logo": "https://media.api-sports.io/mma/fighters/685.png",
+          "winner": true
+        },
+        "second": {
+          "id": 402,
+          "name": "Clay Guida",
+          "logo": "https://media.api-sports.io/mma/fighters/402.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:44.093Z"
+}

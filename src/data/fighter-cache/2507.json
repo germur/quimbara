@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2507,
+    "name": "Muhammad Mokaev",
+    "nickname": "The Punisher",
+    "photo": "https://media.api-sports.io/mma/fighters/2507.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "126 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 679,
+      "name": "KHK MMA"
+    },
+    "last_update": "2025-06-05T10:04:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2507,
+      "name": "Muhammad Mokaev",
+      "photo": "https://media.api-sports.io/mma/fighters/2507.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 0,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 0
+    },
+    "sub": {
+      "win": 6,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 619,
+      "date": "2023-03-18T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1679166000,
+      "timezone": "UTC",
+      "slug": "UFC 286: Edwards vs. Usman 3",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2563,
+          "name": "Jafel Filho",
+          "logo": "https://media.api-sports.io/mma/fighters/2563.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2507,
+          "name": "Muhammad Mokaev",
+          "logo": "https://media.api-sports.io/mma/fighters/2507.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 972,
+      "date": "2023-10-21T17:45:00+00:00",
+      "time": "17:45",
+      "timestamp": 1697910300,
+      "timezone": "UTC",
+      "slug": "UFC 294: Makhachev vs. Volkanovski 2",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2507,
+          "name": "Muhammad Mokaev",
+          "logo": "https://media.api-sports.io/mma/fighters/2507.png",
+          "winner": true
+        },
+        "second": {
+          "id": 660,
+          "name": "Tim Elliott",
+          "logo": "https://media.api-sports.io/mma/fighters/660.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1273,
+      "date": "2024-03-02T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1709384400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Gaziev",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2507,
+          "name": "Muhammad Mokaev",
+          "logo": "https://media.api-sports.io/mma/fighters/2507.png",
+          "winner": true
+        },
+        "second": {
+          "id": 314,
+          "name": "Alex Perez",
+          "logo": "https://media.api-sports.io/mma/fighters/314.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1440,
+      "date": "2024-07-27T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1722096000,
+      "timezone": "UTC",
+      "slug": "UFC 304: Edwards vs. Muhammad 2",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 892,
+          "name": "Manel Kape",
+          "logo": "https://media.api-sports.io/mma/fighters/892.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2507,
+          "name": "Muhammad Mokaev",
+          "logo": "https://media.api-sports.io/mma/fighters/2507.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:59:03.479Z"
+}

@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2641,
+    "name": "ChangHo Lee",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2641.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "136 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 779,
+      "name": "Extreme Combat"
+    },
+    "last_update": "2025-11-08T12:45:35+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2641,
+      "name": "ChangHo Lee",
+      "photo": "https://media.api-sports.io/mma/fighters/2641.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 1,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 0
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 1076,
+      "date": "2023-12-09T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1702137600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2641,
+          "name": "ChangHo Lee",
+          "logo": "https://media.api-sports.io/mma/fighters/2641.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2647,
+          "name": "Xiao Long",
+          "logo": "https://media.api-sports.io/mma/fighters/2647.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1453,
+      "date": "2024-06-22T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1719043200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2641,
+          "name": "ChangHo Lee",
+          "logo": "https://media.api-sports.io/mma/fighters/2641.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2647,
+          "name": "Xiao Long",
+          "logo": "https://media.api-sports.io/mma/fighters/2647.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1949,
+      "date": "2025-04-06T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1743904800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Murphy",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2641,
+          "name": "ChangHo Lee",
+          "logo": "https://media.api-sports.io/mma/fighters/2641.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2738,
+          "name": "Cortavious Romious",
+          "logo": "https://media.api-sports.io/mma/fighters/2738.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2349,
+      "date": "2025-11-01T21:40:00+00:00",
+      "time": "21:40",
+      "timestamp": 1762033200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Garcia vs. Onama",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2641,
+          "name": "ChangHo Lee",
+          "logo": "https://media.api-sports.io/mma/fighters/2641.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2676,
+          "name": "Timmy Cuamba",
+          "logo": "https://media.api-sports.io/mma/fighters/2676.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:46.232Z"
+}

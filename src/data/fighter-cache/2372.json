@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 2372,
+    "name": "Preston Parsons",
+    "nickname": "Pressure",
+    "photo": "https://media.api-sports.io/mma/fighters/2372.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "171 lbs",
+    "reach": "71'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 767,
+      "name": "Gracie Barra South Jax"
+    },
+    "last_update": "2025-06-05T08:56:35+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2372,
+      "name": "Preston Parsons",
+      "photo": "https://media.api-sports.io/mma/fighters/2372.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 0,
+      "loss": 3
+    },
+    "sub": {
+      "win": 9,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 626,
+      "date": "2023-03-25T21:30:00+00:00",
+      "time": "21:30",
+      "timestamp": 1679779800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vera vs. Sandhagen",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2372,
+          "name": "Preston Parsons",
+          "logo": "https://media.api-sports.io/mma/fighters/2372.png",
+          "winner": false
+        },
+        "second": {
+          "id": 370,
+          "name": "Trevin Giles",
+          "logo": "https://media.api-sports.io/mma/fighters/370.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1190,
+      "date": "2024-01-13T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1705150800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ankalaev vs. Walker 2",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2372,
+          "name": "Preston Parsons",
+          "logo": "https://media.api-sports.io/mma/fighters/2372.png",
+          "winner": true
+        },
+        "second": {
+          "id": 809,
+          "name": "Matthew Semelsberger",
+          "logo": "https://media.api-sports.io/mma/fighters/809.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1468,
+      "date": "2024-07-27T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1722088800,
+      "timezone": "UTC",
+      "slug": "UFC 304: Edwards vs. Muhammad 2",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2372,
+          "name": "Preston Parsons",
+          "logo": "https://media.api-sports.io/mma/fighters/2372.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2667,
+          "name": "Oban Elliott",
+          "logo": "https://media.api-sports.io/mma/fighters/2667.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1817,
+      "date": "2025-01-11T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1736600400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs Ribas 2",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2748,
+          "name": "Andreas Gustafsson",
+          "logo": "https://media.api-sports.io/mma/fighters/2748.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2372,
+          "name": "Preston Parsons",
+          "logo": "https://media.api-sports.io/mma/fighters/2372.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1842,
+      "date": "2025-01-11T22:50:00+00:00",
+      "time": "22:50",
+      "timestamp": 1736635800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs Ribas 2",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2754,
+          "name": "Jacobe Smith",
+          "logo": "https://media.api-sports.io/mma/fighters/2754.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2372,
+          "name": "Preston Parsons",
+          "logo": "https://media.api-sports.io/mma/fighters/2372.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:50.225Z"
+}

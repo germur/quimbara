@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 333,
+    "name": "Islam Makhachev",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/333.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "170 lbs",
+    "reach": "70.5'",
+    "stance": "Southpaw",
+    "category": "Welterweight",
+    "team": {
+      "id": 163,
+      "name": "Eagles MMA"
+    },
+    "last_update": "2025-11-23T00:11:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 333,
+      "name": "Islam Makhachev",
+      "photo": "https://media.api-sports.io/mma/fighters/333.png"
+    },
+    "total": {
+      "win": 28,
+      "loss": 1,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 1
+    },
+    "sub": {
+      "win": 13,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 557,
+      "date": "2023-02-12T05:00:00+00:00",
+      "time": "05:00",
+      "timestamp": 1676178000,
+      "timezone": "UTC",
+      "slug": "UFC 284: Makhachev vs. Volkanovski",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 361,
+          "name": "Alexander Volkanovski",
+          "logo": "https://media.api-sports.io/mma/fighters/361.png",
+          "winner": false
+        },
+        "second": {
+          "id": 333,
+          "name": "Islam Makhachev",
+          "logo": "https://media.api-sports.io/mma/fighters/333.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 919,
+      "date": "2023-10-21T20:15:00+00:00",
+      "time": "20:15",
+      "timestamp": 1697919300,
+      "timezone": "UTC",
+      "slug": "UFC 294: Makhachev vs. Volkanovski 2",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 361,
+          "name": "Alexander Volkanovski",
+          "logo": "https://media.api-sports.io/mma/fighters/361.png",
+          "winner": false
+        },
+        "second": {
+          "id": 333,
+          "name": "Islam Makhachev",
+          "logo": "https://media.api-sports.io/mma/fighters/333.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1361,
+      "date": "2024-06-01T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1717264800,
+      "timezone": "UTC",
+      "slug": "UFC 302: Makhachev vs. Poirier",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 255,
+          "name": "Dustin Poirier",
+          "logo": "https://media.api-sports.io/mma/fighters/255.png",
+          "winner": false
+        },
+        "second": {
+          "id": 333,
+          "name": "Islam Makhachev",
+          "logo": "https://media.api-sports.io/mma/fighters/333.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1775,
+      "date": "2025-01-18T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1737226800,
+      "timezone": "UTC",
+      "slug": "UFC 311: Makhachev vs. Tsarukyan 2",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 332,
+          "name": "Arman Tsarukyan",
+          "logo": "https://media.api-sports.io/mma/fighters/332.png",
+          "winner": false
+        },
+        "second": {
+          "id": 333,
+          "name": "Islam Makhachev",
+          "logo": "https://media.api-sports.io/mma/fighters/333.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1873,
+      "date": "2025-01-19T05:00:00+00:00",
+      "time": "05:00",
+      "timestamp": 1737262800,
+      "timezone": "UTC",
+      "slug": "UFC 311: Makhachev vs. Moicano",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 44,
+          "name": "Renato Moicano",
+          "logo": "https://media.api-sports.io/mma/fighters/44.png",
+          "winner": false
+        },
+        "second": {
+          "id": 333,
+          "name": "Islam Makhachev",
+          "logo": "https://media.api-sports.io/mma/fighters/333.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2296,
+      "date": "2025-11-16T05:30:00+00:00",
+      "time": "05:30",
+      "timestamp": 1763271000,
+      "timezone": "UTC",
+      "slug": "UFC 322: Della Maddalena vs. Makhachev",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 333,
+          "name": "Islam Makhachev",
+          "logo": "https://media.api-sports.io/mma/fighters/333.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2411,
+          "name": "Jack Della Maddalena",
+          "logo": "https://media.api-sports.io/mma/fighters/2411.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:10.122Z"
+}

@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 58,
+    "name": "Jonathan Martinez",
+    "nickname": "Dragon",
+    "photo": "https://media.api-sports.io/mma/fighters/58.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "136 lbs",
+    "reach": "70'",
+    "stance": "Southpaw",
+    "category": "Bantamweight",
+    "team": {
+      "id": 753,
+      "name": "MTZ Fight Club"
+    },
+    "last_update": "2025-06-04T13:39:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 58,
+      "name": "Jonathan Martinez",
+      "photo": "https://media.api-sports.io/mma/fighters/58.png"
+    },
+    "total": {
+      "win": 19,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 607,
+      "date": "2023-03-12T00:15:00+00:00",
+      "time": "00:15",
+      "timestamp": 1678580100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Dvalishvili",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 58,
+          "name": "Jonathan Martinez",
+          "logo": "https://media.api-sports.io/mma/fighters/58.png",
+          "winner": true
+        },
+        "second": {
+          "id": 38,
+          "name": "Said Nurmagomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/38.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 992,
+      "date": "2023-10-15T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1697329800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yusuff vs. Barboza",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 769,
+          "name": "Adrian Yanez",
+          "logo": "https://media.api-sports.io/mma/fighters/769.png",
+          "winner": false
+        },
+        "second": {
+          "id": 58,
+          "name": "Jonathan Martinez",
+          "logo": "https://media.api-sports.io/mma/fighters/58.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1335,
+      "date": "2024-05-04T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1714845600,
+      "timezone": "UTC",
+      "slug": "UFC 301: Pantoja vs. Erceg",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 58,
+          "name": "Jonathan Martinez",
+          "logo": "https://media.api-sports.io/mma/fighters/58.png",
+          "winner": false
+        },
+        "second": {
+          "id": 43,
+          "name": "JosÃ© Aldo",
+          "logo": "https://media.api-sports.io/mma/fighters/43.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1695,
+      "date": "2024-11-16T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1731776400,
+      "timezone": "UTC",
+      "slug": "UFC 309: Jones vs. Miocic",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2580,
+          "name": "Marcus McGhee",
+          "logo": "https://media.api-sports.io/mma/fighters/2580.png",
+          "winner": true
+        },
+        "second": {
+          "id": 58,
+          "name": "Jonathan Martinez",
+          "logo": "https://media.api-sports.io/mma/fighters/58.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:17.226Z"
+}

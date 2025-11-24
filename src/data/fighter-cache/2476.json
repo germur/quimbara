@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 2476,
+    "name": "Dan Argueta",
+    "nickname": "The Determined",
+    "photo": "https://media.api-sports.io/mma/fighters/2476.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "138 lbs",
+    "reach": "70'",
+    "stance": "Southpaw",
+    "category": "Bantamweight",
+    "team": {
+      "id": 759,
+      "name": "Bloodline Combat"
+    },
+    "last_update": "2025-06-05T09:48:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2476,
+      "name": "Dan Argueta",
+      "photo": "https://media.api-sports.io/mma/fighters/2476.png"
+    },
+    "total": {
+      "win": 9,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 0
+    },
+    "sub": {
+      "win": 4,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 516,
+      "date": "2023-01-14T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1673701200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Imavov",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2587,
+          "name": "Nick Aguirre",
+          "logo": "https://media.api-sports.io/mma/fighters/2587.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2476,
+          "name": "Dan Argueta",
+          "logo": "https://media.api-sports.io/mma/fighters/2476.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 746,
+      "date": "2023-06-17T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1687014000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Cannonier",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 816,
+          "name": "Ronnie Lawrence",
+          "logo": "https://media.api-sports.io/mma/fighters/816.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2476,
+          "name": "Dan Argueta",
+          "logo": "https://media.api-sports.io/mma/fighters/2476.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 915,
+      "date": "2023-09-23T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1695508200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Fiziev vs. Gamrot",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 467,
+          "name": "Miles Johns",
+          "logo": "https://media.api-sports.io/mma/fighters/467.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2476,
+          "name": "Dan Argueta",
+          "logo": "https://media.api-sports.io/mma/fighters/2476.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1306,
+      "date": "2024-04-06T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1712401200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Curtis 2",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2685,
+          "name": "Jean Matsumoto",
+          "logo": "https://media.api-sports.io/mma/fighters/2685.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2476,
+          "name": "Dan Argueta",
+          "logo": "https://media.api-sports.io/mma/fighters/2476.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1688,
+      "date": "2024-10-12T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1728734400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Taira",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2730,
+          "name": "Cody Haddon",
+          "logo": "https://media.api-sports.io/mma/fighters/2730.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2476,
+          "name": "Dan Argueta",
+          "logo": "https://media.api-sports.io/mma/fighters/2476.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:58.778Z"
+}

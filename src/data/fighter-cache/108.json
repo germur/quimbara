@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 108,
+    "name": "Michal Oleksiejczuk",
+    "nickname": "Hussar",
+    "photo": "https://media.api-sports.io/mma/fighters/108.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "186 lbs",
+    "reach": "74'",
+    "stance": "Southpaw",
+    "category": "Middleweight",
+    "team": {
+      "id": 667,
+      "name": "Fighting Nerds"
+    },
+    "last_update": "2025-08-24T00:02:38+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 108,
+      "name": "Michal Oleksiejczuk",
+      "photo": "https://media.api-sports.io/mma/fighters/108.png"
+    },
+    "total": {
+      "win": 20,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 15,
+      "loss": 1
+    },
+    "sub": {
+      "win": 1,
+      "loss": 6
+    }
+  },
+  "fights": [
+    {
+      "id": 678,
+      "date": "2023-04-30T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1682816400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Simon",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 108,
+          "name": "Michal Oleksiejczuk",
+          "logo": "https://media.api-sports.io/mma/fighters/108.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2428,
+          "name": "Caio Borralho",
+          "logo": "https://media.api-sports.io/mma/fighters/2428.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 873,
+      "date": "2023-08-26T10:40:00+00:00",
+      "time": "10:40",
+      "timestamp": 1693046400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. The Korean Zombie",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 108,
+          "name": "Michal Oleksiejczuk",
+          "logo": "https://media.api-sports.io/mma/fighters/108.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2391,
+          "name": "Chidi Njokuani",
+          "logo": "https://media.api-sports.io/mma/fighters/2391.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1206,
+      "date": "2024-03-09T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1709996400,
+      "timezone": "UTC",
+      "slug": "UFC 299: O'Malley vs. Vera 2",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 108,
+          "name": "Michal Oleksiejczuk",
+          "logo": "https://media.api-sports.io/mma/fighters/108.png",
+          "winner": false
+        },
+        "second": {
+          "id": 426,
+          "name": "Michel Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/426.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1428,
+      "date": "2024-06-01T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1717264800,
+      "timezone": "UTC",
+      "slug": "UFC 302: Makhachev vs. Poirier",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 108,
+          "name": "Michal Oleksiejczuk",
+          "logo": "https://media.api-sports.io/mma/fighters/108.png",
+          "winner": false
+        },
+        "second": {
+          "id": 317,
+          "name": "Kevin Holland",
+          "logo": "https://media.api-sports.io/mma/fighters/317.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1538,
+      "date": "2024-08-03T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1722682800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 108,
+          "name": "Michal Oleksiejczuk",
+          "logo": "https://media.api-sports.io/mma/fighters/108.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2630,
+          "name": "Shara Magomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/2630.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1930,
+      "date": "2025-04-12T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1744500600,
+      "timezone": "UTC",
+      "slug": "UFC 314: Volkanovski vs. Lopes",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 108,
+          "name": "Michal Oleksiejczuk",
+          "logo": "https://media.api-sports.io/mma/fighters/108.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2595,
+          "name": "Sedriques Dumas",
+          "logo": "https://media.api-sports.io/mma/fighters/2595.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2153,
+      "date": "2025-08-17T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1755392400,
+      "timezone": "UTC",
+      "slug": "UFC 319: Du Plessis vs. Chimaev",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 108,
+          "name": "Michal Oleksiejczuk",
+          "logo": "https://media.api-sports.io/mma/fighters/108.png",
+          "winner": true
+        },
+        "second": {
+          "id": 316,
+          "name": "Gerald Meerschaert",
+          "logo": "https://media.api-sports.io/mma/fighters/316.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:04.941Z"
+}

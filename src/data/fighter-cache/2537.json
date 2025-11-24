@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 2537,
+    "name": "Carl Deaton",
+    "nickname": "The Anishinaabe Kid",
+    "photo": "https://media.api-sports.io/mma/fighters/2537.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "155 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 707,
+      "name": "The Academy MN"
+    },
+    "last_update": "2025-06-05T10:19:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2537,
+      "name": "Carl Deaton",
+      "photo": "https://media.api-sports.io/mma/fighters/2537.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 1
+    },
+    "sub": {
+      "win": 9,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 577,
+      "date": "2023-02-25T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1677358800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Muniz vs. Allen",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2537,
+          "name": "Carl Deaton",
+          "logo": "https://media.api-sports.io/mma/fighters/2537.png",
+          "winner": false
+        },
+        "second": {
+          "id": 481,
+          "name": "Joe Solecki",
+          "logo": "https://media.api-sports.io/mma/fighters/481.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 797,
+      "date": "2023-07-15T23:25:00+00:00",
+      "time": "23:25",
+      "timestamp": 1689463500,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holm vs. Bueno Silva",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2537,
+          "name": "Carl Deaton",
+          "logo": "https://media.api-sports.io/mma/fighters/2537.png",
+          "winner": false
+        },
+        "second": {
+          "id": 696,
+          "name": "Alexander Munoz",
+          "logo": "https://media.api-sports.io/mma/fighters/696.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:35.877Z"
+}

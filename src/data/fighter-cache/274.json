@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 274,
+    "name": "Jim Miller",
+    "nickname": "A-10",
+    "photo": "https://media.api-sports.io/mma/fighters/274.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "156 lbs",
+    "reach": "71'",
+    "stance": "Southpaw",
+    "category": "Lightweight",
+    "team": {
+      "id": 145,
+      "name": "Sussex County MMA"
+    },
+    "last_update": "2025-06-04T15:27:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 274,
+      "name": "Jim Miller",
+      "photo": "https://media.api-sports.io/mma/fighters/274.png"
+    },
+    "total": {
+      "win": 38,
+      "loss": 19,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 2
+    },
+    "sub": {
+      "win": 21,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 572,
+      "date": "2023-02-19T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1676764800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Andrade vs. Blanchfield",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 17,
+          "name": "Alexander Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/17.png",
+          "winner": true
+        },
+        "second": {
+          "id": 274,
+          "name": "Jim Miller",
+          "logo": "https://media.api-sports.io/mma/fighters/274.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 727,
+      "date": "2023-06-04T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1685845800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kara-France vs. Albazi",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2568,
+          "name": "Jesse Butler",
+          "logo": "https://media.api-sports.io/mma/fighters/2568.png",
+          "winner": false
+        },
+        "second": {
+          "id": 274,
+          "name": "Jim Miller",
+          "logo": "https://media.api-sports.io/mma/fighters/274.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1105,
+      "date": "2024-01-13T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1705161600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ankalaev vs. Walker 2",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 547,
+          "name": "Gabriel Benitez",
+          "logo": "https://media.api-sports.io/mma/fighters/547.png",
+          "winner": false
+        },
+        "second": {
+          "id": 274,
+          "name": "Jim Miller",
+          "logo": "https://media.api-sports.io/mma/fighters/274.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1222,
+      "date": "2024-04-13T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1713016800,
+      "timezone": "UTC",
+      "slug": "UFC 300: Pereira vs. Hill",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 274,
+          "name": "Jim Miller",
+          "logo": "https://media.api-sports.io/mma/fighters/274.png",
+          "winner": false
+        },
+        "second": {
+          "id": 670,
+          "name": "King Green",
+          "logo": "https://media.api-sports.io/mma/fighters/670.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1733,
+      "date": "2024-11-16T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1731776400,
+      "timezone": "UTC",
+      "slug": "UFC 309: Jones vs. Miocic",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 848,
+          "name": "Damon Jackson",
+          "logo": "https://media.api-sports.io/mma/fighters/848.png",
+          "winner": false
+        },
+        "second": {
+          "id": 274,
+          "name": "Jim Miller",
+          "logo": "https://media.api-sports.io/mma/fighters/274.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1935,
+      "date": "2025-04-13T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1744504200,
+      "timezone": "UTC",
+      "slug": "UFC 314: Volkanovski vs. Lopes",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 685,
+          "name": "Chase Hooper",
+          "logo": "https://media.api-sports.io/mma/fighters/685.png",
+          "winner": true
+        },
+        "second": {
+          "id": 274,
+          "name": "Jim Miller",
+          "logo": "https://media.api-sports.io/mma/fighters/274.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:17.918Z"
+}

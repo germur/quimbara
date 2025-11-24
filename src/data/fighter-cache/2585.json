@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "id": 2585,
+    "name": "Morgan CharriÃ¨re",
+    "nickname": "The Last Pirate",
+    "photo": "https://media.api-sports.io/mma/fighters/2585.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "146 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 721,
+      "name": "Chapa Quente"
+    },
+    "last_update": "2025-07-20T00:03:38+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2585,
+      "name": "Morgan CharriÃ¨re",
+      "photo": "https://media.api-sports.io/mma/fighters/2585.png"
+    },
+    "total": {
+      "win": 20,
+      "loss": 11,
+      "draw": 1
+    },
+    "ko": {
+      "win": 12,
+      "loss": 0
+    },
+    "sub": {
+      "win": 3,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 894,
+      "date": "2023-09-02T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1693681200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2579,
+          "name": "Manolo Zecchini",
+          "logo": "https://media.api-sports.io/mma/fighters/2579.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2585,
+          "name": "Morgan CharriÃ¨re",
+          "logo": "https://media.api-sports.io/mma/fighters/2585.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1323,
+      "date": "2024-04-06T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1712412000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Curtis 2",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2539,
+          "name": "Chepe Mariscal",
+          "logo": "https://media.api-sports.io/mma/fighters/2539.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2585,
+          "name": "Morgan CharriÃ¨re",
+          "logo": "https://media.api-sports.io/mma/fighters/2585.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1250,
+      "date": "2024-04-07T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1712448000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Allen",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 390,
+          "name": "SeungWoo Choi",
+          "logo": "https://media.api-sports.io/mma/fighters/390.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2585,
+          "name": "Morgan CharriÃ¨re",
+          "logo": "https://media.api-sports.io/mma/fighters/2585.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1672,
+      "date": "2024-09-28T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1727521200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moicano vs. Saint Denis",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2489,
+          "name": "Gabriel Miranda",
+          "logo": "https://media.api-sports.io/mma/fighters/2489.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2585,
+          "name": "Morgan CharriÃ¨re",
+          "logo": "https://media.api-sports.io/mma/fighters/2585.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1585,
+      "date": "2024-09-28T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1727550000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moicano vs. Saint Denis",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2683,
+          "name": "AJ Cunningham",
+          "logo": "https://media.api-sports.io/mma/fighters/2683.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2585,
+          "name": "Morgan CharriÃ¨re",
+          "logo": "https://media.api-sports.io/mma/fighters/2585.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1868,
+      "date": "2025-03-22T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1742673600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Edwards vs. Brady",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2585,
+          "name": "Morgan CharriÃ¨re",
+          "logo": "https://media.api-sports.io/mma/fighters/2585.png",
+          "winner": false
+        },
+        "second": {
+          "id": 227,
+          "name": "Nathaniel Wood",
+          "logo": "https://media.api-sports.io/mma/fighters/227.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2164,
+      "date": "2025-07-13T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1752375600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Teixeira",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2585,
+          "name": "Morgan CharriÃ¨re",
+          "logo": "https://media.api-sports.io/mma/fighters/2585.png",
+          "winner": true
+        },
+        "second": {
+          "id": 694,
+          "name": "Nate Landwehr",
+          "logo": "https://media.api-sports.io/mma/fighters/694.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2397,
+      "date": "2025-12-13T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1765641600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Kape",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 2585,
+          "name": "Morgan CharriÃ¨re",
+          "logo": "https://media.api-sports.io/mma/fighters/2585.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2583,
+          "name": "Melquizael Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2583.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:55:54.804Z"
+}

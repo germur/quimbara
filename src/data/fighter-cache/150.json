@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 150,
+    "name": "Drew Dober",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/150.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "155 lbs",
+    "reach": "70'",
+    "stance": "Southpaw",
+    "category": "Lightweight",
+    "team": {
+      "id": 19,
+      "name": "Elevation Fight"
+    },
+    "last_update": "2025-10-25T12:04:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 150,
+      "name": "Drew Dober",
+      "photo": "https://media.api-sports.io/mma/fighters/150.png"
+    },
+    "total": {
+      "win": 27,
+      "loss": 15,
+      "draw": 0
+    },
+    "ko": {
+      "win": 15,
+      "loss": 4
+    },
+    "sub": {
+      "win": 5,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 686,
+      "date": "2023-05-07T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1683423000,
+      "timezone": "UTC",
+      "slug": "UFC 288: Sterling vs. Cejudo",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 322,
+          "name": "Matt Frevola",
+          "logo": "https://media.api-sports.io/mma/fighters/322.png",
+          "winner": true
+        },
+        "second": {
+          "id": 150,
+          "name": "Drew Dober",
+          "logo": "https://media.api-sports.io/mma/fighters/150.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 978,
+      "date": "2023-10-07T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1696721400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dawson vs. Green",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 893,
+          "name": "Ricky Glenn",
+          "logo": "https://media.api-sports.io/mma/fighters/893.png",
+          "winner": false
+        },
+        "second": {
+          "id": 150,
+          "name": "Drew Dober",
+          "logo": "https://media.api-sports.io/mma/fighters/150.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1131,
+      "date": "2024-02-03T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1706976000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dolidze vs. Imavov",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 150,
+          "name": "Drew Dober",
+          "logo": "https://media.api-sports.io/mma/fighters/150.png",
+          "winner": false
+        },
+        "second": {
+          "id": 44,
+          "name": "Renato Moicano",
+          "logo": "https://media.api-sports.io/mma/fighters/44.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1490,
+      "date": "2024-07-13T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1720893600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Namajunas vs. Cortez",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2666,
+          "name": "Jean Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/2666.png",
+          "winner": true
+        },
+        "second": {
+          "id": 150,
+          "name": "Drew Dober",
+          "logo": "https://media.api-sports.io/mma/fighters/150.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1925,
+      "date": "2025-03-30T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1743292800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Erceg",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 150,
+          "name": "Drew Dober",
+          "logo": "https://media.api-sports.io/mma/fighters/150.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2503,
+          "name": "Manuel Torres",
+          "logo": "https://media.api-sports.io/mma/fighters/2503.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2290,
+      "date": "2025-10-18T22:35:00+00:00",
+      "time": "22:35",
+      "timestamp": 1760826900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: de Ridder vs. Allen",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 150,
+          "name": "Drew Dober",
+          "logo": "https://media.api-sports.io/mma/fighters/150.png",
+          "winner": true
+        },
+        "second": {
+          "id": 421,
+          "name": "Kyle Prepolec",
+          "logo": "https://media.api-sports.io/mma/fighters/421.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:53.758Z"
+}

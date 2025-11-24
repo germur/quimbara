@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 256,
+    "name": "Max Holloway",
+    "nickname": "Blessed",
+    "photo": "https://media.api-sports.io/mma/fighters/256.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "145 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 135,
+      "name": "Gracie Technics"
+    },
+    "last_update": "2025-07-27T00:06:12+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 256,
+      "name": "Max Holloway",
+      "photo": "https://media.api-sports.io/mma/fighters/256.png"
+    },
+    "total": {
+      "win": 26,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 12,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 655,
+      "date": "2023-04-16T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1681614000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. Allen",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 225,
+          "name": "Arnold Allen",
+          "logo": "https://media.api-sports.io/mma/fighters/225.png",
+          "winner": false
+        },
+        "second": {
+          "id": 256,
+          "name": "Max Holloway",
+          "logo": "https://media.api-sports.io/mma/fighters/256.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 879,
+      "date": "2023-08-26T14:30:00+00:00",
+      "time": "14:30",
+      "timestamp": 1693060200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. The Korean Zombie",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 455,
+          "name": "Chan Sung Jung",
+          "logo": "https://media.api-sports.io/mma/fighters/455.png",
+          "winner": false
+        },
+        "second": {
+          "id": 256,
+          "name": "Max Holloway",
+          "logo": "https://media.api-sports.io/mma/fighters/256.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1223,
+      "date": "2024-04-13T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1713031200,
+      "timezone": "UTC",
+      "slug": "UFC 300: Pereira vs. Hill",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 256,
+          "name": "Max Holloway",
+          "logo": "https://media.api-sports.io/mma/fighters/256.png",
+          "winner": true
+        },
+        "second": {
+          "id": 194,
+          "name": "Justin Gaethje",
+          "logo": "https://media.api-sports.io/mma/fighters/194.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1380,
+      "date": "2024-10-26T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1729936800,
+      "timezone": "UTC",
+      "slug": "UFC 308: Topuria vs. Holloway",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 256,
+          "name": "Max Holloway",
+          "logo": "https://media.api-sports.io/mma/fighters/256.png",
+          "winner": false
+        },
+        "second": {
+          "id": 855,
+          "name": "Ilia Topuria",
+          "logo": "https://media.api-sports.io/mma/fighters/855.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2060,
+      "date": "2025-07-20T04:30:00+00:00",
+      "time": "04:30",
+      "timestamp": 1752985800,
+      "timezone": "UTC",
+      "slug": "UFC 318: Holloway vs. Poirier 3",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 255,
+          "name": "Dustin Poirier",
+          "logo": "https://media.api-sports.io/mma/fighters/255.png",
+          "winner": false
+        },
+        "second": {
+          "id": 256,
+          "name": "Max Holloway",
+          "logo": "https://media.api-sports.io/mma/fighters/256.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:55:49.236Z"
+}

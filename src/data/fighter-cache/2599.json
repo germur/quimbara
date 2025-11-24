@@ -1,0 +1,296 @@
+{
+  "profile": {
+    "id": 2599,
+    "name": "Steve Erceg",
+    "nickname": "Astroboy",
+    "photo": "https://media.api-sports.io/mma/fighters/2599.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "125 lbs",
+    "reach": "68'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 710,
+      "name": "Wilkes Martial Arts"
+    },
+    "last_update": "2025-08-16T12:00:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2599,
+      "name": "Steve Erceg",
+      "photo": "https://media.api-sports.io/mma/fighters/2599.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 1
+    },
+    "sub": {
+      "win": 6,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 731,
+      "date": "2023-06-10T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1686439800,
+      "timezone": "UTC",
+      "slug": "UFC 289: Nunes vs. Aldana",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2599,
+          "name": "Steve Erceg",
+          "logo": "https://media.api-sports.io/mma/fighters/2599.png",
+          "winner": true
+        },
+        "second": {
+          "id": 708,
+          "name": "David Dvorak",
+          "logo": "https://media.api-sports.io/mma/fighters/708.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 973,
+      "date": "2023-11-12T01:15:00+00:00",
+      "time": "01:15",
+      "timestamp": 1699751700,
+      "timezone": "UTC",
+      "slug": "UFC 295: Jones vs. Miocic",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2599,
+          "name": "Steve Erceg",
+          "logo": "https://media.api-sports.io/mma/fighters/2599.png",
+          "winner": false
+        },
+        "second": {
+          "id": 218,
+          "name": "Matt Schnell",
+          "logo": "https://media.api-sports.io/mma/fighters/218.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1073,
+      "date": "2023-11-12T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1699756200,
+      "timezone": "UTC",
+      "slug": "UFC 295: ProchÃ¡zka vs. Pereira",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2462,
+          "name": "Alessandro Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2462.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2599,
+          "name": "Steve Erceg",
+          "logo": "https://media.api-sports.io/mma/fighters/2599.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1267,
+      "date": "2024-03-02T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1709384400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Gaziev",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2599,
+          "name": "Steve Erceg",
+          "logo": "https://media.api-sports.io/mma/fighters/2599.png",
+          "winner": true
+        },
+        "second": {
+          "id": 218,
+          "name": "Matt Schnell",
+          "logo": "https://media.api-sports.io/mma/fighters/218.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1331,
+      "date": "2024-05-04T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1714845600,
+      "timezone": "UTC",
+      "slug": "UFC 301: Pantoja vs. Erceg",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2599,
+          "name": "Steve Erceg",
+          "logo": "https://media.api-sports.io/mma/fighters/2599.png",
+          "winner": false
+        },
+        "second": {
+          "id": 250,
+          "name": "Alexandre Pantoja",
+          "logo": "https://media.api-sports.io/mma/fighters/250.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1508,
+      "date": "2024-08-17T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1723917600,
+      "timezone": "UTC",
+      "slug": "UFC 305: Du Plessis vs. Adesanya",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2599,
+          "name": "Steve Erceg",
+          "logo": "https://media.api-sports.io/mma/fighters/2599.png",
+          "winner": false
+        },
+        "second": {
+          "id": 63,
+          "name": "Kai Kara-France",
+          "logo": "https://media.api-sports.io/mma/fighters/63.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1812,
+      "date": "2025-03-30T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1743296400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Erceg",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2599,
+          "name": "Steve Erceg",
+          "logo": "https://media.api-sports.io/mma/fighters/2599.png",
+          "winner": false
+        },
+        "second": {
+          "id": 604,
+          "name": "Brandon Moreno",
+          "logo": "https://media.api-sports.io/mma/fighters/604.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2200,
+      "date": "2025-08-09T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1754751600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dolidze vs. Hernandez",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 507,
+          "name": "Ode' Osbourne",
+          "logo": "https://media.api-sports.io/mma/fighters/507.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2599,
+          "name": "Steve Erceg",
+          "logo": "https://media.api-sports.io/mma/fighters/2599.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2123,
+      "date": "2025-08-09T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1754758800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dolidze vs. Hernandez",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2599,
+          "name": "Steve Erceg",
+          "logo": "https://media.api-sports.io/mma/fighters/2599.png",
+          "winner": false
+        },
+        "second": {
+          "id": 314,
+          "name": "Alex Perez",
+          "logo": "https://media.api-sports.io/mma/fighters/314.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:00.296Z"
+}

@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 2520,
+    "name": "Victor Henry",
+    "nickname": "La Mangosta",
+    "photo": "https://media.api-sports.io/mma/fighters/2520.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "135 lbs",
+    "reach": "68'",
+    "stance": "Switch",
+    "category": "Bantamweight",
+    "team": {
+      "id": 408,
+      "name": "UWF-USA"
+    },
+    "last_update": "2025-06-05T10:10:40+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2520,
+      "name": "Victor Henry",
+      "photo": "https://media.api-sports.io/mma/fighters/2520.png"
+    },
+    "total": {
+      "win": 25,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 0
+    },
+    "sub": {
+      "win": 8,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 600,
+      "date": "2023-03-11T20:40:00+00:00",
+      "time": "20:40",
+      "timestamp": 1678567200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Dvalishvili",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 624,
+          "name": "Tony Gravely",
+          "logo": "https://media.api-sports.io/mma/fighters/624.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2520,
+          "name": "Victor Henry",
+          "logo": "https://media.api-sports.io/mma/fighters/2520.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 995,
+      "date": "2023-10-21T16:30:00+00:00",
+      "time": "16:30",
+      "timestamp": 1697905800,
+      "timezone": "UTC",
+      "slug": "UFC 294: Makhachev vs. Volkanovski 2",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2520,
+          "name": "Victor Henry",
+          "logo": "https://media.api-sports.io/mma/fighters/2520.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2392,
+          "name": "Javid Basharat",
+          "logo": "https://media.api-sports.io/mma/fighters/2392.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1324,
+      "date": "2024-04-27T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1714219200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Nicolau vs. Perez",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2520,
+          "name": "Victor Henry",
+          "logo": "https://media.api-sports.io/mma/fighters/2520.png",
+          "winner": true
+        },
+        "second": {
+          "id": 71,
+          "name": "Rani Yahya",
+          "logo": "https://media.api-sports.io/mma/fighters/71.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1674,
+      "date": "2024-11-02T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1730552400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Albazi",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2520,
+          "name": "Victor Henry",
+          "logo": "https://media.api-sports.io/mma/fighters/2520.png",
+          "winner": false
+        },
+        "second": {
+          "id": 425,
+          "name": "Charles Jourdain",
+          "logo": "https://media.api-sports.io/mma/fighters/425.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1972,
+      "date": "2025-04-05T22:40:00+00:00",
+      "time": "22:40",
+      "timestamp": 1743892800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Murphy",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2695,
+          "name": "Pedro FalcÃ£o",
+          "logo": "https://media.api-sports.io/mma/fighters/2695.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2520,
+          "name": "Victor Henry",
+          "logo": "https://media.api-sports.io/mma/fighters/2520.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:10.147Z"
+}

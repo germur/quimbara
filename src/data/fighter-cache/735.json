@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 735,
+    "name": "Shavkat Rakhmonov",
+    "nickname": "Nomad",
+    "photo": "https://media.api-sports.io/mma/fighters/735.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "171 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-06-04T19:18:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 735,
+      "name": "Shavkat Rakhmonov",
+      "photo": "https://media.api-sports.io/mma/fighters/735.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 0,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 0
+    },
+    "sub": {
+      "win": 10,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 594,
+      "date": "2023-03-05T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1677988800,
+      "timezone": "UTC",
+      "slug": "UFC 285: Jones vs. Gane",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 735,
+          "name": "Shavkat Rakhmonov",
+          "logo": "https://media.api-sports.io/mma/fighters/735.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2,
+          "name": "Geoff Neal",
+          "logo": "https://media.api-sports.io/mma/fighters/2.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1013,
+      "date": "2023-12-17T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1702785600,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 181,
+          "name": "Stephen Thompson",
+          "logo": "https://media.api-sports.io/mma/fighters/181.png",
+          "winner": false
+        },
+        "second": {
+          "id": 735,
+          "name": "Shavkat Rakhmonov",
+          "logo": "https://media.api-sports.io/mma/fighters/735.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1627,
+      "date": "2024-12-07T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1733598000,
+      "timezone": "UTC",
+      "slug": "UFC 310: Muhammad vs. Rakhmonov",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 735,
+          "name": "Shavkat Rakhmonov",
+          "logo": "https://media.api-sports.io/mma/fighters/735.png",
+          "winner": false
+        },
+        "second": {
+          "id": 15,
+          "name": "Belal Muhammad",
+          "logo": "https://media.api-sports.io/mma/fighters/15.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1747,
+      "date": "2024-12-07T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1733598000,
+      "timezone": "UTC",
+      "slug": "UFC 310: Pantoja vs. Asakura",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2434,
+          "name": "Ian Machado Garry",
+          "logo": "https://media.api-sports.io/mma/fighters/2434.png",
+          "winner": false
+        },
+        "second": {
+          "id": 735,
+          "name": "Shavkat Rakhmonov",
+          "logo": "https://media.api-sports.io/mma/fighters/735.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:05.481Z"
+}

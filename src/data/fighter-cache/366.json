@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 366,
+    "name": "Kevin Lee",
+    "nickname": "The Motown Phenom",
+    "photo": "https://media.api-sports.io/mma/fighters/366.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "171 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-06-04T16:13:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 366,
+      "name": "Kevin Lee",
+      "photo": "https://media.api-sports.io/mma/fighters/366.png"
+    },
+    "total": {
+      "win": 19,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 1
+    },
+    "sub": {
+      "win": 8,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 767,
+      "date": "2023-07-01T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1688250600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Magomedov",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2513,
+          "name": "Rinat Fakhretdinov",
+          "logo": "https://media.api-sports.io/mma/fighters/2513.png",
+          "winner": true
+        },
+        "second": {
+          "id": 366,
+          "name": "Kevin Lee",
+          "logo": "https://media.api-sports.io/mma/fighters/366.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:26.688Z"
+}

@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 171,
+    "name": "Danny Roberts",
+    "nickname": "Hot Chocolate",
+    "photo": "https://media.api-sports.io/mma/fighters/171.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "171 lbs",
+    "reach": "74'",
+    "stance": "Southpaw",
+    "category": "Welterweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-06-04T14:36:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 171,
+      "name": "Danny Roberts",
+      "photo": "https://media.api-sports.io/mma/fighters/171.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 5
+    },
+    "sub": {
+      "win": 5,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 805,
+      "date": "2023-07-22T18:20:00+00:00",
+      "time": "18:20",
+      "timestamp": 1690050000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Aspinall vs. Tybura",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2570,
+          "name": "Jonny Parsons",
+          "logo": "https://media.api-sports.io/mma/fighters/2570.png",
+          "winner": true
+        },
+        "second": {
+          "id": 171,
+          "name": "Danny Roberts",
+          "logo": "https://media.api-sports.io/mma/fighters/171.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:56.123Z"
+}

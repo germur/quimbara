@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 683,
+    "name": "Abubakar Nurmagomedov",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/683.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "170 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 64,
+      "name": "AKA (American Kickboxing Academy)"
+    },
+    "last_update": "2025-06-04T18:52:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 683,
+      "name": "Abubakar Nurmagomedov",
+      "photo": "https://media.api-sports.io/mma/fighters/683.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 4,
+      "draw": 1
+    },
+    "ko": {
+      "win": 6,
+      "loss": 1
+    },
+    "sub": {
+      "win": 4,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 730,
+      "date": "2023-06-04T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1685840400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kara-France vs. Albazi",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 159,
+          "name": "Elizeu Zaleski dos Santos",
+          "logo": "https://media.api-sports.io/mma/fighters/159.png",
+          "winner": true
+        },
+        "second": {
+          "id": 683,
+          "name": "Abubakar Nurmagomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/683.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:29.944Z"
+}

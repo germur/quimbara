@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 624,
+    "name": "Tony Gravely",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/624.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "135 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 21,
+      "name": "American Top"
+    },
+    "last_update": "2025-06-04T18:22:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 624,
+      "name": "Tony Gravely",
+      "photo": "https://media.api-sports.io/mma/fighters/624.png"
+    },
+    "total": {
+      "win": 23,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 10,
+      "loss": 1
+    },
+    "sub": {
+      "win": 3,
+      "loss": 5
+    }
+  },
+  "fights": [
+    {
+      "id": 600,
+      "date": "2023-03-11T20:40:00+00:00",
+      "time": "20:40",
+      "timestamp": 1678567200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Dvalishvili",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 624,
+          "name": "Tony Gravely",
+          "logo": "https://media.api-sports.io/mma/fighters/624.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2520,
+          "name": "Victor Henry",
+          "logo": "https://media.api-sports.io/mma/fighters/2520.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:04.596Z"
+}

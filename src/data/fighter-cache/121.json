@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 121,
+    "name": "Edmen Shahbazyan",
+    "nickname": "The Golden Boy",
+    "photo": "https://media.api-sports.io/mma/fighters/121.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "185 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 31,
+      "name": "Xtreme Couture"
+    },
+    "last_update": "2025-10-11T12:11:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 121,
+      "name": "Edmen Shahbazyan",
+      "photo": "https://media.api-sports.io/mma/fighters/121.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 13,
+      "loss": 3
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 714,
+      "date": "2023-05-21T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1684630800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs. Hill",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 28,
+          "name": "Anthony Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/28.png",
+          "winner": true
+        },
+        "second": {
+          "id": 121,
+          "name": "Edmen Shahbazyan",
+          "logo": "https://media.api-sports.io/mma/fighters/121.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1256,
+      "date": "2024-03-23T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1711216800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ribas vs. Namajunas",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 199,
+          "name": "TBA",
+          "logo": "https://media.api-sports.io/mma/fighters/199.png",
+          "winner": false
+        },
+        "second": {
+          "id": 121,
+          "name": "Edmen Shahbazyan",
+          "logo": "https://media.api-sports.io/mma/fighters/121.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1319,
+      "date": "2024-03-23T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1711216800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ribas vs. Namajunas",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2396,
+          "name": "AJ Dobson",
+          "logo": "https://media.api-sports.io/mma/fighters/2396.png",
+          "winner": false
+        },
+        "second": {
+          "id": 121,
+          "name": "Edmen Shahbazyan",
+          "logo": "https://media.api-sports.io/mma/fighters/121.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1584,
+      "date": "2024-08-24T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1724522400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Borralho",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 316,
+          "name": "Gerald Meerschaert",
+          "logo": "https://media.api-sports.io/mma/fighters/316.png",
+          "winner": true
+        },
+        "second": {
+          "id": 121,
+          "name": "Edmen Shahbazyan",
+          "logo": "https://media.api-sports.io/mma/fighters/121.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1863,
+      "date": "2025-02-16T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1739667600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2691,
+          "name": "Dylan Budka",
+          "logo": "https://media.api-sports.io/mma/fighters/2691.png",
+          "winner": false
+        },
+        "second": {
+          "id": 121,
+          "name": "Edmen Shahbazyan",
+          "logo": "https://media.api-sports.io/mma/fighters/121.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2065,
+      "date": "2025-06-15T03:50:00+00:00",
+      "time": "03:50",
+      "timestamp": 1749959400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Usman vs. Buckley",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2405,
+          "name": "Andre Petroski",
+          "logo": "https://media.api-sports.io/mma/fighters/2405.png",
+          "winner": false
+        },
+        "second": {
+          "id": 121,
+          "name": "Edmen Shahbazyan",
+          "logo": "https://media.api-sports.io/mma/fighters/121.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2139,
+      "date": "2025-10-05T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1759622400,
+      "timezone": "UTC",
+      "slug": "UFC 320: Ankalaev vs. Pereira 2",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 614,
+          "name": "Andre Muniz",
+          "logo": "https://media.api-sports.io/mma/fighters/614.png",
+          "winner": false
+        },
+        "second": {
+          "id": 121,
+          "name": "Edmen Shahbazyan",
+          "logo": "https://media.api-sports.io/mma/fighters/121.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:49:35.682Z"
+}

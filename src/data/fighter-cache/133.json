@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 133,
+    "name": "Cody Garbrandt",
+    "nickname": "No Love",
+    "photo": "https://media.api-sports.io/mma/fighters/133.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "136 lbs",
+    "reach": "65.5'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 23,
+      "name": "Alpha Male"
+    },
+    "last_update": "2025-06-22T00:07:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 133,
+      "name": "Cody Garbrandt",
+      "photo": "https://media.api-sports.io/mma/fighters/133.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 4
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 588,
+      "date": "2023-03-05T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1677983400,
+      "timezone": "UTC",
+      "slug": "UFC 285: Jones vs. Gane",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 812,
+          "name": "Trevin Jones",
+          "logo": "https://media.api-sports.io/mma/fighters/812.png",
+          "winner": false
+        },
+        "second": {
+          "id": 133,
+          "name": "Cody Garbrandt",
+          "logo": "https://media.api-sports.io/mma/fighters/133.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1047,
+      "date": "2023-12-17T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1702776600,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 280,
+          "name": "Brian Kelleher",
+          "logo": "https://media.api-sports.io/mma/fighters/280.png",
+          "winner": false
+        },
+        "second": {
+          "id": 133,
+          "name": "Cody Garbrandt",
+          "logo": "https://media.api-sports.io/mma/fighters/133.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1218,
+      "date": "2024-04-13T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1713016800,
+      "timezone": "UTC",
+      "slug": "UFC 300: Pereira vs. Hill",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 133,
+          "name": "Cody Garbrandt",
+          "logo": "https://media.api-sports.io/mma/fighters/133.png",
+          "winner": false
+        },
+        "second": {
+          "id": 180,
+          "name": "Deiveson Figueiredo",
+          "logo": "https://media.api-sports.io/mma/fighters/180.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1703,
+      "date": "2024-11-09T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1731168000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Magny vs. Prates",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 467,
+          "name": "Miles Johns",
+          "logo": "https://media.api-sports.io/mma/fighters/467.png",
+          "winner": false
+        },
+        "second": {
+          "id": 133,
+          "name": "Cody Garbrandt",
+          "logo": "https://media.api-sports.io/mma/fighters/133.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2103,
+      "date": "2025-06-15T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1749956400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Usman vs. Buckley",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 399,
+          "name": "Raoni Barcelos",
+          "logo": "https://media.api-sports.io/mma/fighters/399.png",
+          "winner": true
+        },
+        "second": {
+          "id": 133,
+          "name": "Cody Garbrandt",
+          "logo": "https://media.api-sports.io/mma/fighters/133.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:50.358Z"
+}

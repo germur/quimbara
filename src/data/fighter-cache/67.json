@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 67,
+    "name": "Robert Whittaker",
+    "nickname": "The Reaper",
+    "photo": "https://media.api-sports.io/mma/fighters/67.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "185 lbs",
+    "reach": "73.5'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 754,
+      "name": "Gracie Jiu-Jitsu Smeaton Grange"
+    },
+    "last_update": "2025-08-02T12:06:06+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 67,
+      "name": "Robert Whittaker",
+      "photo": "https://media.api-sports.io/mma/fighters/67.png"
+    },
+    "total": {
+      "win": 27,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 3
+    },
+    "sub": {
+      "win": 5,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 789,
+      "date": "2023-07-09T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1688871600,
+      "timezone": "UTC",
+      "slug": "UFC 290: Volkanovski vs. Rodriguez",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 856,
+          "name": "Dricus Du Plessis",
+          "logo": "https://media.api-sports.io/mma/fighters/856.png",
+          "winner": true
+        },
+        "second": {
+          "id": 67,
+          "name": "Robert Whittaker",
+          "logo": "https://media.api-sports.io/mma/fighters/67.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1182,
+      "date": "2024-02-17T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1708196400,
+      "timezone": "UTC",
+      "slug": "UFC 298: Volkanovski vs. Topuria",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 551,
+          "name": "Paulo Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/551.png",
+          "winner": false
+        },
+        "second": {
+          "id": 67,
+          "name": "Robert Whittaker",
+          "logo": "https://media.api-sports.io/mma/fighters/67.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1492,
+      "date": "2024-06-22T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1719054000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2557,
+          "name": "Ikram Aliskerov",
+          "logo": "https://media.api-sports.io/mma/fighters/2557.png",
+          "winner": false
+        },
+        "second": {
+          "id": 67,
+          "name": "Robert Whittaker",
+          "logo": "https://media.api-sports.io/mma/fighters/67.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1244,
+      "date": "2024-06-22T21:30:00+00:00",
+      "time": "21:30",
+      "timestamp": 1719091800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Chimaev",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 743,
+          "name": "Khamzat Chimaev",
+          "logo": "https://media.api-sports.io/mma/fighters/743.png",
+          "winner": false
+        },
+        "second": {
+          "id": 67,
+          "name": "Robert Whittaker",
+          "logo": "https://media.api-sports.io/mma/fighters/67.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1571,
+      "date": "2024-10-26T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1729936800,
+      "timezone": "UTC",
+      "slug": "UFC 308: Topuria vs. Holloway",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 743,
+          "name": "Khamzat Chimaev",
+          "logo": "https://media.api-sports.io/mma/fighters/743.png",
+          "winner": true
+        },
+        "second": {
+          "id": 67,
+          "name": "Robert Whittaker",
+          "logo": "https://media.api-sports.io/mma/fighters/67.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2006,
+      "date": "2025-07-26T21:15:00+00:00",
+      "time": "21:15",
+      "timestamp": 1753564500,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. de Ridder",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2735,
+          "name": "Reinier de Ridder",
+          "logo": "https://media.api-sports.io/mma/fighters/2735.png",
+          "winner": true
+        },
+        "second": {
+          "id": 67,
+          "name": "Robert Whittaker",
+          "logo": "https://media.api-sports.io/mma/fighters/67.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:13.335Z"
+}

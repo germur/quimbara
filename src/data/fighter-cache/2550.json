@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 2550,
+    "name": "Francisco Prado",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2550.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "170 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 701,
+      "name": "Goat Shed Academy"
+    },
+    "last_update": "2025-06-05T10:25:35+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2550,
+      "name": "Francisco Prado",
+      "photo": "https://media.api-sports.io/mma/fighters/2550.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 0
+    },
+    "sub": {
+      "win": 6,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 556,
+      "date": "2023-02-12T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1676163600,
+      "timezone": "UTC",
+      "slug": "UFC 284: Makhachev vs. Volkanovski",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2550,
+          "name": "Francisco Prado",
+          "logo": "https://media.api-sports.io/mma/fighters/2550.png",
+          "winner": false
+        },
+        "second": {
+          "id": 654,
+          "name": "Jamie Mullarkey",
+          "logo": "https://media.api-sports.io/mma/fighters/654.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 801,
+      "date": "2023-07-16T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1689478200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holm vs. Bueno Silva",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2550,
+          "name": "Francisco Prado",
+          "logo": "https://media.api-sports.io/mma/fighters/2550.png",
+          "winner": true
+        },
+        "second": {
+          "id": 596,
+          "name": "Ottman Azaitar",
+          "logo": "https://media.api-sports.io/mma/fighters/596.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1213,
+      "date": "2024-02-24T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1708801200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Royval 2",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2550,
+          "name": "Francisco Prado",
+          "logo": "https://media.api-sports.io/mma/fighters/2550.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2429,
+          "name": "Daniel Zellhuber",
+          "logo": "https://media.api-sports.io/mma/fighters/2429.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1870,
+      "date": "2025-02-09T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1739070000,
+      "timezone": "UTC",
+      "slug": "UFC 312: Du Plessis vs. Strickland 2",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2550,
+          "name": "Francisco Prado",
+          "logo": "https://media.api-sports.io/mma/fighters/2550.png",
+          "winner": false
+        },
+        "second": {
+          "id": 656,
+          "name": "Jake Matthews",
+          "logo": "https://media.api-sports.io/mma/fighters/656.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2181,
+      "date": "2025-07-19T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1752940800,
+      "timezone": "UTC",
+      "slug": "UFC 318: Holloway vs. Poirier 3",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2424,
+          "name": "Nikolay Veretennikov",
+          "logo": "https://media.api-sports.io/mma/fighters/2424.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2550,
+          "name": "Francisco Prado",
+          "logo": "https://media.api-sports.io/mma/fighters/2550.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:51:00.284Z"
+}

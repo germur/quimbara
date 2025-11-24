@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 828,
+    "name": "Mana Martinez",
+    "nickname": "Manaboi",
+    "photo": "https://media.api-sports.io/mma/fighters/828.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "137 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 340,
+      "name": "Metro Fight Club"
+    },
+    "last_update": "2025-06-04T20:04:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 828,
+      "name": "Mana Martinez",
+      "photo": "https://media.api-sports.io/mma/fighters/828.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 1
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 584,
+      "date": "2023-03-05T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1677974400,
+      "timezone": "UTC",
+      "slug": "UFC 285: Jones vs. Gane",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2470,
+          "name": "Cameron Saaiman",
+          "logo": "https://media.api-sports.io/mma/fighters/2470.png",
+          "winner": true
+        },
+        "second": {
+          "id": 828,
+          "name": "Mana Martinez",
+          "logo": "https://media.api-sports.io/mma/fighters/828.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:26.896Z"
+}

@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 648,
+    "name": "Makhmud Muradov",
+    "nickname": "Mach",
+    "photo": "https://media.api-sports.io/mma/fighters/648.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "185 lbs",
+    "reach": "75.5'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 285,
+      "name": "Monster Gym"
+    },
+    "last_update": "2025-06-04T18:34:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 648,
+      "name": "Makhmud Muradov",
+      "photo": "https://media.api-sports.io/mma/fighters/648.png"
+    },
+    "total": {
+      "win": 27,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 17,
+      "loss": 1
+    },
+    "sub": {
+      "win": 3,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 808,
+      "date": "2023-07-22T17:20:00+00:00",
+      "time": "17:20",
+      "timestamp": 1690046400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Aspinall vs. Tybura",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 100,
+          "name": "Bryan Barberena",
+          "logo": "https://media.api-sports.io/mma/fighters/100.png",
+          "winner": false
+        },
+        "second": {
+          "id": 648,
+          "name": "Makhmud Muradov",
+          "logo": "https://media.api-sports.io/mma/fighters/648.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1123,
+      "date": "2024-02-03T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1706976000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dolidze vs. Imavov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 648,
+          "name": "Makhmud Muradov",
+          "logo": "https://media.api-sports.io/mma/fighters/648.png",
+          "winner": false
+        },
+        "second": {
+          "id": 830,
+          "name": "Aliaskhab Khizriev",
+          "logo": "https://media.api-sports.io/mma/fighters/830.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:00.578Z"
+}

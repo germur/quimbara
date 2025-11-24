@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "id": 813,
+    "name": "Melsik Baghdasaryan",
+    "nickname": "The Gun",
+    "photo": "https://media.api-sports.io/mma/fighters/813.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "145 lbs",
+    "reach": "70'",
+    "stance": "Southpaw",
+    "category": "Featherweight",
+    "team": {
+      "id": 360,
+      "name": "Glendale Fighting Club"
+    },
+    "last_update": "2025-06-04T19:57:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 813,
+      "name": "Melsik Baghdasaryan",
+      "photo": "https://media.api-sports.io/mma/fighters/813.png"
+    },
+    "total": {
+      "win": 8,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 1
+    },
+    "sub": {
+      "win": 0,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 554,
+      "date": "2023-02-12T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1676167200,
+      "timezone": "UTC",
+      "slug": "UFC 284: Makhachev vs. Volkanovski",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 813,
+          "name": "Melsik Baghdasaryan",
+          "logo": "https://media.api-sports.io/mma/fighters/813.png",
+          "winner": false
+        },
+        "second": {
+          "id": 705,
+          "name": "Josh Culibao",
+          "logo": "https://media.api-sports.io/mma/fighters/705.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 792,
+      "date": "2023-07-16T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1689471000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holm vs. Bueno Silva",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 813,
+          "name": "Melsik Baghdasaryan",
+          "logo": "https://media.api-sports.io/mma/fighters/813.png",
+          "winner": true
+        },
+        "second": {
+          "id": 819,
+          "name": "Tucker Lutz",
+          "logo": "https://media.api-sports.io/mma/fighters/819.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1133,
+      "date": "2024-02-04T00:15:00+00:00",
+      "time": "00:15",
+      "timestamp": 1707005700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dolidze vs. Imavov",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 813,
+          "name": "Melsik Baghdasaryan",
+          "logo": "https://media.api-sports.io/mma/fighters/813.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2522,
+          "name": "William Gomis",
+          "logo": "https://media.api-sports.io/mma/fighters/2522.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1136,
+      "date": "2024-02-10T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1707570000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hermansson vs. Pyfer",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2657,
+          "name": "Hyder Amil",
+          "logo": "https://media.api-sports.io/mma/fighters/2657.png",
+          "winner": false
+        },
+        "second": {
+          "id": 813,
+          "name": "Melsik Baghdasaryan",
+          "logo": "https://media.api-sports.io/mma/fighters/813.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1211,
+      "date": "2024-02-10T21:10:00+00:00",
+      "time": "21:10",
+      "timestamp": 1707599400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hermansson vs. Pyfer",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2657,
+          "name": "Hyder Amil",
+          "logo": "https://media.api-sports.io/mma/fighters/2657.png",
+          "winner": false
+        },
+        "second": {
+          "id": 813,
+          "name": "Melsik Baghdasaryan",
+          "logo": "https://media.api-sports.io/mma/fighters/813.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1451,
+      "date": "2024-06-22T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1719082800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Chimaev",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 813,
+          "name": "Melsik Baghdasaryan",
+          "logo": "https://media.api-sports.io/mma/fighters/813.png",
+          "winner": false
+        },
+        "second": {
+          "id": 833,
+          "name": "Muhammad Naimov",
+          "logo": "https://media.api-sports.io/mma/fighters/833.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1837,
+      "date": "2025-02-23T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1740277800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cejudo vs. Song",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 813,
+          "name": "Melsik Baghdasaryan",
+          "logo": "https://media.api-sports.io/mma/fighters/813.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2666,
+          "name": "Jean Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/2666.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2396,
+      "date": "2025-12-13T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1765652400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Kape",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 813,
+          "name": "Melsik Baghdasaryan",
+          "logo": "https://media.api-sports.io/mma/fighters/813.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2384,
+          "name": "Joanderson Brito",
+          "logo": "https://media.api-sports.io/mma/fighters/2384.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:55:52.035Z"
+}

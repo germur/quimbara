@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 2368,
+    "name": "Juancamilo Ronderos",
+    "nickname": "100",
+    "photo": "https://media.api-sports.io/mma/fighters/2368.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 3'",
+    "weight": "125 lbs",
+    "reach": "64.5'",
+    "stance": "Southpaw",
+    "category": "Flyweight",
+    "team": {
+      "id": 31,
+      "name": "Xtreme Couture"
+    },
+    "last_update": "2025-06-05T08:54:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2368,
+      "name": "Juancamilo Ronderos",
+      "photo": "https://media.api-sports.io/mma/fighters/2368.png"
+    },
+    "total": {
+      "win": 4,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 0,
+      "loss": 0
+    },
+    "sub": {
+      "win": 2,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 567,
+      "date": "2023-02-18T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1676754000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Andrade vs. Blanchfield",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2368,
+          "name": "Juancamilo Ronderos",
+          "logo": "https://media.api-sports.io/mma/fighters/2368.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2542,
+          "name": "Clayton Carpenter",
+          "logo": "https://media.api-sports.io/mma/fighters/2542.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:53.803Z"
+}

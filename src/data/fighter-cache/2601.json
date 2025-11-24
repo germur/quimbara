@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 2601,
+    "name": "Terrence Mitchell",
+    "nickname": "Terr-Bear",
+    "photo": "https://media.api-sports.io/mma/fighters/2601.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "135 lbs",
+    "reach": "74'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 364,
+      "name": "Legacy Jiu-Jitsu"
+    },
+    "last_update": "2025-06-05T10:51:05+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2601,
+      "name": "Terrence Mitchell",
+      "photo": "https://media.api-sports.io/mma/fighters/2601.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 3
+    },
+    "sub": {
+      "win": 6,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 780,
+      "date": "2023-07-08T22:40:00+00:00",
+      "time": "22:40",
+      "timestamp": 1688856000,
+      "timezone": "UTC",
+      "slug": "UFC 290: Volkanovski vs. Rodriguez",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2601,
+          "name": "Terrence Mitchell",
+          "logo": "https://media.api-sports.io/mma/fighters/2601.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2470,
+          "name": "Cameron Saaiman",
+          "logo": "https://media.api-sports.io/mma/fighters/2470.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 927,
+      "date": "2023-09-17T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1694919600,
+      "timezone": "UTC",
+      "slug": "Noche UFC: Grasso vs. Shevchenko 2",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2601,
+          "name": "Terrence Mitchell",
+          "logo": "https://media.api-sports.io/mma/fighters/2601.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2512,
+          "name": "Raul Rosas Jr.",
+          "logo": "https://media.api-sports.io/mma/fighters/2512.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:03.192Z"
+}

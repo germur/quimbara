@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 732,
+    "name": "Tagir Ulanbekov",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/732.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "125 lbs",
+    "reach": "70'",
+    "stance": "Southpaw",
+    "category": "Flyweight",
+    "team": {
+      "id": 163,
+      "name": "Eagles MMA"
+    },
+    "last_update": "2025-11-23T12:11:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 732,
+      "name": "Tagir Ulanbekov",
+      "photo": "https://media.api-sports.io/mma/fighters/732.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 1,
+      "loss": 0
+    },
+    "sub": {
+      "win": 8,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 1049,
+      "date": "2023-12-17T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1702773000,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 777,
+          "name": "Cody Durden",
+          "logo": "https://media.api-sports.io/mma/fighters/777.png",
+          "winner": false
+        },
+        "second": {
+          "id": 732,
+          "name": "Tagir Ulanbekov",
+          "logo": "https://media.api-sports.io/mma/fighters/732.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1456,
+      "date": "2024-06-15T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1718488800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Perez vs. Taira",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": false
+        },
+        "second": {
+          "id": 732,
+          "name": "Tagir Ulanbekov",
+          "logo": "https://media.api-sports.io/mma/fighters/732.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1770,
+      "date": "2025-01-18T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1737241200,
+      "timezone": "UTC",
+      "slug": "UFC 311: Makhachev vs. Moicano",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2542,
+          "name": "Clayton Carpenter",
+          "logo": "https://media.api-sports.io/mma/fighters/2542.png",
+          "winner": false
+        },
+        "second": {
+          "id": 732,
+          "name": "Tagir Ulanbekov",
+          "logo": "https://media.api-sports.io/mma/fighters/732.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2105,
+      "date": "2025-06-21T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1750521600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2528,
+          "name": "Azat Maksum",
+          "logo": "https://media.api-sports.io/mma/fighters/2528.png",
+          "winner": false
+        },
+        "second": {
+          "id": 732,
+          "name": "Tagir Ulanbekov",
+          "logo": "https://media.api-sports.io/mma/fighters/732.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2035,
+      "date": "2025-06-21T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1750536000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 1298,
+          "name": "Kyoji Horiguchi",
+          "logo": "https://media.api-sports.io/mma/fighters/1298.png",
+          "winner": false
+        },
+        "second": {
+          "id": 732,
+          "name": "Tagir Ulanbekov",
+          "logo": "https://media.api-sports.io/mma/fighters/732.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2340,
+      "date": "2025-11-22T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1763834400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tsarukyan vs. Hooker",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 1298,
+          "name": "Kyoji Horiguchi",
+          "logo": "https://media.api-sports.io/mma/fighters/1298.png",
+          "winner": true
+        },
+        "second": {
+          "id": 732,
+          "name": "Tagir Ulanbekov",
+          "logo": "https://media.api-sports.io/mma/fighters/732.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:59:13.339Z"
+}

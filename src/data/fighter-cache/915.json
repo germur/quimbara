@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 915,
+    "name": "Aoriqileng",
+    "nickname": "The Mongolian Murderer",
+    "photo": "https://media.api-sports.io/mma/fighters/915.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "136 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 20,
+      "name": "Fight Ready"
+    },
+    "last_update": "2025-10-25T00:01:47+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 915,
+      "name": "Aoriqileng",
+      "photo": "https://media.api-sports.io/mma/fighters/915.png"
+    },
+    "total": {
+      "win": 25,
+      "loss": 12,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 1
+    },
+    "sub": {
+      "win": 1,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 735,
+      "date": "2023-06-11T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1686443400,
+      "timezone": "UTC",
+      "slug": "UFC 289: Nunes vs. Aldana",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 915,
+          "name": "Aoriqileng",
+          "logo": "https://media.api-sports.io/mma/fighters/915.png",
+          "winner": false
+        },
+        "second": {
+          "id": 283,
+          "name": "Aiemann Zahabi",
+          "logo": "https://media.api-sports.io/mma/fighters/283.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 980,
+      "date": "2023-10-07T20:55:00+00:00",
+      "time": "20:55",
+      "timestamp": 1696712100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dawson vs. Green",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 782,
+          "name": "Johnny Munoz",
+          "logo": "https://media.api-sports.io/mma/fighters/782.png",
+          "winner": false
+        },
+        "second": {
+          "id": 915,
+          "name": "Aoriqileng",
+          "logo": "https://media.api-sports.io/mma/fighters/915.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1142,
+      "date": "2024-02-10T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1707570000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hermansson vs. Pyfer",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 915,
+          "name": "Aoriqileng",
+          "logo": "https://media.api-sports.io/mma/fighters/915.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2543,
+          "name": "Daniel Marcos",
+          "logo": "https://media.api-sports.io/mma/fighters/2543.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1560,
+      "date": "2024-09-14T15:30:00+00:00",
+      "time": "15:30",
+      "timestamp": 1726327800,
+      "timezone": "UTC",
+      "slug": "UFC 306 â Riyadh Season Noche UFC: OâMalley vs. Dvalishvili",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 915,
+          "name": "Aoriqileng",
+          "logo": "https://media.api-sports.io/mma/fighters/915.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2512,
+          "name": "Raul Rosas Jr.",
+          "logo": "https://media.api-sports.io/mma/fighters/2512.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2310,
+      "date": "2025-10-18T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1760788800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: de Ridder vs. Allen",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 915,
+          "name": "Aoriqileng",
+          "logo": "https://media.api-sports.io/mma/fighters/915.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2026,
+          "name": "Cody Gibson",
+          "logo": "https://media.api-sports.io/mma/fighters/2026.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:56:30.976Z"
+}

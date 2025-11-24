@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 2544,
+    "name": "Darrius Flowers",
+    "nickname": "Beast Mode",
+    "photo": "https://media.api-sports.io/mma/fighters/2544.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "170 lbs",
+    "reach": "71'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 719,
+      "name": "Uprising MMA"
+    },
+    "last_update": "2025-06-05T10:22:37+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2544,
+      "name": "Darrius Flowers",
+      "photo": "https://media.api-sports.io/mma/fighters/2544.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 8,
+      "draw": 1
+    },
+    "ko": {
+      "win": 7,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 6
+    }
+  },
+  "fights": [
+    {
+      "id": 826,
+      "date": "2023-07-30T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1690675200,
+      "timezone": "UTC",
+      "slug": "UFC 291: Poirier vs. Gaethje 2",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2544,
+          "name": "Darrius Flowers",
+          "logo": "https://media.api-sports.io/mma/fighters/2544.png",
+          "winner": false
+        },
+        "second": {
+          "id": 656,
+          "name": "Jake Matthews",
+          "logo": "https://media.api-sports.io/mma/fighters/656.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1148,
+      "date": "2024-02-10T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1707580800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hermansson vs. Pyfer",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2544,
+          "name": "Darrius Flowers",
+          "logo": "https://media.api-sports.io/mma/fighters/2544.png",
+          "winner": false
+        },
+        "second": {
+          "id": 305,
+          "name": "Michael Johnson",
+          "logo": "https://media.api-sports.io/mma/fighters/305.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1523,
+      "date": "2024-07-13T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1720882800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Namajunas vs. Cortez",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2544,
+          "name": "Darrius Flowers",
+          "logo": "https://media.api-sports.io/mma/fighters/2544.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2487,
+          "name": "Evan Elder",
+          "logo": "https://media.api-sports.io/mma/fighters/2487.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:57.549Z"
+}

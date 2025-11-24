@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 398,
+    "name": "Warlley Alves",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/398.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "186 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 189,
+      "name": "Rizzo RVT"
+    },
+    "last_update": "2025-06-04T16:29:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 398,
+      "name": "Warlley Alves",
+      "photo": "https://media.api-sports.io/mma/fighters/398.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 3
+    },
+    "sub": {
+      "win": 7,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 526,
+      "date": "2023-01-21T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1674342000,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": false,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 652,
+          "name": "Nicolas Dalby",
+          "logo": "https://media.api-sports.io/mma/fighters/652.png",
+          "winner": true
+        },
+        "second": {
+          "id": 398,
+          "name": "Warlley Alves",
+          "logo": "https://media.api-sports.io/mma/fighters/398.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 921,
+      "date": "2023-10-21T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1697914800,
+      "timezone": "UTC",
+      "slug": "UFC 294: Makhachev vs. Volkanovski 2",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 398,
+          "name": "Warlley Alves",
+          "logo": "https://media.api-sports.io/mma/fighters/398.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2557,
+          "name": "Ikram Aliskerov",
+          "logo": "https://media.api-sports.io/mma/fighters/2557.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1385,
+      "date": "2024-05-18T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1716033600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Barboza vs. Murphy",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 398,
+          "name": "Warlley Alves",
+          "logo": "https://media.api-sports.io/mma/fighters/398.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2459,
+          "name": "Abus Magomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/2459.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:24.393Z"
+}

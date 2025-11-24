@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 831,
+    "name": "Nassourdine Imavov",
+    "nickname": "The Sniper",
+    "photo": "https://media.api-sports.io/mma/fighters/831.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "185 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 113,
+      "name": "MMA Factory"
+    },
+    "last_update": "2025-09-13T12:14:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 831,
+      "name": "Nassourdine Imavov",
+      "photo": "https://media.api-sports.io/mma/fighters/831.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 0
+    },
+    "sub": {
+      "win": 4,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 518,
+      "date": "2023-01-15T02:15:00+00:00",
+      "time": "02:15",
+      "timestamp": 1673748900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Imavov",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 831,
+          "name": "Nassourdine Imavov",
+          "logo": "https://media.api-sports.io/mma/fighters/831.png",
+          "winner": false
+        },
+        "second": {
+          "id": 874,
+          "name": "Sean Strickland",
+          "logo": "https://media.api-sports.io/mma/fighters/874.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 733,
+      "date": "2023-06-11T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1686447000,
+      "timezone": "UTC",
+      "slug": "UFC 289: Nunes vs. Aldana",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2313,
+          "name": "Chris Curtis",
+          "logo": "https://media.api-sports.io/mma/fighters/2313.png",
+          "winner": false
+        },
+        "second": {
+          "id": 831,
+          "name": "Nassourdine Imavov",
+          "logo": "https://media.api-sports.io/mma/fighters/831.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1130,
+      "date": "2024-02-03T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1706976000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dolidze vs. Imavov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 831,
+          "name": "Nassourdine Imavov",
+          "logo": "https://media.api-sports.io/mma/fighters/831.png",
+          "winner": true
+        },
+        "second": {
+          "id": 417,
+          "name": "Roman Dolidze",
+          "logo": "https://media.api-sports.io/mma/fighters/417.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1399,
+      "date": "2024-06-08T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1717862400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Imavov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 831,
+          "name": "Nassourdine Imavov",
+          "logo": "https://media.api-sports.io/mma/fighters/831.png",
+          "winner": true
+        },
+        "second": {
+          "id": 294,
+          "name": "Jared Cannonier",
+          "logo": "https://media.api-sports.io/mma/fighters/294.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1433,
+      "date": "2024-09-28T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1727521200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moicano vs. Saint Denis",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 513,
+          "name": "Brendan Allen",
+          "logo": "https://media.api-sports.io/mma/fighters/513.png",
+          "winner": false
+        },
+        "second": {
+          "id": 831,
+          "name": "Nassourdine Imavov",
+          "logo": "https://media.api-sports.io/mma/fighters/831.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1781,
+      "date": "2025-02-01T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1738436400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Adesanya vs. Imavov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 831,
+          "name": "Nassourdine Imavov",
+          "logo": "https://media.api-sports.io/mma/fighters/831.png",
+          "winner": true
+        },
+        "second": {
+          "id": 70,
+          "name": "Israel Adesanya",
+          "logo": "https://media.api-sports.io/mma/fighters/70.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2133,
+      "date": "2025-09-06T21:45:00+00:00",
+      "time": "21:45",
+      "timestamp": 1757195100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Imavov vs. Borralho",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2428,
+          "name": "Caio Borralho",
+          "logo": "https://media.api-sports.io/mma/fighters/2428.png",
+          "winner": false
+        },
+        "second": {
+          "id": 831,
+          "name": "Nassourdine Imavov",
+          "logo": "https://media.api-sports.io/mma/fighters/831.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:07.753Z"
+}

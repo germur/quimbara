@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 591,
+    "name": "FarÃ©s Ziam",
+    "nickname": "Smile Killer",
+    "photo": "https://media.api-sports.io/mma/fighters/591.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "156 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-06-04T18:06:07+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 591,
+      "name": "FarÃ©s Ziam",
+      "photo": "https://media.api-sports.io/mma/fighters/591.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 0
+    },
+    "sub": {
+      "win": 4,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 817,
+      "date": "2023-07-22T19:30:00+00:00",
+      "time": "19:30",
+      "timestamp": 1690054200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Aspinall vs. Tybura",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 591,
+          "name": "FarÃ©s Ziam",
+          "logo": "https://media.api-sports.io/mma/fighters/591.png",
+          "winner": true
+        },
+        "second": {
+          "id": 747,
+          "name": "Jai Herbert",
+          "logo": "https://media.api-sports.io/mma/fighters/747.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1220,
+      "date": "2024-02-24T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1708790400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Royval 2",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 591,
+          "name": "FarÃ©s Ziam",
+          "logo": "https://media.api-sports.io/mma/fighters/591.png",
+          "winner": true
+        },
+        "second": {
+          "id": 601,
+          "name": "Claudio Puelles",
+          "logo": "https://media.api-sports.io/mma/fighters/601.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1591,
+      "date": "2024-09-28T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1727521200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moicano vs. Saint Denis",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 322,
+          "name": "Matt Frevola",
+          "logo": "https://media.api-sports.io/mma/fighters/322.png",
+          "winner": false
+        },
+        "second": {
+          "id": 591,
+          "name": "FarÃ©s Ziam",
+          "logo": "https://media.api-sports.io/mma/fighters/591.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1844,
+      "date": "2025-02-01T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1738429200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Adesanya vs. Imavov",
+      "is_main": true,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 420,
+          "name": "Mike Davis",
+          "logo": "https://media.api-sports.io/mma/fighters/420.png",
+          "winner": false
+        },
+        "second": {
+          "id": 591,
+          "name": "FarÃ©s Ziam",
+          "logo": "https://media.api-sports.io/mma/fighters/591.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2390,
+      "date": "2025-12-07T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1765069200,
+      "timezone": "UTC",
+      "slug": "UFC 323: Dvalishvili vs. Yan 2",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 591,
+          "name": "FarÃ©s Ziam",
+          "logo": "https://media.api-sports.io/mma/fighters/591.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2586,
+          "name": "Nazim Sadykhov",
+          "logo": "https://media.api-sports.io/mma/fighters/2586.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:53:02.327Z"
+}

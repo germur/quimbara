@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 848,
+    "name": "Damon Jackson",
+    "nickname": "The Leech",
+    "photo": "https://media.api-sports.io/mma/fighters/848.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "155 lbs",
+    "reach": "71'",
+    "stance": "Switch",
+    "category": "Lightweight",
+    "team": {
+      "id": 2,
+      "name": "Fortis MMA"
+    },
+    "last_update": "2025-06-04T20:14:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 848,
+      "name": "Damon Jackson",
+      "photo": "https://media.api-sports.io/mma/fighters/848.png"
+    },
+    "total": {
+      "win": 23,
+      "loss": 8,
+      "draw": 1
+    },
+    "ko": {
+      "win": 4,
+      "loss": 4
+    },
+    "sub": {
+      "win": 15,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 519,
+      "date": "2023-01-15T01:40:00+00:00",
+      "time": "01:40",
+      "timestamp": 1673746800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Imavov",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 848,
+          "name": "Damon Jackson",
+          "logo": "https://media.api-sports.io/mma/fighters/848.png",
+          "winner": false
+        },
+        "second": {
+          "id": 230,
+          "name": "Dan Ige",
+          "logo": "https://media.api-sports.io/mma/fighters/230.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 835,
+      "date": "2023-08-06T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1691281800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Font",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 848,
+          "name": "Damon Jackson",
+          "logo": "https://media.api-sports.io/mma/fighters/848.png",
+          "winner": false
+        },
+        "second": {
+          "id": 527,
+          "name": "Billy Quarantillo",
+          "logo": "https://media.api-sports.io/mma/fighters/527.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1308,
+      "date": "2024-04-06T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1712412000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Curtis 2",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 848,
+          "name": "Damon Jackson",
+          "logo": "https://media.api-sports.io/mma/fighters/848.png",
+          "winner": true
+        },
+        "second": {
+          "id": 17,
+          "name": "Alexander Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/17.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1546,
+      "date": "2024-08-10T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1723302000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tybura vs. Spivac 2",
+      "is_main": true,
+      "category": "Featherweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2539,
+          "name": "Chepe Mariscal",
+          "logo": "https://media.api-sports.io/mma/fighters/2539.png",
+          "winner": true
+        },
+        "second": {
+          "id": 848,
+          "name": "Damon Jackson",
+          "logo": "https://media.api-sports.io/mma/fighters/848.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1733,
+      "date": "2024-11-16T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1731776400,
+      "timezone": "UTC",
+      "slug": "UFC 309: Jones vs. Miocic",
+      "is_main": false,
+      "category": "Lightweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 848,
+          "name": "Damon Jackson",
+          "logo": "https://media.api-sports.io/mma/fighters/848.png",
+          "winner": false
+        },
+        "second": {
+          "id": 274,
+          "name": "Jim Miller",
+          "logo": "https://media.api-sports.io/mma/fighters/274.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:52:46.844Z"
+}

@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 218,
+    "name": "Matt Schnell",
+    "nickname": "Danger",
+    "photo": "https://media.api-sports.io/mma/fighters/218.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "126 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 2,
+      "name": "Fortis MMA"
+    },
+    "last_update": "2025-11-16T00:03:06+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 218,
+      "name": "Matt Schnell",
+      "photo": "https://media.api-sports.io/mma/fighters/218.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 5
+    },
+    "sub": {
+      "win": 9,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 973,
+      "date": "2023-11-12T01:15:00+00:00",
+      "time": "01:15",
+      "timestamp": 1699751700,
+      "timezone": "UTC",
+      "slug": "UFC 295: Jones vs. Miocic",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2599,
+          "name": "Steve Erceg",
+          "logo": "https://media.api-sports.io/mma/fighters/2599.png",
+          "winner": false
+        },
+        "second": {
+          "id": 218,
+          "name": "Matt Schnell",
+          "logo": "https://media.api-sports.io/mma/fighters/218.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1267,
+      "date": "2024-03-02T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1709384400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Gaziev",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2599,
+          "name": "Steve Erceg",
+          "logo": "https://media.api-sports.io/mma/fighters/2599.png",
+          "winner": true
+        },
+        "second": {
+          "id": 218,
+          "name": "Matt Schnell",
+          "logo": "https://media.api-sports.io/mma/fighters/218.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1668,
+      "date": "2024-09-07T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1725721200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Brady",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 777,
+          "name": "Cody Durden",
+          "logo": "https://media.api-sports.io/mma/fighters/777.png",
+          "winner": true
+        },
+        "second": {
+          "id": 218,
+          "name": "Matt Schnell",
+          "logo": "https://media.api-sports.io/mma/fighters/218.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1556,
+      "date": "2024-09-08T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1725753600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Brady",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2462,
+          "name": "Alessandro Costa",
+          "logo": "https://media.api-sports.io/mma/fighters/2462.png",
+          "winner": false
+        },
+        "second": {
+          "id": 218,
+          "name": "Matt Schnell",
+          "logo": "https://media.api-sports.io/mma/fighters/218.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1983,
+      "date": "2025-04-27T00:40:00+00:00",
+      "time": "00:40",
+      "timestamp": 1745714400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Machado Garry vs. Prates",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 815,
+          "name": "Jimmy Flick",
+          "logo": "https://media.api-sports.io/mma/fighters/815.png",
+          "winner": false
+        },
+        "second": {
+          "id": 218,
+          "name": "Matt Schnell",
+          "logo": "https://media.api-sports.io/mma/fighters/218.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2368,
+      "date": "2025-11-09T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1762651800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Bonfim vs. Brown",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2268,
+          "name": "Joseph Morales",
+          "logo": "https://media.api-sports.io/mma/fighters/2268.png",
+          "winner": true
+        },
+        "second": {
+          "id": 218,
+          "name": "Matt Schnell",
+          "logo": "https://media.api-sports.io/mma/fighters/218.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:59:02.113Z"
+}

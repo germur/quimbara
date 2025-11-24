@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 565,
+    "name": "Colby Covington",
+    "nickname": "Chaos",
+    "photo": "https://media.api-sports.io/mma/fighters/565.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "169 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 98,
+      "name": "MMA Masters"
+    },
+    "last_update": "2025-06-04T17:53:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 565,
+      "name": "Colby Covington",
+      "photo": "https://media.api-sports.io/mma/fighters/565.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 1
+    },
+    "sub": {
+      "win": 5,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 1009,
+      "date": "2023-12-17T05:00:00+00:00",
+      "time": "05:00",
+      "timestamp": 1702789200,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 565,
+          "name": "Colby Covington",
+          "logo": "https://media.api-sports.io/mma/fighters/565.png",
+          "winner": false
+        },
+        "second": {
+          "id": 165,
+          "name": "Leon Edwards",
+          "logo": "https://media.api-sports.io/mma/fighters/165.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1755,
+      "date": "2024-12-14T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1734202800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Covington vs. Buckley",
+      "is_main": true,
+      "category": "Welterweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 790,
+          "name": "Joaquin Buckley",
+          "logo": "https://media.api-sports.io/mma/fighters/790.png",
+          "winner": true
+        },
+        "second": {
+          "id": 565,
+          "name": "Colby Covington",
+          "logo": "https://media.api-sports.io/mma/fighters/565.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:50:52.014Z"
+}

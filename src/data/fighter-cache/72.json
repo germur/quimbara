@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 72,
+    "name": "Ricky Simon",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/72.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "135 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 52,
+      "name": "American Top  Portland"
+    },
+    "last_update": "2025-11-15T12:07:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 72,
+      "name": "Ricky Simon",
+      "photo": "https://media.api-sports.io/mma/fighters/72.png"
+    },
+    "total": {
+      "win": 22,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 2
+    },
+    "sub": {
+      "win": 4,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 677,
+      "date": "2023-04-30T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1682818200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Simon",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 72,
+          "name": "Ricky Simon",
+          "logo": "https://media.api-sports.io/mma/fighters/72.png",
+          "winner": false
+        },
+        "second": {
+          "id": 126,
+          "name": "Song Yadong",
+          "logo": "https://media.api-sports.io/mma/fighters/126.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1107,
+      "date": "2024-01-13T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1705161600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ankalaev vs. Walker 2",
+      "is_main": true,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 7,
+          "name": "Mario Bautista",
+          "logo": "https://media.api-sports.io/mma/fighters/7.png",
+          "winner": true
+        },
+        "second": {
+          "id": 72,
+          "name": "Ricky Simon",
+          "logo": "https://media.api-sports.io/mma/fighters/72.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1481,
+      "date": "2024-06-29T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1719669600,
+      "timezone": "UTC",
+      "slug": "UFC 303: Pereira vs. ProchÃ¡zka 2",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2675,
+          "name": "Vinicius Oliveira",
+          "logo": "https://media.api-sports.io/mma/fighters/2675.png",
+          "winner": true
+        },
+        "second": {
+          "id": 72,
+          "name": "Ricky Simon",
+          "logo": "https://media.api-sports.io/mma/fighters/72.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1845,
+      "date": "2025-02-23T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1740268800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cejudo vs. Song",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2392,
+          "name": "Javid Basharat",
+          "logo": "https://media.api-sports.io/mma/fighters/2392.png",
+          "winner": false
+        },
+        "second": {
+          "id": 72,
+          "name": "Ricky Simon",
+          "logo": "https://media.api-sports.io/mma/fighters/72.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2090,
+      "date": "2025-06-14T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1749943800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Usman vs. Buckley",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 425,
+          "name": "Charles Jourdain",
+          "logo": "https://media.api-sports.io/mma/fighters/425.png",
+          "winner": false
+        },
+        "second": {
+          "id": 72,
+          "name": "Ricky Simon",
+          "logo": "https://media.api-sports.io/mma/fighters/72.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2135,
+      "date": "2025-06-14T23:40:00+00:00",
+      "time": "23:40",
+      "timestamp": 1749944400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Usman vs. Buckley",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2741,
+          "name": "Cameron Smotherman",
+          "logo": "https://media.api-sports.io/mma/fighters/2741.png",
+          "winner": false
+        },
+        "second": {
+          "id": 72,
+          "name": "Ricky Simon",
+          "logo": "https://media.api-sports.io/mma/fighters/72.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2364,
+      "date": "2025-11-08T23:15:00+00:00",
+      "time": "23:15",
+      "timestamp": 1762643700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Bonfim vs. Brown",
+      "is_main": false,
+      "category": "Bantamweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 399,
+          "name": "Raoni Barcelos",
+          "logo": "https://media.api-sports.io/mma/fighters/399.png",
+          "winner": true
+        },
+        "second": {
+          "id": 72,
+          "name": "Ricky Simon",
+          "logo": "https://media.api-sports.io/mma/fighters/72.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:57:49.170Z"
+}

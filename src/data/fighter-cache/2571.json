@@ -1,0 +1,464 @@
+{
+  "profile": {
+    "id": 2571,
+    "name": "Joshua Van",
+    "nickname": "The Fearless",
+    "photo": "https://media.api-sports.io/mma/fighters/2571.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "125 lbs",
+    "reach": "65'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 89,
+      "name": "4oz Fight Club"
+    },
+    "last_update": "2025-07-06T00:07:37+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2571,
+      "name": "Joshua Van",
+      "photo": "https://media.api-sports.io/mma/fighters/2571.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 758,
+      "date": "2023-06-24T17:50:00+00:00",
+      "time": "17:50",
+      "timestamp": 1687629000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Topuria",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": true
+        },
+        "second": {
+          "id": 726,
+          "name": "Zhalgas Zhumagulov",
+          "logo": "https://media.api-sports.io/mma/fighters/726.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 924,
+      "date": "2023-11-11T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1699745400,
+      "timezone": "UTC",
+      "slug": "UFC 295: ProchÃ¡zka vs. Pereira",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2575,
+          "name": "Kevin Borjas",
+          "logo": "https://media.api-sports.io/mma/fighters/2575.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1188,
+      "date": "2024-01-13T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1705150800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ankalaev vs. Walker 2",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2656,
+          "name": "Felipe Bunes",
+          "logo": "https://media.api-sports.io/mma/fighters/2656.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1337,
+      "date": "2024-04-06T22:40:00+00:00",
+      "time": "22:40",
+      "timestamp": 1712443200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Curtis 2",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2687,
+          "name": "Lucas Rocha",
+          "logo": "https://media.api-sports.io/mma/fighters/2687.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1394,
+      "date": "2024-06-01T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1717250400,
+      "timezone": "UTC",
+      "slug": "UFC 302: Makhachev vs. Poirier",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": false
+        },
+        "second": {
+          "id": 580,
+          "name": "Sumudaerji",
+          "logo": "https://media.api-sports.io/mma/fighters/580.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1423,
+      "date": "2024-06-01T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1717279200,
+      "timezone": "UTC",
+      "slug": "UFC 302: Makhachev vs. Poirier",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2516,
+          "name": "Tatsuro Taira",
+          "logo": "https://media.api-sports.io/mma/fighters/2516.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1456,
+      "date": "2024-06-15T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1718488800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Perez vs. Taira",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": false
+        },
+        "second": {
+          "id": 732,
+          "name": "Tagir Ulanbekov",
+          "logo": "https://media.api-sports.io/mma/fighters/732.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1520,
+      "date": "2024-07-13T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1720882800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Namajunas vs. Cortez",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2472,
+          "name": "Charles Johnson",
+          "logo": "https://media.api-sports.io/mma/fighters/2472.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1670,
+      "date": "2024-09-14T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1726329600,
+      "timezone": "UTC",
+      "slug": "UFC 306 â Riyadh Season Noche UFC: OâMalley vs. Dvalishvili",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2545,
+          "name": "Ãdgar ChÃ¡irez",
+          "logo": "https://media.api-sports.io/mma/fighters/2545.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1731,
+      "date": "2024-12-07T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1733583600,
+      "timezone": "UTC",
+      "slug": "UFC 310: Pantoja vs. Asakura",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": true
+        },
+        "second": {
+          "id": 777,
+          "name": "Cody Durden",
+          "logo": "https://media.api-sports.io/mma/fighters/777.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1878,
+      "date": "2025-03-08T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1741453200,
+      "timezone": "UTC",
+      "slug": "UFC 313: Pereira vs. Ankalaev",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": false
+        },
+        "second": {
+          "id": 675,
+          "name": "Bruno Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/675.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1955,
+      "date": "2025-03-09T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1741487400,
+      "timezone": "UTC",
+      "slug": "UFC 313: Pereira vs. Ankalaev",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2645,
+          "name": "Rei Tsuruya",
+          "logo": "https://media.api-sports.io/mma/fighters/2645.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2031,
+      "date": "2025-06-08T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1749346200,
+      "timezone": "UTC",
+      "slug": "UFC 316: Dvalishvili vs. O'Malley 2",
+      "is_main": false,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": true
+        },
+        "second": {
+          "id": 675,
+          "name": "Bruno Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/675.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2078,
+      "date": "2025-06-29T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1751167800,
+      "timezone": "UTC",
+      "slug": "UFC 317: Topuria vs. Oliveira",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": true
+        },
+        "second": {
+          "id": 716,
+          "name": "Brandon Royval",
+          "logo": "https://media.api-sports.io/mma/fighters/716.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2387,
+      "date": "2025-12-07T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1765074600,
+      "timezone": "UTC",
+      "slug": "UFC 323: Dvalishvili vs. Yan 2",
+      "is_main": true,
+      "category": "Flyweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "logo": "https://media.api-sports.io/mma/fighters/2571.png",
+          "winner": false
+        },
+        "second": {
+          "id": 250,
+          "name": "Alexandre Pantoja",
+          "logo": "https://media.api-sports.io/mma/fighters/250.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:58:52.333Z"
+}

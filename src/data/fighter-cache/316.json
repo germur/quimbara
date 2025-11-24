@@ -1,0 +1,296 @@
+{
+  "profile": {
+    "id": 316,
+    "name": "Gerald Meerschaert",
+    "nickname": "GM3",
+    "photo": "https://media.api-sports.io/mma/fighters/316.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "185 lbs",
+    "reach": "77'",
+    "stance": "Southpaw",
+    "category": "Middleweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-11-23T00:01:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 316,
+      "name": "Gerald Meerschaert",
+      "photo": "https://media.api-sports.io/mma/fighters/316.png"
+    },
+    "total": {
+      "win": 37,
+      "loss": 20,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 5
+    },
+    "sub": {
+      "win": 29,
+      "loss": 9
+    }
+  },
+  "fights": [
+    {
+      "id": 640,
+      "date": "2023-04-09T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1680998400,
+      "timezone": "UTC",
+      "slug": "UFC 287: Pereira vs. Adesanya 2",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 776,
+          "name": "Joe Pyfer",
+          "logo": "https://media.api-sports.io/mma/fighters/776.png",
+          "winner": true
+        },
+        "second": {
+          "id": 316,
+          "name": "Gerald Meerschaert",
+          "logo": "https://media.api-sports.io/mma/fighters/316.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 860,
+      "date": "2023-08-19T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1692487800,
+      "timezone": "UTC",
+      "slug": "UFC 292: Sterling vs. O'Malley",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 316,
+          "name": "Gerald Meerschaert",
+          "logo": "https://media.api-sports.io/mma/fighters/316.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2405,
+          "name": "Andre Petroski",
+          "logo": "https://media.api-sports.io/mma/fighters/2405.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1227,
+      "date": "2024-03-16T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1710601200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tuivasa vs. Tybura",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 100,
+          "name": "Bryan Barberena",
+          "logo": "https://media.api-sports.io/mma/fighters/100.png",
+          "winner": false
+        },
+        "second": {
+          "id": 316,
+          "name": "Gerald Meerschaert",
+          "logo": "https://media.api-sports.io/mma/fighters/316.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1533,
+      "date": "2024-08-17T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1723910400,
+      "timezone": "UTC",
+      "slug": "UFC 305: Du Plessis vs. Adesanya",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 316,
+          "name": "Gerald Meerschaert",
+          "logo": "https://media.api-sports.io/mma/fighters/316.png",
+          "winner": false
+        },
+        "second": {
+          "id": 853,
+          "name": "Jacob Malkoun",
+          "logo": "https://media.api-sports.io/mma/fighters/853.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1584,
+      "date": "2024-08-24T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1724522400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Borralho",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 316,
+          "name": "Gerald Meerschaert",
+          "logo": "https://media.api-sports.io/mma/fighters/316.png",
+          "winner": true
+        },
+        "second": {
+          "id": 121,
+          "name": "Edmen Shahbazyan",
+          "logo": "https://media.api-sports.io/mma/fighters/121.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1702,
+      "date": "2024-11-09T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1731168000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Magny vs. Prates",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2735,
+          "name": "Reinier de Ridder",
+          "logo": "https://media.api-sports.io/mma/fighters/2735.png",
+          "winner": true
+        },
+        "second": {
+          "id": 316,
+          "name": "Gerald Meerschaert",
+          "logo": "https://media.api-sports.io/mma/fighters/316.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1975,
+      "date": "2025-04-06T02:15:00+00:00",
+      "time": "02:15",
+      "timestamp": 1743905700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Murphy",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 316,
+          "name": "Gerald Meerschaert",
+          "logo": "https://media.api-sports.io/mma/fighters/316.png",
+          "winner": false
+        },
+        "second": {
+          "id": 681,
+          "name": "Brad Tavares",
+          "logo": "https://media.api-sports.io/mma/fighters/681.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2153,
+      "date": "2025-08-17T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1755392400,
+      "timezone": "UTC",
+      "slug": "UFC 319: Du Plessis vs. Chimaev",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 108,
+          "name": "Michal Oleksiejczuk",
+          "logo": "https://media.api-sports.io/mma/fighters/108.png",
+          "winner": true
+        },
+        "second": {
+          "id": 316,
+          "name": "Gerald Meerschaert",
+          "logo": "https://media.api-sports.io/mma/fighters/316.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2325,
+      "date": "2025-11-16T00:50:00+00:00",
+      "time": "00:50",
+      "timestamp": 1763254200,
+      "timezone": "UTC",
+      "slug": "UFC 322: Della Maddalena vs. Makhachev",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 316,
+          "name": "Gerald Meerschaert",
+          "logo": "https://media.api-sports.io/mma/fighters/316.png",
+          "winner": false
+        },
+        "second": {
+          "id": 465,
+          "name": "Kyle Daukaus",
+          "logo": "https://media.api-sports.io/mma/fighters/465.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:49:38.445Z"
+}
