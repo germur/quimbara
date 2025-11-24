@@ -30,7 +30,7 @@ export default defineConfig({
   // Adapter
   // https://docs.astro.build/en/guides/deploy/
   adapter: netlify(),
-  output: 'hybrid', // Changed from 'server' - allows prerender pages to be truly static
+  output: 'static', // Full static site generation - all pages prerendered at build time
   // 3. Local (standalone)
   // adapter: node({ mode: 'standalone' }),
   // output: 'server',
