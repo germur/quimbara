@@ -1,5 +1,8 @@
 ---
 import { PostPreview } from 'astro-pure/components/pages'
+
+export const prerender = true
+
 import { getBlogCollection, sortMDByDate } from 'astro-pure/server'
 import { Button, Icon, Label } from 'astro-pure/user'
 import PageLayout from '@/layouts/BaseLayout.astro'
