@@ -38,30 +38,33 @@ interface FighterRecords {
 
 const { fighterId, historicalEvents } = Astro.props;
 
-// Read from cache instead of API
-import fs from 'fs';
-import path from 'path';
-
-const cacheFile = path.join(process.cwd(), 'src/data/fighter-cache', `${fighterId}.json`);
+// Read from Content Collection (Astro handles bundling)
+import { getEntry } from 'astro:content';
 
 let fighter: FighterProfile | null = null;
 let records: FighterRecords | null = null;
 let recentFights: Fight[] = [];
 
-if (fs.existsSync(cacheFile)) {
-  const cacheData = JSON.parse(fs.readFileSync(cacheFile, 'utf-8'));
-  fighter = cacheData.profile;
-  records = cacheData.records;
-  recentFights = (cacheData.fights || []) as Fight[];
+try {
+  const entry = await getEntry('fighterData', fighterId.toString());
   
-  // Calculate decision wins/losses (total - ko - sub)
-  if (records) {
-    const decWins = records.total.win - (records.ko?.win || 0) - (records.sub?.win || 0);
-    const decLoss = records.total.loss - (records.ko?.loss || 0) - (records.sub?.loss || 0);
-    records.dec = { win: decWins, loss: decLoss };
+  if (entry) {
+    const cacheData = entry.data;
+    fighter = cacheData.profile as FighterProfile;
+    records = cacheData.records as FighterRecords;
+    recentFights = (cacheData.fights || []) as Fight[];
+    
+    // Calculate decision wins/losses (total - ko - sub)
+    if (records) {
+      const decWins = records.total.win - (records.ko?.win || 0) - (records.sub?.win || 0);
+      const decLoss = records.total.loss - (records.ko?.loss || 0) - (records.sub?.loss || 0);
+      records.dec = { win: decWins, loss: decLoss };
+    }
+  } else {
+    console.warn(`⚠️  Cache entry not found for fighter ${fighterId}`);
   }
-} else {
-  console.warn(`⚠️  Cache file not found for fighter ${fighterId}`);
+} catch (e) {
+  console.error(`Error reading fighter data: ${e}`);
 }
 
 

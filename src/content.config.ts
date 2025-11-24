@@ -56,4 +56,30 @@ const docs = defineCollection({
     })
 })
 
-export const collections = { blog, docs }
+// Define fighter data collection
+const fighterData = defineCollection({
+  loader: glob({ base: './src/content/fighter-data', pattern: '**/*.json' }),
+  schema: z.object({
+    profile: z.object({
+      id: z.number(),
+      name: z.string(),
+      slug: z.string().optional().nullable(),
+      nickname: z.string().optional().nullable(),
+      photo: z.string().optional().nullable(),
+      division: z.string().optional().nullable(),
+      team: z.object({ name: z.string().optional().nullable() }).optional().nullable(),
+      height: z.string().optional().nullable(),
+      weight: z.string().optional().nullable(),
+      reach: z.string().optional().nullable(),
+      stance: z.string().optional().nullable(),
+      birth: z.object({ date: z.string().optional().nullable(), country: z.string().optional().nullable() }).optional().nullable(),
+      career_start: z.string().optional().nullable(),
+      description: z.string().optional().nullable()
+    }).nullable(),
+    records: z.any().optional(), // Simplifying for now
+    fights: z.array(z.any()).optional(),
+    cachedAt: z.string().optional()
+  })
+})
+
+export const collections = { blog, docs, fighterData }
