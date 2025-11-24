@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 2584,
+    "name": "Mick Parkin",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2584.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 4'",
+    "weight": "260 lbs",
+    "reach": "79'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 712,
+      "name": "Fish Tank"
+    },
+    "last_update": "2025-06-05T10:42:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2584,
+      "name": "Mick Parkin",
+      "photo": "https://media.api-sports.io/mma/fighters/2584.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 1,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 0
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 807,
+      "date": "2023-07-22T17:40:00+00:00",
+      "time": "17:40",
+      "timestamp": 1690047600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Aspinall vs. Tybura",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 630,
+          "name": "Jamal Pogues",
+          "logo": "https://media.api-sports.io/mma/fighters/630.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2584,
+          "name": "Mick Parkin",
+          "logo": "https://media.api-sports.io/mma/fighters/2584.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1031,
+      "date": "2023-11-18T20:20:00+00:00",
+      "time": "20:20",
+      "timestamp": 1700338800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2635,
+          "name": "Caio Machado",
+          "logo": "https://media.api-sports.io/mma/fighters/2635.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2584,
+          "name": "Mick Parkin",
+          "logo": "https://media.api-sports.io/mma/fighters/2584.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1260,
+      "date": "2024-03-23T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1711206000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ribas vs. Namajunas",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2584,
+          "name": "Mick Parkin",
+          "logo": "https://media.api-sports.io/mma/fighters/2584.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2506,
+          "name": "Mohammed Usman",
+          "logo": "https://media.api-sports.io/mma/fighters/2506.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1467,
+      "date": "2024-07-27T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1722088800,
+      "timezone": "UTC",
+      "slug": "UFC 304: Edwards vs. Muhammad 2",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2390,
+          "name": "Lukasz Brzeski",
+          "logo": "https://media.api-sports.io/mma/fighters/2390.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2584,
+          "name": "Mick Parkin",
+          "logo": "https://media.api-sports.io/mma/fighters/2584.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1808,
+      "date": "2025-03-22T18:20:00+00:00",
+      "time": "18:20",
+      "timestamp": 1742667600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Edwards vs. Brady",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2584,
+          "name": "Mick Parkin",
+          "logo": "https://media.api-sports.io/mma/fighters/2584.png",
+          "winner": false
+        },
+        "second": {
+          "id": 270,
+          "name": "Marcin Tybura",
+          "logo": "https://media.api-sports.io/mma/fighters/270.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:01.140Z"
+}

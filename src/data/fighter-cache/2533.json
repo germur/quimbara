@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 2533,
+    "name": "Braxton Smith",
+    "nickname": "The Beautiful Monster",
+    "photo": "https://media.api-sports.io/mma/fighters/2533.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "262 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 709,
+      "name": "Black Sheep MMA"
+    },
+    "last_update": "2025-06-05T10:17:06+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2533,
+      "name": "Braxton Smith",
+      "photo": "https://media.api-sports.io/mma/fighters/2533.png"
+    },
+    "total": {
+      "win": 5,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 2
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 683,
+      "date": "2023-05-06T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1683415800,
+      "timezone": "UTC",
+      "slug": "UFC 288: Sterling vs. Cejudo",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 793,
+          "name": "Parker Porter",
+          "logo": "https://media.api-sports.io/mma/fighters/793.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2533,
+          "name": "Braxton Smith",
+          "logo": "https://media.api-sports.io/mma/fighters/2533.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:30.644Z"
+}

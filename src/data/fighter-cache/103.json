@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 103,
+    "name": "Magomed Ankalaev",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/103.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "205 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 69,
+      "name": "Gorets"
+    },
+    "last_update": "2025-10-12T00:05:35+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 103,
+      "name": "Magomed Ankalaev",
+      "photo": "https://media.api-sports.io/mma/fighters/103.png"
+    },
+    "total": {
+      "win": 21,
+      "loss": 1,
+      "draw": 1
+    },
+    "ko": {
+      "win": 11,
+      "loss": 0
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 971,
+      "date": "2023-10-21T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1697914800,
+      "timezone": "UTC",
+      "slug": "UFC 294: Makhachev vs. Volkanovski 2",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 49,
+          "name": "Johnny Walker",
+          "logo": "https://media.api-sports.io/mma/fighters/49.png",
+          "winner": false
+        },
+        "second": {
+          "id": 103,
+          "name": "Magomed Ankalaev",
+          "logo": "https://media.api-sports.io/mma/fighters/103.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1103,
+      "date": "2024-01-13T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1705161600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ankalaev vs. Walker 2",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 49,
+          "name": "Johnny Walker",
+          "logo": "https://media.api-sports.io/mma/fighters/49.png",
+          "winner": false
+        },
+        "second": {
+          "id": 103,
+          "name": "Magomed Ankalaev",
+          "logo": "https://media.api-sports.io/mma/fighters/103.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1573,
+      "date": "2024-10-26T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1729936800,
+      "timezone": "UTC",
+      "slug": "UFC 308: Topuria vs. Holloway",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 406,
+          "name": "Aleksandar Rakic",
+          "logo": "https://media.api-sports.io/mma/fighters/406.png",
+          "winner": false
+        },
+        "second": {
+          "id": 103,
+          "name": "Magomed Ankalaev",
+          "logo": "https://media.api-sports.io/mma/fighters/103.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1801,
+      "date": "2025-03-09T05:30:00+00:00",
+      "time": "05:30",
+      "timestamp": 1741498200,
+      "timezone": "UTC",
+      "slug": "UFC 313: Pereira vs. Ankalaev",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 103,
+          "name": "Magomed Ankalaev",
+          "logo": "https://media.api-sports.io/mma/fighters/103.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2436,
+          "name": "Alex Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/2436.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2140,
+      "date": "2025-10-05T04:50:00+00:00",
+      "time": "04:50",
+      "timestamp": 1759639800,
+      "timezone": "UTC",
+      "slug": "UFC 320: Ankalaev vs. Pereira 2",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2436,
+          "name": "Alex Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/2436.png",
+          "winner": true
+        },
+        "second": {
+          "id": 103,
+          "name": "Magomed Ankalaev",
+          "logo": "https://media.api-sports.io/mma/fighters/103.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:54.066Z"
+}

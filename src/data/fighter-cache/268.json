@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 268,
+    "name": "Alexander Volkov",
+    "nickname": "Drago",
+    "photo": "https://media.api-sports.io/mma/fighters/268.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 7'",
+    "weight": "254 lbs",
+    "reach": "80'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 140,
+      "name": "Strela"
+    },
+    "last_update": "2025-11-01T12:08:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 268,
+      "name": "Alexander Volkov",
+      "photo": "https://media.api-sports.io/mma/fighters/268.png"
+    },
+    "total": {
+      "win": 38,
+      "loss": 11,
+      "draw": 0
+    },
+    "ko": {
+      "win": 24,
+      "loss": 2
+    },
+    "sub": {
+      "win": 4,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 605,
+      "date": "2023-03-12T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1678582800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Dvalishvili",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 725,
+          "name": "Alexandr Romanov",
+          "logo": "https://media.api-sports.io/mma/fighters/725.png",
+          "winner": false
+        },
+        "second": {
+          "id": 268,
+          "name": "Alexander Volkov",
+          "logo": "https://media.api-sports.io/mma/fighters/268.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 902,
+      "date": "2023-09-10T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1694316600,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 268,
+          "name": "Alexander Volkov",
+          "logo": "https://media.api-sports.io/mma/fighters/268.png",
+          "winner": true
+        },
+        "second": {
+          "id": 381,
+          "name": "Tai Tuivasa",
+          "logo": "https://media.api-sports.io/mma/fighters/381.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1349,
+      "date": "2024-06-22T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1719054000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 268,
+          "name": "Alexander Volkov",
+          "logo": "https://media.api-sports.io/mma/fighters/268.png",
+          "winner": true
+        },
+        "second": {
+          "id": 260,
+          "name": "Sergei Pavlovich",
+          "logo": "https://media.api-sports.io/mma/fighters/260.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1572,
+      "date": "2024-10-26T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1729936800,
+      "timezone": "UTC",
+      "slug": "UFC 308: Topuria vs. Holloway",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 268,
+          "name": "Alexander Volkov",
+          "logo": "https://media.api-sports.io/mma/fighters/268.png",
+          "winner": false
+        },
+        "second": {
+          "id": 545,
+          "name": "Ciryl Gane",
+          "logo": "https://media.api-sports.io/mma/fighters/545.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1713,
+      "date": "2024-12-07T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1733598000,
+      "timezone": "UTC",
+      "slug": "UFC 310: Pantoja vs. Asakura",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 268,
+          "name": "Alexander Volkov",
+          "logo": "https://media.api-sports.io/mma/fighters/268.png",
+          "winner": false
+        },
+        "second": {
+          "id": 545,
+          "name": "Ciryl Gane",
+          "logo": "https://media.api-sports.io/mma/fighters/545.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2242,
+      "date": "2025-10-25T18:30:00+00:00",
+      "time": "18:30",
+      "timestamp": 1761417000,
+      "timezone": "UTC",
+      "slug": "UFC 321: Aspinall vs. Gane",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2378,
+          "name": "Jailton Almeida",
+          "logo": "https://media.api-sports.io/mma/fighters/2378.png",
+          "winner": false
+        },
+        "second": {
+          "id": 268,
+          "name": "Alexander Volkov",
+          "logo": "https://media.api-sports.io/mma/fighters/268.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:22.469Z"
+}

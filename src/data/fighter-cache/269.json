@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 269,
+    "name": "Shamil Abdurakhimov",
+    "nickname": "Abrek",
+    "photo": "https://media.api-sports.io/mma/fighters/269.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "263 lbs",
+    "reach": "76'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 141,
+      "name": "Peresvet FT"
+    },
+    "last_update": "2025-06-04T15:25:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 269,
+      "name": "Shamil Abdurakhimov",
+      "photo": "https://media.api-sports.io/mma/fighters/269.png"
+    },
+    "total": {
+      "win": 20,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 6
+    },
+    "sub": {
+      "win": 4,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 523,
+      "date": "2023-01-22T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1674349200,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2378,
+          "name": "Jailton Almeida",
+          "logo": "https://media.api-sports.io/mma/fighters/2378.png",
+          "winner": true
+        },
+        "second": {
+          "id": 269,
+          "name": "Shamil Abdurakhimov",
+          "logo": "https://media.api-sports.io/mma/fighters/269.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:12.330Z"
+}

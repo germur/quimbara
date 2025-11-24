@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 147,
+    "name": "Derrick Lewis",
+    "nickname": "The Black Beast",
+    "photo": "https://media.api-sports.io/mma/fighters/147.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "266 lbs",
+    "reach": "79'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 756,
+      "name": "Silverback Fight Club"
+    },
+    "last_update": "2025-07-20T00:06:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 147,
+      "name": "Derrick Lewis",
+      "photo": "https://media.api-sports.io/mma/fighters/147.png"
+    },
+    "total": {
+      "win": 28,
+      "loss": 12,
+      "draw": 0
+    },
+    "ko": {
+      "win": 23,
+      "loss": 7
+    },
+    "sub": {
+      "win": 1,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 544,
+      "date": "2023-02-04T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1675548000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Spivac",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 397,
+          "name": "Serghei Spivac",
+          "logo": "https://media.api-sports.io/mma/fighters/397.png",
+          "winner": true
+        },
+        "second": {
+          "id": 147,
+          "name": "Derrick Lewis",
+          "logo": "https://media.api-sports.io/mma/fighters/147.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 829,
+      "date": "2023-07-30T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1690686000,
+      "timezone": "UTC",
+      "slug": "UFC 291: Poirier vs. Gaethje 2",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 114,
+          "name": "Marcos Rogerio de Lima",
+          "logo": "https://media.api-sports.io/mma/fighters/114.png",
+          "winner": false
+        },
+        "second": {
+          "id": 147,
+          "name": "Derrick Lewis",
+          "logo": "https://media.api-sports.io/mma/fighters/147.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1028,
+      "date": "2023-11-05T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1699153200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Almeida vs. Lewis",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 147,
+          "name": "Derrick Lewis",
+          "logo": "https://media.api-sports.io/mma/fighters/147.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2378,
+          "name": "Jailton Almeida",
+          "logo": "https://media.api-sports.io/mma/fighters/2378.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1322,
+      "date": "2024-05-11T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1715439600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Nascimento",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 543,
+          "name": "Rodrigo Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/543.png",
+          "winner": false
+        },
+        "second": {
+          "id": 147,
+          "name": "Derrick Lewis",
+          "logo": "https://media.api-sports.io/mma/fighters/147.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1602,
+      "date": "2024-11-02T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1730563200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Namajunas",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 725,
+          "name": "Alexandr Romanov",
+          "logo": "https://media.api-sports.io/mma/fighters/725.png",
+          "winner": false
+        },
+        "second": {
+          "id": 147,
+          "name": "Derrick Lewis",
+          "logo": "https://media.api-sports.io/mma/fighters/147.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1634,
+      "date": "2024-11-02T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1730563200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Albazi",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2693,
+          "name": "Jhonata Diniz",
+          "logo": "https://media.api-sports.io/mma/fighters/2693.png",
+          "winner": false
+        },
+        "second": {
+          "id": 147,
+          "name": "Derrick Lewis",
+          "logo": "https://media.api-sports.io/mma/fighters/147.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2096,
+      "date": "2025-07-13T03:40:00+00:00",
+      "time": "03:40",
+      "timestamp": 1752378000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Teixeira",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2740,
+          "name": "Tallison Teixeira",
+          "logo": "https://media.api-sports.io/mma/fighters/2740.png",
+          "winner": false
+        },
+        "second": {
+          "id": 147,
+          "name": "Derrick Lewis",
+          "logo": "https://media.api-sports.io/mma/fighters/147.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:37.654Z"
+}

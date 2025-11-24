@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 674,
+    "name": "Bruno Silva",
+    "nickname": "Blindado",
+    "photo": "https://media.api-sports.io/mma/fighters/674.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "186 lbs",
+    "reach": "74'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 117,
+      "name": "Evolucao Thai"
+    },
+    "last_update": "2025-06-04T18:47:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 674,
+      "name": "Bruno Silva",
+      "photo": "https://media.api-sports.io/mma/fighters/674.png"
+    },
+    "total": {
+      "win": 23,
+      "loss": 12,
+      "draw": 0
+    },
+    "ko": {
+      "win": 20,
+      "loss": 0
+    },
+    "sub": {
+      "win": 0,
+      "loss": 7
+    }
+  },
+  "fights": [
+    {
+      "id": 668,
+      "date": "2023-04-23T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1682209800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Pavlovich vs. Blaydes",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 674,
+          "name": "Bruno Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/674.png",
+          "winner": true
+        },
+        "second": {
+          "id": 681,
+          "name": "Brad Tavares",
+          "logo": "https://media.api-sports.io/mma/fighters/681.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 766,
+      "date": "2023-06-24T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1687633200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Topuria",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 674,
+          "name": "Bruno Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/674.png",
+          "winner": false
+        },
+        "second": {
+          "id": 513,
+          "name": "Brendan Allen",
+          "logo": "https://media.api-sports.io/mma/fighters/513.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1002,
+      "date": "2023-10-21T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1697896800,
+      "timezone": "UTC",
+      "slug": "UFC 294: Makhachev vs. Volkanovski 2",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 674,
+          "name": "Bruno Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/674.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2630,
+          "name": "Shara Magomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/2630.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1174,
+      "date": "2024-03-30T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1711821600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Fiorot",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 674,
+          "name": "Bruno Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/674.png",
+          "winner": false
+        },
+        "second": {
+          "id": 665,
+          "name": "Chris Weidman",
+          "logo": "https://media.api-sports.io/mma/fighters/665.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1693,
+      "date": "2024-10-26T06:00:00+00:00",
+      "time": "06:00",
+      "timestamp": 1729922400,
+      "timezone": "UTC",
+      "slug": "UFC 308: Topuria vs. Holloway",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 674,
+          "name": "Bruno Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/674.png",
+          "winner": false
+        },
+        "second": {
+          "id": 241,
+          "name": "Ismail Naurdiev",
+          "logo": "https://media.api-sports.io/mma/fighters/241.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1898,
+      "date": "2025-05-10T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1746919800,
+      "timezone": "UTC",
+      "slug": "UFC 315: Muhammad vs. Della Maddalena",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 674,
+          "name": "Bruno Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/674.png",
+          "winner": false
+        },
+        "second": {
+          "id": 293,
+          "name": "Marc-Andre Barriault",
+          "logo": "https://media.api-sports.io/mma/fighters/293.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:35:33.093Z"
+}

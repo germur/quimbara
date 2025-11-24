@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 731,
+    "name": "Abdul Razak Alhassan",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/731.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "185 lbs",
+    "reach": "73'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 19,
+      "name": "Elevation Fight"
+    },
+    "last_update": "2025-06-04T19:16:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 731,
+      "name": "Abdul Razak Alhassan",
+      "photo": "https://media.api-sports.io/mma/fighters/731.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 12,
+      "loss": 2
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 513,
+      "date": "2023-01-14T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1673737200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Imavov",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 731,
+          "name": "Abdul Razak Alhassan",
+          "logo": "https://media.api-sports.io/mma/fighters/731.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2541,
+          "name": "Claudio Ribeiro",
+          "logo": "https://media.api-sports.io/mma/fighters/2541.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 983,
+      "date": "2023-10-08T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1696725000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dawson vs. Green",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 731,
+          "name": "Abdul Razak Alhassan",
+          "logo": "https://media.api-sports.io/mma/fighters/731.png",
+          "winner": false
+        },
+        "second": {
+          "id": 776,
+          "name": "Joe Pyfer",
+          "logo": "https://media.api-sports.io/mma/fighters/776.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1486,
+      "date": "2024-07-13T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1720893600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Namajunas vs. Cortez",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 818,
+          "name": "Cody Brundage",
+          "logo": "https://media.api-sports.io/mma/fighters/818.png",
+          "winner": false
+        },
+        "second": {
+          "id": 731,
+          "name": "Abdul Razak Alhassan",
+          "logo": "https://media.api-sports.io/mma/fighters/731.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1645,
+      "date": "2024-10-12T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1728745200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Taira",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2497,
+          "name": "Josh Fremd",
+          "logo": "https://media.api-sports.io/mma/fighters/2497.png",
+          "winner": false
+        },
+        "second": {
+          "id": 731,
+          "name": "Abdul Razak Alhassan",
+          "logo": "https://media.api-sports.io/mma/fighters/731.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1762,
+      "date": "2025-01-12T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1736645400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs Ribas 2",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 731,
+          "name": "Abdul Razak Alhassan",
+          "logo": "https://media.api-sports.io/mma/fighters/731.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2631,
+          "name": "Cesar Almeida",
+          "logo": "https://media.api-sports.io/mma/fighters/2631.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:35:13.572Z"
+}

@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 75,
+    "name": "Jimmy Crute",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/75.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "205 lbs",
+    "reach": "74'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 53,
+      "name": "Greco and Stewie's House"
+    },
+    "last_update": "2025-10-04T12:03:05+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 75,
+      "name": "Jimmy Crute",
+      "photo": "https://media.api-sports.io/mma/fighters/75.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 4,
+      "draw": 2
+    },
+    "ko": {
+      "win": 5,
+      "loss": 2
+    },
+    "sub": {
+      "win": 6,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 561,
+      "date": "2023-02-12T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1676170800,
+      "timezone": "UTC",
+      "slug": "UFC 284: Makhachev vs. Volkanovski",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 19,
+          "name": "Alonzo Menifield",
+          "logo": "https://media.api-sports.io/mma/fighters/19.png",
+          "winner": false
+        },
+        "second": {
+          "id": 75,
+          "name": "Jimmy Crute",
+          "logo": "https://media.api-sports.io/mma/fighters/75.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 786,
+      "date": "2023-07-09T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1688860800,
+      "timezone": "UTC",
+      "slug": "UFC 290: Volkanovski vs. Rodriguez",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 19,
+          "name": "Alonzo Menifield",
+          "logo": "https://media.api-sports.io/mma/fighters/19.png",
+          "winner": true
+        },
+        "second": {
+          "id": 75,
+          "name": "Jimmy Crute",
+          "logo": "https://media.api-sports.io/mma/fighters/75.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1786,
+      "date": "2025-02-08T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1739026800,
+      "timezone": "UTC",
+      "slug": "UFC 312: Du Plessis vs. Strickland 2",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2639,
+          "name": "Rodolfo Bellato",
+          "logo": "https://media.api-sports.io/mma/fighters/2639.png",
+          "winner": false
+        },
+        "second": {
+          "id": 75,
+          "name": "Jimmy Crute",
+          "logo": "https://media.api-sports.io/mma/fighters/75.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1855,
+      "date": "2025-02-09T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1739071800,
+      "timezone": "UTC",
+      "slug": "UFC 312: Du Plessis vs. Strickland 2",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2639,
+          "name": "Rodolfo Bellato",
+          "logo": "https://media.api-sports.io/mma/fighters/2639.png",
+          "winner": false
+        },
+        "second": {
+          "id": 75,
+          "name": "Jimmy Crute",
+          "logo": "https://media.api-sports.io/mma/fighters/75.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2099,
+      "date": "2025-07-19T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1752966000,
+      "timezone": "UTC",
+      "slug": "UFC 318: Holloway vs. Poirier 3",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 806,
+          "name": "Marcin Prachnio",
+          "logo": "https://media.api-sports.io/mma/fighters/806.png",
+          "winner": false
+        },
+        "second": {
+          "id": 75,
+          "name": "Jimmy Crute",
+          "logo": "https://media.api-sports.io/mma/fighters/75.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2250,
+      "date": "2025-09-27T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1758996000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ulberg vs. Reyes",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2713,
+          "name": "Ivan Erslan",
+          "logo": "https://media.api-sports.io/mma/fighters/2713.png",
+          "winner": false
+        },
+        "second": {
+          "id": 75,
+          "name": "Jimmy Crute",
+          "logo": "https://media.api-sports.io/mma/fighters/75.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:47.113Z"
+}

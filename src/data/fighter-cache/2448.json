@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 2448,
+    "name": "Anton Turkalj",
+    "nickname": "The Pleasure Man",
+    "photo": "https://media.api-sports.io/mma/fighters/2448.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 4'",
+    "weight": "205 lbs",
+    "reach": "78'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 671,
+      "name": "GBG MMA"
+    },
+    "last_update": "2025-06-05T09:34:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2448,
+      "name": "Anton Turkalj",
+      "photo": "https://media.api-sports.io/mma/fighters/2448.png"
+    },
+    "total": {
+      "win": 8,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 2
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 609,
+      "date": "2023-03-11T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1678575600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Dvalishvili",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2448,
+          "name": "Anton Turkalj",
+          "logo": "https://media.api-sports.io/mma/fighters/2448.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2608,
+          "name": "Vitor Petrino",
+          "logo": "https://media.api-sports.io/mma/fighters/2608.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 904,
+      "date": "2023-09-10T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1694311200,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2448,
+          "name": "Anton Turkalj",
+          "logo": "https://media.api-sports.io/mma/fighters/2448.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2229,
+          "name": "Tyson Pedro",
+          "logo": "https://media.api-sports.io/mma/fighters/2229.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1249,
+      "date": "2024-03-30T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1711810800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Fiorot",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2448,
+          "name": "Anton Turkalj",
+          "logo": "https://media.api-sports.io/mma/fighters/2448.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2673,
+          "name": "Ibo Aslan",
+          "logo": "https://media.api-sports.io/mma/fighters/2673.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:27.456Z"
+}

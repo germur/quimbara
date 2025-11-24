@@ -1,0 +1,296 @@
+{
+  "profile": {
+    "id": 2405,
+    "name": "Andre Petroski",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2405.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "185 lbs",
+    "reach": "73'",
+    "stance": "Switch",
+    "category": "Middleweight",
+    "team": {
+      "id": 303,
+      "name": "Renzo Gracie Philly"
+    },
+    "last_update": "2025-10-04T12:01:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2405,
+      "name": "Andre Petroski",
+      "photo": "https://media.api-sports.io/mma/fighters/2405.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 4
+    },
+    "sub": {
+      "win": 4,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 860,
+      "date": "2023-08-19T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1692487800,
+      "timezone": "UTC",
+      "slug": "UFC 292: Sterling vs. O'Malley",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 316,
+          "name": "Gerald Meerschaert",
+          "logo": "https://media.api-sports.io/mma/fighters/316.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2405,
+          "name": "Andre Petroski",
+          "logo": "https://media.api-sports.io/mma/fighters/2405.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1027,
+      "date": "2023-10-14T23:15:00+00:00",
+      "time": "23:15",
+      "timestamp": 1697325300,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yusuff vs. Barboza",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 426,
+          "name": "Michel Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/426.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2405,
+          "name": "Andre Petroski",
+          "logo": "https://media.api-sports.io/mma/fighters/2405.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1276,
+      "date": "2024-03-30T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1711810800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Fiorot",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 853,
+          "name": "Jacob Malkoun",
+          "logo": "https://media.api-sports.io/mma/fighters/853.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2405,
+          "name": "Andre Petroski",
+          "logo": "https://media.api-sports.io/mma/fighters/2405.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1488,
+      "date": "2024-07-13T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1720882800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Namajunas vs. Cortez",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2405,
+          "name": "Andre Petroski",
+          "logo": "https://media.api-sports.io/mma/fighters/2405.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2497,
+          "name": "Josh Fremd",
+          "logo": "https://media.api-sports.io/mma/fighters/2497.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1568,
+      "date": "2024-09-07T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1725710400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Brady",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2691,
+          "name": "Dylan Budka",
+          "logo": "https://media.api-sports.io/mma/fighters/2691.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2405,
+          "name": "Andre Petroski",
+          "logo": "https://media.api-sports.io/mma/fighters/2405.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1794,
+      "date": "2025-02-15T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1739635200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2405,
+          "name": "Andre Petroski",
+          "logo": "https://media.api-sports.io/mma/fighters/2405.png",
+          "winner": false
+        },
+        "second": {
+          "id": 572,
+          "name": "Rodolfo Vieira",
+          "logo": "https://media.api-sports.io/mma/fighters/572.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1864,
+      "date": "2025-02-16T00:15:00+00:00",
+      "time": "00:15",
+      "timestamp": 1739664900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2405,
+          "name": "Andre Petroski",
+          "logo": "https://media.api-sports.io/mma/fighters/2405.png",
+          "winner": true
+        },
+        "second": {
+          "id": 572,
+          "name": "Rodolfo Vieira",
+          "logo": "https://media.api-sports.io/mma/fighters/572.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2065,
+      "date": "2025-06-15T03:50:00+00:00",
+      "time": "03:50",
+      "timestamp": 1749959400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Usman vs. Buckley",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2405,
+          "name": "Andre Petroski",
+          "logo": "https://media.api-sports.io/mma/fighters/2405.png",
+          "winner": false
+        },
+        "second": {
+          "id": 121,
+          "name": "Edmen Shahbazyan",
+          "logo": "https://media.api-sports.io/mma/fighters/121.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2307,
+      "date": "2025-09-27T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1758985200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ulberg vs. Reyes",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2405,
+          "name": "Andre Petroski",
+          "logo": "https://media.api-sports.io/mma/fighters/2405.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2814,
+          "name": "Cam Rowston",
+          "logo": "https://media.api-sports.io/mma/fighters/2814.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:35:23.195Z"
+}

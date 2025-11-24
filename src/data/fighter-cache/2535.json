@@ -1,0 +1,296 @@
+{
+  "profile": {
+    "id": 2535,
+    "name": "Brunno Ferreira",
+    "nickname": "The Hulk",
+    "photo": "https://media.api-sports.io/mma/fighters/2535.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "186 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 771,
+      "name": "Brazilian TKO"
+    },
+    "last_update": "2025-07-26T12:01:42+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2535,
+      "name": "Brunno Ferreira",
+      "photo": "https://media.api-sports.io/mma/fighters/2535.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 1
+    },
+    "sub": {
+      "win": 4,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 530,
+      "date": "2023-01-22T02:10:00+00:00",
+      "time": "02:10",
+      "timestamp": 1674353400,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2535,
+          "name": "Brunno Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/2535.png",
+          "winner": true
+        },
+        "second": {
+          "id": 832,
+          "name": "Gregory Rodrigues",
+          "logo": "https://media.api-sports.io/mma/fighters/832.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 778,
+      "date": "2023-07-01T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1688252400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Magomedov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2590,
+          "name": "Nursulton Ruziboev",
+          "logo": "https://media.api-sports.io/mma/fighters/2590.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2535,
+          "name": "Brunno Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/2535.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1108,
+      "date": "2024-01-13T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1705161600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ankalaev vs. Walker 2",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2535,
+          "name": "Brunno Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/2535.png",
+          "winner": true
+        },
+        "second": {
+          "id": 826,
+          "name": "Phil Hawes",
+          "logo": "https://media.api-sports.io/mma/fighters/826.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1413,
+      "date": "2024-06-08T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1717862400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Imavov",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 767,
+          "name": "Dustin Stoltzfus",
+          "logo": "https://media.api-sports.io/mma/fighters/767.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2535,
+          "name": "Brunno Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/2535.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1593,
+      "date": "2024-10-26T06:00:00+00:00",
+      "time": "06:00",
+      "timestamp": 1729922400,
+      "timezone": "UTC",
+      "slug": "UFC 308: Topuria vs. Holloway",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2535,
+          "name": "Brunno Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/2535.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2459,
+          "name": "Abus Magomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/2459.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1876,
+      "date": "2025-03-09T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1741485600,
+      "timezone": "UTC",
+      "slug": "UFC 313: Pereira vs. Ankalaev",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2464,
+          "name": "Armen Petrosyan",
+          "logo": "https://media.api-sports.io/mma/fighters/2464.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2535,
+          "name": "Brunno Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/2535.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2180,
+      "date": "2025-07-19T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1752933600,
+      "timezone": "UTC",
+      "slug": "UFC 318: Holloway vs. Poirier 3",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2794,
+          "name": "Jackson McVey",
+          "logo": "https://media.api-sports.io/mma/fighters/2794.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2535,
+          "name": "Brunno Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/2535.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2100,
+      "date": "2025-07-19T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1752940800,
+      "timezone": "UTC",
+      "slug": "UFC 318: Holloway vs Poirier 3",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2535,
+          "name": "Brunno Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/2535.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2557,
+          "name": "Ikram Aliskerov",
+          "logo": "https://media.api-sports.io/mma/fighters/2557.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2378,
+      "date": "2025-12-06T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1765033200,
+      "timezone": "UTC",
+      "slug": "UFC 323: Dvalishvili vs. Yan 2",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 2535,
+          "name": "Brunno Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/2535.png",
+          "winner": false
+        },
+        "second": {
+          "id": 503,
+          "name": "Marvin Vettori",
+          "logo": "https://media.api-sports.io/mma/fighters/503.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:35:31.727Z"
+}

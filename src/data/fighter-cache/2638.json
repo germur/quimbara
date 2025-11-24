@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 2638,
+    "name": "Shamil Gaziev",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2638.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 4'",
+    "weight": "262 lbs",
+    "reach": "78.5'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 679,
+      "name": "KHK MMA"
+    },
+    "last_update": "2025-11-23T12:03:35+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2638,
+      "name": "Shamil Gaziev",
+      "photo": "https://media.api-sports.io/mma/fighters/2638.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 2
+    },
+    "sub": {
+      "win": 3,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 1051,
+      "date": "2023-12-16T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1702769400,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2638,
+          "name": "Shamil Gaziev",
+          "logo": "https://media.api-sports.io/mma/fighters/2638.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2455,
+          "name": "Martin Buday",
+          "logo": "https://media.api-sports.io/mma/fighters/2455.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1247,
+      "date": "2024-03-02T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1709384400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Gaziev",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2638,
+          "name": "Shamil Gaziev",
+          "logo": "https://media.api-sports.io/mma/fighters/2638.png",
+          "winner": false
+        },
+        "second": {
+          "id": 34,
+          "name": "Jairzinho Rozenstruik",
+          "logo": "https://media.api-sports.io/mma/fighters/34.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1528,
+      "date": "2024-08-03T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1722672000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 508,
+          "name": "Don'Tale Mayes",
+          "logo": "https://media.api-sports.io/mma/fighters/508.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2638,
+          "name": "Shamil Gaziev",
+          "logo": "https://media.api-sports.io/mma/fighters/2638.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1833,
+      "date": "2025-02-01T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1738425600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Adesanya vs. Imavov",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2663,
+          "name": "Thomas Petersen",
+          "logo": "https://media.api-sports.io/mma/fighters/2663.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2638,
+          "name": "Shamil Gaziev",
+          "logo": "https://media.api-sports.io/mma/fighters/2638.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2336,
+      "date": "2025-11-22T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1763805600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tsarukyan vs. Hooker",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2638,
+          "name": "Shamil Gaziev",
+          "logo": "https://media.api-sports.io/mma/fighters/2638.png",
+          "winner": false
+        },
+        "second": {
+          "id": 397,
+          "name": "Serghei Spivac",
+          "logo": "https://media.api-sports.io/mma/fighters/397.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2401,
+      "date": "2025-11-22T18:45:00+00:00",
+      "time": "18:45",
+      "timestamp": 1763837100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tsarukyan vs. Hooker",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2638,
+          "name": "Shamil Gaziev",
+          "logo": "https://media.api-sports.io/mma/fighters/2638.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2521,
+          "name": "Waldo Cortes-Acosta",
+          "logo": "https://media.api-sports.io/mma/fighters/2521.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:13.693Z"
+}

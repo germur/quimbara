@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 788,
+    "name": "Josh Parisian",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/788.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 4'",
+    "weight": "266 lbs",
+    "reach": "79'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 349,
+      "name": "Scorpion Fighting System"
+    },
+    "last_update": "2025-06-04T19:44:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 788,
+      "name": "Josh Parisian",
+      "photo": "https://media.api-sports.io/mma/fighters/788.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 3
+    },
+    "sub": {
+      "win": 2,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 570,
+      "date": "2023-02-19T01:20:00+00:00",
+      "time": "01:20",
+      "timestamp": 1676769600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Andrade vs. Blanchfield",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 630,
+          "name": "Jamal Pogues",
+          "logo": "https://media.api-sports.io/mma/fighters/630.png",
+          "winner": true
+        },
+        "second": {
+          "id": 788,
+          "name": "Josh Parisian",
+          "logo": "https://media.api-sports.io/mma/fighters/788.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 849,
+      "date": "2023-08-12T21:15:00+00:00",
+      "time": "21:15",
+      "timestamp": 1691874900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Luque vs. Dos Anjos",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2455,
+          "name": "Martin Buday",
+          "logo": "https://media.api-sports.io/mma/fighters/2455.png",
+          "winner": true
+        },
+        "second": {
+          "id": 788,
+          "name": "Josh Parisian",
+          "logo": "https://media.api-sports.io/mma/fighters/788.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1205,
+      "date": "2024-03-09T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1709996400,
+      "timezone": "UTC",
+      "slug": "UFC 299: O'Malley vs. Vera 2",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 788,
+          "name": "Josh Parisian",
+          "logo": "https://media.api-sports.io/mma/fighters/788.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2668,
+          "name": "Robelis Despaigne",
+          "logo": "https://media.api-sports.io/mma/fighters/2668.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:49.962Z"
+}

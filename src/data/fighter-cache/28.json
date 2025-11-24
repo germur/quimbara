@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "id": 28,
+    "name": "Anthony Hernandez",
+    "nickname": "Fluffy",
+    "photo": "https://media.api-sports.io/mma/fighters/28.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "186 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 27,
+      "name": "MMAGold Fight"
+    },
+    "last_update": "2025-10-26T00:01:35+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 28,
+      "name": "Anthony Hernandez",
+      "photo": "https://media.api-sports.io/mma/fighters/28.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 1
+    },
+    "sub": {
+      "win": 9,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 714,
+      "date": "2023-05-21T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1684630800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs. Hill",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 28,
+          "name": "Anthony Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/28.png",
+          "winner": true
+        },
+        "second": {
+          "id": 121,
+          "name": "Edmen Shahbazyan",
+          "logo": "https://media.api-sports.io/mma/fighters/121.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 911,
+      "date": "2023-09-16T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1694887200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Grasso vs. Shevchenko 2",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 28,
+          "name": "Anthony Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/28.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2313,
+          "name": "Chris Curtis",
+          "logo": "https://media.api-sports.io/mma/fighters/2313.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1254,
+      "date": "2024-02-17T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1708196400,
+      "timezone": "UTC",
+      "slug": "UFC 298: Volkanovski vs. Topuria",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 262,
+          "name": "Roman Kopylov",
+          "logo": "https://media.api-sports.io/mma/fighters/262.png",
+          "winner": false
+        },
+        "second": {
+          "id": 28,
+          "name": "Anthony Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/28.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1157,
+      "date": "2024-02-18T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1708225200,
+      "timezone": "UTC",
+      "slug": "UFC 298: Volkanovski vs. Topuria",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2557,
+          "name": "Ikram Aliskerov",
+          "logo": "https://media.api-sports.io/mma/fighters/2557.png",
+          "winner": false
+        },
+        "second": {
+          "id": 28,
+          "name": "Anthony Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/28.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1619,
+      "date": "2024-10-19T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1729350000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hernandez vs. Pereira",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 426,
+          "name": "Michel Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/426.png",
+          "winner": false
+        },
+        "second": {
+          "id": 28,
+          "name": "Anthony Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/28.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1848,
+      "date": "2025-02-23T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1740281400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cejudo vs. Song",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 28,
+          "name": "Anthony Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/28.png",
+          "winner": true
+        },
+        "second": {
+          "id": 513,
+          "name": "Brendan Allen",
+          "logo": "https://media.api-sports.io/mma/fighters/513.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2122,
+      "date": "2025-08-10T01:45:00+00:00",
+      "time": "01:45",
+      "timestamp": 1754790300,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dolidze vs. Hernandez",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 28,
+          "name": "Anthony Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/28.png",
+          "winner": true
+        },
+        "second": {
+          "id": 417,
+          "name": "Roman Dolidze",
+          "logo": "https://media.api-sports.io/mma/fighters/417.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2239,
+      "date": "2025-10-19T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1760835600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: de Ridder vs. Hernandez",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 28,
+          "name": "Anthony Hernandez",
+          "logo": "https://media.api-sports.io/mma/fighters/28.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2735,
+          "name": "Reinier de Ridder",
+          "logo": "https://media.api-sports.io/mma/fighters/2735.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:35:24.817Z"
+}

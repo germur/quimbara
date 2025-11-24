@@ -1,0 +1,324 @@
+{
+  "profile": {
+    "id": 2521,
+    "name": "Waldo Cortes-Acosta",
+    "nickname": "Salsa Boy",
+    "photo": "https://media.api-sports.io/mma/fighters/2521.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 4'",
+    "weight": "262 lbs",
+    "reach": "78'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 691,
+      "name": "UKF Gym"
+    },
+    "last_update": "2025-11-23T12:11:38+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2521,
+      "name": "Waldo Cortes-Acosta",
+      "photo": "https://media.api-sports.io/mma/fighters/2521.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 0
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 681,
+      "date": "2023-04-29T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1682811000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Simon",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2521,
+          "name": "Waldo Cortes-Acosta",
+          "logo": "https://media.api-sports.io/mma/fighters/2521.png",
+          "winner": false
+        },
+        "second": {
+          "id": 114,
+          "name": "Marcos Rogerio de Lima",
+          "logo": "https://media.api-sports.io/mma/fighters/114.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 872,
+      "date": "2023-08-26T11:30:00+00:00",
+      "time": "11:30",
+      "timestamp": 1693049400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. The Korean Zombie",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2390,
+          "name": "Lukasz Brzeski",
+          "logo": "https://media.api-sports.io/mma/fighters/2390.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2521,
+          "name": "Waldo Cortes-Acosta",
+          "logo": "https://media.api-sports.io/mma/fighters/2521.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1095,
+      "date": "2024-01-13T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1705161600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ankalaev vs. Walker 2",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2521,
+          "name": "Waldo Cortes-Acosta",
+          "logo": "https://media.api-sports.io/mma/fighters/2521.png",
+          "winner": true
+        },
+        "second": {
+          "id": 279,
+          "name": "Andrei Arlovski",
+          "logo": "https://media.api-sports.io/mma/fighters/279.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1321,
+      "date": "2024-05-11T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1715439600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Nascimento",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2668,
+          "name": "Robelis Despaigne",
+          "logo": "https://media.api-sports.io/mma/fighters/2668.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2521,
+          "name": "Waldo Cortes-Acosta",
+          "logo": "https://media.api-sports.io/mma/fighters/2521.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1647,
+      "date": "2024-10-12T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1728734400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Royval vs. Taira",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2521,
+          "name": "Waldo Cortes-Acosta",
+          "logo": "https://media.api-sports.io/mma/fighters/2521.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2367,
+          "name": "Chris Barnett",
+          "logo": "https://media.api-sports.io/mma/fighters/2367.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1910,
+      "date": "2025-03-15T22:45:00+00:00",
+      "time": "22:45",
+      "timestamp": 1742078700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Dolidze 2",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 362,
+          "name": "Ryan Spann",
+          "logo": "https://media.api-sports.io/mma/fighters/362.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2521,
+          "name": "Waldo Cortes-Acosta",
+          "logo": "https://media.api-sports.io/mma/fighters/2521.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2093,
+      "date": "2025-06-08T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1749342600,
+      "timezone": "UTC",
+      "slug": "UFC 316: Dvalishvili vs. O'Malley 2",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2521,
+          "name": "Waldo Cortes-Acosta",
+          "logo": "https://media.api-sports.io/mma/fighters/2521.png",
+          "winner": true
+        },
+        "second": {
+          "id": 397,
+          "name": "Serghei Spivac",
+          "logo": "https://media.api-sports.io/mma/fighters/397.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2174,
+      "date": "2025-08-23T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1755946800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Walker vs. Zhang",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2521,
+          "name": "Waldo Cortes-Acosta",
+          "logo": "https://media.api-sports.io/mma/fighters/2521.png",
+          "winner": false
+        },
+        "second": {
+          "id": 260,
+          "name": "Sergei Pavlovich",
+          "logo": "https://media.api-sports.io/mma/fighters/260.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2323,
+      "date": "2025-11-02T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1762045200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Garcia vs. Onama",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2796,
+          "name": "Ante Delija",
+          "logo": "https://media.api-sports.io/mma/fighters/2796.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2521,
+          "name": "Waldo Cortes-Acosta",
+          "logo": "https://media.api-sports.io/mma/fighters/2521.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2401,
+      "date": "2025-11-22T18:45:00+00:00",
+      "time": "18:45",
+      "timestamp": 1763837100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tsarukyan vs. Hooker",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2638,
+          "name": "Shamil Gaziev",
+          "logo": "https://media.api-sports.io/mma/fighters/2638.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2521,
+          "name": "Waldo Cortes-Acosta",
+          "logo": "https://media.api-sports.io/mma/fighters/2521.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:20.569Z"
+}

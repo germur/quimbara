@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 279,
+    "name": "Andrei Arlovski",
+    "nickname": "The Pitbull",
+    "photo": "https://media.api-sports.io/mma/fighters/279.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "245 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 21,
+      "name": "American Top"
+    },
+    "last_update": "2025-06-04T15:30:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 279,
+      "name": "Andrei Arlovski",
+      "photo": "https://media.api-sports.io/mma/fighters/279.png"
+    },
+    "total": {
+      "win": 34,
+      "loss": 24,
+      "draw": 0
+    },
+    "ko": {
+      "win": 17,
+      "loss": 12
+    },
+    "sub": {
+      "win": 3,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 719,
+      "date": "2023-06-03T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1685800800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kara-France vs. Albazi",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 508,
+          "name": "Don'Tale Mayes",
+          "logo": "https://media.api-sports.io/mma/fighters/508.png",
+          "winner": true
+        },
+        "second": {
+          "id": 279,
+          "name": "Andrei Arlovski",
+          "logo": "https://media.api-sports.io/mma/fighters/279.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1095,
+      "date": "2024-01-13T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1705161600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ankalaev vs. Walker 2",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2521,
+          "name": "Waldo Cortes-Acosta",
+          "logo": "https://media.api-sports.io/mma/fighters/2521.png",
+          "winner": true
+        },
+        "second": {
+          "id": 279,
+          "name": "Andrei Arlovski",
+          "logo": "https://media.api-sports.io/mma/fighters/279.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1480,
+      "date": "2024-06-29T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1719669600,
+      "timezone": "UTC",
+      "slug": "UFC 303: Pereira vs. ProchÃ¡zka 2",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2455,
+          "name": "Martin Buday",
+          "logo": "https://media.api-sports.io/mma/fighters/2455.png",
+          "winner": true
+        },
+        "second": {
+          "id": 279,
+          "name": "Andrei Arlovski",
+          "logo": "https://media.api-sports.io/mma/fighters/279.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:25.219Z"
+}

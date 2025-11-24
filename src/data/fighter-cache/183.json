@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 183,
+    "name": "Curtis Blaydes",
+    "nickname": "Razor",
+    "photo": "https://media.api-sports.io/mma/fighters/183.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 4'",
+    "weight": "262 lbs",
+    "reach": "80'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 19,
+      "name": "Elevation Fight"
+    },
+    "last_update": "2025-06-28T12:09:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 183,
+      "name": "Curtis Blaydes",
+      "photo": "https://media.api-sports.io/mma/fighters/183.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 13,
+      "loss": 5
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 667,
+      "date": "2023-04-23T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1682211600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Pavlovich vs. Blaydes",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 183,
+          "name": "Curtis Blaydes",
+          "logo": "https://media.api-sports.io/mma/fighters/183.png",
+          "winner": false
+        },
+        "second": {
+          "id": 260,
+          "name": "Sergei Pavlovich",
+          "logo": "https://media.api-sports.io/mma/fighters/260.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 923,
+      "date": "2023-11-05T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1699155000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blaydes vs. Almeida",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2378,
+          "name": "Jailton Almeida",
+          "logo": "https://media.api-sports.io/mma/fighters/2378.png",
+          "winner": false
+        },
+        "second": {
+          "id": 183,
+          "name": "Curtis Blaydes",
+          "logo": "https://media.api-sports.io/mma/fighters/183.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1165,
+      "date": "2024-03-09T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1710003600,
+      "timezone": "UTC",
+      "slug": "UFC 299: O'Malley vs. Vera 2",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2378,
+          "name": "Jailton Almeida",
+          "logo": "https://media.api-sports.io/mma/fighters/2378.png",
+          "winner": false
+        },
+        "second": {
+          "id": 183,
+          "name": "Curtis Blaydes",
+          "logo": "https://media.api-sports.io/mma/fighters/183.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1437,
+      "date": "2024-07-27T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1722103200,
+      "timezone": "UTC",
+      "slug": "UFC 304: Edwards vs. Muhammad 2",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 183,
+          "name": "Curtis Blaydes",
+          "logo": "https://media.api-sports.io/mma/fighters/183.png",
+          "winner": false
+        },
+        "second": {
+          "id": 701,
+          "name": "Tom Aspinall",
+          "logo": "https://media.api-sports.io/mma/fighters/701.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1839,
+      "date": "2025-02-23T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1740276000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cejudo vs. Song",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2432,
+          "name": "Rizvan Kuniev",
+          "logo": "https://media.api-sports.io/mma/fighters/2432.png",
+          "winner": false
+        },
+        "second": {
+          "id": 183,
+          "name": "Curtis Blaydes",
+          "logo": "https://media.api-sports.io/mma/fighters/183.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1906,
+      "date": "2025-03-09T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1741487400,
+      "timezone": "UTC",
+      "slug": "UFC 313: Pereira vs. Ankalaev",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2432,
+          "name": "Rizvan Kuniev",
+          "logo": "https://media.api-sports.io/mma/fighters/2432.png",
+          "winner": false
+        },
+        "second": {
+          "id": 183,
+          "name": "Curtis Blaydes",
+          "logo": "https://media.api-sports.io/mma/fighters/183.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2034,
+      "date": "2025-06-21T20:30:00+00:00",
+      "time": "20:30",
+      "timestamp": 1750537800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2432,
+          "name": "Rizvan Kuniev",
+          "logo": "https://media.api-sports.io/mma/fighters/2432.png",
+          "winner": false
+        },
+        "second": {
+          "id": 183,
+          "name": "Curtis Blaydes",
+          "logo": "https://media.api-sports.io/mma/fighters/183.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:36.287Z"
+}

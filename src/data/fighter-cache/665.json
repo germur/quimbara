@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 665,
+    "name": "Chris Weidman",
+    "nickname": "The All-American",
+    "photo": "https://media.api-sports.io/mma/fighters/665.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "194 lbs",
+    "reach": "78'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 295,
+      "name": "Longo-Weidman MMA"
+    },
+    "last_update": "2025-06-04T18:43:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 665,
+      "name": "Chris Weidman",
+      "photo": "https://media.api-sports.io/mma/fighters/665.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 6
+    },
+    "sub": {
+      "win": 4,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 863,
+      "date": "2023-08-20T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1692495000,
+      "timezone": "UTC",
+      "slug": "UFC 292: Sterling vs. O'Malley",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 681,
+          "name": "Brad Tavares",
+          "logo": "https://media.api-sports.io/mma/fighters/681.png",
+          "winner": true
+        },
+        "second": {
+          "id": 665,
+          "name": "Chris Weidman",
+          "logo": "https://media.api-sports.io/mma/fighters/665.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1174,
+      "date": "2024-03-30T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1711821600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Blanchfield vs. Fiorot",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 674,
+          "name": "Bruno Silva",
+          "logo": "https://media.api-sports.io/mma/fighters/674.png",
+          "winner": false
+        },
+        "second": {
+          "id": 665,
+          "name": "Chris Weidman",
+          "logo": "https://media.api-sports.io/mma/fighters/665.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1623,
+      "date": "2024-11-16T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1731776400,
+      "timezone": "UTC",
+      "slug": "UFC 309: Jones vs. Miocic",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 258,
+          "name": "Eryk Anders",
+          "logo": "https://media.api-sports.io/mma/fighters/258.png",
+          "winner": false
+        },
+        "second": {
+          "id": 665,
+          "name": "Chris Weidman",
+          "logo": "https://media.api-sports.io/mma/fighters/665.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1759,
+      "date": "2024-12-07T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1733583600,
+      "timezone": "UTC",
+      "slug": "UFC 310: Pantoja vs. Asakura",
+      "is_main": false,
+      "category": "Catch Weight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 258,
+          "name": "Eryk Anders",
+          "logo": "https://media.api-sports.io/mma/fighters/258.png",
+          "winner": true
+        },
+        "second": {
+          "id": 665,
+          "name": "Chris Weidman",
+          "logo": "https://media.api-sports.io/mma/fighters/665.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:35:37.247Z"
+}

@@ -1,0 +1,324 @@
+{
+  "profile": {
+    "id": 862,
+    "name": "Carlos Ulberg",
+    "nickname": "Black Jag",
+    "photo": "https://media.api-sports.io/mma/fighters/862.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 4'",
+    "weight": "205 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 48,
+      "name": "City Kickboxing"
+    },
+    "last_update": "2025-10-05T00:05:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 862,
+      "name": "Carlos Ulberg",
+      "photo": "https://media.api-sports.io/mma/fighters/862.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 1,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 1
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 704,
+      "date": "2023-05-13T19:40:00+00:00",
+      "time": "19:40",
+      "timestamp": 1684006800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Almeida",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2381,
+          "name": "Ihor Potieria",
+          "logo": "https://media.api-sports.io/mma/fighters/2381.png",
+          "winner": false
+        },
+        "second": {
+          "id": 862,
+          "name": "Carlos Ulberg",
+          "logo": "https://media.api-sports.io/mma/fighters/862.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 897,
+      "date": "2023-09-10T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1694309400,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 582,
+          "name": "Da Woon Jung",
+          "logo": "https://media.api-sports.io/mma/fighters/582.png",
+          "winner": false
+        },
+        "second": {
+          "id": 862,
+          "name": "Carlos Ulberg",
+          "logo": "https://media.api-sports.io/mma/fighters/862.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1121,
+      "date": "2024-01-21T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1705807800,
+      "timezone": "UTC",
+      "slug": "UFC 297: Strickland vs. Du Plessis",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 862,
+          "name": "Carlos Ulberg",
+          "logo": "https://media.api-sports.io/mma/fighters/862.png",
+          "winner": false
+        },
+        "second": {
+          "id": 168,
+          "name": "Dominick Reyes",
+          "logo": "https://media.api-sports.io/mma/fighters/168.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1241,
+      "date": "2024-03-30T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1711821600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Brady vs. Luque",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 862,
+          "name": "Carlos Ulberg",
+          "logo": "https://media.api-sports.io/mma/fighters/862.png",
+          "winner": false
+        },
+        "second": {
+          "id": 19,
+          "name": "Alonzo Menifield",
+          "logo": "https://media.api-sports.io/mma/fighters/19.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1371,
+      "date": "2024-05-11T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1715439600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Nascimento",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 862,
+          "name": "Carlos Ulberg",
+          "logo": "https://media.api-sports.io/mma/fighters/862.png",
+          "winner": true
+        },
+        "second": {
+          "id": 19,
+          "name": "Alonzo Menifield",
+          "logo": "https://media.api-sports.io/mma/fighters/19.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1495,
+      "date": "2024-06-30T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1719716400,
+      "timezone": "UTC",
+      "slug": "UFC 303: Pereira vs. ProchÃ¡zka 2",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 862,
+          "name": "Carlos Ulberg",
+          "logo": "https://media.api-sports.io/mma/fighters/862.png",
+          "winner": false
+        },
+        "second": {
+          "id": 213,
+          "name": "Anthony Smith",
+          "logo": "https://media.api-sports.io/mma/fighters/213.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1400,
+      "date": "2024-06-30T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1719718200,
+      "timezone": "UTC",
+      "slug": "UFC 303: McGregor vs. Chandler",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 862,
+          "name": "Carlos Ulberg",
+          "logo": "https://media.api-sports.io/mma/fighters/862.png",
+          "winner": false
+        },
+        "second": {
+          "id": 525,
+          "name": "Jamahal Hill",
+          "logo": "https://media.api-sports.io/mma/fighters/525.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1709,
+      "date": "2024-11-23T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1732330800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Figueiredo",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 862,
+          "name": "Carlos Ulberg",
+          "logo": "https://media.api-sports.io/mma/fighters/862.png",
+          "winner": true
+        },
+        "second": {
+          "id": 167,
+          "name": "Volkan Oezdemir",
+          "logo": "https://media.api-sports.io/mma/fighters/167.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1807,
+      "date": "2025-03-22T21:30:00+00:00",
+      "time": "21:30",
+      "timestamp": 1742679000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Edwards vs. Brady",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 862,
+          "name": "Carlos Ulberg",
+          "logo": "https://media.api-sports.io/mma/fighters/862.png",
+          "winner": true
+        },
+        "second": {
+          "id": 109,
+          "name": "Jan Blachowicz",
+          "logo": "https://media.api-sports.io/mma/fighters/109.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2233,
+      "date": "2025-09-28T04:10:00+00:00",
+      "time": "04:10",
+      "timestamp": 1759032600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ulberg vs. Reyes",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 168,
+          "name": "Dominick Reyes",
+          "logo": "https://media.api-sports.io/mma/fighters/168.png",
+          "winner": false
+        },
+        "second": {
+          "id": 862,
+          "name": "Carlos Ulberg",
+          "logo": "https://media.api-sports.io/mma/fighters/862.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:33.119Z"
+}

@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 543,
+    "name": "Rodrigo Nascimento",
+    "nickname": "Ze Colmeia",
+    "photo": "https://media.api-sports.io/mma/fighters/543.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "264 lbs",
+    "reach": "80'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 21,
+      "name": "American Top"
+    },
+    "last_update": "2025-06-04T17:42:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 543,
+      "name": "Rodrigo Nascimento",
+      "photo": "https://media.api-sports.io/mma/fighters/543.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 2
+    },
+    "sub": {
+      "win": 6,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 709,
+      "date": "2023-05-20T21:30:00+00:00",
+      "time": "21:30",
+      "timestamp": 1684618200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dern vs. Hill",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 543,
+          "name": "Rodrigo Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/543.png",
+          "winner": true
+        },
+        "second": {
+          "id": 408,
+          "name": "Ilir Latifi",
+          "logo": "https://media.api-sports.io/mma/fighters/408.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 948,
+      "date": "2023-11-04T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1699117200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Almeida vs. Lewis",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 508,
+          "name": "Don'Tale Mayes",
+          "logo": "https://media.api-sports.io/mma/fighters/508.png",
+          "winner": false
+        },
+        "second": {
+          "id": 543,
+          "name": "Rodrigo Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/543.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1322,
+      "date": "2024-05-11T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1715439600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Nascimento",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 543,
+          "name": "Rodrigo Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/543.png",
+          "winner": false
+        },
+        "second": {
+          "id": 147,
+          "name": "Derrick Lewis",
+          "logo": "https://media.api-sports.io/mma/fighters/147.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1635,
+      "date": "2024-11-02T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1730552400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moreno vs. Albazi",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 543,
+          "name": "Rodrigo Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/543.png",
+          "winner": false
+        },
+        "second": {
+          "id": 725,
+          "name": "Alexandr Romanov",
+          "logo": "https://media.api-sports.io/mma/fighters/725.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:06.780Z"
+}

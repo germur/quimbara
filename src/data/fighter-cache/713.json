@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 713,
+    "name": "Chase Sherman",
+    "nickname": "The Vanilla Gorilla",
+    "photo": "https://media.api-sports.io/mma/fighters/713.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 4'",
+    "weight": "254 lbs",
+    "reach": "78'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-06-04T19:07:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 713,
+      "name": "Chase Sherman",
+      "photo": "https://media.api-sports.io/mma/fighters/713.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 12,
+      "draw": 0
+    },
+    "ko": {
+      "win": 15,
+      "loss": 4
+    },
+    "sub": {
+      "win": 0,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 696,
+      "date": "2023-05-13T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1684000800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Almeida",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 713,
+          "name": "Chase Sherman",
+          "logo": "https://media.api-sports.io/mma/fighters/713.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2573,
+          "name": "Karl Williams",
+          "logo": "https://media.api-sports.io/mma/fighters/2573.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:32.034Z"
+}

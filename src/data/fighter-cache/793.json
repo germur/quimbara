@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 793,
+    "name": "Parker Porter",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/793.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "256 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 351,
+      "name": "Underdog BJJ"
+    },
+    "last_update": "2025-06-04T19:47:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 793,
+      "name": "Parker Porter",
+      "photo": "https://media.api-sports.io/mma/fighters/793.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 5
+    },
+    "sub": {
+      "win": 3,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 560,
+      "date": "2023-02-12T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1676172600,
+      "timezone": "UTC",
+      "slug": "UFC 284: Makhachev vs. Volkanovski",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 793,
+          "name": "Parker Porter",
+          "logo": "https://media.api-sports.io/mma/fighters/793.png",
+          "winner": false
+        },
+        "second": {
+          "id": 657,
+          "name": "Justin Tafa",
+          "logo": "https://media.api-sports.io/mma/fighters/657.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 683,
+      "date": "2023-05-06T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1683415800,
+      "timezone": "UTC",
+      "slug": "UFC 288: Sterling vs. Cejudo",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 793,
+          "name": "Parker Porter",
+          "logo": "https://media.api-sports.io/mma/fighters/793.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2533,
+          "name": "Braxton Smith",
+          "logo": "https://media.api-sports.io/mma/fighters/2533.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 884,
+      "date": "2023-08-26T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1693051200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. The Korean Zombie",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 793,
+          "name": "Parker Porter",
+          "logo": "https://media.api-sports.io/mma/fighters/793.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2572,
+          "name": "Junior Tafa",
+          "logo": "https://media.api-sports.io/mma/fighters/2572.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:04.024Z"
+}

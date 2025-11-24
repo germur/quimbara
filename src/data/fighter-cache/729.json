@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 729,
+    "name": "Modestas Bukauskas",
+    "nickname": "The Baltic Gladiator",
+    "photo": "https://media.api-sports.io/mma/fighters/729.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "205 lbs",
+    "reach": "78'",
+    "stance": "Switch",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 319,
+      "name": "Gintas Combat"
+    },
+    "last_update": "2025-09-13T12:12:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 729,
+      "name": "Modestas Bukauskas",
+      "photo": "https://media.api-sports.io/mma/fighters/729.png"
+    },
+    "total": {
+      "win": 19,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 4
+    },
+    "sub": {
+      "win": 3,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 553,
+      "date": "2023-02-12T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1676169000,
+      "timezone": "UTC",
+      "slug": "UFC 284: Makhachev vs. Volkanovski",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 729,
+          "name": "Modestas Bukauskas",
+          "logo": "https://media.api-sports.io/mma/fighters/729.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2229,
+          "name": "Tyson Pedro",
+          "logo": "https://media.api-sports.io/mma/fighters/2229.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 747,
+      "date": "2023-06-17T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1687042800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Cannonier",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 729,
+          "name": "Modestas Bukauskas",
+          "logo": "https://media.api-sports.io/mma/fighters/729.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2525,
+          "name": "Zac Pauga",
+          "logo": "https://media.api-sports.io/mma/fighters/2525.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 922,
+      "date": "2023-11-04T23:15:00+00:00",
+      "time": "23:15",
+      "timestamp": 1699139700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Almeida vs. Lewis",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 729,
+          "name": "Modestas Bukauskas",
+          "logo": "https://media.api-sports.io/mma/fighters/729.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2608,
+          "name": "Vitor Petrino",
+          "logo": "https://media.api-sports.io/mma/fighters/2608.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1472,
+      "date": "2024-07-27T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1722088800,
+      "timezone": "UTC",
+      "slug": "UFC 304: Edwards vs. Muhammad 2",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 806,
+          "name": "Marcin Prachnio",
+          "logo": "https://media.api-sports.io/mma/fighters/806.png",
+          "winner": false
+        },
+        "second": {
+          "id": 729,
+          "name": "Modestas Bukauskas",
+          "logo": "https://media.api-sports.io/mma/fighters/729.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1825,
+      "date": "2025-02-22T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1740265200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cejudo vs. Song",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2729,
+          "name": "Rafael Cerqueira",
+          "logo": "https://media.api-sports.io/mma/fighters/2729.png",
+          "winner": false
+        },
+        "second": {
+          "id": 729,
+          "name": "Modestas Bukauskas",
+          "logo": "https://media.api-sports.io/mma/fighters/729.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1977,
+      "date": "2025-05-11T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1746923400,
+      "timezone": "UTC",
+      "slug": "UFC 315: Muhammad vs. Della Maddalena",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 275,
+          "name": "Ion Cutelaba",
+          "logo": "https://media.api-sports.io/mma/fighters/275.png",
+          "winner": false
+        },
+        "second": {
+          "id": 729,
+          "name": "Modestas Bukauskas",
+          "logo": "https://media.api-sports.io/mma/fighters/729.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2212,
+      "date": "2025-09-06T20:45:00+00:00",
+      "time": "20:45",
+      "timestamp": 1757191500,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Imavov vs. Borralho",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 190,
+          "name": "Paul Craig",
+          "logo": "https://media.api-sports.io/mma/fighters/190.png",
+          "winner": false
+        },
+        "second": {
+          "id": 729,
+          "name": "Modestas Bukauskas",
+          "logo": "https://media.api-sports.io/mma/fighters/729.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:59.824Z"
+}

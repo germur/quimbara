@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 545,
+    "name": "Ciryl Gane",
+    "nickname": "Bon Gamin",
+    "photo": "https://media.api-sports.io/mma/fighters/545.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 4'",
+    "weight": "245 lbs",
+    "reach": "81'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 113,
+      "name": "MMA Factory"
+    },
+    "last_update": "2025-11-01T12:10:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 545,
+      "name": "Ciryl Gane",
+      "photo": "https://media.api-sports.io/mma/fighters/545.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 0
+    },
+    "sub": {
+      "win": 3,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 592,
+      "date": "2023-03-05T05:00:00+00:00",
+      "time": "05:00",
+      "timestamp": 1677992400,
+      "timezone": "UTC",
+      "slug": "UFC 285: Jones vs. Gane",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 545,
+          "name": "Ciryl Gane",
+          "logo": "https://media.api-sports.io/mma/fighters/545.png",
+          "winner": false
+        },
+        "second": {
+          "id": 214,
+          "name": "Jon Jones",
+          "logo": "https://media.api-sports.io/mma/fighters/214.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 889,
+      "date": "2023-09-02T21:30:00+00:00",
+      "time": "21:30",
+      "timestamp": 1693690200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 397,
+          "name": "Serghei Spivac",
+          "logo": "https://media.api-sports.io/mma/fighters/397.png",
+          "winner": false
+        },
+        "second": {
+          "id": 545,
+          "name": "Ciryl Gane",
+          "logo": "https://media.api-sports.io/mma/fighters/545.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1572,
+      "date": "2024-10-26T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1729936800,
+      "timezone": "UTC",
+      "slug": "UFC 308: Topuria vs. Holloway",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 268,
+          "name": "Alexander Volkov",
+          "logo": "https://media.api-sports.io/mma/fighters/268.png",
+          "winner": false
+        },
+        "second": {
+          "id": 545,
+          "name": "Ciryl Gane",
+          "logo": "https://media.api-sports.io/mma/fighters/545.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1713,
+      "date": "2024-12-07T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1733598000,
+      "timezone": "UTC",
+      "slug": "UFC 310: Pantoja vs. Asakura",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 268,
+          "name": "Alexander Volkov",
+          "logo": "https://media.api-sports.io/mma/fighters/268.png",
+          "winner": false
+        },
+        "second": {
+          "id": 545,
+          "name": "Ciryl Gane",
+          "logo": "https://media.api-sports.io/mma/fighters/545.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2241,
+      "date": "2025-10-25T20:25:00+00:00",
+      "time": "20:25",
+      "timestamp": 1761423900,
+      "timezone": "UTC",
+      "slug": "UFC 321: Aspinall vs. Gane",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 545,
+          "name": "Ciryl Gane",
+          "logo": "https://media.api-sports.io/mma/fighters/545.png",
+          "winner": false
+        },
+        "second": {
+          "id": 701,
+          "name": "Tom Aspinall",
+          "logo": "https://media.api-sports.io/mma/fighters/701.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:34.915Z"
+}

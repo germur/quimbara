@@ -1,0 +1,324 @@
+{
+  "profile": {
+    "id": 19,
+    "name": "Alonzo Menifield",
+    "nickname": "Atomic",
+    "photo": "https://media.api-sports.io/mma/fighters/19.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "206 lbs",
+    "reach": "76'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 2,
+      "name": "Fortis MMA"
+    },
+    "last_update": "2025-11-23T12:13:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 19,
+      "name": "Alonzo Menifield",
+      "photo": "https://media.api-sports.io/mma/fighters/19.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 6,
+      "draw": 1
+    },
+    "ko": {
+      "win": 10,
+      "loss": 4
+    },
+    "sub": {
+      "win": 3,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 561,
+      "date": "2023-02-12T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1676170800,
+      "timezone": "UTC",
+      "slug": "UFC 284: Makhachev vs. Volkanovski",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 19,
+          "name": "Alonzo Menifield",
+          "logo": "https://media.api-sports.io/mma/fighters/19.png",
+          "winner": false
+        },
+        "second": {
+          "id": 75,
+          "name": "Jimmy Crute",
+          "logo": "https://media.api-sports.io/mma/fighters/75.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 786,
+      "date": "2023-07-09T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1688860800,
+      "timezone": "UTC",
+      "slug": "UFC 290: Volkanovski vs. Rodriguez",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 19,
+          "name": "Alonzo Menifield",
+          "logo": "https://media.api-sports.io/mma/fighters/19.png",
+          "winner": true
+        },
+        "second": {
+          "id": 75,
+          "name": "Jimmy Crute",
+          "logo": "https://media.api-sports.io/mma/fighters/75.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1050,
+      "date": "2023-12-17T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1702780200,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 753,
+          "name": "Dustin Jacoby",
+          "logo": "https://media.api-sports.io/mma/fighters/753.png",
+          "winner": false
+        },
+        "second": {
+          "id": 19,
+          "name": "Alonzo Menifield",
+          "logo": "https://media.api-sports.io/mma/fighters/19.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1241,
+      "date": "2024-03-30T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1711821600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Brady vs. Luque",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 862,
+          "name": "Carlos Ulberg",
+          "logo": "https://media.api-sports.io/mma/fighters/862.png",
+          "winner": false
+        },
+        "second": {
+          "id": 19,
+          "name": "Alonzo Menifield",
+          "logo": "https://media.api-sports.io/mma/fighters/19.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1371,
+      "date": "2024-05-11T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1715439600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Nascimento",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 862,
+          "name": "Carlos Ulberg",
+          "logo": "https://media.api-sports.io/mma/fighters/862.png",
+          "winner": true
+        },
+        "second": {
+          "id": 19,
+          "name": "Alonzo Menifield",
+          "logo": "https://media.api-sports.io/mma/fighters/19.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1313,
+      "date": "2024-08-03T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1722672000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 19,
+          "name": "Alonzo Menifield",
+          "logo": "https://media.api-sports.io/mma/fighters/19.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2374,
+          "name": "Azamat Murzakanov",
+          "logo": "https://media.api-sports.io/mma/fighters/2374.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1904,
+      "date": "2025-02-23T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1740276000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cejudo vs. Song",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2772,
+          "name": "Julius Walker",
+          "logo": "https://media.api-sports.io/mma/fighters/2772.png",
+          "winner": false
+        },
+        "second": {
+          "id": 19,
+          "name": "Alonzo Menifield",
+          "logo": "https://media.api-sports.io/mma/fighters/19.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1804,
+      "date": "2025-03-22T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1742655600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Edwards vs. Della Maddalena",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2696,
+          "name": "Oumar Sy",
+          "logo": "https://media.api-sports.io/mma/fighters/2696.png",
+          "winner": false
+        },
+        "second": {
+          "id": 19,
+          "name": "Alonzo Menifield",
+          "logo": "https://media.api-sports.io/mma/fighters/19.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2066,
+      "date": "2025-06-15T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1749952800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Usman vs. Buckley",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2696,
+          "name": "Oumar Sy",
+          "logo": "https://media.api-sports.io/mma/fighters/2696.png",
+          "winner": false
+        },
+        "second": {
+          "id": 19,
+          "name": "Alonzo Menifield",
+          "logo": "https://media.api-sports.io/mma/fighters/19.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2341,
+      "date": "2025-11-22T19:30:00+00:00",
+      "time": "19:30",
+      "timestamp": 1763839800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tsarukyan vs. Hooker",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 19,
+          "name": "Alonzo Menifield",
+          "logo": "https://media.api-sports.io/mma/fighters/19.png",
+          "winner": false
+        },
+        "second": {
+          "id": 167,
+          "name": "Volkan Oezdemir",
+          "logo": "https://media.api-sports.io/mma/fighters/167.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:24.715Z"
+}

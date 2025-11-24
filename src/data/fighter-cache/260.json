@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 260,
+    "name": "Sergei Pavlovich",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/260.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "255 lbs",
+    "reach": "84'",
+    "stance": "Southpaw",
+    "category": "Heavyweight",
+    "team": {
+      "id": 21,
+      "name": "American Top"
+    },
+    "last_update": "2025-08-30T00:10:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 260,
+      "name": "Sergei Pavlovich",
+      "photo": "https://media.api-sports.io/mma/fighters/260.png"
+    },
+    "total": {
+      "win": 20,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 15,
+      "loss": 2
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 667,
+      "date": "2023-04-23T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1682211600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Pavlovich vs. Blaydes",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 183,
+          "name": "Curtis Blaydes",
+          "logo": "https://media.api-sports.io/mma/fighters/183.png",
+          "winner": false
+        },
+        "second": {
+          "id": 260,
+          "name": "Sergei Pavlovich",
+          "logo": "https://media.api-sports.io/mma/fighters/260.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1055,
+      "date": "2023-11-12T04:30:00+00:00",
+      "time": "04:30",
+      "timestamp": 1699763400,
+      "timezone": "UTC",
+      "slug": "UFC 295: ProchÃ¡zka vs. Pereira",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 701,
+          "name": "Tom Aspinall",
+          "logo": "https://media.api-sports.io/mma/fighters/701.png",
+          "winner": true
+        },
+        "second": {
+          "id": 260,
+          "name": "Sergei Pavlovich",
+          "logo": "https://media.api-sports.io/mma/fighters/260.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1349,
+      "date": "2024-06-22T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1719054000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 268,
+          "name": "Alexander Volkov",
+          "logo": "https://media.api-sports.io/mma/fighters/268.png",
+          "winner": true
+        },
+        "second": {
+          "id": 260,
+          "name": "Sergei Pavlovich",
+          "logo": "https://media.api-sports.io/mma/fighters/260.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1835,
+      "date": "2025-02-01T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1738432800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Adesanya vs. Imavov",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 34,
+          "name": "Jairzinho Rozenstruik",
+          "logo": "https://media.api-sports.io/mma/fighters/34.png",
+          "winner": false
+        },
+        "second": {
+          "id": 260,
+          "name": "Sergei Pavlovich",
+          "logo": "https://media.api-sports.io/mma/fighters/260.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2174,
+      "date": "2025-08-23T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1755946800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Walker vs. Zhang",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2521,
+          "name": "Waldo Cortes-Acosta",
+          "logo": "https://media.api-sports.io/mma/fighters/2521.png",
+          "winner": false
+        },
+        "second": {
+          "id": 260,
+          "name": "Sergei Pavlovich",
+          "logo": "https://media.api-sports.io/mma/fighters/260.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:09.526Z"
+}

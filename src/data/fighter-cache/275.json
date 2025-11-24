@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 275,
+    "name": "Ion Cutelaba",
+    "nickname": "The Hulk",
+    "photo": "https://media.api-sports.io/mma/fighters/275.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "205 lbs",
+    "reach": "75'",
+    "stance": "Southpaw",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 31,
+      "name": "Xtreme Couture"
+    },
+    "last_update": "2025-06-04T15:28:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 275,
+      "name": "Ion Cutelaba",
+      "photo": "https://media.api-sports.io/mma/fighters/275.png"
+    },
+    "total": {
+      "win": 19,
+      "loss": 11,
+      "draw": 1
+    },
+    "ko": {
+      "win": 13,
+      "loss": 3
+    },
+    "sub": {
+      "win": 3,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 658,
+      "date": "2023-04-16T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1681608600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. Allen",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 275,
+          "name": "Ion Cutelaba",
+          "logo": "https://media.api-sports.io/mma/fighters/275.png",
+          "winner": true
+        },
+        "second": {
+          "id": 561,
+          "name": "Tanner Boser",
+          "logo": "https://media.api-sports.io/mma/fighters/561.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 958,
+      "date": "2023-10-07T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1696717800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dawson vs. Green",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 275,
+          "name": "Ion Cutelaba",
+          "logo": "https://media.api-sports.io/mma/fighters/275.png",
+          "winner": false
+        },
+        "second": {
+          "id": 711,
+          "name": "Philipe Lins",
+          "logo": "https://media.api-sports.io/mma/fighters/711.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1283,
+      "date": "2024-03-09T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1709996400,
+      "timezone": "UTC",
+      "slug": "UFC 299: O'Malley vs. Vera 2",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 711,
+          "name": "Philipe Lins",
+          "logo": "https://media.api-sports.io/mma/fighters/711.png",
+          "winner": true
+        },
+        "second": {
+          "id": 275,
+          "name": "Ion Cutelaba",
+          "logo": "https://media.api-sports.io/mma/fighters/275.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1592,
+      "date": "2024-09-28T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1727510400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Moicano vs. Saint Denis",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2713,
+          "name": "Ivan Erslan",
+          "logo": "https://media.api-sports.io/mma/fighters/2713.png",
+          "winner": false
+        },
+        "second": {
+          "id": 275,
+          "name": "Ion Cutelaba",
+          "logo": "https://media.api-sports.io/mma/fighters/275.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1826,
+      "date": "2025-02-23T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1740272400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cejudo vs. Song",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2673,
+          "name": "Ibo Aslan",
+          "logo": "https://media.api-sports.io/mma/fighters/2673.png",
+          "winner": false
+        },
+        "second": {
+          "id": 275,
+          "name": "Ion Cutelaba",
+          "logo": "https://media.api-sports.io/mma/fighters/275.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1977,
+      "date": "2025-05-11T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1746923400,
+      "timezone": "UTC",
+      "slug": "UFC 315: Muhammad vs. Della Maddalena",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 275,
+          "name": "Ion Cutelaba",
+          "logo": "https://media.api-sports.io/mma/fighters/275.png",
+          "winner": false
+        },
+        "second": {
+          "id": 729,
+          "name": "Modestas Bukauskas",
+          "logo": "https://media.api-sports.io/mma/fighters/729.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:42.941Z"
+}

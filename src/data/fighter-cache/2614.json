@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 2614,
+    "name": "Bogdan Guskov",
+    "nickname": "Czarevitch",
+    "photo": "https://media.api-sports.io/mma/fighters/2614.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "205 lbs",
+    "reach": "76'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 633,
+      "name": "GOR MMA"
+    },
+    "last_update": "2025-08-02T12:02:38+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2614,
+      "name": "Bogdan Guskov",
+      "photo": "https://media.api-sports.io/mma/fighters/2614.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 14,
+      "loss": 1
+    },
+    "sub": {
+      "win": 3,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 928,
+      "date": "2023-09-02T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1693684800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2614,
+          "name": "Bogdan Guskov",
+          "logo": "https://media.api-sports.io/mma/fighters/2614.png",
+          "winner": false
+        },
+        "second": {
+          "id": 167,
+          "name": "Volkan Oezdemir",
+          "logo": "https://media.api-sports.io/mma/fighters/167.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1141,
+      "date": "2024-02-10T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1707570000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hermansson vs. Pyfer",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2614,
+          "name": "Bogdan Guskov",
+          "logo": "https://media.api-sports.io/mma/fighters/2614.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2525,
+          "name": "Zac Pauga",
+          "logo": "https://media.api-sports.io/mma/fighters/2525.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1343,
+      "date": "2024-04-27T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1714230000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Nicolau vs. Perez",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2614,
+          "name": "Bogdan Guskov",
+          "logo": "https://media.api-sports.io/mma/fighters/2614.png",
+          "winner": true
+        },
+        "second": {
+          "id": 362,
+          "name": "Ryan Spann",
+          "logo": "https://media.api-sports.io/mma/fighters/362.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1771,
+      "date": "2025-01-18T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1737219600,
+      "timezone": "UTC",
+      "slug": "UFC 311: Makhachev vs. Tsarukyan 2",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2614,
+          "name": "Bogdan Guskov",
+          "logo": "https://media.api-sports.io/mma/fighters/2614.png",
+          "winner": false
+        },
+        "second": {
+          "id": 49,
+          "name": "Johnny Walker",
+          "logo": "https://media.api-sports.io/mma/fighters/49.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1857,
+      "date": "2025-01-19T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1737250200,
+      "timezone": "UTC",
+      "slug": "UFC 311: Makhachev vs. Moicano",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2758,
+          "name": "Billy Elekana",
+          "logo": "https://media.api-sports.io/mma/fighters/2758.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2614,
+          "name": "Bogdan Guskov",
+          "logo": "https://media.api-sports.io/mma/fighters/2614.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2085,
+      "date": "2025-07-26T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1753556400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. de Ridder",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2614,
+          "name": "Bogdan Guskov",
+          "logo": "https://media.api-sports.io/mma/fighters/2614.png",
+          "winner": true
+        },
+        "second": {
+          "id": 254,
+          "name": "Nikita Krylov",
+          "logo": "https://media.api-sports.io/mma/fighters/254.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2388,
+      "date": "2025-12-07T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1765076400,
+      "timezone": "UTC",
+      "slug": "UFC 323: Dvalishvili vs. Yan 2",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 2614,
+          "name": "Bogdan Guskov",
+          "logo": "https://media.api-sports.io/mma/fighters/2614.png",
+          "winner": false
+        },
+        "second": {
+          "id": 109,
+          "name": "Jan Blachowicz",
+          "logo": "https://media.api-sports.io/mma/fighters/109.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:30.352Z"
+}

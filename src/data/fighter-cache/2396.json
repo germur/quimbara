@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 2396,
+    "name": "AJ Dobson",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2396.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "185 lbs",
+    "reach": "76'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 658,
+      "name": "Carlson Gracie  Ohio"
+    },
+    "last_update": "2025-06-05T09:08:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2396,
+      "name": "AJ Dobson",
+      "photo": "https://media.api-sports.io/mma/fighters/2396.png"
+    },
+    "total": {
+      "win": 7,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 857,
+      "date": "2023-08-12T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1691883000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Luque vs. Dos Anjos",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 823,
+          "name": "Tafon Nchukwi",
+          "logo": "https://media.api-sports.io/mma/fighters/823.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2396,
+          "name": "AJ Dobson",
+          "logo": "https://media.api-sports.io/mma/fighters/2396.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1202,
+      "date": "2024-02-17T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1708189200,
+      "timezone": "UTC",
+      "slug": "UFC 298: Volkanovski vs. Topuria",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2416,
+          "name": "Tresean Gore",
+          "logo": "https://media.api-sports.io/mma/fighters/2416.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2396,
+          "name": "AJ Dobson",
+          "logo": "https://media.api-sports.io/mma/fighters/2396.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1319,
+      "date": "2024-03-23T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1711216800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ribas vs. Namajunas",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2396,
+          "name": "AJ Dobson",
+          "logo": "https://media.api-sports.io/mma/fighters/2396.png",
+          "winner": false
+        },
+        "second": {
+          "id": 121,
+          "name": "Edmen Shahbazyan",
+          "logo": "https://media.api-sports.io/mma/fighters/121.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:35:17.678Z"
+}

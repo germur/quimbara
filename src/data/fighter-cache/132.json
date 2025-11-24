@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 132,
+    "name": "Ovince Saint Preux",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/132.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "205 lbs",
+    "reach": "80'",
+    "stance": "Southpaw",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 81,
+      "name": "Knoxville MMA"
+    },
+    "last_update": "2025-06-04T14:16:36+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 132,
+      "name": "Ovince Saint Preux",
+      "photo": "https://media.api-sports.io/mma/fighters/132.png"
+    },
+    "total": {
+      "win": 27,
+      "loss": 18,
+      "draw": 0
+    },
+    "ko": {
+      "win": 13,
+      "loss": 5
+    },
+    "sub": {
+      "win": 7,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 565,
+      "date": "2023-02-18T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1676754000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Andrade vs. Blanchfield",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 711,
+          "name": "Philipe Lins",
+          "logo": "https://media.api-sports.io/mma/fighters/711.png",
+          "winner": true
+        },
+        "second": {
+          "id": 132,
+          "name": "Ovince Saint Preux",
+          "logo": "https://media.api-sports.io/mma/fighters/132.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1233,
+      "date": "2024-03-16T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1710601200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tuivasa vs. Tybura",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 189,
+          "name": "Kennedy Nzechukwu",
+          "logo": "https://media.api-sports.io/mma/fighters/189.png",
+          "winner": false
+        },
+        "second": {
+          "id": 132,
+          "name": "Ovince Saint Preux",
+          "logo": "https://media.api-sports.io/mma/fighters/132.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1566,
+      "date": "2024-09-07T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1725746400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Brady",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 132,
+          "name": "Ovince Saint Preux",
+          "logo": "https://media.api-sports.io/mma/fighters/132.png",
+          "winner": false
+        },
+        "second": {
+          "id": 362,
+          "name": "Ryan Spann",
+          "logo": "https://media.api-sports.io/mma/fighters/362.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1676,
+      "date": "2024-10-05T14:30:00+00:00",
+      "time": "14:30",
+      "timestamp": 1728138600,
+      "timezone": "UTC",
+      "slug": "UFC 307: Pereira vs. Rountree Jr.",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 132,
+          "name": "Ovince Saint Preux",
+          "logo": "https://media.api-sports.io/mma/fighters/132.png",
+          "winner": false
+        },
+        "second": {
+          "id": 362,
+          "name": "Ryan Spann",
+          "logo": "https://media.api-sports.io/mma/fighters/362.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:35:02.560Z"
+}

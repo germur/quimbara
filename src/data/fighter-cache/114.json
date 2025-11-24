@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 114,
+    "name": "Marcos Rogerio de Lima",
+    "nickname": "Pezao",
+    "photo": "https://media.api-sports.io/mma/fighters/114.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "261 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 21,
+      "name": "American Top"
+    },
+    "last_update": "2025-06-04T14:07:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 114,
+      "name": "Marcos Rogerio de Lima",
+      "photo": "https://media.api-sports.io/mma/fighters/114.png"
+    },
+    "total": {
+      "win": 22,
+      "loss": 10,
+      "draw": 1
+    },
+    "ko": {
+      "win": 14,
+      "loss": 2
+    },
+    "sub": {
+      "win": 4,
+      "loss": 6
+    }
+  },
+  "fights": [
+    {
+      "id": 681,
+      "date": "2023-04-29T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1682811000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Simon",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2521,
+          "name": "Waldo Cortes-Acosta",
+          "logo": "https://media.api-sports.io/mma/fighters/2521.png",
+          "winner": false
+        },
+        "second": {
+          "id": 114,
+          "name": "Marcos Rogerio de Lima",
+          "logo": "https://media.api-sports.io/mma/fighters/114.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 829,
+      "date": "2023-07-30T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1690686000,
+      "timezone": "UTC",
+      "slug": "UFC 291: Poirier vs. Gaethje 2",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 114,
+          "name": "Marcos Rogerio de Lima",
+          "logo": "https://media.api-sports.io/mma/fighters/114.png",
+          "winner": false
+        },
+        "second": {
+          "id": 147,
+          "name": "Derrick Lewis",
+          "logo": "https://media.api-sports.io/mma/fighters/147.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1287,
+      "date": "2024-02-17T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1708189200,
+      "timezone": "UTC",
+      "slug": "UFC 298: Volkanovski vs. Topuria",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2572,
+          "name": "Junior Tafa",
+          "logo": "https://media.api-sports.io/mma/fighters/2572.png",
+          "winner": false
+        },
+        "second": {
+          "id": 114,
+          "name": "Marcos Rogerio de Lima",
+          "logo": "https://media.api-sports.io/mma/fighters/114.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1150,
+      "date": "2024-02-18T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1708221600,
+      "timezone": "UTC",
+      "slug": "UFC 298: Volkanovski vs. Topuria",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 657,
+          "name": "Justin Tafa",
+          "logo": "https://media.api-sports.io/mma/fighters/657.png",
+          "winner": false
+        },
+        "second": {
+          "id": 114,
+          "name": "Marcos Rogerio de Lima",
+          "logo": "https://media.api-sports.io/mma/fighters/114.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1576,
+      "date": "2024-10-26T06:00:00+00:00",
+      "time": "06:00",
+      "timestamp": 1729922400,
+      "timezone": "UTC",
+      "slug": "UFC 308: Topuria vs. Holloway",
+      "is_main": false,
+      "category": "Featherweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 189,
+          "name": "Kennedy Nzechukwu",
+          "logo": "https://media.api-sports.io/mma/fighters/189.png",
+          "winner": false
+        },
+        "second": {
+          "id": 114,
+          "name": "Marcos Rogerio de Lima",
+          "logo": "https://media.api-sports.io/mma/fighters/114.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:58.226Z"
+}

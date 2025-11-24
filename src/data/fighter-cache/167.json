@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 167,
+    "name": "Volkan Oezdemir",
+    "nickname": "No Time",
+    "photo": "https://media.api-sports.io/mma/fighters/167.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "206 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 39,
+      "name": "Allstars Training Center"
+    },
+    "last_update": "2025-11-23T12:13:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 167,
+      "name": "Volkan Oezdemir",
+      "photo": "https://media.api-sports.io/mma/fighters/167.png"
+    },
+    "total": {
+      "win": 20,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 13,
+      "loss": 2
+    },
+    "sub": {
+      "win": 2,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 891,
+      "date": "2023-09-02T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1693652400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2374,
+          "name": "Azamat Murzakanov",
+          "logo": "https://media.api-sports.io/mma/fighters/2374.png",
+          "winner": false
+        },
+        "second": {
+          "id": 167,
+          "name": "Volkan Oezdemir",
+          "logo": "https://media.api-sports.io/mma/fighters/167.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 928,
+      "date": "2023-09-02T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1693684800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2614,
+          "name": "Bogdan Guskov",
+          "logo": "https://media.api-sports.io/mma/fighters/2614.png",
+          "winner": false
+        },
+        "second": {
+          "id": 167,
+          "name": "Volkan Oezdemir",
+          "logo": "https://media.api-sports.io/mma/fighters/167.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1351,
+      "date": "2024-06-22T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1719054000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 167,
+          "name": "Volkan Oezdemir",
+          "logo": "https://media.api-sports.io/mma/fighters/167.png",
+          "winner": true
+        },
+        "second": {
+          "id": 49,
+          "name": "Johnny Walker",
+          "logo": "https://media.api-sports.io/mma/fighters/49.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1709,
+      "date": "2024-11-23T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1732330800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Figueiredo",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 862,
+          "name": "Carlos Ulberg",
+          "logo": "https://media.api-sports.io/mma/fighters/862.png",
+          "winner": true
+        },
+        "second": {
+          "id": 167,
+          "name": "Volkan Oezdemir",
+          "logo": "https://media.api-sports.io/mma/fighters/167.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2341,
+      "date": "2025-11-22T19:30:00+00:00",
+      "time": "19:30",
+      "timestamp": 1763839800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tsarukyan vs. Hooker",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 19,
+          "name": "Alonzo Menifield",
+          "logo": "https://media.api-sports.io/mma/fighters/19.png",
+          "winner": false
+        },
+        "second": {
+          "id": 167,
+          "name": "Volkan Oezdemir",
+          "logo": "https://media.api-sports.io/mma/fighters/167.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:35:09.468Z"
+}

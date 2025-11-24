@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 734,
+    "name": "Jake Collier",
+    "nickname": "The Prototype",
+    "photo": "https://media.api-sports.io/mma/fighters/734.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "256 lbs",
+    "reach": "78.5'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 322,
+      "name": "Pit MMA"
+    },
+    "last_update": "2025-06-04T19:17:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 734,
+      "name": "Jake Collier",
+      "photo": "https://media.api-sports.io/mma/fighters/734.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 10,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 4
+    },
+    "sub": {
+      "win": 4,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 672,
+      "date": "2023-04-29T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1682805600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Simon",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 734,
+          "name": "Jake Collier",
+          "logo": "https://media.api-sports.io/mma/fighters/734.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2455,
+          "name": "Martin Buday",
+          "logo": "https://media.api-sports.io/mma/fighters/2455.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 933,
+      "date": "2023-09-23T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1695502800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Fiziev vs. Gamrot",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 734,
+          "name": "Jake Collier",
+          "logo": "https://media.api-sports.io/mma/fighters/734.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2506,
+          "name": "Mohammed Usman",
+          "logo": "https://media.api-sports.io/mma/fighters/2506.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:44.479Z"
+}

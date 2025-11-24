@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "id": 270,
+    "name": "Marcin Tybura",
+    "nickname": "Tybur",
+    "photo": "https://media.api-sports.io/mma/fighters/270.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "256 lbs",
+    "reach": "78'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 73,
+      "name": "Ankos MMA"
+    },
+    "last_update": "2025-09-13T12:07:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 270,
+      "name": "Marcin Tybura",
+      "photo": "https://media.api-sports.io/mma/fighters/270.png"
+    },
+    "total": {
+      "win": 27,
+      "loss": 10,
+      "draw": 0
+    },
+    "ko": {
+      "win": 10,
+      "loss": 6
+    },
+    "sub": {
+      "win": 7,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 546,
+      "date": "2023-02-04T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1675548000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Spivac",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 153,
+          "name": "Blagoy Ivanov",
+          "logo": "https://media.api-sports.io/mma/fighters/153.png",
+          "winner": false
+        },
+        "second": {
+          "id": 270,
+          "name": "Marcin Tybura",
+          "logo": "https://media.api-sports.io/mma/fighters/270.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 813,
+      "date": "2023-07-22T21:30:00+00:00",
+      "time": "21:30",
+      "timestamp": 1690061400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Aspinall vs. Tybura",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 270,
+          "name": "Marcin Tybura",
+          "logo": "https://media.api-sports.io/mma/fighters/270.png",
+          "winner": false
+        },
+        "second": {
+          "id": 701,
+          "name": "Tom Aspinall",
+          "logo": "https://media.api-sports.io/mma/fighters/701.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1155,
+      "date": "2024-02-18T03:40:00+00:00",
+      "time": "03:40",
+      "timestamp": 1708227600,
+      "timezone": "UTC",
+      "slug": "UFC 298: Volkanovski vs. Topuria",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 270,
+          "name": "Marcin Tybura",
+          "logo": "https://media.api-sports.io/mma/fighters/270.png",
+          "winner": false
+        },
+        "second": {
+          "id": 381,
+          "name": "Tai Tuivasa",
+          "logo": "https://media.api-sports.io/mma/fighters/381.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1215,
+      "date": "2024-03-16T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1710601200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tuivasa vs. Tybura",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 270,
+          "name": "Marcin Tybura",
+          "logo": "https://media.api-sports.io/mma/fighters/270.png",
+          "winner": true
+        },
+        "second": {
+          "id": 381,
+          "name": "Tai Tuivasa",
+          "logo": "https://media.api-sports.io/mma/fighters/381.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1536,
+      "date": "2024-08-10T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1723302000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tybura vs. Spivac 2",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 397,
+          "name": "Serghei Spivac",
+          "logo": "https://media.api-sports.io/mma/fighters/397.png",
+          "winner": true
+        },
+        "second": {
+          "id": 270,
+          "name": "Marcin Tybura",
+          "logo": "https://media.api-sports.io/mma/fighters/270.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1746,
+      "date": "2024-11-16T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1731776400,
+      "timezone": "UTC",
+      "slug": "UFC 309: Jones vs. Miocic",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2693,
+          "name": "Jhonata Diniz",
+          "logo": "https://media.api-sports.io/mma/fighters/2693.png",
+          "winner": false
+        },
+        "second": {
+          "id": 270,
+          "name": "Marcin Tybura",
+          "logo": "https://media.api-sports.io/mma/fighters/270.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1808,
+      "date": "2025-03-22T18:20:00+00:00",
+      "time": "18:20",
+      "timestamp": 1742667600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Edwards vs. Brady",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2584,
+          "name": "Mick Parkin",
+          "logo": "https://media.api-sports.io/mma/fighters/2584.png",
+          "winner": false
+        },
+        "second": {
+          "id": 270,
+          "name": "Marcin Tybura",
+          "logo": "https://media.api-sports.io/mma/fighters/270.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2218,
+      "date": "2025-09-06T18:05:00+00:00",
+      "time": "18:05",
+      "timestamp": 1757181900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Imavov vs. Borralho",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2796,
+          "name": "Ante Delija",
+          "logo": "https://media.api-sports.io/mma/fighters/2796.png",
+          "winner": true
+        },
+        "second": {
+          "id": 270,
+          "name": "Marcin Tybura",
+          "logo": "https://media.api-sports.io/mma/fighters/270.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:56.861Z"
+}

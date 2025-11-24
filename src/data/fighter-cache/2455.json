@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "id": 2455,
+    "name": "Martin Buday",
+    "nickname": "Badys",
+    "photo": "https://media.api-sports.io/mma/fighters/2455.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 4'",
+    "weight": "266 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 375,
+      "name": "Spartakus Fight Gym"
+    },
+    "last_update": "2025-06-05T09:38:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2455,
+      "name": "Martin Buday",
+      "photo": "https://media.api-sports.io/mma/fighters/2455.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 672,
+      "date": "2023-04-29T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1682805600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Simon",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 734,
+          "name": "Jake Collier",
+          "logo": "https://media.api-sports.io/mma/fighters/734.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2455,
+          "name": "Martin Buday",
+          "logo": "https://media.api-sports.io/mma/fighters/2455.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 849,
+      "date": "2023-08-12T21:15:00+00:00",
+      "time": "21:15",
+      "timestamp": 1691874900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Luque vs. Dos Anjos",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2455,
+          "name": "Martin Buday",
+          "logo": "https://media.api-sports.io/mma/fighters/2455.png",
+          "winner": true
+        },
+        "second": {
+          "id": 788,
+          "name": "Josh Parisian",
+          "logo": "https://media.api-sports.io/mma/fighters/788.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1051,
+      "date": "2023-12-16T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1702769400,
+      "timezone": "UTC",
+      "slug": "UFC 296: Edwards vs. Covington",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2638,
+          "name": "Shamil Gaziev",
+          "logo": "https://media.api-sports.io/mma/fighters/2638.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2455,
+          "name": "Martin Buday",
+          "logo": "https://media.api-sports.io/mma/fighters/2455.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1480,
+      "date": "2024-06-29T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1719669600,
+      "timezone": "UTC",
+      "slug": "UFC 303: Pereira vs. ProchÃ¡zka 2",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2455,
+          "name": "Martin Buday",
+          "logo": "https://media.api-sports.io/mma/fighters/2455.png",
+          "winner": true
+        },
+        "second": {
+          "id": 279,
+          "name": "Andrei Arlovski",
+          "logo": "https://media.api-sports.io/mma/fighters/279.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1756,
+      "date": "2024-12-07T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1733583600,
+      "timezone": "UTC",
+      "slug": "UFC 310: Pantoja vs. Asakura",
+      "is_main": false,
+      "category": null,
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2432,
+          "name": "Rizvan Kuniev",
+          "logo": "https://media.api-sports.io/mma/fighters/2432.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2455,
+          "name": "Martin Buday",
+          "logo": "https://media.api-sports.io/mma/fighters/2455.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2011,
+      "date": "2025-04-05T22:25:00+00:00",
+      "time": "22:25",
+      "timestamp": 1743891900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Murphy",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2782,
+          "name": "Uran Satybaldiev",
+          "logo": "https://media.api-sports.io/mma/fighters/2782.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2455,
+          "name": "Martin Buday",
+          "logo": "https://media.api-sports.io/mma/fighters/2455.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1960,
+      "date": "2025-04-06T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1743904800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Murphy",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2455,
+          "name": "Martin Buday",
+          "logo": "https://media.api-sports.io/mma/fighters/2455.png",
+          "winner": false
+        },
+        "second": {
+          "id": 189,
+          "name": "Kennedy Nzechukwu",
+          "logo": "https://media.api-sports.io/mma/fighters/189.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2187,
+      "date": "2025-07-26T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1753516800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. de Ridder",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2799,
+          "name": "Marcus Buchecha",
+          "logo": "https://media.api-sports.io/mma/fighters/2799.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2455,
+          "name": "Martin Buday",
+          "logo": "https://media.api-sports.io/mma/fighters/2455.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:59.583Z"
+}

@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 26,
+    "name": "Glover Teixeira",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/26.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "205 lbs",
+    "reach": "76'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 25,
+      "name": "Teixeira MMA & Fitness"
+    },
+    "last_update": "2025-06-04T13:23:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 26,
+      "name": "Glover Teixeira",
+      "photo": "https://media.api-sports.io/mma/fighters/26.png"
+    },
+    "total": {
+      "win": 33,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 18,
+      "loss": 3
+    },
+    "sub": {
+      "win": 10,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 533,
+      "date": "2023-01-22T05:00:00+00:00",
+      "time": "05:00",
+      "timestamp": 1674363600,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 525,
+          "name": "Jamahal Hill",
+          "logo": "https://media.api-sports.io/mma/fighters/525.png",
+          "winner": true
+        },
+        "second": {
+          "id": 26,
+          "name": "Glover Teixeira",
+          "logo": "https://media.api-sports.io/mma/fighters/26.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:41.516Z"
+}

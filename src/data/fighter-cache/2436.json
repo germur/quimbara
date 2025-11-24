@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "id": 2436,
+    "name": "Alex Pereira",
+    "nickname": "Poatan",
+    "photo": "https://media.api-sports.io/mma/fighters/2436.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 4'",
+    "weight": "205 lbs",
+    "reach": "79'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 25,
+      "name": "Teixeira MMA & Fitness"
+    },
+    "last_update": "2025-10-12T00:05:08+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2436,
+      "name": "Alex Pereira",
+      "photo": "https://media.api-sports.io/mma/fighters/2436.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 10,
+      "loss": 1
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 642,
+      "date": "2023-04-09T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1681012800,
+      "timezone": "UTC",
+      "slug": "UFC 287: Pereira vs. Adesanya 2",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 70,
+          "name": "Israel Adesanya",
+          "logo": "https://media.api-sports.io/mma/fighters/70.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2436,
+          "name": "Alex Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/2436.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 828,
+      "date": "2023-07-30T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1690687800,
+      "timezone": "UTC",
+      "slug": "UFC 291: Poirier vs. Gaethje 2",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2436,
+          "name": "Alex Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/2436.png",
+          "winner": true
+        },
+        "second": {
+          "id": 109,
+          "name": "Jan Blachowicz",
+          "logo": "https://media.api-sports.io/mma/fighters/109.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1005,
+      "date": "2023-11-12T05:00:00+00:00",
+      "time": "05:00",
+      "timestamp": 1699765200,
+      "timezone": "UTC",
+      "slug": "UFC 295: ProchÃ¡zka vs. Pereira",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2436,
+          "name": "Alex Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/2436.png",
+          "winner": true
+        },
+        "second": {
+          "id": 727,
+          "name": "JirÃ­ ProchÃ¡zka",
+          "logo": "https://media.api-sports.io/mma/fighters/727.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1178,
+      "date": "2024-04-13T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1713031200,
+      "timezone": "UTC",
+      "slug": "UFC 300: Pereira vs. Hill",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 525,
+          "name": "Jamahal Hill",
+          "logo": "https://media.api-sports.io/mma/fighters/525.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2436,
+          "name": "Alex Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/2436.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1493,
+      "date": "2024-06-29T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1719684000,
+      "timezone": "UTC",
+      "slug": "UFC 303: Pereira vs. ProchÃ¡zka 2",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 727,
+          "name": "JirÃ­ ProchÃ¡zka",
+          "logo": "https://media.api-sports.io/mma/fighters/727.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2436,
+          "name": "Alex Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/2436.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1595,
+      "date": "2024-10-05T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1728151200,
+      "timezone": "UTC",
+      "slug": "UFC 307: Pereira vs. Rountree Jr.",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 257,
+          "name": "Khalil Rountree Jr.",
+          "logo": "https://media.api-sports.io/mma/fighters/257.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2436,
+          "name": "Alex Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/2436.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1801,
+      "date": "2025-03-09T05:30:00+00:00",
+      "time": "05:30",
+      "timestamp": 1741498200,
+      "timezone": "UTC",
+      "slug": "UFC 313: Pereira vs. Ankalaev",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 103,
+          "name": "Magomed Ankalaev",
+          "logo": "https://media.api-sports.io/mma/fighters/103.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2436,
+          "name": "Alex Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/2436.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2140,
+      "date": "2025-10-05T04:50:00+00:00",
+      "time": "04:50",
+      "timestamp": 1759639800,
+      "timezone": "UTC",
+      "slug": "UFC 320: Ankalaev vs. Pereira 2",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2436,
+          "name": "Alex Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/2436.png",
+          "winner": true
+        },
+        "second": {
+          "id": 103,
+          "name": "Magomed Ankalaev",
+          "logo": "https://media.api-sports.io/mma/fighters/103.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:23.349Z"
+}

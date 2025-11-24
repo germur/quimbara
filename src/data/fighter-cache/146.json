@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 146,
+    "name": "Jeff Hughes",
+    "nickname": "Lights Out",
+    "photo": "https://media.api-sports.io/mma/fighters/146.png",
+    "gender": "M",
+    "birth_date": "1988-05-17",
+    "age": 32,
+    "height": "6' 2'",
+    "weight": "258 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 88,
+      "name": "Strong Style Fight"
+    },
+    "last_update": "2025-06-04T14:23:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 146,
+      "name": "Jeff Hughes",
+      "photo": "https://media.api-sports.io/mma/fighters/146.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 1
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-24T00:33:47.235Z"
+}

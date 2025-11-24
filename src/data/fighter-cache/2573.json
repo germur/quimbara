@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 2573,
+    "name": "Karl Williams",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2573.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "243 lbs",
+    "reach": "79'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 31,
+      "name": "Xtreme Couture"
+    },
+    "last_update": "2025-06-05T10:37:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2573,
+      "name": "Karl Williams",
+      "photo": "https://media.api-sports.io/mma/fighters/2573.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 0
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 597,
+      "date": "2023-03-11T22:20:00+00:00",
+      "time": "22:20",
+      "timestamp": 1678573200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Dvalishvili",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2390,
+          "name": "Lukasz Brzeski",
+          "logo": "https://media.api-sports.io/mma/fighters/2390.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2573,
+          "name": "Karl Williams",
+          "logo": "https://media.api-sports.io/mma/fighters/2573.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 696,
+      "date": "2023-05-13T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1684000800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Almeida",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 713,
+          "name": "Chase Sherman",
+          "logo": "https://media.api-sports.io/mma/fighters/713.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2573,
+          "name": "Karl Williams",
+          "logo": "https://media.api-sports.io/mma/fighters/2573.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1258,
+      "date": "2024-03-23T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1711216800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ribas vs. Namajunas",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2572,
+          "name": "Junior Tafa",
+          "logo": "https://media.api-sports.io/mma/fighters/2572.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2573,
+          "name": "Karl Williams",
+          "logo": "https://media.api-sports.io/mma/fighters/2573.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1318,
+      "date": "2024-03-23T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1711216800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ribas vs. Namajunas",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 657,
+          "name": "Justin Tafa",
+          "logo": "https://media.api-sports.io/mma/fighters/657.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2573,
+          "name": "Karl Williams",
+          "logo": "https://media.api-sports.io/mma/fighters/2573.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1543,
+      "date": "2024-08-10T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1723294800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tybura vs. Spivac 2",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2573,
+          "name": "Karl Williams",
+          "logo": "https://media.api-sports.io/mma/fighters/2573.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2693,
+          "name": "Jhonata Diniz",
+          "logo": "https://media.api-sports.io/mma/fighters/2693.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:52.691Z"
+}

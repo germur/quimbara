@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 372,
+    "name": "Ed Herman",
+    "nickname": "Short Fuse",
+    "photo": "https://media.api-sports.io/mma/fighters/372.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "206 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 52,
+      "name": "American Top  Portland"
+    },
+    "last_update": "2025-06-04T16:16:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 372,
+      "name": "Ed Herman",
+      "photo": "https://media.api-sports.io/mma/fighters/372.png"
+    },
+    "total": {
+      "win": 27,
+      "loss": 16,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 4
+    },
+    "sub": {
+      "win": 15,
+      "loss": 6
+    }
+  },
+  "fights": [
+    {
+      "id": 649,
+      "date": "2023-04-15T23:10:00+00:00",
+      "time": "23:10",
+      "timestamp": 1681600200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. Allen",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 372,
+          "name": "Ed Herman",
+          "logo": "https://media.api-sports.io/mma/fighters/372.png",
+          "winner": false
+        },
+        "second": {
+          "id": 371,
+          "name": "Zak Cummings",
+          "logo": "https://media.api-sports.io/mma/fighters/371.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:40.144Z"
+}

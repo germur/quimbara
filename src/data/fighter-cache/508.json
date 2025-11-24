@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 508,
+    "name": "Don&#x27;Tale Mayes",
+    "nickname": "Lord Kong",
+    "photo": "https://media.api-sports.io/mma/fighters/508.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 6'",
+    "weight": "260 lbs",
+    "reach": "81'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 55,
+      "name": "Jackson-Wink MMA"
+    },
+    "last_update": "2025-06-04T17:24:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 508,
+      "name": "Don&#x27;Tale Mayes",
+      "photo": "https://media.api-sports.io/mma/fighters/508.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 1
+    },
+    "sub": {
+      "win": 1,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 580,
+      "date": "2023-02-26T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1677369600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Muniz vs. Allen",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 508,
+          "name": "Don'Tale Mayes",
+          "logo": "https://media.api-sports.io/mma/fighters/508.png",
+          "winner": false
+        },
+        "second": {
+          "id": 278,
+          "name": "Augusto Sakai",
+          "logo": "https://media.api-sports.io/mma/fighters/278.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 719,
+      "date": "2023-06-03T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1685800800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kara-France vs. Albazi",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 508,
+          "name": "Don'Tale Mayes",
+          "logo": "https://media.api-sports.io/mma/fighters/508.png",
+          "winner": true
+        },
+        "second": {
+          "id": 279,
+          "name": "Andrei Arlovski",
+          "logo": "https://media.api-sports.io/mma/fighters/279.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 948,
+      "date": "2023-11-04T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1699117200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Almeida vs. Lewis",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 508,
+          "name": "Don'Tale Mayes",
+          "logo": "https://media.api-sports.io/mma/fighters/508.png",
+          "winner": false
+        },
+        "second": {
+          "id": 543,
+          "name": "Rodrigo Nascimento",
+          "logo": "https://media.api-sports.io/mma/fighters/543.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1338,
+      "date": "2024-04-27T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1714219200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Nicolau vs. Perez",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2635,
+          "name": "Caio Machado",
+          "logo": "https://media.api-sports.io/mma/fighters/2635.png",
+          "winner": false
+        },
+        "second": {
+          "id": 508,
+          "name": "Don'Tale Mayes",
+          "logo": "https://media.api-sports.io/mma/fighters/508.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1528,
+      "date": "2024-08-03T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1722672000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 508,
+          "name": "Don'Tale Mayes",
+          "logo": "https://media.api-sports.io/mma/fighters/508.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2638,
+          "name": "Shamil Gaziev",
+          "logo": "https://media.api-sports.io/mma/fighters/2638.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1792,
+      "date": "2025-02-15T21:45:00+00:00",
+      "time": "21:45",
+      "timestamp": 1739655900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Cannonier vs. Rodrigues",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2686,
+          "name": "Valter Walker",
+          "logo": "https://media.api-sports.io/mma/fighters/2686.png",
+          "winner": true
+        },
+        "second": {
+          "id": 508,
+          "name": "Don'Tale Mayes",
+          "logo": "https://media.api-sports.io/mma/fighters/508.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2000,
+      "date": "2025-05-03T23:55:00+00:00",
+      "time": "23:55",
+      "timestamp": 1746316500,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Figueiredo",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 508,
+          "name": "Don'Tale Mayes",
+          "logo": "https://media.api-sports.io/mma/fighters/508.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2663,
+          "name": "Thomas Petersen",
+          "logo": "https://media.api-sports.io/mma/fighters/2663.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:39.012Z"
+}

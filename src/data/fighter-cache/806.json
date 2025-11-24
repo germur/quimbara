@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 806,
+    "name": "Marcin Prachnio",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/806.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "205 lbs",
+    "reach": "74'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 354,
+      "name": "Tatsujin Dojo"
+    },
+    "last_update": "2025-07-26T12:04:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 806,
+      "name": "Marcin Prachnio",
+      "photo": "https://media.api-sports.io/mma/fighters/806.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 4
+    },
+    "sub": {
+      "win": 1,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 571,
+      "date": "2023-02-19T00:45:00+00:00",
+      "time": "00:45",
+      "timestamp": 1676767500,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Andrade vs. Blanchfield",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 806,
+          "name": "Marcin Prachnio",
+          "logo": "https://media.api-sports.io/mma/fighters/806.png",
+          "winner": true
+        },
+        "second": {
+          "id": 618,
+          "name": "William Knight",
+          "logo": "https://media.api-sports.io/mma/fighters/618.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 779,
+      "date": "2023-07-08T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1688857200,
+      "timezone": "UTC",
+      "slug": "UFC 290: Volkanovski vs. Rodriguez",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 806,
+          "name": "Marcin Prachnio",
+          "logo": "https://media.api-sports.io/mma/fighters/806.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2608,
+          "name": "Vitor Petrino",
+          "logo": "https://media.api-sports.io/mma/fighters/2608.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1143,
+      "date": "2024-02-10T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1707570000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hermansson vs. Pyfer",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 806,
+          "name": "Marcin Prachnio",
+          "logo": "https://media.api-sports.io/mma/fighters/806.png",
+          "winner": true
+        },
+        "second": {
+          "id": 334,
+          "name": "Devin Clark",
+          "logo": "https://media.api-sports.io/mma/fighters/334.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1472,
+      "date": "2024-07-27T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1722088800,
+      "timezone": "UTC",
+      "slug": "UFC 304: Edwards vs. Muhammad 2",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 806,
+          "name": "Marcin Prachnio",
+          "logo": "https://media.api-sports.io/mma/fighters/806.png",
+          "winner": false
+        },
+        "second": {
+          "id": 729,
+          "name": "Modestas Bukauskas",
+          "logo": "https://media.api-sports.io/mma/fighters/729.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2099,
+      "date": "2025-07-19T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1752966000,
+      "timezone": "UTC",
+      "slug": "UFC 318: Holloway vs. Poirier 3",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 806,
+          "name": "Marcin Prachnio",
+          "logo": "https://media.api-sports.io/mma/fighters/806.png",
+          "winner": false
+        },
+        "second": {
+          "id": 75,
+          "name": "Jimmy Crute",
+          "logo": "https://media.api-sports.io/mma/fighters/75.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:55.469Z"
+}

@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 257,
+    "name": "Khalil Rountree Jr.",
+    "nickname": "The War Horse",
+    "photo": "https://media.api-sports.io/mma/fighters/257.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "205 lbs",
+    "reach": "76.5'",
+    "stance": "Southpaw",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 17,
+      "name": "Syndicate MMA"
+    },
+    "last_update": "2025-10-12T00:03:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 257,
+      "name": "Khalil Rountree Jr.",
+      "photo": "https://media.api-sports.io/mma/fighters/257.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 10,
+      "loss": 3
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 855,
+      "date": "2023-08-13T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1691886600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Luque vs. Dos Anjos",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 794,
+          "name": "Chris Daukaus",
+          "logo": "https://media.api-sports.io/mma/fighters/794.png",
+          "winner": false
+        },
+        "second": {
+          "id": 257,
+          "name": "Khalil Rountree Jr.",
+          "logo": "https://media.api-sports.io/mma/fighters/257.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1069,
+      "date": "2023-12-03T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1701561600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dariush vs. Tsarukyan",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2374,
+          "name": "Azamat Murzakanov",
+          "logo": "https://media.api-sports.io/mma/fighters/2374.png",
+          "winner": false
+        },
+        "second": {
+          "id": 257,
+          "name": "Khalil Rountree Jr.",
+          "logo": "https://media.api-sports.io/mma/fighters/257.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1081,
+      "date": "2023-12-10T04:30:00+00:00",
+      "time": "04:30",
+      "timestamp": 1702182600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Song vs. Gutierrez",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 257,
+          "name": "Khalil Rountree Jr.",
+          "logo": "https://media.api-sports.io/mma/fighters/257.png",
+          "winner": true
+        },
+        "second": {
+          "id": 213,
+          "name": "Anthony Smith",
+          "logo": "https://media.api-sports.io/mma/fighters/213.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1595,
+      "date": "2024-10-05T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1728151200,
+      "timezone": "UTC",
+      "slug": "UFC 307: Pereira vs. Rountree Jr.",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 257,
+          "name": "Khalil Rountree Jr.",
+          "logo": "https://media.api-sports.io/mma/fighters/257.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2436,
+          "name": "Alex Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/2436.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1964,
+      "date": "2025-04-27T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1745724600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 257,
+          "name": "Khalil Rountree Jr.",
+          "logo": "https://media.api-sports.io/mma/fighters/257.png",
+          "winner": false
+        },
+        "second": {
+          "id": 525,
+          "name": "Jamahal Hill",
+          "logo": "https://media.api-sports.io/mma/fighters/525.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2033,
+      "date": "2025-06-21T21:30:00+00:00",
+      "time": "21:30",
+      "timestamp": 1750541400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hill vs. Rountree Jr.",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 257,
+          "name": "Khalil Rountree Jr.",
+          "logo": "https://media.api-sports.io/mma/fighters/257.png",
+          "winner": true
+        },
+        "second": {
+          "id": 525,
+          "name": "Jamahal Hill",
+          "logo": "https://media.api-sports.io/mma/fighters/525.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2235,
+      "date": "2025-10-05T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1759633200,
+      "timezone": "UTC",
+      "slug": "UFC 320: Ankalaev vs. Pereira 2",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 257,
+          "name": "Khalil Rountree Jr.",
+          "logo": "https://media.api-sports.io/mma/fighters/257.png",
+          "winner": false
+        },
+        "second": {
+          "id": 727,
+          "name": "JirÃ­ ProchÃ¡zka",
+          "logo": "https://media.api-sports.io/mma/fighters/727.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:52.690Z"
+}

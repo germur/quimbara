@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 2480,
+    "name": "Denis Tiuliulin",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2480.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "185 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 433,
+      "name": "Evolve MMA"
+    },
+    "last_update": "2025-06-05T09:50:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2480,
+      "name": "Denis Tiuliulin",
+      "photo": "https://media.api-sports.io/mma/fighters/2480.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 10,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 3
+    },
+    "sub": {
+      "win": 0,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 542,
+      "date": "2023-02-04T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1675537200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Spivac",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2480,
+          "name": "Denis Tiuliulin",
+          "logo": "https://media.api-sports.io/mma/fighters/2480.png",
+          "winner": false
+        },
+        "second": {
+          "id": 579,
+          "name": "Junyong Park",
+          "logo": "https://media.api-sports.io/mma/fighters/579.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 864,
+      "date": "2023-08-20T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1692493200,
+      "timezone": "UTC",
+      "slug": "UFC 292: Sterling vs. O'Malley",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2480,
+          "name": "Denis Tiuliulin",
+          "logo": "https://media.api-sports.io/mma/fighters/2480.png",
+          "winner": false
+        },
+        "second": {
+          "id": 832,
+          "name": "Gregory Rodrigues",
+          "logo": "https://media.api-sports.io/mma/fighters/832.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1079,
+      "date": "2023-11-18T20:55:00+00:00",
+      "time": "20:55",
+      "timestamp": 1700340900,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2480,
+          "name": "Denis Tiuliulin",
+          "logo": "https://media.api-sports.io/mma/fighters/2480.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2540,
+          "name": "Christian Leroy Duncan",
+          "logo": "https://media.api-sports.io/mma/fighters/2540.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1447,
+      "date": "2024-06-22T17:20:00+00:00",
+      "time": "17:20",
+      "timestamp": 1719076800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2480,
+          "name": "Denis Tiuliulin",
+          "logo": "https://media.api-sports.io/mma/fighters/2480.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2595,
+          "name": "Sedriques Dumas",
+          "logo": "https://media.api-sports.io/mma/fighters/2595.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1529,
+      "date": "2024-08-03T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1722672000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2480,
+          "name": "Denis Tiuliulin",
+          "logo": "https://media.api-sports.io/mma/fighters/2480.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2595,
+          "name": "Sedriques Dumas",
+          "logo": "https://media.api-sports.io/mma/fighters/2595.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:35:41.355Z"
+}

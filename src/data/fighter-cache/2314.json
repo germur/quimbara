@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 2314,
+    "name": "Austen Lane",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2314.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 6'",
+    "weight": "249 lbs",
+    "reach": "80'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 637,
+      "name": "Bulldog Boxing"
+    },
+    "last_update": "2025-07-20T00:01:39+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2314,
+      "name": "Austen Lane",
+      "photo": "https://media.api-sports.io/mma/fighters/2314.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 6
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 764,
+      "date": "2023-06-24T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1687636800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Emmett vs. Topuria",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 657,
+          "name": "Justin Tafa",
+          "logo": "https://media.api-sports.io/mma/fighters/657.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2314,
+          "name": "Austen Lane",
+          "logo": "https://media.api-sports.io/mma/fighters/2314.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 905,
+      "date": "2023-09-10T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1694313000,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2314,
+          "name": "Austen Lane",
+          "logo": "https://media.api-sports.io/mma/fighters/2314.png",
+          "winner": false
+        },
+        "second": {
+          "id": 657,
+          "name": "Justin Tafa",
+          "logo": "https://media.api-sports.io/mma/fighters/657.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1341,
+      "date": "2024-04-27T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1714230000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Nicolau vs. Perez",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2693,
+          "name": "Jhonata Diniz",
+          "logo": "https://media.api-sports.io/mma/fighters/2693.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2314,
+          "name": "Austen Lane",
+          "logo": "https://media.api-sports.io/mma/fighters/2314.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1662,
+      "date": "2024-10-19T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1729339200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hernandez vs. Pereira",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2668,
+          "name": "Robelis Despaigne",
+          "logo": "https://media.api-sports.io/mma/fighters/2668.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2314,
+          "name": "Austen Lane",
+          "logo": "https://media.api-sports.io/mma/fighters/2314.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1888,
+      "date": "2025-03-01T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1740871800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Kape vs. Almabayev",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2763,
+          "name": "Mario Pinto",
+          "logo": "https://media.api-sports.io/mma/fighters/2763.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2314,
+          "name": "Austen Lane",
+          "logo": "https://media.api-sports.io/mma/fighters/2314.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2114,
+      "date": "2025-07-13T01:45:00+00:00",
+      "time": "01:45",
+      "timestamp": 1752371100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Teixeira",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2314,
+          "name": "Austen Lane",
+          "logo": "https://media.api-sports.io/mma/fighters/2314.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2608,
+          "name": "Vitor Petrino",
+          "logo": "https://media.api-sports.io/mma/fighters/2608.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:27.934Z"
+}

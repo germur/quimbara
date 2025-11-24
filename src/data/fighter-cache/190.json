@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "id": 190,
+    "name": "Paul Craig",
+    "nickname": "BearJew",
+    "photo": "https://media.api-sports.io/mma/fighters/190.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "186 lbs",
+    "reach": "76'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 109,
+      "name": "Higher Level Martial Arts"
+    },
+    "last_update": "2025-09-13T12:12:05+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 190,
+      "name": "Paul Craig",
+      "photo": "https://media.api-sports.io/mma/fighters/190.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 9,
+      "draw": 1
+    },
+    "ko": {
+      "win": 4,
+      "loss": 5
+    },
+    "sub": {
+      "win": 13,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 537,
+      "date": "2023-01-22T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1674356400,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 49,
+          "name": "Johnny Walker",
+          "logo": "https://media.api-sports.io/mma/fighters/49.png",
+          "winner": true
+        },
+        "second": {
+          "id": 190,
+          "name": "Paul Craig",
+          "logo": "https://media.api-sports.io/mma/fighters/190.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 816,
+      "date": "2023-07-22T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1690056000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Aspinall vs. Tybura",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 614,
+          "name": "Andre Muniz",
+          "logo": "https://media.api-sports.io/mma/fighters/614.png",
+          "winner": false
+        },
+        "second": {
+          "id": 190,
+          "name": "Paul Craig",
+          "logo": "https://media.api-sports.io/mma/fighters/190.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 950,
+      "date": "2023-11-19T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1700353800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Allen vs. Craig",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 190,
+          "name": "Paul Craig",
+          "logo": "https://media.api-sports.io/mma/fighters/190.png",
+          "winner": false
+        },
+        "second": {
+          "id": 513,
+          "name": "Brendan Allen",
+          "logo": "https://media.api-sports.io/mma/fighters/513.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1289,
+      "date": "2024-05-04T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1714845600,
+      "timezone": "UTC",
+      "slug": "UFC 301: Pantoja vs. Erceg",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2428,
+          "name": "Caio Borralho",
+          "logo": "https://media.api-sports.io/mma/fighters/2428.png",
+          "winner": true
+        },
+        "second": {
+          "id": 190,
+          "name": "Paul Craig",
+          "logo": "https://media.api-sports.io/mma/fighters/190.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1681,
+      "date": "2024-11-16T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1731783600,
+      "timezone": "UTC",
+      "slug": "UFC 309: Jones vs. Miocic",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 190,
+          "name": "Paul Craig",
+          "logo": "https://media.api-sports.io/mma/fighters/190.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2532,
+          "name": "Bo Nickal",
+          "logo": "https://media.api-sports.io/mma/fighters/2532.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2017,
+      "date": "2025-05-18T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1747528200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Morales",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 190,
+          "name": "Paul Craig",
+          "logo": "https://media.api-sports.io/mma/fighters/190.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2639,
+          "name": "Rodolfo Bellato",
+          "logo": "https://media.api-sports.io/mma/fighters/2639.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2104,
+      "date": "2025-06-15T01:40:00+00:00",
+      "time": "01:40",
+      "timestamp": 1749951600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Usman vs. Buckley",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2639,
+          "name": "Rodolfo Bellato",
+          "logo": "https://media.api-sports.io/mma/fighters/2639.png",
+          "winner": false
+        },
+        "second": {
+          "id": 190,
+          "name": "Paul Craig",
+          "logo": "https://media.api-sports.io/mma/fighters/190.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2212,
+      "date": "2025-09-06T20:45:00+00:00",
+      "time": "20:45",
+      "timestamp": 1757191500,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Imavov vs. Borralho",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 190,
+          "name": "Paul Craig",
+          "logo": "https://media.api-sports.io/mma/fighters/190.png",
+          "winner": false
+        },
+        "second": {
+          "id": 729,
+          "name": "Modestas Bukauskas",
+          "logo": "https://media.api-sports.io/mma/fighters/729.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:35:03.951Z"
+}

@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 278,
+    "name": "Augusto Sakai",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/278.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "260 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 32,
+      "name": "Gile Ribeiro  / Noguchi"
+    },
+    "last_update": "2025-06-04T15:29:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 278,
+      "name": "Augusto Sakai",
+      "photo": "https://media.api-sports.io/mma/fighters/278.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 5,
+      "draw": 1
+    },
+    "ko": {
+      "win": 11,
+      "loss": 4
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 580,
+      "date": "2023-02-26T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1677369600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Muniz vs. Allen",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 508,
+          "name": "Don'Tale Mayes",
+          "logo": "https://media.api-sports.io/mma/fighters/508.png",
+          "winner": false
+        },
+        "second": {
+          "id": 278,
+          "name": "Augusto Sakai",
+          "logo": "https://media.api-sports.io/mma/fighters/278.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:26.578Z"
+}

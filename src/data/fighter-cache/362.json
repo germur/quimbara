@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 362,
+    "name": "Ryan Spann",
+    "nickname": "Superman",
+    "photo": "https://media.api-sports.io/mma/fighters/362.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 5'",
+    "weight": "249 lbs",
+    "reach": "79'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 2,
+      "name": "Fortis MMA"
+    },
+    "last_update": "2025-06-04T16:11:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 362,
+      "name": "Ryan Spann",
+      "photo": "https://media.api-sports.io/mma/fighters/362.png"
+    },
+    "total": {
+      "win": 22,
+      "loss": 11,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 5
+    },
+    "sub": {
+      "win": 13,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 606,
+      "date": "2023-03-12T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1678581000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Dvalishvili",
+      "is_main": true,
+      "category": "Catch Weight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 362,
+          "name": "Ryan Spann",
+          "logo": "https://media.api-sports.io/mma/fighters/362.png",
+          "winner": false
+        },
+        "second": {
+          "id": 254,
+          "name": "Nikita Krylov",
+          "logo": "https://media.api-sports.io/mma/fighters/254.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 880,
+      "date": "2023-08-26T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1693058400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. The Korean Zombie",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 362,
+          "name": "Ryan Spann",
+          "logo": "https://media.api-sports.io/mma/fighters/362.png",
+          "winner": false
+        },
+        "second": {
+          "id": 213,
+          "name": "Anthony Smith",
+          "logo": "https://media.api-sports.io/mma/fighters/213.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1343,
+      "date": "2024-04-27T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1714230000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Nicolau vs. Perez",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2614,
+          "name": "Bogdan Guskov",
+          "logo": "https://media.api-sports.io/mma/fighters/2614.png",
+          "winner": true
+        },
+        "second": {
+          "id": 362,
+          "name": "Ryan Spann",
+          "logo": "https://media.api-sports.io/mma/fighters/362.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1566,
+      "date": "2024-09-07T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1725746400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Burns vs. Brady",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 132,
+          "name": "Ovince Saint Preux",
+          "logo": "https://media.api-sports.io/mma/fighters/132.png",
+          "winner": false
+        },
+        "second": {
+          "id": 362,
+          "name": "Ryan Spann",
+          "logo": "https://media.api-sports.io/mma/fighters/362.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1676,
+      "date": "2024-10-05T14:30:00+00:00",
+      "time": "14:30",
+      "timestamp": 1728138600,
+      "timezone": "UTC",
+      "slug": "UFC 307: Pereira vs. Rountree Jr.",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 132,
+          "name": "Ovince Saint Preux",
+          "logo": "https://media.api-sports.io/mma/fighters/132.png",
+          "winner": false
+        },
+        "second": {
+          "id": 362,
+          "name": "Ryan Spann",
+          "logo": "https://media.api-sports.io/mma/fighters/362.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1910,
+      "date": "2025-03-15T22:45:00+00:00",
+      "time": "22:45",
+      "timestamp": 1742078700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Dolidze 2",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 362,
+          "name": "Ryan Spann",
+          "logo": "https://media.api-sports.io/mma/fighters/362.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2521,
+          "name": "Waldo Cortes-Acosta",
+          "logo": "https://media.api-sports.io/mma/fighters/2521.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2179,
+      "date": "2025-07-19T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1752933600,
+      "timezone": "UTC",
+      "slug": "UFC 318: Holloway vs. Poirier 3",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2390,
+          "name": "Lukasz Brzeski",
+          "logo": "https://media.api-sports.io/mma/fighters/2390.png",
+          "winner": false
+        },
+        "second": {
+          "id": 362,
+          "name": "Ryan Spann",
+          "logo": "https://media.api-sports.io/mma/fighters/362.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:08.135Z"
+}

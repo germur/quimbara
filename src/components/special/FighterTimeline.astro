@@ -13,49 +13,32 @@ interface Props {
 
 const { fighterId, historicalEvents } = Astro.props;
 
-const API_KEY = import.meta.env.MMA_API_KEY;
+// Read from cache instead of API
+import fs from 'fs';
+import path from 'path';
 
-// Fetch Profile
-const profileResponse = await fetch(`https://v1.mma.api-sports.io/fighters?id=${fighterId}`, {
-  headers: {
-    'x-apisports-key': API_KEY
-  }
-});
-const profileData = await profileResponse.json();
-const fighter = profileData.response?.[0];
+const cacheFile = path.join(process.cwd(), 'src/data/fighter-cache', `${fighterId}.json`);
 
-// Fetch Fighter Records (Detailed W-L Breakdown)
-const recordsResponse = await fetch(`https://v1.mma.api-sports.io/fighters/records?id=${fighterId}`, {
-  headers: { 'x-apisports-key': API_KEY }
-});
-const recordsData = await recordsResponse.json();
-const records = recordsData.response?.[0];
-
-// Calculate decision wins/losses (total - ko - sub)
-if (records) {
-  const decWins = records.total.win - (records.ko?.win || 0) - (records.sub?.win || 0);
-  const decLoss = records.total.loss - (records.ko?.loss || 0) - (records.sub?.loss || 0);
-  records.dec = { win: decWins, loss: decLoss };
-}
-
-
-// Fetch Recent Fights (2023-2025)
-const years = [2023, 2024, 2025];
+let fighter = null;
+let records = null;
 let recentFights = [];
 
-for (const year of years) {
-    try {
-        const fightsResponse = await fetch(`https://v1.mma.api-sports.io/fights?fighter=${fighterId}&season=${year}`, {
-            headers: { 'x-apisports-key': API_KEY }
-        });
-        const fightsData = await fightsResponse.json();
-        if (fightsData.response) {
-            recentFights.push(...fightsData.response);
-        }
-    } catch (e) {
-        console.error(`Error fetching fights for ${year}`, e);
-    }
+if (fs.existsSync(cacheFile)) {
+  const cacheData = JSON.parse(fs.readFileSync(cacheFile, 'utf-8'));
+  fighter = cacheData.profile;
+  records = cacheData.records;
+  recentFights = cacheData.fights || [];
+  
+  // Calculate decision wins/losses (total - ko - sub)
+  if (records) {
+    const decWins = records.total.win - (records.ko?.win || 0) - (records.sub?.win || 0);
+    const decLoss = records.total.loss - (records.ko?.loss || 0) - (records.sub?.loss || 0);
+    records.dec = { win: decWins, loss: decLoss };
+  }
+} else {
+  console.warn(`⚠️  Cache file not found for fighter ${fighterId}`);
 }
+
 
 // Process Recent Fights into Timeline Events
 const recentEvents = recentFights

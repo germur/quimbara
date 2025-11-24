@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 2464,
+    "name": "Armen Petrosyan",
+    "nickname": "Superman",
+    "photo": "https://media.api-sports.io/mma/fighters/2464.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "186 lbs",
+    "reach": "71'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 680,
+      "name": "Academy MMA"
+    },
+    "last_update": "2025-06-05T09:42:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2464,
+      "name": "Armen Petrosyan",
+      "photo": "https://media.api-sports.io/mma/fighters/2464.png"
+    },
+    "total": {
+      "win": 9,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 2
+    },
+    "sub": {
+      "win": 0,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 750,
+      "date": "2023-06-18T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1687059000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vettori vs. Cannonier",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2540,
+          "name": "Christian Leroy Duncan",
+          "logo": "https://media.api-sports.io/mma/fighters/2540.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2464,
+          "name": "Armen Petrosyan",
+          "logo": "https://media.api-sports.io/mma/fighters/2464.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 949,
+      "date": "2023-11-05T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1699147800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Almeida vs. Lewis",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2464,
+          "name": "Armen Petrosyan",
+          "logo": "https://media.api-sports.io/mma/fighters/2464.png",
+          "winner": false
+        },
+        "second": {
+          "id": 572,
+          "name": "Rodolfo Vieira",
+          "logo": "https://media.api-sports.io/mma/fighters/572.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1137,
+      "date": "2024-02-10T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1707580800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hermansson vs. Pyfer",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2464,
+          "name": "Armen Petrosyan",
+          "logo": "https://media.api-sports.io/mma/fighters/2464.png",
+          "winner": false
+        },
+        "second": {
+          "id": 572,
+          "name": "Rodolfo Vieira",
+          "logo": "https://media.api-sports.io/mma/fighters/572.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1659,
+      "date": "2024-10-26T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1729936800,
+      "timezone": "UTC",
+      "slug": "UFC 308: Topuria vs. Holloway",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2464,
+          "name": "Armen Petrosyan",
+          "logo": "https://media.api-sports.io/mma/fighters/2464.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2630,
+          "name": "Shara Magomedov",
+          "logo": "https://media.api-sports.io/mma/fighters/2630.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1876,
+      "date": "2025-03-09T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1741485600,
+      "timezone": "UTC",
+      "slug": "UFC 313: Pereira vs. Ankalaev",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2464,
+          "name": "Armen Petrosyan",
+          "logo": "https://media.api-sports.io/mma/fighters/2464.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2535,
+          "name": "Brunno Ferreira",
+          "logo": "https://media.api-sports.io/mma/fighters/2535.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:35:26.206Z"
+}

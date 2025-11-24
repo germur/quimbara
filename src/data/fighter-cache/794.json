@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 794,
+    "name": "Chris Daukaus",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/794.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "205 lbs",
+    "reach": "76'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 217,
+      "name": "Martinez BJJ"
+    },
+    "last_update": "2025-06-04T19:47:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 794,
+      "name": "Chris Daukaus",
+      "photo": "https://media.api-sports.io/mma/fighters/794.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 6
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 855,
+      "date": "2023-08-13T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1691886600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Luque vs. Dos Anjos",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 794,
+          "name": "Chris Daukaus",
+          "logo": "https://media.api-sports.io/mma/fighters/794.png",
+          "winner": false
+        },
+        "second": {
+          "id": 257,
+          "name": "Khalil Rountree Jr.",
+          "logo": "https://media.api-sports.io/mma/fighters/257.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:33.465Z"
+}

@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 109,
+    "name": "Jan Blachowicz",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/109.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "205 lbs",
+    "reach": "78'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 74,
+      "name": "Berkut WCA Fight"
+    },
+    "last_update": "2025-06-04T14:05:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 109,
+      "name": "Jan Blachowicz",
+      "photo": "https://media.api-sports.io/mma/fighters/109.png"
+    },
+    "total": {
+      "win": 29,
+      "loss": 11,
+      "draw": 1
+    },
+    "ko": {
+      "win": 9,
+      "loss": 2
+    },
+    "sub": {
+      "win": 9,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 828,
+      "date": "2023-07-30T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1690687800,
+      "timezone": "UTC",
+      "slug": "UFC 291: Poirier vs. Gaethje 2",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2436,
+          "name": "Alex Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/2436.png",
+          "winner": true
+        },
+        "second": {
+          "id": 109,
+          "name": "Jan Blachowicz",
+          "logo": "https://media.api-sports.io/mma/fighters/109.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1807,
+      "date": "2025-03-22T21:30:00+00:00",
+      "time": "21:30",
+      "timestamp": 1742679000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Edwards vs. Brady",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 862,
+          "name": "Carlos Ulberg",
+          "logo": "https://media.api-sports.io/mma/fighters/862.png",
+          "winner": true
+        },
+        "second": {
+          "id": 109,
+          "name": "Jan Blachowicz",
+          "logo": "https://media.api-sports.io/mma/fighters/109.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2388,
+      "date": "2025-12-07T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1765076400,
+      "timezone": "UTC",
+      "slug": "UFC 323: Dvalishvili vs. Yan 2",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Not Started",
+        "short": "NS"
+      },
+      "fighters": {
+        "first": {
+          "id": 2614,
+          "name": "Bogdan Guskov",
+          "logo": "https://media.api-sports.io/mma/fighters/2614.png",
+          "winner": false
+        },
+        "second": {
+          "id": 109,
+          "name": "Jan Blachowicz",
+          "logo": "https://media.api-sports.io/mma/fighters/109.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:45.673Z"
+}

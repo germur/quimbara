@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 334,
+    "name": "Devin Clark",
+    "nickname": "Brown Bear",
+    "photo": "https://media.api-sports.io/mma/fighters/334.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "204 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 19,
+      "name": "Elevation Fight"
+    },
+    "last_update": "2025-06-04T15:57:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 334,
+      "name": "Devin Clark",
+      "photo": "https://media.api-sports.io/mma/fighters/334.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 3
+    },
+    "sub": {
+      "win": 1,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 545,
+      "date": "2023-02-04T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1675548000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Spivac",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 334,
+          "name": "Devin Clark",
+          "logo": "https://media.api-sports.io/mma/fighters/334.png",
+          "winner": true
+        },
+        "second": {
+          "id": 582,
+          "name": "Da Woon Jung",
+          "logo": "https://media.api-sports.io/mma/fighters/582.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 687,
+      "date": "2023-05-07T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1683421200,
+      "timezone": "UTC",
+      "slug": "UFC 288: Sterling vs. Cejudo",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 334,
+          "name": "Devin Clark",
+          "logo": "https://media.api-sports.io/mma/fighters/334.png",
+          "winner": false
+        },
+        "second": {
+          "id": 189,
+          "name": "Kennedy Nzechukwu",
+          "logo": "https://media.api-sports.io/mma/fighters/189.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1143,
+      "date": "2024-02-10T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1707570000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Hermansson vs. Pyfer",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 806,
+          "name": "Marcin Prachnio",
+          "logo": "https://media.api-sports.io/mma/fighters/806.png",
+          "winner": true
+        },
+        "second": {
+          "id": 334,
+          "name": "Devin Clark",
+          "logo": "https://media.api-sports.io/mma/fighters/334.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:37.372Z"
+}

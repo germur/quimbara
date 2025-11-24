@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "id": 49,
+    "name": "Johnny Walker",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/49.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 6'",
+    "weight": "206 lbs",
+    "reach": "82'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 40,
+      "name": "SBG Ireland"
+    },
+    "last_update": "2025-08-30T00:12:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 49,
+      "name": "Johnny Walker",
+      "photo": "https://media.api-sports.io/mma/fighters/49.png"
+    },
+    "total": {
+      "win": 21,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 16,
+      "loss": 6
+    },
+    "sub": {
+      "win": 3,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 537,
+      "date": "2023-01-22T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1674356400,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 49,
+          "name": "Johnny Walker",
+          "logo": "https://media.api-sports.io/mma/fighters/49.png",
+          "winner": true
+        },
+        "second": {
+          "id": 190,
+          "name": "Paul Craig",
+          "logo": "https://media.api-sports.io/mma/fighters/190.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 702,
+      "date": "2023-05-13T20:30:00+00:00",
+      "time": "20:30",
+      "timestamp": 1684009800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Almeida",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 49,
+          "name": "Johnny Walker",
+          "logo": "https://media.api-sports.io/mma/fighters/49.png",
+          "winner": true
+        },
+        "second": {
+          "id": 213,
+          "name": "Anthony Smith",
+          "logo": "https://media.api-sports.io/mma/fighters/213.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 971,
+      "date": "2023-10-21T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1697914800,
+      "timezone": "UTC",
+      "slug": "UFC 294: Makhachev vs. Volkanovski 2",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 49,
+          "name": "Johnny Walker",
+          "logo": "https://media.api-sports.io/mma/fighters/49.png",
+          "winner": false
+        },
+        "second": {
+          "id": 103,
+          "name": "Magomed Ankalaev",
+          "logo": "https://media.api-sports.io/mma/fighters/103.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1103,
+      "date": "2024-01-13T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1705161600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Ankalaev vs. Walker 2",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 49,
+          "name": "Johnny Walker",
+          "logo": "https://media.api-sports.io/mma/fighters/49.png",
+          "winner": false
+        },
+        "second": {
+          "id": 103,
+          "name": "Magomed Ankalaev",
+          "logo": "https://media.api-sports.io/mma/fighters/103.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1351,
+      "date": "2024-06-22T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1719054000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Whittaker vs. Aliskerov",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 167,
+          "name": "Volkan Oezdemir",
+          "logo": "https://media.api-sports.io/mma/fighters/167.png",
+          "winner": true
+        },
+        "second": {
+          "id": 49,
+          "name": "Johnny Walker",
+          "logo": "https://media.api-sports.io/mma/fighters/49.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1771,
+      "date": "2025-01-18T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1737219600,
+      "timezone": "UTC",
+      "slug": "UFC 311: Makhachev vs. Tsarukyan 2",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2614,
+          "name": "Bogdan Guskov",
+          "logo": "https://media.api-sports.io/mma/fighters/2614.png",
+          "winner": false
+        },
+        "second": {
+          "id": 49,
+          "name": "Johnny Walker",
+          "logo": "https://media.api-sports.io/mma/fighters/49.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2109,
+      "date": "2025-08-23T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1755950400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Walker vs. Zhang",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2665,
+          "name": "Zhang Mingyang",
+          "logo": "https://media.api-sports.io/mma/fighters/2665.png",
+          "winner": false
+        },
+        "second": {
+          "id": 49,
+          "name": "Johnny Walker",
+          "logo": "https://media.api-sports.io/mma/fighters/49.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:49.875Z"
+}

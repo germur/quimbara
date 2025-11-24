@@ -1,0 +1,184 @@
+{
+  "profile": {
+    "id": 727,
+    "name": "JirÃ­ ProchÃ¡zka",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/727.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "206 lbs",
+    "reach": "80'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 765,
+      "name": "Jetsaam Gym Brno"
+    },
+    "last_update": "2025-10-12T00:03:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 727,
+      "name": "JirÃ­ ProchÃ¡zka",
+      "photo": "https://media.api-sports.io/mma/fighters/727.png"
+    },
+    "total": {
+      "win": 32,
+      "loss": 5,
+      "draw": 1
+    },
+    "ko": {
+      "win": 28,
+      "loss": 4
+    },
+    "sub": {
+      "win": 3,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 1005,
+      "date": "2023-11-12T05:00:00+00:00",
+      "time": "05:00",
+      "timestamp": 1699765200,
+      "timezone": "UTC",
+      "slug": "UFC 295: ProchÃ¡zka vs. Pereira",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2436,
+          "name": "Alex Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/2436.png",
+          "winner": true
+        },
+        "second": {
+          "id": 727,
+          "name": "JirÃ­ ProchÃ¡zka",
+          "logo": "https://media.api-sports.io/mma/fighters/727.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1186,
+      "date": "2024-04-13T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1713024000,
+      "timezone": "UTC",
+      "slug": "UFC 300: Pereira vs. Hill",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 406,
+          "name": "Aleksandar Rakic",
+          "logo": "https://media.api-sports.io/mma/fighters/406.png",
+          "winner": false
+        },
+        "second": {
+          "id": 727,
+          "name": "JirÃ­ ProchÃ¡zka",
+          "logo": "https://media.api-sports.io/mma/fighters/727.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1493,
+      "date": "2024-06-29T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1719684000,
+      "timezone": "UTC",
+      "slug": "UFC 303: Pereira vs. ProchÃ¡zka 2",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 727,
+          "name": "JirÃ­ ProchÃ¡zka",
+          "logo": "https://media.api-sports.io/mma/fighters/727.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2436,
+          "name": "Alex Pereira",
+          "logo": "https://media.api-sports.io/mma/fighters/2436.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1777,
+      "date": "2025-01-19T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1737259200,
+      "timezone": "UTC",
+      "slug": "UFC 311: Makhachev vs. Moicano",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 525,
+          "name": "Jamahal Hill",
+          "logo": "https://media.api-sports.io/mma/fighters/525.png",
+          "winner": false
+        },
+        "second": {
+          "id": 727,
+          "name": "JirÃ­ ProchÃ¡zka",
+          "logo": "https://media.api-sports.io/mma/fighters/727.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2235,
+      "date": "2025-10-05T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1759633200,
+      "timezone": "UTC",
+      "slug": "UFC 320: Ankalaev vs. Pereira 2",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 257,
+          "name": "Khalil Rountree Jr.",
+          "logo": "https://media.api-sports.io/mma/fighters/257.png",
+          "winner": false
+        },
+        "second": {
+          "id": 727,
+          "name": "JirÃ­ ProchÃ¡zka",
+          "logo": "https://media.api-sports.io/mma/fighters/727.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:48.476Z"
+}

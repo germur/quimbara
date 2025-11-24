@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 630,
+    "name": "Jamal Pogues",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/630.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "264 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 17,
+      "name": "Syndicate MMA"
+    },
+    "last_update": "2025-06-04T18:25:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 630,
+      "name": "Jamal Pogues",
+      "photo": "https://media.api-sports.io/mma/fighters/630.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 1
+    },
+    "sub": {
+      "win": 1,
+      "loss": 2
+    }
+  },
+  "fights": [
+    {
+      "id": 570,
+      "date": "2023-02-19T01:20:00+00:00",
+      "time": "01:20",
+      "timestamp": 1676769600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Andrade vs. Blanchfield",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 630,
+          "name": "Jamal Pogues",
+          "logo": "https://media.api-sports.io/mma/fighters/630.png",
+          "winner": true
+        },
+        "second": {
+          "id": 788,
+          "name": "Josh Parisian",
+          "logo": "https://media.api-sports.io/mma/fighters/788.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 807,
+      "date": "2023-07-22T17:40:00+00:00",
+      "time": "17:40",
+      "timestamp": 1690047600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Aspinall vs. Tybura",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 630,
+          "name": "Jamal Pogues",
+          "logo": "https://media.api-sports.io/mma/fighters/630.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2584,
+          "name": "Mick Parkin",
+          "logo": "https://media.api-sports.io/mma/fighters/2584.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1129,
+      "date": "2024-02-03T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1706965200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dolidze vs. Imavov",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 630,
+          "name": "Jamal Pogues",
+          "logo": "https://media.api-sports.io/mma/fighters/630.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2663,
+          "name": "Thomas Petersen",
+          "logo": "https://media.api-sports.io/mma/fighters/2663.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1832,
+      "date": "2025-02-01T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1738418400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Adesanya vs. Imavov",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 630,
+          "name": "Jamal Pogues",
+          "logo": "https://media.api-sports.io/mma/fighters/630.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2492,
+          "name": "Hamdy Abdelwahab",
+          "logo": "https://media.api-sports.io/mma/fighters/2492.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:45.851Z"
+}

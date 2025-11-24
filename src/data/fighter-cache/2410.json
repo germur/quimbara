@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 2410,
+    "name": "Albert Duraev",
+    "nickname": "Machete",
+    "photo": "https://media.api-sports.io/mma/fighters/2410.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "186 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 31,
+      "name": "Xtreme Couture"
+    },
+    "last_update": "2025-06-05T09:15:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2410,
+      "name": "Albert Duraev",
+      "photo": "https://media.api-sports.io/mma/fighters/2410.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 4
+    },
+    "sub": {
+      "win": 9,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 633,
+      "date": "2023-03-25T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1679785200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Vera vs. Sandhagen",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2410,
+          "name": "Albert Duraev",
+          "logo": "https://media.api-sports.io/mma/fighters/2410.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2391,
+          "name": "Chidi Njokuani",
+          "logo": "https://media.api-sports.io/mma/fighters/2391.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 802,
+      "date": "2023-07-16T03:00:00+00:00",
+      "time": "03:00",
+      "timestamp": 1689476400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holm vs. Bueno Silva",
+      "is_main": true,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 579,
+          "name": "Junyong Park",
+          "logo": "https://media.api-sports.io/mma/fighters/579.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2410,
+          "name": "Albert Duraev",
+          "logo": "https://media.api-sports.io/mma/fighters/2410.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:35:19.050Z"
+}

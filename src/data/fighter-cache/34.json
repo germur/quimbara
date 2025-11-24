@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 34,
+    "name": "Jairzinho Rozenstruik",
+    "nickname": "Bigi Boy",
+    "photo": "https://media.api-sports.io/mma/fighters/34.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "252 lbs",
+    "reach": "78'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 21,
+      "name": "American Top"
+    },
+    "last_update": "2025-06-04T13:27:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 34,
+      "name": "Jairzinho Rozenstruik",
+      "photo": "https://media.api-sports.io/mma/fighters/34.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 13,
+      "loss": 2
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 701,
+      "date": "2023-05-13T21:20:00+00:00",
+      "time": "21:20",
+      "timestamp": 1684012800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Almeida",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2378,
+          "name": "Jailton Almeida",
+          "logo": "https://media.api-sports.io/mma/fighters/2378.png",
+          "winner": true
+        },
+        "second": {
+          "id": 34,
+          "name": "Jairzinho Rozenstruik",
+          "logo": "https://media.api-sports.io/mma/fighters/34.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1247,
+      "date": "2024-03-02T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1709384400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Gaziev",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2638,
+          "name": "Shamil Gaziev",
+          "logo": "https://media.api-sports.io/mma/fighters/2638.png",
+          "winner": false
+        },
+        "second": {
+          "id": 34,
+          "name": "Jairzinho Rozenstruik",
+          "logo": "https://media.api-sports.io/mma/fighters/34.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1507,
+      "date": "2024-08-17T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1723917600,
+      "timezone": "UTC",
+      "slug": "UFC 305: Du Plessis vs. Adesanya",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 34,
+          "name": "Jairzinho Rozenstruik",
+          "logo": "https://media.api-sports.io/mma/fighters/34.png",
+          "winner": true
+        },
+        "second": {
+          "id": 381,
+          "name": "Tai Tuivasa",
+          "logo": "https://media.api-sports.io/mma/fighters/381.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1835,
+      "date": "2025-02-01T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1738432800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Adesanya vs. Imavov",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 34,
+          "name": "Jairzinho Rozenstruik",
+          "logo": "https://media.api-sports.io/mma/fighters/34.png",
+          "winner": false
+        },
+        "second": {
+          "id": 260,
+          "name": "Sergei Pavlovich",
+          "logo": "https://media.api-sports.io/mma/fighters/260.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:43.081Z"
+}

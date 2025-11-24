@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "id": 397,
+    "name": "Serghei Spivac",
+    "nickname": "Polar Bear",
+    "photo": "https://media.api-sports.io/mma/fighters/397.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "251 lbs",
+    "reach": "78'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 188,
+      "name": "Polar Bear"
+    },
+    "last_update": "2025-11-24T00:03:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 397,
+      "name": "Serghei Spivac",
+      "photo": "https://media.api-sports.io/mma/fighters/397.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 4
+    },
+    "sub": {
+      "win": 8,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 544,
+      "date": "2023-02-04T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1675548000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Spivac",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 397,
+          "name": "Serghei Spivac",
+          "logo": "https://media.api-sports.io/mma/fighters/397.png",
+          "winner": true
+        },
+        "second": {
+          "id": 147,
+          "name": "Derrick Lewis",
+          "logo": "https://media.api-sports.io/mma/fighters/147.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 889,
+      "date": "2023-09-02T21:30:00+00:00",
+      "time": "21:30",
+      "timestamp": 1693690200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 397,
+          "name": "Serghei Spivac",
+          "logo": "https://media.api-sports.io/mma/fighters/397.png",
+          "winner": false
+        },
+        "second": {
+          "id": 545,
+          "name": "Ciryl Gane",
+          "logo": "https://media.api-sports.io/mma/fighters/545.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1536,
+      "date": "2024-08-10T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1723302000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tybura vs. Spivac 2",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 397,
+          "name": "Serghei Spivac",
+          "logo": "https://media.api-sports.io/mma/fighters/397.png",
+          "winner": true
+        },
+        "second": {
+          "id": 270,
+          "name": "Marcin Tybura",
+          "logo": "https://media.api-sports.io/mma/fighters/270.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1773,
+      "date": "2025-01-19T03:45:00+00:00",
+      "time": "03:45",
+      "timestamp": 1737258300,
+      "timezone": "UTC",
+      "slug": "UFC 311: Makhachev vs. Moicano",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 397,
+          "name": "Serghei Spivac",
+          "logo": "https://media.api-sports.io/mma/fighters/397.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2378,
+          "name": "Jailton Almeida",
+          "logo": "https://media.api-sports.io/mma/fighters/2378.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2093,
+      "date": "2025-06-08T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1749342600,
+      "timezone": "UTC",
+      "slug": "UFC 316: Dvalishvili vs. O'Malley 2",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2521,
+          "name": "Waldo Cortes-Acosta",
+          "logo": "https://media.api-sports.io/mma/fighters/2521.png",
+          "winner": true
+        },
+        "second": {
+          "id": 397,
+          "name": "Serghei Spivac",
+          "logo": "https://media.api-sports.io/mma/fighters/397.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2336,
+      "date": "2025-11-22T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1763805600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tsarukyan vs. Hooker",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2638,
+          "name": "Shamil Gaziev",
+          "logo": "https://media.api-sports.io/mma/fighters/2638.png",
+          "winner": false
+        },
+        "second": {
+          "id": 397,
+          "name": "Serghei Spivac",
+          "logo": "https://media.api-sports.io/mma/fighters/397.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:10.971Z"
+}

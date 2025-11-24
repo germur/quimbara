@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 2541,
+    "name": "Claudio Ribeiro",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2541.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "185 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 698,
+      "name": "Brazilian Black Thai"
+    },
+    "last_update": "2025-06-05T10:21:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2541,
+      "name": "Claudio Ribeiro",
+      "photo": "https://media.api-sports.io/mma/fighters/2541.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 3
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 513,
+      "date": "2023-01-14T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1673737200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Imavov",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 731,
+          "name": "Abdul Razak Alhassan",
+          "logo": "https://media.api-sports.io/mma/fighters/731.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2541,
+          "name": "Claudio Ribeiro",
+          "logo": "https://media.api-sports.io/mma/fighters/2541.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 685,
+      "date": "2023-05-06T22:30:00+00:00",
+      "time": "22:30",
+      "timestamp": 1683412200,
+      "timezone": "UTC",
+      "slug": "UFC 288: Sterling vs. Cejudo",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2541,
+          "name": "Claudio Ribeiro",
+          "logo": "https://media.api-sports.io/mma/fighters/2541.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2496,
+          "name": "Joseph Holmes",
+          "logo": "https://media.api-sports.io/mma/fighters/2496.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 825,
+      "date": "2023-07-30T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1690677000,
+      "timezone": "UTC",
+      "slug": "UFC 291: Poirier vs. Gaethje 2",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2541,
+          "name": "Claudio Ribeiro",
+          "logo": "https://media.api-sports.io/mma/fighters/2541.png",
+          "winner": false
+        },
+        "second": {
+          "id": 262,
+          "name": "Roman Kopylov",
+          "logo": "https://media.api-sports.io/mma/fighters/262.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1270,
+      "date": "2024-03-02T10:30:00+00:00",
+      "time": "10:30",
+      "timestamp": 1709375400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Gaziev",
+      "is_main": false,
+      "category": "Middleweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2541,
+          "name": "Claudio Ribeiro",
+          "logo": "https://media.api-sports.io/mma/fighters/2541.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2540,
+          "name": "Christian Leroy Duncan",
+          "logo": "https://media.api-sports.io/mma/fighters/2540.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:35:39.980Z"
+}

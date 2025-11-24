@@ -1,0 +1,296 @@
+{
+  "profile": {
+    "id": 2374,
+    "name": "Azamat Murzakanov",
+    "nickname": "The Professional",
+    "photo": "https://media.api-sports.io/mma/fighters/2374.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "205 lbs",
+    "reach": "71.5'",
+    "stance": "Southpaw",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 139,
+      "name": "K Dojo"
+    },
+    "last_update": "2025-11-01T12:06:36+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2374,
+      "name": "Azamat Murzakanov",
+      "photo": "https://media.api-sports.io/mma/fighters/2374.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 0,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 0
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 657,
+      "date": "2023-04-16T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1681610400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Holloway vs. Allen",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2374,
+          "name": "Azamat Murzakanov",
+          "logo": "https://media.api-sports.io/mma/fighters/2374.png",
+          "winner": true
+        },
+        "second": {
+          "id": 753,
+          "name": "Dustin Jacoby",
+          "logo": "https://media.api-sports.io/mma/fighters/753.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 891,
+      "date": "2023-09-02T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1693652400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Gane vs. Spivac",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2374,
+          "name": "Azamat Murzakanov",
+          "logo": "https://media.api-sports.io/mma/fighters/2374.png",
+          "winner": false
+        },
+        "second": {
+          "id": 167,
+          "name": "Volkan Oezdemir",
+          "logo": "https://media.api-sports.io/mma/fighters/167.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1069,
+      "date": "2023-12-03T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1701561600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Dariush vs. Tsarukyan",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2374,
+          "name": "Azamat Murzakanov",
+          "logo": "https://media.api-sports.io/mma/fighters/2374.png",
+          "winner": false
+        },
+        "second": {
+          "id": 257,
+          "name": "Khalil Rountree Jr.",
+          "logo": "https://media.api-sports.io/mma/fighters/257.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1313,
+      "date": "2024-08-03T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1722672000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Nurmagomedov",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 19,
+          "name": "Alonzo Menifield",
+          "logo": "https://media.api-sports.io/mma/fighters/19.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2374,
+          "name": "Azamat Murzakanov",
+          "logo": "https://media.api-sports.io/mma/fighters/2374.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1705,
+      "date": "2024-11-16T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1731776400,
+      "timezone": "UTC",
+      "slug": "UFC 309: Jones vs. Miocic",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2374,
+          "name": "Azamat Murzakanov",
+          "logo": "https://media.api-sports.io/mma/fighters/2374.png",
+          "winner": false
+        },
+        "second": {
+          "id": 254,
+          "name": "Nikita Krylov",
+          "logo": "https://media.api-sports.io/mma/fighters/254.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2042,
+      "date": "2025-06-08T01:05:00+00:00",
+      "time": "01:05",
+      "timestamp": 1749344700,
+      "timezone": "UTC",
+      "slug": "UFC 316: Dvalishvili vs. O'Malley 2",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2653,
+          "name": "Brendson Ribeiro",
+          "logo": "https://media.api-sports.io/mma/fighters/2653.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2374,
+          "name": "Azamat Murzakanov",
+          "logo": "https://media.api-sports.io/mma/fighters/2374.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2263,
+      "date": "2025-10-04T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1759600800,
+      "timezone": "UTC",
+      "slug": "UFC 320: Ankalaev vs. Pereira 2",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2374,
+          "name": "Azamat Murzakanov",
+          "logo": "https://media.api-sports.io/mma/fighters/2374.png",
+          "winner": false
+        },
+        "second": {
+          "id": 406,
+          "name": "Aleksandar Rakic",
+          "logo": "https://media.api-sports.io/mma/fighters/406.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2245,
+      "date": "2025-10-25T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1761386400,
+      "timezone": "UTC",
+      "slug": "UFC 321: Aspinall vs. Gane",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 2374,
+          "name": "Azamat Murzakanov",
+          "logo": "https://media.api-sports.io/mma/fighters/2374.png",
+          "winner": false
+        },
+        "second": {
+          "id": 406,
+          "name": "Aleksandar Rakic",
+          "logo": "https://media.api-sports.io/mma/fighters/406.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2271,
+      "date": "2025-10-25T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1761415200,
+      "timezone": "UTC",
+      "slug": "UFC 321: Aspinall vs. Gane",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2374,
+          "name": "Azamat Murzakanov",
+          "logo": "https://media.api-sports.io/mma/fighters/2374.png",
+          "winner": true
+        },
+        "second": {
+          "id": 406,
+          "name": "Aleksandar Rakic",
+          "logo": "https://media.api-sports.io/mma/fighters/406.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:28.966Z"
+}

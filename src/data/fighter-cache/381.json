@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "id": 381,
+    "name": "Tai Tuivasa",
+    "nickname": "Bam Bam",
+    "photo": "https://media.api-sports.io/mma/fighters/381.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "265 lbs",
+    "reach": "75'",
+    "stance": "Southpaw",
+    "category": "Heavyweight",
+    "team": {
+      "id": 181,
+      "name": "Lions High Performance Centre"
+    },
+    "last_update": "2025-06-04T16:21:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 381,
+      "name": "Tai Tuivasa",
+      "photo": "https://media.api-sports.io/mma/fighters/381.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 14,
+      "loss": 3
+    },
+    "sub": {
+      "win": 0,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 902,
+      "date": "2023-09-10T03:30:00+00:00",
+      "time": "03:30",
+      "timestamp": 1694316600,
+      "timezone": "UTC",
+      "slug": "UFC 293: Adesanya vs. Strickland",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 268,
+          "name": "Alexander Volkov",
+          "logo": "https://media.api-sports.io/mma/fighters/268.png",
+          "winner": true
+        },
+        "second": {
+          "id": 381,
+          "name": "Tai Tuivasa",
+          "logo": "https://media.api-sports.io/mma/fighters/381.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1155,
+      "date": "2024-02-18T03:40:00+00:00",
+      "time": "03:40",
+      "timestamp": 1708227600,
+      "timezone": "UTC",
+      "slug": "UFC 298: Volkanovski vs. Topuria",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Cancelled",
+        "short": "CANC"
+      },
+      "fighters": {
+        "first": {
+          "id": 270,
+          "name": "Marcin Tybura",
+          "logo": "https://media.api-sports.io/mma/fighters/270.png",
+          "winner": false
+        },
+        "second": {
+          "id": 381,
+          "name": "Tai Tuivasa",
+          "logo": "https://media.api-sports.io/mma/fighters/381.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1215,
+      "date": "2024-03-16T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1710601200,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Tuivasa vs. Tybura",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 270,
+          "name": "Marcin Tybura",
+          "logo": "https://media.api-sports.io/mma/fighters/270.png",
+          "winner": true
+        },
+        "second": {
+          "id": 381,
+          "name": "Tai Tuivasa",
+          "logo": "https://media.api-sports.io/mma/fighters/381.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 1507,
+      "date": "2024-08-17T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1723917600,
+      "timezone": "UTC",
+      "slug": "UFC 305: Du Plessis vs. Adesanya",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 34,
+          "name": "Jairzinho Rozenstruik",
+          "logo": "https://media.api-sports.io/mma/fighters/34.png",
+          "winner": true
+        },
+        "second": {
+          "id": 381,
+          "name": "Tai Tuivasa",
+          "logo": "https://media.api-sports.io/mma/fighters/381.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:16.452Z"
+}

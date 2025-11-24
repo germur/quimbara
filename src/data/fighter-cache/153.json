@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "id": 153,
+    "name": "Blagoy Ivanov",
+    "nickname": "Baga",
+    "photo": "https://media.api-sports.io/mma/fighters/153.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "259 lbs",
+    "reach": "73'",
+    "stance": "Southpaw",
+    "category": "Heavyweight",
+    "team": {
+      "id": 64,
+      "name": "AKA (American Kickboxing Academy)"
+    },
+    "last_update": "2025-06-04T14:27:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 153,
+      "name": "Blagoy Ivanov",
+      "photo": "https://media.api-sports.io/mma/fighters/153.png"
+    },
+    "total": {
+      "win": 19,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 0
+    },
+    "sub": {
+      "win": 6,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 546,
+      "date": "2023-02-04T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1675548000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Spivac",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 153,
+          "name": "Blagoy Ivanov",
+          "logo": "https://media.api-sports.io/mma/fighters/153.png",
+          "winner": false
+        },
+        "second": {
+          "id": 270,
+          "name": "Marcin Tybura",
+          "logo": "https://media.api-sports.io/mma/fighters/270.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 772,
+      "date": "2023-07-01T20:00:00+00:00",
+      "time": "20:00",
+      "timestamp": 1688241600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Strickland vs. Magomedov",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 153,
+          "name": "Blagoy Ivanov",
+          "logo": "https://media.api-sports.io/mma/fighters/153.png",
+          "winner": false
+        },
+        "second": {
+          "id": 725,
+          "name": "Alexandr Romanov",
+          "logo": "https://media.api-sports.io/mma/fighters/725.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:33:29.286Z"
+}

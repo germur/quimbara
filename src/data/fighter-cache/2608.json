@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "id": 2608,
+    "name": "Vitor Petrino",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2608.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "249 lbs",
+    "reach": "77.5'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 95,
+      "name": "CM System"
+    },
+    "last_update": "2025-10-18T12:05:06+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2608,
+      "name": "Vitor Petrino",
+      "photo": "https://media.api-sports.io/mma/fighters/2608.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [
+    {
+      "id": 609,
+      "date": "2023-03-11T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1678575600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Yan vs. Dvalishvili",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2448,
+          "name": "Anton Turkalj",
+          "logo": "https://media.api-sports.io/mma/fighters/2448.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2608,
+          "name": "Vitor Petrino",
+          "logo": "https://media.api-sports.io/mma/fighters/2608.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 779,
+      "date": "2023-07-08T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1688857200,
+      "timezone": "UTC",
+      "slug": "UFC 290: Volkanovski vs. Rodriguez",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 806,
+          "name": "Marcin Prachnio",
+          "logo": "https://media.api-sports.io/mma/fighters/806.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2608,
+          "name": "Vitor Petrino",
+          "logo": "https://media.api-sports.io/mma/fighters/2608.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 922,
+      "date": "2023-11-04T23:15:00+00:00",
+      "time": "23:15",
+      "timestamp": 1699139700,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Almeida vs. Lewis",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 729,
+          "name": "Modestas Bukauskas",
+          "logo": "https://media.api-sports.io/mma/fighters/729.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2608,
+          "name": "Vitor Petrino",
+          "logo": "https://media.api-sports.io/mma/fighters/2608.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1246,
+      "date": "2024-03-02T13:00:00+00:00",
+      "time": "13:00",
+      "timestamp": 1709384400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Rozenstruik vs. Gaziev",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2229,
+          "name": "Tyson Pedro",
+          "logo": "https://media.api-sports.io/mma/fighters/2229.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2608,
+          "name": "Vitor Petrino",
+          "logo": "https://media.api-sports.io/mma/fighters/2608.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1333,
+      "date": "2024-05-04T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1714845600,
+      "timezone": "UTC",
+      "slug": "UFC 301: Pantoja vs. Erceg",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2608,
+          "name": "Vitor Petrino",
+          "logo": "https://media.api-sports.io/mma/fighters/2608.png",
+          "winner": false
+        },
+        "second": {
+          "id": 213,
+          "name": "Anthony Smith",
+          "logo": "https://media.api-sports.io/mma/fighters/213.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1739,
+      "date": "2024-12-14T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1734202800,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Covington vs. Buckley",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 753,
+          "name": "Dustin Jacoby",
+          "logo": "https://media.api-sports.io/mma/fighters/753.png",
+          "winner": true
+        },
+        "second": {
+          "id": 2608,
+          "name": "Vitor Petrino",
+          "logo": "https://media.api-sports.io/mma/fighters/2608.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 2114,
+      "date": "2025-07-13T01:45:00+00:00",
+      "time": "01:45",
+      "timestamp": 1752371100,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Lewis vs. Teixeira",
+      "is_main": true,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2314,
+          "name": "Austen Lane",
+          "logo": "https://media.api-sports.io/mma/fighters/2314.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2608,
+          "name": "Vitor Petrino",
+          "logo": "https://media.api-sports.io/mma/fighters/2608.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 2262,
+      "date": "2025-10-11T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1760220000,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Oliveira vs. Gamrot",
+      "is_main": false,
+      "category": "Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2663,
+          "name": "Thomas Petersen",
+          "logo": "https://media.api-sports.io/mma/fighters/2663.png",
+          "winner": false
+        },
+        "second": {
+          "id": 2608,
+          "name": "Vitor Petrino",
+          "logo": "https://media.api-sports.io/mma/fighters/2608.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:19.179Z"
+}

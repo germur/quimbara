@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 535,
+    "name": "Aleksa Camur",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/535.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "205 lbs",
+    "reach": "74'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 88,
+      "name": "Strong Style Fight"
+    },
+    "last_update": "2025-06-04T17:38:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 535,
+      "name": "Aleksa Camur",
+      "photo": "https://media.api-sports.io/mma/fighters/535.png"
+    },
+    "total": {
+      "win": 6,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 0
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [
+    {
+      "id": 843,
+      "date": "2023-08-06T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1691285400,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Sandhagen vs. Font",
+      "is_main": true,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 535,
+          "name": "Aleksa Camur",
+          "logo": "https://media.api-sports.io/mma/fighters/535.png",
+          "winner": false
+        },
+        "second": {
+          "id": 561,
+          "name": "Tanner Boser",
+          "logo": "https://media.api-sports.io/mma/fighters/561.png",
+          "winner": true
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:21.993Z"
+}

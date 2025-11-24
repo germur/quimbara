@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "id": 736,
+    "name": "Mauricio Rua",
+    "nickname": "Shogun",
+    "photo": "https://media.api-sports.io/mma/fighters/736.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "205 lbs",
+    "reach": "76'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 323,
+      "name": "Shogun MMA"
+    },
+    "last_update": "2025-06-04T19:18:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 736,
+      "name": "Mauricio Rua",
+      "photo": "https://media.api-sports.io/mma/fighters/736.png"
+    },
+    "total": {
+      "win": 27,
+      "loss": 14,
+      "draw": 1
+    },
+    "ko": {
+      "win": 21,
+      "loss": 7
+    },
+    "sub": {
+      "win": 1,
+      "loss": 3
+    }
+  },
+  "fights": [
+    {
+      "id": 529,
+      "date": "2023-01-22T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1674349200,
+      "timezone": "UTC",
+      "slug": "UFC 283: Teixeira vs. Hill",
+      "is_main": false,
+      "category": "Light Heavyweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 2381,
+          "name": "Ihor Potieria",
+          "logo": "https://media.api-sports.io/mma/fighters/2381.png",
+          "winner": true
+        },
+        "second": {
+          "id": 736,
+          "name": "Mauricio Rua",
+          "logo": "https://media.api-sports.io/mma/fighters/736.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-24T00:34:56.993Z"
+}
