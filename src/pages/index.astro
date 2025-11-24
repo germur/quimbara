@@ -9,6 +9,38 @@ import PageLayout from '@/layouts/BaseLayout.astro'
 import Section from '@/components/home/Section.astro'
 import config from '@/site-config'
 
+// Featured fighters data
+const featuredFighters = [
+  {
+    name: "Ilia Topuria",
+    title: "Campeón Peso Pluma",
+    description: "El Matador. Invicto en UFC con victorias sobre Volkanovski y Holloway.",
+    href: "/blog/perfiles-luchadores/ilia-topuria",
+    image: "https://media.api-sports.io/mma/fighters/2596.png"
+  },
+  {
+    name: "Alex Pereira",
+    title: "Campeón Peso Semipesado",
+    description: "Poatan. Ex-campeón de kickboxing Glory, nocaut devastador.",
+    href: "/blog/perfiles-luchadores/alex-pereira-poatan",
+    image: "https://media.api-sports.io/mma/fighters/253.png"
+  },
+  {
+    name: "Islam Makhachev",
+    title: "Campeón Peso Ligero",
+    description: "Dominación total en el suelo. Heredero del legado de Khabib.",
+    href: "/blog/perfiles-luchadores/islam-makhachev",
+    image: "https://media.api-sports.io/mma/fighters/103.png"
+  },
+  {
+    name: "Jon Jones",
+    title: "Campeón Peso Pesado",
+    description: "GOAT. El luchador más dominante en la historia de UFC.",
+    href: "/blog/perfiles-luchadores/jon-jones",
+    image: "https://media.api-sports.io/mma/fighters/7.png"
+  }
+]
+
 
 const MAX_POSTS = 10
 const allPosts = await getBlogCollection()
@@ -126,6 +158,24 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
           </Section>
         )
       }
+
+      <!-- FEATURED FIGHTERS SECTION -->
+      <Section title='Luchadores Destacados'>
+        <p class='text-muted-foreground mb-6'>Los campeones y contendientes más dominantes de UFC</p>
+        <div class='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose'>
+          {featuredFighters.map((fighter) => (
+            <a 
+              href={fighter.href}
+              class='flex flex-col gap-y-2 rounded-xl border border-border bg-card p-4 transition-all hover:border-primary hover:shadow-lg'
+            >
+              <h3 class='text-lg font-bold text-foreground'>{fighter.name}</h3>
+              <p class='text-sm text-muted-foreground font-semibold'>{fighter.title}</p>
+              <p class='text-sm text-muted-foreground'>{fighter.description}</p>
+            </a>
+          ))}
+        </div>
+        <Button title='Ver todos los luchadores' class='w-fit self-end mt-6' href='/fighters' variant='ahead' />
+      </Section>
 
     </div>
   </main>
