@@ -1,24 +1,24 @@
 import { getCollection, type CollectionEntry, type CollectionKey } from 'astro:content'
 
-type Collections = CollectionEntry<CollectionKey>[]
+type Collections = CollectionEntry<'blog' | 'docs'>[]
 
 export const prod = import.meta.env.PROD
 
 /** Note: this function filters out draft posts based on the environment */
-export async function getBlogCollection(contentType: CollectionKey = 'blog') {
+export async function getBlogCollection(contentType: 'blog' | 'docs' = 'blog') {
   return await getCollection(contentType, ({ data }: CollectionEntry<typeof contentType>) => {
     // Not in production & draft is not false
     return prod ? !data.draft : true
   })
 }
 
-function getYearFromCollection<T extends CollectionKey>(
+function getYearFromCollection<T extends 'blog' | 'docs'>(
   collection: CollectionEntry<T>
 ): number | undefined {
   const dateStr = collection.data.updatedDate ?? collection.data.publishDate
   return dateStr ? new Date(dateStr).getFullYear() : undefined
 }
-export function groupCollectionsByYear<T extends CollectionKey>(
+export function groupCollectionsByYear<T extends 'blog' | 'docs'>(
   collections: Collections
 ): [number, CollectionEntry<T>[]][] {
   const collectionsByYear = collections.reduce((acc, collection) => {
