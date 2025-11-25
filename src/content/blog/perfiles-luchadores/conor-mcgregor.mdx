@@ -1,0 +1,50 @@
+---
+title: 'Conor McGregor: Perfil y Línea de Tiempo'
+description: 'The Notorious. El irlandés que revolucionó UFC y se convirtió en el peleador más famoso del mundo.'
+publishDate: '2025-11-25'
+tags: ['UFC', 'Conor McGregor', 'Perfil', 'Leyenda', 'Campeón']
+---
+
+import FighterProfile from '@/components/special/FighterProfile.astro';
+
+<FighterProfile 
+  fighterId={85}
+  historicalEvents={[
+    {
+      year: '2021',
+      title: 'Trilogía con Dustin Poirier',
+      description: 'Sufre devastadora fractura de tibia en UFC 264, perdiendo ante Poirier por TKO médico y entrando en largo hiato.',
+      type: 'fight'
+    },
+    {
+      year: '2020',
+      title: 'Regreso ante Cerrone',
+      description: 'Vuelve después de retiro y destruye a Donald Cerrone en 40 segundos en UFC 246, recordando al mundo su poder.',
+      type: 'fight'
+    },
+    {
+      year: '2018',
+      title: 'Batalla con Khabib',
+      description: 'Pierde ante Khabib Nurmagomedov por sumisión en UFC 229, el evento más vendido en la historia de UFC.',
+      type: 'championship'
+    },
+    {
+      year: '2016',
+      title: 'Campeón Doble División',
+      description: 'Noquea a Eddie Alvarez en UFC 205 para convertirse en el primer campeón simultáneo de dos divisiones en la historia de UFC.',
+      type: 'championship'
+    },
+    {
+      year: '2015',
+      title: 'KO de 13 Segundos',
+      description: 'Noquea a José Aldo en solo 13 segundos en UFC 194, el KO más rápido en una pelea por título en la historia.',
+      type: 'championship'
+    },
+    {
+      year: '2013',
+      title: 'Debut en UFC',
+      description: 'Entra a UFC y noquea a Marcus Brimage en el primer asalto, anunciando su llegada al mundo del MMA.',
+      type: 'debut'
+    }
+  ]}
+/>

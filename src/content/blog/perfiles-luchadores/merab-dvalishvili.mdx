@@ -1,28 +1,44 @@
 ---
-title: "Merab Dvalishvili: Perfil y Línea de Tiempo"
-description: "\"The Machine\". Luchador de Bantamweight."
-publishDate: "2025-11-24"
-tags:
-  - UFC
-  - Merab Dvalishvili
-  - Perfil
-  - Automated
-heroImage:
-  src: "./mma-generic-cover.jpg"
-  color: "#0F172A"
-comment: false
+title: 'Merab Dvalishvili: Perfil y Línea de Tiempo'
+description: 'The Machine. Cardio imparable y presión incesante del georgiano que conquistó el peso gallo.'
+publishDate: '2025-11-25'
+tags: ['UFC', 'Merab Dvalishvili', 'Perfil', 'Campeón', 'Peso Gallo']
 ---
 
-import FighterTimeline from '@/components/special/FighterTimeline.astro';
+import FighterProfile from '@/components/special/FighterProfile.astro';
 
-<FighterTimeline 
-  fighterId={290}
+<FighterProfile 
+  fighterId={2087}
   historicalEvents={[
     {
       year: '2024',
-      title: 'Generado Automáticamente',
-      description: 'Este perfil se actualiza automáticamente con la API de MMA.',
+      title: 'Campeón de Peso Gallo',
+      description: 'Derrota a Sean O\'Malley por decisión unánime en UFC 306 (Sphere), coronándose campeón con su presión incansable y 10 victorias consecutivas.',
+      type: 'championship'
+    },
+    {
+      year: '2023',
+      title: 'Victoria ante Henry Cejudo',
+      description: 'Vence a la leyenda y ex-campeón Henry Cejudo por decisión unánime en UFC 298, demostrando ser la nueva generación.',
       type: 'fight'
+    },
+    {
+      year: '2023',
+      title: 'Dominación de Petr Yan',
+      description: 'Destruye al ex-campeón Petr Yan con récord de 49 derribos en UFC 252, mostrando su wrestling de élite.',
+      type: 'fight'
+    },
+    {
+      year: '2022',
+      title: 'Guerra con José Aldo',
+      description: 'Vence al legendario José Aldo por decisión unánime en UFC 278, ganando pelea de la noche y entrando al Top 5.',
+      type: 'fight'
+    },
+    {
+      year: '2017',
+      title: 'Debut en UFC',
+      description: 'Entra a UFC desde Bellator y derrota a Frankie Saenz por decisión unánime, iniciando su épica racha.',
+      type: 'debut'
     }
   ]}
 />

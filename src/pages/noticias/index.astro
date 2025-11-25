@@ -1,0 +1,142 @@
+---
+import { getCollection } from 'astro:content'
+
+import { sortMDByDate } from 'astro-pure/server'
+import { Button } from 'astro-pure/user'
+import PageLayout from '@/layouts/BaseLayout.astro'
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+
+export const prerender = true
+
+const allPosts = await getCollection('blog')
+const newsPosts = allPosts
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
+  .filter((post) =>
+    post.data.tags?.some((tag) => ['noticias', 'ufc', 'mma', 'eventos'].includes(tag.toLowerCase()))
+  )
+
+// Featured post (first one)
+const featuredPost = newsPosts[0]
+const recentPosts = newsPosts.slice(1, 10)
+
+const meta = {
+  title: 'Noticias UFC y MMA en Español | Última Hora | Quimbara',
+  description:
+    'Las últimas noticias de UFC y MMA en español. Resultados, rumores, confirmaciones de peleas y declaraciones de los peleadores.'
+}
+---
+
+<PageLayout {meta}>
+  <Breadcrumbs
+    path={[
+      { title: 'Inicio', link: '/' },
+      { title: 'Noticias MMA', link: '/noticias/' }
+    ]}
+  />
+
+  <section class='py-8'>
+    <div class='flex items-center gap-3 mb-8'>
+      <div class='h-8 w-1 bg-[#FF8500] 600 rounded-full'></div>
+      <h1 class='text-4xl font-heading font-bold text-foreground uppercase tracking-wide'>
+        Noticias de Última Hora
+      </h1>
+    </div>
+
+    <!-- Featured News Hero -->
+    {
+      featuredPost && (
+        <a
+          href={`/blog/${featuredPost.id}/`}
+          class='group block relative h-[500px] rounded-2xl overflow-hidden mb-12 shadow-2xl border border-white/10'
+        >
+          {featuredPost.data.heroImage && (
+            <img
+              src={featuredPost.data.heroImage.src.src}
+              alt={featuredPost.data.heroImage.alt}
+              class='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105'
+            />
+          )}
+          <div class='absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent' />
+
+          <div class='absolute bottom-0 left-0 w-full p-8 md:p-12'>
+            <span class='inline-block bg-[#FF8500] 600 text-[#FF9E00] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4'>
+              Destacado
+            </span>
+            <h2 class='text-3xl md:text-5xl font-heading font-bold text-[#FF9E00] mb-4 leading-tight group-hover:text-red-400 transition-colors'>
+              {featuredPost.data.title}
+            </h2>
+            <p class='text-lg text-[#9D4EDD] 300 max-w-3xl line-clamp-2 mb-6'>
+              {featuredPost.data.description}
+            </p>
+            <div class='flex items-center gap-4 text-sm text-[#9D4EDD] 400'>
+              <span>{featuredPost.data.publishDate.toLocaleDateString()}</span>
+              <span>•</span>
+              <span>Redacción Quimbara</span>
+            </div>
+          </div>
+        </a>
+      )
+    }
+
+    <!-- News Grid -->
+    <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+      {
+        recentPosts.map((post) => (
+          <article class='glass-panel rounded-xl overflow-hidden hover:border-red-600/30 transition-all group flex flex-col h-full'>
+            <a href={`/blog/${post.id}/`} class='block aspect-video overflow-hidden relative'>
+              {post.data.heroImage ? (
+                <img
+                  src={post.data.heroImage.src.src}
+                  alt={post.data.heroImage.alt}
+                  class='w-full h-full object-cover transition-transform duration-500 group-hover:scale-110'
+                  loading='lazy'
+                />
+              ) : (
+                <div class='w-full h-full bg-gray-800 flex items-center justify-center text-[#9D4EDD] 600'>
+                  <span class='font-heading font-bold text-2xl'>QUIMBARA</span>
+                </div>
+              )}
+              <div class='absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors' />
+            </a>
+
+            <div class='p-5 flex flex-col flex-1'>
+              <div class='flex items-center gap-2 mb-3'>
+                <span class='text-xs font-bold text-red-500 uppercase tracking-wider'>
+                  {post.data.tags?.[0] || 'Noticia'}
+                </span>
+                <span class='text-xs text-[#9D4EDD] 500'>
+                  • {post.data.publishDate.toLocaleDateString()}
+                </span>
+              </div>
+
+              <h3 class='text-xl font-bold text-[#FF9E00] mb-3 leading-snug group-hover:text-red-400 transition-colors'>
+                <a href={`/blog/${post.id}/`}>{post.data.title}</a>
+              </h3>
+
+              <p class='text-[#9D4EDD] 400 text-sm line-clamp-3 mb-4 flex-1'>{post.data.description}</p>
+
+              <a
+                href={`/blog/${post.id}/`}
+                class='text-sm font-bold text-[#FF9E00] hover:text-red-500 transition-colors inline-flex items-center gap-1 mt-auto'
+              >
+                Leer Nota Completa
+                <svg class='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path
+                    stroke-linecap='round'
+                    stroke-linejoin='round'
+                    stroke-width='2'
+                    d='M17 8l4 4m0 0l-4 4m4-4H3'
+                  />
+                </svg>
+              </a>
+            </div>
+          </article>
+        ))
+      }
+    </div>
+
+    <div class='mt-12 text-center'>
+      <a href='/blog/archive' class='btn-secondary px-8 inline-block'> Ver Archivo de Noticias </a>
+    </div>
+  </section>
+</PageLayout>

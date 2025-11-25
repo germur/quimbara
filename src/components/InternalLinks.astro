@@ -1,0 +1,31 @@
+---
+import { CardList } from 'astro-pure/user'
+
+interface RelatedContent {
+  title: string
+  description?: string
+  link: string
+}
+
+interface Props {
+  title?: string
+  relatedContent: RelatedContent[]
+}
+
+const { title = 'Contenido Relacionado', relatedContent } = Astro.props
+
+// Transformar al formato de CardList
+const list = relatedContent.map((item) => ({
+  title: item.title,
+  description: item.description,
+  link: item.link
+}))
+---
+
+{
+  list.length > 0 && (
+    <section class="internal-links my-8">
+      <CardList {title} {list} />
+    </section>
+  )
+}

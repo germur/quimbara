@@ -17,19 +17,19 @@ const divisions = [...new Set(fighters.map((f) => f.division))].sort();
 ---
 
 <div class="container mx-auto px-4 py-8">
-  <h1 class="text-4xl font-bold text-white mb-8 text-center">Directorio de Luchadores UFC</h1>
+  <h1 class="text-4xl font-bold text-[#FF9E00] mb-8 text-center">Directorio de Luchadores UFC</h1>
 
   <!-- Division Filters -->
   <div class="flex flex-wrap justify-center gap-4 mb-12">
     <button 
-      class="px-4 py-2 rounded-full bg-slate-800 text-slate-300 hover:bg-quimbara-primary hover:text-white transition-colors active-filter"
+      class="px-4 py-2 rounded-full bg-[#3C096C] text-slate-300 hover:bg-quimbara-primary hover:text-[#FF9E00] transition-colors active-filter"
       data-filter="all"
     >
       Todos
     </button>
     {divisions.map((division) => (
       <button 
-        class="px-4 py-2 rounded-full bg-slate-800 text-slate-300 hover:bg-quimbara-primary hover:text-white transition-colors"
+        class="px-4 py-2 rounded-full bg-[#3C096C] text-slate-300 hover:bg-quimbara-primary hover:text-[#FF9E00] transition-colors"
         data-filter={division}
       >
         {division}
@@ -42,10 +42,10 @@ const divisions = [...new Set(fighters.map((f) => f.division))].sort();
     {fighters.map((fighter) => (
       <a 
         href={`/blog/perfiles-luchadores/${fighter.slug}`}
-        class="group relative block bg-slate-800 rounded-xl overflow-hidden hover:ring-2 hover:ring-quimbara-primary transition-all duration-300 fighter-card"
+        class="group relative block bg-[#3C096C] rounded-xl overflow-hidden hover:ring-2 hover:ring-quimbara-primary transition-all duration-300 fighter-card"
         data-division={fighter.division}
       >
-        <div class="aspect-[3/4] overflow-hidden bg-slate-900 relative">
+        <div class="aspect-[3/4] overflow-hidden bg-[#240046] relative">
            <img 
             src={`https://media.api-sports.io/mma/fighters/${fighter.id}.png`}
             alt={fighter.name}
@@ -59,7 +59,7 @@ const divisions = [...new Set(fighters.map((f) => f.division))].sort();
             <span class="text-xs font-bold text-quimbara-secondary uppercase tracking-wider mb-1 block">
               {fighter.division}
             </span>
-            <h3 class="text-lg font-bold text-white leading-tight group-hover:text-quimbara-primary transition-colors">
+            <h3 class="text-lg font-bold text-[#FF9E00] leading-tight group-hover:text-quimbara-primary transition-colors">
               {fighter.name}
             </h3>
             <p class="text-sm text-slate-400 mt-1 line-clamp-1">
@@ -81,12 +81,12 @@ const divisions = [...new Set(fighters.map((f) => f.division))].sort();
     btn.addEventListener('click', () => {
       // Update active state
       buttons.forEach(b => {
-        b.classList.remove('bg-quimbara-primary', 'text-white');
-        b.classList.add('bg-slate-800', 'text-slate-300');
+        b.classList.remove('bg-quimbara-primary', 'text-[#FF9E00]');
+        b.classList.add('bg-[#3C096C]', 'text-slate-300');
       });
       
-      btn.classList.remove('bg-slate-800', 'text-slate-300');
-      btn.classList.add('bg-quimbara-primary', 'text-white');
+      btn.classList.remove('bg-[#3C096C]', 'text-slate-300');
+      btn.classList.add('bg-quimbara-primary', 'text-[#FF9E00]');
 
       const filter = btn.getAttribute('data-filter');
 
@@ -103,7 +103,7 @@ const divisions = [...new Set(fighters.map((f) => f.division))].sort();
   // Set initial active state
   const allBtn = document.querySelector<HTMLButtonElement>('[data-filter="all"]');
   if (allBtn) {
-    allBtn.classList.remove('bg-slate-800', 'text-slate-300');
-    allBtn.classList.add('bg-quimbara-primary', 'text-white');
+    allBtn.classList.remove('bg-[#3C096C]', 'text-slate-300');
+    allBtn.classList.add('bg-quimbara-primary', 'text-[#FF9E00]');
   }
 </script>

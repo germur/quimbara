@@ -1,28 +1,44 @@
 ---
-title: "Dricus Du Plessis: Perfil y Línea de Tiempo"
-description: "\"Stilknocks\". Luchador de Middleweight."
-publishDate: "2025-11-24"
-tags:
-  - UFC
-  - Dricus Du Plessis
-  - Perfil
-  - Automated
-heroImage:
-  src: "./mma-generic-cover.jpg"
-  color: "#0F172A"
-comment: false
+title: 'Dricus Du Plessis: Perfil y Línea de Tiempo'
+description: 'Stillknocks. El sudafricano que conquistó UFC con su estilo implacable y cardio infinito.'
+publishDate: '2025-11-25'
+tags: ['UFC', 'Dricus Du Plessis', 'Perfil', 'Campeón', 'Peso Mediano']
 ---
 
-import FighterTimeline from '@/components/special/FighterTimeline.astro';
+import FighterProfile from '@/components/special/FighterProfile.astro';
 
-<FighterTimeline 
-  fighterId={856}
+<FighterProfile 
+  fighterId={905}
   historicalEvents={[
     {
       year: '2024',
-      title: 'Generado Automáticamente',
-      description: 'Este perfil se actualiza automáticamente con la API de MMA.',
+      title: 'Defensa Épica vs Adesanya',
+      description: 'Du Plessis defiende su título venciendo a Israel Adesanya por sumisión (rear-naked choke) en el 4to asalto en UFC 305, Perth.',
+      type: 'championship'
+    },
+    {
+      year: '2024',
+      title: 'Campeón de Peso Mediano',
+      description: 'Derrota a Sean Strickland por decisión dividida en UFC 297 para convertirse en el primer campeón africano de UFC.',
+      type: 'championship'
+    },
+    {
+      year: '2023',
+      title: 'Victoria ante Robert Whittaker',
+      description: 'Domina completamente al ex-campeón Robert Whittaker en UFC 290, finalizándolo en el 2do asalto y ganando pelea de la noche.',
       type: 'fight'
+    },
+    {
+      year: '2023',
+      title: 'Guerra con Derek Brunson',
+      description: 'Noquea a Derek Brunson en una batalla de voluntades en UFC 285, demostrando su legendario cardio y presión constante.',
+      type: 'fight'
+    },
+    {
+      year: '2020',
+      title: 'Debut en UFC',
+      description: 'Entra a UFC con récord invicto y derrota a Markus Perez por decisión unánime, demostrando su potencial de élite.',
+      type: 'debut'
     }
   ]}
 />

@@ -1,0 +1,53 @@
+---
+import { Button, Icon } from 'astro-pure/user'
+
+interface BreadcrumbItem {
+  title: string
+  link?: string
+}
+
+interface Props {
+  path: BreadcrumbItem[]
+}
+
+const { path } = Astro.props
+
+// Generar Schema.org BreadcrumbList
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: path.map((item, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: item.title,
+    ...(item.link && { item: new URL(item.link, Astro.site).href })
+  }))
+}
+---
+
+<nav aria-label="Breadcrumb" class="mb-6">
+  <ol class="flex items-center gap-2 text-sm text-muted-foreground flex-wrap">
+    {
+      path.map((item, index) => (
+        <li class="flex items-center gap-2">
+          {index > 0 && (
+            <Icon name="chevron-right" class="w-4 h-4 text-muted-foreground/50" />
+          )}
+          {item.link && index < path.length - 1 ? (
+            <a
+              href={item.link}
+              class="hover:text-foreground transition-colors duration-200"
+            >
+              {item.title}
+            </a>
+          ) : (
+            <span class="text-foreground font-medium">{item.title}</span>
+          )}
+        </li>
+      ))
+    }
+  </ol>
+</nav>
+
+<!-- Schema.org BreadcrumbList -->
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />

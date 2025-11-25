@@ -1,0 +1,22 @@
+---
+import { weightClasses } from '@/data/weightClasses'
+---
+
+<div class='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
+  {
+    weightClasses.map((wc) => (
+      <a
+        href={`/fighters/${wc.slug}/`}
+        class='bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 group flex flex-col items-center text-center border border-border hover:border-[#E83C91]'
+      >
+        <h3 class='font-heading font-bold text-[#43334C] text-lg mb-1 group-hover:text-[#E83C91] transition-colors'>
+          {wc.nameEs}
+        </h3>
+        <p class='text-xs text-[#43334C]/60 mb-3 uppercase tracking-wider'>{wc.nameEn}</p>
+        <div class='mt-auto pt-3 border-t border-border w-full'>
+          <p class='text-xs text-[#E83C91] font-mono font-bold'>{wc.limit}</p>
+        </div>
+      </a>
+    ))
+  }
+</div>

@@ -1,0 +1,168 @@
+[
+    {
+        "id": "ufc-310",
+        "name": "UFC 310: Pantoja vs. Asakura",
+        "date": "2024-12-07T22:00:00Z",
+        "location": "T-Mobile Arena, Las Vegas, NV",
+        "isNumbered": true,
+        "fights": [
+            {
+                "weightClass": "Peso Mosca",
+                "isTitle": true,
+                "fighterA": {
+                    "id": 250,
+                    "name": "Alexandre Pantoja",
+                    "rank": "C"
+                },
+                "fighterB": {
+                    "id": 4867,
+                    "name": "Kai Asakura",
+                    "rank": "NR"
+                }
+            },
+            {
+                "weightClass": "Peso Welter",
+                "isTitle": false,
+                "fighterA": {
+                    "id": 735,
+                    "name": "Shavkat Rakhmonov",
+                    "rank": "3"
+                },
+                "fighterB": {
+                    "id": 1088,
+                    "name": "Ian Machado Garry",
+                    "rank": "7"
+                }
+            }
+        ]
+    },
+    {
+        "id": "ufc-tampa",
+        "name": "UFC Fight Night: Covington vs. Buckley",
+        "date": "2024-12-14T22:00:00Z",
+        "location": "Amalie Arena, Tampa, FL",
+        "isNumbered": false,
+        "fights": [
+            {
+                "weightClass": "Peso Welter",
+                "isTitle": false,
+                "fighterA": {
+                    "id": 133,
+                    "name": "Colby Covington",
+                    "rank": "6"
+                },
+                "fighterB": {
+                    "id": 566,
+                    "name": "Joaquin Buckley",
+                    "rank": "9"
+                }
+            }
+        ]
+    },
+    {
+        "id": "ufc-311",
+        "name": "UFC 311: Makhachev vs. Tsarukyan 2",
+        "date": "2025-01-18T22:00:00Z",
+        "location": "Intuit Dome, Los Angeles, CA",
+        "isNumbered": true,
+        "fights": [
+            {
+                "weightClass": "Peso Ligero",
+                "isTitle": true,
+                "fighterA": {
+                    "id": 333,
+                    "name": "Islam Makhachev",
+                    "rank": "C"
+                },
+                "fighterB": {
+                    "id": 461,
+                    "name": "Arman Tsarukyan",
+                    "rank": "1"
+                }
+            },
+            {
+                "weightClass": "Peso Gallo",
+                "isTitle": true,
+                "fighterA": {
+                    "id": 2087,
+                    "name": "Merab Dvalishvili",
+                    "rank": "C"
+                },
+                "fighterB": {
+                    "id": 3036,
+                    "name": "Umar Nurmagomedov",
+                    "rank": "2"
+                }
+            }
+        ]
+    },
+    {
+        "id": "ufc-vegas-101",
+        "name": "UFC Fight Night: Moreno vs. Albazi",
+        "date": "2025-02-01T22:00:00Z",
+        "location": "UFC Apex, Las Vegas, NV",
+        "isNumbered": false,
+        "fights": [
+            {
+                "weightClass": "Peso Mosca",
+                "isTitle": false,
+                "fighterA": {
+                    "id": 183,
+                    "name": "Brandon Moreno",
+                    "rank": "2"
+                },
+                "fighterB": {
+                    "id": 3254,
+                    "name": "Amir Albazi",
+                    "rank": "3"
+                }
+            }
+        ]
+    },
+    {
+        "id": "ufc-312",
+        "name": "UFC 312: Du Plessis vs. Strickland 2",
+        "date": "2025-02-08T22:00:00Z",
+        "location": "Qudos Bank Arena, Sydney, Australia",
+        "isNumbered": true,
+        "fights": [
+            {
+                "weightClass": "Peso Mediano",
+                "isTitle": true,
+                "fighterA": {
+                    "id": 905,
+                    "name": "Dricus Du Plessis",
+                    "rank": "C"
+                },
+                "fighterB": {
+                    "id": 169,
+                    "name": "Sean Strickland",
+                    "rank": "1"
+                }
+            }
+        ]
+    },
+    {
+        "id": "ufc-313",
+        "name": "UFC 313",
+        "date": "2025-03-08T22:00:00Z",
+        "location": "T-Mobile Arena, Las Vegas, NV",
+        "isNumbered": true,
+        "fights": [
+            {
+                "weightClass": "Peso Semipesado",
+                "isTitle": true,
+                "fighterA": {
+                    "id": 2436,
+                    "name": "Alex Pereira",
+                    "rank": "C"
+                },
+                "fighterB": {
+                    "id": 6894,
+                    "name": "Magomed Ankalaev",
+                    "rank": "1"
+                }
+            }
+        ]
+    }
+]

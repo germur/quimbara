@@ -1,28 +1,44 @@
 ---
-title: "Belal Muhammad: Perfil y Línea de Tiempo"
-description: "\"Remember the Name\". Luchador de Welterweight."
-publishDate: "2025-11-24"
-tags:
-  - UFC
-  - Belal Muhammad
-  - Perfil
-  - Automated
-heroImage:
-  src: "./mma-generic-cover.jpg"
-  color: "#0F172A"
-comment: false
+title: 'Belal Muhammad: Perfil y Línea de Tiempo'
+description: 'Remember The Name. El palestino-americano que logró el sueño después de 10 años en UFC.'
+publishDate: '2025-11-25'
+tags: ['UFC', 'Belal Muhammad', 'Perfil', 'Campeón', 'Peso Welter']
 ---
 
-import FighterTimeline from '@/components/special/FighterTimeline.astro';
+import FighterProfile from '@/components/special/FighterProfile.astro';
 
-<FighterTimeline 
-  fighterId={15}
+<FighterProfile 
+  fighterId={291}
   historicalEvents={[
     {
       year: '2024',
-      title: 'Generado Automáticamente',
-      description: 'Este perfil se actualiza automáticamente con la API de MMA.',
+      title: 'Campeón de Peso Wélter',
+      description: 'Vence a Leon Edwards por decisión unánime en UFC 304 Manchester, cumpliendo su promesa de "Remember The Name" tras 10 años de lucha.',
+      type: 'championship'
+    },
+    {
+      year: '2023',
+      title: 'Dominación ante Gilbert Burns',
+      description: 'Derrota convincentemente a Gilbert Burns por decisión unánime en UFC 288, asegurando su disputa por el título.',
       type: 'fight'
+    },
+    {
+      year: '2022',
+      title: 'Victoria Crucial vs Sean Brady',
+      description: 'Domina al invicto Sean Brady en UFC 280, mostrando su superior grappling y control octogonal.',
+      type: 'fight'
+    },
+    {
+      year: '2021',
+      title: 'Ascenso ante Stephen Thompson',
+      description: 'Vence a la leyenda Stephen "Wonderboy" Thompson por decisión unánime, entrando al Top 5 de la división.',
+      type: 'fight'
+    },
+    {
+      year: '2016',
+      title: 'Debut en UFC',
+      description: 'Entra a UFC con corto aviso y derrota a Alan Jouban por decisión unánime, iniciando su largo camino al título.',
+      type: 'debut'
     }
   ]}
 />

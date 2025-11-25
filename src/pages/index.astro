@@ -1,13 +1,11 @@
 ---
-import { PostPreview } from 'astro-pure/components/pages'
+import { getCollection } from 'astro:content'
+import PageLayout from '@/layouts/BaseLayout.astro'
+import config from '@/site-config'
 
 export const prerender = true
 
-import { getBlogCollection, sortMDByDate } from 'astro-pure/server'
-import { Button, Icon, Label } from 'astro-pure/user'
-import PageLayout from '@/layouts/BaseLayout.astro'
-import Section from '@/components/home/Section.astro'
-import config from '@/site-config'
+import NextEventWidget from '@/components/widgets/NextEventWidget.astro'
 
 // Featured fighters data
 const featuredFighters = [
@@ -16,167 +14,240 @@ const featuredFighters = [
     title: "Campeón Peso Pluma",
     description: "El Matador. Invicto en UFC con victorias sobre Volkanovski y Holloway.",
     href: "/blog/perfiles-luchadores/ilia-topuria",
-    image: "https://media.api-sports.io/mma/fighters/2596.png"
+    image: "https://media.api-sports.io/mma/fighters/855.png"
   },
   {
     name: "Alex Pereira",
     title: "Campeón Peso Semipesado",
     description: "Poatan. Ex-campeón de kickboxing Glory, nocaut devastador.",
     href: "/blog/perfiles-luchadores/alex-pereira-poatan",
-    image: "https://media.api-sports.io/mma/fighters/253.png"
+    image: "https://media.api-sports.io/mma/fighters/2436.png"
   },
   {
     name: "Islam Makhachev",
     title: "Campeón Peso Ligero",
-    description: "Dominación total en el suelo. Heredero del legado de Khabib.",
+    description: "Heredero de Khabib. Dominio absoluto en el suelo y striking mejorado.",
     href: "/blog/perfiles-luchadores/islam-makhachev",
-    image: "https://media.api-sports.io/mma/fighters/103.png"
+    image: "https://media.api-sports.io/mma/fighters/333.png"
   },
   {
     name: "Jon Jones",
     title: "Campeón Peso Pesado",
     description: "GOAT. El luchador más dominante en la historia de UFC.",
     href: "/blog/perfiles-luchadores/jon-jones",
-    image: "https://media.api-sports.io/mma/fighters/7.png"
+    image: "https://media.api-sports.io/mma/fighters/214.png"
   }
 ]
 
-
-const MAX_POSTS = 10
-const allPosts = await getBlogCollection()
-const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
+const MAX_POSTS = 6
+const allPosts = await getCollection('blog')
+const allPostsByDate = allPosts
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
+  .slice(0, MAX_POSTS)
 ---
 
-<PageLayout meta={{ title: 'Inicio' }} highlightColor='#EF4444'>
-  <main class='flex w-full flex-col items-center'>
-    <section class='animate mb-10 flex flex-col items-center gap-y-7' id='content-header'>
+<PageLayout meta={{ title: 'Inicio' }}>
+  <!-- Hero Section - CLEAN & LIGHT -->
+  <section class="relative min-h-[70vh] flex items-center justify-center overflow-hidden rounded-3xl mb-16 bg-white border border-border shadow-sm">
+    <!-- Soft Background Gradient -->
+    <div class="absolute inset-0 bg-gradient-to-br from-[#F8F4EC] via-white to-[#FF8FB7]/20 z-0"></div>
+    
+    <!-- Content -->
+    <div class="relative z-10 text-center px-4 max-w-5xl mx-auto">
+      <div class="inline-block bg-[#E83C91]/10 text-[#E83C91] px-6 py-2 rounded-full font-bold text-sm uppercase tracking-wide mb-6 border border-[#E83C91]/20">
+        La Nueva Era del Combate
+      </div>
+      <h1 class="text-6xl md:text-8xl font-heading font-bold text-[#43334C] mb-6 leading-tight tracking-tight">
+        DOMINA EL <br/>
+        <span class="text-[#E83C91]">OCTÁGONO</span>
+      </h1>
+      <p class="text-xl md:text-2xl text-[#43334C]/80 mb-10 max-w-3xl mx-auto leading-relaxed font-light">
+        {config.description}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/fighters" class="px-10 py-4 bg-[#E83C91] text-white font-bold text-lg rounded-xl hover:bg-[#D63384] transition-all transform hover:scale-105 shadow-lg shadow-[#E83C91]/20">
+          Explorar Peleadores
+        </a>
+        <a href="/blog" class="px-10 py-4 bg-white border-2 border-[#E83C91] text-[#E83C91] font-bold text-lg rounded-xl hover:bg-[#E83C91]/5 transition-all">
+          Últimas Noticias
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bento Grid Hub Section - CLEAN STYLE -->
+  <section class="mb-20">
+    <div class="flex items-center gap-4 mb-8">
+      <h2 class="text-4xl font-heading font-bold text-[#43334C]">
+        <span class="text-[#E83C91]">///</span> HUB DE CONTENIDO
+      </h2>
+      <div class="h-px bg-[#E83C91]/20 flex-1"></div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-6 h-auto md:h-[500px]">
       
-      <div class='flex flex-col items-center gap-y-4'>
-        <h1 class='text-6xl font-bold text-quimbara-primary tracking-tighter'>{config.title}</h1>
-        <p class='text-2xl text-slate-300 text-center max-w-2xl font-medium'>
-          {config.description}
-        </p>
-        
-        <div class='flex flex-wrap justify-center gap-x-7 gap-y-3 mt-4'>
-          <Label title='MMA' as='a' href='/blog/category/noticias-eventos' class='bg-slate-800 text-quimbara-secondary border-slate-700'>
-            <Icon name='rss' class='size-5' slot='icon' />
-          </Label>
-          <Label title='UFC' as='a' href='/fighters' class='bg-slate-800 text-quimbara-secondary border-slate-700'>
-            <Icon name='rss' class='size-5' slot='icon' />
-          </Label>
-          <Label title='Análisis' as='a' href='/blog/category/analisis-peleas' class='bg-slate-800 text-quimbara-secondary border-slate-700'>
-            <Icon name='rss' class='size-5' slot='icon' />
-          </Label>
-        </div>
-      </div>
-
-      <div class="flex gap-4">
-        <Button title='Últimas Noticias' href='/blog' variant='ahead' />
-        <Button title='Ver Luchadores' href='/fighters' style='back' />
-      </div>
-    </section>
-
-    <!-- FEATURED SPECIAL ARTICLE -->
-    <section class='animate w-full md:w-4/5 lg:w-5/6 mb-10'>
-      <a href='/especiales/topuria-2025' class='block group'>
-        <div class='relative overflow-hidden rounded-2xl border-2 border-yellow-600/30 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-8 transition-all duration-300 hover:border-yellow-600 hover:shadow-2xl hover:shadow-yellow-600/20'>
-          <!-- Background Pattern -->
-          <div class='absolute inset-0 opacity-5'>
-            <div class='absolute inset-0 bg-[url("https://www.transparenttextures.com/patterns/carbon-fibre.png")]'></div>
-          </div>
+      <!-- 1. Main Feature (Large Block) -->
+      {allPostsByDate[0] && (
+        <a href={`/blog/${allPostsByDate[0].id}/`} class="col-span-1 md:col-span-2 row-span-2 group relative rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500">
+          <img 
+            src={typeof allPostsByDate[0].data.heroImage?.src === 'string' 
+              ? allPostsByDate[0].data.heroImage?.src 
+              : allPostsByDate[0].data.heroImage?.src?.src || '/images/social-card.png'} 
+            alt={allPostsByDate[0].data.title}
+            class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#43334C] via-[#43334C]/40 to-transparent opacity-90"></div>
           
-          <!-- Content -->
-          <div class='relative z-10'>
-            <div class='mb-4 flex items-center gap-3'>
-              <span class='rounded-full bg-red-900/50 px-3 py-1 text-xs font-bold uppercase tracking-widest text-red-400 border border-red-800'>
-                🔥 Artículo Especial
-              </span>
-              <span class='text-xs text-slate-500'>Noviembre 2025</span>
-            </div>
-            
-            <h2 class='mb-3 text-4xl font-bold uppercase tracking-tight text-white md:text-5xl'>
-              ILIA <span class='bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent'>TOPURIA</span>
-            </h2>
-            
-            <p class='mb-6 text-xl text-slate-400 font-light'>
-              De Refugiado a la Hegemonía Global
+          <div class="absolute bottom-0 left-0 w-full p-8">
+            <span class="bg-[#E83C91] text-white text-xs font-bold px-3 py-1 rounded-full mb-4 inline-block uppercase tracking-wider shadow-md">
+              {allPostsByDate[0].data.tags?.[0] || 'Destacado'}
+            </span>
+            <h3 class="text-3xl md:text-4xl font-heading font-bold text-white mb-3 leading-tight group-hover:text-[#FF8FB7] transition-colors">
+              {allPostsByDate[0].data.title}
+            </h3>
+            <p class="text-white/90 line-clamp-2 text-lg font-medium">
+              {allPostsByDate[0].data.description}
             </p>
-            
-            <p class='mb-6 max-w-3xl text-slate-300'>
-              Análisis forense de la evolución técnica, fisiológica y psicológica del primer Doble Campeón Español de la UFC. Un informe confidencial sobre el camino de Topuria hacia la gloria.
-            </p>
-            
-            <div class='flex flex-wrap gap-4'>
-              <div class='flex items-center gap-2 text-sm text-slate-400'>
-                <svg class='h-5 w-5 text-yellow-500' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'></path>
-                </svg>
-                <span>Análisis Técnico Completo</span>
-              </div>
-              <div class='flex items-center gap-2 text-sm text-slate-400'>
-                <svg class='h-5 w-5 text-yellow-500' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M13 10V3L4 14h7v7l9-11h-7z'></path>
-                </svg>
-                <span>Metodología 2025</span>
-              </div>
-              <div class='flex items-center gap-2 text-sm text-slate-400'>
-                <svg class='h-5 w-5 text-yellow-500' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z'></path>
-                </svg>
-                <span>UFC 317: Doble Corona</span>
-              </div>
-            </div>
-            
-            <div class='mt-6 inline-flex items-center gap-2 text-yellow-500 font-bold group-hover:gap-4 transition-all'>
-              <span>Leer Informe Completo</span>
-              <svg class='h-5 w-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-                <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M13 7l5 5m0 0l-5 5m5-5H6'></path>
-              </svg>
-            </div>
           </div>
+        </a>
+      )}
+
+      <!-- 2. Secondary News (Top Right) -->
+      {allPostsByDate[1] && (
+        <a href={`/blog/${allPostsByDate[1].id}/`} class="col-span-1 bg-white rounded-3xl p-6 border border-border hover:border-[#E83C91] hover:shadow-md transition-all flex flex-col justify-between group">
+          <div class="flex justify-between items-start">
+            <span class="text-[#E83C91] text-xs font-bold uppercase tracking-wider bg-[#E83C91]/10 px-2 py-1 rounded">NOTICIA RÁPIDA</span>
+            <span class="text-[#43334C]/50 text-xs font-medium">{allPostsByDate[1].data.publishDate.toLocaleDateString()}</span>
+          </div>
+          <div>
+            <h4 class="font-bold text-[#43334C] text-lg leading-tight group-hover:text-[#E83C91] transition-colors mt-4">
+              {allPostsByDate[1].data.title}
+            </h4>
+          </div>
+        </a>
+      )}
+
+      <!-- 3. Event Widget (Action Oriented) -->
+      <NextEventWidget />
+
+      <!-- 4. Technique / Evergreen (Bottom Wide) -->
+      <a href="/tecnicas-entrenamientos" class="col-span-1 md:col-span-2 bg-[#FF8FB7]/20 rounded-3xl p-6 border border-[#FF8FB7]/30 hover:bg-[#FF8FB7]/30 transition-all flex items-center justify-between group relative overflow-hidden">
+        <div class="relative z-10">
+          <span class="text-[#43334C] bg-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-2 inline-block shadow-sm">
+            Academia Quimbara
+          </span>
+          <h3 class="text-2xl font-bold text-[#43334C] group-hover:text-[#E83C91] transition-colors">
+            Guías de Entrenamiento & Técnica
+          </h3>
+          <p class="text-[#43334C]/70 text-sm mt-1 max-w-md font-medium">
+            Mejora tu juego con análisis técnicos, rutinas de fuerza y tutoriales de BJJ/Striking.
+          </p>
+        </div>
+        <div class="h-16 w-16 rounded-full bg-white flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#E83C91" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5h11"></path><path d="M6.5 17.5h11"></path><path d="M6 20v-2a6 6 0 1 1 12 0v2"></path><path d="M9 9v6"></path><path d="M15 9v6"></path></svg>
         </div>
       </a>
-    </section>
-
-    <div id='content' class='animate flex flex-col gap-y-10 md:w-4/5 lg:w-5/6'>
-      
-      {
-        allPostsByDate.length > 0 ? (
-          <Section title='Últimas Publicaciones'>
-            <ul class='flex flex-col gap-y-1.5 sm:gap-y-2'>
-              {allPostsByDate.map((p) => (
-                <li class='flex flex-col gap-x-2 sm:flex-row'>
-                  <PostPreview post={p} />
-                </li>
-              ))}
-            </ul>
-            <Button title='Ver todas las publicaciones' class='w-fit self-end' href='/blog' variant='ahead' />
-          </Section>
-        ) : (
-          <Section title='Próximamente'>
-            <p class='text-muted-foreground'>Estamos preparando el mejor contenido de combate para ti.</p>
-          </Section>
-        )
-      }
-
-      <!-- FEATURED FIGHTERS SECTION -->
-      <Section title='Luchadores Destacados'>
-        <p class='text-muted-foreground mb-6'>Los campeones y contendientes más dominantes de UFC</p>
-        <div class='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose'>
-          {featuredFighters.map((fighter) => (
-            <a 
-              href={fighter.href}
-              class='flex flex-col gap-y-2 rounded-xl border border-border bg-card p-4 transition-all hover:border-primary hover:shadow-lg'
-            >
-              <h3 class='text-lg font-bold text-foreground'>{fighter.name}</h3>
-              <p class='text-sm text-muted-foreground font-semibold'>{fighter.title}</p>
-              <p class='text-sm text-muted-foreground'>{fighter.description}</p>
-            </a>
-          ))}
-        </div>
-        <Button title='Ver todos los luchadores' class='w-fit self-end mt-6' href='/fighters' variant='ahead' />
-      </Section>
 
     </div>
-  </main>
+  </section>
+
+  <!-- Featured Fighters - CLEAN CARDS -->
+  <section class="mb-20">
+    <div class="flex items-center justify-between mb-10">
+      <h2 class="text-4xl font-heading font-bold text-[#43334C]">
+        <span class="text-[#E83C91]">///</span> CAMPEONES DESTACADOS
+      </h2>
+      <a href="/fighters" class="text-sm text-[#E83C91] hover:text-[#43334C] uppercase tracking-widest font-bold transition-colors">
+        Ver Todos →
+      </a>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      {featuredFighters.map(fighter => (
+        <a href={fighter.href} class="group relative h-[400px] rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500">
+          <img 
+            src={fighter.image} 
+            alt={fighter.name}
+            class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 bg-white"
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#43334C] via-transparent to-transparent opacity-80"></div>
+          <div class="absolute bottom-0 left-0 w-full p-6">
+            <span class="text-[#FF8FB7] text-xs font-bold uppercase tracking-widest mb-2 block">{fighter.title}</span>
+            <h3 class="text-2xl font-heading font-bold text-white mb-2 leading-tight">{fighter.name}</h3>
+            <p class="text-white/80 text-sm line-clamp-2">{fighter.description}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Latest News Grid (Remaining) -->
+  <section class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-20">
+    <!-- News Column -->
+    <div class="lg:col-span-2 space-y-8">
+      <div class="flex items-center gap-4 mb-6">
+        <h2 class="text-3xl font-heading font-bold text-[#43334C]">MÁS NOTICIAS</h2>
+        <div class="h-px bg-[#E83C91]/20 flex-1"></div>
+      </div>
+
+      <div class="grid gap-6">
+        {allPostsByDate.slice(2).map(post => (
+          <article class="bg-white border border-border p-6 rounded-3xl flex flex-col md:flex-row gap-6 group hover:border-[#E83C91] hover:shadow-md transition-all">
+             <!-- Content -->
+             <div class="flex-1">
+               <div class="flex items-center gap-3 mb-3">
+                 <span class="text-xs font-bold text-[#E83C91] uppercase tracking-wider bg-[#E83C91]/10 px-3 py-1 rounded-full">
+                   {post.data.tags?.[0] || 'Noticia'}
+                 </span>
+                 <span class="text-xs text-[#43334C]/50">• {post.data.publishDate.toLocaleDateString()}</span>
+               </div>
+               <h3 class="text-2xl font-bold text-[#43334C] mb-3 group-hover:text-[#E83C91] transition-colors">
+                 <a href={`/blog/${post.id}/`}>{post.data.title}</a>
+               </h3>
+               <p class="text-[#43334C]/70 mb-4 line-clamp-2">{post.data.description}</p>
+             </div>
+          </article>
+        ))}
+      </div>
+    </div>
+
+    <!-- Sidebar / Categories -->
+    <aside class="space-y-8">
+      <div class="bg-white border border-border p-8 rounded-3xl shadow-sm">
+        <h3 class="font-heading text-xl font-bold text-[#43334C] mb-6">CATEGORÍAS</h3>
+        <ul class="space-y-3">
+          <li>
+            <a href="/fighters" class="flex items-center justify-between p-3 rounded-xl hover:bg-[#F8F4EC] transition-colors group">
+              <span class="text-[#43334C] font-medium group-hover:text-[#E83C91]">Peleadores</span>
+              <span class="text-xs bg-[#F8F4EC] text-[#43334C] px-2 py-1 rounded group-hover:bg-[#E83C91]/10 group-hover:text-[#E83C91]">Directory</span>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/category/noticias-eventos" class="flex items-center justify-between p-3 rounded-xl hover:bg-[#F8F4EC] transition-colors group">
+              <span class="text-[#43334C] font-medium group-hover:text-[#E83C91]">Noticias</span>
+              <span class="text-xs bg-[#F8F4EC] text-[#43334C] px-2 py-1 rounded group-hover:bg-[#E83C91]/10 group-hover:text-[#E83C91]">News</span>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/category/analisis-peleas" class="flex items-center justify-between p-3 rounded-xl hover:bg-[#F8F4EC] transition-colors group">
+              <span class="text-[#43334C] font-medium group-hover:text-[#E83C91]">Análisis</span>
+              <span class="text-xs bg-[#F8F4EC] text-[#43334C] px-2 py-1 rounded group-hover:bg-[#E83C91]/10 group-hover:text-[#E83C91]">Deep Dive</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Newsletter or Ad -->
+      <div class="bg-gradient-to-br from-[#E83C91] to-[#FF8FB7] p-8 rounded-3xl text-center relative overflow-hidden shadow-lg">
+        <div class="relative z-10">
+          <h3 class="font-heading text-2xl font-bold text-white mb-3">QUIMBARA VIP</h3>
+          <p class="text-white/90 text-sm mb-6 font-medium">Recibe análisis exclusivos antes de cada evento numerado.</p>
+          <button class="w-full bg-white text-[#E83C91] font-bold py-3 rounded-xl hover:bg-[#F8F4EC] transition-all shadow-md">
+            Suscribirse Gratis
+          </button>
+        </div>
+      </div>
+    </aside>
+  </section>
 </PageLayout>

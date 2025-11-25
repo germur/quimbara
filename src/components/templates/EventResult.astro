@@ -18,7 +18,7 @@ const fights = results.map(r => r.response?.[0]).filter(Boolean);
 ---
 
 <div class="event-results my-8">
-  <h2 class="text-3xl font-black text-center mb-8 uppercase tracking-tighter text-slate-900 dark:text-white">
+  <h2 class="text-3xl font-black text-center mb-8 uppercase tracking-tighter text-slate-900 dark:text-[#FF9E00]">
     {eventName}
   </h2>
 
@@ -30,7 +30,7 @@ const fights = results.map(r => r.response?.[0]).filter(Boolean);
       const isF2Winner = f2.winner;
 
       return (
-        <div class="fight-card bg-white dark:bg-slate-800 rounded-lg shadow-md overflow-hidden border-l-4 border-red-500">
+        <div class="fight-card bg-white dark:bg-[#3C096C] rounded-lg shadow-md overflow-hidden border-l-4 border-red-500">
           <div class="flex flex-col md:flex-row items-center justify-between p-4 gap-4">
             
             {/* Fighter 1 */}

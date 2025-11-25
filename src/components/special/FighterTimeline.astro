@@ -91,27 +91,27 @@ const allEvents = [...historicalEvents, ...recentEvents].sort((a, b) => parseInt
 
 <div class="fighter-profile bg-white rounded-xl shadow-lg overflow-hidden my-8">
     {fighter ? (
-        <div class="profile-header bg-slate-900 text-white p-8 flex flex-col md:flex-row items-center gap-8">
-            <div class="w-48 h-48 rounded-full overflow-hidden border-4 border-blue-500 shadow-xl shrink-0 bg-slate-800">
+        <div class="profile-header bg-[#240046] text-[#FF9E00] p-8 flex flex-col md:flex-row items-center gap-8">
+            <div class="w-48 h-48 rounded-full overflow-hidden border-4 border-blue-500 shadow-xl shrink-0 bg-[#3C096C]">
                 <img src={fighter.photo} alt={fighter.name} class="w-full h-full object-cover" />
             </div>
             <div class="text-center md:text-left">
                 <h2 class="text-4xl font-bold mb-2">{fighter.name}</h2>
                 <p class="text-xl text-blue-400 font-semibold mb-4">"{fighter.nickname}"</p>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
-                    <div class="bg-slate-800 p-3 rounded-lg">
+                    <div class="bg-[#3C096C] p-3 rounded-lg">
                         <span class="block text-slate-400 text-xs uppercase">Altura</span>
                         <span class="font-bold">{fighter.height}</span>
                     </div>
-                    <div class="bg-slate-800 p-3 rounded-lg">
+                    <div class="bg-[#3C096C] p-3 rounded-lg">
                         <span class="block text-slate-400 text-xs uppercase">Peso</span>
                         <span class="font-bold">{fighter.weight}</span>
                     </div>
-                    <div class="bg-slate-800 p-3 rounded-lg">
+                    <div class="bg-[#3C096C] p-3 rounded-lg">
                         <span class="block text-slate-400 text-xs uppercase">Alcance</span>
                         <span class="font-bold">{fighter.reach}</span>
                     </div>
-                    <div class="bg-slate-800 p-3 rounded-lg">
+                    <div class="bg-[#3C096C] p-3 rounded-lg">
                         <span class="block text-slate-400 text-xs uppercase">Guardia</span>
                         <span class="font-bold">{fighter.stance}</span>
                     </div>
@@ -124,7 +124,7 @@ const allEvents = [...historicalEvents, ...recentEvents].sort((a, b) => parseInt
 
     {/* Detailed Fight Record Section */}
     {records && (
-        <div class="record-stats bg-gradient-to-r from-slate-800 to-slate-900 text-white p-8">
+        <div class="record-stats bg-gradient-to-r from-slate-800 to-slate-900 text-[#FF9E00] p-8">
             <h3 class="text-2xl font-bold mb-6 text-center">Récord Profesional</h3>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
                 {/* Total Record */}
@@ -141,15 +141,15 @@ const allEvents = [...historicalEvents, ...recentEvents].sort((a, b) => parseInt
                     <div class="space-y-2 text-sm">
                         <div class="flex justify-between">
                             <span class="text-slate-300">Por KO/TKO:</span>
-                            <span class="font-bold text-white">{records.ko.win}</span>
+                            <span class="font-bold text-[#FF9E00]">{records.ko.win}</span>
                         </div>
                         <div class="flex justify-between">
                             <span class="text-slate-300">Por Decisión:</span>
-                            <span class="font-bold text-white">{records.dec?.win || 0}</span>
+                            <span class="font-bold text-[#FF9E00]">{records.dec?.win || 0}</span>
                         </div>
                         <div class="flex justify-between">
                             <span class="text-slate-300">Por Sumisión:</span>
-                            <span class="font-bold text-white">{records.sub.win}</span>
+                            <span class="font-bold text-[#FF9E00]">{records.sub.win}</span>
                         </div>
                     </div>
                 </div>
@@ -160,15 +160,15 @@ const allEvents = [...historicalEvents, ...recentEvents].sort((a, b) => parseInt
                     <div class="space-y-2 text-sm">
                         <div class="flex justify-between">
                             <span class="text-slate-300">Por KO/TKO:</span>
-                            <span class="font-bold text-white">{records.ko.loss}</span>
+                            <span class="font-bold text-[#FF9E00]">{records.ko.loss}</span>
                         </div>
                         <div class="flex justify-between">
                             <span class="text-slate-300">Por Decisión:</span>
-                            <span class="font-bold text-white">{records.dec?.loss || 0}</span>
+                            <span class="font-bold text-[#FF9E00]">{records.dec?.loss || 0}</span>
                         </div>
                         <div class="flex justify-between">
                             <span class="text-slate-300">Por Sumisión:</span>
-                            <span class="font-bold text-white">{records.sub.loss}</span>
+                            <span class="font-bold text-[#FF9E00]">{records.sub.loss}</span>
                         </div>
                     </div>
                 </div>
@@ -190,8 +190,8 @@ const allEvents = [...historicalEvents, ...recentEvents].sort((a, b) => parseInt
                     }`}></div>
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                         <span class="text-sm font-bold text-blue-600 mb-1 block">{event.year}</span>
-                        <h4 class="text-lg font-bold text-gray-900 mb-2">{event.title}</h4>
-                        <p class="text-gray-600">{event.description}</p>
+                        <h4 class="text-lg font-bold text-[#9D4EDD] 900 mb-2">{event.title}</h4>
+                        <p class="text-[#9D4EDD] 600">{event.description}</p>
                     </div>
                 </div>
             ))}

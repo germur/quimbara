@@ -1,0 +1,81 @@
+---
+import PageLayout from '@/layouts/BaseLayout.astro'
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+import { getCollection } from 'astro:content'
+
+export const prerender = true
+
+const allPosts = await getCollection('blog')
+const analysisPosts = allPosts
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
+  .filter(post => post.data.tags?.some(tag => ['analisis', 'tecnica', 'prediccion', 'deep-dive'].includes(tag.toLowerCase())))
+
+const meta = {
+  title: 'Análisis Técnico y Predicciones UFC | Quimbara',
+  description: 'Desgloses técnicos detallados, análisis de estilos y predicciones fundamentadas para los grandes combates de UFC y MMA.'
+}
+---
+
+<PageLayout {meta}>
+  <Breadcrumbs
+    path={[
+      { title: 'Inicio', link: '/' },
+      { title: 'Análisis Técnico', link: '/analisis/' }
+    ]}
+  />
+
+  <section class="py-12">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="seo-badge bg-blue-600 text-[#FF9E00] mb-4">Deep Dive</div>
+      <h1 class="text-5xl md:text-6xl font-heading font-bold text-[#FF9E00] mb-6">
+        LA CIENCIA DEL <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">COMBATE</span>
+      </h1>
+      <p class="text-xl text-[#9D4EDD] 400 font-light">
+        Más allá del resultado. Desglosamos la estrategia, la biomecánica y la psicología detrás de cada victoria en el octágono.
+      </p>
+    </div>
+
+    <div class="grid gap-12">
+      {analysisPosts.map((post, index) => (
+        <article class={`group relative grid md:grid-cols-2 gap-8 items-center ${index % 2 !== 0 ? 'md:grid-flow-dense' : ''}`}>
+          <!-- Image Side -->
+          <a href={`/blog/${post.id}/`} class={`block overflow-hidden rounded-2xl shadow-2xl border border-white/10 aspect-[16/9] ${index % 2 !== 0 ? 'md:col-start-2' : ''}`}>
+             {post.data.heroImage ? (
+              <img 
+                src={post.data.heroImage.src.src} 
+                alt={post.data.heroImage.alt}
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 filter saturate-0 group-hover:saturate-100"
+                loading="lazy"
+              />
+             ) : (
+              <div class="w-full h-full bg-gray-800"></div>
+             )}
+             <div class="absolute inset-0 bg-blue-900/20 mix-blend-overlay group-hover:bg-transparent transition-colors"></div>
+          </a>
+
+          <!-- Content Side -->
+          <div class={`space-y-6 ${index % 2 !== 0 ? 'md:col-start-1 text-right md:text-right' : ''}`}>
+            <div class={`flex items-center gap-3 text-sm text-blue-400 font-bold uppercase tracking-wider ${index % 2 !== 0 ? 'justify-end' : ''}`}>
+              <span>{post.data.tags?.[0] || 'Análisis'}</span>
+              <span class="w-12 h-px bg-blue-500/50"></span>
+            </div>
+            
+            <h2 class="text-3xl md:text-4xl font-heading font-bold text-[#FF9E00] leading-tight group-hover:text-blue-400 transition-colors">
+              <a href={`/blog/${post.id}/`}>{post.data.title}</a>
+            </h2>
+            
+            <p class="text-[#9D4EDD] 400 text-lg leading-relaxed">
+              {post.data.description}
+            </p>
+            
+            <div class={`pt-4 ${index % 2 !== 0 ? 'flex justify-end' : ''}`}>
+              <a href={`/blog/${post.id}/`} class="btn-secondary text-sm py-2 px-6 border-[#9D4EDD] 500/30 hover:bg-blue-500/10 hover:text-blue-400">
+                Leer Análisis
+              </a>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</PageLayout>

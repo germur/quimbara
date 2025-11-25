@@ -1,28 +1,38 @@
 ---
-title: "Islam Makhachev: Perfil y Línea de Tiempo"
-description: "Luchador de Welterweight."
-publishDate: "2025-11-24"
-tags:
-  - UFC
-  - Islam Makhachev
-  - Perfil
-  - Automated
-heroImage:
-  src: "./mma-generic-cover.jpg"
-  color: "#0F172A"
-comment: false
+title: 'Islam Makhachev: Perfil y Línea de Tiempo'
+description: 'Dominación total. Heredero del legado de Khabib Nurmagomedov.'
+publishDate: '2025-11-23'
+tags: ['UFC', 'Islam Makhachev', 'Perfil', 'Campeón']
 ---
 
-import FighterTimeline from '@/components/special/FighterTimeline.astro';
+import FighterProfile from '@/components/special/FighterProfile.astro';
 
-<FighterTimeline 
+<FighterProfile 
   fighterId={333}
   historicalEvents={[
     {
       year: '2024',
-      title: 'Generado Automáticamente',
-      description: 'Este perfil se actualiza automáticamente con la API de MMA.',
-      type: 'fight'
+      title: 'Defensa ante Dustin Poirier',
+      description: 'Makhachev somete a Poirier en UFC 302 para defender su título de peso ligero por tercera vez.',
+      type: 'championship'
+    },
+    {
+      year: '2023',
+      title: 'Victoria ante Volkanovski (Revancha)',
+      description: 'Gana decisión unánime ante Alexander Volkanovski en UFC 294 en Abu Dhabi.',
+      type: 'championship'
+    },
+    {
+      year: '2023',
+      title: 'Defensa ante Alexander Volkanovski',
+      description: 'Defiende exitosamente su título contra el campeón de peso pluma en UFC 284 en Perth.',
+      type: 'championship'
+    },
+    {
+      year: '2022',
+      title: 'Campeón de Peso Ligero UFC',
+      description: 'Derrota a Charles Oliveira por sumisión en el segundo asalto para ganar el cinturón en UFC 280.',
+      type: 'championship'
     }
   ]}
 />

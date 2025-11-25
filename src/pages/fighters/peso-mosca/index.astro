@@ -1,0 +1,203 @@
+---
+import PageLayout from '@/layouts/BaseLayout.astro'
+import { CardList, Button } from 'astro-pure/user'
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+import fightersData from '@/data/fighters.json'
+import { getCollection } from 'astro:content'
+import { weightClasses } from '@/data/weightClasses'
+
+export const prerender = true
+
+const division = 'Flyweight'
+const divisionSlug = 'peso-mosca'
+
+// Encontrar info de esta división
+const divisionInfo = weightClasses.find((wc) => wc.slug === divisionSlug)
+const divisionEs = divisionInfo?.nameEs || 'Peso Mosca'
+
+// Filtrar peleadores de esta división
+const divisionFighters = fightersData.filter((f) => f.division === division)
+
+// Top 10 ranking (por ahora simplemente los primeros 10)
+const ranking = divisionFighters.slice(0, 10)
+
+// Noticias relacionadas con esta división
+const allPosts = await getCollection('blog')
+const relatedNews = allPosts
+  .filter((post) =>
+    post.data.tags.some((tag) =>
+      ['peso-mosca', 'flyweight', 'alexandre-pantoja', 'brandon-royval'].includes(
+        tag.toLowerCase()
+      )
+    )
+  )
+  .slice(0, 3)
+
+const meta = {
+  title: `Peleadores de ${divisionEs} UFC - Ranking y Perfiles Completos | Quimbara`,
+  description: `Descubre todos los peleadores de ${divisionEs.toLowerCase()} de UFC. Ranking actualizado, perfiles detallados, estadísticas y análisis de la división ${division}.`
+}
+
+// Schema.org
+const schemaMarkup = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `Peleadores de ${divisionEs} UFC`,
+  description: meta.description,
+  url: `https://quimbara.org/fighters/${divisionSlug}/`
+}
+---
+
+<PageLayout {meta}>
+  <!-- Breadcrumb - Jerarquía Completa -->
+  <Breadcrumbs
+    path={[
+      { title: 'Inicio', link: '/' },
+      { title: 'Peleadores', link: '/fighters/' },
+      { title: divisionEs, link: `/fighters/${divisionSlug}/` }
+    ]}
+  />
+
+  <!-- Hero Section - Visual Premium -->
+  <section class="hero py-12 border-b border-white/10 pb-8 mb-8">
+    <div class="flex flex-col md:flex-row justify-between items-end gap-4">
+      <div>
+        <div class="seo-badge bg-blue-600 text-[#FF9E00] mb-2">División Oficial</div>
+        <h1 class="text-4xl md:text-6xl font-heading font-bold mb-2 text-[#FF9E00]">
+          PELEADORES <span class="text-red-600">{divisionEs.toUpperCase()}</span>
+        </h1>
+        <p class="text-lg text-[#9D4EDD] 400 max-w-2xl">
+          {divisionInfo?.description || 'Ranking oficial, estadísticas y noticias de la división.'}
+        </p>
+      </div>
+      <div class="glass-panel px-4 py-2 rounded-lg flex items-center gap-3">
+         <span class="text-xs text-[#9D4EDD] 400 uppercase font-bold">Campeón Actual</span>
+         <span class="text-red-500 font-bold font-heading text-lg">ALEXANDRE PANTOJA</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <!-- Main Content: Ranking Table -->
+    <div class="lg:col-span-2">
+       <div class="glass-panel rounded-xl overflow-hidden">
+          <div class="p-4 border-b border-white/10 bg-white/5 flex justify-between items-center">
+             <h3 class="font-heading font-bold text-[#FF9E00] text-lg">Ranking Oficial Top 10</h3>
+          </div>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left">
+               <thead class="bg-black/20 text-[#9D4EDD] 400 text-xs uppercase">
+                  <tr>
+                     <th class="p-4 w-12">#</th>
+                     <th class="p-4">Peleador</th>
+                     <th class="p-4 text-right">Récord</th>
+                     <th class="p-4 text-center">Trend</th>
+                     <th class="p-4"></th>
+                  </tr>
+               </thead>
+               <tbody class="divide-y divide-white/5">
+                  {ranking.map((fighter, index) => (
+                     <tr class="hover:bg-white/5 transition-colors group">
+                        <td class="p-4 font-bold text-[#9D4EDD] 400 group-hover:text-[#FF9E00]">#{index + 1}</td>
+                        <td class="p-4 font-bold text-[#FF9E00] flex items-center gap-3">
+                           <img 
+                              src={`https://media.api-sports.io/mma/fighters/${fighter.id}.png`} 
+                              alt={fighter.name}
+                              class="w-10 h-10 rounded-full bg-gray-800 object-cover border border-white/10" 
+                              loading="lazy" 
+                              onerror="this.src='/images/fighter-placeholder.png'" 
+                           />
+                           {fighter.name}
+                        </td>
+                        <td class="p-4 text-right text-[#9D4EDD] 400 font-mono text-sm">--</td>
+                        <td class="p-4 text-center text-[#9D4EDD] 500">-</td>
+                        <td class="p-4 text-right">
+                           <a href={`/blog/perfiles-luchadores/${fighter.slug}`} class="text-xs text-red-500 font-bold uppercase hover:text-red-400 flex items-center justify-end gap-1">
+                             Ver Perfil
+                           </a>
+                        </td>
+                     </tr>
+                  ))}
+               </tbody>
+            </table>
+          </div>
+       </div>
+    </div>
+
+    <!-- Sidebar -->
+    <aside class="space-y-6">
+       <!-- Related News -->
+       {relatedNews.length > 0 && (
+         <div class="glass-panel p-5 rounded-xl">
+            <h3 class="font-heading text-lg mb-4 text-[#FF9E00] border-b border-white/10 pb-2">Noticias de la División</h3>
+            <ul class="space-y-4">
+              {relatedNews.map((post) => (
+                <li class="group">
+                  <a href={`/blog/${post.id}/`} class="block">
+                    <h4 class="text-sm text-[#9D4EDD] 300 group-hover:text-red-400 transition-colors font-medium leading-snug mb-1">
+                      {post.data.title}
+                    </h4>
+                    <span class="text-xs text-[#9D4EDD] 500">Leer más →</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+         </div>
+       )}
+       
+       <!-- Context -->
+       <div class="bg-blue-900/20 p-5 rounded-xl border border-[#9D4EDD] 900/50">
+          <h3 class="font-heading text-blue-400 text-lg mb-2">Datos Históricos</h3>
+          <p class="text-sm text-[#9D4EDD] 400 leading-relaxed">
+             {divisionInfo?.history || 'La división de peso pesado ha sido históricamente una de las más emocionantes.'}
+          </p>
+          <div class="mt-4 pt-4 border-t border-[#9D4EDD] 900/30">
+            <p class="text-xs text-[#9D4EDD] 500 uppercase font-bold mb-1">Límite de Peso</p>
+            <p class="text-[#FF9E00] font-mono">{divisionInfo?.limit}</p>
+          </div>
+       </div>
+    </aside>
+  </div>
+
+  <!-- Todos los Peleadores de la División -->
+  <section class="py-12 mt-8 border-t border-white/10">
+    <div class="flex items-center gap-3 mb-8">
+      <div class="h-8 w-1 bg-gray-600 rounded-full"></div>
+      <h2 class="text-3xl font-heading font-bold text-foreground uppercase tracking-wide">
+        Roster Completo
+      </h2>
+    </div>
+    <p class="text-muted-foreground mb-6">
+      <strong>{divisionFighters.length}</strong> peleadores activos en la división {divisionEs}
+    </p>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      {
+        divisionFighters.map((fighter) => (
+          <a
+            href={`/blog/perfiles-luchadores/${fighter.slug}`}
+            class="group block glass-panel rounded-lg overflow-hidden hover:border-red-600/50 transition-all duration-300 shadow-sm hover:shadow-md relative"
+          >
+            <div class="aspect-square relative overflow-hidden bg-muted">
+              <img
+                src={`https://media.api-sports.io/mma/fighters/${fighter.id}.png`}
+                alt={fighter.name}
+                class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500"
+                loading="lazy"
+                onerror="this.src='/images/fighter-placeholder.png'"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
+            </div>
+            <div class="p-3 absolute bottom-0 w-full">
+              <h3 class="font-bold text-[#FF9E00] group-hover:text-red-500 transition-colors line-clamp-1 text-sm">
+                {fighter.name}
+              </h3>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Schema.org -->
+  <script type="application/ld+json" set:html={JSON.stringify(schemaMarkup)} />
+</PageLayout>

@@ -1,28 +1,44 @@
 ---
-title: "Ilia Topuria: Perfil y Línea de Tiempo"
-description: "\"El Matador\". Luchador de Featherweight."
-publishDate: "2025-11-24"
-tags:
-  - UFC
-  - Ilia Topuria
-  - Perfil
-  - Automated
-heroImage:
-  src: "./mma-generic-cover.jpg"
-  color: "#0F172A"
-comment: false
+title: 'Ilia Topuria: Perfil y Línea de Tiempo'
+description: 'El Matador. Invicto en UFC con poder devastador en ambas manos.'
+publishDate: '2025-11-23'
+tags: ['UFC', 'Ilia Topuria', 'Perfil', 'Campeón']
 ---
 
-import FighterTimeline from '@/components/special/FighterTimeline.astro';
+import FighterProfile from '@/components/special/FighterProfile.astro';
 
-<FighterTimeline 
+<FighterProfile 
   fighterId={855}
   historicalEvents={[
     {
       year: '2024',
-      title: 'Generado Automáticamente',
-      description: 'Este perfil se actualiza automáticamente con la API de MMA.',
+      title: 'Defensa Histórica vs Holloway',
+      description: 'Se convierte en el primero en noquear a Max Holloway (UFC 308), reteniendo el cinturón con un gancho de izquierda devastador.',
+      type: 'championship'
+    },
+    {
+      year: '2024',
+      title: 'Rey del Peso Pluma',
+      description: 'Acaba con el reinado de Alexander Volkanovski vía KO en el segundo asalto (UFC 298), cumpliendo su profecía de ser campeón.',
+      type: 'championship'
+    },
+    {
+      year: '2023',
+      title: 'Clase Maestra vs Emmett',
+      description: 'Domina 5 asaltos a Josh Emmett en una exhibición de boxeo y IQ de pelea, ganando decisión unánime (50-44, 50-42).',
       type: 'fight'
+    },
+    {
+      year: '2022',
+      title: 'Sometiendo a Bryce Mitchell',
+      description: 'Desmantela al experto en grappling Bryce Mitchell en UFC 282, finalizándolo con un Arm Triangle Choke.',
+      type: 'submission'
+    },
+    {
+      year: '2020',
+      title: 'Debut en UFC',
+      description: 'Entra con corto aviso y domina a Youssef Zalal, mostrando un nivel de suelo y striking muy superior.',
+      type: 'debut'
     }
   ]}
 />

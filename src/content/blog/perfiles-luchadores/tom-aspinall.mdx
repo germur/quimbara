@@ -1,28 +1,44 @@
 ---
-title: "Tom Aspinall: Perfil y Línea de Tiempo"
-description: "Luchador de Heavyweight."
-publishDate: "2025-11-24"
-tags:
-  - UFC
-  - Tom Aspinall
-  - Perfil
-  - Automated
-heroImage:
-  src: "./mma-generic-cover.jpg"
-  color: "#0F172A"
-comment: false
+title: 'Tom Aspinall: Perfil y Línea de Tiempo'
+description: 'El británico imparable que domina el peso pesado con finalizaciones rápidas y técnica superior.'
+publishDate: '2025-11-25'
+tags: ['UFC', 'Tom Aspinall', 'Perfil', 'Peso Pesado', 'Contender']
 ---
 
-import FighterTimeline from '@/components/special/FighterTimeline.astro';
+import FighterProfile from '@/components/special/FighterProfile.astro';
 
-<FighterTimeline 
-  fighterId={701}
+<FighterProfile 
+  fighterId={2252}
   historicalEvents={[
     {
       year: '2024',
-      title: 'Generado Automáticamente',
-      description: 'Este perfil se actualiza automáticamente con la API de MMA.',
+      title: 'Campeón Interino vs Blaydes',
+      description: 'Defiende título interino de peso pesado con KO devastador en el primer asalto ante Curtis Blaydes en UFC 304 Manchester.',
+      type: 'championship'
+    },
+    {
+      year: '2023',
+      title: 'Título Interino ante Pavlovich',
+      description: 'Conquista cinturón interino de peso pesado noqueando a Sergei Pavlovich en solo 69 segundos en UFC 295 Madison Square Garden.',
+      type: 'championship'
+    },
+    {
+      year: '2023',
+      title: 'Regreso Triunfal vs Tybura',
+      description: 'Vuelve de lesión de rodilla y finaliza a Marcin Tybura por sumisión en el primer asalto, demostrando estar de vuelta.',
+      type: 'submission'
+    },
+    {
+      year: '2022',
+      title: 'Ascenso Meteórico',
+      description: 'Derrota a Curtis Blaydes en su primera pelea principal, pero sufre devastadora lesión de rodilla que detiene su racha.',
       type: 'fight'
+    },
+    {
+      year: '2020',
+      title: 'Debut en UFC',
+      description: 'Entra a UFC y finaliza a Jake Collier por TKO en el primer asalto, anunciando su llegada al peso pesado.',
+      type: 'debut'
     }
   ]}
 />

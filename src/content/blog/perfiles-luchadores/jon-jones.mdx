@@ -1,28 +1,38 @@
 ---
-title: "Jon Jones: Perfil y Línea de Tiempo"
-description: "\"Bones\". Luchador de Heavyweight."
-publishDate: "2025-11-24"
-tags:
-  - UFC
-  - Jon Jones
-  - Perfil
-  - Automated
-heroImage:
-  src: "./mma-generic-cover.jpg"
-  color: "#0F172A"
-comment: false
+title: 'Jon Jones: Perfil y Línea de Tiempo'
+description: 'El GOAT. El luchador más dominante en la historia de UFC.'
+publishDate: '2025-11-23'
+tags: ['UFC', 'Jon Jones', 'Perfil', 'Campeón']
 ---
 
-import FighterTimeline from '@/components/special/FighterTimeline.astro';
+import FighterProfile from '@/components/special/FighterProfile.astro';
 
-<FighterTimeline 
-  fighterId={214}
+<FighterProfile 
+  fighterId={7}
   historicalEvents={[
     {
       year: '2024',
-      title: 'Generado Automáticamente',
-      description: 'Este perfil se actualiza automáticamente con la API de MMA.',
-      type: 'fight'
+      title: 'Defensa Exitosa del Título Pesado',
+      description: 'Jones defiende su cinturón de peso pesado ante Stipe Miocic en UFC 309 en el Madison Square Garden.',
+      type: 'championship'
+    },
+    {
+      year: '2023',
+      title: 'Campeón de Peso Pesado UFC',
+      description: 'Derrota a Ciryl Gane por sumisión en el primer asalto para ganar el título de peso pesado en UFC 285.',
+      type: 'championship'
+    },
+    {
+      year: '2020',
+      title: 'Vacancia del Título Semipesado',
+      description: 'Jones renuncia al cinturón de peso semipesado tras defender exitosamente 11 veces el título.',
+      type: 'championship'
+    },
+    {
+      year: '2011',
+      title: 'Campeón Más Joven de UFC',
+      description: 'Derrota a Mauricio Shogun Rua para convertirse en el campeón más joven en la historia de UFC a los 23 años.',
+      type: 'championship'
     }
   ]}
 />

@@ -1,28 +1,50 @@
 ---
-title: "Max Holloway: Perfil y Línea de Tiempo"
-description: "\"Blessed\". Luchador de Featherweight."
-publishDate: "2025-11-24"
-tags:
-  - UFC
-  - Max Holloway
-  - Perfil
-  - Automated
-heroImage:
-  src: "./mma-generic-cover.jpg"
-  color: "#0F172A"
-comment: false
+title: 'Max Holloway: Perfil y Línea de Tiempo'
+description: 'Blessed. El hawaiano con el récord de más golpes conectados en UFC y corazón inquebrantable.'
+publishDate: '2025-11-25'
+tags: ['UFC', 'Max Holloway', 'Perfil', 'Peso Pluma', 'Leyenda']
 ---
 
-import FighterTimeline from '@/components/special/FighterTimeline.astro';
+import FighterProfile from '@/components/special/FighterProfile.astro';
 
-<FighterTimeline 
-  fighterId={256}
+<FighterProfile 
+  fighterId={100}
   historicalEvents={[
     {
       year: '2024',
-      title: 'Generado Automáticamente',
-      description: 'Este perfil se actualiza automáticamente con la API de MMA.',
+      title: 'KO Histórico ante Justin Gaethje',
+      description: 'Noquea a Justin Gaethje con un segundo restante en UFC 300 BMF, en uno de los KOs más icónicos de la historia.',
       type: 'fight'
+    },
+    {
+      year: '2024',
+      title: 'Derrota ante Ilia Topuria',
+      description: 'Pierde título de peso pluma ante Ilia Topuria por KO en UFC 308, primera vez noqueado en su carrera profesional.',
+      type: 'championship'
+    },
+    {
+      year: '2023',
+      title: 'Victoria ante Arnold Allen',
+      description: 'Domina a Arnold Allen por decisión unánime en UFC Fight Night Kansas City, demostrando que sigue siendo élite.',
+      type: 'fight'
+    },
+    {
+      year: '2019',
+      title: 'Guerra con Alexander Volkanovski',
+      description: 'Pierde decisión controversial ante Volkanovski en UFC 251, muchos creyeron que Holloway ganó.',
+      type: 'championship'
+    },
+    {
+      year: '2017',
+      title: 'Campeón de Peso Pluma',
+      description: 'Vence a José Aldo por TKO en UFC 212 Brasil, arrebatándole el título al legendario campeón.',
+      type: 'championship'
+    },
+    {
+      year: '2012',
+      title: 'Debut en UFC a los 20 años',
+      description: 'Entra a UFC y pierde ante Dustin Poirier por sumisión, comenzando su épico viaje de redención.',
+      type: 'debut'
     }
   ]}
 />

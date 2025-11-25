@@ -1,28 +1,50 @@
 ---
-title: "Charles Oliveira: Perfil y Línea de Tiempo"
-description: "\"Do Bronxs\". Luchador de Lightweight."
-publishDate: "2025-11-24"
-tags:
-  - UFC
-  - Charles Oliveira
-  - Perfil
-  - Automated
-heroImage:
-  src: "./mma-generic-cover.jpg"
-  color: "#0F172A"
-comment: false
+title: 'Charles Oliveira: Perfil y Línea de Tiempo'
+description: 'Do Bronx. El brasileño con más finalizaciones en la historia de UFC y récord de sumisiones.'
+publishDate: '2025-11-25'
+tags: ['UFC', 'Charles Oliveira', 'Perfil', 'Peso Ligero', 'Leyenda']
 ---
 
-import FighterTimeline from '@/components/special/FighterTimeline.astro';
+import FighterProfile from '@/components/special/FighterProfile.astro';
 
-<FighterTimeline 
-  fighterId={47}
+<FighterProfile 
+  fighterId={132}
   historicalEvents={[
     {
       year: '2024',
-      title: 'Generado Automáticamente',
-      description: 'Este perfil se actualiza automáticamente con la API de MMA.',
+      title: 'Victoria ante Michael Chandler',
+      description: 'Derrota a Michael Chandler por decisión unánime en UFC 309, demostrando que sigue siendo élite absoluta del peso ligero.',
       type: 'fight'
+    },
+    {
+      year: '2023',
+      title: 'Batalla con Beneil Dariush',
+      description: 'Finaliza a Beneil Dariush por TKO en el primer asalto en UFC 288, manteniéndose como top contender.',
+      type: 'fight'
+    },
+    {
+      year: '2022',
+      title: 'Guerra con Justin Gaethje',
+      description: 'Pierde disputa por título vacante ante Justin Gaethje por sumisión, en una de las peleas del año.',
+      type: 'fight'
+    },
+    {
+      year: '2021',
+      title: 'Campeón de Peso Ligero',
+      description: 'Noquea a Michael Chandler en UFC 262 para convertirse en campeón, coronando su increíble racha de finalizaciones.',
+      type: 'championship'
+    },
+    {
+      year: '2021',
+      title: 'Finalización de Tony Ferguson',
+      description: 'Somete a Tony Ferguson en el primer asalto en UFC 256, la primera finalización de Ferguson en su carrera.',
+      type: 'submission'
+    },
+    {
+      year: '2010',
+      title: 'Debut en UFC',
+      description: 'Entra a UFC a los 20 años y somete a Darren Elkins, comenzando su legendaria carrera de finalizaciones.',
+      type: 'debut'
     }
   ]}
 />

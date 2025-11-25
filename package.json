@@ -19,7 +19,6 @@
     "cache:avatars": "tsx scripts/cacheAvatars.ts"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.5",
     "@astrojs/netlify": "^6.6.2",
     "@astrojs/rss": "^4.0.13",
     "@astrojs/vercel": "^9.0.0",
@@ -30,15 +29,16 @@
     "katex": "^0.16.25",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
-    "sharp": "^0.34.4",
-    "typescript": "^5.9.3"
+    "sharp": "^0.34.4"
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.5",
     "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
     "@typescript-eslint/parser": "^8.46.3",
     "eslint": "^9.39.1",
     "eslint-plugin-astro": "^1.5.0",
     "prettier": "^3.6.2",
-    "prettier-plugin-astro": "^0.14.1"
+    "prettier-plugin-astro": "^0.14.1",
+    "typescript": "^5.9.3"
   }
 }

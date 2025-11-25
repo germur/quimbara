@@ -1,0 +1,224 @@
+---
+import { Button } from 'astro-pure/user'
+import PageLayout from '@/layouts/BaseLayout.astro'
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+
+export const prerender = true
+
+const meta = {
+  title: 'Calendario UFC y Eventos MMA | Quimbara',
+  description:
+    'Calendario actualizado de eventos UFC. Próximas carteleras, horarios, dónde ver y resultados de UFC 300, Fight Nights y más.'
+}
+
+const nextEvent = {
+  name: 'UFC 310: Pantoja vs. Asakura',
+  date: '7 de Diciembre, 2024',
+  location: 'T-Mobile Arena, Las Vegas',
+  mainEvent: 'Alexandre Pantoja vs. Kai Asakura',
+  coMain: 'Shavkat Rakhmonov vs. Ian Garry',
+  image: '/images/events/ufc-310.jpg' // Placeholder
+}
+
+const upcomingEvents = [
+  {
+    name: 'UFC Fight Night: Garry vs. Buckley',
+    date: '14 de Diciembre, 2024',
+    location: 'Tampa, Florida',
+    type: 'Fight Night'
+  },
+  {
+    name: 'UFC 311: Makhachev vs. Tsarukyan 2',
+    date: '18 de Enero, 2025',
+    location: 'Los Angeles, California',
+    type: 'Numbered'
+  },
+  {
+    name: 'UFC 312: Whittaker vs. Chimaev',
+    date: '9 de Febrero, 2025',
+    location: 'Sydney, Australia',
+    type: 'Numbered'
+  }
+]
+
+const schemaMarkup = {
+  '@context': 'https://schema.org',
+  '@type': 'Event',
+  name: nextEvent.name,
+  startDate: '2024-12-07T19:00:00-08:00',
+  location: {
+    '@type': 'Place',
+    name: nextEvent.location,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Las Vegas',
+      addressRegion: 'NV',
+      addressCountry: 'US'
+    }
+  },
+  image: ['https://quimbara.org/images/events/ufc-310.jpg'],
+  description: `UFC 310 presenta la defensa del título de peso mosca entre ${nextEvent.mainEvent}.`
+}
+---
+
+<PageLayout {meta}>
+  <Breadcrumbs
+    path={[
+      { title: 'Inicio', link: '/' },
+      { title: 'Eventos UFC', link: '/eventos-ufc/' }
+    ]}
+  />
+
+  <!-- Hero: Next Event -->
+  <section
+    class='hero py-12 mb-12 relative overflow-hidden rounded-3xl border border-white/10 shadow-2xl group'
+  >
+    <div class='absolute inset-0 bg-gradient-to-r from-red-900/90 to-black/80 z-10'></div>
+    <div
+      class="absolute inset-0 bg-[url('/images/octagon-bg.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay z-0 group-hover:scale-105 transition-transform duration-700"
+    >
+    </div>
+
+    <div
+      class='relative z-20 px-6 md:px-12 py-8 flex flex-col md:flex-row items-center justify-between gap-8'
+    >
+      <div class='text-center md:text-left'>
+        <div class='seo-badge bg-yellow-500 text-black mb-4 animate-pulse'>
+          Próximo Evento Numerado
+        </div>
+        <h1 class='text-5xl md:text-7xl font-heading font-bold text-[#FF9E00] mb-2 leading-none'>
+          UFC <span
+            class='text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-red-500'
+            >310</span
+          >
+        </h1>
+        <h2 class='text-2xl md:text-3xl font-bold text-[#9D4EDD] 200 mb-6 font-heading'>
+          {nextEvent.mainEvent}
+        </h2>
+
+        <div class='flex flex-col md:flex-row gap-6 text-[#9D4EDD] 300 mb-8'>
+          <div class='flex items-center gap-2 justify-center md:justify-start'>
+            <svg class='w-5 h-5 text-red-500' fill='none' stroke='currentColor' viewBox='0 0 24 24'
+              ><path
+                stroke-linecap='round'
+                stroke-linejoin='round'
+                stroke-width='2'
+                d='M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z'
+              ></path></svg
+            >
+            <span class='font-mono'>{nextEvent.date}</span>
+          </div>
+          <div class='flex items-center gap-2 justify-center md:justify-start'>
+            <svg class='w-5 h-5 text-red-500' fill='none' stroke='currentColor' viewBox='0 0 24 24'
+              ><path
+                stroke-linecap='round'
+                stroke-linejoin='round'
+                stroke-width='2'
+                d='M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z'
+              ></path><path
+                stroke-linecap='round'
+                stroke-linejoin='round'
+                stroke-width='2'
+                d='M15 11a3 3 0 11-6 0 3 3 0 016 0z'></path></svg
+            >
+            <span>{nextEvent.location}</span>
+          </div>
+        </div>
+
+        <div class='flex flex-wrap gap-4 justify-center md:justify-start'>
+          <a href='/eventos-ufc/ufc-310' class='btn-primary'> Ver Cartelera Completa </a>
+          <a href='/analisis/ufc-310-predicciones' class='btn-secondary'>
+            Análisis y Predicciones
+          </a>
+        </div>
+      </div>
+
+      <!-- Fight Card Preview (Simplified) -->
+      <div class='glass-panel p-6 rounded-xl max-w-sm w-full border-l-4 border-l-yellow-500'>
+        <h3 class='text-[#FF9E00] font-bold mb-4 border-b border-white/10 pb-2'>Cartelera Estelar</h3>
+        <ul class='space-y-3 text-sm'>
+          <li class='flex justify-between items-center'>
+            <span class='text-yellow-400 font-bold'>C</span>
+            <span class='text-[#9D4EDD] 200'>Pantoja vs. Asakura</span>
+          </li>
+          <li class='flex justify-between items-center'>
+            <span class='text-[#9D4EDD] 500 font-bold'>Co</span>
+            <span class='text-[#9D4EDD] 300'>Rakhmonov vs. Garry</span>
+          </li>
+          <li class='flex justify-between items-center'>
+            <span class='text-[#9D4EDD] 500 font-bold'>HW</span>
+            <span class='text-[#9D4EDD] 300'>Gane vs. Volkov</span>
+          </li>
+          <li class='flex justify-between items-center'>
+            <span class='text-[#9D4EDD] 500 font-bold'>FW</span>
+            <span class='text-[#9D4EDD] 300'>Evloev vs. Sterling</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Upcoming Events List -->
+  <section class='py-12'>
+    <div class='flex items-center gap-3 mb-8'>
+      <div class='h-8 w-1 bg-[#FF8500] 600 rounded-full'></div>
+      <h2 class='text-3xl font-heading font-bold text-foreground uppercase tracking-wide'>
+        Calendario Futuro
+      </h2>
+    </div>
+
+    <div class='grid gap-4'>
+      {
+        upcomingEvents.map((event) => (
+          <div class='glass-panel p-6 rounded-xl flex flex-col md:flex-row items-center justify-between gap-6 hover:border-red-600/30 transition-colors group'>
+            <div class='flex items-center gap-6 w-full md:w-auto'>
+              <div class='flex flex-col items-center justify-center bg-white/5 rounded-lg p-3 min-w-[80px] border border-white/10'>
+                <span class='text-xs text-[#9D4EDD] 500 uppercase font-bold'>
+                  {event.date.split(' ')[2]}
+                </span>
+                <span class='text-2xl font-bold text-[#FF9E00]'>{event.date.split(' ')[0]}</span>
+                <span class='text-xs text-red-500 uppercase font-bold'>
+                  {event.date.split(' ')[1]}
+                </span>
+              </div>
+              <div>
+                <div class='text-xs text-red-400 font-bold uppercase tracking-wider mb-1'>
+                  {event.type}
+                </div>
+                <h3 class='text-xl font-bold text-[#FF9E00] group-hover:text-red-500 transition-colors'>
+                  {event.name}
+                </h3>
+                <p class='text-[#9D4EDD] 400 text-sm flex items-center gap-2 mt-1'>
+                  <svg class='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                    <>
+                      <path
+                        stroke-linecap='round'
+                        stroke-linejoin='round'
+                        stroke-width='2'
+                        d='M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z'
+                      />
+                      <path
+                        stroke-linecap='round'
+                        stroke-linejoin='round'
+                        stroke-width='2'
+                        d='M15 11a3 3 0 11-6 0 3 3 0 016 0z'
+                      />
+                    </>
+                  </svg>
+                  {event.location}
+                </p>
+              </div>
+            </div>
+            <div class='w-full md:w-auto flex justify-end'>
+              <a href='#' class='btn-secondary text-sm py-2 px-4'>
+                Detalles
+              </a>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <script type='application/ld+json' set:html={JSON.stringify(schemaMarkup)} />
+</PageLayout>

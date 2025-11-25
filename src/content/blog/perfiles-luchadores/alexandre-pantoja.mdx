@@ -1,28 +1,44 @@
 ---
-title: "Alexandre Pantoja: Perfil y Línea de Tiempo"
-description: "\"The Cannibal\". Luchador de Flyweight."
-publishDate: "2025-11-24"
-tags:
-  - UFC
-  - Alexandre Pantoja
-  - Perfil
-  - Automated
-heroImage:
-  src: "./mma-generic-cover.jpg"
-  color: "#0F172A"
-comment: false
+title: 'Alexandre Pantoja: Perfil y Línea de Tiempo'
+description: 'El brasileño que domina el peso mosca con su Jiu-Jitsu letal y mentalidad de campeón.'
+publishDate: '2025-11-25'
+tags: ['UFC', 'Alexandre Pantoja', 'Perfil', 'Campeón', 'Peso Mosca']
 ---
 
-import FighterTimeline from '@/components/special/FighterTimeline.astro';
+import FighterProfile from '@/components/special/FighterProfile.astro';
 
-<FighterTimeline 
+<FighterProfile 
   fighterId={250}
   historicalEvents={[
     {
       year: '2024',
-      title: 'Generado Automáticamente',
-      description: 'Este perfil se actualiza automáticamente con la API de MMA.',
-      type: 'fight'
+      title: 'Defensa ante Steve Erceg',
+      description: 'Defiende exitosamente su título venciendo a Steve Erceg por decisión unánime en UFC 301 Río de Janeiro.',
+      type: 'championship'
+    },
+    {
+      year: '2023',
+      title: 'Segunda Defensa vs Brandon Royval',
+      description: 'Defiende el cinturón ante Brandon Royval en UFC 296, finalizándolo por sumisión en el 2do asalto.',
+      type: 'championship'
+    },
+    {
+      year: '2023',
+      title: 'Campeón de Peso Mosca',
+      description: 'Vence a Brandon Moreno por decisión dividida en UFC 290 para convertirse en campeón, cerrando su trilogía con victoria.',
+      type: 'championship'
+    },
+    {
+      year: '2022',
+      title: 'Victoria ante Alex Perez',
+      description: 'Finaliza a Alex Perez por sumisión en UFC 277, demostrando su elite Jiu-Jitsu brasileño.',
+      type: 'submission'
+    },
+    {
+      year: '2017',
+      title: 'Debut en UFC',
+      description: 'Entra a UFC desde el programa The Ultimate Fighter y derrota a Eric Shelton por decisión unánime.',
+      type: 'debut'
     }
   ]}
 />

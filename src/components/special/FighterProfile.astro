@@ -1,0 +1,365 @@
+---
+import { getEntry } from 'astro:content'
+
+import { Button } from 'astro-pure/user'
+
+interface Props {
+  fighterId: number
+  historicalEvents?: {
+    year: string
+    title: string
+    description: string
+    type: 'championship' | 'suspension' | 'fight' | 'return'
+  }[]
+}
+
+interface Fight {
+  status: { short: string; long: string }
+  fighters: {
+    first: { id: number; winner: boolean; name: string }
+    second: { id: number; winner: boolean; name: string }
+  }
+  date: string
+  slug: string
+  league: { name: string; logo: string }
+}
+
+interface FighterProfile {
+  name: string
+  nickname: string
+  photo: string
+  height: string
+  weight: string
+  reach: string
+  stance: string
+  birth: { date: string; country: string }
+  team: { name: string }
+  division: string
+}
+
+interface FighterRecords {
+  total: { win: number; loss: number; draw: number }
+  ko: { win: number; loss: number }
+  sub: { win: number; loss: number }
+  dec?: { win: number; loss: number }
+}
+
+const { fighterId, historicalEvents = [] } = Astro.props
+
+let fighter: FighterProfile | null = null
+let records: FighterRecords | null = null
+let recentFights: Fight[] = []
+let nextFight: Fight | null = null
+
+try {
+  const entry = await getEntry('fighterData', fighterId.toString())
+
+  if (entry) {
+    const cacheData = entry.data
+    fighter = cacheData.profile as FighterProfile
+    records = cacheData.records as FighterRecords
+    recentFights = (cacheData.fights || []) as Fight[]
+
+    // Calculate decision wins/losses if missing
+    if (records) {
+      const decWins = records.total.win - (records.ko?.win || 0) - (records.sub?.win || 0)
+      const decLoss = records.total.loss - (records.ko?.loss || 0) - (records.sub?.loss || 0)
+      records.dec = { win: decWins, loss: decLoss }
+    }
+
+    // Find next fight (scheduled/not finished)
+    nextFight = recentFights.find((f) => f.status.short === 'NS') || null
+  }
+} catch (e) {
+  console.error(`Error reading fighter data: ${e}`)
+}
+
+// Process Timeline Events
+const recentEvents = recentFights
+  .filter((f: Fight) => f.status.short === 'FT') // Only finished fights
+  .map((f: Fight) => {
+    const isWinner =
+      (f.fighters.first.id === fighterId && f.fighters.first.winner) ||
+      (f.fighters.second.id === fighterId && f.fighters.second.winner)
+    const opponent =
+      f.fighters.first.id === fighterId ? f.fighters.second.name : f.fighters.first.name
+
+    return {
+      year: new Date(f.date).getFullYear().toString(),
+      title: isWinner ? `Victoria vs ${opponent}` : `Derrota vs ${opponent}`,
+      description: `${f.slug}. ${isWinner ? 'Ganó' : 'Perdió'} el combate.`,
+      type: 'fight' as const,
+      dateObj: new Date(f.date)
+    }
+  })
+
+const allEvents = [
+  ...historicalEvents.map((e) => ({ ...e, dateObj: new Date(parseInt(e.year), 0) })),
+  ...recentEvents
+].sort((a, b) => b.dateObj.getTime() - a.dateObj.getTime())
+
+// Helper for age calculation
+function calculateAge(birthDate: string) {
+  if (!birthDate) return 'N/A'
+  const today = new Date()
+  const birth = new Date(birthDate)
+  let age = today.getFullYear() - birth.getFullYear()
+  const m = today.getMonth() - birth.getMonth()
+  if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
+    age--
+  }
+  return age
+}
+
+// Schema.org JSON-LD for Athlete
+const athleteSchema = fighter
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'Person',
+      name: fighter.name,
+      alternateName: fighter.nickname,
+      image: fighter.photo,
+      height: fighter.height,
+      weight: fighter.weight,
+      nationality: fighter.birth?.country,
+      birthDate: fighter.birth?.date,
+      affiliation: {
+        '@type': 'SportsOrganization',
+        name: 'UFC'
+      },
+      memberOf: {
+        '@type': 'SportsTeam',
+        name: fighter.team?.name || 'Independent'
+      },
+      jobTitle: `${fighter.division || 'UFC'} Fighter`,
+      description: `${fighter.name} (${fighter.nickname}) es un peleador profesional de artes marciales mixtas con récord de ${records?.total.win}-${records?.total.loss}-${records?.total.draw}.`
+    }
+  : null
+---
+
+{athleteSchema && <script type='application/ld+json' set:html={JSON.stringify(athleteSchema)} />}
+
+<div class='fighter-profile-container space-y-12'>
+  {
+    fighter ? (
+      <>
+        {/* 1. HERO SECTION (The Lead) */}
+        <section class='relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl bg-[#0a0a0a]'>
+          {/* Background Gradient & Pattern */}
+          <div class='absolute inset-0 bg-gradient-to-r from-black via-slate-900/90 to-slate-900/50 z-10' />
+          <div class="absolute inset-0 bg-[url('/images/octagon-bg.jpg')] bg-cover bg-center opacity-20 mix-blend-overlay z-0" />
+
+          <div class='relative z-20 p-8 md:p-12 flex flex-col md:flex-row items-center md:items-end gap-8 md:gap-16'>
+            {/* Fighter Image */}
+            <div class='relative shrink-0'>
+              <div class='w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-[#FF8500] shadow-[0_0_30px_rgba(255,133,0,0.5)] bg-[#3C096C] relative z-10'>
+                <img src={fighter.photo} alt={fighter.name} class='w-full h-full object-cover' />
+              </div>
+              {/* Rank Badge (Placeholder logic) */}
+              <div class='absolute -bottom-3 -right-3 bg-yellow-500 text-black font-black text-xl w-12 h-12 flex items-center justify-center rounded-full border-4 border-slate-900 z-20'>
+                C
+              </div>
+            </div>
+
+            {/* Info */}
+            <div class='flex-1 text-center md:text-left space-y-4'>
+              <div>
+                <h1 class='text-5xl md:text-7xl font-heading font-bold text-[#FF9E00] leading-none mb-2 uppercase tracking-tighter'>
+                  {fighter.name}
+                </h1>
+                {fighter.nickname && (
+                  <p class='text-2xl md:text-3xl text-[#9D4EDD] font-heading font-bold italic tracking-wide'>
+                    "{fighter.nickname}"
+                  </p>
+                )}
+              </div>
+
+              <div class='flex flex-wrap justify-center md:justify-start gap-4 md:gap-8 text-[#9D4EDD] 300 font-medium'>
+                <span class='flex items-center gap-2'>
+                  <span class='text-[#FF8500]'>🏆</span> {fighter.division || 'UFC Fighter'}
+                </span>
+                <span class='flex items-center gap-2'>
+                  <span class='text-[#FF8500]'>🌍</span> {fighter.birth?.country || 'N/A'}
+                </span>
+                <span class='flex items-center gap-2'>
+                  <span class='text-[#FF8500]'>🥋</span> {fighter.team?.name || 'Independent'}
+                </span>
+              </div>
+            </div>
+
+            {/* Record (Big Stats) */}
+            <div class='text-center md:text-right'>
+              <div class='text-[#9D4EDD] 400 text-sm font-bold uppercase tracking-widest mb-1'>
+                Récord Pro
+              </div>
+              <div class='text-6xl md:text-8xl font-heading font-bold text-[#FF9E00] leading-none'>
+                {records?.total.win}
+                <span class='text-[#9D4EDD] 600'>-</span>
+                {records?.total.loss}
+                <span class='text-[#9D4EDD] 600 text-4xl'>-{records?.total.draw}</span>
+              </div>
+              <div class='flex justify-center md:justify-end gap-4 mt-2 text-sm font-mono text-[#9D4EDD] 400'>
+                <span>
+                  <span class='text-green-500'>{records?.ko.win}</span> KO
+                </span>
+                <span>
+                  <span class='text-blue-500'>{records?.sub.win}</span> SUB
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 2. QUICK ANSWER BOX (SEO) */}
+        <section class='glass-panel p-6 rounded-xl border-l-4 border-l-red-600'>
+          <h2 class='text-xl font-bold text-[#FF9E00] mb-4 flex items-center gap-2'>
+            <svg
+              class='w-5 h-5 text-[#FF8500]'
+              fill='none'
+              stroke='currentColor'
+              viewBox='0 0 24 24'
+            >
+              <path
+                stroke-linecap='round'
+                stroke-linejoin='round'
+                stroke-width='2'
+                d='M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
+              />
+            </svg>
+            Datos Clave: {fighter.name}
+          </h2>
+          <div class='grid grid-cols-2 md:grid-cols-4 gap-6'>
+            <div>
+              <span class='block text-[#9D4EDD] 500 text-xs uppercase font-bold mb-1'>Edad</span>
+              <span class='text-lg font-bold text-[#FF9E00]'>
+                {calculateAge(fighter.birth?.date || '')} años
+              </span>
+            </div>
+            <div>
+              <span class='block text-[#9D4EDD] 500 text-xs uppercase font-bold mb-1'>Altura</span>
+              <span class='text-lg font-bold text-[#FF9E00]'>{fighter.height}</span>
+            </div>
+            <div>
+              <span class='block text-[#9D4EDD] 500 text-xs uppercase font-bold mb-1'>Alcance</span>
+              <span class='text-lg font-bold text-[#FF9E00]'>{fighter.reach}</span>
+            </div>
+            <div>
+              <span class='block text-[#9D4EDD] 500 text-xs uppercase font-bold mb-1'>Estilo</span>
+              <span class='text-lg font-bold text-[#FF9E00]'>{fighter.stance}</span>
+            </div>
+          </div>
+        </section>
+
+        {/* 3. THE BODY (Analysis & Stats) */}
+        <div class='grid lg:grid-cols-3 gap-8'>
+          {/* Left Col: Detailed Stats */}
+          <div class='lg:col-span-1 space-y-8'>
+            <div class='glass-panel p-6 rounded-xl'>
+              <h3 class='text-xl font-heading font-bold text-[#FF9E00] mb-6 border-b border-white/10 pb-2'>
+                Desglose de Victorias
+              </h3>
+              <div class='space-y-4'>
+                <div class='flex items-center justify-between'>
+                  <span class='text-[#9D4EDD] 400'>KO/TKO</span>
+                  <div class='flex items-center gap-3'>
+                    <div class='w-32 h-2 bg-gray-800 rounded-full overflow-hidden'>
+                      <div
+                        class='h-full bg-[#FF6D00]'
+                        style={`width: ${((records?.ko.win || 0) / (records?.total.win || 1)) * 100}%`}
+                      />
+                    </div>
+                    <span class='font-bold text-[#FF9E00] w-6 text-right'>{records?.ko.win}</span>
+                  </div>
+                </div>
+                <div class='flex items-center justify-between'>
+                  <span class='text-[#9D4EDD] 400'>Sumisión</span>
+                  <div class='flex items-center gap-3'>
+                    <div class='w-32 h-2 bg-gray-800 rounded-full overflow-hidden'>
+                      <div
+                        class='h-full bg-blue-500'
+                        style={`width: ${((records?.sub.win || 0) / (records?.total.win || 1)) * 100}%`}
+                      />
+                    </div>
+                    <span class='font-bold text-[#FF9E00] w-6 text-right'>{records?.sub.win}</span>
+                  </div>
+                </div>
+                <div class='flex items-center justify-between'>
+                  <span class='text-[#9D4EDD] 400'>Decisión</span>
+                  <div class='flex items-center gap-3'>
+                    <div class='w-32 h-2 bg-gray-800 rounded-full overflow-hidden'>
+                      <div
+                        class='h-full bg-green-500'
+                        style={`width: ${((records?.dec?.win || 0) / (records?.total.win || 1)) * 100}%`}
+                      />
+                    </div>
+                    <span class='font-bold text-[#FF9E00] w-6 text-right'>{records?.dec?.win}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {nextFight && (
+              <div class='glass-panel p-6 rounded-xl border border-yellow-500/30 bg-yellow-500/5'>
+                <h3 class='text-xl font-heading font-bold text-yellow-500 mb-4'>Próximo Combate</h3>
+                <div class='text-center'>
+                  <div class='text-sm text-[#9D4EDD] 400 mb-2'>
+                    {new Date(nextFight.date).toLocaleDateString()}
+                  </div>
+                  <div class='text-2xl font-bold text-[#FF9E00] mb-2'>
+                    vs.{' '}
+                    {nextFight.fighters.first.id === fighterId
+                      ? nextFight.fighters.second.name
+                      : nextFight.fighters.first.name}
+                  </div>
+                  <div class='inline-block bg-yellow-500 text-black text-xs font-bold px-2 py-1 rounded uppercase'>
+                    {nextFight.league.name}
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* Right Col: Timeline */}
+          <div class='lg:col-span-2'>
+            <div class='glass-panel p-8 rounded-xl'>
+              <h3 class='text-2xl font-heading font-bold text-[#FF9E00] mb-8'>
+                Historial de Combates
+              </h3>
+              <div class='relative border-l-2 border-white/10 ml-3 space-y-8'>
+                {allEvents.map((event) => (
+                  <div class='ml-8 relative group'>
+                    <div
+                      class={`absolute -left-[41px] w-5 h-5 rounded-full border-4 border-[#0a0a0a] ${
+                        event.title.includes('Victoria')
+                          ? 'bg-green-500'
+                          : event.title.includes('Derrota')
+                            ? 'bg-[#FF6D00]'
+                            : event.type === 'championship'
+                              ? 'bg-yellow-500'
+                              : 'bg-blue-500'
+                      } group-hover:scale-125 transition-transform duration-300`}
+                    />
+
+                    <div class='bg-white/5 p-6 rounded-lg border border-white/5 hover:bg-white/10 transition-colors'>
+                      <div class='flex justify-between items-start mb-2'>
+                        <h4 class='text-lg font-bold text-[#FF9E00] group-hover:text-[#FF8500] transition-colors'>
+                          {event.title}
+                        </h4>
+                        <span class='text-xs font-mono text-[#9D4EDD] 500'>{event.year}</span>
+                      </div>
+                      <p class='text-[#9D4EDD] 400 text-sm leading-relaxed'>{event.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </>
+    ) : (
+      <div class='p-12 text-center glass-panel rounded-xl'>
+        <p class='text-[#FF8500] font-bold'>No se pudo cargar la información del peleador.</p>
+      </div>
+    )
+  }
+</div>
