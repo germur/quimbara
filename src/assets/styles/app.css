@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .seo-badge {
+    @apply text-xs font-bold inline-block mb-1 px-1.5 py-0.5 rounded tracking-wider;
+  }
+
+  .btn-primary {
+    @apply bg-quimbara-magenta hover:bg-[#D63384] text-white px-8 py-3 rounded font-bold tracking-wider transition-colors;
+  }
+
+  .btn-secondary {
+    @apply border border-white hover:bg-white hover:text-black text-white px-8 py-3 rounded font-bold tracking-wider transition-colors;
+  }
+
+  .glass-panel {
+    @apply bg-slate-900/70 backdrop-blur-lg border border-white/10;
+  }
+}
+
 /* Font */
 @font-face {
   font-family: 'Satoshi';
