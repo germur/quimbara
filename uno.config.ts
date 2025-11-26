@@ -1,5 +1,5 @@
 import type { TypographyOptions } from '@unocss/preset-typography'
-import { defineConfig, presetMini, presetTypography, type Rule } from 'unocss'
+import { defineConfig, presetUno, presetTypography, type Rule } from 'unocss'
 
 import { integ } from './src/site.config.ts'
 
@@ -28,7 +28,7 @@ const typographyConfig: TypographyOptions = {
     // 'kbd-shadows': [900, "white"],
     code: fg,
     'pre-code': fgMuted,
-    // 'pre-bg': [800, 'rgb(0 0 0 / 50%)'],
+    // 'pre-bg':  [800, 'rgb(0 0 0 / 50%)'],
     'th-borders': border,
     'td-borders': border
   },
@@ -92,7 +92,7 @@ const typographyConfig: TypographyOptions = {
     'blockquote::after': {
       color: fgMuted,
       position: 'absolute',
-      content: '"”"',
+      content: '"\\""',
       top: '2.6rem',
       right: '-1.4rem',
       'font-size': '10rem',
@@ -198,7 +198,7 @@ const rules: Rule<object>[] = [
 
 export default defineConfig({
   presets: [
-    presetMini(), // required
+    presetUno(), // Try presetUno instead of presetMini
     presetTypography(typographyConfig)
   ],
   rules,
@@ -223,6 +223,19 @@ export default defineConfig({
     'rounded-b-2xl',
     // Typography
     'text-base',
-    'prose'
+    'prose',
+    // Quimbara colors - explicitly include to avoid undefined errors
+    'text-quimbara-cream',
+    'text-quimbara-pink',
+    'text-quimbara-magenta',
+    'text-quimbara-purple',
+    'bg-quimbara-cream',
+    'bg-quimbara-pink',
+    'bg-quimbara-magenta',
+    'bg-quimbara-purple',
+    'border-quimbara-cream',
+    'border-quimbara-pink',
+    'border-quimbara-magenta',
+    'border-quimbara-purple'
   ]
 })
