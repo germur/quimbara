@@ -1,6 +1,5 @@
 ---
 import { getCollection } from 'astro:content'
-import championsData from '@/data/champions-generated.json'
 import fightersData from '@/data/fighters.json'
 import { weightClasses, weightClassMapReverse } from '@/data/weightClasses'
 
@@ -38,15 +37,8 @@ const divisionFighters = (fightersData as Fighter[]).filter((f) => f.division ==
 
 // ... (existing code)
 
-// Buscar campeón (Dinámico desde API)
-// @ts-ignore
-const apiChampion = championsData.champions[divisionInfo.nameEn]
-const champion = apiChampion
-  ? {
-      ...apiChampion,
-      record: `${apiChampion.record.win}-${apiChampion.record.loss}-${apiChampion.record.draw}`
-    }
-  : divisionFighters.find((f) => f.rank === 'C') || divisionFighters[0]
+// Buscar campeón (DYNAMIC from fighters.json)
+const champion = divisionFighters.find((f) => f.rank === 'C') || divisionFighters[0]
 
 // Top 15 ranking (ordenados por ranking)
 const ranking = divisionFighters

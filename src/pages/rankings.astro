@@ -1,33 +1,28 @@
 ---
 import PageLayout from '@/layouts/BaseLayout.astro'
 import { weightClasses } from '@/data/weightClasses'
-import championsData from '@/data/champions-generated.json'
+import fightersData from '@/data/fighters.json'
 
-// Buscar campeones de cada división (Dinámico)
-const champions = weightClasses.map(wc => {
-  // @ts-ignore
-  const champion = championsData.champions[wc.nameEn]
-  return {
-    division: wc,
-    champion: champion ? {
-      ...champion,
-      record: `${champion.record.win}-${champion.record.loss}-${champion.record.draw}`
-    } : null
-  }
-}).filter(c => c.champion)
+// Buscar campeones de cada división (DYNAMIC from fighters.json)
+const champions = weightClasses
+  .map(wc => {
+    const divisionFighters = fightersData.filter(f => f.division === wc.nameEn)
+    const champion = divisionFighters.find(f => f.rank === 'C')
+    
+    return {
+      division: wc,
+      champion: champion || null
+    }
+  })
+  .filter((c): c is { division: typeof weightClasses[0], champion: NonNullable<typeof fightersData[0]> } => c.champion !== null)
 
-// P4P ranking (Dinámico desde API)
-const p4pRanking = championsData.p4p.map((f: any, index: number) => ({
-  rank: index + 1,
-  id: f.id,
-  name: f.name,
-  division: f.weight || 'UFC Fighter', // API might return weight class string
-  record: `${f.record.win}-${f.record.loss}-${f.record.draw}`
-}))
+// P4P ranking - REMOVED (no API endpoint available)
+// Si el API no provee P4P rankings, no los mostramos
+const p4pRanking: any[] = []
 
 const meta = {
-  title: 'Rankings UFC Oficiales - Pound for Pound y Por División | Quimbara',
-  description: 'Rankings oficiales de UFC actualizados. Descubre el Pound-for-Pound, campeones de cada división y el Top 15 de todas las categorías de peso.'
+  title: 'Rankings UFC Oficiales - Campeones Por División | Quimbara',
+  description: 'Rankings oficiales de UFC actualizados. Descubre los campeones de cada división y el Top 15 de todas las categorías de peso.'
 }
 
 // Helper para imagen
@@ -166,7 +161,7 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
                 {champion.name}
               </h4>
               <p class="text-white/70 text-xs font-mono">
-                {champion.record || 'Récord no disponible'}
+                Campeón Actual
               </p>
             </div>
           </div>

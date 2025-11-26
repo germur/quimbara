@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content'
-import championsData from '@/data/champions-generated.json'
+import fightersData from '@/data/fighters.json'
 
 import PageLayout from '@/layouts/BaseLayout.astro'
 import NextEventWidget from '@/components/widgets/NextEventWidget.astro'
@@ -8,29 +8,17 @@ import config from '@/site-config'
 
 export const prerender = true
 
-// Featured fighters data - Dynamic from API
-const championsList = [
-  { key: 'Featherweight', slug: 'ilia-topuria' },
-  { key: 'Bantamweight', slug: 'merab-dvalishvili' },
-  { key: 'Lightweight', slug: 'islam-makhachev' },
-  { key: 'Heavyweight', slug: 'jon-jones' }
-]
-
-const featuredFighters = championsList
-  .map(({ key, slug }) => {
-    // @ts-ignore
-    const champion = championsData.champions[key]
-    if (!champion) return null
-
-    return {
-      name: champion.name,
-      title: `Campeón ${key === 'Featherweight' ? 'Peso Pluma' : key === 'Bantamweight' ? 'Peso Gallo' : key === 'Lightweight' ? 'Peso Ligero' : 'Peso Pesado'}`,
-      description: `${champion.nickname ? champion.nickname + '. ' : ''}Récord: ${champion.record.win}-${champion.record.loss}-${champion.record.draw}`,
-      href: `/blog/perfiles-luchadores/${slug}`,
-      image: champion.photo
-    }
-  })
-  .filter((f): f is NonNullable<typeof f> => f !== null)
+// Featured fighters - DYNAMIC from fighters.json (Champions only)
+const featuredFighters = fightersData
+  .filter((f) => f.rank === 'C')
+  .slice(0, 4)
+  .map((fighter) => ({
+    name: fighter.name,
+    title: `Campeón ${fighter.division}`,
+    description: `Récord profesional destacado`,
+    href: `/blog/perfiles-luchadores/${fighter.slug}`,
+    image: `https://media.api-sports.io/mma/fighters/${fighter.id}.png`
+  }))
 
 const MAX_POSTS = 6
 const allPosts = await getCollection('blog')
