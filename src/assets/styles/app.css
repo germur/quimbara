@@ -96,3 +96,61 @@ a {
     color: hsl(var(--primary) / var(--un-text-opacity, 1));
   }
 }
+
+/* FORZAR PALETA LIGHT/CLEAN - SOBRESCRIBIR TODO */
+body {
+  background: #F8F4EC !important;
+  color: #43334C !important;
+}
+
+/* Sobrescribir componentes astro-pure */
+.glass-panel,
+.card,
+[class*="bg-gray"],
+[class*="bg-slate"],
+[class*="bg-zinc"] {
+  background: white !important;
+  border-color: #43334C20 !important;
+}
+
+/* Tablas */
+table {
+  background: white !important;
+}
+
+table thead {
+  background: #F8F4EC !important;
+  color: #43334C !important;
+}
+
+table tbody tr:hover {
+  background: #F8F4EC50 !important;
+}
+
+/* Texto */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #43334C !important;
+}
+
+/* Eliminar dark mode completamente */
+html.dark,
+.dark {
+  --background: 40 33% 95% !important;
+  --foreground: 278 20% 25% !important;
+  --card: 0 0% 100% !important;
+  --card-foreground: 278 20% 25% !important;
+}
+
+/* Forzar colores primarios */
+[class*="text-purple"],
+[class*="bg-purple"],
+[class*="text-violet"],
+[class*="bg-violet"] {
+  color: #E83C91 !important;
+  background: transparent !important;
+}

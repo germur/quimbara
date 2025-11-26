@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content'
+import fightersData from '@/data/fighters.json'
+
+import PageLayout from '@/layouts/BaseLayout.astro'
+import FighterProfile from '@/components/special/FighterProfile.astro'
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('blog')
+  // Obtener slugs de perfiles manuales existentes
+  const manualSlugs = new Set(
+    allPosts
+      .filter((p) => p.id.startsWith('perfiles-luchadores/'))
+      .map((p) => p.id.split('/').pop()?.replace('.mdx', '') || '')
+  )
+
+  // Filtrar fighters.json para excluir los que ya tienen perfil manual
+  // Así evitamos conflictos con [...id].astro que maneja los manuales
+  const automatedFighters = fightersData.filter((f) => !manualSlugs.has(f.slug))
+
+  return automatedFighters.map((fighter) => ({
+    params: { slug: fighter.slug },
+    props: { fighter }
+  }))
+}
+
+const { fighter } = Astro.props
+
+const meta = {
+  title: `${fighter.name}: Perfil, Récord y Estadísticas UFC | Quimbara`,
+  description: `${fighter.name} (${fighter.division}). Perfil oficial, récord, estadísticas, altura, peso y próximas peleas en UFC.`,
+  image: `https://media.api-sports.io/mma/fighters/${fighter.id}.png`
+}
+---
+
+<PageLayout meta={meta}>
+  <div class='pt-20'>
+    <FighterProfile fighterId={fighter.id} isAutomated={true} />
+  </div>
+</PageLayout>

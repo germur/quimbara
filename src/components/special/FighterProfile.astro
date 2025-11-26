@@ -152,11 +152,11 @@ const athleteSchema = fighter
           <div class='relative z-20 p-8 md:p-12 flex flex-col md:flex-row items-center md:items-end gap-8 md:gap-16'>
             {/* Fighter Image */}
             <div class='relative shrink-0'>
-              <div class='w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-[#FF8500] shadow-[0_0_30px_rgba(255,133,0,0.5)] bg-[#3C096C] relative z-10'>
+              <div class='w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-[#E83C91] shadow-[0_0_30px_rgba(255,133,0,0.5)] bg-[#43334C] relative z-10'>
                 <img src={fighter.photo} alt={fighter.name} class='w-full h-full object-cover' />
               </div>
               {/* Rank Badge (Placeholder logic) */}
-              <div class='absolute -bottom-3 -right-3 bg-yellow-500 text-black font-black text-xl w-12 h-12 flex items-center justify-center rounded-full border-4 border-slate-900 z-20'>
+              <div class='absolute -bottom-3 -right-3 bg-[#E83C91] text-black font-black text-xl w-12 h-12 flex items-center justify-center rounded-full border-4 border-[#43334C]/20 z-20'>
                 C
               </div>
             </div>
@@ -164,46 +164,46 @@ const athleteSchema = fighter
             {/* Info */}
             <div class='flex-1 text-center md:text-left space-y-4'>
               <div>
-                <h1 class='text-5xl md:text-7xl font-heading font-bold text-[#FF9E00] leading-none mb-2 uppercase tracking-tighter'>
+                <h1 class='text-5xl md:text-7xl font-heading font-bold text-[#E83C91] leading-none mb-2 uppercase tracking-tighter'>
                   {fighter.name}
                 </h1>
                 {fighter.nickname && (
-                  <p class='text-2xl md:text-3xl text-[#9D4EDD] font-heading font-bold italic tracking-wide'>
+                  <p class='text-2xl md:text-3xl text-[#43334C] font-heading font-bold italic tracking-wide'>
                     "{fighter.nickname}"
                   </p>
                 )}
               </div>
 
-              <div class='flex flex-wrap justify-center md:justify-start gap-4 md:gap-8 text-[#9D4EDD] 300 font-medium'>
+              <div class='flex flex-wrap justify-center md:justify-start gap-4 md:gap-8 text-[#43334C] 300 font-medium'>
                 <span class='flex items-center gap-2'>
-                  <span class='text-[#FF8500]'>🏆</span> {fighter.division || 'UFC Fighter'}
+                  <span class='text-[#E83C91]'>🏆</span> {fighter.division || 'UFC Fighter'}
                 </span>
                 <span class='flex items-center gap-2'>
-                  <span class='text-[#FF8500]'>🌍</span> {fighter.birth?.country || 'N/A'}
+                  <span class='text-[#E83C91]'>🌍</span> {fighter.birth?.country || 'N/A'}
                 </span>
                 <span class='flex items-center gap-2'>
-                  <span class='text-[#FF8500]'>🥋</span> {fighter.team?.name || 'Independent'}
+                  <span class='text-[#E83C91]'>🥋</span> {fighter.team?.name || 'Independent'}
                 </span>
               </div>
             </div>
 
             {/* Record (Big Stats) */}
             <div class='text-center md:text-right'>
-              <div class='text-[#9D4EDD] 400 text-sm font-bold uppercase tracking-widest mb-1'>
+              <div class='text-[#43334C] 400 text-sm font-bold uppercase tracking-widest mb-1'>
                 Récord Pro
               </div>
-              <div class='text-6xl md:text-8xl font-heading font-bold text-[#FF9E00] leading-none'>
+              <div class='text-6xl md:text-8xl font-heading font-bold text-[#E83C91] leading-none'>
                 {records?.total.win}
-                <span class='text-[#9D4EDD] 600'>-</span>
+                <span class='text-[#43334C] 600'>-</span>
                 {records?.total.loss}
-                <span class='text-[#9D4EDD] 600 text-4xl'>-{records?.total.draw}</span>
+                <span class='text-[#43334C] 600 text-4xl'>-{records?.total.draw}</span>
               </div>
-              <div class='flex justify-center md:justify-end gap-4 mt-2 text-sm font-mono text-[#9D4EDD] 400'>
+              <div class='flex justify-center md:justify-end gap-4 mt-2 text-sm font-mono text-[#43334C] 400'>
                 <span>
                   <span class='text-green-500'>{records?.ko.win}</span> KO
                 </span>
                 <span>
-                  <span class='text-blue-500'>{records?.sub.win}</span> SUB
+                  <span class='text-[#43334C]'>{records?.sub.win}</span> SUB
                 </span>
               </div>
             </div>
@@ -212,9 +212,9 @@ const athleteSchema = fighter
 
         {/* 2. QUICK ANSWER BOX (SEO) */}
         <section class='glass-panel p-6 rounded-xl border-l-4 border-l-red-600'>
-          <h2 class='text-xl font-bold text-[#FF9E00] mb-4 flex items-center gap-2'>
+          <h2 class='text-xl font-bold text-[#E83C91] mb-4 flex items-center gap-2'>
             <svg
-              class='w-5 h-5 text-[#FF8500]'
+              class='w-5 h-5 text-[#E83C91]'
               fill='none'
               stroke='currentColor'
               viewBox='0 0 24 24'
@@ -230,22 +230,22 @@ const athleteSchema = fighter
           </h2>
           <div class='grid grid-cols-2 md:grid-cols-4 gap-6'>
             <div>
-              <span class='block text-[#9D4EDD] 500 text-xs uppercase font-bold mb-1'>Edad</span>
-              <span class='text-lg font-bold text-[#FF9E00]'>
+              <span class='block text-[#43334C] 500 text-xs uppercase font-bold mb-1'>Edad</span>
+              <span class='text-lg font-bold text-[#E83C91]'>
                 {calculateAge(fighter.birth?.date || '')} años
               </span>
             </div>
             <div>
-              <span class='block text-[#9D4EDD] 500 text-xs uppercase font-bold mb-1'>Altura</span>
-              <span class='text-lg font-bold text-[#FF9E00]'>{fighter.height}</span>
+              <span class='block text-[#43334C] 500 text-xs uppercase font-bold mb-1'>Altura</span>
+              <span class='text-lg font-bold text-[#E83C91]'>{fighter.height}</span>
             </div>
             <div>
-              <span class='block text-[#9D4EDD] 500 text-xs uppercase font-bold mb-1'>Alcance</span>
-              <span class='text-lg font-bold text-[#FF9E00]'>{fighter.reach}</span>
+              <span class='block text-[#43334C] 500 text-xs uppercase font-bold mb-1'>Alcance</span>
+              <span class='text-lg font-bold text-[#E83C91]'>{fighter.reach}</span>
             </div>
             <div>
-              <span class='block text-[#9D4EDD] 500 text-xs uppercase font-bold mb-1'>Estilo</span>
-              <span class='text-lg font-bold text-[#FF9E00]'>{fighter.stance}</span>
+              <span class='block text-[#43334C] 500 text-xs uppercase font-bold mb-1'>Estilo</span>
+              <span class='text-lg font-bold text-[#E83C91]'>{fighter.stance}</span>
             </div>
           </div>
         </section>
@@ -255,63 +255,63 @@ const athleteSchema = fighter
           {/* Left Col: Detailed Stats */}
           <div class='lg:col-span-1 space-y-8'>
             <div class='glass-panel p-6 rounded-xl'>
-              <h3 class='text-xl font-heading font-bold text-[#FF9E00] mb-6 border-b border-white/10 pb-2'>
+              <h3 class='text-xl font-heading font-bold text-[#E83C91] mb-6 border-b border-white/10 pb-2'>
                 Desglose de Victorias
               </h3>
               <div class='space-y-4'>
                 <div class='flex items-center justify-between'>
-                  <span class='text-[#9D4EDD] 400'>KO/TKO</span>
+                  <span class='text-[#43334C] 400'>KO/TKO</span>
                   <div class='flex items-center gap-3'>
-                    <div class='w-32 h-2 bg-gray-800 rounded-full overflow-hidden'>
+                    <div class='w-32 h-2 bg-[#43334C]/5 rounded-full overflow-hidden'>
                       <div
                         class='h-full bg-[#FF6D00]'
                         style={`width: ${((records?.ko.win || 0) / (records?.total.win || 1)) * 100}%`}
                       />
                     </div>
-                    <span class='font-bold text-[#FF9E00] w-6 text-right'>{records?.ko.win}</span>
+                    <span class='font-bold text-[#E83C91] w-6 text-right'>{records?.ko.win}</span>
                   </div>
                 </div>
                 <div class='flex items-center justify-between'>
-                  <span class='text-[#9D4EDD] 400'>Sumisión</span>
+                  <span class='text-[#43334C] 400'>Sumisión</span>
                   <div class='flex items-center gap-3'>
-                    <div class='w-32 h-2 bg-gray-800 rounded-full overflow-hidden'>
+                    <div class='w-32 h-2 bg-[#43334C]/5 rounded-full overflow-hidden'>
                       <div
-                        class='h-full bg-blue-500'
+                        class='h-full bg-[#43334C]/10'
                         style={`width: ${((records?.sub.win || 0) / (records?.total.win || 1)) * 100}%`}
                       />
                     </div>
-                    <span class='font-bold text-[#FF9E00] w-6 text-right'>{records?.sub.win}</span>
+                    <span class='font-bold text-[#E83C91] w-6 text-right'>{records?.sub.win}</span>
                   </div>
                 </div>
                 <div class='flex items-center justify-between'>
-                  <span class='text-[#9D4EDD] 400'>Decisión</span>
+                  <span class='text-[#43334C] 400'>Decisión</span>
                   <div class='flex items-center gap-3'>
-                    <div class='w-32 h-2 bg-gray-800 rounded-full overflow-hidden'>
+                    <div class='w-32 h-2 bg-[#43334C]/5 rounded-full overflow-hidden'>
                       <div
                         class='h-full bg-green-500'
                         style={`width: ${((records?.dec?.win || 0) / (records?.total.win || 1)) * 100}%`}
                       />
                     </div>
-                    <span class='font-bold text-[#FF9E00] w-6 text-right'>{records?.dec?.win}</span>
+                    <span class='font-bold text-[#E83C91] w-6 text-right'>{records?.dec?.win}</span>
                   </div>
                 </div>
               </div>
             </div>
 
             {nextFight && (
-              <div class='glass-panel p-6 rounded-xl border border-yellow-500/30 bg-yellow-500/5'>
-                <h3 class='text-xl font-heading font-bold text-yellow-500 mb-4'>Próximo Combate</h3>
+              <div class='glass-panel p-6 rounded-xl border border-[#FF8FB7]/30 bg-[#E83C91]/5'>
+                <h3 class='text-xl font-heading font-bold text-[#FF8FB7] mb-4'>Próximo Combate</h3>
                 <div class='text-center'>
-                  <div class='text-sm text-[#9D4EDD] 400 mb-2'>
+                  <div class='text-sm text-[#43334C] 400 mb-2'>
                     {new Date(nextFight.date).toLocaleDateString()}
                   </div>
-                  <div class='text-2xl font-bold text-[#FF9E00] mb-2'>
+                  <div class='text-2xl font-bold text-[#E83C91] mb-2'>
                     vs.{' '}
                     {nextFight.fighters.first.id === fighterId
                       ? nextFight.fighters.second.name
                       : nextFight.fighters.first.name}
                   </div>
-                  <div class='inline-block bg-yellow-500 text-black text-xs font-bold px-2 py-1 rounded uppercase'>
+                  <div class='inline-block bg-[#E83C91] text-black text-xs font-bold px-2 py-1 rounded uppercase'>
                     {nextFight.league.name}
                   </div>
                 </div>
@@ -322,7 +322,7 @@ const athleteSchema = fighter
           {/* Right Col: Timeline */}
           <div class='lg:col-span-2'>
             <div class='glass-panel p-8 rounded-xl'>
-              <h3 class='text-2xl font-heading font-bold text-[#FF9E00] mb-8'>
+              <h3 class='text-2xl font-heading font-bold text-[#E83C91] mb-8'>
                 Historial de Combates
               </h3>
               <div class='relative border-l-2 border-white/10 ml-3 space-y-8'>
@@ -335,19 +335,19 @@ const athleteSchema = fighter
                           : event.title.includes('Derrota')
                             ? 'bg-[#FF6D00]'
                             : event.type === 'championship'
-                              ? 'bg-yellow-500'
-                              : 'bg-blue-500'
+                              ? 'bg-[#E83C91]'
+                              : 'bg-[#43334C]/10'
                       } group-hover:scale-125 transition-transform duration-300`}
                     />
 
                     <div class='bg-white/5 p-6 rounded-lg border border-white/5 hover:bg-white/10 transition-colors'>
                       <div class='flex justify-between items-start mb-2'>
-                        <h4 class='text-lg font-bold text-[#FF9E00] group-hover:text-[#FF8500] transition-colors'>
+                        <h4 class='text-lg font-bold text-[#E83C91] group-hover:text-[#E83C91] transition-colors'>
                           {event.title}
                         </h4>
-                        <span class='text-xs font-mono text-[#9D4EDD] 500'>{event.year}</span>
+                        <span class='text-xs font-mono text-[#43334C] 500'>{event.year}</span>
                       </div>
-                      <p class='text-[#9D4EDD] 400 text-sm leading-relaxed'>{event.description}</p>
+                      <p class='text-[#43334C] 400 text-sm leading-relaxed'>{event.description}</p>
                     </div>
                   </div>
                 ))}
@@ -358,7 +358,7 @@ const athleteSchema = fighter
       </>
     ) : (
       <div class='p-12 text-center glass-panel rounded-xl'>
-        <p class='text-[#FF8500] font-bold'>No se pudo cargar la información del peleador.</p>
+        <p class='text-[#E83C91] font-bold'>No se pudo cargar la información del peleador.</p>
       </div>
     )
   }

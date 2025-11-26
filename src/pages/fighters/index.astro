@@ -7,11 +7,23 @@ import Breadcrumbs from '@/components/Breadcrumbs.astro'
 
 export const prerender = true
 
+// IDs CORRECTOS de los campeones actuales (Nov 2025) - VERIFICADOS en fighters.json
+const CURRENT_CHAMPIONS: Record<string, number> = {
+  Heavyweight: 701, // Tom Aspinall
+  'Light Heavyweight': 2436, // Alex Pereira
+  Middleweight: 856, // Dricus Du Plessis
+  Welterweight: 15, // Belal Muhammad
+  Lightweight: 333, // Islam Makhachev
+  Featherweight: 855, // Ilia Topuria
+  Bantamweight: 290, // Merab Dvalishvili
+  Flyweight: 250 // Alexandre Pantoja
+}
+
 // Campeones actuales de cada división
 const champions = weightClasses
   .map((wc) => {
-    const divisionFighters = fightersData.filter((f) => f.division === wc.nameEn)
-    const champion = divisionFighters.find((f) => f.rank === 'C') || divisionFighters[0]
+    const championId = CURRENT_CHAMPIONS[wc.nameEn]
+    const champion = fightersData.find((f) => f.id === championId)
     return {
       division: wc,
       champion: champion || null
@@ -19,9 +31,10 @@ const champions = weightClasses
   })
   .filter((c) => c.champion)
 
-// Top peleadores destacados (basados en campeones + top rankeados)
-const featuredFighters = fightersData
-  .filter((f) => f.rank && (f.rank === 'C' || parseInt(f.rank) <= 5))
+// Top peleadores destacados (solo campeones)
+const featuredFighters = champions
+  .map((c) => c.champion)
+  .filter(Boolean)
   .slice(0, 20)
 
 const meta = {
@@ -180,7 +193,7 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
 
               {fighter.rank === 'C' && (
                 <div class='absolute top-3 left-3'>
-                  <span class='bg-yellow-500 text-black px-2 py-1 rounded-full text-xs font-bold border-2 border-white shadow-sm'>
+                  <span class='bg-[#E83C91] text-black px-2 py-1 rounded-full text-xs font-bold border-2 border-white shadow-sm'>
                     CAMPEÓN
                   </span>
                 </div>
