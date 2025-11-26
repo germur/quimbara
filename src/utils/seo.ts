@@ -37,8 +37,8 @@ export function generateBreadcrumbs(pathname: string): BreadcrumbItem[] {
             .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
             .join(' ')
 
-        // Special cases
-        if (segment === 'fighters') {
+        // Special cases mapping
+        if (segment === 'peleadores') {
             title = 'Peleadores'
         } else if (segment === 'eventos-ufc') {
             title = 'Eventos UFC'
@@ -49,7 +49,11 @@ export function generateBreadcrumbs(pathname: string): BreadcrumbItem[] {
         } else if (segment === 'rankings') {
             title = 'Rankings'
         } else if (segment === 'tecnicas-entrenamientos') {
-            title: 'Técnicas y Entrenamientos'
+            title = 'Técnicas y Entrenamientos'
+        } else if (segment === 'cultura') {
+            title = 'Cultura'
+        } else if (segment === 'sobre-nosotros') {
+            title = 'Sobre Nosotros'
         }
 
         // Don't link the last segment (current page)
@@ -150,12 +154,14 @@ export function isValidSILOUrl(url: string): boolean {
 
     // Check if first segment is a valid category
     const validCategories = [
-        'fighters',
+        'peleadores',
         'eventos-ufc',
         'noticias',
         'analisis',
         'rankings',
-        'tecnicas-entrenamientos'
+        'tecnicas-entrenamientos',
+        'cultura',
+        'sobre-nosotros'
     ]
 
     return validCategories.includes(segments[0])

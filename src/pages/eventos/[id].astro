@@ -1,5 +1,6 @@
 ---
 import PageLayout from '@/layouts/BaseLayout.astro'
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
 import events from '@/data/events.json'
 
 export async function getStaticPaths() {
@@ -40,6 +41,11 @@ const schema = {
       "addressCountry": "US" // Asumiendo US por ahora, idealmente dinámico
     }
   },
+  "organizer": {
+    "@type": "SportsOrganization",
+    "name": "UFC",
+    "url": "https://www.ufc.com"
+  },
   "competitor": fights.map(fight => [
     {
       "@type": "Person",
@@ -59,6 +65,14 @@ const schema = {
 
 <PageLayout meta={{ title: name, description: `Cartelera completa y horarios para ${name} en ${location}` }}>
   <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  
+  <Breadcrumbs
+    path={[
+      { title: 'Inicio', link: '/' },
+      { title: 'Eventos UFC', link: '/eventos-ufc/' },
+      { title: name, link: `/eventos/${event.id}` }
+    ]}
+  />
   
   <!-- Hero Section -->
   <section class="relative bg-quimbara-purple text-white py-20 px-4 overflow-hidden mb-12">

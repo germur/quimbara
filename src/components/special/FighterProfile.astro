@@ -152,7 +152,7 @@ function calculateAge(birthDate: string) {
 const athleteSchema = fighter
   ? {
       '@context': 'https://schema.org',
-      '@type': 'Person',
+      '@type': 'Athlete',
       name: fighter.name,
       alternateName: fighter.nickname,
       image: fighter.photo,
@@ -160,6 +160,7 @@ const athleteSchema = fighter
       weight: fighter.weight,
       nationality: fighter.birth?.country,
       birthDate: fighter.birth?.date,
+      sport: 'Mixed Martial Arts',
       affiliation: {
         '@type': 'SportsOrganization',
         name: 'UFC'
