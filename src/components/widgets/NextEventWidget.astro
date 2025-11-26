@@ -42,7 +42,8 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
       height='80'
       viewBox='0 0 24 24'
       fill='none'
-      stroke='#E83C91'
+      stroke='currentColor'
+      class='text-quimbara-magenta'
       stroke-width='1.5'
       stroke-linecap='round'
       stroke-linejoin='round'
@@ -163,7 +164,7 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
       </div>
       <a
         href={`/eventos/${nextEvent.id}`}
-        class='block w-full bg-quimbara-magenta hover:bg-[#D63384] text-white font-bold py-2.5 rounded-xl text-center text-sm transition-all shadow-md hover:shadow-lg hover:shadow-[#E83C91]/20'
+        class='block w-full bg-quimbara-magenta hover:bg-quimbara-magenta/90 text-white font-bold py-2.5 rounded-xl text-center text-sm transition-all shadow-md hover:shadow-lg hover:shadow-quimbara-magenta/20'
       >
         Ver Cartelera
       </a>

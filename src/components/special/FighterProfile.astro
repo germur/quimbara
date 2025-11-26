@@ -203,7 +203,7 @@ const athleteSchema = fighter
           <div class='grid grid-cols-1 lg:grid-cols-[auto_1fr] gap-8 lg:gap-12 items-center max-w-7xl mx-auto'>
             {/* Fighter Image */}
             <div class='relative shrink-0 mx-auto lg:mx-0'>
-              <div class='w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-quimbara-magenta shadow-2xl shadow-[#E83C91]/20 bg-white relative z-10'>
+              <div class='w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-quimbara-magenta shadow-2xl shadow-quimbara-magenta/20 bg-white relative z-10'>
                 <img src={fighter.photo} alt={fighter.name} class='w-full h-full object-cover' />
               </div>
               {/* Rank Badge */}
@@ -231,7 +231,8 @@ const athleteSchema = fighter
                   {fighter.division || 'UFC Fighter'}
                 </span>
                 <span class='flex items-center gap-2 whitespace-nowrap'>
-                  <span class='text-quimbara-magenta text-2xl'>🌍</span> {fighter.birth?.country || 'N/A'}
+                  <span class='text-quimbara-magenta text-2xl'>🌍</span>{' '}
+                  {fighter.birth?.country || 'N/A'}
                 </span>
                 <span class='flex items-center gap-2 whitespace-nowrap'>
                   <span class='text-quimbara-magenta text-2xl'>🥋</span>{' '}
@@ -273,9 +274,14 @@ const athleteSchema = fighter
       </section>
 
       {/* 2. QUICK ANSWER BOX (SEO) */}
-      <section class='bg-white border border-border p-8 rounded-3xl border-l-4 border-l-[#E83C91] shadow-sm'>
+      <section class='bg-white border border-border p-8 rounded-3xl border-l-4 border-l-quimbara-magenta shadow-sm'>
         <h2 class='text-2xl font-bold text-quimbara-purple mb-6 flex items-center gap-3'>
-          <svg class='w-6 h-6 text-quimbara-magenta' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+          <svg
+            class='w-6 h-6 text-quimbara-magenta'
+            fill='none'
+            stroke='currentColor'
+            viewBox='0 0 24 24'
+          >
             <path
               stroke-linecap='round'
               stroke-linejoin='round'
@@ -335,7 +341,9 @@ const athleteSchema = fighter
                       style={`width: ${((records?.ko.win || 0) / (records?.total.win || 1)) * 100}%`}
                     />
                   </div>
-                  <span class='font-bold text-quimbara-magenta w-6 text-right'>{records?.ko.win}</span>
+                  <span class='font-bold text-quimbara-magenta w-6 text-right'>
+                    {records?.ko.win}
+                  </span>
                 </div>
               </div>
               <div class='flex items-center justify-between'>
@@ -347,7 +355,9 @@ const athleteSchema = fighter
                       style={`width: ${((records?.sub.win || 0) / (records?.total.win || 1)) * 100}%`}
                     />
                   </div>
-                  <span class='font-bold text-quimbara-magenta w-6 text-right'>{records?.sub.win}</span>
+                  <span class='font-bold text-quimbara-magenta w-6 text-right'>
+                    {records?.sub.win}
+                  </span>
                 </div>
               </div>
               <div class='flex items-center justify-between'>
@@ -359,7 +369,9 @@ const athleteSchema = fighter
                       style={`width: ${((records?.dec?.win || 0) / (records?.total.win || 1)) * 100}%`}
                     />
                   </div>
-                  <span class='font-bold text-quimbara-magenta w-6 text-right'>{records?.dec?.win}</span>
+                  <span class='font-bold text-quimbara-magenta w-6 text-right'>
+                    {records?.dec?.win}
+                  </span>
                 </div>
               </div>
             </div>
@@ -367,7 +379,9 @@ const athleteSchema = fighter
 
           {nextFight && (
             <div class='glass-panel p-6 rounded-xl border border-quimbara-pink/30 bg-quimbara-magenta/5'>
-              <h3 class='text-xl font-heading font-bold text-quimbara-pink mb-4'>Próximo Combate</h3>
+              <h3 class='text-xl font-heading font-bold text-quimbara-pink mb-4'>
+                Próximo Combate
+              </h3>
               <div class='text-center'>
                 <div class='text-sm text-quimbara-purple 400 mb-2'>
                   {new Date(nextFight.date).toLocaleDateString()}
@@ -414,7 +428,9 @@ const athleteSchema = fighter
                       </h4>
                       <span class='text-xs font-mono text-quimbara-purple 500'>{event.year}</span>
                     </div>
-                    <p class='text-quimbara-purple 400 text-sm leading-relaxed'>{event.description}</p>
+                    <p class='text-quimbara-purple 400 text-sm leading-relaxed'>
+                      {event.description}
+                    </p>
                   </div>
                 </div>
               ))}
