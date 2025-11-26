@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-26T12:54:26.225Z",
+  "generatedAt": "2025-11-26T13:03:38.478Z",
   "champions": {
     "Heavyweight": {
       "id": 701,
@@ -196,22 +196,6 @@
       }
     },
     {
-      "id": 2436,
-      "name": "Alex Pereira",
-      "nickname": "Poatan",
-      "photo": "https://media.api-sports.io/mma/fighters/2436.png",
-      "weight": "205 lbs",
-      "height": "6' 4'",
-      "reach": "79'",
-      "birth_date": null,
-      "record": {
-        "total": 15,
-        "win": 12,
-        "loss": 3,
-        "draw": 0
-      }
-    },
-    {
       "id": 855,
       "name": "Ilia Topuria",
       "nickname": "El Matador",
@@ -244,34 +228,18 @@
       }
     },
     {
-      "id": 856,
-      "name": "Dricus Du Plessis",
-      "nickname": "Stilknocks",
-      "photo": "https://media.api-sports.io/mma/fighters/856.png",
-      "weight": "185 lbs",
-      "height": "6' 1'",
-      "reach": "76'",
+      "id": 743,
+      "name": "Khamzat Chimaev",
+      "nickname": "Borz",
+      "photo": "https://media.api-sports.io/mma/fighters/743.png",
+      "weight": "186 lbs",
+      "height": "6' 2'",
+      "reach": "75'",
       "birth_date": null,
       "record": {
-        "total": 26,
-        "win": 23,
-        "loss": 3,
-        "draw": 0
-      }
-    },
-    {
-      "id": 15,
-      "name": "Belal Muhammad",
-      "nickname": "Remember the Name",
-      "photo": "https://media.api-sports.io/mma/fighters/15.png",
-      "weight": "170 lbs",
-      "height": "5' 11'",
-      "reach": "72'",
-      "birth_date": null,
-      "record": {
-        "total": 28,
-        "win": 24,
-        "loss": 4,
+        "total": 14,
+        "win": 14,
+        "loss": 0,
         "draw": 0
       }
     },
@@ -292,6 +260,38 @@
       }
     },
     {
+      "id": 2436,
+      "name": "Alex Pereira",
+      "nickname": "Poatan",
+      "photo": "https://media.api-sports.io/mma/fighters/2436.png",
+      "weight": "205 lbs",
+      "height": "6' 4'",
+      "reach": "79'",
+      "birth_date": null,
+      "record": {
+        "total": 15,
+        "win": 12,
+        "loss": 3,
+        "draw": 0
+      }
+    },
+    {
+      "id": 361,
+      "name": "Alexander Volkanovski",
+      "nickname": "The Great",
+      "photo": "https://media.api-sports.io/mma/fighters/361.png",
+      "weight": "145 lbs",
+      "height": "5' 6'",
+      "reach": "71.5'",
+      "birth_date": null,
+      "record": {
+        "total": 31,
+        "win": 27,
+        "loss": 4,
+        "draw": 0
+      }
+    },
+    {
       "id": 701,
       "name": "Tom Aspinall",
       "nickname": "",
@@ -303,6 +303,86 @@
       "record": {
         "total": 18,
         "win": 15,
+        "loss": 3,
+        "draw": 0
+      }
+    },
+    {
+      "id": 856,
+      "name": "Dricus Du Plessis",
+      "nickname": "Stilknocks",
+      "photo": "https://media.api-sports.io/mma/fighters/856.png",
+      "weight": "185 lbs",
+      "height": "6' 1'",
+      "reach": "76'",
+      "birth_date": null,
+      "record": {
+        "total": 26,
+        "win": 23,
+        "loss": 3,
+        "draw": 0
+      }
+    },
+    {
+      "id": 1665,
+      "name": "Dale Hartt",
+      "nickname": "",
+      "photo": "https://media.api-sports.io/mma/fighters/1665.png",
+      "weight": null,
+      "height": null,
+      "reach": "69'",
+      "birth_date": null,
+      "record": {
+        "total": 3,
+        "win": 1,
+        "loss": 2,
+        "draw": 0
+      }
+    },
+    {
+      "id": 2411,
+      "name": "Jack Della Maddalena",
+      "nickname": "",
+      "photo": "https://media.api-sports.io/mma/fighters/2411.png",
+      "weight": "170 lbs",
+      "height": "5' 11'",
+      "reach": "73'",
+      "birth_date": null,
+      "record": {
+        "total": 20,
+        "win": 18,
+        "loss": 2,
+        "draw": 0
+      }
+    },
+    {
+      "id": 103,
+      "name": "Magomed Ankalaev",
+      "nickname": "",
+      "photo": "https://media.api-sports.io/mma/fighters/103.png",
+      "weight": "205 lbs",
+      "height": "6' 3'",
+      "reach": "75'",
+      "birth_date": null,
+      "record": {
+        "total": 23,
+        "win": 21,
+        "loss": 1,
+        "draw": 1
+      }
+    },
+    {
+      "id": 332,
+      "name": "Arman Tsarukyan",
+      "nickname": "Ahalkalakets",
+      "photo": "https://media.api-sports.io/mma/fighters/332.png",
+      "weight": "156 lbs",
+      "height": "5' 7'",
+      "reach": "72.5'",
+      "birth_date": null,
+      "record": {
+        "total": 25,
+        "win": 22,
         "loss": 3,
         "draw": 0
       }
@@ -324,18 +404,18 @@
       }
     },
     {
-      "id": 1665,
-      "name": "Dale Hartt",
-      "nickname": "",
-      "photo": "https://media.api-sports.io/mma/fighters/1665.png",
-      "weight": null,
-      "height": null,
-      "reach": "69'",
+      "id": 15,
+      "name": "Belal Muhammad",
+      "nickname": "Remember the Name",
+      "photo": "https://media.api-sports.io/mma/fighters/15.png",
+      "weight": "170 lbs",
+      "height": "5' 11'",
+      "reach": "72'",
       "birth_date": null,
       "record": {
-        "total": 3,
-        "win": 1,
-        "loss": 2,
+        "total": 28,
+        "win": 24,
+        "loss": 4,
         "draw": 0
       }
     }
