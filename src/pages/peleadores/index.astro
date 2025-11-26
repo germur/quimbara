@@ -20,15 +20,15 @@ const champions = weightClasses
   })
   .filter((c) => c.champion)
 
-// Top peleadores destacados (solo campeones)
-const featuredFighters = champions
-  .map((c) => ({
-    ...c.champion,
-    division: c.division.nameEs,
-    slug: c.champion.name.toLowerCase().replace(/ /g, '-'),
-    rank: 'C'
-  }))
-  .filter(Boolean)
+// Top peleadores destacados (Campeones y Top 1 de fighters.json)
+const featuredFighters = fightersData
+  .filter((f) => f.rank === 'C' || f.rank === '1')
+  .sort((a, b) => {
+    // Campeones primero
+    if (a.rank === 'C' && b.rank !== 'C') return -1
+    if (a.rank !== 'C' && b.rank === 'C') return 1
+    return 0
+  })
   .slice(0, 20)
 
 const meta = {
