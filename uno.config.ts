@@ -210,10 +210,11 @@ export default defineConfig({
     }
   },
   shortcuts: [
-    ['glass-panel', 'bg-slate-900/70 backdrop-blur-md border border-white/10'],
-    ['seo-badge', 'text-[0.65rem] uppercase tracking-wider px-1.5 py-0.5 rounded font-bold inline-block mb-1'],
-    ['btn-primary', 'bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded font-bold uppercase tracking-wider transition-colors'],
-    ['btn-secondary', 'border border-white hover:bg-white hover:text-black text-white px-8 py-3 rounded font-bold uppercase tracking-wider transition-colors']
+    // Shortcuts removed - defined in app.css instead to avoid UnoCSS parsing issues
+    // ['glass-panel', 'bg-slate-900/70 backdrop-filter backdrop-blur-lg border border-white/10'],
+    // ['seo-badge', 'text-xs font-bold inline-block mb-1 px-1.5 py-0.5 rounded tracking-wider'],
+    // ['btn-primary', 'bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded font-bold tracking-wider transition-colors'],
+    // ['btn-secondary', 'border border-white hover:bg-white hover:text-black text-white px-8 py-3 rounded font-bold tracking-wider transition-colors']
   ],
   // https://unocss.dev/guide/extracting#limitations
   safelist: [

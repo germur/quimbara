@@ -1,321 +1,440 @@
 ---
-export const prerender = true;
+export const prerender = true
 
 const meta = {
-  title: "Informe Topuria 2025: Evolución Marcial | Quimbara",
-  description: "Análisis forense de la evolución técnica, fisiológica y psicológica del primer Doble Campeón Español de la UFC.",
-  ogImage: "/images/topuria-2025-cover.jpg"
-};
+  title: 'Informe Topuria 2025: Evolución Marcial | Quimbara',
+  description:
+    'Análisis forense de la evolución técnica, fisiológica y psicológica del primer Doble Campeón Español de la UFC.',
+  ogImage: '/images/topuria-2025-cover.jpg'
+}
 ---
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang='es'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     <title>{meta.title}</title>
-    <meta name="description" content={meta.description}>
-    <meta property="og:title" content={meta.title}>
-    <meta property="og:description" content={meta.description}>
-    <meta property="og:image" content={meta.ogImage}>
-    <meta property="og:type" content="article">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content={meta.title}>
-    <meta name="twitter:description" content={meta.description}>
-    <meta name="twitter:image" content={meta.ogImage}>
-    
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name='description' content={meta.description} />
+    <meta property='og:title' content={meta.title} />
+    <meta property='og:description' content={meta.description} />
+    <meta property='og:image' content={meta.ogImage} />
+    <meta property='og:type' content='article' />
+    <meta name='twitter:card' content='summary_large_image' />
+    <meta name='twitter:title' content={meta.title} />
+    <meta name='twitter:description' content={meta.description} />
+    <meta name='twitter:image' content={meta.ogImage} />
+
+    <script src='https://cdn.tailwindcss.com'></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Roboto+Condensed:wght@300;400;700&display=swap');
-        
-        body {
-            font-family: 'Roboto Condensed', sans-serif;
-            background-color: #0f172a;
-            color: #e2e8f0;
-        }
-        
-        h1, h2, h3, .header-font {
-            font-family: 'Oswald', sans-serif;
-        }
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Roboto+Condensed:wght@300;400;700&display=swap');
 
-        .gold-gradient {
-            background: linear-gradient(90deg, #ca8a04 0%, #facc15 50%, #ca8a04 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+      body {
+        font-family: 'Roboto Condensed', sans-serif;
+        background-color: #0f172a;
+        color: #e2e8f0;
+      }
 
-        .section-card {
-            background: rgba(30, 41, 59, 0.7);
-            backdrop-filter: blur(10px);
-            border: 1px solid #334155;
-            transition: all 0.3s ease;
-        }
+      h1,
+      h2,
+      h3,
+      .header-font {
+        font-family: 'Oswald', sans-serif;
+      }
 
-        .section-card:hover {
-            border-color: #ca8a04;
-            transform: translateY(-2px);
-        }
+      .gold-gradient {
+        background: linear-gradient(90deg, #ca8a04 0%, #facc15 50%, #ca8a04 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
 
+      .section-card {
+        background: rgba(30, 41, 59, 0.7);
+        backdrop-filter: blur(10px);
+        border: 1px solid #334155;
+        transition: all 0.3s ease;
+      }
+
+      .section-card:hover {
+        border-color: #ca8a04;
+        transform: translateY(-2px);
+      }
+
+      .timeline-line {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: #334155;
+        transform: translateX(-50%);
+      }
+
+      @media (max-width: 768px) {
         .timeline-line {
-            position: absolute;
-            left: 50%;
-            top: 0;
-            bottom: 0;
-            width: 2px;
-            background: #334155;
-            transform: translateX(-50%);
+          left: 20px;
         }
-
-        @media (max-width: 768px) {
-            .timeline-line {
-                left: 20px;
-            }
-        }
+      }
     </style>
-</head>
-<body class="bg-quimbara-purple/5 min-h-screen pb-12">
-
+  </head>
+  <body class='bg-quimbara-purple/5 min-h-screen pb-12'>
     <!-- HERO SECTION -->
-    <header class="relative w-full h-screen/2 flex flex-col items-center justify-center text-center p-8 border-b border-quimbara-pink/30 overflow-hidden">
-        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20"></div>
-        <div class="z-10 max-w-4xl">
-            <span class="inline-block py-1 px-3 rounded-full bg-quimbara-magenta 900/50 text-quimbara-magenta border border-quimbara-magenta text-xs tracking-widest mb-4">INFORME CONFIDENCIAL // NOV 2025</span>
-            <h1 class="text-6xl md:text-8xl font-bold uppercase tracking-tighter mb-2 text-quimbara-magenta">ILIA <span class="text-quimbara-pink">TOPURIA</span></h1>
-            <h2 class="text-2xl md:text-3xl text-quimbara-purple font-light tracking-widest uppercase">De Refugiado a la Hegemonía Global</h2>
-            <p class="mt-6 text-sm text-quimbara-purple max-w-xl mx-auto">Análisis forense de la evolución técnica, fisiológica y psicológica del primer Doble Campeón Español de la UFC.</p>
-        </div>
+    <header
+      class='relative w-full h-screen/2 flex flex-col items-center justify-center text-center p-8 border-b border-quimbara-pink/30 overflow-hidden'
+    >
+      <div
+        class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20"
+      >
+      </div>
+      <div class='z-10 max-w-4xl'>
+        <span
+          class='inline-block py-1 px-3 rounded-full bg-quimbara-magenta/50 text-quimbara-magenta border border-quimbara-magenta text-xs tracking-widest mb-4'
+          >INFORME CONFIDENCIAL // NOV 2025</span
+        >
+        <h1
+          class='text-6xl md:text-8xl font-bold uppercase tracking-tighter mb-2 text-quimbara-magenta'
+        >
+          ILIA <span class='text-quimbara-pink'>TOPURIA</span>
+        </h1>
+        <h2 class='text-2xl md:text-3xl text-quimbara-purple font-light tracking-widest uppercase'>
+          De Refugiado a la Hegemonía Global
+        </h2>
+        <p class='mt-6 text-sm text-quimbara-purple max-w-xl mx-auto'>
+          Análisis forense de la evolución técnica, fisiológica y psicológica del primer Doble
+          Campeón Español de la UFC.
+        </p>
+      </div>
     </header>
 
-    <main class="max-w-6xl mx-auto px-4 mt-12 space-y-20">
+    <main class='max-w-6xl mx-auto px-4 mt-12 space-y-20'>
+      <!-- 1. EL ADN DEL COMBATIENTE -->
+      <section>
+        <div class='flex items-center gap-4 mb-8'>
+          <div class='h-1 w-12 bg-quimbara-magenta'></div>
+          <h3 class='text-3xl font-bold text-quimbara-magenta header-font uppercase'>
+            1. El ADN Marcial Híbrido
+          </h3>
+        </div>
 
-        <!-- 1. EL ADN DEL COMBATIENTE -->
-        <section>
-            <div class="flex items-center gap-4 mb-8">
-                <div class="h-1 w-12 bg-quimbara-magenta"></div>
-                <h3 class="text-3xl font-bold text-quimbara-magenta header-font uppercase">1. El ADN Marcial Híbrido</h3>
+        <div class='grid grid-cols-1 md:grid-cols-3 gap-6'>
+          <!-- Fase 1 -->
+          <div class='section-card p-6 rounded-lg relative overflow-hidden group'>
+            <div class='absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition'>
+              <svg class='w-24 h-24 text-quimbara-magenta' fill='currentColor' viewBox='0 0 24 24'
+                ><path
+                  d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z'
+                ></path></svg
+              >
             </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <!-- Fase 1 -->
-                <div class="section-card p-6 rounded-lg relative overflow-hidden group">
-                    <div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition">
-                        <svg class="w-24 h-24 text-quimbara-magenta" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
-                    </div>
-                    <h4 class="text-xl text-quimbara-pink font-bold mb-2">Base: Grecorromana</h4>
-                    <p class="text-xs text-quimbara-purple mb-4 uppercase tracking-wider">Georgia (2004-2012)</p>
-                    <ul class="text-sm text-quimbara-purple space-y-2 list-disc list-inside">
-                        <li>Mentalidad de "Cabina Telefónica".</li>
-                        <li>Verticalidad inamovible.</li>
-                        <li>Control de muñecas y cuello.</li>
-                    </ul>
-                </div>
+            <h4 class='text-xl text-quimbara-pink font-bold mb-2'>Base: Grecorromana</h4>
+            <p class='text-xs text-quimbara-purple mb-4 uppercase tracking-wider'>
+              Georgia (2004-2012)
+            </p>
+            <ul class='text-sm text-quimbara-purple space-y-2 list-disc list-inside'>
+              <li>Mentalidad de "Cabina Telefónica".</li>
+              <li>Verticalidad inamovible.</li>
+              <li>Control de muñecas y cuello.</li>
+            </ul>
+          </div>
 
-                <!-- Fase 2 -->
-                <div class="section-card p-6 rounded-lg relative overflow-hidden group">
-                     <div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition">
-                        <svg class="w-24 h-24 text-quimbara-magenta" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 9h-2V7h-2v5H6v2h2v5h2v-5h2v-2z"/></svg>
-                    </div>
-                    <h4 class="text-xl text-quimbara-pink font-bold mb-2">Suelo: Climent BJJ</h4>
-                    <p class="text-xs text-quimbara-purple mb-4 uppercase tracking-wider">Alicante (2012-2024)</p>
-                    <ul class="text-sm text-quimbara-purple space-y-2 list-disc list-inside">
-                        <li>Transiciones Caóticas (No estáticas).</li>
-                        <li>Guillotinas y Triángulos de Brazo.</li>
-                        <li>Finalizador, no solo controlador.</li>
-                    </ul>
-                </div>
-
-                <!-- Fase 3 -->
-                <div class="section-card p-6 rounded-lg relative overflow-hidden group">
-                     <div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition">
-                        <svg class="w-24 h-24 text-quimbara-magenta" fill="currentColor" viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22 14.86 20.57 16.29 22 18.43 19.86 19.86 21.29 21.29 19.86l-1.43-1.43L21.29 17 19.86 15.57l-1.43 1.43z"/></svg>
-                    </div>
-                    <h4 class="text-xl text-quimbara-pink font-bold mb-2">Strike: La Dulce Ciencia</h4>
-                    <p class="text-xs text-quimbara-purple mb-4 uppercase tracking-wider">Sistema Javi Climent</p>
-                    <ul class="text-sm text-quimbara-purple space-y-2 list-disc list-inside">
-                        <li>Gestión de distancia milimétrica.</li>
-                        <li><strong>Gancho al Hígado:</strong> El arma letal.</li>
-                        <li>Combinaciones Cabeza-Cuerpo.</li>
-                    </ul>
-                </div>
+          <!-- Fase 2 -->
+          <div class='section-card p-6 rounded-lg relative overflow-hidden group'>
+            <div class='absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition'>
+              <svg class='w-24 h-24 text-quimbara-magenta' fill='currentColor' viewBox='0 0 24 24'
+                ><path
+                  d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 9h-2V7h-2v5H6v2h2v5h2v-5h2v-2z'
+                ></path></svg
+              >
             </div>
-        </section>
+            <h4 class='text-xl text-quimbara-pink font-bold mb-2'>Suelo: Climent BJJ</h4>
+            <p class='text-xs text-quimbara-purple mb-4 uppercase tracking-wider'>
+              Alicante (2012-2024)
+            </p>
+            <ul class='text-sm text-quimbara-purple space-y-2 list-disc list-inside'>
+              <li>Transiciones Caóticas (No estáticas).</li>
+              <li>Guillotinas y Triángulos de Brazo.</li>
+              <li>Finalizador, no solo controlador.</li>
+            </ul>
+          </div>
 
-        <!-- 2. LA CIENCIA DETRÁS DEL ÉXITO -->
-        <section class="bg-quimbara-purple p-8 rounded-2xl border border-quimbara-purple/20">
-             <div class="flex items-center gap-4 mb-8">
-                <div class="h-1 w-12 bg-quimbara-purple/10"></div>
-                <h3 class="text-3xl font-bold text-quimbara-magenta header-font uppercase">2. Metodología "Real Madrid" (2025)</h3>
+          <!-- Fase 3 -->
+          <div class='section-card p-6 rounded-lg relative overflow-hidden group'>
+            <div class='absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition'>
+              <svg class='w-24 h-24 text-quimbara-magenta' fill='currentColor' viewBox='0 0 24 24'
+                ><path
+                  d='M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22 14.86 20.57 16.29 22 18.43 19.86 19.86 21.29 21.29 19.86l-1.43-1.43L21.29 17 19.86 15.57l-1.43 1.43z'
+                ></path></svg
+              >
             </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <h4 class='text-xl text-quimbara-pink font-bold mb-2'>Strike: La Dulce Ciencia</h4>
+            <p class='text-xs text-quimbara-purple mb-4 uppercase tracking-wider'>
+              Sistema Javi Climent
+            </p>
+            <ul class='text-sm text-quimbara-purple space-y-2 list-disc list-inside'>
+              <li>Gestión de distancia milimétrica.</li>
+              <li><strong>Gancho al Hígado:</strong> El arma letal.</li>
+              <li>Combinaciones Cabeza-Cuerpo.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. LA CIENCIA DETRÁS DEL ÉXITO -->
+      <section class='bg-quimbara-purple p-8 rounded-2xl border border-quimbara-purple/20'>
+        <div class='flex items-center gap-4 mb-8'>
+          <div class='h-1 w-12 bg-quimbara-purple/10'></div>
+          <h3 class='text-3xl font-bold text-quimbara-magenta header-font uppercase'>
+            2. Metodología "Real Madrid" (2025)
+          </h3>
+        </div>
+
+        <div class='grid grid-cols-1 md:grid-cols-2 gap-8 items-center'>
+          <div>
+            <p class='text-quimbara-purple mb-6'>
+              Tras la separación del Climent Club, Topuria implementó una infraestructura
+              corporativa unipersonal en su residencia de Madrid.
+            </p>
+
+            <div class='space-y-4'>
+              <div class='flex items-start gap-4'>
+                <div class='bg-quimbara-purple/20 p-2 rounded text-quimbara-purple font-bold'>
+                  01
+                </div>
                 <div>
-                    <p class="text-quimbara-purple mb-6">Tras la separación del Climent Club, Topuria implementó una infraestructura corporativa unipersonal en su residencia de Madrid.</p>
-                    
-                    <div class="space-y-4">
-                        <div class="flex items-start gap-4">
-                            <div class="bg-quimbara-purple/10/30 p-2 rounded text-quimbara-purple font-bold">01</div>
-                            <div>
-                                <h5 class="font-bold text-quimbara-magenta">Neuro-Priming</h5>
-                                <p class="text-sm text-quimbara-purple">Dr. Aldo Martínez. Ejercicios para mejorar la velocidad de procesamiento visual bajo fatiga extrema.</p>
-                            </div>
-                        </div>
-                         <div class="flex items-start gap-4">
-                            <div class="bg-quimbara-purple/10/30 p-2 rounded text-quimbara-purple font-bold">02</div>
-                            <div>
-                                <h5 class="font-bold text-quimbara-magenta">Sprints de la Muerte</h5>
-                                <p class="text-sm text-quimbara-purple">Jesús Gallo. 12 series de 100m a máxima potencia para crear recuperación anaeróbica instantánea.</p>
-                            </div>
-                        </div>
-                         <div class="flex items-start gap-4">
-                            <div class="bg-quimbara-purple/10/30 p-2 rounded text-quimbara-purple font-bold">03</div>
-                            <div>
-                                <h5 class="font-bold text-quimbara-magenta">Salud Cerebral</h5>
-                                <p class="text-sm text-quimbara-purple">Subida a 155lbs para proteger el fluido cerebroespinal y evitar daños por deshidratación.</p>
-                            </div>
-                        </div>
-                    </div>
+                  <h5 class='font-bold text-quimbara-magenta'>Neuro-Priming</h5>
+                  <p class='text-sm text-quimbara-purple'>
+                    Dr. Aldo Martínez. Ejercicios para mejorar la velocidad de procesamiento visual
+                    bajo fatiga extrema.
+                  </p>
                 </div>
-                
-                <!-- Chart simulado -->
-                <div class="bg-quimbara-purple p-6 rounded-xl border border-quimbara-purple/20">
-                    <h5 class="text-center text-sm font-bold uppercase tracking-widest text-quimbara-purple mb-4">Rendimiento Físico: 145lbs vs 155lbs</h5>
-                    <div class="space-y-4">
-                        <div>
-                            <div class="flex justify-between text-xs text-quimbara-purple mb-1">
-                                <span>Potencia de Golpeo</span>
-                                <span class="text-green-400">+15% en 155lbs</span>
-                            </div>
-                            <div class="w-full bg-quimbara-purple/5 rounded-full h-2">
-                                <div class="bg-green-500 h-2 rounded-full" style="width: 95%"></div>
-                            </div>
-                            <div class="w-full bg-quimbara-purple/5 rounded-full h-2 mt-1 opacity-50">
-                                <div class="bg-quimbara-purple/5 h-2 rounded-full" style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between text-xs text-quimbara-purple mb-1">
-                                <span>Resistencia al Daño (Barbilla)</span>
-                                <span class="text-green-400">Óptima</span>
-                            </div>
-                            <div class="w-full bg-quimbara-purple/5 rounded-full h-2">
-                                <div class="bg-green-500 h-2 rounded-full" style="width: 90%"></div>
-                            </div>
-                             <div class="w-full bg-quimbara-purple/5 rounded-full h-2 mt-1 opacity-50">
-                                <div class="bg-quimbara-purple/5 h-2 rounded-full" style="width: 60%"></div>
-                            </div>
-                        </div>
-                         <div class="mt-4 text-[10px] text-center text-quimbara-purple">
-                            *Barra Verde: Peso Ligero (155) | Barra Gris: Peso Pluma (145)
-                        </div>
-                    </div>
+              </div>
+              <div class='flex items-start gap-4'>
+                <div class='bg-quimbara-purple/20 p-2 rounded text-quimbara-purple font-bold'>
+                  02
                 </div>
+                <div>
+                  <h5 class='font-bold text-quimbara-magenta'>Sprints de la Muerte</h5>
+                  <p class='text-sm text-quimbara-purple'>
+                    Jesús Gallo. 12 series de 100m a máxima potencia para crear recuperación
+                    anaeróbica instantánea.
+                  </p>
+                </div>
+              </div>
+              <div class='flex items-start gap-4'>
+                <div class='bg-quimbara-purple/20 p-2 rounded text-quimbara-purple font-bold'>
+                  03
+                </div>
+                <div>
+                  <h5 class='font-bold text-quimbara-magenta'>Salud Cerebral</h5>
+                  <p class='text-sm text-quimbara-purple'>
+                    Subida a 155lbs para proteger el fluido cerebroespinal y evitar daños por
+                    deshidratación.
+                  </p>
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
 
-        <!-- 3. LA CONSAGRACIÓN: UFC 317 -->
-        <section class="relative">
-             <div class="flex flex-col items-center mb-10 text-center">
-                <span class="text-quimbara-magenta tracking-widest font-bold text-sm">28 DE JUNIO DE 2025</span>
-                <h3 class="text-4xl md:text-5xl font-bold text-quimbara-magenta header-font uppercase mt-2">UFC 317: DOBLE CORONA</h3>
-                <p class="text-quimbara-purple mt-2">T-Mobile Arena, Las Vegas</p>
+          <!-- Chart simulado -->
+          <div class='bg-quimbara-purple p-6 rounded-xl border border-quimbara-purple/20'>
+            <h5
+              class='text-center text-sm font-bold uppercase tracking-widest text-quimbara-purple mb-4'
+            >
+              Rendimiento Físico: 145lbs vs 155lbs
+            </h5>
+            <div class='space-y-4'>
+              <div>
+                <div class='flex justify-between text-xs text-quimbara-purple mb-1'>
+                  <span>Potencia de Golpeo</span>
+                  <span class='text-green-400'>+15% en 155lbs</span>
+                </div>
+                <div class='w-full bg-quimbara-purple/5 rounded-full h-2'>
+                  <div class='bg-green-500 h-2 rounded-full' style='width: 95%'></div>
+                </div>
+                <div class='w-full bg-quimbara-purple/5 rounded-full h-2 mt-1 opacity-50'>
+                  <div class='bg-quimbara-purple/5 h-2 rounded-full' style='width: 80%'></div>
+                </div>
+              </div>
+              <div>
+                <div class='flex justify-between text-xs text-quimbara-purple mb-1'>
+                  <span>Resistencia al Daño (Barbilla)</span>
+                  <span class='text-green-400'>Óptima</span>
+                </div>
+                <div class='w-full bg-quimbara-purple/5 rounded-full h-2'>
+                  <div class='bg-green-500 h-2 rounded-full' style='width: 90%'></div>
+                </div>
+                <div class='w-full bg-quimbara-purple/5 rounded-full h-2 mt-1 opacity-50'>
+                  <div class='bg-quimbara-purple/5 h-2 rounded-full' style='width: 60%'></div>
+                </div>
+              </div>
+              <div class='mt-4 text-[10px] text-center text-quimbara-purple'>
+                *Barra Verde: Peso Ligero (155) | Barra Gris: Peso Pluma (145)
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 border border-quimbara-purple/20 bg-quimbara-purple rounded-xl overflow-hidden">
-                
-                <!-- TOPURIA COLUMN -->
-                <div class="p-8 flex flex-col items-center justify-center bg-quimbara-purple/50">
-                    <h4 class="text-3xl font-bold text-quimbara-magenta uppercase">TOPURIA</h4>
-                    <span class="bg-quimbara-magenta text-black text-xs font-bold px-2 py-1 rounded mt-2">GANADOR</span>
-                    <div class="mt-6 text-center">
-                        <div class="text-5xl font-bold text-quimbara-magenta header-font">12</div>
-                        <div class="text-xs text-quimbara-purple uppercase tracking-widest">Golpes Significativos</div>
-                    </div>
-                     <div class="mt-6 text-center">
-                        <div class="text-5xl font-bold text-green-500 header-font">1</div>
-                        <div class="text-xs text-quimbara-purple uppercase tracking-widest">Knockdown</div>
-                    </div>
-                </div>
+      <!-- 3. LA CONSAGRACIÓN: UFC 317 -->
+      <section class='relative'>
+        <div class='flex flex-col items-center mb-10 text-center'>
+          <span class='text-quimbara-magenta tracking-widest font-bold text-sm'
+            >28 DE JUNIO DE 2025</span
+          >
+          <h3
+            class='text-4xl md:text-5xl font-bold text-quimbara-magenta header-font uppercase mt-2'
+          >
+            UFC 317: DOBLE CORONA
+          </h3>
+          <p class='text-quimbara-purple mt-2'>T-Mobile Arena, Las Vegas</p>
+        </div>
 
-                <!-- CENTER INFO -->
-                <div class="p-8 border-x border-quimbara-purple/20 flex flex-col items-center justify-center text-center bg-quimbara-purple">
-                    <div class="text-xs text-quimbara-purple mb-2">TIEMPO FINAL</div>
-                    <div class="text-6xl font-bold text-quimbara-magenta font-mono">2:27</div>
-                    <div class="text-sm text-quimbara-magenta font-bold mt-1">ROUND 1</div>
-                    <div class="w-full h-px bg-quimbara-purple/5 my-6"></div>
-                    <p class="text-sm italic text-quimbara-purple">"Contragolpe de derecha tras error posicional de Oliveira."</p>
-                    <div class="mt-4 px-4 py-2 border border-quimbara-pink text-quimbara-pink text-xs font-bold rounded uppercase">
-                        Nuevo Doble Campeón
-                    </div>
-                </div>
-
-                <!-- OLIVEIRA COLUMN -->
-                <div class="p-8 flex flex-col items-center justify-center bg-quimbara-purple/50">
-                    <h4 class="text-3xl font-bold text-quimbara-purple uppercase">OLIVEIRA</h4>
-                    <span class="bg-quimbara-purple/5 text-quimbara-purple text-xs font-bold px-2 py-1 rounded mt-2">PERDEDOR</span>
-                    <div class="mt-6 text-center">
-                        <div class="text-5xl font-bold text-quimbara-purple header-font">8</div>
-                        <div class="text-xs text-quimbara-purple uppercase tracking-widest">Golpes Significativos</div>
-                    </div>
-                     <div class="mt-6 text-center">
-                        <div class="text-5xl font-bold text-quimbara-purple header-font">1</div>
-                        <div class="text-xs text-quimbara-purple uppercase tracking-widest">Intento Derribo (Fallido)</div>
-                    </div>
-                </div>
+        <div
+          class='grid grid-cols-1 lg:grid-cols-3 gap-0 border border-quimbara-purple/20 bg-quimbara-purple rounded-xl overflow-hidden'
+        >
+          <!-- TOPURIA COLUMN -->
+          <div class='p-8 flex flex-col items-center justify-center bg-quimbara-purple/50'>
+            <h4 class='text-3xl font-bold text-quimbara-magenta uppercase'>TOPURIA</h4>
+            <span class='bg-quimbara-magenta text-black text-xs font-bold px-2 py-1 rounded mt-2'
+              >GANADOR</span
+            >
+            <div class='mt-6 text-center'>
+              <div class='text-5xl font-bold text-quimbara-magenta header-font'>12</div>
+              <div class='text-xs text-quimbara-purple uppercase tracking-widest'>
+                Golpes Significativos
+              </div>
             </div>
-        </section>
-
-        <!-- 4. TIMELINE FUTURO -->
-        <section>
-            <div class="flex items-center gap-4 mb-8">
-                <div class="h-1 w-12 bg-quimbara-magenta 600"></div>
-                <h3 class="text-3xl font-bold text-quimbara-magenta header-font uppercase">4. Horizonte 2026: ¿Gloria o Caída?</h3>
+            <div class='mt-6 text-center'>
+              <div class='text-5xl font-bold text-green-500 header-font'>1</div>
+              <div class='text-xs text-quimbara-purple uppercase tracking-widest'>Knockdown</div>
             </div>
+          </div>
 
-            <div class="flex flex-col md:flex-row gap-6">
-                <!-- Amenaza -->
-                <div class="flex-1 bg-gradient-to-br from-red-900/20 to-slate-900 border border-quimbara-magenta/30 p-6 rounded-xl">
-                    <h4 class="text-quimbara-magenta font-bold uppercase mb-4 flex items-center gap-2">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-                        Amenazas Críticas
-                    </h4>
-                    <ul class="space-y-3 text-sm text-quimbara-purple">
-                        <li class="flex gap-2">
-                            <span class="text-quimbara-magenta font-bold">•</span>
-                            <span><strong>El Cisma Personal:</strong> Aislamiento emocional tras ruptura marital y separación de "figuras paternas" (Hnos Climent).</span>
-                        </li>
-                        <li class="flex gap-2">
-                            <span class="text-quimbara-magenta font-bold">•</span>
-                            <span><strong>Síndrome del Villano:</strong> El personaje mediático ha consumido a la persona, eliminando la red de apoyo humilde.</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Oportunidad -->
-                <div class="flex-1 bg-gradient-to-br from-yellow-900/20 to-slate-900 border border-quimbara-pink/30 p-6 rounded-xl">
-                    <h4 class="text-quimbara-pink font-bold uppercase mb-4 flex items-center gap-2">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                        Objetivo: White House 2026
-                    </h4>
-                    <ul class="space-y-3 text-sm text-quimbara-purple">
-                        <li class="flex gap-2">
-                            <span class="text-quimbara-pink font-bold">•</span>
-                            <span><strong>El Triple Campeonato:</strong> Desafío a Islam Makhachev (170lbs).</span>
-                        </li>
-                        <li class="flex gap-2">
-                            <span class="text-quimbara-pink font-bold">•</span>
-                            <span><strong>Estrategia:</strong> Usar la base de lucha para negar derribos y explotar la velocidad de manos superior.</span>
-                        </li>
-                    </ul>
-                </div>
+          <!-- CENTER INFO -->
+          <div
+            class='p-8 border-x border-quimbara-purple/20 flex flex-col items-center justify-center text-center bg-quimbara-purple'
+          >
+            <div class='text-xs text-quimbara-purple mb-2'>TIEMPO FINAL</div>
+            <div class='text-6xl font-bold text-quimbara-magenta font-mono'>2:27</div>
+            <div class='text-sm text-quimbara-magenta font-bold mt-1'>ROUND 1</div>
+            <div class='w-full h-px bg-quimbara-purple/5 my-6'></div>
+            <p class='text-sm italic text-quimbara-purple'>
+              "Contragolpe de derecha tras error posicional de Oliveira."
+            </p>
+            <div
+              class='mt-4 px-4 py-2 border border-quimbara-pink text-quimbara-pink text-xs font-bold rounded uppercase'
+            >
+              Nuevo Doble Campeón
             </div>
-        </section>
+          </div>
 
+          <!-- OLIVEIRA COLUMN -->
+          <div class='p-8 flex flex-col items-center justify-center bg-quimbara-purple/50'>
+            <h4 class='text-3xl font-bold text-quimbara-purple uppercase'>OLIVEIRA</h4>
+            <span
+              class='bg-quimbara-purple/5 text-quimbara-purple text-xs font-bold px-2 py-1 rounded mt-2'
+              >PERDEDOR</span
+            >
+            <div class='mt-6 text-center'>
+              <div class='text-5xl font-bold text-quimbara-purple header-font'>8</div>
+              <div class='text-xs text-quimbara-purple uppercase tracking-widest'>
+                Golpes Significativos
+              </div>
+            </div>
+            <div class='mt-6 text-center'>
+              <div class='text-5xl font-bold text-quimbara-purple header-font'>1</div>
+              <div class='text-xs text-quimbara-purple uppercase tracking-widest'>
+                Intento Derribo (Fallido)
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. TIMELINE FUTURO -->
+      <section>
+        <div class='flex items-center gap-4 mb-8'>
+          <div class='h-1 w-12 bg-quimbara-magenta/70'></div>
+          <h3 class='text-3xl font-bold text-quimbara-magenta header-font uppercase'>
+            4. Horizonte 2026: ¿Gloria o Caída?
+          </h3>
+        </div>
+
+        <div class='flex flex-col md:flex-row gap-6'>
+          <!-- Amenaza -->
+          <div
+            class='flex-1 bg-gradient-to-br from-red-900/20 to-slate-900 border border-quimbara-magenta/30 p-6 rounded-xl'
+          >
+            <h4 class='text-quimbara-magenta font-bold uppercase mb-4 flex items-center gap-2'>
+              <svg class='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'
+                ><path
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                  stroke-width='2'
+                  d='M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z'
+                ></path></svg
+              >
+              Amenazas Críticas
+            </h4>
+            <ul class='space-y-3 text-sm text-quimbara-purple'>
+              <li class='flex gap-2'>
+                <span class='text-quimbara-magenta font-bold'>•</span>
+                <span
+                  ><strong>El Cisma Personal:</strong> Aislamiento emocional tras ruptura marital y separación
+                  de "figuras paternas" (Hnos Climent).</span
+                >
+              </li>
+              <li class='flex gap-2'>
+                <span class='text-quimbara-magenta font-bold'>•</span>
+                <span
+                  ><strong>Síndrome del Villano:</strong> El personaje mediático ha consumido a la persona,
+                  eliminando la red de apoyo humilde.</span
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Oportunidad -->
+          <div
+            class='flex-1 bg-gradient-to-br from-yellow-900/20 to-slate-900 border border-quimbara-pink/30 p-6 rounded-xl'
+          >
+            <h4 class='text-quimbara-pink font-bold uppercase mb-4 flex items-center gap-2'>
+              <svg class='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'
+                ><path
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                  stroke-width='2'
+                  d='M13 10V3L4 14h7v7l9-11h-7z'></path></svg
+              >
+              Objetivo: White House 2026
+            </h4>
+            <ul class='space-y-3 text-sm text-quimbara-purple'>
+              <li class='flex gap-2'>
+                <span class='text-quimbara-pink font-bold'>•</span>
+                <span
+                  ><strong>El Triple Campeonato:</strong> Desafío a Islam Makhachev (170lbs).</span
+                >
+              </li>
+              <li class='flex gap-2'>
+                <span class='text-quimbara-pink font-bold'>•</span>
+                <span
+                  ><strong>Estrategia:</strong> Usar la base de lucha para negar derribos y explotar
+                  la velocidad de manos superior.</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="mt-20 py-8 border-t border-quimbara-purple/20 text-center text-quimbara-purple text-xs">
-        <p>QUIMBARA // ANÁLISIS DEPORTIVO DE ÉLITE</p>
-        <a href="/" class="text-quimbara-pink hover:text-quimbara-pink mt-2 inline-block">← Volver al inicio</a>
+    <footer
+      class='mt-20 py-8 border-t border-quimbara-purple/20 text-center text-quimbara-purple text-xs'
+    >
+      <p>QUIMBARA // ANÁLISIS DEPORTIVO DE ÉLITE</p>
+      <a href='/' class='text-quimbara-pink hover:text-quimbara-pink mt-2 inline-block'
+        >← Volver al inicio</a
+      >
     </footer>
-
-</body>
+  </body>
 </html>

@@ -62,7 +62,7 @@ const meta = {
       <h1 class='text-5xl md:text-7xl font-heading font-bold text-quimbara-magenta mb-6'>
         ACADEMIA <span class='text-quimbara-magenta'>QUIMBARA</span>
       </h1>
-      <p class='text-xl text-quimbara-purple 300'>
+      <p class='text-xl text-quimbara-purple/70'>
         Tu recurso definitivo para el aprendizaje de Artes Marciales Mixtas. Desde los fundamentos
         hasta las técnicas de campeonato.
       </p>
@@ -80,7 +80,7 @@ const meta = {
               {cat.icon}
             </div>
             <h2 class='text-2xl font-heading font-bold text-quimbara-magenta mb-3'>{cat.title}</h2>
-            <p class='text-quimbara-purple 400 text-sm'>{cat.description}</p>
+            <p class='text-quimbara-purple/70 text-sm'>{cat.description}</p>
           </a>
         ))
       }
@@ -117,13 +117,17 @@ const meta = {
                   <h3 class='text-xl font-bold text-quimbara-magenta mb-2 group-hover:text-quimbara-magenta transition-colors'>
                     <a href={`/blog/${post.id}/`}>{post.data.title}</a>
                   </h3>
-                  <p class='text-quimbara-purple 400 text-sm line-clamp-2'>{post.data.description}</p>
+                  <p class='text-quimbara-purple/70 text-sm line-clamp-2'>
+                    {post.data.description}
+                  </p>
                 </div>
               </article>
             ))
           ) : (
             <div class='col-span-3 text-center py-12 glass-panel rounded-xl'>
-              <p class='text-quimbara-purple 400'>Pronto publicaremos nuevas guías de entrenamiento.</p>
+              <p class='text-quimbara-purple/70'>
+                Pronto publicaremos nuevas guías de entrenamiento.
+              </p>
             </div>
           )
         }

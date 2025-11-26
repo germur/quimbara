@@ -128,7 +128,7 @@ const allEvents = [...historicalEvents, ...recentEvents].sort((a, b) => parseInt
             <h3 class="text-2xl font-bold mb-6 text-center">Récord Profesional</h3>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
                 {/* Total Record */}
-                <div class="bg-quimbara-purple/5/50 p-6 rounded-lg text-center border-2 border-green-500">
+                <div class="bg-quimbara-purple/25 p-6 rounded-lg text-center border-2 border-green-500">
                     <div class="text-5xl font-black mb-2 text-green-400">
                         {records.total.win}-{records.total.loss}
                     </div>
@@ -136,7 +136,7 @@ const allEvents = [...historicalEvents, ...recentEvents].sort((a, b) => parseInt
                 </div>
 
                 {/* Wins Breakdown */}
-                <div class="bg-quimbara-purple/5/50 p-6 rounded-lg">
+                <div class="bg-quimbara-purple/25 p-6 rounded-lg">
                     <div class="text-xl font-bold mb-4 text-green-400 text-center">Victorias ({records.total.win})</div>
                     <div class="space-y-2 text-sm">
                         <div class="flex justify-between">
@@ -155,7 +155,7 @@ const allEvents = [...historicalEvents, ...recentEvents].sort((a, b) => parseInt
                 </div>
 
                 {/* Losses Breakdown */}
-                <div class="bg-quimbara-purple/5/50 p-6 rounded-lg">
+                <div class="bg-quimbara-purple/25 p-6 rounded-lg">
                     <div class="text-xl font-bold mb-4 text-quimbara-magenta text-center">Derrotas ({records.total.loss})</div>
                     <div class="space-y-2 text-sm">
                         <div class="flex justify-between">
@@ -190,8 +190,8 @@ const allEvents = [...historicalEvents, ...recentEvents].sort((a, b) => parseInt
                     }`}></div>
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-quimbara-purple/20 hover:shadow-md transition-shadow">
                         <span class="text-sm font-bold text-quimbara-purple mb-1 block">{event.year}</span>
-                        <h4 class="text-lg font-bold text-quimbara-purple 900 mb-2">{event.title}</h4>
-                        <p class="text-quimbara-purple 600">{event.description}</p>
+                        <h4 class="text-lg font-bold text-quimbara-purple/70 mb-2">{event.title}</h4>
+                        <p class="text-quimbara-purple/70">{event.description}</p>
                     </div>
                 </div>
             ))}
