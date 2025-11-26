@@ -50,12 +50,8 @@ const allPostsByDate = allPosts
           {/* Background Image */}
           <div class='absolute inset-0 z-0'>
             <img
-              src={
-                typeof allPostsByDate[0].data.heroImage?.src === 'string'
-                  ? allPostsByDate[0].data.heroImage?.src
-                  : allPostsByDate[0].data.heroImage?.src?.src || '/images/social-card.png'
-              }
-              alt='Peleadores profesionales de UFC en el octágono - Cobertura de artes marciales mixtas y noticias de combate'
+              src='/images/hero-home.png'
+              alt='Campeones legendarios de UFC: Georges St-Pierre, Anderson Silva, Demetrious Johnson e Islam Makhachev en el octágono - Noticias de MMA Quimbara'
               class='w-full h-full object-cover'
             />
             <div class='absolute inset-0 bg-gradient-to-r from-[#43334C]/95 via-[#43334C]/85 to-[#43334C]/70' />
