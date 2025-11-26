@@ -16,13 +16,15 @@ interface Props {
   posts: CollectionEntry<'blog'>[]
   headings: MarkdownHeading[]
   remarkPluginFrontmatter: Record<string, unknown>
+  fullWidth?: boolean
 }
 
 const {
   post: { id, data },
   posts,
   headings,
-  remarkPluginFrontmatter
+  remarkPluginFrontmatter,
+  fullWidth = false
 } = Astro.props
 
 const {
@@ -48,6 +50,7 @@ const primaryColor = data.heroImage?.color ?? 'hsl(var(--primary) / var(--un-tex
   meta={{ articleDate, description, ogImage: socialImage, title }}
   highlightColor={primaryColor}
   back='/blog'
+  fullWidth={fullWidth}
 >
   {!!headings.length && <TOC {headings} slot='sidebar' />}
 
