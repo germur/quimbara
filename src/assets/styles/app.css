@@ -154,3 +154,11 @@ html.dark,
   color: #E83C91 !important;
   background: transparent !important;
 }
+
+/* Blog post hero title - Force white for contrast */
+article header h1,
+.hero h1,
+[class*="hero"] h1 {
+  color: white !important;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
