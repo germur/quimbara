@@ -1,4 +1,6 @@
 ---
+import { existsSync } from 'fs'
+import { join } from 'path'
 import { getCollection } from 'astro:content'
 import fightersData from '@/data/fighters.json'
 
@@ -15,8 +17,14 @@ export async function getStaticPaths() {
   )
 
   // Filtrar fighters.json para excluir los que ya tienen perfil manual
-  // Así evitamos conflictos con [...id].astro que maneja los manuales
-  const automatedFighters = fightersData.filter((f) => !manualSlugs.has(f.slug))
+  // Y también excluir los que no tienen archivo de datos
+  const automatedFighters = fightersData.filter((f) => {
+    if (manualSlugs.has(f.slug)) return false
+
+    // Verificar que existe el archivo de datos
+    const dataPath = join(process.cwd(), 'src/content/fighter-data', `${f.id}.json`)
+    return existsSync(dataPath)
+  })
 
   return automatedFighters.map((fighter) => ({
     params: { slug: fighter.slug },

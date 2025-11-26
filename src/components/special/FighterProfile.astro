@@ -74,11 +74,6 @@ try {
   console.error(`Error reading fighter data: ${e}`)
 }
 
-// If no fighter data found, show error message
-if (!fighter) {
-  return new Response('Fighter data not found', { status: 404 })
-}
-
 // Process Timeline Events
 const recentEvents = recentFights
   .filter((f: Fight) => f.status.short === 'FT') // Only finished fights
@@ -144,6 +139,17 @@ const athleteSchema = fighter
 
 {athleteSchema && <script type='application/ld+json' set:html={JSON.stringify(athleteSchema)} />}
 
+{!fighter ? (
+  <div class='min-h-screen flex items-center justify-center'>
+    <div class='text-center'>
+      <h1 class='text-4xl font-bold text-[#43334C] mb-4'>Peleador no encontrado</h1>
+      <p class='text-[#43334C]/70'>Los datos de este peleador no están disponibles en este momento.</p>
+      <a href='/fighters' class='mt-6 inline-block px-6 py-3 bg-[#E83C91] text-white rounded-xl hover:bg-[#D63384] transition-colors'>
+        Ver todos los peleadores
+      </a>
+    </div>
+  </div>
+) : (
 <div class='fighter-profile-container space-y-12'>
   {
     fighter ? (
