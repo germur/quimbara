@@ -1,0 +1,72 @@
+{
+    "profile": {
+        "id": 85,
+        "name": "Conor McGregor",
+        "nickname": "The Notorious",
+        "photo": "https://media.api-sports.io/mma/fighters/85.png",
+        "gender": "M",
+        "birth_date": "1988-07-14",
+        "age": "36",
+        "height": "5' 9\"",
+        "weight": "155 lbs",
+        "reach": "74\"",
+        "stance": "Southpaw",
+        "category": "Lightweight",
+        "team": {
+            "id": 1,
+            "name": "SBG Ireland"
+        },
+        "last_update": "2024-01-01T00:00:00+00:00"
+    },
+    "records": {
+        "fighter": {
+            "id": 85,
+            "name": "Conor McGregor",
+            "photo": "https://media.api-sports.io/mma/fighters/85.png"
+        },
+        "total": {
+            "win": 22,
+            "loss": 6,
+            "draw": 0
+        },
+        "ko": {
+            "win": 19,
+            "loss": 2
+        },
+        "sub": {
+            "win": 1,
+            "loss": 4
+        }
+    },
+    "fights": [
+        {
+            "id": 1001,
+            "date": "2021-07-10T00:00:00+00:00",
+            "time": "00:00",
+            "timestamp": 1625875200,
+            "timezone": "UTC",
+            "slug": "UFC 264: Poirier vs. McGregor 3",
+            "is_main": true,
+            "category": "Lightweight",
+            "status": {
+                "long": "Finished",
+                "short": "FT"
+            },
+            "fighters": {
+                "first": {
+                    "id": 85,
+                    "name": "Conor McGregor",
+                    "logo": "https://media.api-sports.io/mma/fighters/85.png",
+                    "winner": false
+                },
+                "second": {
+                    "id": 103,
+                    "name": "Dustin Poirier",
+                    "logo": "https://media.api-sports.io/mma/fighters/103.png",
+                    "winner": true
+                }
+            }
+        }
+    ],
+    "cachedAt": "2025-11-25T00:00:00.000Z"
+}
