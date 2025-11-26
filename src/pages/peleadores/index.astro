@@ -189,14 +189,6 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
               />
               <div class='absolute inset-0 bg-gradient-to-t from-quimbara-purple via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity' />
 
-              {fighter.rank === 'C' && (
-                <div class='absolute top-3 left-3'>
-                  <span class='bg-quimbara-magenta text-black px-2 py-1 rounded-full text-xs font-bold border-2 border-white shadow-sm'>
-                    CAMPEÓN
-                  </span>
-                </div>
-              )}
-
               <div class='absolute bottom-0 left-0 w-full p-3 z-10'>
                 <h3 class='font-heading font-bold text-white text-base leading-none mb-1 group-hover:text-quimbara-pink transition-colors'>
                   {fighter.name}
