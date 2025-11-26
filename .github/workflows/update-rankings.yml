@@ -1,0 +1,51 @@
+name: Update UFC Rankings
+
+on:
+  # Ejecutar cada lunes a las 3 AM (después de eventos UFC del fin de semana)
+  schedule:
+    - cron: '0 3 * * 1'
+  
+  # Permitir ejecución manual desde GitHub UI
+  workflow_dispatch:
+
+jobs:
+  update-rankings:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+      
+      - name: Install dependencies
+        run: bun install
+      
+      - name: Fetch latest champions data
+        env:
+          MMA_API_KEY: ${{ secrets.MMA_API_KEY }}
+        run: bun run fetch:champions
+      
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code src/data/champions-generated.json || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add src/data/champions-generated.json
+          git commit -m "chore: Update UFC rankings and P4P [automated]"
+          git push
+      
+      - name: Trigger Netlify deploy
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          curl -X POST -d {} https://api.netlify.com/build_hooks/${{ secrets.NETLIFY_BUILD_HOOK }}
