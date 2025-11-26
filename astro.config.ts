@@ -27,6 +27,14 @@ export default defineConfig({
   // base: '/astro-pure/',
   trailingSlash: 'ignore',
 
+  // 301 Redirects for URL migration (EN → ES)
+  redirects: {
+    '/fighters': '/peleadores',
+    '/fighters/[division]': '/peleadores/[division]',
+    '/fighters/az': '/peleadores/az',
+    '/about': '/sobre-nosotros'
+  },
+
   // Adapter
   // https://docs.astro.build/en/guides/deploy/
   adapter: netlify(),
