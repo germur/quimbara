@@ -52,7 +52,7 @@ let recentFights: Fight[] = []
 let nextFight: Fight | null = null
 
 try {
-  const entry = await getEntry('fighter-data' as any, fighterId.toString())
+  const entry = await getEntry('fighterData', fighterId.toString())
 
   if (entry) {
     const cacheData = entry.data
