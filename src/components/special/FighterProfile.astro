@@ -216,11 +216,12 @@ const athleteSchema = fighter
             {/* Info - Left aligned for better readability */}
             <div class='flex-1 space-y-6 text-center lg:text-left min-w-0'>
               <div>
-                <h1 class='text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-heading font-bold text-quimbara-purple leading-tight mb-3 uppercase tracking-tight whitespace-normal'>
+                {/* DEFINITIVE FIX: Fluid typography using clamp() to adapt to any width + break-words for safety */}
+                <h1 class='text-[clamp(2.5rem,5vw,4.5rem)] font-heading font-bold text-quimbara-purple leading-[1.1] mb-3 uppercase tracking-tight break-words'>
                   {fighter.name}
                 </h1>
                 {fighter.nickname && (
-                  <p class='text-2xl sm:text-3xl md:text-4xl text-quimbara-magenta font-heading font-bold italic tracking-wide'>
+                  <p class='text-[clamp(1.5rem,3vw,2.5rem)] text-quimbara-magenta font-heading font-bold italic tracking-wide break-words'>
                     "{fighter.nickname}"
                   </p>
                 )}
@@ -246,11 +247,12 @@ const athleteSchema = fighter
                 <div class='text-quimbara-purple/60 text-xs md:text-sm font-bold uppercase tracking-widest mb-2'>
                   Récord Profesional
                 </div>
-                <div class='flex items-baseline justify-center lg:justify-start gap-1 text-5xl sm:text-6xl md:text-7xl font-heading font-bold text-quimbara-magenta leading-none'>
+                {/* Fluid typography for record numbers too */}
+                <div class='flex items-baseline justify-center lg:justify-start gap-1 text-[clamp(3rem,6vw,5rem)] font-heading font-bold text-quimbara-magenta leading-none'>
                   <span>{records && records.total ? records.total.win : 0}</span>
                   <span class='text-quimbara-purple/40'>-</span>
                   <span>{records && records.total ? records.total.loss : 0}</span>
-                  <span class='text-quimbara-purple/40 text-3xl sm:text-4xl md:text-5xl'>
+                  <span class='text-quimbara-purple/40 text-[clamp(2rem,4vw,3rem)]'>
                     -{records && records.total ? records.total.draw : 0}
                   </span>
                 </div>
