@@ -195,59 +195,60 @@ const athleteSchema = fighter
   ) : (
     <div class='fighter-profile-container space-y-12'>
       {/* 1. HERO SECTION - LIGHT/CLEAN THEME */}
-      <section class='relative rounded-3xl overflow-hidden border border-border shadow-lg bg-white min-h-[500px]'>
+      <section class='relative rounded-3xl overflow-hidden border border-border shadow-lg bg-white'>
         {/* Background Gradient */}
         <div class='absolute inset-0 bg-gradient-to-br from-[#F8F4EC] via-white to-[#FF8FB7]/10 z-0' />
 
-        <div class='relative z-10 p-12 md:p-16 flex flex-col md:flex-row items-center justify-center gap-12 md:gap-16 max-w-7xl mx-auto'>
-          {/* Fighter Image */}
-          <div class='relative shrink-0'>
-            <div class='w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-[#E83C91] shadow-2xl shadow-[#E83C91]/20 bg-white relative z-10'>
-              <img src={fighter.photo} alt={fighter.name} class='w-full h-full object-cover' />
-            </div>
-            {/* Rank Badge */}
-            <div class='absolute -bottom-4 -right-4 bg-[#E83C91] text-white font-black text-2xl w-16 h-16 flex items-center justify-center rounded-full border-4 border-white shadow-lg z-20'>
-              C
-            </div>
-          </div>
-
-          {/* Info - Centered */}
-          <div class='flex-1 text-center space-y-6 max-w-2xl'>
-            <div>
-              <h1 class='text-6xl md:text-8xl font-heading font-bold text-[#43334C] leading-none mb-3 uppercase tracking-tight'>
-                {fighter.name}
-              </h1>
-              {fighter.nickname && (
-                <p class='text-3xl md:text-4xl text-[#E83C91] font-heading font-bold italic tracking-wide'>
-                  "{fighter.nickname}"
-                </p>
-              )}
-            </div>
-
-            <div class='flex flex-wrap justify-center gap-6 md:gap-10 text-[#43334C]/70 font-medium text-lg'>
-              <span class='flex items-center gap-2'>
-                <span class='text-[#E83C91] text-2xl'>🏆</span> {fighter.division || 'UFC Fighter'}
-              </span>
-              <span class='flex items-center gap-2'>
-                <span class='text-[#E83C91] text-2xl'>🌍</span> {fighter.birth?.country || 'N/A'}
-              </span>
-              <span class='flex items-center gap-2'>
-                <span class='text-[#E83C91] text-2xl'>🥋</span>{' '}
-                {fighter.team?.name || 'Independent'}
-              </span>
-            </div>
-
-            {/* Record (Big Stats) */}
-            <div class='bg-[#F8F4EC] rounded-2xl p-6 inline-block'>
-              <div class='text-[#43334C]/60 text-sm font-bold uppercase tracking-widest mb-2'>
-                Récord Profesional
+        <div class='relative z-10 p-8 md:p-12 lg:p-16'>
+          <div class='grid grid-cols-1 lg:grid-cols-[auto_1fr] gap-8 lg:gap-12 items-center max-w-7xl mx-auto'>
+            {/* Fighter Image */}
+            <div class='relative shrink-0 mx-auto lg:mx-0'>
+              <div class='w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-[#E83C91] shadow-2xl shadow-[#E83C91]/20 bg-white relative z-10'>
+                <img src={fighter.photo} alt={fighter.name} class='w-full h-full object-cover' />
               </div>
-              <div class='text-7xl md:text-9xl font-heading font-bold text-[#E83C91] leading-none'>
-                {records && records.total ? records.total.win : 0}
-                <span class='text-[#43334C]/40'>-</span>
-                {records && records.total ? records.total.loss : 0}
-                <span class='text-[#43334C]/40 text-5xl'>
-                  -{records && records.total ? records.total.draw : 0}
+              {/* Rank Badge */}
+              <div class='absolute -bottom-4 -right-4 bg-[#E83C91] text-white font-black text-2xl w-16 h-16 flex items-center justify-center rounded-full border-4 border-white shadow-lg z-20'>
+                C
+              </div>
+            </div>
+
+            {/* Info - Left aligned for better readability */}
+            <div class='flex-1 space-y-6 text-center lg:text-left min-w-0'>
+              <div>
+                <h1 class='text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-heading font-bold text-[#43334C] leading-none mb-3 uppercase tracking-tight break-words'>
+                  {fighter.name}
+                </h1>
+                {fighter.nickname && (
+                  <p class='text-2xl sm:text-3xl md:text-4xl text-[#E83C91] font-heading font-bold italic tracking-wide break-words'>
+                    "{fighter.nickname}"
+                  </p>
+                )}
+              </div>
+
+              <div class='flex flex-wrap justify-center lg:justify-start gap-4 md:gap-6 text-[#43334C]/70 font-medium text-base md:text-lg'>
+                <span class='flex items-center gap-2 whitespace-nowrap'>
+                  <span class='text-[#E83C91] text-2xl'>🏆</span> {fighter.division || 'UFC Fighter'}
+                </span>
+                <span class='flex items-center gap-2 whitespace-nowrap'>
+                  <span class='text-[#E83C91] text-2xl'>🌍</span> {fighter.birth?.country || 'N/A'}
+                </span>
+                <span class='flex items-center gap-2 whitespace-nowrap'>
+                  <span class='text-[#E83C91] text-2xl'>🥋</span>{' '}
+                  <span class='truncate max-w-[200px]'>{fighter.team?.name || 'Independent'}</span>
+                </span>
+              </div>
+
+              {/* Record (Big Stats) */}
+              <div class='bg-[#F8F4EC] rounded-2xl p-4 md:p-6 inline-block w-full lg:w-auto'>
+                <div class='text-[#43334C]/60 text-xs md:text-sm font-bold uppercase tracking-widest mb-2'>
+                  Récord Profesional
+                </div>
+                <div class='text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-heading font-bold text-[#E83C91] leading-none'>
+                  {records && records.total ? records.total.win : 0}
+                  <span class='text-[#43334C]/40'>-</span>
+                  {records && records.total ? records.total.loss : 0}
+                  <span class='text-[#43334C]/40 text-3xl sm:text-4xl md:text-5xl'>
+                    -{records && records.total ? records.total.draw : 0}
                 </span>
               </div>
               <div class='flex justify-center gap-6 mt-4 text-base font-mono text-[#43334C]/70'>
