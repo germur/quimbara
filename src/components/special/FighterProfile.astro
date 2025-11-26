@@ -330,72 +330,80 @@ const athleteSchema = fighter
       <div class='grid lg:grid-cols-3 gap-8'>
         {/* Left Col: Detailed Stats */}
         <div class='lg:col-span-1 space-y-8'>
-          <div class='glass-panel p-6 rounded-xl'>
-            <h3 class='text-xl font-heading font-bold text-quimbara-magenta mb-6 border-b border-white/10 pb-2'>
-              Desglose de Victorias
+          {/* Stats Card */}
+          <div class='bg-white rounded-3xl shadow-xl border border-quimbara-purple/5 p-6 overflow-hidden relative'>
+            <div class='absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-quimbara-magenta to-quimbara-purple' />
+            <h3 class='text-xl font-heading font-bold text-quimbara-purple mb-6 flex items-center gap-2'>
+              <span class='text-quimbara-magenta'>📊</span> Desglose de Victorias
             </h3>
-            <div class='space-y-4'>
-              <div class='flex items-center justify-between'>
-                <span class='text-quimbara-purple/70'>KO/TKO</span>
-                <div class='flex items-center gap-3'>
-                  <div class='w-32 h-2 bg-quimbara-purple/5 rounded-full overflow-hidden'>
-                    <div
-                      class='h-full bg-[#FF6D00]'
-                      style={`width: ${((records?.ko.win || 0) / (records?.total.win || 1)) * 100}%`}
-                    />
-                  </div>
-                  <span class='font-bold text-quimbara-magenta w-6 text-right'>
-                    {records?.ko.win}
-                  </span>
+
+            <div class='space-y-6'>
+              {/* KO/TKO */}
+              <div>
+                <div class='flex justify-between items-end mb-2'>
+                  <span class='font-bold text-quimbara-purple'>KO/TKO</span>
+                  <span class='text-2xl font-bold text-quimbara-magenta'>{records?.ko.win}</span>
+                </div>
+                <div class='w-full h-3 bg-quimbara-purple/5 rounded-full overflow-hidden'>
+                  <div
+                    class='h-full bg-[#FF6D00] rounded-full'
+                    style={`width: ${((records?.ko.win || 0) / (records?.total.win || 1)) * 100}%`}
+                  />
                 </div>
               </div>
-              <div class='flex items-center justify-between'>
-                <span class='text-quimbara-purple/70'>Sumisión</span>
-                <div class='flex items-center gap-3'>
-                  <div class='w-32 h-2 bg-quimbara-purple/5 rounded-full overflow-hidden'>
-                    <div
-                      class='h-full bg-quimbara-purple/10'
-                      style={`width: ${((records?.sub.win || 0) / (records?.total.win || 1)) * 100}%`}
-                    />
-                  </div>
-                  <span class='font-bold text-quimbara-magenta w-6 text-right'>
-                    {records?.sub.win}
-                  </span>
+
+              {/* Submission */}
+              <div>
+                <div class='flex justify-between items-end mb-2'>
+                  <span class='font-bold text-quimbara-purple'>Sumisión</span>
+                  <span class='text-2xl font-bold text-quimbara-magenta'>{records?.sub.win}</span>
+                </div>
+                <div class='w-full h-3 bg-quimbara-purple/5 rounded-full overflow-hidden'>
+                  <div
+                    class='h-full bg-quimbara-purple/60 rounded-full'
+                    style={`width: ${((records?.sub.win || 0) / (records?.total.win || 1)) * 100}%`}
+                  />
                 </div>
               </div>
-              <div class='flex items-center justify-between'>
-                <span class='text-quimbara-purple/70'>Decisión</span>
-                <div class='flex items-center gap-3'>
-                  <div class='w-32 h-2 bg-quimbara-purple/5 rounded-full overflow-hidden'>
-                    <div
-                      class='h-full bg-green-500'
-                      style={`width: ${((records?.dec?.win || 0) / (records?.total.win || 1)) * 100}%`}
-                    />
-                  </div>
-                  <span class='font-bold text-quimbara-magenta w-6 text-right'>
-                    {records?.dec?.win}
-                  </span>
+
+              {/* Decision */}
+              <div>
+                <div class='flex justify-between items-end mb-2'>
+                  <span class='font-bold text-quimbara-purple'>Decisión</span>
+                  <span class='text-2xl font-bold text-quimbara-magenta'>{records?.dec?.win}</span>
+                </div>
+                <div class='w-full h-3 bg-quimbara-purple/5 rounded-full overflow-hidden'>
+                  <div
+                    class='h-full bg-green-500 rounded-full'
+                    style={`width: ${((records?.dec?.win || 0) / (records?.total.win || 1)) * 100}%`}
+                  />
                 </div>
               </div>
             </div>
           </div>
 
           {nextFight && (
-            <div class='glass-panel p-6 rounded-xl border border-quimbara-pink/30 bg-quimbara-magenta/5'>
-              <h3 class='text-xl font-heading font-bold text-quimbara-pink mb-4'>
-                Próximo Combate
+            <div class='bg-white rounded-3xl shadow-xl border border-quimbara-pink/30 p-6 relative overflow-hidden'>
+              <div class='absolute top-0 left-0 w-full h-1 bg-quimbara-pink' />
+              <h3 class='text-xl font-heading font-bold text-quimbara-pink mb-4 flex items-center gap-2'>
+                <span>📅</span> Próximo Combate
               </h3>
-              <div class='text-center'>
-                <div class='text-sm text-quimbara-purple/70 mb-2'>
-                  {new Date(nextFight.date).toLocaleDateString()}
+              <div class='text-center bg-quimbara-cream/50 rounded-2xl p-4 border border-quimbara-purple/5'>
+                <div class='text-sm text-quimbara-purple/70 mb-2 font-bold uppercase tracking-wider'>
+                  {new Date(nextFight.date).toLocaleDateString(undefined, {
+                    weekday: 'long',
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                  })}
                 </div>
-                <div class='text-2xl font-bold text-quimbara-magenta mb-2'>
-                  vs.{' '}
+                <div class='text-3xl font-bold text-quimbara-magenta mb-2 leading-tight'>
+                  vs. <br />
                   {nextFight.fighters.first.id === fighterId
                     ? nextFight.fighters.second.name
                     : nextFight.fighters.first.name}
                 </div>
-                <div class='inline-block bg-quimbara-magenta text-black text-xs font-bold px-2 py-1 rounded uppercase'>
+                <div class='inline-block bg-quimbara-magenta text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest mt-2'>
                   {nextFight?.league?.name || nextFight.slug || 'UFC'}
                 </div>
               </div>
@@ -405,33 +413,38 @@ const athleteSchema = fighter
 
         {/* Right Col: Timeline */}
         <div class='lg:col-span-2'>
-          <div class='glass-panel p-8 rounded-xl'>
-            <h3 class='text-2xl font-heading font-bold text-quimbara-magenta mb-8'>
-              Historial de Combates
+          <div class='bg-white rounded-3xl shadow-xl border border-quimbara-purple/5 p-8 relative'>
+            <div class='absolute top-0 left-0 w-full h-2 bg-quimbara-purple' />
+            <h3 class='text-2xl font-heading font-bold text-quimbara-purple mb-8 flex items-center gap-3'>
+              <span class='text-quimbara-magenta'>📜</span> Historial de Combates
             </h3>
-            <div class='relative border-l-2 border-white/10 ml-3 space-y-8'>
+            <div class='relative border-l-4 border-quimbara-purple/10 ml-3 space-y-8'>
               {allEvents.map((event) => (
                 <div class='ml-8 relative group'>
                   <div
-                    class={`absolute -left-[41px] w-5 h-5 rounded-full border-4 border-[#0a0a0a] ${
+                    class={`absolute -left-[42px] w-6 h-6 rounded-full border-4 border-white shadow-sm ${
                       event.title.includes('Victoria')
                         ? 'bg-green-500'
                         : event.title.includes('Derrota')
                           ? 'bg-[#FF6D00]'
                           : event.type === 'championship'
                             ? 'bg-quimbara-magenta'
-                            : 'bg-quimbara-purple/10'
-                    } group-hover:scale-125 transition-transform duration-300`}
+                            : 'bg-quimbara-purple/30'
+                    } group-hover:scale-125 transition-transform duration-300 z-10`}
                   />
 
-                  <div class='bg-white/5 p-6 rounded-lg border border-white/5 hover:bg-white/10 transition-colors'>
-                    <div class='flex justify-between items-start mb-2'>
-                      <h4 class='text-lg font-bold text-quimbara-magenta group-hover:text-quimbara-magenta transition-colors'>
+                  <div class='bg-quimbara-cream/30 p-6 rounded-2xl border border-quimbara-purple/5 hover:bg-white hover:shadow-md transition-all duration-300'>
+                    <div class='flex flex-col sm:flex-row justify-between items-start sm:items-center mb-3 gap-2'>
+                      <h4
+                        class={`text-lg font-bold ${event.title.includes('Victoria') ? 'text-green-600' : event.title.includes('Derrota') ? 'text-[#FF6D00]' : 'text-quimbara-purple'}`}
+                      >
                         {event.title}
                       </h4>
-                      <span class='text-xs font-mono text-quimbara-purple/60'>{event.year}</span>
+                      <span class='text-xs font-bold bg-white px-2 py-1 rounded-md border border-quimbara-purple/10 text-quimbara-purple/60 shadow-sm'>
+                        {event.year}
+                      </span>
                     </div>
-                    <p class='text-quimbara-purple/70 text-sm leading-relaxed'>
+                    <p class='text-quimbara-purple/80 text-sm leading-relaxed font-medium'>
                       {event.description}
                     </p>
                   </div>
