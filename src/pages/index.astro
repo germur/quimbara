@@ -8,17 +8,14 @@ import config from '@/site-config'
 
 export const prerender = true
 
-// Featured fighters - DYNAMIC from fighters.json (Champions only)
-const featuredFighters = fightersData
-  .filter((f) => f.rank === 'C')
-  .slice(0, 4)
-  .map((fighter) => ({
-    name: fighter.name,
-    title: `Campeón ${fighter.division}`,
-    description: `Récord profesional destacado`,
-    href: `/blog/perfiles-luchadores/${fighter.slug}`,
-    image: `https://media.api-sports.io/mma/fighters/${fighter.id}.png`
-  }))
+// Featured fighters - Top fighters from API (NO champion claims)
+const featuredFighters = fightersData.slice(0, 6).map((fighter) => ({
+  name: fighter.name,
+  title: fighter.division,
+  description: fighter.description || 'Peleador destacado de UFC',
+  href: `/blog/perfiles-luchadores/${fighter.slug}`,
+  image: `https://media.api-sports.io/mma/fighters/${fighter.id}.png`
+}))
 
 const MAX_POSTS = 6
 const allPosts = await getCollection('blog')
@@ -195,7 +192,7 @@ const allPostsByDate = allPosts
   <section class='mb-20'>
     <div class='flex items-center justify-between mb-10'>
       <h2 class='text-4xl font-heading font-bold text-quimbara-purple'>
-        <span class='text-quimbara-magenta'>///</span> CAMPEONES DESTACADOS
+        <span class='text-quimbara-magenta'>///</span> PELEADORES TENDENCIA
       </h2>
       <a
         href='/peleadores'
@@ -220,9 +217,6 @@ const allPostsByDate = allPosts
                 class='w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-110'
                 loading='lazy'
               />
-              <div class='absolute top-4 right-4 bg-quimbara-magenta text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-lg'>
-                CAMPEÓN
-              </div>
             </div>
 
             {/* Content Section */}

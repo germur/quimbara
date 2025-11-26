@@ -4,8 +4,7 @@
     "name": "Alexander Volkov",
     "slug": "alexander-volkov",
     "description": "\"Drago\". Luchador de Heavyweight.",
-    "division": "Heavyweight",
-    "rank": "2"
+    "division": "Heavyweight"
   },
   {
     "id": 725,
@@ -68,24 +67,21 @@
     "name": "Ciryl Gane",
     "slug": "ciryl-gane",
     "description": "\"Bon Gamin\". Luchador de Heavyweight.",
-    "division": "Heavyweight",
-    "rank": "1"
+    "division": "Heavyweight"
   },
   {
     "id": 183,
     "name": "Curtis Blaydes",
     "slug": "curtis-blaydes",
     "description": "\"Razor\". Luchador de Heavyweight.",
-    "division": "Heavyweight",
-    "rank": "4"
+    "division": "Heavyweight"
   },
   {
     "id": 147,
     "name": "Derrick Lewis",
     "slug": "derrick-lewis",
     "description": "\"The Black Beast\". Luchador de Heavyweight.",
-    "division": "Heavyweight",
-    "rank": "9"
+    "division": "Heavyweight"
   },
   {
     "id": 508,
@@ -106,8 +102,7 @@
     "name": "Jailton Almeida",
     "slug": "jailton-almeida",
     "description": "\"Malhadinho\". Luchador de Heavyweight.",
-    "division": "Heavyweight",
-    "rank": "5"
+    "division": "Heavyweight"
   },
   {
     "id": 34,
@@ -184,8 +179,7 @@
     "name": "Marcin Tybura",
     "slug": "marcin-tybura",
     "description": "\"Tybur\". Luchador de Heavyweight.",
-    "division": "Heavyweight",
-    "rank": "7"
+    "division": "Heavyweight"
   },
   {
     "id": 114,
@@ -199,16 +193,14 @@
     "name": "Martin Buday",
     "slug": "martin-buday",
     "description": "\"Badys\". Luchador de Heavyweight.",
-    "division": "Heavyweight",
-    "rank": "12"
+    "division": "Heavyweight"
   },
   {
     "id": 2584,
     "name": "Mick Parkin",
     "slug": "mick-parkin",
     "description": "Luchador de Heavyweight.",
-    "division": "Heavyweight",
-    "rank": "13"
+    "division": "Heavyweight"
   },
   {
     "id": 2506,
@@ -250,16 +242,14 @@
     "name": "Sergei Pavlovich",
     "slug": "sergei-pavlovich",
     "description": "Luchador de Heavyweight.",
-    "division": "Heavyweight",
-    "rank": "3"
+    "division": "Heavyweight"
   },
   {
     "id": 397,
     "name": "Serghei Spivac",
     "slug": "serghei-spivac",
     "description": "\"Polar Bear\". Luchador de Heavyweight.",
-    "division": "Heavyweight",
-    "rank": "8"
+    "division": "Heavyweight"
   },
   {
     "id": 269,
@@ -273,8 +263,7 @@
     "name": "Shamil Gaziev",
     "slug": "shamil-gaziev",
     "description": "Luchador de Heavyweight.",
-    "division": "Heavyweight",
-    "rank": "11"
+    "division": "Heavyweight"
   },
   {
     "id": 548,
@@ -288,16 +277,14 @@
     "name": "Tai Tuivasa",
     "slug": "tai-tuivasa",
     "description": "\"Bam Bam\". Luchador de Heavyweight.",
-    "division": "Heavyweight",
-    "rank": "10"
+    "division": "Heavyweight"
   },
   {
     "id": 701,
     "name": "Tom Aspinall",
     "slug": "tom-aspinall",
     "description": "Luchador de Heavyweight.",
-    "division": "Heavyweight",
-    "rank": "C"
+    "division": "Heavyweight"
   },
   {
     "id": 2608,
@@ -311,8 +298,7 @@
     "name": "Waldo Cortes-Acosta",
     "slug": "waldo-cortes-acosta",
     "description": "\"Salsa Boy\". Luchador de Heavyweight.",
-    "division": "Heavyweight",
-    "rank": "6"
+    "division": "Heavyweight"
   },
   {
     "id": 535,
@@ -326,16 +312,14 @@
     "name": "Alex Pereira",
     "slug": "alex-pereira",
     "description": "\"Poatan\". Luchador de Light Heavyweight.",
-    "division": "Light Heavyweight",
-    "rank": "C"
+    "division": "Light Heavyweight"
   },
   {
     "id": 19,
     "name": "Alonzo Menifield",
     "slug": "alonzo-menifield",
     "description": "\"Atomic\". Luchador de Light Heavyweight.",
-    "division": "Light Heavyweight",
-    "rank": "14"
+    "division": "Light Heavyweight"
   },
   {
     "id": 213,
@@ -356,16 +340,14 @@
     "name": "Azamat Murzakanov",
     "slug": "azamat-murzakanov",
     "description": "\"The Professional\". Luchador de Light Heavyweight.",
-    "division": "Light Heavyweight",
-    "rank": "7"
+    "division": "Light Heavyweight"
   },
   {
     "id": 2614,
     "name": "Bogdan Guskov",
     "slug": "bogdan-guskov",
     "description": "\"Czarevitch\". Luchador de Light Heavyweight.",
-    "division": "Light Heavyweight",
-    "rank": "9"
+    "division": "Light Heavyweight"
   },
   {
     "id": 2635,
@@ -379,8 +361,7 @@
     "name": "Carlos Ulberg",
     "slug": "carlos-ulberg",
     "description": "\"Black Jag\". Luchador de Light Heavyweight.",
-    "division": "Light Heavyweight",
-    "rank": "5"
+    "division": "Light Heavyweight"
   },
   {
     "id": 818,
@@ -408,8 +389,7 @@
     "name": "Dustin Jacoby",
     "slug": "dustin-jacoby",
     "description": "\"The Hanyak\". Luchador de Light Heavyweight.",
-    "division": "Light Heavyweight",
-    "rank": "15"
+    "division": "Light Heavyweight"
   },
   {
     "id": 372,
@@ -437,8 +417,7 @@
     "name": "Jamahal Hill",
     "slug": "jamahal-hill",
     "description": "\"Sweet Dreams\". Luchador de Light Heavyweight.",
-    "division": "Light Heavyweight",
-    "rank": "3"
+    "division": "Light Heavyweight"
   },
   {
     "id": 109,
@@ -466,8 +445,7 @@
     "name": "Johnny Walker",
     "slug": "johnny-walker",
     "description": "Luchador de Light Heavyweight.",
-    "division": "Light Heavyweight",
-    "rank": "11"
+    "division": "Light Heavyweight"
   },
   {
     "id": 2572,
@@ -481,16 +459,14 @@
     "name": "Khalil Rountree Jr.",
     "slug": "khalil-rountree-jr",
     "description": "\"The War Horse\". Luchador de Light Heavyweight.",
-    "division": "Light Heavyweight",
-    "rank": "4"
+    "division": "Light Heavyweight"
   },
   {
     "id": 103,
     "name": "Magomed Ankalaev",
     "slug": "magomed-ankalaev",
     "description": "Luchador de Light Heavyweight.",
-    "division": "Light Heavyweight",
-    "rank": "1"
+    "division": "Light Heavyweight"
   },
   {
     "id": 806,
@@ -518,8 +494,7 @@
     "name": "Modestas Bukauskas",
     "slug": "modestas-bukauskas",
     "description": "\"The Baltic Gladiator\". Luchador de Light Heavyweight.",
-    "division": "Light Heavyweight",
-    "rank": "13"
+    "division": "Light Heavyweight"
   },
   {
     "id": 254,
@@ -568,8 +543,7 @@
     "name": "Volkan Oezdemir",
     "slug": "volkan-oezdemir",
     "description": "\"No Time\". Luchador de Light Heavyweight.",
-    "division": "Light Heavyweight",
-    "rank": "8"
+    "division": "Light Heavyweight"
   },
   {
     "id": 618,
@@ -646,8 +620,7 @@
     "name": "Anthony Hernandez",
     "slug": "anthony-hernandez",
     "description": "\"Fluffy\". Luchador de Middleweight.",
-    "division": "Middleweight",
-    "rank": "11"
+    "division": "Middleweight"
   },
   {
     "id": 2464,
@@ -675,8 +648,7 @@
     "name": "Brendan Allen",
     "slug": "brendan-allen",
     "description": "\"All In\". Luchador de Middleweight.",
-    "division": "Middleweight",
-    "rank": "8"
+    "division": "Middleweight"
   },
   {
     "id": 2535,
@@ -697,8 +669,7 @@
     "name": "Caio Borralho",
     "slug": "caio-borralho",
     "description": "\"The Natural\". Luchador de Middleweight.",
-    "division": "Middleweight",
-    "rank": "5"
+    "division": "Middleweight"
   },
   {
     "id": 2631,
@@ -747,8 +718,7 @@
     "name": "Dricus Du Plessis",
     "slug": "dricus-du-plessis",
     "description": "\"Stilknocks\". Luchador de Middleweight.",
-    "division": "Middleweight",
-    "rank": "C"
+    "division": "Middleweight"
   },
   {
     "id": 639,
@@ -811,8 +781,7 @@
     "name": "Israel Adesanya",
     "slug": "israel-adesanya",
     "description": "\"The Last Stylebender\". Luchador de Middleweight.",
-    "division": "Middleweight",
-    "rank": "2"
+    "division": "Middleweight"
   },
   {
     "id": 853,
@@ -833,8 +802,7 @@
     "name": "Jared Cannonier",
     "slug": "jared-cannonier",
     "description": "\"The Killa Gorilla\". Luchador de Middleweight.",
-    "division": "Middleweight",
-    "rank": "7"
+    "division": "Middleweight"
   },
   {
     "id": 776,
@@ -890,8 +858,7 @@
     "name": "Khamzat Chimaev",
     "slug": "khamzat-chimaev",
     "description": "\"Borz\". Luchador de Middleweight.",
-    "division": "Middleweight",
-    "rank": "15"
+    "division": "Middleweight"
   },
   {
     "id": 648,
@@ -912,8 +879,7 @@
     "name": "Marvin Vettori",
     "slug": "marvin-vettori",
     "description": "\"The Italian Dream\". Luchador de Middleweight.",
-    "division": "Middleweight",
-    "rank": "6"
+    "division": "Middleweight"
   },
   {
     "id": 108,
@@ -927,16 +893,14 @@
     "name": "Michel Pereira",
     "slug": "michel-pereira",
     "description": "\"Demolidor\". Luchador de Middleweight.",
-    "division": "Middleweight",
-    "rank": "12"
+    "division": "Middleweight"
   },
   {
     "id": 831,
     "name": "Nassourdine Imavov",
     "slug": "nassourdine-imavov",
     "description": "\"The Sniper\". Luchador de Middleweight.",
-    "division": "Middleweight",
-    "rank": "4"
+    "division": "Middleweight"
   },
   {
     "id": 2590,
@@ -950,8 +914,7 @@
     "name": "Paulo Costa",
     "slug": "paulo-costa",
     "description": "\"The Eraser\". Luchador de Middleweight.",
-    "division": "Middleweight",
-    "rank": "13"
+    "division": "Middleweight"
   },
   {
     "id": 826,
@@ -965,8 +928,7 @@
     "name": "Robert Whittaker",
     "slug": "robert-whittaker",
     "description": "\"The Reaper\". Luchador de Middleweight.",
-    "division": "Middleweight",
-    "rank": "3"
+    "division": "Middleweight"
   },
   {
     "id": 572,
@@ -980,8 +942,7 @@
     "name": "Roman Dolidze",
     "slug": "roman-dolidze",
     "description": "Luchador de Middleweight.",
-    "division": "Middleweight",
-    "rank": "9"
+    "division": "Middleweight"
   },
   {
     "id": 262,
@@ -995,8 +956,7 @@
     "name": "Sean Strickland",
     "slug": "sean-strickland",
     "description": "Luchador de Middleweight.",
-    "division": "Middleweight",
-    "rank": "1"
+    "division": "Middleweight"
   },
   {
     "id": 2595,
@@ -1101,8 +1061,7 @@
     "name": "Belal Muhammad",
     "slug": "belal-muhammad",
     "description": "\"Remember the Name\". Luchador de Welterweight.",
-    "division": "Welterweight",
-    "rank": "C"
+    "division": "Welterweight"
   },
   {
     "id": 2530,
@@ -1158,16 +1117,14 @@
     "name": "Chris Curtis",
     "slug": "chris-curtis",
     "description": "\"Action-Man\". Luchador de Welterweight.",
-    "division": "Middleweight",
-    "rank": "14"
+    "division": "Middleweight"
   },
   {
     "id": 565,
     "name": "Colby Covington",
     "slug": "colby-covington",
     "description": "\"Chaos\". Luchador de Welterweight.",
-    "division": "Welterweight",
-    "rank": "8"
+    "division": "Welterweight"
   },
   {
     "id": 272,
@@ -1223,16 +1180,14 @@
     "name": "Geoff Neal",
     "slug": "geoff-neal",
     "description": "\"Handz of Steel\". Luchador de Welterweight.",
-    "division": "Welterweight",
-    "rank": "10"
+    "division": "Welterweight"
   },
   {
     "id": 396,
     "name": "Gilbert Burns",
     "slug": "gilbert-burns",
     "description": "\"Durinho\". Luchador de Welterweight.",
-    "division": "Welterweight",
-    "rank": "7"
+    "division": "Welterweight"
   },
   {
     "id": 2404,
@@ -1253,24 +1208,21 @@
     "name": "Ian Machado Garry",
     "slug": "ian-machado-garry",
     "description": "\"The Future\". Luchador de Welterweight.",
-    "division": "Welterweight",
-    "rank": "6"
+    "division": "Welterweight"
   },
   {
     "id": 333,
     "name": "Islam Makhachev",
     "slug": "islam-makhachev",
     "description": "Luchador de Welterweight.",
-    "division": "Lightweight",
-    "rank": "C"
+    "division": "Lightweight"
   },
   {
     "id": 2411,
     "name": "Jack Della Maddalena",
     "slug": "jack-della-maddalena",
     "description": "Luchador de Welterweight.",
-    "division": "Welterweight",
-    "rank": "4"
+    "division": "Welterweight"
   },
   {
     "id": 656,
@@ -1298,8 +1250,7 @@
     "name": "Joaquin Buckley",
     "slug": "joaquin-buckley",
     "description": "\"New Mansa\". Luchador de Welterweight.",
-    "division": "Welterweight",
-    "rank": "11"
+    "division": "Welterweight"
   },
   {
     "id": 2570,
@@ -1327,16 +1278,14 @@
     "name": "Kamaru Usman",
     "slug": "kamaru-usman",
     "description": "\"Nigerian Nightmare\". Luchador de Welterweight.",
-    "division": "Welterweight",
-    "rank": "2"
+    "division": "Welterweight"
   },
   {
     "id": 317,
     "name": "Kevin Holland",
     "slug": "kevin-holland",
     "description": "\"Trailblazer\". Luchador de Welterweight.",
-    "division": "Welterweight",
-    "rank": "15"
+    "division": "Welterweight"
   },
   {
     "id": 2620,
@@ -1371,8 +1320,7 @@
     "name": "Leon Edwards",
     "slug": "leon-edwards",
     "description": "\"Rocky\". Luchador de Welterweight.",
-    "division": "Welterweight",
-    "rank": "1"
+    "division": "Welterweight"
   },
   {
     "id": 673,
@@ -1407,8 +1355,7 @@
     "name": "Michael Morales",
     "slug": "michael-morales",
     "description": "Luchador de Welterweight.",
-    "division": "Welterweight",
-    "rank": "12"
+    "division": "Welterweight"
   },
   {
     "id": 2438,
@@ -1436,8 +1383,7 @@
     "name": "Neil Magny",
     "slug": "neil-magny",
     "description": "\"The Haitian Sensation\". Luchador de Welterweight.",
-    "division": "Welterweight",
-    "rank": "14"
+    "division": "Welterweight"
   },
   {
     "id": 652,
@@ -1542,16 +1488,14 @@
     "name": "Sean Brady",
     "slug": "sean-brady",
     "description": "Luchador de Welterweight.",
-    "division": "Welterweight",
-    "rank": "5"
+    "division": "Welterweight"
   },
   {
     "id": 735,
     "name": "Shavkat Rakhmonov",
     "slug": "shavkat-rakhmonov",
     "description": "\"Nomad\". Luchador de Welterweight.",
-    "division": "Welterweight",
-    "rank": "3"
+    "division": "Welterweight"
   },
   {
     "id": 588,
@@ -1565,8 +1509,7 @@
     "name": "Stephen Thompson",
     "slug": "stephen-thompson",
     "description": "\"Wonderboy\". Luchador de Welterweight.",
-    "division": "Welterweight",
-    "rank": "9"
+    "division": "Welterweight"
   },
   {
     "id": 392,
@@ -1629,8 +1572,7 @@
     "name": "Vicente Luque",
     "slug": "vicente-luque",
     "description": "\"The Silent Assassin\". Luchador de Welterweight.",
-    "division": "Welterweight",
-    "rank": "13"
+    "division": "Welterweight"
   },
   {
     "id": 2524,
@@ -1679,8 +1621,7 @@
     "name": "Arman Tsarukyan",
     "slug": "arman-tsarukyan",
     "description": "\"Ahalkalakets\". Luchador de Lightweight.",
-    "division": "Lightweight",
-    "rank": "1"
+    "division": "Lightweight"
   },
   {
     "id": 429,
@@ -1694,8 +1635,7 @@
     "name": "Beneil Dariush",
     "slug": "beneil-dariush",
     "description": "Luchador de Lightweight.",
-    "division": "Lightweight",
-    "rank": "8"
+    "division": "Lightweight"
   },
   {
     "id": 2466,
@@ -1716,8 +1656,7 @@
     "name": "Charles Oliveira",
     "slug": "charles-oliveira",
     "description": "\"Do Bronxs\". Luchador de Lightweight.",
-    "division": "Lightweight",
-    "rank": "2"
+    "division": "Lightweight"
   },
   {
     "id": 2626,
@@ -1773,8 +1712,7 @@
     "name": "Dan Hooker",
     "slug": "dan-hooker",
     "description": "\"The Hangman\". Luchador de Lightweight.",
-    "division": "Lightweight",
-    "rank": "5"
+    "division": "Lightweight"
   },
   {
     "id": 2429,
@@ -1809,8 +1747,7 @@
     "name": "Dustin Poirier",
     "slug": "dustin-poirier",
     "description": "\"The Diamond\". Luchador de Lightweight.",
-    "division": "Lightweight",
-    "rank": "4"
+    "division": "Lightweight"
   },
   {
     "id": 2546,
@@ -1866,8 +1803,7 @@
     "name": "Grant Dawson",
     "slug": "grant-dawson",
     "description": "\"KGD\". Luchador de Lightweight.",
-    "division": "Lightweight",
-    "rank": "15"
+    "division": "Lightweight"
   },
   {
     "id": 859,
@@ -1902,8 +1838,7 @@
     "name": "Jalin Turner",
     "slug": "jalin-turner",
     "description": "\"The Tarantula\". Luchador de Lightweight.",
-    "division": "Lightweight",
-    "rank": "14"
+    "division": "Lightweight"
   },
   {
     "id": 654,
@@ -1966,8 +1901,7 @@
     "name": "Justin Gaethje",
     "slug": "justin-gaethje",
     "description": "\"The Highlight\". Luchador de Lightweight.",
-    "division": "Lightweight",
-    "rank": "3"
+    "division": "Lightweight"
   },
   {
     "id": 526,
@@ -2065,8 +1999,7 @@
     "name": "Mateusz Gamrot",
     "slug": "mateusz-gamrot",
     "description": "\"Gamer\". Luchador de Lightweight.",
-    "division": "Lightweight",
-    "rank": "7"
+    "division": "Lightweight"
   },
   {
     "id": 2582,
@@ -2171,8 +2104,7 @@
     "name": "Paddy Pimblett",
     "slug": "paddy-pimblett",
     "description": "\"The Baddy\". Luchador de Lightweight.",
-    "division": "Lightweight",
-    "rank": "12"
+    "division": "Lightweight"
   },
   {
     "id": 907,
@@ -2193,8 +2125,7 @@
     "name": "Rafael Fiziev",
     "slug": "rafael-fiziev",
     "description": "\"Ataman\". Luchador de Lightweight.",
-    "division": "Lightweight",
-    "rank": "11"
+    "division": "Lightweight"
   },
   {
     "id": 2593,
@@ -2299,16 +2230,14 @@
     "name": "Alexander Volkanovski",
     "slug": "alexander-volkanovski",
     "description": "\"The Great\". Luchador de Featherweight.",
-    "division": "Featherweight",
-    "rank": "1"
+    "division": "Featherweight"
   },
   {
     "id": 84,
     "name": "Aljamain Sterling",
     "slug": "aljamain-sterling",
     "description": "\"Funk Master\". Luchador de Featherweight.",
-    "division": "Featherweight",
-    "rank": "9"
+    "division": "Featherweight"
   },
   {
     "id": 102,
@@ -2322,8 +2251,7 @@
     "name": "Arnold Allen",
     "slug": "arnold-allen",
     "description": "\"Almighty\". Luchador de Featherweight.",
-    "division": "Featherweight",
-    "rank": "7"
+    "division": "Featherweight"
   },
   {
     "id": 703,
@@ -2386,8 +2314,7 @@
     "name": "Dan Ige",
     "slug": "dan-ige",
     "description": "\"50K\". Luchador de Featherweight.",
-    "division": "Featherweight",
-    "rank": "14"
+    "division": "Featherweight"
   },
   {
     "id": 795,
@@ -2429,8 +2356,7 @@
     "name": "Diego Lopes",
     "slug": "diego-lopes",
     "description": "Luchador de Featherweight.",
-    "division": "Featherweight",
-    "rank": "3"
+    "division": "Featherweight"
   },
   {
     "id": 2483,
@@ -2451,8 +2377,7 @@
     "name": "Edson Barboza",
     "slug": "edson-barboza",
     "description": "\"Junior\". Luchador de Featherweight.",
-    "division": "Featherweight",
-    "rank": "15"
+    "division": "Featherweight"
   },
   {
     "id": 2548,
@@ -2501,8 +2426,7 @@
     "name": "Giga Chikadze",
     "slug": "giga-chikadze",
     "description": "\"Ninja\". Luchador de Featherweight.",
-    "division": "Featherweight",
-    "rank": "11"
+    "division": "Featherweight"
   },
   {
     "id": 563,
@@ -2516,8 +2440,7 @@
     "name": "Ilia Topuria",
     "slug": "ilia-topuria",
     "description": "\"El Matador\". Luchador de Featherweight.",
-    "division": "Featherweight",
-    "rank": "C"
+    "division": "Featherweight"
   },
   {
     "id": 2559,
@@ -2608,8 +2531,7 @@
     "name": "Josh Emmett",
     "slug": "josh-emmett",
     "description": "\"CC0\". Luchador de Featherweight.",
-    "division": "Featherweight",
-    "rank": "8"
+    "division": "Featherweight"
   },
   {
     "id": 216,
@@ -2651,8 +2573,7 @@
     "name": "Lerone Murphy",
     "slug": "lerone-murphy",
     "description": "\"The Miracle\". Luchador de Featherweight.",
-    "division": "Featherweight",
-    "rank": "12"
+    "division": "Featherweight"
   },
   {
     "id": 2501,
@@ -2687,8 +2608,7 @@
     "name": "Max Holloway",
     "slug": "max-holloway",
     "description": "\"Blessed\". Luchador de Featherweight.",
-    "division": "Featherweight",
-    "rank": "2"
+    "division": "Featherweight"
   },
   {
     "id": 2583,
@@ -2723,8 +2643,7 @@
     "name": "Movsar Evloev",
     "slug": "movsar-evloev",
     "description": "Luchador de Featherweight.",
-    "division": "Featherweight",
-    "rank": "5"
+    "division": "Featherweight"
   },
   {
     "id": 833,
@@ -2857,8 +2776,7 @@
     "name": "Yair Rodriguez",
     "slug": "yair-rodriguez",
     "description": "\"El Pantera\". Luchador de Featherweight.",
-    "division": "Featherweight",
-    "rank": "4"
+    "division": "Featherweight"
   },
   {
     "id": 2612,
@@ -2886,8 +2804,7 @@
     "name": "Aiemann Zahabi",
     "slug": "aiemann-zahabi",
     "description": "Luchador de Bantamweight.",
-    "division": "Bantamweight",
-    "rank": "13"
+    "division": "Bantamweight"
   },
   {
     "id": 584,
@@ -2943,8 +2860,7 @@
     "name": "Bryce Mitchell",
     "slug": "bryce-mitchell",
     "description": "\"Thug Nasty\". Luchador de Bantamweight.",
-    "division": "Featherweight",
-    "rank": "13"
+    "division": "Featherweight"
   },
   {
     "id": 2470,
@@ -3021,8 +2937,7 @@
     "name": "Cory Sandhagen",
     "slug": "cory-sandhagen",
     "description": "Luchador de Bantamweight.",
-    "division": "Bantamweight",
-    "rank": "4"
+    "division": "Bantamweight"
   },
   {
     "id": 2474,
@@ -3064,8 +2979,7 @@
     "name": "Deiveson Figueiredo",
     "slug": "deiveson-figueiredo",
     "description": "\"Deus da Guerra\". Luchador de Bantamweight.",
-    "division": "Bantamweight",
-    "rank": "5"
+    "division": "Bantamweight"
   },
   {
     "id": 901,
@@ -3107,8 +3021,7 @@
     "name": "Henry Cejudo",
     "slug": "henry-cejudo",
     "description": "\"Triple C\". Luchador de Bantamweight.",
-    "division": "Bantamweight",
-    "rank": "7"
+    "division": "Bantamweight"
   },
   {
     "id": 2494,
@@ -3164,8 +3077,7 @@
     "name": "Kyler Phillips",
     "slug": "kyler-phillips",
     "description": "\"The Matrix\". Luchador de Bantamweight.",
-    "division": "Bantamweight",
-    "rank": "12"
+    "division": "Bantamweight"
   },
   {
     "id": 66,
@@ -3193,24 +3105,21 @@
     "name": "Marcus McGhee",
     "slug": "marcus-mcghee",
     "description": "\"The Maniac\". Luchador de Bantamweight.",
-    "division": "Bantamweight",
-    "rank": "14"
+    "division": "Bantamweight"
   },
   {
     "id": 7,
     "name": "Mario Bautista",
     "slug": "mario-bautista",
     "description": "Luchador de Bantamweight.",
-    "division": "Bantamweight",
-    "rank": "10"
+    "division": "Bantamweight"
   },
   {
     "id": 124,
     "name": "Marlon Vera",
     "slug": "marlon-vera",
     "description": "\"Chito\". Luchador de Bantamweight.",
-    "division": "Bantamweight",
-    "rank": "6"
+    "division": "Bantamweight"
   },
   {
     "id": 2581,
@@ -3224,16 +3133,14 @@
     "name": "Merab Dvalishvili",
     "slug": "merab-dvalishvili",
     "description": "\"The Machine\". Luchador de Bantamweight.",
-    "division": "Bantamweight",
-    "rank": "C"
+    "division": "Bantamweight"
   },
   {
     "id": 253,
     "name": "Montel Jackson",
     "slug": "montel-jackson",
     "description": "\"Quik\". Luchador de Bantamweight.",
-    "division": "Bantamweight",
-    "rank": "15"
+    "division": "Bantamweight"
   },
   {
     "id": 325,
@@ -3268,8 +3175,7 @@
     "name": "Petr Yan",
     "slug": "petr-yan",
     "description": "\"No Mercy\". Luchador de Bantamweight.",
-    "division": "Bantamweight",
-    "rank": "2"
+    "division": "Bantamweight"
   },
   {
     "id": 71,
@@ -3318,8 +3224,7 @@
     "name": "Rob Font",
     "slug": "rob-font",
     "description": "Luchador de Bantamweight.",
-    "division": "Bantamweight",
-    "rank": "9"
+    "division": "Bantamweight"
   },
   {
     "id": 816,
@@ -3354,16 +3259,14 @@
     "name": "Song Yadong",
     "slug": "song-yadong",
     "description": "\"Kung Fu Kid\". Luchador de Bantamweight.",
-    "division": "Bantamweight",
-    "rank": "8"
+    "division": "Bantamweight"
   },
   {
     "id": 2599,
     "name": "Steve Erceg",
     "slug": "steve-erceg",
     "description": "\"Astroboy\". Luchador de Bantamweight.",
-    "division": "Flyweight",
-    "rank": "8"
+    "division": "Flyweight"
   },
   {
     "id": 2145,
@@ -3405,8 +3308,7 @@
     "name": "Umar Nurmagomedov",
     "slug": "umar-nurmagomedov",
     "description": "Luchador de Bantamweight.",
-    "division": "Bantamweight",
-    "rank": "3"
+    "division": "Bantamweight"
   },
   {
     "id": 2520,
@@ -3448,8 +3350,7 @@
     "name": "Alexandre Pantoja",
     "slug": "alexandre-pantoja",
     "description": "\"The Cannibal\". Luchador de Flyweight.",
-    "division": "Flyweight",
-    "rank": "C"
+    "division": "Flyweight"
   },
   {
     "id": 2426,
@@ -3463,16 +3364,14 @@
     "name": "Amir Albazi",
     "slug": "amir-albazi",
     "description": "\"The Prince\". Luchador de Flyweight.",
-    "division": "Flyweight",
-    "rank": "3"
+    "division": "Flyweight"
   },
   {
     "id": 2527,
     "name": "Asu Almabayev",
     "slug": "asu-almabayev",
     "description": "\"Zulfikar\". Luchador de Flyweight.",
-    "division": "Flyweight",
-    "rank": "14"
+    "division": "Flyweight"
   },
   {
     "id": 2528,
@@ -3493,24 +3392,21 @@
     "name": "Brandon Moreno",
     "slug": "brandon-moreno",
     "description": "\"The Assassin Baby\". Luchador de Flyweight.",
-    "division": "Flyweight",
-    "rank": "2"
+    "division": "Flyweight"
   },
   {
     "id": 716,
     "name": "Brandon Royval",
     "slug": "brandon-royval",
     "description": "\"Raw Dawg\". Luchador de Flyweight.",
-    "division": "Flyweight",
-    "rank": "1"
+    "division": "Flyweight"
   },
   {
     "id": 675,
     "name": "Bruno Silva",
     "slug": "bruno-silva",
     "description": "\"Bulldog\". Luchador de Flyweight.",
-    "division": "Flyweight",
-    "rank": "12"
+    "division": "Flyweight"
   },
   {
     "id": 2440,
@@ -3524,8 +3420,7 @@
     "name": "Charles Johnson",
     "slug": "charles-johnson",
     "description": "\"InnerG\". Luchador de Flyweight.",
-    "division": "Flyweight",
-    "rank": "15"
+    "division": "Flyweight"
   },
   {
     "id": 2394,
@@ -3546,8 +3441,7 @@
     "name": "Cody Durden",
     "slug": "cody-durden",
     "description": "\"Custom Made\". Luchador de Flyweight.",
-    "division": "Flyweight",
-    "rank": "13"
+    "division": "Flyweight"
   },
   {
     "id": 2441,
@@ -3645,8 +3539,7 @@
     "name": "Kai Kara-France",
     "slug": "kai-kara-france",
     "description": "\"Don&#x27;t Blink\". Luchador de Flyweight.",
-    "division": "Flyweight",
-    "rank": "4"
+    "division": "Flyweight"
   },
   {
     "id": 2575,
@@ -3667,8 +3560,7 @@
     "name": "Manel Kape",
     "slug": "manel-kape",
     "description": "\"Starboy\". Luchador de Flyweight.",
-    "division": "Flyweight",
-    "rank": "7"
+    "division": "Flyweight"
   },
   {
     "id": 905,
@@ -3682,8 +3574,7 @@
     "name": "Matt Schnell",
     "slug": "matt-schnell",
     "description": "\"Danger\". Luchador de Flyweight.",
-    "division": "Flyweight",
-    "rank": "10"
+    "division": "Flyweight"
   },
   {
     "id": 2507,
@@ -3739,24 +3630,21 @@
     "name": "Tagir Ulanbekov",
     "slug": "tagir-ulanbekov",
     "description": "Luchador de Flyweight.",
-    "division": "Flyweight",
-    "rank": "11"
+    "division": "Flyweight"
   },
   {
     "id": 2516,
     "name": "Tatsuro Taira",
     "slug": "tatsuro-taira",
     "description": "Luchador de Flyweight.",
-    "division": "Flyweight",
-    "rank": "5"
+    "division": "Flyweight"
   },
   {
     "id": 660,
     "name": "Tim Elliott",
     "slug": "tim-elliott",
     "description": "Luchador de Flyweight.",
-    "division": "Flyweight",
-    "rank": "9"
+    "division": "Flyweight"
   },
   {
     "id": 599,
