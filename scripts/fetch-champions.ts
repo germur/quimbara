@@ -68,7 +68,16 @@ function getFighterDetails(id: number): FighterDetails | null {
         }
 
         const fileContent = readFileSync(filePath, 'utf-8')
-        const data = JSON.parse(fileContent)
+        let data = JSON.parse(fileContent)
+
+        // Apply patches if they exist
+        const patchesPath = join(process.cwd(), 'src/data/patches.json')
+        if (existsSync(patchesPath)) {
+            const patches = JSON.parse(readFileSync(patchesPath, 'utf-8'))
+            if (patches[id]) {
+                data = { ...data, ...patches[id], records: { ...data.records, ...patches[id].records } }
+            }
+        }
 
         return {
             id: data.profile.id,

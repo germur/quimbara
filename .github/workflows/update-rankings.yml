@@ -29,7 +29,9 @@ jobs:
       - name: Fetch latest champions data
         env:
           MMA_API_KEY: ${{ secrets.MMA_API_KEY }}
-        run: bun run fetch:champions
+        run: |
+          node scripts/update-champions-data.mjs
+          bun run fetch:champions
       
       - name: Check for changes
         id: git-check
