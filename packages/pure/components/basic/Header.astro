@@ -18,14 +18,14 @@ import { Icon } from '../user'
     {/* Menu links */}
     <div
       id='headerExpandContent'
-      class='end-0 start-0 top-12 grid border border-transparent group-[.not-top]:rounded-xl group-[.expanded]:opacity-100 dark:group-[.expanded.not-top]:bg-muted max-sm:absolute max-sm:opacity-0 max-sm:group-[.not-top]:border-border max-sm:group-[.expanded.not-top]:bg-background max-sm:group-[.not-top]:px-4 max-sm:group-[.not-top]:py-2 sm:grid-rows-1'
+      class='end-0 start-0 top-12 grid border border-transparent group-[.not-top]:rounded-xl group-[.expanded]:opacity-100 dark:group-[.expanded.not-top]:bg-muted max-sm:absolute max-sm:opacity-0 max-sm:group-[.not-top]:border-border max-sm:group-[.expanded.not-top]:bg-white max-sm:group-[.expanded.not-top]:shadow-xl max-sm:group-[.not-top]:px-6 max-sm:group-[.not-top]:py-4 sm:grid-rows-1'
     >
       <div class='flex flex-col items-center justify-center overflow-hidden sm:flex-row'>
         {
           config.header.menu.map((item) => (
             <a
               href={item.link}
-              class='w-full flex-none grow py-2 text-right font-medium transition-none hover:text-primary sm:w-fit sm:px-3'
+              class='w-full flex-none grow py-3 text-center font-heading font-bold text-lg text-quimbara-purple hover:text-quimbara-magenta transition-colors sm:w-fit sm:px-3 sm:text-base sm:font-medium sm:text-right'
               aria-label='Nav menu item'
             >
               {item.title}

@@ -63,19 +63,28 @@ export const theme: ThemeUserConfig = {
     // year: `© 2019 - ${new Date().getFullYear()}`,
     links: [
       {
-        title: 'Instagram',
-        link: 'https://instagram.com/quimbara',
-        style: 'text-sm'
+        title: 'Peso Pesado',
+        link: '/peleadores/peso-pesado',
+        pos: 1,
+        style: 'text-sm font-medium hover:text-quimbara-magenta transition-colors'
       },
       {
-        title: 'Twitter',
-        link: 'https://twitter.com/quimbara',
-        style: 'text-sm'
+        title: 'Peso Ligero',
+        link: '/peleadores/peso-ligero',
+        pos: 1,
+        style: 'text-sm font-medium hover:text-quimbara-magenta transition-colors'
       },
       {
-        title: 'YouTube',
-        link: 'https://youtube.com/quimbara',
-        style: 'text-sm'
+        title: 'Peso Gallo',
+        link: '/peleadores/peso-gallo',
+        pos: 1,
+        style: 'text-sm font-medium hover:text-quimbara-magenta transition-colors'
+      },
+      {
+        title: 'Rankings',
+        link: '/rankings',
+        pos: 2,
+        style: 'text-sm hover:underline'
       }
     ],
     /** Enable displaying a “Astro & Pure theme powered” link in your site’s footer. */
