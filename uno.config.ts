@@ -160,9 +160,10 @@ const themeColors = {
     foreground: 'hsl(var(--card-foreground) / <alpha-value>)'
   },
   quimbara: {
-    primary: 'var(--quimbara-primary)',
-    secondary: 'var(--quimbara-secondary)',
-    dark: 'var(--quimbara-dark)'
+    cream: '#F8F4EC',
+    pink: '#FF8FB7',
+    magenta: '#E83C91',
+    purple: '#43334C'
   }
 }
 
