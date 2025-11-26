@@ -1,22 +1,35 @@
 ---
+import fightersData from '@/data/fighters.json'
+
 import PageLayout from '@/layouts/BaseLayout.astro'
 import Breadcrumbs from '@/components/Breadcrumbs.astro'
-import fightersData from '@/data/fighters.json'
 
 export const prerender = true
 
 // Organizar peleadores alfabéticamente
-const fightersByLetter = fightersData.reduce((acc, fighter) => {
-  const firstLetter = fighter.name[0].toUpperCase()
-  if (!acc[firstLetter]) {
-    acc[firstLetter] = []
-  }
-  acc[firstLetter].push(fighter)
-  return acc
-}, {} as Record<string, typeof fightersData>)
+interface Fighter {
+  id: number
+  name: string
+  slug: string
+  division: string
+  rank?: string
+  record?: string
+}
+
+const fightersByLetter = (fightersData as Fighter[]).reduce(
+  (acc, fighter) => {
+    const firstLetter = fighter.name[0].toUpperCase()
+    if (!acc[firstLetter]) {
+      acc[firstLetter] = []
+    }
+    acc[firstLetter].push(fighter)
+    return acc
+  },
+  {} as Record<string, Fighter[]>
+)
 
 // Ordenar cada grupo alfabéticamente
-Object.keys(fightersByLetter).forEach(letter => {
+Object.keys(fightersByLetter).forEach((letter) => {
   fightersByLetter[letter].sort((a, b) => a.name.localeCompare(b.name))
 })
 
@@ -42,90 +55,120 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
   />
 
   <!-- Hero -->
-  <section class="py-12 mb-12 text-center">
-    <div class="inline-block bg-[#E83C91]/10 text-[#E83C91] px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wider mb-4 border border-[#E83C91]/20">
+  <section class='py-12 mb-12 text-center'>
+    <div
+      class='inline-block bg-[#E83C91]/10 text-[#E83C91] px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wider mb-4 border border-[#E83C91]/20'
+    >
       Índice Alfabético
     </div>
-    <h1 class="text-4xl md:text-6xl font-heading font-bold mb-4 text-[#43334C]">
-      PELEADORES <span class="text-[#E83C91]">A-Z</span>
+    <h1 class='text-4xl md:text-6xl font-heading font-bold mb-4 text-[#43334C]'>
+      PELEADORES <span class='text-[#E83C91]'>A-Z</span>
     </h1>
-    <p class="text-lg text-[#43334C]/70 max-w-3xl mx-auto">
+    <p class='text-lg text-[#43334C]/70 max-w-3xl mx-auto'>
       Directorio completo de {fightersData.length} peleadores organizados alfabéticamente
     </p>
   </section>
 
   <!-- Navegación de Letras -->
-  <nav class="sticky top-20 z-30 bg-[#F8F4EC]/95 backdrop-blur-sm border-y border-border py-4 mb-8 -mx-4 px-4 md:-mx-8 md:px-8">
-    <div class="flex flex-wrap justify-center gap-2">
-      {letters.map(letter => (
-        <a 
-          href={`#${letter}`}
-          class="w-10 h-10 flex items-center justify-center rounded-lg bg-white border border-border hover:bg-[#E83C91] hover:text-white hover:border-[#E83C91] transition-all font-bold text-[#43334C]"
-        >
-          {letter}
-        </a>
-      ))}
+  <nav
+    class='sticky top-20 z-30 bg-[#F8F4EC]/95 backdrop-blur-sm border-y border-border py-4 mb-8 -mx-4 px-4 md:-mx-8 md:px-8'
+  >
+    <div class='flex flex-wrap justify-center gap-2'>
+      {
+        letters.map((letter) => (
+          <a
+            href={`#${letter}`}
+            class='w-10 h-10 flex items-center justify-center rounded-lg bg-white border border-border hover:bg-[#E83C91] hover:text-white hover:border-[#E83C91] transition-all font-bold text-[#43334C]'
+          >
+            {letter}
+          </a>
+        ))
+      }
     </div>
   </nav>
 
   <!-- Listado por Letra -->
-  <div class="space-y-12">
-    {letters.map(letter => (
-      <section id={letter} class="scroll-mt-32">
-        <div class="flex items-center gap-4 mb-6">
-          <div class="w-16 h-16 flex items-center justify-center rounded-2xl bg-[#E83C91] text-white font-heading font-bold text-3xl shadow-lg">
-            {letter}
+  <div class='space-y-12'>
+    {
+      letters.map((letter) => (
+        <section id={letter} class='scroll-mt-32'>
+          <div class='flex items-center gap-4 mb-6'>
+            <div class='w-16 h-16 flex items-center justify-center rounded-2xl bg-[#E83C91] text-white font-heading font-bold text-3xl shadow-lg'>
+              {letter}
+            </div>
+            <h2 class='text-2xl font-heading font-bold text-[#43334C]'>
+              {fightersByLetter[letter].length} peleador
+              {fightersByLetter[letter].length !== 1 ? 'es' : ''}
+            </h2>
           </div>
-          <h2 class="text-2xl font-heading font-bold text-[#43334C]">
-            {fightersByLetter[letter].length} peleador{fightersByLetter[letter].length !== 1 ? 'es' : ''}
-          </h2>
-        </div>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {fightersByLetter[letter].map(fighter => (
-            <a
-              href={`/blog/perfiles-luchadores/${fighter.slug}`}
-              class="group flex items-center gap-4 p-4 bg-white rounded-2xl border border-border hover:border-[#E83C91] hover:shadow-md transition-all"
-            >
-              <img 
-                src={getFighterImg(fighter.id)} 
-                alt={fighter.name}
-                class="w-16 h-16 rounded-full object-cover bg-[#F8F4EC] border-2 border-border group-hover:border-[#E83C91] transition-colors"
-                loading="lazy"
-                onerror="this.src='/images/fighter-placeholder.png'"
-              />
-              <div class="flex-1 min-w-0">
-                <h3 class="font-bold text-[#43334C] group-hover:text-[#E83C91] transition-colors truncate">
-                  {fighter.name}
-                </h3>
-                <p class="text-sm text-[#43334C]/60">
-                  {fighter.division}
-                  {fighter.rank && fighter.rank !== 'NR' && (
-                    <span class="ml-2 text-[#E83C91] font-bold">
-                      {fighter.rank === 'C' ? 'Campeón' : `#${fighter.rank}`}
-                    </span>
-                  )}
-                </p>
-              </div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[#43334C]/30 group-hover:text-[#E83C91] transition-colors">
-                <path d="M5 12h14"></path>
-                <path d="m12 5 7 7-7 7"></path>
-              </svg>
-            </a>
-          ))}
-        </div>
-      </section>
-    ))}
+
+          <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+            {fightersByLetter[letter].map((fighter) => (
+              <a
+                href={`/blog/perfiles-luchadores/${fighter.slug}`}
+                class='group flex items-center gap-4 p-4 bg-white rounded-2xl border border-border hover:border-[#E83C91] hover:shadow-md transition-all'
+              >
+                <img
+                  src={getFighterImg(fighter.id)}
+                  alt={fighter.name}
+                  class='w-16 h-16 rounded-full object-cover bg-[#F8F4EC] border-2 border-border group-hover:border-[#E83C91] transition-colors'
+                  loading='lazy'
+                  onerror="this.src='/images/fighter-placeholder.png'"
+                />
+                <div class='flex-1 min-w-0'>
+                  <h3 class='font-bold text-[#43334C] group-hover:text-[#E83C91] transition-colors truncate'>
+                    {fighter.name}
+                  </h3>
+                  <p class='text-sm text-[#43334C]/60'>
+                    {fighter.division}
+                    {fighter.rank && fighter.rank !== 'NR' && (
+                      <span class='ml-2 text-[#E83C91] font-bold'>
+                        {fighter.rank === 'C' ? 'Campeón' : `#${fighter.rank}`}
+                      </span>
+                    )}
+                  </p>
+                </div>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  width='20'
+                  height='20'
+                  viewBox='0 0 24 24'
+                  fill='none'
+                  stroke='currentColor'
+                  stroke-width='2'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                  class='text-[#43334C]/30 group-hover:text-[#E83C91] transition-colors'
+                >
+                  <path d='M5 12h14' />
+                  <path d='m12 5 7 7-7 7' />
+                </svg>
+              </a>
+            ))}
+          </div>
+        </section>
+      ))
+    }
   </div>
 
   <!-- Back to Top -->
-  <div class="mt-12 text-center">
-    <a 
-      href="#top"
-      class="inline-flex items-center gap-2 px-6 py-3 bg-[#E83C91] text-white font-bold rounded-xl hover:bg-[#D63384] transition-all shadow-md"
+  <div class='mt-12 text-center'>
+    <a
+      href='#top'
+      class='inline-flex items-center gap-2 px-6 py-3 bg-[#E83C91] text-white font-bold rounded-xl hover:bg-[#D63384] transition-all shadow-md'
     >
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="m18 15-6-6-6 6"></path>
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        width='20'
+        height='20'
+        viewBox='0 0 24 24'
+        fill='none'
+        stroke='currentColor'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+      >
+        <path d='m18 15-6-6-6 6'></path>
       </svg>
       Volver Arriba
     </a>

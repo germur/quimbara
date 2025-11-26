@@ -74,6 +74,11 @@ try {
   console.error(`Error reading fighter data: ${e}`)
 }
 
+// If no fighter data found, show error message
+if (!fighter) {
+  return new Response('Fighter data not found', { status: 404 })
+}
+
 // Process Timeline Events
 const recentEvents = recentFights
   .filter((f: Fight) => f.status.short === 'FT') // Only finished fights
@@ -143,78 +148,79 @@ const athleteSchema = fighter
   {
     fighter ? (
       <>
-        {/* 1. HERO SECTION (The Lead) */}
-        <section class='relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl bg-[#0a0a0a]'>
-          {/* Background Gradient & Pattern */}
-          <div class='absolute inset-0 bg-gradient-to-r from-black via-slate-900/90 to-slate-900/50 z-10' />
-          <div class="absolute inset-0 bg-[url('/images/octagon-bg.jpg')] bg-cover bg-center opacity-20 mix-blend-overlay z-0" />
+        {/* 1. HERO SECTION - LIGHT/CLEAN THEME */}
+        <section class='relative rounded-3xl overflow-hidden border border-border shadow-lg bg-white min-h-[500px]'>
+          {/* Background Gradient */}
+          <div class='absolute inset-0 bg-gradient-to-br from-[#F8F4EC] via-white to-[#FF8FB7]/10 z-0' />
 
-          <div class='relative z-20 p-8 md:p-12 flex flex-col md:flex-row items-center md:items-end gap-8 md:gap-16'>
+          <div class='relative z-10 p-12 md:p-16 flex flex-col md:flex-row items-center justify-center gap-12 md:gap-16 max-w-7xl mx-auto'>
             {/* Fighter Image */}
             <div class='relative shrink-0'>
-              <div class='w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-[#E83C91] shadow-[0_0_30px_rgba(255,133,0,0.5)] bg-[#43334C] relative z-10'>
+              <div class='w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-[#E83C91] shadow-2xl shadow-[#E83C91]/20 bg-white relative z-10'>
                 <img src={fighter.photo} alt={fighter.name} class='w-full h-full object-cover' />
               </div>
-              {/* Rank Badge (Placeholder logic) */}
-              <div class='absolute -bottom-3 -right-3 bg-[#E83C91] text-black font-black text-xl w-12 h-12 flex items-center justify-center rounded-full border-4 border-[#43334C]/20 z-20'>
+              {/* Rank Badge */}
+              <div class='absolute -bottom-4 -right-4 bg-[#E83C91] text-white font-black text-2xl w-16 h-16 flex items-center justify-center rounded-full border-4 border-white shadow-lg z-20'>
                 C
               </div>
             </div>
 
-            {/* Info */}
-            <div class='flex-1 text-center md:text-left space-y-4'>
+            {/* Info - Centered */}
+            <div class='flex-1 text-center space-y-6 max-w-2xl'>
               <div>
-                <h1 class='text-5xl md:text-7xl font-heading font-bold text-[#E83C91] leading-none mb-2 uppercase tracking-tighter'>
+                <h1 class='text-6xl md:text-8xl font-heading font-bold text-[#43334C] leading-none mb-3 uppercase tracking-tight'>
                   {fighter.name}
                 </h1>
                 {fighter.nickname && (
-                  <p class='text-2xl md:text-3xl text-[#43334C] font-heading font-bold italic tracking-wide'>
+                  <p class='text-3xl md:text-4xl text-[#E83C91] font-heading font-bold italic tracking-wide'>
                     "{fighter.nickname}"
                   </p>
                 )}
               </div>
 
-              <div class='flex flex-wrap justify-center md:justify-start gap-4 md:gap-8 text-[#43334C] 300 font-medium'>
+              <div class='flex flex-wrap justify-center gap-6 md:gap-10 text-[#43334C]/70 font-medium text-lg'>
                 <span class='flex items-center gap-2'>
-                  <span class='text-[#E83C91]'>🏆</span> {fighter.division || 'UFC Fighter'}
+                  <span class='text-[#E83C91] text-2xl'>🏆</span>{' '}
+                  {fighter.division || 'UFC Fighter'}
                 </span>
                 <span class='flex items-center gap-2'>
-                  <span class='text-[#E83C91]'>🌍</span> {fighter.birth?.country || 'N/A'}
+                  <span class='text-[#E83C91] text-2xl'>🌍</span> {fighter.birth?.country || 'N/A'}
                 </span>
                 <span class='flex items-center gap-2'>
-                  <span class='text-[#E83C91]'>🥋</span> {fighter.team?.name || 'Independent'}
+                  <span class='text-[#E83C91] text-2xl'>🥋</span>{' '}
+                  {fighter.team?.name || 'Independent'}
                 </span>
               </div>
-            </div>
 
-            {/* Record (Big Stats) */}
-            <div class='text-center md:text-right'>
-              <div class='text-[#43334C] 400 text-sm font-bold uppercase tracking-widest mb-1'>
-                Récord Pro
-              </div>
-              <div class='text-6xl md:text-8xl font-heading font-bold text-[#E83C91] leading-none'>
-                {records?.total.win}
-                <span class='text-[#43334C] 600'>-</span>
-                {records?.total.loss}
-                <span class='text-[#43334C] 600 text-4xl'>-{records?.total.draw}</span>
-              </div>
-              <div class='flex justify-center md:justify-end gap-4 mt-2 text-sm font-mono text-[#43334C] 400'>
-                <span>
-                  <span class='text-green-500'>{records?.ko.win}</span> KO
-                </span>
-                <span>
-                  <span class='text-[#43334C]'>{records?.sub.win}</span> SUB
-                </span>
+              {/* Record (Big Stats) */}
+              <div class='bg-[#F8F4EC] rounded-2xl p-6 inline-block'>
+                <div class='text-[#43334C]/60 text-sm font-bold uppercase tracking-widest mb-2'>
+                  Récord Profesional
+                </div>
+                <div class='text-7xl md:text-9xl font-heading font-bold text-[#E83C91] leading-none'>
+                  {records?.total.win}
+                  <span class='text-[#43334C]/40'>-</span>
+                  {records?.total.loss}
+                  <span class='text-[#43334C]/40 text-5xl'>-{records?.total.draw}</span>
+                </div>
+                <div class='flex justify-center gap-6 mt-4 text-base font-mono text-[#43334C]/70'>
+                  <span>
+                    <span class='text-[#E83C91] font-bold'>{records?.ko.win}</span> KO
+                  </span>
+                  <span>
+                    <span class='text-[#E83C91] font-bold'>{records?.sub.win}</span> SUB
+                  </span>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
         {/* 2. QUICK ANSWER BOX (SEO) */}
-        <section class='glass-panel p-6 rounded-xl border-l-4 border-l-red-600'>
-          <h2 class='text-xl font-bold text-[#E83C91] mb-4 flex items-center gap-2'>
+        <section class='bg-white border border-border p-8 rounded-3xl border-l-4 border-l-[#E83C91] shadow-sm'>
+          <h2 class='text-2xl font-bold text-[#43334C] mb-6 flex items-center gap-3'>
             <svg
-              class='w-5 h-5 text-[#E83C91]'
+              class='w-6 h-6 text-[#E83C91]'
               fill='none'
               stroke='currentColor'
               viewBox='0 0 24 24'
@@ -228,24 +234,34 @@ const athleteSchema = fighter
             </svg>
             Datos Clave: {fighter.name}
           </h2>
-          <div class='grid grid-cols-2 md:grid-cols-4 gap-6'>
+          <div class='grid grid-cols-2 md:grid-cols-4 gap-8'>
+            {fighter.birth?.date && (
+              <div>
+                <span class='block text-[#43334C]/60 text-sm uppercase font-bold mb-2 tracking-wider'>
+                  Edad
+                </span>
+                <span class='text-2xl font-bold text-[#E83C91]'>
+                  {calculateAge(fighter.birth?.date || '')} años
+                </span>
+              </div>
+            )}
             <div>
-              <span class='block text-[#43334C] 500 text-xs uppercase font-bold mb-1'>Edad</span>
-              <span class='text-lg font-bold text-[#E83C91]'>
-                {calculateAge(fighter.birth?.date || '')} años
+              <span class='block text-[#43334C]/60 text-sm uppercase font-bold mb-2 tracking-wider'>
+                Altura
               </span>
+              <span class='text-2xl font-bold text-[#E83C91]'>{fighter.height}</span>
             </div>
             <div>
-              <span class='block text-[#43334C] 500 text-xs uppercase font-bold mb-1'>Altura</span>
-              <span class='text-lg font-bold text-[#E83C91]'>{fighter.height}</span>
+              <span class='block text-[#43334C]/60 text-sm uppercase font-bold mb-2 tracking-wider'>
+                Alcance
+              </span>
+              <span class='text-2xl font-bold text-[#E83C91]'>{fighter.reach}</span>
             </div>
             <div>
-              <span class='block text-[#43334C] 500 text-xs uppercase font-bold mb-1'>Alcance</span>
-              <span class='text-lg font-bold text-[#E83C91]'>{fighter.reach}</span>
-            </div>
-            <div>
-              <span class='block text-[#43334C] 500 text-xs uppercase font-bold mb-1'>Estilo</span>
-              <span class='text-lg font-bold text-[#E83C91]'>{fighter.stance}</span>
+              <span class='block text-[#43334C]/60 text-sm uppercase font-bold mb-2 tracking-wider'>
+                Estilo
+              </span>
+              <span class='text-2xl font-bold text-[#E83C91]'>{fighter.stance}</span>
             </div>
           </div>
         </section>

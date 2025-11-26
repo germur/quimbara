@@ -1,0 +1,193 @@
+20:45:23 [@astrojs/netlify] Enabling sessions with Netlify Blobs
+20:45:23 [WARN] [router] The route "/rankings" is defined in both "src/pages/rankings/index.astro" and "src/pages/rankings.astro". A static route cannot be defined more than once.
+20:45:23 [WARN] [router] A collision will result in an hard error in following versions of Astro.
+20:45:24 [content] Syncing content
+20:45:24 [content] Synced content
+20:45:24 [types] Generated 730ms
+20:45:24 [check] Getting diagnostics for Astro files in /Users/rogermurillo/quimbara...
+[96mpackages/pure/components/pages/ArticleBottom.astro[0m:[93m2[0m:[93m32[0m - [93mwarning[0m[90m ts(6196): [0m'CollectionKey' is declared but never used.
+
+[7m2[0m import type { CollectionEntry, CollectionKey } from 'astro:content'
+[7m [0m [93m                               ~~~~~~~~~~~~~[0m
+
+[96mpackages/pure/utils/server.ts[0m:[93m1[0m:[93m52[0m - [93mwarning[0m[90m ts(6133): [0m'CollectionKey' is declared but its value is never read.
+
+[7m1[0m import { getCollection, type CollectionEntry, type CollectionKey } from 'astro:content'
+[7m [0m [93m                                                   ~~~~~~~~~~~~~[0m
+
+[96msrc/content.config.ts[0m:[93m16[0m:[93m12[0m - [93mwarning[0m[90m ts(6133): [0m'image' is declared but its value is never read.
+
+[7m16[0m   schema: ({ image }) =>
+[7m  [0m [93m           ~~~~~~~~~[0m
+
+[96msrc/components/Breadcrumbs.astro[0m:[93m34[0m:[93m19[0m - [91merror[0m[90m ts(2322): [0mType '"chevron-right"' is not assignable to type '"link" | "menu" | "github" | "gitlab" | "discord" | "youtube" | "instagram" | "x" | "telegram" | "rss" | "email" | "reddit" | "bluesky" | "tiktok" | "weibo" | "steam" | "bilibili" | ... 26 more ... | "octangon"'.
+
+[7m34[0m             <Icon name="chevron-right" class="w-4 h-4 text-muted-foreground/50" />
+[7m  [0m [91m                  ~~~~[0m
+[96msrc/components/Breadcrumbs.astro[0m:[93m2[0m:[93m10[0m - [93mwarning[0m[90m ts(6133): [0m'Button' is declared but its value is never read.
+
+[7m2[0m import { Button, Icon } from 'astro-pure/user'
+[7m [0m [93m         ~~~~~~[0m
+[96msrc/components/Breadcrumbs.astro[0m:[93m53[0m:[93m9[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m53[0m <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+[7m  [0m [93m        ~~~~[0m
+
+[96msrc/components/special/FighterGrid.astro[0m:[93m54[0m:[93m27[0m - [93mwarning[0m[90m ts(6133): [0m'src' is declared but its value is never read.
+
+[7m54[0m             onerror="this.src='/images/fighter-placeholder.png'"
+[7m  [0m [93m                          ~~~[0m
+
+[96msrc/components/special/FighterProfile.astro[0m:[93m4[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'Button' is declared but its value is never read.
+
+[7m4[0m import { Button } from 'astro-pure/user'
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/components/special/FighterProfile.astro[0m:[93m140[0m:[93m27[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m140[0m {athleteSchema && <script type='application/ld+json' set:html={JSON.stringify(athleteSchema)} />}
+[7m   [0m [93m                          ~~~~[0m
+
+[96msrc/components/widgets/NextEventWidget.astro[0m:[93m14[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'weekday' is declared but its value is never read.
+
+[7m14[0m const weekday = dateObj
+[7m  [0m [93m      ~~~~~~~[0m
+[96msrc/components/widgets/NextEventWidget.astro[0m:[93m115[0m:[93m27[0m - [93mwarning[0m[90m ts(6133): [0m'src' is declared but its value is never read.
+
+[7m115[0m             onerror="this.src='/images/fighter-placeholder.png'"
+[7m   [0m [93m                          ~~~[0m
+[96msrc/components/widgets/NextEventWidget.astro[0m:[93m81[0m:[93m27[0m - [93mwarning[0m[90m ts(6133): [0m'src' is declared but its value is never read.
+
+[7m81[0m             onerror="this.src='/images/fighter-placeholder.png'"
+[7m  [0m [93m                          ~~~[0m
+
+[96msrc/pages/rankings.astro[0m:[93m151[0m:[93m29[0m - [93mwarning[0m[90m ts(6133): [0m'src' is declared but its value is never read.
+
+[7m151[0m               onerror="this.src='/images/fighter-placeholder.png'"
+[7m   [0m [93m                            ~~~[0m
+[96msrc/pages/rankings.astro[0m:[93m74[0m:[93m33[0m - [93mwarning[0m[90m ts(6133): [0m'src' is declared but its value is never read.
+
+[7m74[0m                   onerror="this.src='/images/fighter-placeholder.png'"
+[7m  [0m [93m                                ~~~[0m
+
+[96msrc/pages/eventos/[id].astro[0m:[93m156[0m:[93m36[0m - [93mwarning[0m[90m ts(6133): [0m'index' is declared but its value is never read.
+
+[7m156[0m       {fights.slice(1).map((fight, index) => (
+[7m   [0m [93m                                   ~~~~~[0m
+[96msrc/pages/eventos/[id].astro[0m:[93m192[0m:[93m31[0m - [93mwarning[0m[90m ts(6133): [0m'src' is declared but its value is never read.
+
+[7m192[0m                 onerror="this.src='/images/fighter-placeholder.png'"
+[7m   [0m [93m                              ~~~[0m
+[96msrc/pages/eventos/[id].astro[0m:[93m179[0m:[93m31[0m - [93mwarning[0m[90m ts(6133): [0m'src' is declared but its value is never read.
+
+[7m179[0m                 onerror="this.src='/images/fighter-placeholder.png'"
+[7m   [0m [93m                              ~~~[0m
+[96msrc/pages/eventos/[id].astro[0m:[93m134[0m:[93m29[0m - [93mwarning[0m[90m ts(6133): [0m'src' is declared but its value is never read.
+
+[7m134[0m               onerror="this.src='/images/fighter-placeholder.png'"
+[7m   [0m [93m                            ~~~[0m
+[96msrc/pages/eventos/[id].astro[0m:[93m107[0m:[93m29[0m - [93mwarning[0m[90m ts(6133): [0m'src' is declared but its value is never read.
+
+[7m107[0m               onerror="this.src='/images/fighter-placeholder.png'"
+[7m   [0m [93m                            ~~~[0m
+[96msrc/pages/eventos/[id].astro[0m:[93m61[0m:[93m11[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m61[0m   <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+[7m  [0m [93m          ~~~~[0m
+
+[96msrc/pages/eventos-ufc/index.astro[0m:[93m2[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'Button' is declared but its value is never read.
+
+[7m2[0m import { Button } from 'astro-pure/user'
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/pages/eventos-ufc/index.astro[0m:[93m223[0m:[93m11[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m223[0m   <script type='application/ld+json' set:html={JSON.stringify(schemaMarkup)} />
+[7m   [0m [93m          ~~~~[0m
+
+[96msrc/pages/fighters/[division].astro[0m:[93m58[0m:[93m28[0m - [91merror[0m[90m ts(2345): [0mArgument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+
+[7m58[0m     const rankB = parseInt(b.rank) || 999
+[7m  [0m [91m                           ~~~~~~[0m
+[96msrc/pages/fighters/[division].astro[0m:[93m57[0m:[93m28[0m - [91merror[0m[90m ts(2345): [0mArgument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+
+[7m57[0m     const rankA = parseInt(a.rank) || 999
+[7m  [0m [91m                           ~~~~~~[0m
+[96msrc/pages/fighters/[division].astro[0m:[93m278[0m:[93m31[0m - [93mwarning[0m[90m ts(6133): [0m'src' is declared but its value is never read.
+
+[7m278[0m                 onerror="this.src='/images/fighter-placeholder.png'"
+[7m   [0m [93m                              ~~~[0m
+[96msrc/pages/fighters/[division].astro[0m:[93m186[0m:[93m39[0m - [93mwarning[0m[90m ts(6133): [0m'src' is declared but its value is never read.
+
+[7m186[0m                         onerror="this.src='/images/fighter-placeholder.png'"
+[7m   [0m [93m                                      ~~~[0m
+[96msrc/pages/fighters/[division].astro[0m:[93m132[0m:[93m31[0m - [93mwarning[0m[90m ts(6133): [0m'src' is declared but its value is never read.
+
+[7m132[0m                 onerror="this.src='/images/fighter-placeholder.png'"
+[7m   [0m [93m                              ~~~[0m
+[96msrc/pages/fighters/[division].astro[0m:[93m95[0m:[93m11[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m95[0m   <script type='application/ld+json' set:html={JSON.stringify(schemaMarkup)} />
+[7m  [0m [93m          ~~~~[0m
+
+[96msrc/pages/fighters/az.astro[0m:[93m116[0m:[93m33[0m - [93mwarning[0m[90m ts(6133): [0m'src' is declared but its value is never read.
+
+[7m116[0m                   onerror="this.src='/images/fighter-placeholder.png'"
+[7m   [0m [93m                                ~~~[0m
+
+[96msrc/pages/fighters/index.astro[0m:[93m184[0m:[93m31[0m - [93mwarning[0m[90m ts(6133): [0m'src' is declared but its value is never read.
+
+[7m184[0m                 onerror="this.src='/images/fighter-placeholder.png'"
+[7m   [0m [93m                              ~~~[0m
+[96msrc/pages/fighters/index.astro[0m:[93m147[0m:[93m35[0m - [93mwarning[0m[90m ts(6133): [0m'src' is declared but its value is never read.
+
+[7m147[0m                     onerror="this.src='/images/fighter-placeholder.png'"
+[7m   [0m [93m                                  ~~~[0m
+[96msrc/pages/fighters/index.astro[0m:[93m56[0m:[93m11[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m56[0m   <script type='application/ld+json' set:html={JSON.stringify(schemaMarkup)} />
+[7m  [0m [93m          ~~~~[0m
+
+[96msrc/pages/noticias/index.astro[0m:[93m5[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'Button' is declared but its value is never read.
+
+[7m5[0m import { Button } from 'astro-pure/user'
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/pages/noticias/index.astro[0m:[93m4[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'sortMDByDate' is declared but its value is never read.
+
+[7m4[0m import { sortMDByDate } from 'astro-pure/server'
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/utils/seo.ts[0m:[93m52[0m:[93m13[0m - [93mwarning[0m[90m ts(7028): [0mUnused label.
+
+[7m52[0m             title: 'Técnicas y Entrenamientos'
+[7m  [0m [93m            ~~~~~[0m
+
+Result (161 files): 
+- 3 errors
+- 0 warnings
+- 32 hints
+

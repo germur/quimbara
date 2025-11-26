@@ -1,28 +1,29 @@
 ---
 import PageLayout from '@/layouts/BaseLayout.astro'
 import { weightClasses } from '@/data/weightClasses'
-import fightersData from '@/data/fighters.json'
+import championsData from '@/data/champions-generated.json'
 
-export const prerender = true
-
-// Buscar campeones de cada división
+// Buscar campeones de cada división (Dinámico)
 const champions = weightClasses.map(wc => {
-  const divisionFighters = fightersData.filter(f => f.division === wc.nameEn)
-  const champion = divisionFighters.find(f => f.rank === 'C') || divisionFighters[0]
+  // @ts-ignore
+  const champion = championsData.champions[wc.nameEn]
   return {
     division: wc,
-    champion: champion || null
+    champion: champion ? {
+      ...champion,
+      record: `${champion.record.win}-${champion.record.loss}-${champion.record.draw}`
+    } : null
   }
 }).filter(c => c.champion)
 
-// Mock P4P ranking (en producción vendría de la API)
-const p4pRanking = [
-  { rank: 1, id: 333, name: 'Islam Makhachev', division: 'Lightweight', record: '26-1-0' },
-  { rank: 2, id: 214, name: 'Jon Jones', division: 'Heavyweight', record: '27-1-0' },
-  { rank: 3, id: 2436, name: 'Alex Pereira', division: 'Light Heavyweight', record: '11-2-0' },
-  { rank: 4, id: 855, name: 'Ilia Topuria', division: 'Featherweight', record: '15-0-0' },
-  { rank: 5, id: 250, name: 'Alexandre Pantoja', division: 'Flyweight', record: '27-5-0' }
-]
+// P4P ranking (Dinámico desde API)
+const p4pRanking = championsData.p4p.map((f: any, index: number) => ({
+  rank: index + 1,
+  id: f.id,
+  name: f.name,
+  division: f.weight || 'UFC Fighter', // API might return weight class string
+  record: `${f.record.win}-${f.record.loss}-${f.record.draw}`
+}))
 
 const meta = {
   title: 'Rankings UFC Oficiales - Pound for Pound y Por División | Quimbara',

@@ -1,13 +1,15 @@
 ---
-import PageLayout from '@/layouts/BaseLayout.astro'
-import Breadcrumbs from '@/components/Breadcrumbs.astro'
-import fightersData from '@/data/fighters.json'
 import { getCollection } from 'astro:content'
+import championsData from '@/data/champions-generated.json'
+import fightersData from '@/data/fighters.json'
 import { weightClasses, weightClassMapReverse } from '@/data/weightClasses'
 
+import PageLayout from '@/layouts/BaseLayout.astro'
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+
 export async function getStaticPaths() {
-  return weightClasses.map(wc => ({
-    params: { division: wc.slug },
+  return weightClasses.map((wc) => ({
+    params: { division: wc.slug }
   }))
 }
 
@@ -23,19 +25,37 @@ const division = weightClassMapReverse[divisionSlug]
 const divisionEs = divisionInfo.nameEs
 
 // Filtrar peleadores de esta división
-const divisionFighters = fightersData.filter((f) => f.division === division)
+interface Fighter {
+  id: number
+  name: string
+  slug: string
+  division: string
+  rank?: string
+  record?: string
+}
 
-// Buscar campeón (el que tiene "C" como rank o está primero)
-const champion = divisionFighters.find(f => f.rank === 'C') || divisionFighters[0]
+const divisionFighters = (fightersData as Fighter[]).filter((f) => f.division === division)
+
+// ... (existing code)
+
+// Buscar campeón (Dinámico desde API)
+// @ts-ignore
+const apiChampion = championsData.champions[divisionInfo.nameEn]
+const champion = apiChampion
+  ? {
+      ...apiChampion,
+      record: `${apiChampion.record.win}-${apiChampion.record.loss}-${apiChampion.record.draw}`
+    }
+  : divisionFighters.find((f) => f.rank === 'C') || divisionFighters[0]
 
 // Top 15 ranking (ordenados por ranking)
 const ranking = divisionFighters
-  .filter(f => f.rank && f.rank !== 'NR')
+  .filter((f) => f.rank && f.rank !== 'NR')
   .sort((a, b) => {
     if (a.rank === 'C') return -1
     if (b.rank === 'C') return 1
-    const rankA = parseInt(a.rank) || 999
-    const rankB = parseInt(b.rank) || 999
+    const rankA = parseInt(a.rank || '999') || 999
+    const rankB = parseInt(b.rank || '999') || 999
     return rankA - rankB
   })
   .slice(0, 15)
@@ -44,9 +64,10 @@ const ranking = divisionFighters
 const allPosts = await getCollection('blog')
 const relatedNews = allPosts
   .filter((post) =>
-    post.data.tags?.some((tag) =>
-      tag.toLowerCase().includes(divisionSlug) || 
-      tag.toLowerCase().includes(division.toLowerCase())
+    post.data.tags?.some(
+      (tag) =>
+        tag.toLowerCase().includes(divisionSlug) ||
+        tag.toLowerCase().includes(division.toLowerCase())
     )
   )
   .slice(0, 3)
@@ -71,7 +92,7 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
 
 <PageLayout {meta}>
   <!-- Schema.org -->
-  <script type="application/ld+json" set:html={JSON.stringify(schemaMarkup)} />
+  <script type='application/ld+json' set:html={JSON.stringify(schemaMarkup)} />
 
   <!-- Breadcrumb -->
   <Breadcrumbs
@@ -83,91 +104,105 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
   />
 
   <!-- Hero Section - Clean Theme -->
-  <section class="py-12 mb-12">
-    <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
-      <div class="flex-1">
-        <div class="inline-block bg-[#E83C91]/10 text-[#E83C91] px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wider mb-4 border border-[#E83C91]/20">
+  <section class='py-12 mb-12'>
+    <div class='flex flex-col md:flex-row justify-between items-start md:items-end gap-6'>
+      <div class='flex-1'>
+        <div
+          class='inline-block bg-[#E83C91]/10 text-[#E83C91] px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wider mb-4 border border-[#E83C91]/20'
+        >
           División Oficial UFC
         </div>
-        <h1 class="text-4xl md:text-6xl font-heading font-bold mb-3 text-[#43334C]">
-          PELEADORES <span class="text-[#E83C91]">{divisionEs.toUpperCase()}</span>
+        <h1 class='text-4xl md:text-6xl font-heading font-bold mb-3 text-[#43334C]'>
+          PELEADORES <span class='text-[#E83C91]'>{divisionEs.toUpperCase()}</span>
         </h1>
-        <p class="text-lg text-[#43334C]/70 max-w-2xl leading-relaxed">
+        <p class='text-lg text-[#43334C]/70 max-w-2xl leading-relaxed'>
           {divisionInfo.description}
         </p>
       </div>
-      
-      {champion && (
-        <div class="bg-white border border-border rounded-2xl px-6 py-4 shadow-sm">
-          <div class="flex items-center gap-4">
-            <img 
-              src={getFighterImg(champion.id)} 
-              alt={champion.name}
-              class="w-16 h-16 rounded-full object-cover bg-[#F8F4EC] border-2 border-[#E83C91]"
-              loading="lazy"
-              onerror="this.src='/images/fighter-placeholder.png'"
-            />
-            <div>
-              <span class="text-xs text-[#43334C]/60 uppercase font-bold tracking-wider block mb-1">Campeón Actual</span>
-              <span class="text-[#E83C91] font-bold font-heading text-xl">{champion.name}</span>
+
+      {
+        champion && (
+          <div class='bg-white border border-border rounded-2xl px-6 py-4 shadow-sm'>
+            <div class='flex items-center gap-4'>
+              <img
+                src={getFighterImg(champion.id)}
+                alt={champion.name}
+                class='w-16 h-16 rounded-full object-cover bg-[#F8F4EC] border-2 border-[#E83C91]'
+                loading='lazy'
+                onerror="this.src='/images/fighter-placeholder.png'"
+              />
+              <div>
+                <span class='text-xs text-[#43334C]/60 uppercase font-bold tracking-wider block mb-1'>
+                  Campeón Actual
+                </span>
+                <span class='text-[#E83C91] font-bold font-heading text-xl'>{champion.name}</span>
+              </div>
             </div>
           </div>
-        </div>
-      )}
+        )
+      }
     </div>
   </section>
 
-  <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
+  <div class='grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12'>
     <!-- Main Content: Ranking Table -->
-    <div class="lg:col-span-2">
-      <div class="bg-white rounded-3xl overflow-hidden shadow-sm border border-border">
-        <div class="p-6 border-b border-border flex justify-between items-center">
-          <h3 class="font-heading font-bold text-[#43334C] text-2xl">Ranking Oficial Top 15</h3>
-          <span class="text-xs text-[#43334C]/50 font-bold uppercase tracking-wider">Actualizado</span>
+    <div class='lg:col-span-2'>
+      <div class='bg-white rounded-3xl overflow-hidden shadow-sm border border-border'>
+        <div class='p-6 border-b border-border flex justify-between items-center'>
+          <h3 class='font-heading font-bold text-[#43334C] text-2xl'>Ranking Oficial Top 15</h3>
+          <span class='text-xs text-[#43334C]/50 font-bold uppercase tracking-wider'
+            >Actualizado</span
+          >
         </div>
-        <div class="overflow-x-auto">
-          <table class="w-full text-left">
-            <thead class="bg-[#F8F4EC] text-[#43334C]/60 text-xs uppercase">
+        <div class='overflow-x-auto'>
+          <table class='w-full text-left'>
+            <thead class='bg-[#F8F4EC] text-[#43334C]/60 text-xs uppercase'>
               <tr>
-                <th class="p-4 w-16 font-bold">#</th>
-                <th class="p-4 font-bold">Peleador</th>
-                <th class="p-4 text-right font-bold">Récord</th>
-                <th class="p-4"></th>
+                <th class='p-4 w-16 font-bold'>#</th>
+                <th class='p-4 font-bold'>Peleador</th>
+                <th class='p-4 text-right font-bold'>Récord</th>
+                <th class='p-4'></th>
               </tr>
             </thead>
-            <tbody class="divide-y divide-border">
-              {ranking.map((fighter) => (
-                <tr class="hover:bg-[#F8F4EC]/50 transition-colors group">
-                  <td class="p-4 font-bold text-[#43334C]/60 group-hover:text-[#E83C91]">
-                    {fighter.rank === 'C' ? (
-                      <span class="bg-[#E83C91] text-black px-2 py-1 rounded font-bold text-xs">C</span>
-                    ) : (
-                      `#${fighter.rank}`
-                    )}
-                  </td>
-                  <td class="p-4 font-bold text-[#43334C] flex items-center gap-3">
-                    <img 
-                      src={getFighterImg(fighter.id)} 
-                      alt={fighter.name}
-                      class="w-12 h-12 rounded-full bg-[#F8F4EC] object-cover border border-border" 
-                      loading="lazy" 
-                      onerror="this.src='/images/fighter-placeholder.png'" 
-                    />
-                    <span class="group-hover:text-[#E83C91] transition-colors">{fighter.name}</span>
-                  </td>
-                  <td class="p-4 text-right text-[#43334C]/60 font-mono text-sm">
-                    {fighter.record || '--'}
-                  </td>
-                  <td class="p-4 text-right">
-                    <a 
-                      href={`/blog/perfiles-luchadores/${fighter.slug}`} 
-                      class="text-xs text-[#E83C91] font-bold uppercase hover:text-[#D63384] transition-colors flex items-center justify-end gap-1"
-                    >
-                      Ver Perfil →
-                    </a>
-                  </td>
-                </tr>
-              ))}
+            <tbody class='divide-y divide-border'>
+              {
+                ranking.map((fighter) => (
+                  <tr class='hover:bg-[#F8F4EC]/50 transition-colors group'>
+                    <td class='p-4 font-bold text-[#43334C]/60 group-hover:text-[#E83C91]'>
+                      {fighter.rank === 'C' ? (
+                        <span class='bg-[#E83C91] text-black px-2 py-1 rounded font-bold text-xs'>
+                          C
+                        </span>
+                      ) : (
+                        `#${fighter.rank}`
+                      )}
+                    </td>
+                    <td class='p-4 font-bold text-[#43334C] flex items-center gap-3'>
+                      <img
+                        src={getFighterImg(fighter.id)}
+                        alt={fighter.name}
+                        class='w-12 h-12 rounded-full bg-[#F8F4EC] object-cover border border-border'
+                        loading='lazy'
+                        onerror="this.src='/images/fighter-placeholder.png'"
+                      />
+                      <span class='group-hover:text-[#E83C91] transition-colors'>
+                        {fighter.name}
+                      </span>
+                    </td>
+                    <td class='p-4 text-right text-[#43334C]/60 font-mono text-sm'>
+                      {fighter.record || '--'}
+                    </td>
+                    <td class='p-4 text-right'>
+                      <a
+                        href={`/blog/perfiles-luchadores/${fighter.slug}`}
+                        class='text-xs text-[#E83C91] font-bold uppercase hover:text-[#D63384] transition-colors flex items-center justify-end gap-1'
+                      >
+                        Ver Perfil →
+                      </a>
+                    </td>
+                  </tr>
+                ))
+              }
             </tbody>
           </table>
         </div>
@@ -175,74 +210,83 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
     </div>
 
     <!-- Sidebar -->
-    <aside class="space-y-6">
+    <aside class='space-y-6'>
       <!-- Related News -->
-      {relatedNews.length > 0 && (
-        <div class="bg-white p-6 rounded-3xl border border-border shadow-sm">
-          <h3 class="font-heading text-xl mb-4 text-[#43334C] font-bold">Noticias de la División</h3>
-          <ul class="space-y-4">
-            {relatedNews.map((post) => (
-              <li class="group pb-4 border-b border-border last:border-0 last:pb-0">
-                <a href={`/blog/${post.id}/`} class="block">
-                  <h4 class="text-sm text-[#43334C] group-hover:text-[#E83C91] transition-colors font-medium leading-snug mb-2">
-                    {post.data.title}
-                  </h4>
-                  <span class="text-xs text-[#43334C]/50 font-bold uppercase tracking-wider">Leer más →</span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-      
+      {
+        relatedNews.length > 0 && (
+          <div class='bg-white p-6 rounded-3xl border border-border shadow-sm'>
+            <h3 class='font-heading text-xl mb-4 text-[#43334C] font-bold'>
+              Noticias de la División
+            </h3>
+            <ul class='space-y-4'>
+              {relatedNews.map((post) => (
+                <li class='group pb-4 border-b border-border last:border-0 last:pb-0'>
+                  <a href={`/blog/${post.id}/`} class='block'>
+                    <h4 class='text-sm text-[#43334C] group-hover:text-[#E83C91] transition-colors font-medium leading-snug mb-2'>
+                      {post.data.title}
+                    </h4>
+                    <span class='text-xs text-[#43334C]/50 font-bold uppercase tracking-wider'>
+                      Leer más →
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )
+      }
+
       <!-- Context -->
-      <div class="bg-gradient-to-br from-[#E83C91]/10 to-[#FF8FB7]/10 p-6 rounded-3xl border border-[#E83C91]/20">
-        <h3 class="font-heading text-[#E83C91] text-xl mb-3 font-bold">Datos de la División</h3>
-        <p class="text-sm text-[#43334C]/70 leading-relaxed mb-4">
+      <div
+        class='bg-gradient-to-br from-[#E83C91]/10 to-[#FF8FB7]/10 p-6 rounded-3xl border border-[#E83C91]/20'
+      >
+        <h3 class='font-heading text-[#E83C91] text-xl mb-3 font-bold'>Datos de la División</h3>
+        <p class='text-sm text-[#43334C]/70 leading-relaxed mb-4'>
           {divisionInfo.history}
         </p>
-        <div class="pt-4 border-t border-[#E83C91]/20">
-          <p class="text-xs text-[#43334C]/60 uppercase font-bold mb-1">Límite de Peso</p>
-          <p class="text-[#E83C91] font-mono font-bold text-lg">{divisionInfo.limit}</p>
+        <div class='pt-4 border-t border-[#E83C91]/20'>
+          <p class='text-xs text-[#43334C]/60 uppercase font-bold mb-1'>Límite de Peso</p>
+          <p class='text-[#E83C91] font-mono font-bold text-lg'>{divisionInfo.limit}</p>
         </div>
       </div>
     </aside>
   </div>
 
   <!-- Todos los Peleadores de la División -->
-  <section class="py-12 border-t border-border">
-    <div class="flex items-center gap-4 mb-8">
-      <div class="h-10 w-2 bg-[#E83C91] rounded-full"></div>
-      <h2 class="text-3xl font-heading font-bold text-[#43334C]">
-        Roster Completo
-      </h2>
+  <section class='py-12 border-t border-border'>
+    <div class='flex items-center gap-4 mb-8'>
+      <div class='h-10 w-2 bg-[#E83C91] rounded-full'></div>
+      <h2 class='text-3xl font-heading font-bold text-[#43334C]'>Roster Completo</h2>
     </div>
-    <p class="text-[#43334C]/60 mb-8 text-lg">
-      <strong class="text-[#E83C91]">{divisionFighters.length}</strong> peleadores activos en la división {divisionEs}
+    <p class='text-[#43334C]/60 mb-8 text-lg'>
+      <strong class='text-[#E83C91]'>{divisionFighters.length}</strong> peleadores activos en la división
+      {divisionEs}
     </p>
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-      {divisionFighters.map((fighter) => (
-        <a
-          href={`/blog/perfiles-luchadores/${fighter.slug}`}
-          class="group block bg-white rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 border border-border hover:border-[#E83C91]"
-        >
-          <div class="aspect-square relative overflow-hidden bg-[#F8F4EC]">
-            <img
-              src={getFighterImg(fighter.id)}
-              alt={fighter.name}
-              class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500"
-              loading="lazy"
-              onerror="this.src='/images/fighter-placeholder.png'"
-            />
-            <div class="absolute inset-0 bg-gradient-to-t from-[#43334C] via-transparent to-transparent opacity-40 group-hover:opacity-60 transition-opacity" />
-          </div>
-          <div class="p-3">
-            <h3 class="font-bold text-[#43334C] group-hover:text-[#E83C91] transition-colors line-clamp-1 text-sm">
-              {fighter.name}
-            </h3>
-          </div>
-        </a>
-      ))}
+    <div class='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4'>
+      {
+        divisionFighters.map((fighter) => (
+          <a
+            href={`/blog/perfiles-luchadores/${fighter.slug}`}
+            class='group block bg-white rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 border border-border hover:border-[#E83C91]'
+          >
+            <div class='aspect-square relative overflow-hidden bg-[#F8F4EC]'>
+              <img
+                src={getFighterImg(fighter.id)}
+                alt={fighter.name}
+                class='w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500'
+                loading='lazy'
+                onerror="this.src='/images/fighter-placeholder.png'"
+              />
+              <div class='absolute inset-0 bg-gradient-to-t from-[#43334C] via-transparent to-transparent opacity-40 group-hover:opacity-60 transition-opacity' />
+            </div>
+            <div class='p-3'>
+              <h3 class='font-bold text-[#43334C] group-hover:text-[#E83C91] transition-colors line-clamp-1 text-sm'>
+                {fighter.name}
+              </h3>
+            </div>
+          </a>
+        ))
+      }
     </div>
   </section>
 </PageLayout>

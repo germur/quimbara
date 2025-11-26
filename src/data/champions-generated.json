@@ -1,0 +1,295 @@
+{
+  "generatedAt": "2025-11-26T02:22:37.082Z",
+  "champions": {
+    "Heavyweight": {
+      "id": 701,
+      "name": "Tom Aspinall",
+      "nickname": "",
+      "photo": "https://media.api-sports.io/mma/fighters/701.png",
+      "weight": "251 lbs",
+      "height": "6' 5'",
+      "reach": "78'",
+      "birth_date": null,
+      "record": {
+        "total": 18,
+        "win": 15,
+        "loss": 3,
+        "draw": 0
+      }
+    },
+    "Light Heavyweight": {
+      "id": 2436,
+      "name": "Alex Pereira",
+      "nickname": "Poatan",
+      "photo": "https://media.api-sports.io/mma/fighters/2436.png",
+      "weight": "205 lbs",
+      "height": "6' 4'",
+      "reach": "79'",
+      "birth_date": null,
+      "record": {
+        "total": 15,
+        "win": 12,
+        "loss": 3,
+        "draw": 0
+      }
+    },
+    "Middleweight": {
+      "id": 856,
+      "name": "Dricus Du Plessis",
+      "nickname": "Stilknocks",
+      "photo": "https://media.api-sports.io/mma/fighters/856.png",
+      "weight": "185 lbs",
+      "height": "6' 1'",
+      "reach": "76'",
+      "birth_date": null,
+      "record": {
+        "total": 26,
+        "win": 23,
+        "loss": 3,
+        "draw": 0
+      }
+    },
+    "Welterweight": {
+      "id": 15,
+      "name": "Belal Muhammad",
+      "nickname": "Remember the Name",
+      "photo": "https://media.api-sports.io/mma/fighters/15.png",
+      "weight": "170 lbs",
+      "height": "5' 11'",
+      "reach": "72'",
+      "birth_date": null,
+      "record": {
+        "total": 28,
+        "win": 24,
+        "loss": 4,
+        "draw": 0
+      }
+    },
+    "Lightweight": {
+      "id": 333,
+      "name": "Islam Makhachev",
+      "nickname": "",
+      "photo": "https://media.api-sports.io/mma/fighters/333.png",
+      "weight": "170 lbs",
+      "height": "5' 10'",
+      "reach": "70.5'",
+      "birth_date": null,
+      "record": {
+        "total": 29,
+        "win": 28,
+        "loss": 1,
+        "draw": 0
+      }
+    },
+    "Featherweight": {
+      "id": 855,
+      "name": "Ilia Topuria",
+      "nickname": "El Matador",
+      "photo": "https://media.api-sports.io/mma/fighters/855.png",
+      "weight": "145 lbs",
+      "height": "5' 7'",
+      "reach": "69'",
+      "birth_date": null,
+      "record": {
+        "total": 16,
+        "win": 16,
+        "loss": 0,
+        "draw": 0
+      }
+    },
+    "Bantamweight": {
+      "id": 290,
+      "name": "Merab Dvalishvili",
+      "nickname": "The Machine",
+      "photo": "https://media.api-sports.io/mma/fighters/290.png",
+      "weight": "135 lbs",
+      "height": "5' 6'",
+      "reach": "68'",
+      "birth_date": null,
+      "record": {
+        "total": 25,
+        "win": 21,
+        "loss": 4,
+        "draw": 0
+      }
+    },
+    "Flyweight": {
+      "id": 250,
+      "name": "Alexandre Pantoja",
+      "nickname": "The Cannibal",
+      "photo": "https://media.api-sports.io/mma/fighters/250.png",
+      "weight": "125 lbs",
+      "height": "5' 5'",
+      "reach": "67.5'",
+      "birth_date": null,
+      "record": {
+        "total": 33,
+        "win": 28,
+        "loss": 5,
+        "draw": 0
+      }
+    }
+  },
+  "p4p": [
+    {
+      "id": 333,
+      "name": "Islam Makhachev",
+      "nickname": "",
+      "photo": "https://media.api-sports.io/mma/fighters/333.png",
+      "weight": "170 lbs",
+      "height": "5' 10'",
+      "reach": "70.5'",
+      "birth_date": null,
+      "record": {
+        "total": 29,
+        "win": 28,
+        "loss": 1,
+        "draw": 0
+      }
+    },
+    {
+      "id": 214,
+      "name": "Jon Jones",
+      "nickname": "Bones",
+      "photo": "https://media.api-sports.io/mma/fighters/214.png",
+      "weight": "238 lbs",
+      "height": "6' 4'",
+      "reach": "84.5'",
+      "birth_date": null,
+      "record": {
+        "total": 29,
+        "win": 28,
+        "loss": 1,
+        "draw": 0
+      }
+    },
+    {
+      "id": 2436,
+      "name": "Alex Pereira",
+      "nickname": "Poatan",
+      "photo": "https://media.api-sports.io/mma/fighters/2436.png",
+      "weight": "205 lbs",
+      "height": "6' 4'",
+      "reach": "79'",
+      "birth_date": null,
+      "record": {
+        "total": 15,
+        "win": 12,
+        "loss": 3,
+        "draw": 0
+      }
+    },
+    {
+      "id": 855,
+      "name": "Ilia Topuria",
+      "nickname": "El Matador",
+      "photo": "https://media.api-sports.io/mma/fighters/855.png",
+      "weight": "145 lbs",
+      "height": "5' 7'",
+      "reach": "69'",
+      "birth_date": null,
+      "record": {
+        "total": 16,
+        "win": 16,
+        "loss": 0,
+        "draw": 0
+      }
+    },
+    {
+      "id": 290,
+      "name": "Merab Dvalishvili",
+      "nickname": "The Machine",
+      "photo": "https://media.api-sports.io/mma/fighters/290.png",
+      "weight": "135 lbs",
+      "height": "5' 6'",
+      "reach": "68'",
+      "birth_date": null,
+      "record": {
+        "total": 25,
+        "win": 21,
+        "loss": 4,
+        "draw": 0
+      }
+    },
+    {
+      "id": 856,
+      "name": "Dricus Du Plessis",
+      "nickname": "Stilknocks",
+      "photo": "https://media.api-sports.io/mma/fighters/856.png",
+      "weight": "185 lbs",
+      "height": "6' 1'",
+      "reach": "76'",
+      "birth_date": null,
+      "record": {
+        "total": 26,
+        "win": 23,
+        "loss": 3,
+        "draw": 0
+      }
+    },
+    {
+      "id": 250,
+      "name": "Alexandre Pantoja",
+      "nickname": "The Cannibal",
+      "photo": "https://media.api-sports.io/mma/fighters/250.png",
+      "weight": "125 lbs",
+      "height": "5' 5'",
+      "reach": "67.5'",
+      "birth_date": null,
+      "record": {
+        "total": 33,
+        "win": 28,
+        "loss": 5,
+        "draw": 0
+      }
+    },
+    {
+      "id": 15,
+      "name": "Belal Muhammad",
+      "nickname": "Remember the Name",
+      "photo": "https://media.api-sports.io/mma/fighters/15.png",
+      "weight": "170 lbs",
+      "height": "5' 11'",
+      "reach": "72'",
+      "birth_date": null,
+      "record": {
+        "total": 28,
+        "win": 24,
+        "loss": 4,
+        "draw": 0
+      }
+    },
+    {
+      "id": 19,
+      "name": "Alonzo Menifield",
+      "nickname": "Atomic",
+      "photo": "https://media.api-sports.io/mma/fighters/19.png",
+      "weight": "206 lbs",
+      "height": "6' 0'",
+      "reach": "76'",
+      "birth_date": null,
+      "record": {
+        "total": 24,
+        "win": 17,
+        "loss": 6,
+        "draw": 1
+      }
+    },
+    {
+      "id": 17,
+      "name": "Alexander Hernandez",
+      "nickname": "The Great Ape",
+      "photo": "https://media.api-sports.io/mma/fighters/17.png",
+      "weight": "155 lbs",
+      "height": "5' 9'",
+      "reach": "72'",
+      "birth_date": null,
+      "record": {
+        "total": 26,
+        "win": 18,
+        "loss": 8,
+        "draw": 0
+      }
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 ---
+import championsData from '@/data/champions-generated.json'
 import fightersData from '@/data/fighters.json'
 import { weightClasses } from '@/data/weightClasses'
 
@@ -7,23 +8,11 @@ import Breadcrumbs from '@/components/Breadcrumbs.astro'
 
 export const prerender = true
 
-// IDs CORRECTOS de los campeones actuales (Nov 2025) - VERIFICADOS en fighters.json
-const CURRENT_CHAMPIONS: Record<string, number> = {
-  Heavyweight: 701, // Tom Aspinall
-  'Light Heavyweight': 2436, // Alex Pereira
-  Middleweight: 856, // Dricus Du Plessis
-  Welterweight: 15, // Belal Muhammad
-  Lightweight: 333, // Islam Makhachev
-  Featherweight: 855, // Ilia Topuria
-  Bantamweight: 290, // Merab Dvalishvili
-  Flyweight: 250 // Alexandre Pantoja
-}
-
-// Campeones actuales de cada división
+// Campeones actuales de cada división (Dinámico desde API)
 const champions = weightClasses
   .map((wc) => {
-    const championId = CURRENT_CHAMPIONS[wc.nameEn]
-    const champion = fightersData.find((f) => f.id === championId)
+    // @ts-ignore
+    const champion = championsData.champions[wc.nameEn]
     return {
       division: wc,
       champion: champion || null
@@ -33,7 +22,12 @@ const champions = weightClasses
 
 // Top peleadores destacados (solo campeones)
 const featuredFighters = champions
-  .map((c) => c.champion)
+  .map((c) => ({
+    ...c.champion,
+    division: c.division.nameEs,
+    slug: c.champion.name.toLowerCase().replace(/ /g, '-'),
+    rank: 'C'
+  }))
   .filter(Boolean)
   .slice(0, 20)
 

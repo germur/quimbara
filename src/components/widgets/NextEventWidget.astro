@@ -1,5 +1,5 @@
 ---
-import events from '@/data/events.json'
+import events from '@/data/events-generated.json'
 
 // Find next event
 const today = new Date()
@@ -7,7 +7,18 @@ const nextEvent = events.find((e) => new Date(e.date) > today) || events[0]
 
 if (!nextEvent) return null
 
-const mainFight = nextEvent.fights[0]
+// Find main fight (match names from event title)
+const mainFight =
+  nextEvent.fights.find((f) => {
+    const eventTitle = nextEvent.name.toLowerCase()
+    const fighterALastName = f.fighterA.name.split(' ').pop()?.toLowerCase() || ''
+    const fighterBLastName = f.fighterB.name.split(' ').pop()?.toLowerCase() || ''
+
+    return (
+      (fighterALastName && eventTitle.includes(fighterALastName)) ||
+      (fighterBLastName && eventTitle.includes(fighterBLastName))
+    )
+  }) || nextEvent.fights[0]
 const dateObj = new Date(nextEvent.date)
 const day = dateObj.getDate()
 const month = dateObj.toLocaleDateString('es-ES', { month: 'short' }).toUpperCase()

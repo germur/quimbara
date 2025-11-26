@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ufc-323-dvalishvili-vs-yan-2",
+    "name": "UFC 323: Dvalishvili vs. Yan 2",
+    "date": "2025-12-06T15:00:00+00:00",
+    "location": "TBD",
+    "isNumbered": true,
+    "fights": [
+      {
+        "weightClass": "Middleweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 2535,
+          "name": "Brunno Ferreira",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 503,
+          "name": "Marvin Vettori",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Middleweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 483,
+          "name": "Antonio Trocoli",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 2717,
+          "name": "Mansur Abdul-Malik",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Light Heavyweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 2673,
+          "name": "Ibo Aslan",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 2827,
+          "name": "Iwo Baraniewski",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Lightweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 56,
+          "name": "Jalin Turner",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 193,
+          "name": "Edson Barboza",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Flyweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 2516,
+          "name": "Tatsuro Taira",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 604,
+          "name": "Brandon Moreno",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Featherweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 2718,
+          "name": "Mairon Santos",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 833,
+          "name": "Muhammad Naimov",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Lightweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 591,
+          "name": "FarÃ©s Ziam",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 2586,
+          "name": "Nazim Sadykhov",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Women's Flyweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 2500,
+          "name": "Karine Silva",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 187,
+          "name": "Maycee Barber",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Lightweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 2379,
+          "name": "Chris Duncan",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 519,
+          "name": "Terrance McKinney",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Lightweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 2503,
+          "name": "Manuel Torres",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 215,
+          "name": "Grant Dawson",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Flyweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 2571,
+          "name": "Joshua Van",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 250,
+          "name": "Alexandre Pantoja",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Bantamweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 118,
+          "name": "Petr Yan",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 290,
+          "name": "Merab Dvalishvili",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Light Heavyweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 2614,
+          "name": "Bogdan Guskov",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 109,
+          "name": "Jan Blachowicz",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Bantamweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 2618,
+          "name": "Payton Talbott",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 21,
+          "name": "Henry Cejudo",
+          "rank": "NR"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ufc-fight-night-royval-vs-kape",
+    "name": "UFC Fight Night: Royval vs. Kape",
+    "date": "2025-12-13T16:00:00+00:00",
+    "location": "TBD",
+    "isNumbered": false,
+    "fights": [
+      {
+        "weightClass": "Women's Flyweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 2517,
+          "name": "Tereza Bleda",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 2564,
+          "name": "Jamey-Lyn Horth",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Featherweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 2585,
+          "name": "Morgan CharriÃ¨re",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 2583,
+          "name": "Melquizael Costa",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Middleweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 2833,
+          "name": "Cezary Oleksiejczuk",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 2631,
+          "name": "Cesar Almeida",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Women's Strawweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 203,
+          "name": "Gillian Robertson",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 688,
+          "name": "Amanda Lemos",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Flyweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 892,
+          "name": "Manel Kape",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 716,
+          "name": "Brandon Royval",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Women's Bantamweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 2578,
+          "name": "Luana Santos",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 2819,
+          "name": "Melissa Croden",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Featherweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 2773,
+          "name": "Kevin Vallejos",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 649,
+          "name": "Giga Chikadze",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Heavyweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 2799,
+          "name": "Marcus Buchecha",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 189,
+          "name": "Kennedy Nzechukwu",
+          "rank": "NR"
+        }
+      },
+      {
+        "weightClass": "Featherweight",
+        "isTitle": false,
+        "fighterA": {
+          "id": 813,
+          "name": "Melsik Baghdasaryan",
+          "rank": "C"
+        },
+        "fighterB": {
+          "id": 2384,
+          "name": "Joanderson Brito",
+          "rank": "NR"
+        }
+      }
+    ]
+  }
+]
