@@ -17,19 +17,19 @@ const divisions = [...new Set(fighters.map((f) => f.division))].sort();
 ---
 
 <div class="container mx-auto px-4 py-8">
-  <h1 class="text-4xl font-bold text-[#E83C91] mb-8 text-center">Directorio de Luchadores UFC</h1>
+  <h1 class="text-4xl font-bold text-quimbara-magenta mb-8 text-center">Directorio de Luchadores UFC</h1>
 
   <!-- Division Filters -->
   <div class="flex flex-wrap justify-center gap-4 mb-12">
     <button 
-      class="px-4 py-2 rounded-full bg-[#43334C] text-[#43334C] hover:bg-quimbara-primary hover:text-[#E83C91] transition-colors active-filter"
+      class="px-4 py-2 rounded-full bg-quimbara-purple text-quimbara-purple hover:bg-quimbara-primary hover:text-quimbara-magenta transition-colors active-filter"
       data-filter="all"
     >
       Todos
     </button>
     {divisions.map((division) => (
       <button 
-        class="px-4 py-2 rounded-full bg-[#43334C] text-[#43334C] hover:bg-quimbara-primary hover:text-[#E83C91] transition-colors"
+        class="px-4 py-2 rounded-full bg-quimbara-purple text-quimbara-purple hover:bg-quimbara-primary hover:text-quimbara-magenta transition-colors"
         data-filter={division}
       >
         {division}
@@ -42,10 +42,10 @@ const divisions = [...new Set(fighters.map((f) => f.division))].sort();
     {fighters.map((fighter) => (
       <a 
         href={`/blog/perfiles-luchadores/${fighter.slug}`}
-        class="group relative block bg-[#43334C] rounded-xl overflow-hidden hover:ring-2 hover:ring-quimbara-primary transition-all duration-300 fighter-card"
+        class="group relative block bg-quimbara-purple rounded-xl overflow-hidden hover:ring-2 hover:ring-quimbara-primary transition-all duration-300 fighter-card"
         data-division={fighter.division}
       >
-        <div class="aspect-[3/4] overflow-hidden bg-[#43334C] relative">
+        <div class="aspect-[3/4] overflow-hidden bg-quimbara-purple relative">
            <img 
             src={`https://media.api-sports.io/mma/fighters/${fighter.id}.png`}
             alt={fighter.name}
@@ -59,10 +59,10 @@ const divisions = [...new Set(fighters.map((f) => f.division))].sort();
             <span class="text-xs font-bold text-quimbara-secondary uppercase tracking-wider mb-1 block">
               {fighter.division}
             </span>
-            <h3 class="text-lg font-bold text-[#E83C91] leading-tight group-hover:text-quimbara-primary transition-colors">
+            <h3 class="text-lg font-bold text-quimbara-magenta leading-tight group-hover:text-quimbara-primary transition-colors">
               {fighter.name}
             </h3>
-            <p class="text-sm text-[#43334C] mt-1 line-clamp-1">
+            <p class="text-sm text-quimbara-purple mt-1 line-clamp-1">
               {fighter.description ? fighter.description.replace(/\"/g, '') : ''}
             </p>
           </div>
@@ -81,12 +81,12 @@ const divisions = [...new Set(fighters.map((f) => f.division))].sort();
     btn.addEventListener('click', () => {
       // Update active state
       buttons.forEach(b => {
-        b.classList.remove('bg-quimbara-primary', 'text-[#E83C91]');
-        b.classList.add('bg-[#43334C]', 'text-[#43334C]');
+        b.classList.remove('bg-quimbara-primary', 'text-quimbara-magenta');
+        b.classList.add('bg-quimbara-purple', 'text-quimbara-purple');
       });
       
-      btn.classList.remove('bg-[#43334C]', 'text-[#43334C]');
-      btn.classList.add('bg-quimbara-primary', 'text-[#E83C91]');
+      btn.classList.remove('bg-quimbara-purple', 'text-quimbara-purple');
+      btn.classList.add('bg-quimbara-primary', 'text-quimbara-magenta');
 
       const filter = btn.getAttribute('data-filter');
 
@@ -103,7 +103,7 @@ const divisions = [...new Set(fighters.map((f) => f.division))].sort();
   // Set initial active state
   const allBtn = document.querySelector<HTMLButtonElement>('[data-filter="all"]');
   if (allBtn) {
-    allBtn.classList.remove('bg-[#43334C]', 'text-[#43334C]');
-    allBtn.classList.add('bg-quimbara-primary', 'text-[#E83C91]');
+    allBtn.classList.remove('bg-quimbara-purple', 'text-quimbara-purple');
+    allBtn.classList.add('bg-quimbara-primary', 'text-quimbara-magenta');
   }
 </script>

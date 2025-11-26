@@ -91,84 +91,84 @@ const allEvents = [...historicalEvents, ...recentEvents].sort((a, b) => parseInt
 
 <div class="fighter-profile bg-white rounded-xl shadow-lg overflow-hidden my-8">
     {fighter ? (
-        <div class="profile-header bg-[#43334C] text-[#E83C91] p-8 flex flex-col md:flex-row items-center gap-8">
-            <div class="w-48 h-48 rounded-full overflow-hidden border-4 border-[#43334C] shadow-xl shrink-0 bg-[#43334C]">
+        <div class="profile-header bg-quimbara-purple text-quimbara-magenta p-8 flex flex-col md:flex-row items-center gap-8">
+            <div class="w-48 h-48 rounded-full overflow-hidden border-4 border-quimbara-purple shadow-xl shrink-0 bg-quimbara-purple">
                 <img src={fighter.photo} alt={fighter.name} class="w-full h-full object-cover" />
             </div>
             <div class="text-center md:text-left">
                 <h2 class="text-4xl font-bold mb-2">{fighter.name}</h2>
-                <p class="text-xl text-[#43334C] font-semibold mb-4">"{fighter.nickname}"</p>
+                <p class="text-xl text-quimbara-purple font-semibold mb-4">"{fighter.nickname}"</p>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
-                    <div class="bg-[#43334C] p-3 rounded-lg">
-                        <span class="block text-[#43334C] text-xs uppercase">Altura</span>
+                    <div class="bg-quimbara-purple p-3 rounded-lg">
+                        <span class="block text-quimbara-purple text-xs uppercase">Altura</span>
                         <span class="font-bold">{fighter.height}</span>
                     </div>
-                    <div class="bg-[#43334C] p-3 rounded-lg">
-                        <span class="block text-[#43334C] text-xs uppercase">Peso</span>
+                    <div class="bg-quimbara-purple p-3 rounded-lg">
+                        <span class="block text-quimbara-purple text-xs uppercase">Peso</span>
                         <span class="font-bold">{fighter.weight}</span>
                     </div>
-                    <div class="bg-[#43334C] p-3 rounded-lg">
-                        <span class="block text-[#43334C] text-xs uppercase">Alcance</span>
+                    <div class="bg-quimbara-purple p-3 rounded-lg">
+                        <span class="block text-quimbara-purple text-xs uppercase">Alcance</span>
                         <span class="font-bold">{fighter.reach}</span>
                     </div>
-                    <div class="bg-[#43334C] p-3 rounded-lg">
-                        <span class="block text-[#43334C] text-xs uppercase">Guardia</span>
+                    <div class="bg-quimbara-purple p-3 rounded-lg">
+                        <span class="block text-quimbara-purple text-xs uppercase">Guardia</span>
                         <span class="font-bold">{fighter.stance}</span>
                     </div>
                 </div>
             </div>
         </div>
     ) : (
-        <div class="p-8 text-center text-[#E83C91]">No se pudo cargar el perfil del luchador.</div>
+        <div class="p-8 text-center text-quimbara-magenta">No se pudo cargar el perfil del luchador.</div>
     )}
 
     {/* Detailed Fight Record Section */}
     {records && (
-        <div class="record-stats bg-gradient-to-r from-slate-800 to-slate-900 text-[#E83C91] p-8">
+        <div class="record-stats bg-gradient-to-r from-slate-800 to-slate-900 text-quimbara-magenta p-8">
             <h3 class="text-2xl font-bold mb-6 text-center">Récord Profesional</h3>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
                 {/* Total Record */}
-                <div class="bg-[#43334C]/5/50 p-6 rounded-lg text-center border-2 border-green-500">
+                <div class="bg-quimbara-purple/5/50 p-6 rounded-lg text-center border-2 border-green-500">
                     <div class="text-5xl font-black mb-2 text-green-400">
                         {records.total.win}-{records.total.loss}
                     </div>
-                    <div class="text-sm text-[#43334C] uppercase tracking-wider">Récord Total</div>
+                    <div class="text-sm text-quimbara-purple uppercase tracking-wider">Récord Total</div>
                 </div>
 
                 {/* Wins Breakdown */}
-                <div class="bg-[#43334C]/5/50 p-6 rounded-lg">
+                <div class="bg-quimbara-purple/5/50 p-6 rounded-lg">
                     <div class="text-xl font-bold mb-4 text-green-400 text-center">Victorias ({records.total.win})</div>
                     <div class="space-y-2 text-sm">
                         <div class="flex justify-between">
-                            <span class="text-[#43334C]">Por KO/TKO:</span>
-                            <span class="font-bold text-[#E83C91]">{records.ko.win}</span>
+                            <span class="text-quimbara-purple">Por KO/TKO:</span>
+                            <span class="font-bold text-quimbara-magenta">{records.ko.win}</span>
                         </div>
                         <div class="flex justify-between">
-                            <span class="text-[#43334C]">Por Decisión:</span>
-                            <span class="font-bold text-[#E83C91]">{records.dec?.win || 0}</span>
+                            <span class="text-quimbara-purple">Por Decisión:</span>
+                            <span class="font-bold text-quimbara-magenta">{records.dec?.win || 0}</span>
                         </div>
                         <div class="flex justify-between">
-                            <span class="text-[#43334C]">Por Sumisión:</span>
-                            <span class="font-bold text-[#E83C91]">{records.sub.win}</span>
+                            <span class="text-quimbara-purple">Por Sumisión:</span>
+                            <span class="font-bold text-quimbara-magenta">{records.sub.win}</span>
                         </div>
                     </div>
                 </div>
 
                 {/* Losses Breakdown */}
-                <div class="bg-[#43334C]/5/50 p-6 rounded-lg">
-                    <div class="text-xl font-bold mb-4 text-[#E83C91] text-center">Derrotas ({records.total.loss})</div>
+                <div class="bg-quimbara-purple/5/50 p-6 rounded-lg">
+                    <div class="text-xl font-bold mb-4 text-quimbara-magenta text-center">Derrotas ({records.total.loss})</div>
                     <div class="space-y-2 text-sm">
                         <div class="flex justify-between">
-                            <span class="text-[#43334C]">Por KO/TKO:</span>
-                            <span class="font-bold text-[#E83C91]">{records.ko.loss}</span>
+                            <span class="text-quimbara-purple">Por KO/TKO:</span>
+                            <span class="font-bold text-quimbara-magenta">{records.ko.loss}</span>
                         </div>
                         <div class="flex justify-between">
-                            <span class="text-[#43334C]">Por Decisión:</span>
-                            <span class="font-bold text-[#E83C91]">{records.dec?.loss || 0}</span>
+                            <span class="text-quimbara-purple">Por Decisión:</span>
+                            <span class="font-bold text-quimbara-magenta">{records.dec?.loss || 0}</span>
                         </div>
                         <div class="flex justify-between">
-                            <span class="text-[#43334C]">Por Sumisión:</span>
-                            <span class="font-bold text-[#E83C91]">{records.sub.loss}</span>
+                            <span class="text-quimbara-purple">Por Sumisión:</span>
+                            <span class="font-bold text-quimbara-magenta">{records.sub.loss}</span>
                         </div>
                     </div>
                 </div>
@@ -177,21 +177,21 @@ const allEvents = [...historicalEvents, ...recentEvents].sort((a, b) => parseInt
     )}
 
 
-    <div class="timeline-container p-8 bg-[#F8F4EC]">
-        <h3 class="text-2xl font-bold mb-8 text-center text-[#43334C]">Línea de Tiempo Profesional</h3>
-        <div class="relative border-l-4 border-[#43334C] ml-4 md:ml-auto md:mr-auto md:w-2/3 space-y-8">
+    <div class="timeline-container p-8 bg-quimbara-cream">
+        <h3 class="text-2xl font-bold mb-8 text-center text-quimbara-purple">Línea de Tiempo Profesional</h3>
+        <div class="relative border-l-4 border-quimbara-purple ml-4 md:ml-auto md:mr-auto md:w-2/3 space-y-8">
             {allEvents.map((event) => (
                 <div class="mb-8 ml-6 relative">
                     <div class={`absolute -left-10 w-6 h-6 rounded-full border-4 border-white shadow-sm ${
-                        event.type === 'championship' ? 'bg-[#E83C91]' :
-                        event.type === 'suspension' ? 'bg-[#E83C91]' :
+                        event.type === 'championship' ? 'bg-quimbara-magenta' :
+                        event.type === 'suspension' ? 'bg-quimbara-magenta' :
                         event.type === 'return' ? 'bg-green-500' :
-                        'bg-[#43334C]/10'
+                        'bg-quimbara-purple/10'
                     }`}></div>
-                    <div class="bg-white p-6 rounded-lg shadow-sm border border-[#43334C]/20 hover:shadow-md transition-shadow">
-                        <span class="text-sm font-bold text-[#43334C] mb-1 block">{event.year}</span>
-                        <h4 class="text-lg font-bold text-[#43334C] 900 mb-2">{event.title}</h4>
-                        <p class="text-[#43334C] 600">{event.description}</p>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-quimbara-purple/20 hover:shadow-md transition-shadow">
+                        <span class="text-sm font-bold text-quimbara-purple mb-1 block">{event.year}</span>
+                        <h4 class="text-lg font-bold text-quimbara-purple 900 mb-2">{event.title}</h4>
+                        <p class="text-quimbara-purple 600">{event.description}</p>
                     </div>
                 </div>
             ))}

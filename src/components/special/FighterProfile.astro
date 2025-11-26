@@ -180,13 +180,13 @@ const athleteSchema = fighter
   !fighter ? (
     <div class='min-h-screen flex items-center justify-center'>
       <div class='text-center'>
-        <h1 class='text-4xl font-bold text-[#43334C] mb-4'>Peleador no encontrado</h1>
-        <p class='text-[#43334C]/70'>
+        <h1 class='text-4xl font-bold text-quimbara-purple mb-4'>Peleador no encontrado</h1>
+        <p class='text-quimbara-purple/70'>
           Los datos de este peleador no están disponibles en este momento.
         </p>
         <a
           href='/fighters'
-          class='mt-6 inline-block px-6 py-3 bg-[#E83C91] text-white rounded-xl hover:bg-[#D63384] transition-colors'
+          class='mt-6 inline-block px-6 py-3 bg-quimbara-magenta text-white rounded-xl hover:bg-[#D63384] transition-colors'
         >
           Ver todos los peleadores
         </a>
@@ -197,17 +197,17 @@ const athleteSchema = fighter
       {/* 1. HERO SECTION - LIGHT/CLEAN THEME */}
       <section class='relative rounded-3xl overflow-hidden border border-border shadow-lg bg-white'>
         {/* Background Gradient */}
-        <div class='absolute inset-0 bg-gradient-to-br from-[#F8F4EC] via-white to-[#FF8FB7]/10 z-0' />
+        <div class='absolute inset-0 bg-gradient-to-br from-quimbara-cream via-white to-quimbara-pink/10 z-0' />
 
         <div class='relative z-10 p-8 md:p-12 lg:p-16'>
           <div class='grid grid-cols-1 lg:grid-cols-[auto_1fr] gap-8 lg:gap-12 items-center max-w-7xl mx-auto'>
             {/* Fighter Image */}
             <div class='relative shrink-0 mx-auto lg:mx-0'>
-              <div class='w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-[#E83C91] shadow-2xl shadow-[#E83C91]/20 bg-white relative z-10'>
+              <div class='w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-quimbara-magenta shadow-2xl shadow-[#E83C91]/20 bg-white relative z-10'>
                 <img src={fighter.photo} alt={fighter.name} class='w-full h-full object-cover' />
               </div>
               {/* Rank Badge */}
-              <div class='absolute -bottom-4 -right-4 bg-[#E83C91] text-white font-black text-2xl w-16 h-16 flex items-center justify-center rounded-full border-4 border-white shadow-lg z-20'>
+              <div class='absolute -bottom-4 -right-4 bg-quimbara-magenta text-white font-black text-2xl w-16 h-16 flex items-center justify-center rounded-full border-4 border-white shadow-lg z-20'>
                 C
               </div>
             </div>
@@ -215,53 +215,53 @@ const athleteSchema = fighter
             {/* Info - Left aligned for better readability */}
             <div class='flex-1 space-y-6 text-center lg:text-left min-w-0'>
               <div>
-                <h1 class='text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-heading font-bold text-[#43334C] leading-none mb-3 uppercase tracking-tight break-words'>
+                <h1 class='text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-heading font-bold text-quimbara-purple leading-none mb-3 uppercase tracking-tight break-words'>
                   {fighter.name}
                 </h1>
                 {fighter.nickname && (
-                  <p class='text-2xl sm:text-3xl md:text-4xl text-[#E83C91] font-heading font-bold italic tracking-wide break-words'>
+                  <p class='text-2xl sm:text-3xl md:text-4xl text-quimbara-magenta font-heading font-bold italic tracking-wide break-words'>
                     "{fighter.nickname}"
                   </p>
                 )}
               </div>
 
-              <div class='flex flex-wrap justify-center lg:justify-start gap-4 md:gap-6 text-[#43334C]/70 font-medium text-base md:text-lg'>
+              <div class='flex flex-wrap justify-center lg:justify-start gap-4 md:gap-6 text-quimbara-purple/70 font-medium text-base md:text-lg'>
                 <span class='flex items-center gap-2 whitespace-nowrap'>
-                  <span class='text-[#E83C91] text-2xl'>🏆</span>{' '}
+                  <span class='text-quimbara-magenta text-2xl'>🏆</span>{' '}
                   {fighter.division || 'UFC Fighter'}
                 </span>
                 <span class='flex items-center gap-2 whitespace-nowrap'>
-                  <span class='text-[#E83C91] text-2xl'>🌍</span> {fighter.birth?.country || 'N/A'}
+                  <span class='text-quimbara-magenta text-2xl'>🌍</span> {fighter.birth?.country || 'N/A'}
                 </span>
                 <span class='flex items-center gap-2 whitespace-nowrap'>
-                  <span class='text-[#E83C91] text-2xl'>🥋</span>{' '}
+                  <span class='text-quimbara-magenta text-2xl'>🥋</span>{' '}
                   <span class='truncate max-w-[200px]'>{fighter.team?.name || 'Independent'}</span>
                 </span>
               </div>
 
               {/* Record (Big Stats) */}
-              <div class='bg-[#F8F4EC] rounded-2xl p-4 md:p-6 inline-block w-full lg:w-auto'>
-                <div class='text-[#43334C]/60 text-xs md:text-sm font-bold uppercase tracking-widest mb-2'>
+              <div class='bg-quimbara-cream rounded-2xl p-4 md:p-6 inline-block w-full lg:w-auto'>
+                <div class='text-quimbara-purple/60 text-xs md:text-sm font-bold uppercase tracking-widest mb-2'>
                   Récord Profesional
                 </div>
-                <div class='text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-heading font-bold text-[#E83C91] leading-none'>
+                <div class='text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-heading font-bold text-quimbara-magenta leading-none'>
                   {records && records.total ? records.total.win : 0}
-                  <span class='text-[#43334C]/40'>-</span>
+                  <span class='text-quimbara-purple/40'>-</span>
                   {records && records.total ? records.total.loss : 0}
-                  <span class='text-[#43334C]/40 text-3xl sm:text-4xl md:text-5xl'>
+                  <span class='text-quimbara-purple/40 text-3xl sm:text-4xl md:text-5xl'>
                     -{records && records.total ? records.total.draw : 0}
                   </span>
                 </div>
               </div>
-              <div class='flex justify-center gap-6 mt-4 text-base font-mono text-[#43334C]/70'>
+              <div class='flex justify-center gap-6 mt-4 text-base font-mono text-quimbara-purple/70'>
                 <span>
-                  <span class='text-[#E83C91] font-bold'>
+                  <span class='text-quimbara-magenta font-bold'>
                     {records && records.ko ? records.ko.win : 0}
                   </span>{' '}
                   KO
                 </span>
                 <span>
-                  <span class='text-[#E83C91] font-bold'>
+                  <span class='text-quimbara-magenta font-bold'>
                     {records && records.sub ? records.sub.win : 0}
                   </span>{' '}
                   SUB
@@ -274,8 +274,8 @@ const athleteSchema = fighter
 
       {/* 2. QUICK ANSWER BOX (SEO) */}
       <section class='bg-white border border-border p-8 rounded-3xl border-l-4 border-l-[#E83C91] shadow-sm'>
-        <h2 class='text-2xl font-bold text-[#43334C] mb-6 flex items-center gap-3'>
-          <svg class='w-6 h-6 text-[#E83C91]' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+        <h2 class='text-2xl font-bold text-quimbara-purple mb-6 flex items-center gap-3'>
+          <svg class='w-6 h-6 text-quimbara-magenta' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
             <path
               stroke-linecap='round'
               stroke-linejoin='round'
@@ -288,31 +288,31 @@ const athleteSchema = fighter
         <div class='grid grid-cols-2 md:grid-cols-4 gap-8'>
           {fighter.birth?.date && (
             <div>
-              <span class='block text-[#43334C]/60 text-sm uppercase font-bold mb-2 tracking-wider'>
+              <span class='block text-quimbara-purple/60 text-sm uppercase font-bold mb-2 tracking-wider'>
                 Edad
               </span>
-              <span class='text-2xl font-bold text-[#E83C91]'>
+              <span class='text-2xl font-bold text-quimbara-magenta'>
                 {calculateAge(fighter.birth?.date || '')} años
               </span>
             </div>
           )}
           <div>
-            <span class='block text-[#43334C]/60 text-sm uppercase font-bold mb-2 tracking-wider'>
+            <span class='block text-quimbara-purple/60 text-sm uppercase font-bold mb-2 tracking-wider'>
               Altura
             </span>
-            <span class='text-2xl font-bold text-[#E83C91]'>{fighter.height}</span>
+            <span class='text-2xl font-bold text-quimbara-magenta'>{fighter.height}</span>
           </div>
           <div>
-            <span class='block text-[#43334C]/60 text-sm uppercase font-bold mb-2 tracking-wider'>
+            <span class='block text-quimbara-purple/60 text-sm uppercase font-bold mb-2 tracking-wider'>
               Alcance
             </span>
-            <span class='text-2xl font-bold text-[#E83C91]'>{fighter.reach}</span>
+            <span class='text-2xl font-bold text-quimbara-magenta'>{fighter.reach}</span>
           </div>
           <div>
-            <span class='block text-[#43334C]/60 text-sm uppercase font-bold mb-2 tracking-wider'>
+            <span class='block text-quimbara-purple/60 text-sm uppercase font-bold mb-2 tracking-wider'>
               Estilo
             </span>
-            <span class='text-2xl font-bold text-[#E83C91]'>{fighter.stance}</span>
+            <span class='text-2xl font-bold text-quimbara-magenta'>{fighter.stance}</span>
           </div>
         </div>
       </section>
@@ -322,63 +322,63 @@ const athleteSchema = fighter
         {/* Left Col: Detailed Stats */}
         <div class='lg:col-span-1 space-y-8'>
           <div class='glass-panel p-6 rounded-xl'>
-            <h3 class='text-xl font-heading font-bold text-[#E83C91] mb-6 border-b border-white/10 pb-2'>
+            <h3 class='text-xl font-heading font-bold text-quimbara-magenta mb-6 border-b border-white/10 pb-2'>
               Desglose de Victorias
             </h3>
             <div class='space-y-4'>
               <div class='flex items-center justify-between'>
-                <span class='text-[#43334C] 400'>KO/TKO</span>
+                <span class='text-quimbara-purple 400'>KO/TKO</span>
                 <div class='flex items-center gap-3'>
-                  <div class='w-32 h-2 bg-[#43334C]/5 rounded-full overflow-hidden'>
+                  <div class='w-32 h-2 bg-quimbara-purple/5 rounded-full overflow-hidden'>
                     <div
                       class='h-full bg-[#FF6D00]'
                       style={`width: ${((records?.ko.win || 0) / (records?.total.win || 1)) * 100}%`}
                     />
                   </div>
-                  <span class='font-bold text-[#E83C91] w-6 text-right'>{records?.ko.win}</span>
+                  <span class='font-bold text-quimbara-magenta w-6 text-right'>{records?.ko.win}</span>
                 </div>
               </div>
               <div class='flex items-center justify-between'>
-                <span class='text-[#43334C] 400'>Sumisión</span>
+                <span class='text-quimbara-purple 400'>Sumisión</span>
                 <div class='flex items-center gap-3'>
-                  <div class='w-32 h-2 bg-[#43334C]/5 rounded-full overflow-hidden'>
+                  <div class='w-32 h-2 bg-quimbara-purple/5 rounded-full overflow-hidden'>
                     <div
-                      class='h-full bg-[#43334C]/10'
+                      class='h-full bg-quimbara-purple/10'
                       style={`width: ${((records?.sub.win || 0) / (records?.total.win || 1)) * 100}%`}
                     />
                   </div>
-                  <span class='font-bold text-[#E83C91] w-6 text-right'>{records?.sub.win}</span>
+                  <span class='font-bold text-quimbara-magenta w-6 text-right'>{records?.sub.win}</span>
                 </div>
               </div>
               <div class='flex items-center justify-between'>
-                <span class='text-[#43334C] 400'>Decisión</span>
+                <span class='text-quimbara-purple 400'>Decisión</span>
                 <div class='flex items-center gap-3'>
-                  <div class='w-32 h-2 bg-[#43334C]/5 rounded-full overflow-hidden'>
+                  <div class='w-32 h-2 bg-quimbara-purple/5 rounded-full overflow-hidden'>
                     <div
                       class='h-full bg-green-500'
                       style={`width: ${((records?.dec?.win || 0) / (records?.total.win || 1)) * 100}%`}
                     />
                   </div>
-                  <span class='font-bold text-[#E83C91] w-6 text-right'>{records?.dec?.win}</span>
+                  <span class='font-bold text-quimbara-magenta w-6 text-right'>{records?.dec?.win}</span>
                 </div>
               </div>
             </div>
           </div>
 
           {nextFight && (
-            <div class='glass-panel p-6 rounded-xl border border-[#FF8FB7]/30 bg-[#E83C91]/5'>
-              <h3 class='text-xl font-heading font-bold text-[#FF8FB7] mb-4'>Próximo Combate</h3>
+            <div class='glass-panel p-6 rounded-xl border border-quimbara-pink/30 bg-quimbara-magenta/5'>
+              <h3 class='text-xl font-heading font-bold text-quimbara-pink mb-4'>Próximo Combate</h3>
               <div class='text-center'>
-                <div class='text-sm text-[#43334C] 400 mb-2'>
+                <div class='text-sm text-quimbara-purple 400 mb-2'>
                   {new Date(nextFight.date).toLocaleDateString()}
                 </div>
-                <div class='text-2xl font-bold text-[#E83C91] mb-2'>
+                <div class='text-2xl font-bold text-quimbara-magenta mb-2'>
                   vs.{' '}
                   {nextFight.fighters.first.id === fighterId
                     ? nextFight.fighters.second.name
                     : nextFight.fighters.first.name}
                 </div>
-                <div class='inline-block bg-[#E83C91] text-black text-xs font-bold px-2 py-1 rounded uppercase'>
+                <div class='inline-block bg-quimbara-magenta text-black text-xs font-bold px-2 py-1 rounded uppercase'>
                   {nextFight?.league?.name || nextFight.slug || 'UFC'}
                 </div>
               </div>
@@ -389,7 +389,7 @@ const athleteSchema = fighter
         {/* Right Col: Timeline */}
         <div class='lg:col-span-2'>
           <div class='glass-panel p-8 rounded-xl'>
-            <h3 class='text-2xl font-heading font-bold text-[#E83C91] mb-8'>
+            <h3 class='text-2xl font-heading font-bold text-quimbara-magenta mb-8'>
               Historial de Combates
             </h3>
             <div class='relative border-l-2 border-white/10 ml-3 space-y-8'>
@@ -402,19 +402,19 @@ const athleteSchema = fighter
                         : event.title.includes('Derrota')
                           ? 'bg-[#FF6D00]'
                           : event.type === 'championship'
-                            ? 'bg-[#E83C91]'
-                            : 'bg-[#43334C]/10'
+                            ? 'bg-quimbara-magenta'
+                            : 'bg-quimbara-purple/10'
                     } group-hover:scale-125 transition-transform duration-300`}
                   />
 
                   <div class='bg-white/5 p-6 rounded-lg border border-white/5 hover:bg-white/10 transition-colors'>
                     <div class='flex justify-between items-start mb-2'>
-                      <h4 class='text-lg font-bold text-[#E83C91] group-hover:text-[#E83C91] transition-colors'>
+                      <h4 class='text-lg font-bold text-quimbara-magenta group-hover:text-quimbara-magenta transition-colors'>
                         {event.title}
                       </h4>
-                      <span class='text-xs font-mono text-[#43334C] 500'>{event.year}</span>
+                      <span class='text-xs font-mono text-quimbara-purple 500'>{event.year}</span>
                     </div>
-                    <p class='text-[#43334C] 400 text-sm leading-relaxed'>{event.description}</p>
+                    <p class='text-quimbara-purple 400 text-sm leading-relaxed'>{event.description}</p>
                   </div>
                 </div>
               ))}

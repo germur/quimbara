@@ -59,10 +59,10 @@ const meta = {
 
   <section class='py-12'>
     <div class='text-center max-w-4xl mx-auto mb-16'>
-      <h1 class='text-5xl md:text-7xl font-heading font-bold text-[#E83C91] mb-6'>
-        ACADEMIA <span class='text-[#E83C91]'>QUIMBARA</span>
+      <h1 class='text-5xl md:text-7xl font-heading font-bold text-quimbara-magenta mb-6'>
+        ACADEMIA <span class='text-quimbara-magenta'>QUIMBARA</span>
       </h1>
-      <p class='text-xl text-[#43334C] 300'>
+      <p class='text-xl text-quimbara-purple 300'>
         Tu recurso definitivo para el aprendizaje de Artes Marciales Mixtas. Desde los fundamentos
         hasta las técnicas de campeonato.
       </p>
@@ -79,8 +79,8 @@ const meta = {
             <div class='text-6xl mb-6 group-hover:scale-110 transition-transform duration-300'>
               {cat.icon}
             </div>
-            <h2 class='text-2xl font-heading font-bold text-[#E83C91] mb-3'>{cat.title}</h2>
-            <p class='text-[#43334C] 400 text-sm'>{cat.description}</p>
+            <h2 class='text-2xl font-heading font-bold text-quimbara-magenta mb-3'>{cat.title}</h2>
+            <p class='text-quimbara-purple 400 text-sm'>{cat.description}</p>
           </a>
         ))
       }
@@ -89,7 +89,7 @@ const meta = {
     <!-- Latest Guides -->
     <div class='mb-12'>
       <div class='flex items-center gap-4 mb-8'>
-        <h2 class='text-3xl font-heading font-bold text-[#E83C91]'>Últimas Guías</h2>
+        <h2 class='text-3xl font-heading font-bold text-quimbara-magenta'>Últimas Guías</h2>
         <div class='h-px bg-white/10 flex-1'></div>
       </div>
 
@@ -106,24 +106,24 @@ const meta = {
                       class='w-full h-full object-cover transition-transform duration-500 group-hover:scale-110'
                     />
                   ) : (
-                    <div class='w-full h-full bg-[#43334C]/5' />
+                    <div class='w-full h-full bg-quimbara-purple/5' />
                   )}
                   <div class='absolute inset-0 bg-black/40 group-hover:bg-transparent transition-colors' />
                 </a>
                 <div class='p-6'>
-                  <div class='text-xs font-bold text-[#E83C91] uppercase mb-2'>
+                  <div class='text-xs font-bold text-quimbara-magenta uppercase mb-2'>
                     {post.data.tags?.[0]}
                   </div>
-                  <h3 class='text-xl font-bold text-[#E83C91] mb-2 group-hover:text-[#E83C91] transition-colors'>
+                  <h3 class='text-xl font-bold text-quimbara-magenta mb-2 group-hover:text-quimbara-magenta transition-colors'>
                     <a href={`/blog/${post.id}/`}>{post.data.title}</a>
                   </h3>
-                  <p class='text-[#43334C] 400 text-sm line-clamp-2'>{post.data.description}</p>
+                  <p class='text-quimbara-purple 400 text-sm line-clamp-2'>{post.data.description}</p>
                 </div>
               </article>
             ))
           ) : (
             <div class='col-span-3 text-center py-12 glass-panel rounded-xl'>
-              <p class='text-[#43334C] 400'>Pronto publicaremos nuevas guías de entrenamiento.</p>
+              <p class='text-quimbara-purple 400'>Pronto publicaremos nuevas guías de entrenamiento.</p>
             </div>
           )
         }

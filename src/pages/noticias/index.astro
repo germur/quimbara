@@ -36,7 +36,7 @@ const meta = {
 
   <section class='py-8'>
     <div class='flex items-center gap-3 mb-8'>
-      <div class='h-8 w-1 bg-[#E83C91] 600 rounded-full'></div>
+      <div class='h-8 w-1 bg-quimbara-magenta 600 rounded-full'></div>
       <h1 class='text-4xl font-heading font-bold text-foreground uppercase tracking-wide'>
         Noticias de Última Hora
       </h1>
@@ -59,16 +59,16 @@ const meta = {
           <div class='absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent' />
 
           <div class='absolute bottom-0 left-0 w-full p-8 md:p-12'>
-            <span class='inline-block bg-[#E83C91] 600 text-[#E83C91] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4'>
+            <span class='inline-block bg-quimbara-magenta 600 text-quimbara-magenta text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4'>
               Destacado
             </span>
-            <h2 class='text-3xl md:text-5xl font-heading font-bold text-[#E83C91] mb-4 leading-tight group-hover:text-[#E83C91] transition-colors'>
+            <h2 class='text-3xl md:text-5xl font-heading font-bold text-quimbara-magenta mb-4 leading-tight group-hover:text-quimbara-magenta transition-colors'>
               {featuredPost.data.title}
             </h2>
-            <p class='text-lg text-[#43334C] 300 max-w-3xl line-clamp-2 mb-6'>
+            <p class='text-lg text-quimbara-purple 300 max-w-3xl line-clamp-2 mb-6'>
               {featuredPost.data.description}
             </p>
-            <div class='flex items-center gap-4 text-sm text-[#43334C] 400'>
+            <div class='flex items-center gap-4 text-sm text-quimbara-purple 400'>
               <span>{featuredPost.data.publishDate.toLocaleDateString()}</span>
               <span>•</span>
               <span>Redacción Quimbara</span>
@@ -82,7 +82,7 @@ const meta = {
     <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
       {
         recentPosts.map((post) => (
-          <article class='glass-panel rounded-xl overflow-hidden hover:border-[#E83C91]/30 transition-all group flex flex-col h-full'>
+          <article class='glass-panel rounded-xl overflow-hidden hover:border-quimbara-magenta/30 transition-all group flex flex-col h-full'>
             <a href={`/blog/${post.id}/`} class='block aspect-video overflow-hidden relative'>
               {post.data.heroImage ? (
                 <img
@@ -92,7 +92,7 @@ const meta = {
                   loading='lazy'
                 />
               ) : (
-                <div class='w-full h-full bg-[#43334C]/5 flex items-center justify-center text-[#43334C] 600'>
+                <div class='w-full h-full bg-quimbara-purple/5 flex items-center justify-center text-quimbara-purple 600'>
                   <span class='font-heading font-bold text-2xl'>QUIMBARA</span>
                 </div>
               )}
@@ -101,23 +101,23 @@ const meta = {
 
             <div class='p-5 flex flex-col flex-1'>
               <div class='flex items-center gap-2 mb-3'>
-                <span class='text-xs font-bold text-[#E83C91] uppercase tracking-wider'>
+                <span class='text-xs font-bold text-quimbara-magenta uppercase tracking-wider'>
                   {post.data.tags?.[0] || 'Noticia'}
                 </span>
-                <span class='text-xs text-[#43334C] 500'>
+                <span class='text-xs text-quimbara-purple 500'>
                   • {post.data.publishDate.toLocaleDateString()}
                 </span>
               </div>
 
-              <h3 class='text-xl font-bold text-[#E83C91] mb-3 leading-snug group-hover:text-[#E83C91] transition-colors'>
+              <h3 class='text-xl font-bold text-quimbara-magenta mb-3 leading-snug group-hover:text-quimbara-magenta transition-colors'>
                 <a href={`/blog/${post.id}/`}>{post.data.title}</a>
               </h3>
 
-              <p class='text-[#43334C] 400 text-sm line-clamp-3 mb-4 flex-1'>{post.data.description}</p>
+              <p class='text-quimbara-purple 400 text-sm line-clamp-3 mb-4 flex-1'>{post.data.description}</p>
 
               <a
                 href={`/blog/${post.id}/`}
-                class='text-sm font-bold text-[#E83C91] hover:text-[#E83C91] transition-colors inline-flex items-center gap-1 mt-auto'
+                class='text-sm font-bold text-quimbara-magenta hover:text-quimbara-magenta transition-colors inline-flex items-center gap-1 mt-auto'
               >
                 Leer Nota Completa
                 <svg class='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>

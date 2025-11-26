@@ -37,13 +37,13 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
 <PageLayout {meta}>
   <!-- Hero Section -->
   <section class="py-12 mb-12 text-center">
-    <div class="inline-block bg-[#E83C91]/10 text-[#E83C91] px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wider mb-4 border border-[#E83C91]/20">
+    <div class="inline-block bg-quimbara-magenta/10 text-quimbara-magenta px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wider mb-4 border border-quimbara-magenta/20">
       Actualizado Semanalmente
     </div>
-    <h1 class="text-4xl md:text-6xl font-heading font-bold mb-4 text-[#43334C]">
-      RANKINGS <span class="text-[#E83C91]">OFICIALES UFC</span>
+    <h1 class="text-4xl md:text-6xl font-heading font-bold mb-4 text-quimbara-purple">
+      RANKINGS <span class="text-quimbara-magenta">OFICIALES UFC</span>
     </h1>
-    <p class="text-lg text-[#43334C]/70 max-w-3xl mx-auto leading-relaxed">
+    <p class="text-lg text-quimbara-purple/70 max-w-3xl mx-auto leading-relaxed">
       Rankings actualizados de todas las divisiones, incluyendo el codiciado Pound-for-Pound.
     </p>
   </section>
@@ -52,39 +52,39 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
     <!-- Pound for Pound -->
     <div class="lg:col-span-2">
       <div class="bg-white rounded-3xl overflow-hidden shadow-sm border border-border mb-12">
-        <div class="p-6 border-b border-border bg-gradient-to-r from-[#E83C91]/5 to-[#FF8FB7]/5">
+        <div class="p-6 border-b border-border bg-gradient-to-r from-quimbara-magenta/5 to-quimbara-pink/5">
           <div class="flex items-center gap-3 mb-2">
-            <div class="w-2 h-8 bg-[#E83C91] rounded-full"></div>
-            <h2 class="font-heading font-bold text-[#43334C] text-3xl">Pound-for-Pound</h2>
+            <div class="w-2 h-8 bg-quimbara-magenta rounded-full"></div>
+            <h2 class="font-heading font-bold text-quimbara-purple text-3xl">Pound-for-Pound</h2>
           </div>
-          <p class="text-[#43334C]/60 text-sm">Los mejores peleadores sin distinción de peso</p>
+          <p class="text-quimbara-purple/60 text-sm">Los mejores peleadores sin distinción de peso</p>
         </div>
         <div class="p-6 space-y-4">
           {p4pRanking.map((fighter) => (
-            <div class="flex items-center gap-4 p-4 rounded-2xl hover:bg-[#F8F4EC] transition-all border border-transparent hover:border-[#E83C91]/20 group">
+            <div class="flex items-center gap-4 p-4 rounded-2xl hover:bg-quimbara-cream transition-all border border-transparent hover:border-quimbara-magenta/20 group">
               <div class="flex items-center gap-4 flex-1">
-                <span class="text-3xl font-heading font-bold text-[#E83C91] w-12 text-center group-hover:scale-110 transition-transform">
+                <span class="text-3xl font-heading font-bold text-quimbara-magenta w-12 text-center group-hover:scale-110 transition-transform">
                   {fighter.rank}
                 </span>
                 <img 
                   src={getFighterImg(fighter.id)} 
                   alt={fighter.name}
-                  class="w-16 h-16 rounded-full object-cover bg-[#F8F4EC] border-2 border-border group-hover:border-[#E83C91] transition-colors"
+                  class="w-16 h-16 rounded-full object-cover bg-quimbara-cream border-2 border-border group-hover:border-quimbara-magenta transition-colors"
                   loading="lazy"
                   onerror="this.src='/images/fighter-placeholder.png'"
                 />
                 <div class="flex-1">
-                  <h3 class="font-bold text-[#43334C] text-lg group-hover:text-[#E83C91] transition-colors">
+                  <h3 class="font-bold text-quimbara-purple text-lg group-hover:text-quimbara-magenta transition-colors">
                     {fighter.name}
                   </h3>
-                  <p class="text-[#43334C]/60 text-sm">
+                  <p class="text-quimbara-purple/60 text-sm">
                     Campeón {fighter.division} • {fighter.record}
                   </p>
                 </div>
               </div>
               <a 
                 href={`/fighters/${fighter.division.toLowerCase().replace(' ', '-')}`}
-                class="text-xs text-[#E83C91] font-bold uppercase hover:text-[#D63384] transition-colors"
+                class="text-xs text-quimbara-magenta font-bold uppercase hover:text-[#D63384] transition-colors"
               >
                 Ver División →
               </a>
@@ -96,7 +96,7 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
 
     <!-- Sidebar - Quick Access -->
     <aside class="space-y-6">
-      <div class="bg-gradient-to-br from-[#E83C91] to-[#FF8FB7] p-8 rounded-3xl text-white shadow-lg">
+      <div class="bg-gradient-to-br from-quimbara-magenta to-quimbara-pink p-8 rounded-3xl text-white shadow-lg">
         <h3 class="font-heading text-2xl font-bold mb-4">¿Qué es P4P?</h3>
         <p class="text-white/90 text-sm leading-relaxed">
           El ranking <strong>Pound-for-Pound</strong> imagina qué pasaría si todos los peleadores pesaran lo mismo. 
@@ -105,18 +105,18 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
       </div>
 
       <div class="bg-white p-6 rounded-3xl border border-border shadow-sm">
-        <h3 class="font-heading text-xl mb-4 text-[#43334C] font-bold">Acceso Rápido</h3>
+        <h3 class="font-heading text-xl mb-4 text-quimbara-purple font-bold">Acceso Rápido</h3>
         <ul class="space-y-2">
           <li>
-            <a href="#champions" class="flex items-center justify-between p-3 rounded-xl hover:bg-[#F8F4EC] transition-colors group">
-              <span class="text-[#43334C] font-medium group-hover:text-[#E83C91]">Ver Campeones</span>
-              <span class="text-[#E83C91]">↓</span>
+            <a href="#champions" class="flex items-center justify-between p-3 rounded-xl hover:bg-quimbara-cream transition-colors group">
+              <span class="text-quimbara-purple font-medium group-hover:text-quimbara-magenta">Ver Campeones</span>
+              <span class="text-quimbara-magenta">↓</span>
             </a>
           </li>
           <li>
-            <a href="/fighters" class="flex items-center justify-between p-3 rounded-xl hover:bg-[#F8F4EC] transition-colors group">
-              <span class="text-[#43334C] font-medium group-hover:text-[#E83C91]">Directorio de Peleadores</span>
-              <span class="text-[#E83C91]">→</span>
+            <a href="/fighters" class="flex items-center justify-between p-3 rounded-xl hover:bg-quimbara-cream transition-colors group">
+              <span class="text-quimbara-purple font-medium group-hover:text-quimbara-magenta">Directorio de Peleadores</span>
+              <span class="text-quimbara-magenta">→</span>
             </a>
           </li>
         </ul>
@@ -127,12 +127,12 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
   <!-- Campeones por División -->
   <section id="champions" class="py-12 border-t border-border">
     <div class="flex items-center gap-4 mb-8">
-      <div class="h-10 w-2 bg-[#E83C91] rounded-full"></div>
-      <h2 class="text-3xl font-heading font-bold text-[#43334C]">
+      <div class="h-10 w-2 bg-quimbara-magenta rounded-full"></div>
+      <h2 class="text-3xl font-heading font-bold text-quimbara-purple">
         Campeones por División
       </h2>
     </div>
-    <p class="text-[#43334C]/60 mb-8 text-lg">
+    <p class="text-quimbara-purple/60 mb-8 text-lg">
       Haz clic en cualquier división para ver el ranking completo
     </p>
 
@@ -140,9 +140,9 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
       {champions.map(({ division, champion }) => (
         <a
           href={`/fighters/${division.slug}`}
-          class="group block bg-white rounded-3xl overflow-hidden hover:shadow-xl transition-all duration-300 border border-border hover:border-[#E83C91]"
+          class="group block bg-white rounded-3xl overflow-hidden hover:shadow-xl transition-all duration-300 border border-border hover:border-quimbara-magenta"
         >
-          <div class="aspect-[3/4] relative overflow-hidden bg-gradient-to-b from-[#F8F4EC] to-white">
+          <div class="aspect-[3/4] relative overflow-hidden bg-gradient-to-b from-quimbara-cream to-white">
             <img
               src={getFighterImg(champion.id)}
               alt={champion.name}
@@ -150,10 +150,10 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
               loading="lazy"
               onerror="this.src='/images/fighter-placeholder.png'"
             />
-            <div class="absolute inset-0 bg-gradient-to-t from-[#43334C] via-[#43334C]/30 to-transparent" />
+            <div class="absolute inset-0 bg-gradient-to-t from-quimbara-purple via-[#43334C]/30 to-transparent" />
             
             <!-- Badge -->
-            <div class="absolute top-4 left-4 bg-[#E83C91] text-black px-3 py-1 rounded-full text-xs font-bold uppercase border-2 border-white shadow-lg">
+            <div class="absolute top-4 left-4 bg-quimbara-magenta text-black px-3 py-1 rounded-full text-xs font-bold uppercase border-2 border-white shadow-lg">
               Campeón
             </div>
 
@@ -162,7 +162,7 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
               <h3 class="font-heading text-white text-sm uppercase tracking-wider mb-1 opacity-80">
                 {division.nameEs}
               </h3>
-              <h4 class="font-bold text-white text-xl leading-tight mb-2 group-hover:text-[#FF8FB7] transition-colors">
+              <h4 class="font-bold text-white text-xl leading-tight mb-2 group-hover:text-quimbara-pink transition-colors">
                 {champion.name}
               </h4>
               <p class="text-white/70 text-xs font-mono">

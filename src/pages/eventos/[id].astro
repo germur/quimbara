@@ -61,12 +61,12 @@ const schema = {
   <script type="application/ld+json" set:html={JSON.stringify(schema)} />
   
   <!-- Hero Section -->
-  <section class="relative bg-[#43334C] text-white py-20 px-4 overflow-hidden mb-12">
+  <section class="relative bg-quimbara-purple text-white py-20 px-4 overflow-hidden mb-12">
     <div class="absolute inset-0 bg-[url('/images/octagon-bg.jpg')] bg-cover bg-center opacity-10"></div>
-    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#43334C]"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-quimbara-purple"></div>
     
     <div class="relative z-10 max-w-5xl mx-auto text-center">
-      <span class="inline-block bg-[#E83C91] text-white px-4 py-1 rounded-full text-sm font-bold uppercase tracking-widest mb-4 shadow-lg">
+      <span class="inline-block bg-quimbara-magenta text-white px-4 py-1 rounded-full text-sm font-bold uppercase tracking-widest mb-4 shadow-lg">
         Próximo Evento
       </span>
       <h1 class="text-4xl md:text-6xl font-heading font-bold mb-4 leading-tight">{name}</h1>
@@ -76,7 +76,7 @@ const schema = {
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#E83C91" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
           <span class="capitalize">{formattedDate} • {time}</span>
         </div>
-        <div class="hidden md:block w-1.5 h-1.5 rounded-full bg-[#E83C91]"></div>
+        <div class="hidden md:block w-1.5 h-1.5 rounded-full bg-quimbara-magenta"></div>
         <div class="flex items-center gap-2">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#E83C91" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-9 13-9 13s-9-7-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
           <span>{location}</span>
@@ -89,7 +89,7 @@ const schema = {
     
     <!-- Main Event Face-Off -->
     <div class="bg-white rounded-3xl shadow-xl border border-border overflow-hidden mb-12 relative">
-      <div class="absolute top-0 left-0 w-full bg-[#E83C91] text-white text-center py-1 text-xs font-bold uppercase tracking-widest">
+      <div class="absolute top-0 left-0 w-full bg-quimbara-magenta text-white text-center py-1 text-xs font-bold uppercase tracking-widest">
         Pelea Estelar • {fights[0].weightClass}
       </div>
       
@@ -98,57 +98,57 @@ const schema = {
         <!-- Fighter A -->
         <a href={`/fighters/${fights[0].fighterA.id}`} class="flex flex-col items-center group w-1/3">
           <div class="relative w-32 h-32 md:w-48 md:h-48 mb-4">
-            <div class="absolute inset-0 bg-[#E83C91]/10 rounded-full blur-xl group-hover:bg-[#E83C91]/30 transition-all"></div>
+            <div class="absolute inset-0 bg-quimbara-magenta/10 rounded-full blur-xl group-hover:bg-quimbara-magenta/30 transition-all"></div>
             <img 
               src={getFighterImg(fights[0].fighterA.id)} 
               alt={fights[0].fighterA.name}
-              class="w-full h-full object-cover rounded-full border-4 border-white shadow-lg bg-[#F8F4EC] relative z-10 group-hover:scale-105 transition-transform"
+              class="w-full h-full object-cover rounded-full border-4 border-white shadow-lg bg-quimbara-cream relative z-10 group-hover:scale-105 transition-transform"
               loading="lazy"
               onerror="this.src='/images/fighter-placeholder.png'"
             />
             {fights[0].fighterA.rank === 'C' && (
-              <span class="absolute bottom-0 right-0 bg-[#E83C91] text-black font-bold px-3 py-1 rounded-full border-2 border-white shadow-sm z-20">C</span>
+              <span class="absolute bottom-0 right-0 bg-quimbara-magenta text-black font-bold px-3 py-1 rounded-full border-2 border-white shadow-sm z-20">C</span>
             )}
           </div>
-          <h2 class="text-2xl md:text-3xl font-heading font-bold text-[#43334C] text-center leading-none group-hover:text-[#E83C91] transition-colors">
+          <h2 class="text-2xl md:text-3xl font-heading font-bold text-quimbara-purple text-center leading-none group-hover:text-quimbara-magenta transition-colors">
             {fights[0].fighterA.name}
           </h2>
-          <span class="text-sm text-[#43334C]/60 font-bold mt-1">#{fights[0].fighterA.rank !== 'C' ? fights[0].fighterA.rank : 'Campeón'}</span>
+          <span class="text-sm text-quimbara-purple/60 font-bold mt-1">#{fights[0].fighterA.rank !== 'C' ? fights[0].fighterA.rank : 'Campeón'}</span>
         </a>
 
         <!-- VS -->
         <div class="flex flex-col items-center justify-center">
-          <span class="text-6xl font-heading font-bold text-[#E83C91] italic">VS</span>
-          <span class="text-xs font-bold text-[#43334C]/40 uppercase tracking-widest mt-2">5 Rounds</span>
+          <span class="text-6xl font-heading font-bold text-quimbara-magenta italic">VS</span>
+          <span class="text-xs font-bold text-quimbara-purple/40 uppercase tracking-widest mt-2">5 Rounds</span>
         </div>
 
         <!-- Fighter B -->
         <a href={`/fighters/${fights[0].fighterB.id}`} class="flex flex-col items-center group w-1/3">
           <div class="relative w-32 h-32 md:w-48 md:h-48 mb-4">
-            <div class="absolute inset-0 bg-[#E83C91]/10 rounded-full blur-xl group-hover:bg-[#E83C91]/30 transition-all"></div>
+            <div class="absolute inset-0 bg-quimbara-magenta/10 rounded-full blur-xl group-hover:bg-quimbara-magenta/30 transition-all"></div>
             <img 
               src={getFighterImg(fights[0].fighterB.id)} 
               alt={fights[0].fighterB.name}
-              class="w-full h-full object-cover rounded-full border-4 border-white shadow-lg bg-[#F8F4EC] relative z-10 group-hover:scale-105 transition-transform"
+              class="w-full h-full object-cover rounded-full border-4 border-white shadow-lg bg-quimbara-cream relative z-10 group-hover:scale-105 transition-transform"
               loading="lazy"
               onerror="this.src='/images/fighter-placeholder.png'"
             />
              {fights[0].fighterB.rank && fights[0].fighterB.rank !== 'NR' && (
-              <span class="absolute bottom-0 right-0 bg-[#43334C] text-white font-bold px-3 py-1 rounded-full border-2 border-white shadow-sm z-20">#{fights[0].fighterB.rank}</span>
+              <span class="absolute bottom-0 right-0 bg-quimbara-purple text-white font-bold px-3 py-1 rounded-full border-2 border-white shadow-sm z-20">#{fights[0].fighterB.rank}</span>
             )}
           </div>
-          <h2 class="text-2xl md:text-3xl font-heading font-bold text-[#43334C] text-center leading-none group-hover:text-[#E83C91] transition-colors">
+          <h2 class="text-2xl md:text-3xl font-heading font-bold text-quimbara-purple text-center leading-none group-hover:text-quimbara-magenta transition-colors">
             {fights[0].fighterB.name}
           </h2>
-          <span class="text-sm text-[#43334C]/60 font-bold mt-1">#{fights[0].fighterB.rank !== 'NR' ? fights[0].fighterB.rank : 'Retador'}</span>
+          <span class="text-sm text-quimbara-purple/60 font-bold mt-1">#{fights[0].fighterB.rank !== 'NR' ? fights[0].fighterB.rank : 'Retador'}</span>
         </a>
 
       </div>
     </div>
 
     <!-- Full Card List -->
-    <h3 class="text-2xl font-heading font-bold text-[#43334C] mb-6 flex items-center gap-3">
-      <span class="w-2 h-8 bg-[#E83C91] rounded-full"></span>
+    <h3 class="text-2xl font-heading font-bold text-quimbara-purple mb-6 flex items-center gap-3">
+      <span class="w-2 h-8 bg-quimbara-magenta rounded-full"></span>
       Cartelera Completa
     </h3>
 
@@ -158,7 +158,7 @@ const schema = {
           
           <!-- Weight Class Badge -->
           <div class="md:w-32 text-center md:text-left">
-            <span class="text-xs font-bold text-[#E83C91] uppercase tracking-wider bg-[#E83C91]/10 px-2 py-1 rounded">
+            <span class="text-xs font-bold text-quimbara-magenta uppercase tracking-wider bg-quimbara-magenta/10 px-2 py-1 rounded">
               {fight.weightClass}
             </span>
           </div>
@@ -168,39 +168,39 @@ const schema = {
             <!-- Fighter A -->
             <a href={`/fighters/${fight.fighterA.id}`} class="flex items-center gap-3 text-right group flex-1 justify-end">
               <div class="flex flex-col">
-                <span class="font-bold text-[#43334C] group-hover:text-[#E83C91] transition-colors">{fight.fighterA.name}</span>
-                <span class="text-xs text-[#43334C]/50 font-bold">#{fight.fighterA.rank}</span>
+                <span class="font-bold text-quimbara-purple group-hover:text-quimbara-magenta transition-colors">{fight.fighterA.name}</span>
+                <span class="text-xs text-quimbara-purple/50 font-bold">#{fight.fighterA.rank}</span>
               </div>
               <img 
                 src={getFighterImg(fight.fighterA.id)} 
                 alt={fight.fighterA.name}
-                class="w-12 h-12 rounded-full object-cover bg-[#F8F4EC] border border-border group-hover:border-[#E83C91] transition-colors"
+                class="w-12 h-12 rounded-full object-cover bg-quimbara-cream border border-border group-hover:border-quimbara-magenta transition-colors"
                 loading="lazy"
                 onerror="this.src='/images/fighter-placeholder.png'"
               />
             </a>
 
-            <span class="text-[#E83C91] font-bold text-sm">VS</span>
+            <span class="text-quimbara-magenta font-bold text-sm">VS</span>
 
             <!-- Fighter B -->
             <a href={`/fighters/${fight.fighterB.id}`} class="flex items-center gap-3 text-left group flex-1 justify-start">
               <img 
                 src={getFighterImg(fight.fighterB.id)} 
                 alt={fight.fighterB.name}
-                class="w-12 h-12 rounded-full object-cover bg-[#F8F4EC] border border-border group-hover:border-[#E83C91] transition-colors"
+                class="w-12 h-12 rounded-full object-cover bg-quimbara-cream border border-border group-hover:border-quimbara-magenta transition-colors"
                 loading="lazy"
                 onerror="this.src='/images/fighter-placeholder.png'"
               />
               <div class="flex flex-col">
-                <span class="font-bold text-[#43334C] group-hover:text-[#E83C91] transition-colors">{fight.fighterB.name}</span>
-                <span class="text-xs text-[#43334C]/50 font-bold">#{fight.fighterB.rank}</span>
+                <span class="font-bold text-quimbara-purple group-hover:text-quimbara-magenta transition-colors">{fight.fighterB.name}</span>
+                <span class="text-xs text-quimbara-purple/50 font-bold">#{fight.fighterB.rank}</span>
               </div>
             </a>
           </div>
 
           <!-- Action -->
           <div class="md:w-32 text-center md:text-right">
-             <button class="text-xs font-bold text-[#43334C]/40 uppercase border border-[#43334C]/20 px-3 py-1 rounded hover:bg-[#43334C] hover:text-white transition-colors">
+             <button class="text-xs font-bold text-quimbara-purple/40 uppercase border border-quimbara-purple/20 px-3 py-1 rounded hover:bg-quimbara-purple hover:text-white transition-colors">
                Ver Stats
              </button>
           </div>

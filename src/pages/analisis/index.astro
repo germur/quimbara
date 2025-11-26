@@ -26,11 +26,11 @@ const meta = {
 
   <section class="py-12">
     <div class="text-center max-w-3xl mx-auto mb-16">
-      <div class="seo-badge bg-[#43334C]/10 text-[#E83C91] mb-4">Deep Dive</div>
-      <h1 class="text-5xl md:text-6xl font-heading font-bold text-[#E83C91] mb-6">
+      <div class="seo-badge bg-quimbara-purple/10 text-quimbara-magenta mb-4">Deep Dive</div>
+      <h1 class="text-5xl md:text-6xl font-heading font-bold text-quimbara-magenta mb-6">
         LA CIENCIA DEL <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">COMBATE</span>
       </h1>
-      <p class="text-xl text-[#43334C] 400 font-light">
+      <p class="text-xl text-quimbara-purple 400 font-light">
         Más allá del resultado. Desglosamos la estrategia, la biomecánica y la psicología detrás de cada victoria en el octágono.
       </p>
     </div>
@@ -48,28 +48,28 @@ const meta = {
                 loading="lazy"
               />
              ) : (
-              <div class="w-full h-full bg-[#43334C]/5"></div>
+              <div class="w-full h-full bg-quimbara-purple/5"></div>
              )}
-             <div class="absolute inset-0 bg-[#43334C]/10/20 mix-blend-overlay group-hover:bg-transparent transition-colors"></div>
+             <div class="absolute inset-0 bg-quimbara-purple/10/20 mix-blend-overlay group-hover:bg-transparent transition-colors"></div>
           </a>
 
           <!-- Content Side -->
           <div class={`space-y-6 ${index % 2 !== 0 ? 'md:col-start-1 text-right md:text-right' : ''}`}>
-            <div class={`flex items-center gap-3 text-sm text-[#43334C] font-bold uppercase tracking-wider ${index % 2 !== 0 ? 'justify-end' : ''}`}>
+            <div class={`flex items-center gap-3 text-sm text-quimbara-purple font-bold uppercase tracking-wider ${index % 2 !== 0 ? 'justify-end' : ''}`}>
               <span>{post.data.tags?.[0] || 'Análisis'}</span>
-              <span class="w-12 h-px bg-[#43334C]/10/50"></span>
+              <span class="w-12 h-px bg-quimbara-purple/10/50"></span>
             </div>
             
-            <h2 class="text-3xl md:text-4xl font-heading font-bold text-[#E83C91] leading-tight group-hover:text-[#43334C] transition-colors">
+            <h2 class="text-3xl md:text-4xl font-heading font-bold text-quimbara-magenta leading-tight group-hover:text-quimbara-purple transition-colors">
               <a href={`/blog/${post.id}/`}>{post.data.title}</a>
             </h2>
             
-            <p class="text-[#43334C] 400 text-lg leading-relaxed">
+            <p class="text-quimbara-purple 400 text-lg leading-relaxed">
               {post.data.description}
             </p>
             
             <div class={`pt-4 ${index % 2 !== 0 ? 'flex justify-end' : ''}`}>
-              <a href={`/blog/${post.id}/`} class="btn-secondary text-sm py-2 px-6 border-[#43334C] 500/30 hover:bg-[#43334C]/10/10 hover:text-[#43334C]">
+              <a href={`/blog/${post.id}/`} class="btn-secondary text-sm py-2 px-6 border-quimbara-purple 500/30 hover:bg-quimbara-purple/10/10 hover:text-quimbara-purple">
                 Leer Análisis
               </a>
             </div>

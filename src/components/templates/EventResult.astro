@@ -18,7 +18,7 @@ const fights = results.map(r => r.response?.[0]).filter(Boolean);
 ---
 
 <div class="event-results my-8">
-  <h2 class="text-3xl font-black text-center mb-8 uppercase tracking-tighter text-[#43334C] dark:text-[#E83C91]">
+  <h2 class="text-3xl font-black text-center mb-8 uppercase tracking-tighter text-quimbara-purple dark:text-quimbara-magenta">
     {eventName}
   </h2>
 
@@ -30,12 +30,12 @@ const fights = results.map(r => r.response?.[0]).filter(Boolean);
       const isF2Winner = f2.winner;
 
       return (
-        <div class="fight-card bg-white dark:bg-[#43334C] rounded-lg shadow-md overflow-hidden border-l-4 border-[#E83C91]">
+        <div class="fight-card bg-white dark:bg-quimbara-purple rounded-lg shadow-md overflow-hidden border-l-4 border-quimbara-magenta">
           <div class="flex flex-col md:flex-row items-center justify-between p-4 gap-4">
             
             {/* Fighter 1 */}
             <div class={`fighter-1 flex items-center gap-4 flex-1 ${isF1Winner ? 'font-bold' : 'opacity-70'}`}>
-              <img src={f1.logo} alt={f1.name} class="w-12 h-12 rounded-full bg-[#43334C]/5 object-cover" />
+              <img src={f1.logo} alt={f1.name} class="w-12 h-12 rounded-full bg-quimbara-purple/5 object-cover" />
               <div class="text-left">
                 <span class="block text-lg">{f1.name}</span>
                 {isF1Winner && <span class="text-xs bg-green-100 text-green-800 px-2 py-0.5 rounded-full font-bold">WIN</span>}
@@ -44,9 +44,9 @@ const fights = results.map(r => r.response?.[0]).filter(Boolean);
 
             {/* Result Info */}
             <div class="result-info text-center min-w-[120px]">
-              <span class="block text-xs font-bold text-[#43334C] uppercase tracking-widest">Método</span>
-              <span class="block font-bold text-[#E83C91]">{fight.status.long}</span>
-              <span class="text-xs text-[#43334C]">{fight.time}</span>
+              <span class="block text-xs font-bold text-quimbara-purple uppercase tracking-widest">Método</span>
+              <span class="block font-bold text-quimbara-magenta">{fight.status.long}</span>
+              <span class="text-xs text-quimbara-purple">{fight.time}</span>
             </div>
 
             {/* Fighter 2 */}
@@ -55,7 +55,7 @@ const fights = results.map(r => r.response?.[0]).filter(Boolean);
                 <span class="block text-lg">{f2.name}</span>
                 {isF2Winner && <span class="text-xs bg-green-100 text-green-800 px-2 py-0.5 rounded-full font-bold">WIN</span>}
               </div>
-              <img src={f2.logo} alt={f2.name} class="w-12 h-12 rounded-full bg-[#43334C]/5 object-cover" />
+              <img src={f2.logo} alt={f2.name} class="w-12 h-12 rounded-full bg-quimbara-purple/5 object-cover" />
             </div>
 
           </div>

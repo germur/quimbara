@@ -97,68 +97,67 @@ a {
   }
 }
 
-/* FORZAR PALETA LIGHT/CLEAN - SOBRESCRIBIR TODO */
+/* CONFIGURACIÓN DE PALETA - Sin !important, usando especificidad */
 body {
-  background: #F8F4EC !important;
-  color: #43334C !important;
+  background: #F8F4EC;
+  color: #43334C;
 }
 
-/* Sobrescribir componentes astro-pure */
-.glass-panel,
-.card,
-[class*="bg-gray"],
-[class*="bg-slate"],
-[class*="bg-zinc"] {
-  background: white !important;
-  border-color: #43334C20 !important;
+/* Sobrescribir componentes astro-pure con especificidad */
+body .glass-panel,
+body .card,
+body [class*="bg-gray"],
+body [class*="bg-slate"],
+body [class*="bg-zinc"] {
+  background: white;
+  border-color: #43334C20;
 }
 
 /* Tablas */
-table {
-  background: white !important;
+body table {
+  background: white;
 }
 
-table thead {
-  background: #F8F4EC !important;
-  color: #43334C !important;
+body table thead {
+  background: #F8F4EC;
+  color: #43334C;
 }
 
-table tbody tr:hover {
-  background: #F8F4EC50 !important;
+body table tbody tr:hover {
+  background: #F8F4EC50;
 }
 
-/* Texto */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #43334C !important;
+/* Texto - SOLO para contenido regular, NO para heros */
+body .prose h1,
+body .prose h2,
+body .prose h3,
+body .prose h4,
+body .prose h5,
+body .prose h6,
+body main>h1:not([class*="hero"]),
+body main>h2:not([class*="hero"]),
+body main>h3:not([class*="hero"]) {
+  color: #43334C;
 }
 
 /* Eliminar dark mode completamente */
 html.dark,
+body.dark,
+html.dark body,
 .dark {
-  --background: 40 33% 95% !important;
-  --foreground: 278 20% 25% !important;
-  --card: 0 0% 100% !important;
-  --card-foreground: 278 20% 25% !important;
+  --background: 40 33% 95%;
+  --foreground: 278 20% 25%;
+  --card: 0 0% 100%;
+  --card-foreground: 278 20% 25%;
+  background: #F8F4EC;
+  color: #43334C;
 }
 
-/* Forzar colores primarios */
-[class*="text-purple"],
-[class*="bg-purple"],
-[class*="text-violet"],
-[class*="bg-violet"] {
-  color: #E83C91 !important;
-  background: transparent !important;
-}
-
-/* Blog post hero title - Force white for contrast */
-article header h1,
-.hero h1,
-[class*="hero"] h1 {
-  color: white !important;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+/* Forzar colores primarios con especificidad */
+body [class*="text-purple"],
+body [class*="bg-purple"],
+body [class*="text-violet"],
+body [class*="bg-violet"] {
+  color: #E83C91;
+  background: transparent;
 }
