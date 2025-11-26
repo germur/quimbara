@@ -204,17 +204,17 @@ const athleteSchema = fighter
                   Récord Profesional
                 </div>
                 <div class='text-7xl md:text-9xl font-heading font-bold text-[#E83C91] leading-none'>
-                  {records?.total.win}
+                  {records && records.total ? records.total.win : 0}
                   <span class='text-[#43334C]/40'>-</span>
-                  {records?.total.loss}
-                  <span class='text-[#43334C]/40 text-5xl'>-{records?.total.draw}</span>
+                  {records && records.total ? records.total.loss : 0}
+                  <span class='text-[#43334C]/40 text-5xl'>-{records && records.total ? records.total.draw : 0}</span>
                 </div>
                 <div class='flex justify-center gap-6 mt-4 text-base font-mono text-[#43334C]/70'>
                   <span>
-                    <span class='text-[#E83C91] font-bold'>{records?.ko.win}</span> KO
+                    <span class='text-[#E83C91] font-bold'>{records && records.ko ? records.ko.win : 0}</span> KO
                   </span>
                   <span>
-                    <span class='text-[#E83C91] font-bold'>{records?.sub.win}</span> SUB
+                    <span class='text-[#E83C91] font-bold'>{records && records.sub ? records.sub.win : 0}</span> SUB
                   </span>
                 </div>
               </div>
