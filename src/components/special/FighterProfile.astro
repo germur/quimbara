@@ -56,12 +56,29 @@ try {
 
   if (entry) {
     const cacheData = entry.data
-    fighter = cacheData.profile as FighterProfile
+    const rawProfile = cacheData.profile as any
+    // Map raw data to interface, handling missing fields safely
+    fighter = {
+      name: rawProfile.name,
+      nickname: rawProfile.nickname,
+      photo: rawProfile.photo,
+      height: rawProfile.height,
+      weight: rawProfile.weight,
+      reach: rawProfile.reach,
+      stance: rawProfile.stance,
+      birth: {
+        date: rawProfile.birth_date,
+        country: rawProfile.birth_country // Note: might be undefined in JSON
+      },
+      team: rawProfile.team,
+      division: rawProfile.category // Map category to division
+    }
+
     records = cacheData.records as FighterRecords
     recentFights = (cacheData.fights || []) as Fight[]
 
     // Calculate decision wins/losses if missing
-    if (records) {
+    if (records && records.total) {
       const decWins = records.total.win - (records.ko?.win || 0) - (records.sub?.win || 0)
       const decLoss = records.total.loss - (records.ko?.loss || 0) - (records.sub?.loss || 0)
       records.dec = { win: decWins, loss: decLoss }
@@ -132,7 +149,7 @@ const athleteSchema = fighter
         name: fighter.team?.name || 'Independent'
       },
       jobTitle: `${fighter.division || 'UFC'} Fighter`,
-      description: `${fighter.name} (${fighter.nickname}) es un peleador profesional de artes marciales mixtas con récord de ${records?.total.win}-${records?.total.loss}-${records?.total.draw}.`
+      description: `${fighter.name} (${fighter.nickname}) es un peleador profesional de artes marciales mixtas con récord de ${records && records.total ? records.total.win : 0}-${records && records.total ? records.total.loss : 0}-${records && records.total ? records.total.draw : 0}.`
     }
   : null
 ---
