@@ -37,20 +37,12 @@ const divisionFighters = (fightersData as Fighter[]).filter((f) => f.division ==
 
 // ... (existing code)
 
-// Buscar campeón (DYNAMIC from fighters.json)
-const champion = divisionFighters.find((f) => f.rank === 'C') || divisionFighters[0]
+// Champion - CANNOT DETERMINE (API doesn't provide champion info)
+// Showing first fighter instead
+const champion = divisionFighters[0]
 
-// Top 15 ranking (ordenados por ranking)
-const ranking = divisionFighters
-  .filter((f) => f.rank && f.rank !== 'NR')
-  .sort((a, b) => {
-    if (a.rank === 'C') return -1
-    if (b.rank === 'C') return 1
-    const rankA = parseInt(a.rank || '999') || 999
-    const rankB = parseInt(b.rank || '999') || 999
-    return rankA - rankB
-  })
-  .slice(0, 15)
+// Top 15 fighters (no ranking available from API)
+const ranking = divisionFighters.slice(0, 15)
 
 // Noticias relacionadas con esta división
 const allPosts = await getCollection('blog')
@@ -162,16 +154,11 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
             </thead>
             <tbody class='divide-y divide-border'>
               {
-                ranking.map((fighter) => (
+                ranking.map((fighter, index) => (
                   <tr class='hover:bg-quimbara-cream/50 transition-colors group'>
                     <td class='p-4 font-bold text-quimbara-purple/60 group-hover:text-quimbara-magenta'>
-                      {fighter.rank === 'C' ? (
-                        <span class='bg-quimbara-magenta text-black px-2 py-1 rounded font-bold text-xs'>
-                          C
-                        </span>
-                      ) : (
-                        `#${fighter.rank}`
-                      )}
+                      {/* Removed conditional rank display as per instruction */}
+                      {/* Displaying index + 1 as a placeholder for rank */}#{index + 1}
                     </td>
                     <td class='p-4 font-bold text-quimbara-purple flex items-center gap-3'>
                       <img

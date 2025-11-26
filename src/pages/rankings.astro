@@ -3,18 +3,9 @@ import PageLayout from '@/layouts/BaseLayout.astro'
 import { weightClasses } from '@/data/weightClasses'
 import fightersData from '@/data/fighters.json'
 
-// Buscar campeones de cada división (DYNAMIC from fighters.json)
-const champions = weightClasses
-  .map(wc => {
-    const divisionFighters = fightersData.filter(f => f.division === wc.nameEn)
-    const champion = divisionFighters.find(f => f.rank === 'C')
-    
-    return {
-      division: wc,
-      champion: champion || null
-    }
-  })
-  .filter((c): c is { division: typeof weightClasses[0], champion: NonNullable<typeof fightersData[0]> } => c.champion !== null)
+// Champions - CANNOT SHOW (API doesn't provide champion information)
+// Eliminating this section entirely
+const champions: any[] = []
 
 // P4P ranking - REMOVED (no API endpoint available)
 // Si el API no provee P4P rankings, no los mostramos
