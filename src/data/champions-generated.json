@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-26T13:03:38.478Z",
+  "generatedAt": "2025-11-26T13:22:25.146Z",
   "champions": {
     "Heavyweight": {
       "id": 701,
@@ -91,8 +91,8 @@
       "reach": "69'",
       "birth_date": null,
       "record": {
-        "total": 16,
-        "win": 16,
+        "total": 17,
+        "win": 17,
         "loss": 0,
         "draw": 0
       }
@@ -205,8 +205,8 @@
       "reach": "69'",
       "birth_date": null,
       "record": {
-        "total": 16,
-        "win": 16,
+        "total": 17,
+        "win": 17,
         "loss": 0,
         "draw": 0
       }
