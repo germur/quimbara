@@ -30,7 +30,7 @@ const meta = {
       <h1 class="text-5xl md:text-6xl font-heading font-bold text-quimbara-magenta mb-6">
         LA CIENCIA DEL <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">COMBATE</span>
       </h1>
-      <p class="text-xl text-quimbara-purple 400 font-light">
+      <p class="text-xl text-quimbara-purple/70 font-light">
         Más allá del resultado. Desglosamos la estrategia, la biomecánica y la psicología detrás de cada victoria en el octágono.
       </p>
     </div>
@@ -50,26 +50,26 @@ const meta = {
              ) : (
               <div class="w-full h-full bg-quimbara-purple/5"></div>
              )}
-             <div class="absolute inset-0 bg-quimbara-purple/10/20 mix-blend-overlay group-hover:bg-transparent transition-colors"></div>
+             <div class="absolute inset-0 bg-quimbara-purple/20 mix-blend-overlay group-hover:bg-transparent transition-colors"></div>
           </a>
 
           <!-- Content Side -->
           <div class={`space-y-6 ${index % 2 !== 0 ? 'md:col-start-1 text-right md:text-right' : ''}`}>
             <div class={`flex items-center gap-3 text-sm text-quimbara-purple font-bold uppercase tracking-wider ${index % 2 !== 0 ? 'justify-end' : ''}`}>
               <span>{post.data.tags?.[0] || 'Análisis'}</span>
-              <span class="w-12 h-px bg-quimbara-purple/10/50"></span>
+              <span class="w-12 h-px bg-quimbara-purple/20"></span>
             </div>
             
             <h2 class="text-3xl md:text-4xl font-heading font-bold text-quimbara-magenta leading-tight group-hover:text-quimbara-purple transition-colors">
               <a href={`/blog/${post.id}/`}>{post.data.title}</a>
             </h2>
             
-            <p class="text-quimbara-purple 400 text-lg leading-relaxed">
+            <p class="text-quimbara-purple/70 text-lg leading-relaxed">
               {post.data.description}
             </p>
             
             <div class={`pt-4 ${index % 2 !== 0 ? 'flex justify-end' : ''}`}>
-              <a href={`/blog/${post.id}/`} class="btn-secondary text-sm py-2 px-6 border-quimbara-purple 500/30 hover:bg-quimbara-purple/10/10 hover:text-quimbara-purple">
+              <a href={`/blog/${post.id}/`} class="btn-secondary text-sm py-2 px-6 border-quimbara-purple/30 hover:bg-quimbara-purple/10 hover:text-quimbara-purple">
                 Leer Análisis
               </a>
             </div>
