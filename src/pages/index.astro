@@ -54,7 +54,7 @@ const allPostsByDate = allPosts
               alt='Campeones legendarios de UFC: Georges St-Pierre, Anderson Silva, Demetrious Johnson e Islam Makhachev en el octágono - Noticias de MMA Quimbara'
               class='w-full h-full object-cover'
             />
-            <div class='absolute inset-0 bg-gradient-to-r from-quimbara-purple/95 via-[#43334C]/85 to-quimbara-purple/70' />
+            <div class='absolute inset-0 bg-gradient-to-r from-quimbara-purple/95 via-quimbara-purple/85 to-quimbara-purple/70' />
           </div>
 
           {/* Content */}
@@ -72,7 +72,7 @@ const allPostsByDate = allPosts
               <div class='flex flex-col sm:flex-row gap-4'>
                 <a
                   href={`/blog/${allPostsByDate[0].id}/`}
-                  class='px-10 py-4 bg-quimbara-magenta text-white font-bold text-lg rounded-xl hover:bg-[#D63384] transition-all transform hover:scale-105 shadow-lg shadow-[#E83C91]/20 inline-block text-center'
+                  class='px-10 py-4 bg-quimbara-magenta text-white font-bold text-lg rounded-xl hover:bg-quimbara-magenta/90 transition-all transform hover:scale-105 shadow-lg shadow-quimbara-magenta/20 inline-block text-center'
                 >
                   Leer Artículo Completo
                 </a>
@@ -116,7 +116,7 @@ const allPostsByDate = allPosts
               alt={allPostsByDate[0].data.title}
               class='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105'
             />
-            <div class='absolute inset-0 bg-gradient-to-t from-quimbara-purple via-[#43334C]/40 to-transparent opacity-90' />
+            <div class='absolute inset-0 bg-gradient-to-t from-quimbara-purple via-quimbara-purple/40 to-transparent opacity-90' />
 
             <div class='absolute bottom-0 left-0 w-full p-8'>
               <span class='bg-quimbara-magenta text-white text-xs font-bold px-3 py-1 rounded-full mb-4 inline-block uppercase tracking-wider shadow-md'>
@@ -189,7 +189,8 @@ const allPostsByDate = allPosts
             height='32'
             viewBox='0 0 24 24'
             fill='none'
-            stroke='#E83C91'
+            stroke='currentColor'
+            class='text-quimbara-magenta'
             stroke-width='2'
             stroke-linecap='round'
             stroke-linejoin='round'
@@ -312,7 +313,9 @@ const allPostsByDate = allPosts
               href='/fighters'
               class='flex items-center justify-between p-3 rounded-xl hover:bg-quimbara-cream transition-colors group'
             >
-              <span class='text-quimbara-purple font-medium group-hover:text-quimbara-magenta'>Peleadores</span>
+              <span class='text-quimbara-purple font-medium group-hover:text-quimbara-magenta'
+                >Peleadores</span
+              >
               <span
                 class='text-xs bg-quimbara-cream text-quimbara-purple px-2 py-1 rounded group-hover:bg-quimbara-magenta/10 group-hover:text-quimbara-magenta'
                 >Directory</span
@@ -324,7 +327,9 @@ const allPostsByDate = allPosts
               href='/blog/category/noticias-eventos'
               class='flex items-center justify-between p-3 rounded-xl hover:bg-quimbara-cream transition-colors group'
             >
-              <span class='text-quimbara-purple font-medium group-hover:text-quimbara-magenta'>Noticias</span>
+              <span class='text-quimbara-purple font-medium group-hover:text-quimbara-magenta'
+                >Noticias</span
+              >
               <span
                 class='text-xs bg-quimbara-cream text-quimbara-purple px-2 py-1 rounded group-hover:bg-quimbara-magenta/10 group-hover:text-quimbara-magenta'
                 >News</span
@@ -336,7 +341,9 @@ const allPostsByDate = allPosts
               href='/blog/category/analisis-peleas'
               class='flex items-center justify-between p-3 rounded-xl hover:bg-quimbara-cream transition-colors group'
             >
-              <span class='text-quimbara-purple font-medium group-hover:text-quimbara-magenta'>Análisis</span>
+              <span class='text-quimbara-purple font-medium group-hover:text-quimbara-magenta'
+                >Análisis</span
+              >
               <span
                 class='text-xs bg-quimbara-cream text-quimbara-purple px-2 py-1 rounded group-hover:bg-quimbara-magenta/10 group-hover:text-quimbara-magenta'
                 >Deep Dive</span
