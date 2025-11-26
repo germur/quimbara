@@ -11,11 +11,13 @@ import '@/assets/styles/app.css'
 interface Props {
   meta: SiteMeta
   highlightColor?: string
+  fullWidth?: boolean
 }
 
 const {
   meta: { articleDate, description = config.description, ogImage, title },
   highlightColor,
+  fullWidth = false,
   ...props
 } = Astro.props
 ---
@@ -37,7 +39,10 @@ const {
       )
     }
     <div
-      class='w-full max-w-[70rem] px-4 sm:px-7 lg:px-10 min-h-[100dvh] flex flex-col justify-between'
+      class:list={[
+        'w-full min-h-[100dvh] flex flex-col justify-between px-4 sm:px-7 lg:px-10',
+        fullWidth ? 'max-w-full' : 'max-w-[70rem]'
+      ]}
     >
       <Header />
       <div class='flex-1 w-full'>
