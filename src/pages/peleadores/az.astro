@@ -119,14 +119,7 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
                   <h3 class='font-bold text-quimbara-purple group-hover:text-quimbara-magenta transition-colors truncate'>
                     {fighter.name}
                   </h3>
-                  <p class='text-sm text-quimbara-purple/60'>
-                    {fighter.division}
-                    {fighter.rank && fighter.rank !== 'NR' && (
-                      <span class='ml-2 text-quimbara-magenta font-bold'>
-                        {fighter.rank === 'C' ? 'Campeón' : `#${fighter.rank}`}
-                      </span>
-                    )}
-                  </p>
+                  <p class='text-sm text-quimbara-purple/60'>{fighter.division}</p>
                 </div>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
