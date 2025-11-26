@@ -52,26 +52,29 @@ let recentFights: Fight[] = []
 let nextFight: Fight | null = null
 
 try {
-  const entry = await getEntry('fighterData', fighterId.toString())
+  const entry = await getEntry('fighter-data' as any, fighterId.toString())
 
   if (entry) {
     const cacheData = entry.data
     const rawProfile = cacheData.profile as any
-    // Map raw data to interface, handling missing fields safely
-    fighter = {
-      name: rawProfile.name,
-      nickname: rawProfile.nickname,
-      photo: rawProfile.photo,
-      height: rawProfile.height,
-      weight: rawProfile.weight,
-      reach: rawProfile.reach,
-      stance: rawProfile.stance,
-      birth: {
-        date: rawProfile.birth_date,
-        country: rawProfile.birth_country // Note: might be undefined in JSON
-      },
-      team: rawProfile.team,
-      division: rawProfile.category // Map category to division
+
+    if (rawProfile) {
+      // Map raw data to interface, handling missing fields safely
+      fighter = {
+        name: rawProfile.name,
+        nickname: rawProfile.nickname,
+        photo: rawProfile.photo,
+        height: rawProfile.height,
+        weight: rawProfile.weight,
+        reach: rawProfile.reach,
+        stance: rawProfile.stance,
+        birth: {
+          date: rawProfile.birth_date,
+          country: rawProfile.birth_country // Note: might be undefined in JSON
+        },
+        team: rawProfile.team,
+        division: rawProfile.category // Map category to division
+      }
     }
 
     records = cacheData.records as FighterRecords
