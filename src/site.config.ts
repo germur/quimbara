@@ -47,12 +47,12 @@ export const theme: ThemeUserConfig = {
   /** Configure the header of your site. */
   header: {
     menu: [
-      { title: 'Noticias', link: '/blog/category/noticias-eventos' },
-      { title: 'Análisis', link: '/blog/category/analisis-peleas' },
-      { title: 'Luchadores', link: '/fighters' },
-      { title: 'Guías', link: '/blog/category/guias-principiantes' },
-      { title: 'Cultura', link: '/blog/category/cultura-mma' },
-      { title: 'Sobre Nosotros', link: '/about' }
+      { title: 'Noticias', link: '/noticias' },
+      { title: 'Análisis', link: '/analisis' },
+      { title: 'Peleadores', link: '/peleadores' },
+      { title: 'Guías', link: '/tecnicas-entrenamientos' },
+      { title: 'Cultura', link: '/cultura' },
+      { title: 'Sobre Nosotros', link: '/sobre-nosotros' }
     ]
   },
 

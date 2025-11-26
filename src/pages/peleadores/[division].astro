@@ -83,7 +83,7 @@ const schemaMarkup = {
   '@type': 'CollectionPage',
   name: `Peleadores de ${divisionEs} UFC`,
   description: meta.description,
-  url: `https://quimbara.org/fighters/${divisionSlug}/`
+  url: `https://quimbara.org/peleadores/${divisionSlug}/`
 }
 
 // Helper para imagen
@@ -98,8 +98,8 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
   <Breadcrumbs
     path={[
       { title: 'Inicio', link: '/' },
-      { title: 'Peleadores', link: '/fighters/' },
-      { title: divisionEs, link: `/fighters/${divisionSlug}/` }
+      { title: 'Peleadores', link: '/peleadores/' },
+      { title: divisionEs, link: `/peleadores/${divisionSlug}/` }
     ]}
   />
 
@@ -135,7 +135,9 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
                 <span class='text-xs text-quimbara-purple/60 uppercase font-bold tracking-wider block mb-1'>
                   Campeón Actual
                 </span>
-                <span class='text-quimbara-magenta font-bold font-heading text-xl'>{champion.name}</span>
+                <span class='text-quimbara-magenta font-bold font-heading text-xl'>
+                  {champion.name}
+                </span>
               </div>
             </div>
           </div>
@@ -149,7 +151,9 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
     <div class='lg:col-span-2'>
       <div class='bg-white rounded-3xl overflow-hidden shadow-sm border border-border'>
         <div class='p-6 border-b border-border flex justify-between items-center'>
-          <h3 class='font-heading font-bold text-quimbara-purple text-2xl'>Ranking Oficial Top 15</h3>
+          <h3 class='font-heading font-bold text-quimbara-purple text-2xl'>
+            Ranking Oficial Top 15
+          </h3>
           <span class='text-xs text-quimbara-purple/50 font-bold uppercase tracking-wider'
             >Actualizado</span
           >
@@ -240,7 +244,9 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
       <div
         class='bg-gradient-to-br from-quimbara-magenta/10 to-quimbara-pink/10 p-6 rounded-3xl border border-quimbara-magenta/20'
       >
-        <h3 class='font-heading text-quimbara-magenta text-xl mb-3 font-bold'>Datos de la División</h3>
+        <h3 class='font-heading text-quimbara-magenta text-xl mb-3 font-bold'>
+          Datos de la División
+        </h3>
         <p class='text-sm text-quimbara-purple/70 leading-relaxed mb-4'>
           {divisionInfo.history}
         </p>
@@ -259,7 +265,8 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
       <h2 class='text-3xl font-heading font-bold text-quimbara-purple'>Roster Completo</h2>
     </div>
     <p class='text-quimbara-purple/60 mb-8 text-lg'>
-      <strong class='text-quimbara-magenta'>{divisionFighters.length}</strong> peleadores activos en la división
+      <strong class='text-quimbara-magenta'>{divisionFighters.length}</strong> peleadores activos en
+      la división
       {divisionEs}
     </p>
     <div class='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4'>

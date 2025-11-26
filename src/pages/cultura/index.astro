@@ -1,0 +1,119 @@
+---
+import PageLayout from '@/layouts/BaseLayout.astro'
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+
+const meta = {
+  title: 'Cultura del Combate - Filosofía, Mindset y Estilo de Vida MMA | Quimbara',
+  description:
+    'Explora la filosofía del guerrero, la mentalidad del campeón y el estilo de vida del combate. Biografías narrativas, valores del octágono y la cultura profunda de las artes marciales mixtas.'
+}
+
+const categories = [
+  {
+    title: 'Filosofía de Pelea',
+    slug: 'filosofia',
+    description: 'Los principios y valores que definen al guerrero moderno',
+    icon: '🧘',
+    topics: ['Bushido Moderno', 'Código del Guerrero', 'Ética del Combate']
+  },
+  {
+    title: 'Mindset de Campeón',
+    slug: 'mindset',
+    description: 'La mentalidad que separa a los buenos de los grandes',
+    icon: '🧠',
+    topics: ['Preparación Mental', 'Resiliencia', 'Visualización']
+  },
+  {
+    title: 'Biografías Narrativas',
+    slug: 'biografias',
+    description: 'Las historias humanas detrás de los campeones',
+    icon: '📖',
+    topics: ['Orígenes', 'Sacrificio', 'Legado']
+  },
+  {
+    title: 'Estilo de Vida',
+    slug: 'estilo-de-vida',
+    description: 'Vivir según los valores del octágono',
+    icon: '⚡',
+    topics: ['Disciplina', 'Nutrición del Guerrero', 'Balance']
+  }
+]
+---
+
+<PageLayout {meta}>
+  <Breadcrumbs
+    path={[
+      { title: 'Inicio', link: '/' },
+      { title: 'Cultura', link: '/cultura/' }
+    ]}
+  />
+
+  <!-- Hero Section -->
+  <section class='py-16 mb-12'>
+    <div class='text-center max-w-4xl mx-auto'>
+      <div
+        class='inline-block bg-quimbara-magenta/10 text-quimbara-magenta px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wider mb-6 border border-quimbara-magenta/20'
+      >
+        Océano Azul
+      </div>
+      <h1 class='text-5xl md:text-7xl font-heading font-bold mb-6 text-quimbara-purple'>
+        CULTURA DEL <span class='text-quimbara-magenta'>COMBATE</span>
+      </h1>
+      <p class='text-xl text-quimbara-purple/70 leading-relaxed'>
+        Más allá de las técnicas y las estadísticas, existe un mundo de filosofía, mentalidad y
+        valores que define al verdadero guerrero. Este es el corazón del octágono.
+      </p>
+    </div>
+  </section>
+
+  <!-- Categories Grid -->
+  <section class='mb-16'>
+    <div class='grid grid-cols-1 md:grid-cols-2 gap-8'>
+      {
+        categories.map((category) => (
+          <div class='group bg-white rounded-3xl overflow-hidden border border-border hover:border-quimbara-magenta transition-all duration-300 hover:shadow-xl'>
+            <div class='p-8'>
+              <div class='text-6xl mb-4'>{category.icon}</div>
+              <h2 class='text-3xl font-heading font-bold text-quimbara-purple mb-3 group-hover:text-quimbara-magenta transition-colors'>
+                {category.title}
+              </h2>
+              <p class='text-quimbara-purple/70 mb-6 leading-relaxed'>{category.description}</p>
+
+              <div class='flex flex-wrap gap-2 mb-6'>
+                {category.topics.map((topic) => (
+                  <span class='bg-quimbara-cream text-quimbara-purple text-sm px-3 py-1 rounded-full font-medium'>
+                    {topic}
+                  </span>
+                ))}
+              </div>
+
+              <a
+                href={`/cultura/${category.slug}/`}
+                class='inline-flex items-center gap-2 text-quimbara-magenta font-bold hover:gap-3 transition-all'
+              >
+                Explorar →
+              </a>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Philosophy Quote -->
+  <section
+    class='py-12 bg-gradient-to-br from-quimbara-magenta/10 to-quimbara-pink/10 rounded-3xl border border-quimbara-magenta/20'
+  >
+    <div class='max-w-3xl mx-auto text-center px-8'>
+      <blockquote
+        class='text-2xl md:text-3xl font-heading text-quimbara-purple mb-6 leading-relaxed'
+      >
+        "El verdadero combate no empieza en el octágono. Empieza en la mente, en el espíritu, y en
+        las decisiones diarias que tomas cuando nadie te está mirando."
+      </blockquote>
+      <p class='text-quimbara-magenta font-bold uppercase tracking-wider text-sm'>
+        — La Filosofía del Guerrero Moderno
+      </p>
+    </div>
+  </section>
+</PageLayout>

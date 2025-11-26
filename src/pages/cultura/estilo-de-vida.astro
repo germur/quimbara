@@ -1,0 +1,152 @@
+---
+import PageLayout from '@/layouts/BaseLayout.astro'
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+
+const meta = {
+  title: 'Estilo de Vida MMA - Nutrición, Recuperación y Disciplina | Quimbara',
+  description:
+    'Vivir como un guerrero las 24 horas. Guías de nutrición para peleadores, protocolos de recuperación, sueño y la disciplina diaria necesaria para alcanzar la excelencia.'
+}
+
+const habits = [
+  {
+    title: 'Nutrición Combustible',
+    desc: 'Comer para rendir, no por placer. Macros, hidratación y corte de peso seguro.',
+    icon: '🥑'
+  },
+  {
+    title: 'Sueño y Recuperación',
+    desc: 'El entrenamiento rompe el músculo; el sueño lo reconstruye más fuerte.',
+    icon: '💤'
+  },
+  {
+    title: 'Disciplina Diaria',
+    desc: 'La motivación es efímera; la disciplina es hacer lo que debes hacer cuando no quieres.',
+    icon: '⏰'
+  }
+]
+---
+
+<PageLayout {meta}>
+  <Breadcrumbs
+    path={[
+      { title: 'Inicio', link: '/' },
+      { title: 'Cultura', link: '/cultura/' },
+      { title: 'Estilo de Vida', link: '/cultura/estilo-de-vida/' }
+    ]}
+  />
+
+  <!-- Hero -->
+  <section class='py-12 mb-12'>
+    <div class='max-w-4xl'>
+      <div
+        class='inline-block bg-quimbara-magenta/10 text-quimbara-magenta px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wider mb-6 border border-quimbara-magenta/20'
+      >
+        Lifestyle
+      </div>
+      <h1 class='text-4xl md:text-6xl font-heading font-bold mb-6 text-quimbara-purple'>
+        ESTILO DE VIDA <span class='text-quimbara-magenta'>GUERRERO</span>
+      </h1>
+      <p class='text-xl text-quimbara-purple/70 leading-relaxed'>
+        Ser un peleador no es algo que haces durante 2 horas en el gimnasio. Es algo que eres las 24
+        horas del día. Cómo comes, cómo duermes y cómo piensas define tu rendimiento.
+      </p>
+    </div>
+  </section>
+
+  <!-- Habits Grid -->
+  <section class='grid grid-cols-1 md:grid-cols-3 gap-8 mb-16'>
+    {
+      habits.map((habit) => (
+        <div class='bg-white p-8 rounded-3xl border border-border shadow-sm hover:shadow-md transition-shadow'>
+          <div class='text-4xl mb-4'>{habit.icon}</div>
+          <h3 class='text-xl font-heading font-bold text-quimbara-purple mb-3'>{habit.title}</h3>
+          <p class='text-quimbara-purple/70 text-sm leading-relaxed'>{habit.desc}</p>
+        </div>
+      ))
+    }
+  </section>
+
+  <!-- Content -->
+  <div class='grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20'>
+    <div class='prose prose-lg prose-quimbara'>
+      <h2 class='text-3xl font-heading font-bold text-quimbara-purple'>El Mito del Talento</h2>
+      <p>
+        Vemos a los campeones levantar el cinturón bajo las luces brillantes, pero no vemos las
+        mañanas oscuras a las 5:00 AM corriendo bajo la lluvia. No vemos las comidas insípidas de
+        pollo y brócoli mientras los amigos comen pizza.
+      </p>
+      <p>
+        El estilo de vida del combate es solitario y exigente. Requiere sacrificar la gratificación
+        instantánea por una recompensa futura incierta. Es una inversión de fe en uno mismo.
+      </p>
+      <ul class='list-none pl-0 space-y-4 mt-6'>
+        <li class='flex items-center gap-3'>
+          <span
+            class='w-6 h-6 rounded-full bg-quimbara-magenta/10 text-quimbara-magenta flex items-center justify-center text-xs font-bold'
+            >✓</span
+          >
+          <span>Consistencia sobre intensidad</span>
+        </li>
+        <li class='flex items-center gap-3'>
+          <span
+            class='w-6 h-6 rounded-full bg-quimbara-magenta/10 text-quimbara-magenta flex items-center justify-center text-xs font-bold'
+            >✓</span
+          >
+          <span>Recuperación activa (yoga, movilidad)</span>
+        </li>
+        <li class='flex items-center gap-3'>
+          <span
+            class='w-6 h-6 rounded-full bg-quimbara-magenta/10 text-quimbara-magenta flex items-center justify-center text-xs font-bold'
+            >✓</span
+          >
+          <span>Desconexión digital y enfoque</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class='bg-quimbara-cream rounded-3xl p-8 border border-border'>
+      <h3 class='font-bold text-quimbara-purple mb-6 text-xl'>Rutina Típica de Campamento</h3>
+      <div
+        class='space-y-6 relative before:absolute before:left-[19px] before:top-2 before:bottom-2 before:w-0.5 before:bg-quimbara-purple/10'
+      >
+        <div class='relative pl-12'>
+          <div
+            class='absolute left-0 top-1 w-10 h-10 rounded-full bg-white border-2 border-quimbara-magenta flex items-center justify-center text-xs font-bold z-10'
+          >
+            06:00
+          </div>
+          <h4 class='font-bold text-quimbara-purple'>Cardio / Conditioning</h4>
+          <p class='text-sm text-quimbara-purple/60'>Carrera o sprints en ayunas.</p>
+        </div>
+        <div class='relative pl-12'>
+          <div
+            class='absolute left-0 top-1 w-10 h-10 rounded-full bg-white border-2 border-quimbara-purple flex items-center justify-center text-xs font-bold z-10'
+          >
+            11:00
+          </div>
+          <h4 class='font-bold text-quimbara-purple'>Entrenamiento Técnico</h4>
+          <p class='text-sm text-quimbara-purple/60'>Striking, Grappling o Wrestling específico.</p>
+        </div>
+        <div class='relative pl-12'>
+          <div
+            class='absolute left-0 top-1 w-10 h-10 rounded-full bg-white border-2 border-quimbara-purple flex items-center justify-center text-xs font-bold z-10'
+          >
+            18:00
+          </div>
+          <h4 class='font-bold text-quimbara-purple'>Sparring / Drills</h4>
+          <p class='text-sm text-quimbara-purple/60'>Aplicación en vivo de las técnicas.</p>
+        </div>
+        <div class='relative pl-12'>
+          <div
+            class='absolute left-0 top-1 w-10 h-10 rounded-full bg-white border-2 border-quimbara-magenta flex items-center justify-center text-xs font-bold z-10'
+          >
+            22:00
+          </div>
+          <h4 class='font-bold text-quimbara-purple'>Recuperación y Sueño</h4>
+          <p class='text-sm text-quimbara-purple/60'>8-9 horas de sueño profundo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</PageLayout>

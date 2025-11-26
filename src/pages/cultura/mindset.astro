@@ -1,0 +1,130 @@
+---
+import PageLayout from '@/layouts/BaseLayout.astro'
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+
+const meta = {
+  title: 'Mindset de Campeón - Psicología Deportiva en MMA | Quimbara',
+  description:
+    'Aprende cómo los campeones de UFC forjan una mentalidad inquebrantable. Técnicas de visualización, gestión del miedo, resiliencia y psicología de combate.'
+}
+
+const techniques = [
+  {
+    title: 'Visualización',
+    desc: 'Ensayar mentalmente cada escenario posible antes de que ocurra.',
+    color: 'bg-blue-100 text-blue-700'
+  },
+  {
+    title: 'Diálogo Interno',
+    desc: 'Controlar la narrativa en tu cabeza para silenciar la duda.',
+    color: 'bg-green-100 text-green-700'
+  },
+  {
+    title: 'Micro-Objetivos',
+    desc: 'Enfocarse en ganar el siguiente segundo, no toda la pelea.',
+    color: 'bg-orange-100 text-orange-700'
+  }
+]
+---
+
+<PageLayout {meta}>
+  <Breadcrumbs
+    path={[
+      { title: 'Inicio', link: '/' },
+      { title: 'Cultura', link: '/cultura/' },
+      { title: 'Mindset', link: '/cultura/mindset/' }
+    ]}
+  />
+
+  <!-- Hero -->
+  <section class='py-12 mb-12'>
+    <div class='grid grid-cols-1 md:grid-cols-2 gap-12 items-center'>
+      <div>
+        <div
+          class='inline-block bg-quimbara-magenta/10 text-quimbara-magenta px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wider mb-6 border border-quimbara-magenta/20'
+        >
+          Psicología Deportiva
+        </div>
+        <h1 class='text-4xl md:text-6xl font-heading font-bold mb-6 text-quimbara-purple'>
+          MINDSET DE <span class='text-quimbara-magenta'>CAMPEÓN</span>
+        </h1>
+        <p class='text-xl text-quimbara-purple/70 leading-relaxed mb-8'>
+          "Las peleas se ganan en el gimnasio y en la mente mucho antes de que suene la campana. El
+          octágono es solo donde se levanta la mano."
+        </p>
+        <div class='flex gap-4'>
+          {
+            techniques.map((t) => (
+              <div
+                class={`px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider ${t.color}`}
+              >
+                {t.title}
+              </div>
+            ))
+          }
+        </div>
+      </div>
+      <div class='relative'>
+        <div class='aspect-square rounded-3xl overflow-hidden bg-quimbara-purple/5 relative'>
+          <!-- Placeholder for mindset image -->
+          <div
+            class='absolute inset-0 flex items-center justify-center text-quimbara-purple/20 text-9xl'
+          >
+            🧠
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <div class='max-w-4xl mx-auto'>
+    <div class='prose prose-lg prose-quimbara max-w-none mb-16'>
+      <h2 class='text-3xl font-heading font-bold text-quimbara-purple'>La Tiranía de la Duda</h2>
+      <p>
+        Todos los peleadores sienten miedo. Georges St-Pierre, considerado por muchos el mejor de
+        todos los tiempos, admitía vomitar de nervios antes de sus peleas. La diferencia entre un
+        campeón y un amateur no es la ausencia de miedo, sino cómo lo gestionan.
+      </p>
+      <p>
+        El mindset de campeón se basa en aceptar la incomodidad como una compañera constante. Es la
+        capacidad de estar "cómodo en lo incómodo". Cuando el cuerpo grita "para", la mente
+        entrenada susurra "un round más".
+      </p>
+
+      <h3 class='text-2xl font-heading font-bold text-quimbara-purple mt-8'>
+        El Estado de Flujo (The Zone)
+      </h3>
+      <p>
+        Es ese momento mágico donde el pensamiento consciente se apaga y el instinto toma el
+        control. En el estado de flujo, el tiempo parece ralentizarse. Los golpes del oponente se
+        ven venir en cámara lenta. No hay duda, solo acción y reacción pura.
+      </p>
+      <p>
+        Para alcanzar este estado, los atletas de élite utilizan anclajes mentales, rutinas
+        pre-competitivas estrictas y años de repetición técnica hasta que el movimiento se vuelve
+        subconsciente.
+      </p>
+    </div>
+
+    <!-- Quote Card -->
+    <div
+      class='bg-quimbara-purple text-white p-10 rounded-3xl text-center relative overflow-hidden'
+    >
+      <div
+        class='absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-quimbara-magenta to-quimbara-pink'
+      >
+      </div>
+      <p class='text-2xl md:text-4xl font-heading font-bold mb-6 leading-tight'>
+        "No soy talentoso, estoy obsesionado."
+      </p>
+      <div class='flex items-center justify-center gap-4'>
+        <div class='w-12 h-12 rounded-full bg-white/10'></div>
+        <div class='text-left'>
+          <p class='font-bold text-quimbara-magenta'>Conor McGregor</p>
+          <p class='text-xs text-white/60 uppercase tracking-wider'>Ex-Campeón Doble UFC</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</PageLayout>

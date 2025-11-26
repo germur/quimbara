@@ -1,0 +1,143 @@
+---
+import PageLayout from '@/layouts/BaseLayout.astro'
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+
+const meta = {
+  title: 'Filosofía de Pelea - El Código del Guerrero Moderno | Quimbara',
+  description:
+    'Descubre los principios éticos y filosóficos que rigen las artes marciales mixtas. Bushido moderno, respeto, honor y la búsqueda de la perfección personal a través del combate.'
+}
+
+const principles = [
+  {
+    title: 'Respeto (Rei)',
+    description:
+      'El combate comienza y termina con respeto. Sin él, la violencia pierde su propósito y se convierte en salvajismo.',
+    icon: '🙇'
+  },
+  {
+    title: 'Honor (Meiyo)',
+    description:
+      'La integridad dentro y fuera del octágono. Pelear limpio, aceptar la derrota con dignidad y la victoria con humildad.',
+    icon: '🛡️'
+  },
+  {
+    title: 'Coraje (Yu)',
+    description:
+      'No es la ausencia de miedo, sino la capacidad de actuar a pesar de él. Entrar a la jaula es el acto supremo de valentía.',
+    icon: '🦁'
+  },
+  {
+    title: 'Autocontrol (Jisei)',
+    description:
+      'La capacidad de dominar las emociones bajo presión extrema. La ira te hace descuidado; la calma te hace peligroso.',
+    icon: '🌊'
+  }
+]
+---
+
+<PageLayout {meta}>
+  <Breadcrumbs
+    path={[
+      { title: 'Inicio', link: '/' },
+      { title: 'Cultura', link: '/cultura/' },
+      { title: 'Filosofía', link: '/cultura/filosofia/' }
+    ]}
+  />
+
+  <!-- Hero -->
+  <section class='py-12 mb-12 text-center'>
+    <div
+      class='inline-block bg-quimbara-magenta/10 text-quimbara-magenta px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wider mb-6 border border-quimbara-magenta/20'
+    >
+      Principios
+    </div>
+    <h1 class='text-4xl md:text-6xl font-heading font-bold mb-6 text-quimbara-purple'>
+      FILOSOFÍA DE <span class='text-quimbara-magenta'>PELEA</span>
+    </h1>
+    <p class='text-xl text-quimbara-purple/70 max-w-3xl mx-auto leading-relaxed'>
+      "El arte marcial no se trata de luchar contra otros, sino de luchar contra uno mismo. El
+      oponente externo es solo un espejo de tus propias debilidades."
+    </p>
+  </section>
+
+  <!-- Main Content -->
+  <div class='grid grid-cols-1 lg:grid-cols-3 gap-12 mb-20'>
+    <!-- Article -->
+    <article class='lg:col-span-2 prose prose-lg prose-quimbara max-w-none'>
+      <h2 class='text-3xl font-heading font-bold text-quimbara-purple mb-6'>El Bushido Moderno</h2>
+      <p>
+        En la era de las Artes Marciales Mixtas (MMA), donde la tecnología y la ciencia deportiva
+        han llevado el rendimiento humano a niveles inimaginables, existe un hilo invisible que
+        conecta a los campeones de hoy con los guerreros del pasado: <strong>el código ético</strong
+        >.
+      </p>
+      <p>
+        A diferencia de lo que muchos espectadores casuales pueden pensar, el MMA no es un deporte
+        de violencia descontrolada. Es un ajedrez físico jugado a alta velocidad, donde la
+        disciplina mental es tan importante como la fuerza física.
+      </p>
+
+      <h3 class='text-2xl font-heading font-bold text-quimbara-purple mt-8 mb-4'>
+        La Paradoja del Guerrero
+      </h3>
+      <p>
+        La gran paradoja de las artes marciales es que aprendemos a ser peligrosos para poder ser
+        pacíficos. Un verdadero artista marcial tiene la capacidad de causar gran daño, pero elige
+        no hacerlo a menos que sea absolutamente necesario. Esta restricción voluntaria es lo que
+        define el carácter.
+      </p>
+
+      <blockquote
+        class='border-l-4 border-quimbara-magenta pl-6 italic text-quimbara-purple/80 my-8'
+      >
+        "Es mejor ser un guerrero en un jardín, que un jardinero en una guerra." — Proverbio Samurai
+      </blockquote>
+
+      <h3 class='text-2xl font-heading font-bold text-quimbara-purple mt-8 mb-4'>
+        El Octágono como Templo
+      </h3>
+      <p>
+        Para el peleador, la jaula no es solo un área de competencia, es un lugar de verdad
+        absoluta. Allí dentro no puedes mentir. No puedes esconderte detrás de excusas, dinero o
+        estatus social. Estás solo con tu preparación y tu espíritu. Es el examen final de la
+        honestidad personal.
+      </p>
+    </article>
+
+    <!-- Sidebar -->
+    <aside class='space-y-8'>
+      <div class='bg-quimbara-cream p-8 rounded-3xl border border-border'>
+        <h3 class='font-heading text-xl font-bold text-quimbara-purple mb-6'>Los 4 Pilares</h3>
+        <div class='space-y-6'>
+          {
+            principles.map((item) => (
+              <div class='flex gap-4'>
+                <div class='text-2xl'>{item.icon}</div>
+                <div>
+                  <h4 class='font-bold text-quimbara-magenta mb-1'>{item.title}</h4>
+                  <p class='text-sm text-quimbara-purple/70 leading-relaxed'>{item.description}</p>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+
+      <div class='bg-gradient-to-br from-quimbara-purple to-[#2a1f30] p-8 rounded-3xl text-white'>
+        <h3 class='font-heading text-xl font-bold mb-4'>Lectura Recomendada</h3>
+        <ul class='space-y-3 text-white/80 text-sm'>
+          <li class='flex items-center gap-2'>
+            <span class='text-quimbara-magenta'>•</span> El Libro de los Cinco Anillos (Miyamoto Musashi)
+          </li>
+          <li class='flex items-center gap-2'>
+            <span class='text-quimbara-magenta'>•</span> El Arte de la Guerra (Sun Tzu)
+          </li>
+          <li class='flex items-center gap-2'>
+            <span class='text-quimbara-magenta'>•</span> Hagakure: El Libro del Samurai
+          </li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</PageLayout>
