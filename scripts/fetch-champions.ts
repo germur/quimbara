@@ -22,18 +22,18 @@ const CHAMPIONS_IDS: Record<string, number> = {
     'Women\'s Strawweight': 182
 }
 
-// IDs para P4P (Top 10)
+// IDs para P4P (Top 10 - Actualizado Nov 2024)
 const P4P_IDS = [
-    333,  // Islam Makhachev
-    214,  // Jon Jones
-    2436, // Alex Pereira
-    855,  // Ilia Topuria
-    290,  // Merab Dvalishvili
-    856,  // Dricus Du Plessis
-    250,  // Alexandre Pantoja
-    15,   // Belal Muhammad
-    19,   // Israel Adesanya
-    17    // Kamaru Usman
+    333,  // 1. Islam Makhachev
+    2436, // 2. Alex Pereira
+    855,  // 3. Ilia Topuria
+    290,  // 4. Merab Dvalishvili
+    856,  // 5. Dricus Du Plessis
+    15,   // 6. Belal Muhammad
+    250,  // 7. Alexandre Pantoja
+    701,  // 8. Tom Aspinall
+    19,   // 9. Charles Oliveira
+    1665  // 10. Max Holloway
 ]
 
 interface FighterDetails {

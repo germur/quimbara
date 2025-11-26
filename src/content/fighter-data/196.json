@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "id": 196,
+    "name": "Michelle Waterson-Gomez",
+    "nickname": "The Karate Hottie",
+    "photo": "https://media.api-sports.io/mma/fighters/196.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 3'",
+    "weight": "115 lbs",
+    "reach": "62'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 55,
+      "name": "Jackson-Wink MMA"
+    },
+    "last_update": "2025-06-04T14:48:32+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 196,
+      "name": "Michelle Waterson-Gomez",
+      "photo": "https://media.api-sports.io/mma/fighters/196.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 13,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 2
+    },
+    "sub": {
+      "win": 9,
+      "loss": 4
+    }
+  },
+  "fights": [
+    {
+      "id": 639,
+      "date": "2023-04-09T01:00:00+00:00",
+      "time": "01:00",
+      "timestamp": 1681002000,
+      "timezone": "UTC",
+      "slug": "UFC 287: Pereira vs. Adesanya 2",
+      "is_main": false,
+      "category": "Women's Strawweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 880,
+          "name": "Luana Pinheiro",
+          "logo": "https://media.api-sports.io/mma/fighters/880.png",
+          "winner": true
+        },
+        "second": {
+          "id": 196,
+          "name": "Michelle Waterson-Gomez",
+          "logo": "https://media.api-sports.io/mma/fighters/196.png",
+          "winner": false
+        }
+      }
+    },
+    {
+      "id": 935,
+      "date": "2023-09-24T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1695513600,
+      "timezone": "UTC",
+      "slug": "UFC Fight Night: Fiziev vs. Gamrot",
+      "is_main": true,
+      "category": "Women's Strawweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 196,
+          "name": "Michelle Waterson-Gomez",
+          "logo": "https://media.api-sports.io/mma/fighters/196.png",
+          "winner": false
+        },
+        "second": {
+          "id": 192,
+          "name": "Marina Rodriguez",
+          "logo": "https://media.api-sports.io/mma/fighters/192.png",
+          "winner": true
+        }
+      }
+    },
+    {
+      "id": 1298,
+      "date": "2024-06-29T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1719669600,
+      "timezone": "UTC",
+      "slug": "UFC 303: Pereira vs. ProchÃ¡zka 2",
+      "is_main": false,
+      "category": "Women's Strawweight",
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "fighters": {
+        "first": {
+          "id": 203,
+          "name": "Gillian Robertson",
+          "logo": "https://media.api-sports.io/mma/fighters/203.png",
+          "winner": true
+        },
+        "second": {
+          "id": 196,
+          "name": "Michelle Waterson-Gomez",
+          "logo": "https://media.api-sports.io/mma/fighters/196.png",
+          "winner": false
+        }
+      }
+    }
+  ],
+  "cachedAt": "2025-11-26T12:54:17.404Z"
+}

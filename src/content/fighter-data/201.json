@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 201,
+    "name": "Callan Potter",
+    "nickname": "The Rockstar",
+    "photo": "https://media.api-sports.io/mma/fighters/201.png",
+    "gender": "M",
+    "birth_date": "1984-06-09",
+    "age": 36,
+    "height": "6' 0'",
+    "weight": "170 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 112,
+      "name": "Renegade MMA"
+    },
+    "last_update": "2025-06-04T14:51:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 201,
+      "name": "Callan Potter",
+      "photo": "https://media.api-sports.io/mma/fighters/201.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 5
+    },
+    "sub": {
+      "win": 10,
+      "loss": 4
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-26T12:54:15.933Z"
+}

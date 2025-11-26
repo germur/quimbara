@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-26T02:22:37.082Z",
+  "generatedAt": "2025-11-26T12:54:26.225Z",
   "champions": {
     "Heavyweight": {
       "id": 701,
@@ -128,6 +128,54 @@
         "loss": 5,
         "draw": 0
       }
+    },
+    "Women's Bantamweight": {
+      "id": 201,
+      "name": "Callan Potter",
+      "nickname": "The Rockstar",
+      "photo": "https://media.api-sports.io/mma/fighters/201.png",
+      "weight": "170 lbs",
+      "height": "6' 0'",
+      "reach": "72'",
+      "birth_date": "1984-06-09",
+      "record": {
+        "total": 27,
+        "win": 18,
+        "loss": 9,
+        "draw": 0
+      }
+    },
+    "Women's Flyweight": {
+      "id": 196,
+      "name": "Michelle Waterson-Gomez",
+      "nickname": "The Karate Hottie",
+      "photo": "https://media.api-sports.io/mma/fighters/196.png",
+      "weight": "115 lbs",
+      "height": "5' 3'",
+      "reach": "62'",
+      "birth_date": null,
+      "record": {
+        "total": 31,
+        "win": 18,
+        "loss": 13,
+        "draw": 0
+      }
+    },
+    "Women's Strawweight": {
+      "id": 182,
+      "name": "Anthony Pettis",
+      "nickname": "Showtime",
+      "photo": "https://media.api-sports.io/mma/fighters/182.png",
+      "weight": "155 lbs",
+      "height": "5' 10'",
+      "reach": "73'",
+      "birth_date": "1987-01-27",
+      "record": {
+        "total": 34,
+        "win": 24,
+        "loss": 10,
+        "draw": 0
+      }
     }
   },
   "p4p": [
@@ -139,22 +187,6 @@
       "weight": "170 lbs",
       "height": "5' 10'",
       "reach": "70.5'",
-      "birth_date": null,
-      "record": {
-        "total": 29,
-        "win": 28,
-        "loss": 1,
-        "draw": 0
-      }
-    },
-    {
-      "id": 214,
-      "name": "Jon Jones",
-      "nickname": "Bones",
-      "photo": "https://media.api-sports.io/mma/fighters/214.png",
-      "weight": "238 lbs",
-      "height": "6' 4'",
-      "reach": "84.5'",
       "birth_date": null,
       "record": {
         "total": 29,
@@ -228,6 +260,22 @@
       }
     },
     {
+      "id": 15,
+      "name": "Belal Muhammad",
+      "nickname": "Remember the Name",
+      "photo": "https://media.api-sports.io/mma/fighters/15.png",
+      "weight": "170 lbs",
+      "height": "5' 11'",
+      "reach": "72'",
+      "birth_date": null,
+      "record": {
+        "total": 28,
+        "win": 24,
+        "loss": 4,
+        "draw": 0
+      }
+    },
+    {
       "id": 250,
       "name": "Alexandre Pantoja",
       "nickname": "The Cannibal",
@@ -244,18 +292,18 @@
       }
     },
     {
-      "id": 15,
-      "name": "Belal Muhammad",
-      "nickname": "Remember the Name",
-      "photo": "https://media.api-sports.io/mma/fighters/15.png",
-      "weight": "170 lbs",
-      "height": "5' 11'",
-      "reach": "72'",
+      "id": 701,
+      "name": "Tom Aspinall",
+      "nickname": "",
+      "photo": "https://media.api-sports.io/mma/fighters/701.png",
+      "weight": "251 lbs",
+      "height": "6' 5'",
+      "reach": "78'",
       "birth_date": null,
       "record": {
-        "total": 28,
-        "win": 24,
-        "loss": 4,
+        "total": 18,
+        "win": 15,
+        "loss": 3,
         "draw": 0
       }
     },
@@ -276,18 +324,18 @@
       }
     },
     {
-      "id": 17,
-      "name": "Alexander Hernandez",
-      "nickname": "The Great Ape",
-      "photo": "https://media.api-sports.io/mma/fighters/17.png",
-      "weight": "155 lbs",
-      "height": "5' 9'",
-      "reach": "72'",
+      "id": 1665,
+      "name": "Dale Hartt",
+      "nickname": "",
+      "photo": "https://media.api-sports.io/mma/fighters/1665.png",
+      "weight": null,
+      "height": null,
+      "reach": "69'",
       "birth_date": null,
       "record": {
-        "total": 26,
-        "win": 18,
-        "loss": 8,
+        "total": 3,
+        "win": 1,
+        "loss": 2,
         "draw": 0
       }
     }

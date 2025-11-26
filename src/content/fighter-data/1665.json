@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 1665,
+    "name": "Dale Hartt",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/1665.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": null,
+    "weight": null,
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": null,
+      "name": null
+    },
+    "last_update": "2025-06-05T03:03:06+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 1665,
+      "name": "Dale Hartt",
+      "photo": "https://media.api-sports.io/mma/fighters/1665.png"
+    },
+    "total": {
+      "win": 1,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 1,
+      "loss": 0
+    },
+    "sub": {
+      "win": 0,
+      "loss": 2
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-26T12:54:14.465Z"
+}
