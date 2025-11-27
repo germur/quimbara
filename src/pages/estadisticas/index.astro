@@ -27,7 +27,7 @@ const allFighters = await Promise.all(
         winStreak: getWinStreak(fights, fighter.id),
         finishStats: records ? getFinishRate(records) : { finishRate: 0, koRate: 0, subRate: 0 },
         fightsLastYear: getFightsInLastMonths(fights, 12),
-        age: profile?.age || 0,
+        age: (profile as any)?.age || 0,
         height: profile?.height ? parseInt(profile.height.replace(/\D/g, '')) : 0, // Extract cm
         reach: profile?.reach ? parseInt(profile.reach.replace(/\D/g, '')) : 0 // Extract cm
       }
