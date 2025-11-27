@@ -9,14 +9,30 @@ import config from '@/site-config'
 
 export const prerender = true
 
-// Featured fighters - Top fighters from API (NO champion claims)
-const featuredFighters = fightersData.slice(0, 6).map((fighter) => ({
-  name: fighter.name,
-  title: fighter.division,
-  description: fighter.description || 'Peleador destacado de UFC',
-  href: `/peleadores/${fighter.slug}`,
-  image: `https://media.api-sports.io/mma/fighters/${fighter.id}.png`
-}))
+// Featured fighters - Curated trending fighters
+const trendingFighterSlugs = [
+  'islam-makhachev',
+  'ilia-topuria',
+  'alex-pereira',
+  'alexandre-pantoja',
+  'merab-dvalishvili',
+  'khamzat-chimaev',
+  'ian-machado-garry'
+]
+
+const featuredFighters = trendingFighterSlugs
+  .map((slug) => {
+    const fighter = fightersData.find((f) => f.slug === slug)
+    if (!fighter) return null
+    return {
+      name: fighter.name,
+      title: fighter.division,
+      description: fighter.description || 'Peleador destacado de UFC',
+      href: `/peleadores/${fighter.slug}`,
+      image: `https://media.api-sports.io/mma/fighters/${fighter.id}.png`
+    }
+  })
+  .filter((f): f is NonNullable<typeof f> => f !== null)
 
 // Win streaks - Load fighter data and calculate streaks
 const fightersWithStreaks = await Promise.all(
