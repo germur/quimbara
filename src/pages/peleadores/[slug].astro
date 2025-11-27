@@ -1,0 +1,107 @@
+---
+import { existsSync } from 'fs'
+import { join } from 'path'
+import { getCollection, render } from 'astro:content'
+import fightersData from '@/data/fighters.json'
+
+import PageLayout from '@/layouts/BaseLayout.astro'
+import PostLayout from '@/layouts/BlogPost.astro'
+import FighterProfile from '@/components/special/FighterProfile.astro'
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('blog')
+
+  // 1. Obtener perfiles manuales (MDX)
+  const manualProfiles = allPosts.filter((p) => p.id.startsWith('perfiles-luchadores/'))
+  const manualSlugs = new Set(
+    manualProfiles.map((p) => p.id.split('/').pop()?.replace('.mdx', '') || '')
+  )
+
+  const paths = []
+
+  // Agregar rutas para perfiles manuales
+  for (const post of manualProfiles) {
+    const slug = post.id.split('/').pop()?.replace('.mdx', '')
+    if (slug) {
+      paths.push({
+        params: { slug },
+        props: { post, type: 'manual' }
+      })
+    }
+  }
+
+  // 2. Obtener perfiles automáticos (JSON)
+  const automatedFighters = fightersData.filter((f) => {
+    // Si ya existe como manual, NO lo agregamos como automático (el manual tiene prioridad)
+    if (manualSlugs.has(f.slug)) return false
+
+    // Verificar que existe el archivo de datos
+    const dataPath = join(process.cwd(), 'src/content/fighter-data', `${f.id}.json`)
+    return existsSync(dataPath)
+  })
+
+  // Agregar rutas para perfiles automáticos
+  automatedFighters.forEach((fighter) => {
+    paths.push({
+      params: { slug: fighter.slug },
+      props: { fighter, type: 'auto' }
+    })
+  })
+
+  return paths
+}
+
+const { post, fighter, type } = Astro.props
+
+// Preparar contenido si es manual
+let Content: any = null
+let headings: any[] = []
+let remarkPluginFrontmatter: Record<string, unknown> = {}
+
+if (type === 'manual' && post) {
+  const rendered = await render(post)
+  Content = rendered.Content
+  headings = rendered.headings
+  remarkPluginFrontmatter = rendered.remarkPluginFrontmatter || {}
+}
+
+// Meta tags
+const meta =
+  type === 'manual' && post
+    ? {
+        title: post.data.title,
+        description: post.data.description,
+        image: post.data.heroImage?.src,
+        articleDate: post.data.publishDate
+      }
+    : fighter
+      ? {
+          title: `${fighter.name}: Perfil, Récord y Estadísticas UFC | Quimbara`,
+          description: `${fighter.name} (${fighter.division}). Perfil oficial, récord, estadísticas, altura, peso y próximas peleas en UFC.`,
+          image: `https://media.api-sports.io/mma/fighters/${fighter.id}.png`
+        }
+      : {
+          title: 'Perfil de Peleador',
+          description: 'Perfil de peleador de UFC'
+        }
+---
+
+{
+  type === 'manual' && post && Content ? (
+    <PostLayout
+      post={post}
+      headings={headings}
+      remarkPluginFrontmatter={remarkPluginFrontmatter}
+      fullWidth={true}
+    >
+      <Content />
+    </PostLayout>
+  ) : fighter ? (
+    <PageLayout meta={meta} fullWidth={true}>
+      <div class='pt-20'>
+        <FighterProfile fighterId={fighter.id} />
+      </div>
+    </PageLayout>
+  ) : null
+}
+```
