@@ -2,6 +2,7 @@
 import { getEntry } from 'astro:content'
 
 import { Button } from 'astro-pure/user'
+import { getFightingStyle, getFinishRate, getWinStreak, isUndefeated } from '@/utils/fighter-stats'
 
 interface Props {
   fighterId: number
@@ -14,6 +15,7 @@ interface Props {
 }
 
 interface Fight {
+  id: number
   status: { short: string; long: string }
   fighters: {
     first: { id: number; winner: boolean; name: string }
@@ -100,8 +102,16 @@ try {
     nextFight = recentFights.find((f) => f.status.short === 'NS') || null
   }
 } catch (e) {
-  console.error(`Error reading fighter data for fighterId ${fighterId}:`, e)
+  console.error(`[FighterProfile] Error loading data for ${fighterId}:`, e)
 }
+
+// Calculate derived stats
+const winStreak = fighter && recentFights.length ? getWinStreak(recentFights, fighterId) : 0
+const undefeated = records ? isUndefeated(records) : false
+const fightingStyle = records
+  ? getFightingStyle(records)
+  : { primary: 'balanced', label: 'All-Rounder' }
+const finishStats = records ? getFinishRate(records) : { finishRate: 0, koRate: 0, subRate: 0 }
 
 // CRITICAL: If no fighter data, stop rendering now
 if (!fighter) {
@@ -208,8 +218,18 @@ const athleteSchema = fighter
                 <img src={fighter.photo} alt={fighter.name} class='w-full h-full object-cover' />
               </div>
               {/* Rank Badge */}
-              <div class='absolute -bottom-4 -right-4 bg-quimbara-magenta text-white font-black text-2xl w-16 h-16 flex items-center justify-center rounded-full border-4 border-white shadow-lg z-20'>
-                C
+              {/* Dynamic Badges */}
+              <div class='absolute -bottom-4 -right-4 flex flex-col gap-2 items-end z-20'>
+                {undefeated && (
+                  <div class='bg-quimbara-magenta text-white font-bold text-xs px-3 py-1 rounded-full border-2 border-white shadow-lg uppercase tracking-wider'>
+                    Invicto
+                  </div>
+                )}
+                {winStreak >= 3 && (
+                  <div class='bg-green-500 text-white font-bold text-xs px-3 py-1 rounded-full border-2 border-white shadow-lg uppercase tracking-wider'>
+                    {winStreak} Wins Streak
+                  </div>
+                )}
               </div>
             </div>
 
@@ -257,19 +277,18 @@ const athleteSchema = fighter
                   </span>
                 </div>
               </div>
-              <div class='flex justify-center gap-6 mt-4 text-base font-mono text-quimbara-purple/70'>
-                <span>
-                  <span class='text-quimbara-magenta font-bold'>
-                    {records && records.ko ? records.ko.win : 0}
-                  </span>{' '}
-                  KO
-                </span>
-                <span>
-                  <span class='text-quimbara-magenta font-bold'>
-                    {records && records.sub ? records.sub.win : 0}
-                  </span>{' '}
-                  SUB
-                </span>
+              </div>
+              
+              {/* Style Analysis Badge */}
+              <div class="mt-6 flex flex-wrap gap-3 justify-center lg:justify-start">
+                <div class="bg-quimbara-purple/5 px-4 py-2 rounded-lg border border-quimbara-purple/10">
+                  <span class="text-xs uppercase font-bold text-quimbara-purple/60 block">Estilo</span>
+                  <span class="font-bold text-quimbara-purple">{fightingStyle.label}</span>
+                </div>
+                <div class="bg-quimbara-purple/5 px-4 py-2 rounded-lg border border-quimbara-purple/10">
+                  <span class="text-xs uppercase font-bold text-quimbara-purple/60 block">Finalización</span>
+                  <span class="font-bold text-quimbara-purple">{finishStats.finishRate}%</span>
+                </div>
               </div>
             </div>
           </div>
@@ -323,6 +342,35 @@ const athleteSchema = fighter
             </span>
             <span class='text-2xl font-bold text-quimbara-magenta'>{fighter.stance}</span>
           </div>
+        </div>
+      </section>
+
+      {/* 2.5 FIGHT TIMELINE */}
+      <section class="bg-white border border-border p-8 rounded-3xl shadow-sm">
+        <h2 class="text-xl font-bold text-quimbara-purple mb-6 flex items-center gap-2">
+          <span>📈</span> Racha Reciente
+        </h2>
+        <div class="flex items-center gap-4 overflow-x-auto pb-4 custom-scrollbar">
+          {recentFights.filter(f => f.status.short === 'FT').slice(0, 10).map(fight => {
+             const isWinner = (fight.fighters.first.id === fighterId && fight.fighters.first.winner) || 
+                              (fight.fighters.second.id === fighterId && fight.fighters.second.winner);
+             const opponent = fight.fighters.first.id === fighterId ? fight.fighters.second.name : fight.fighters.first.name;
+             
+             return (
+               <div class="flex flex-col items-center min-w-[100px] relative group">
+                 <div class={`w-12 h-12 rounded-full flex items-center justify-center text-white font-bold mb-2 shadow-md transition-transform group-hover:scale-110 ${isWinner ? 'bg-green-500' : 'bg-red-500'}`}>
+                   {isWinner ? 'W' : 'L'}
+                 </div>
+                 <div class="text-xs text-center font-bold text-quimbara-purple truncate w-full px-1" title={opponent}>{opponent}</div>
+                 <div class="text-[10px] text-quimbara-purple/60">{new Date(fight.date).toLocaleDateString('es-ES', { month: 'short', year: '2-digit' })}</div>
+                 
+                 {/* Tooltip */}
+                 <div class="absolute bottom-full mb-2 hidden group-hover:block bg-quimbara-purple text-white text-xs p-2 rounded whitespace-nowrap z-10">
+                    {isWinner ? 'Victoria' : 'Derrota'} vs {opponent}
+                 </div>
+               </div>
+             )
+          })}
         </div>
       </section>
 
