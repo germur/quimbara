@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 2654,
+    "name": "Carlos Prates",
+    "nickname": "The Nightmare",
+    "photo": "https://media.api-sports.io/mma/fighters/2654.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "170 lbs",
+    "reach": "78'",
+    "stance": "Switch",
+    "category": "Welterweight",
+    "team": {
+      "id": 667,
+      "name": "Fighting Nerds"
+    },
+    "last_update": "2025-11-23T00:08:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2654,
+      "name": "Carlos Prates",
+      "photo": "https://media.api-sports.io/mma/fighters/2654.png"
+    },
+    "total": {
+      "win": 22,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 17,
+      "loss": 2
+    },
+    "sub": {
+      "win": 3,
+      "loss": 3
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T14:40:19.019Z"
+}
