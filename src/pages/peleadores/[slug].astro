@@ -5,7 +5,6 @@ import { getCollection, render } from 'astro:content'
 import fightersData from '@/data/fighters.json'
 
 import PageLayout from '@/layouts/BaseLayout.astro'
-import PostLayout from '@/layouts/BlogPost.astro'
 import FighterProfile from '@/components/special/FighterProfile.astro'
 
 export async function getStaticPaths() {
@@ -55,14 +54,9 @@ const { post, fighter, type } = Astro.props
 
 // Preparar contenido si es manual
 let Content: any = null
-let headings: any[] = []
-let remarkPluginFrontmatter: Record<string, unknown> = {}
-
 if (type === 'manual' && post) {
   const rendered = await render(post)
   Content = rendered.Content
-  headings = rendered.headings
-  remarkPluginFrontmatter = rendered.remarkPluginFrontmatter || {}
 }
 
 // Meta tags
@@ -70,15 +64,12 @@ const meta =
   type === 'manual' && post
     ? {
         title: post.data.title,
-        description: post.data.description,
-        image: post.data.heroImage?.src,
-        articleDate: post.data.publishDate
+        description: post.data.description
       }
     : fighter
       ? {
           title: `${fighter.name}: Perfil, Récord y Estadísticas UFC | Quimbara`,
-          description: `${fighter.name} (${fighter.division}). Perfil oficial, récord, estadísticas, altura, peso y próximas peleas en UFC.`,
-          image: `https://media.api-sports.io/mma/fighters/${fighter.id}.png`
+          description: `${fighter.name} (${fighter.division}). Perfil oficial, récord, estadísticas, altura, peso y próximas peleas en UFC.`
         }
       : {
           title: 'Perfil de Peleador',
@@ -86,22 +77,14 @@ const meta =
         }
 ---
 
-{
-  type === 'manual' && post && Content ? (
-    <PostLayout
-      post={post}
-      headings={headings}
-      remarkPluginFrontmatter={remarkPluginFrontmatter}
-      fullWidth={true}
-    >
-      <Content />
-    </PostLayout>
-  ) : fighter ? (
-    <PageLayout meta={meta} fullWidth={true}>
-      <div class='pt-20'>
+<PageLayout meta={meta} fullWidth={true}>
+  <div class='pt-20'>
+    {
+      type === 'manual' && Content ? (
+        <Content />
+      ) : fighter ? (
         <FighterProfile fighterId={fighter.id} />
-      </div>
-    </PageLayout>
-  ) : null
-}
-```
+      ) : null
+    }
+  </div>
+</PageLayout>

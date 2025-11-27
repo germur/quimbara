@@ -177,7 +177,7 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
                     </td>
                     <td class='p-4 text-right'>
                       <a
-                        href={`/blog/perfiles-luchadores/${fighter.slug}`}
+                        href={`/peleadores/${fighter.slug}`}
                         class='text-xs text-quimbara-magenta font-bold uppercase hover:text-[#D63384] transition-colors flex items-center justify-end gap-1'
                       >
                         Ver Perfil →
@@ -252,7 +252,7 @@ const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/
       {
         divisionFighters.map((fighter) => (
           <a
-            href={`/blog/perfiles-luchadores/${fighter.slug}`}
+            href={`/peleadores/${fighter.slug}`}
             class='group block bg-white rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 border border-border hover:border-quimbara-magenta'
           >
             <div class='aspect-square relative overflow-hidden bg-quimbara-cream'>

@@ -1,109 +1,115 @@
 ---
-import fightersData from '../../data/fighters.json';
+import fightersData from '../../data/fighters.json'
 
 // Define Fighter interface
 interface Fighter {
-  id: number;
-  name: string;
-  slug: string;
-  description: string;
-  division: string;
+  id: number
+  name: string
+  slug: string
+  description: string
+  division: string
 }
 
-const fighters = fightersData as Fighter[];
+const fighters = fightersData as Fighter[]
 
 // Get unique divisions
-const divisions = [...new Set(fighters.map((f) => f.division))].sort();
+const divisions = [...new Set(fighters.map((f) => f.division))].sort()
 ---
 
-<div class="container mx-auto px-4 py-8">
-  <h1 class="text-4xl font-bold text-quimbara-magenta mb-8 text-center">Directorio de Luchadores UFC</h1>
+<div class='container mx-auto px-4 py-8'>
+  <h1 class='text-4xl font-bold text-quimbara-magenta mb-8 text-center'>
+    Directorio de Luchadores UFC
+  </h1>
 
   <!-- Division Filters -->
-  <div class="flex flex-wrap justify-center gap-4 mb-12">
-    <button 
-      class="px-4 py-2 rounded-full bg-quimbara-purple text-quimbara-purple hover:bg-quimbara-primary hover:text-quimbara-magenta transition-colors active-filter"
-      data-filter="all"
+  <div class='flex flex-wrap justify-center gap-4 mb-12'>
+    <button
+      class='px-4 py-2 rounded-full bg-quimbara-purple text-quimbara-purple hover:bg-quimbara-primary hover:text-quimbara-magenta transition-colors active-filter'
+      data-filter='all'
     >
       Todos
     </button>
-    {divisions.map((division) => (
-      <button 
-        class="px-4 py-2 rounded-full bg-quimbara-purple text-quimbara-purple hover:bg-quimbara-primary hover:text-quimbara-magenta transition-colors"
-        data-filter={division}
-      >
-        {division}
-      </button>
-    ))}
+    {
+      divisions.map((division) => (
+        <button
+          class='px-4 py-2 rounded-full bg-quimbara-purple text-quimbara-purple hover:bg-quimbara-primary hover:text-quimbara-magenta transition-colors'
+          data-filter={division}
+        >
+          {division}
+        </button>
+      ))
+    }
   </div>
 
   <!-- Fighters Grid -->
-  <div id="fighters-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-    {fighters.map((fighter) => (
-      <a 
-        href={`/blog/perfiles-luchadores/${fighter.slug}`}
-        class="group relative block bg-quimbara-purple rounded-xl overflow-hidden hover:ring-2 hover:ring-quimbara-primary transition-all duration-300 fighter-card"
-        data-division={fighter.division}
-      >
-        <div class="aspect-[3/4] overflow-hidden bg-quimbara-purple relative">
-           <img 
-            src={`https://media.api-sports.io/mma/fighters/${fighter.id}.png`}
-            alt={fighter.name}
-            class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500"
-            loading="lazy"
-            onerror="this.src='/images/fighter-placeholder.png'"
-          />
-          <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-80"></div>
-          
-          <div class="absolute bottom-0 left-0 right-0 p-4">
-            <span class="text-xs font-bold text-quimbara-secondary uppercase tracking-wider mb-1 block">
-              {fighter.division}
-            </span>
-            <h3 class="text-lg font-bold text-quimbara-magenta leading-tight group-hover:text-quimbara-primary transition-colors">
-              {fighter.name}
-            </h3>
-            <p class="text-sm text-quimbara-purple mt-1 line-clamp-1">
-              {fighter.description ? fighter.description.replace(/\"/g, '') : ''}
-            </p>
+  <div id='fighters-grid' class='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
+    {
+      fighters.map((fighter) => (
+        <a
+          href={`/peleadores/${fighter.slug}`}
+          class='group relative block bg-quimbara-purple rounded-xl overflow-hidden hover:ring-2 hover:ring-quimbara-primary transition-all duration-300 fighter-card'
+          data-division={fighter.division}
+        >
+          <div class='aspect-[3/4] overflow-hidden bg-quimbara-purple relative'>
+            <img
+              src={`https://media.api-sports.io/mma/fighters/${fighter.id}.png`}
+              alt={fighter.name}
+              class='w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500'
+              loading='lazy'
+              onerror="this.src='/images/fighter-placeholder.png'"
+            />
+            <div class='absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-80' />
+
+            <div class='absolute bottom-0 left-0 right-0 p-4'>
+              <span class='text-xs font-bold text-quimbara-secondary uppercase tracking-wider mb-1 block'>
+                {fighter.division}
+              </span>
+              <h3 class='text-lg font-bold text-quimbara-magenta leading-tight group-hover:text-quimbara-primary transition-colors'>
+                {fighter.name}
+              </h3>
+              <p class='text-sm text-quimbara-purple mt-1 line-clamp-1'>
+                {fighter.description ? fighter.description.replace(/\"/g, '') : ''}
+              </p>
+            </div>
           </div>
-        </div>
-      </a>
-    ))}
+        </a>
+      ))
+    }
   </div>
 </div>
 
 <script>
   // Filter Logic
-  const buttons = document.querySelectorAll<HTMLButtonElement>('[data-filter]');
-  const cards = document.querySelectorAll<HTMLElement>('.fighter-card');
+  const buttons = document.querySelectorAll<HTMLButtonElement>('[data-filter]')
+  const cards = document.querySelectorAll<HTMLElement>('.fighter-card')
 
-  buttons.forEach(btn => {
+  buttons.forEach((btn) => {
     btn.addEventListener('click', () => {
       // Update active state
-      buttons.forEach(b => {
-        b.classList.remove('bg-quimbara-primary', 'text-quimbara-magenta');
-        b.classList.add('bg-quimbara-purple', 'text-quimbara-purple');
-      });
-      
-      btn.classList.remove('bg-quimbara-purple', 'text-quimbara-purple');
-      btn.classList.add('bg-quimbara-primary', 'text-quimbara-magenta');
+      buttons.forEach((b) => {
+        b.classList.remove('bg-quimbara-primary', 'text-quimbara-magenta')
+        b.classList.add('bg-quimbara-purple', 'text-quimbara-purple')
+      })
 
-      const filter = btn.getAttribute('data-filter');
+      btn.classList.remove('bg-quimbara-purple', 'text-quimbara-purple')
+      btn.classList.add('bg-quimbara-primary', 'text-quimbara-magenta')
 
-      cards.forEach(card => {
+      const filter = btn.getAttribute('data-filter')
+
+      cards.forEach((card) => {
         if (filter === 'all' || card.getAttribute('data-division') === filter) {
-          card.style.display = 'block';
+          card.style.display = 'block'
         } else {
-          card.style.display = 'none';
+          card.style.display = 'none'
         }
-      });
-    });
-  });
+      })
+    })
+  })
 
   // Set initial active state
-  const allBtn = document.querySelector<HTMLButtonElement>('[data-filter="all"]');
+  const allBtn = document.querySelector<HTMLButtonElement>('[data-filter="all"]')
   if (allBtn) {
-    allBtn.classList.remove('bg-quimbara-purple', 'text-quimbara-purple');
-    allBtn.classList.add('bg-quimbara-primary', 'text-quimbara-magenta');
+    allBtn.classList.remove('bg-quimbara-purple', 'text-quimbara-purple')
+    allBtn.classList.add('bg-quimbara-primary', 'text-quimbara-magenta')
   }
 </script>

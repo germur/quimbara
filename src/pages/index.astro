@@ -13,7 +13,7 @@ const featuredFighters = fightersData.slice(0, 6).map((fighter) => ({
   name: fighter.name,
   title: fighter.division,
   description: fighter.description || 'Peleador destacado de UFC',
-  href: `/blog/perfiles-luchadores/${fighter.slug}`,
+  href: `/peleadores/${fighter.slug}`,
   image: `https://media.api-sports.io/mma/fighters/${fighter.id}.png`
 }))
 
