@@ -1,163 +1,150 @@
 ---
-import PageLayout from '@/layouts/BaseLayout.astro'
-import { weightClasses } from '@/data/weightClasses'
+import { getEntry } from 'astro:content'
 import fightersData from '@/data/fighters.json'
+import { weightClasses } from '@/data/weightClasses'
 
-// Champions - CANNOT SHOW (API doesn't provide champion information)
-// Eliminating this section entirely
-const champions: any[] = []
+import PageLayout from '@/layouts/BaseLayout.astro'
+import { getWinStreak } from '@/utils/fighter-stats'
 
-// P4P ranking - REMOVED (no API endpoint available)
-// Si el API no provee P4P rankings, no los mostramos
-const p4pRanking: any[] = []
+export const prerender = true
+
+// Load all fighter data to find leaders
+const allFighters = await Promise.all(
+  fightersData.map(async (fighter) => {
+    try {
+      const entry = await getEntry('fighterData', fighter.id.toString())
+      if (!entry?.data) return null
+
+      const fights = entry.data.fights || []
+
+      return {
+        ...fighter,
+        winStreak: getWinStreak(fights, fighter.id),
+        totalWins: entry.data.records?.total.win || 0
+      }
+    } catch (e) {
+      return null
+    }
+  })
+)
+
+const validFighters = allFighters.filter((f): f is NonNullable<typeof f> => f !== null)
+
+// Get leader for each division
+const divisionLeaders = weightClasses.map((division) => {
+  const divisionFighters = validFighters.filter((f) => f.division === division.name)
+
+  // Sort by Win Streak, then Total Wins
+  const leader = divisionFighters.sort((a, b) => {
+    if (b.winStreak !== a.winStreak) return b.winStreak - a.winStreak
+    return b.totalWins - a.totalWins
+  })[0]
+
+  return {
+    ...division,
+    leader
+  }
+})
 
 const meta = {
-  title: 'Rankings UFC Oficiales - Campeones Por División | Quimbara',
-  description: 'Rankings oficiales de UFC actualizados. Descubre los campeones de cada división y el Top 15 de todas las categorías de peso.'
+  title: 'Estadísticas por División UFC - Líderes y Datos | Quimbara',
+  description:
+    'Descubre quiénes lideran cada división de la UFC en rachas ganadoras y victorias. Estadísticas actualizadas de todas las categorías de peso.'
 }
-
-// Helper para imagen
-const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/${id}.png`
 ---
 
 <PageLayout {meta}>
   <!-- Hero Section -->
-  <section class="py-12 mb-12 text-center">
-    <div class="inline-block bg-quimbara-magenta/10 text-quimbara-magenta px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wider mb-4 border border-quimbara-magenta/20">
-      Actualizado Semanalmente
+  <section class='py-12 mb-12 text-center'>
+    <div
+      class='inline-block bg-quimbara-magenta/10 text-quimbara-magenta px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wider mb-4 border border-quimbara-magenta/20'
+    >
+      Basado en Datos Reales
     </div>
-    <h1 class="text-4xl md:text-6xl font-heading font-bold mb-4 text-quimbara-purple">
-      RANKINGS <span class="text-quimbara-magenta">OFICIALES UFC</span>
+    <h1 class='text-4xl md:text-6xl font-heading font-bold mb-4 text-quimbara-purple'>
+      LÍDERES POR <span class='text-quimbara-magenta'>DIVISIÓN</span>
     </h1>
-    <p class="text-lg text-quimbara-purple/70 max-w-3xl mx-auto leading-relaxed">
-      Rankings actualizados de todas las divisiones, incluyendo el codiciado Pound-for-Pound.
+    <p class='text-lg text-quimbara-purple/70 max-w-3xl mx-auto leading-relaxed'>
+      Olvídate de los rankings subjetivos. Estos son los peleadores que dominan cada categoría
+      basándose en sus rachas ganadoras y desempeño actual.
     </p>
   </section>
 
-  <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
-    <!-- Pound for Pound -->
-    <div class="lg:col-span-2">
-      <div class="bg-white rounded-3xl overflow-hidden shadow-sm border border-border mb-12">
-        <div class="p-6 border-b border-border bg-gradient-to-r from-quimbara-magenta/5 to-quimbara-pink/5">
-          <div class="flex items-center gap-3 mb-2">
-            <div class="w-2 h-8 bg-quimbara-magenta rounded-full"></div>
-            <h2 class="font-heading font-bold text-quimbara-purple text-3xl">Pound-for-Pound</h2>
+  <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20'>
+    {
+      divisionLeaders.map((item) => (
+        <a
+          href={`/peleadores/${item.slug}`}
+          class='group bg-white rounded-3xl overflow-hidden border border-border shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1'
+        >
+          {/* Header */}
+          <div class='p-6 bg-quimbara-cream/30 border-b border-border flex justify-between items-center'>
+            <h2 class='font-heading font-bold text-quimbara-purple text-xl'>{item.name}</h2>
+            <span class='text-xs font-bold text-quimbara-purple/60 uppercase tracking-wider'>
+              {item.weight}
+            </span>
           </div>
-          <p class="text-quimbara-purple/60 text-sm">Los mejores peleadores sin distinción de peso</p>
-        </div>
-        <div class="p-6 space-y-4">
-          {p4pRanking.map((fighter) => (
-            <div class="flex items-center gap-4 p-4 rounded-2xl hover:bg-quimbara-cream transition-all border border-transparent hover:border-quimbara-magenta/20 group">
-              <div class="flex items-center gap-4 flex-1">
-                <span class="text-3xl font-heading font-bold text-quimbara-magenta w-12 text-center group-hover:scale-110 transition-transform">
-                  {fighter.rank}
-                </span>
-                <img 
-                  src={getFighterImg(fighter.id)} 
-                  alt={fighter.name}
-                  class="w-16 h-16 rounded-full object-cover bg-quimbara-cream border-2 border-border group-hover:border-quimbara-magenta transition-colors"
-                  loading="lazy"
-                  onerror="this.src='/images/fighter-placeholder.png'"
-                />
-                <div class="flex-1">
-                  <h3 class="font-bold text-quimbara-purple text-lg group-hover:text-quimbara-magenta transition-colors">
-                    {fighter.name}
+
+          {/* Leader Content */}
+          <div class='p-6'>
+            {item.leader ? (
+              <div class='flex items-center gap-4'>
+                <div class='relative'>
+                  <img
+                    src={`https://media.api-sports.io/mma/fighters/${item.leader.id}.png`}
+                    alt={item.leader.name}
+                    class='w-20 h-20 rounded-full object-cover border-2 border-border group-hover:border-quimbara-magenta transition-colors bg-white'
+                    loading='lazy'
+                  />
+                  <div class='absolute -bottom-2 -right-2 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded-full border-2 border-white shadow-sm'>
+                    {item.leader.winStreak} W
+                  </div>
+                </div>
+
+                <div class='flex-1 min-w-0'>
+                  <div class='text-xs text-quimbara-magenta font-bold uppercase mb-1'>
+                    Líder de Racha
+                  </div>
+                  <h3 class='font-bold text-quimbara-purple text-lg truncate group-hover:text-quimbara-magenta transition-colors'>
+                    {item.leader.name}
                   </h3>
-                  <p class="text-quimbara-purple/60 text-sm">
-                    Campeón {fighter.division} • {fighter.record}
+                  <p class='text-quimbara-purple/60 text-sm truncate'>
+                    {item.leader.totalWins} victorias totales
                   </p>
                 </div>
               </div>
-              <a 
-                href={`/fighters/${fighter.division.toLowerCase().replace(' ', '-')}`}
-                class="text-xs text-quimbara-magenta font-bold uppercase hover:text-[#D63384] transition-colors"
-              >
-                Ver División →
-              </a>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
+            ) : (
+              <div class='flex items-center justify-center h-20 text-quimbara-purple/40 text-sm italic'>
+                Sin datos suficientes
+              </div>
+            )}
+          </div>
 
-    <!-- Sidebar - Quick Access -->
-    <aside class="space-y-6">
-      <div class="bg-gradient-to-br from-quimbara-magenta to-quimbara-pink p-8 rounded-3xl text-white shadow-lg">
-        <h3 class="font-heading text-2xl font-bold mb-4">¿Qué es P4P?</h3>
-        <p class="text-white/90 text-sm leading-relaxed">
-          El ranking <strong>Pound-for-Pound</strong> imagina qué pasaría si todos los peleadores pesaran lo mismo. 
-          Es el reconocimiento definitivo de habilidad pura, sin ventajas físicas.
-        </p>
-      </div>
-
-      <div class="bg-white p-6 rounded-3xl border border-border shadow-sm">
-        <h3 class="font-heading text-xl mb-4 text-quimbara-purple font-bold">Acceso Rápido</h3>
-        <ul class="space-y-2">
-          <li>
-            <a href="#champions" class="flex items-center justify-between p-3 rounded-xl hover:bg-quimbara-cream transition-colors group">
-              <span class="text-quimbara-purple font-medium group-hover:text-quimbara-magenta">Ver Campeones</span>
-              <span class="text-quimbara-magenta">↓</span>
-            </a>
-          </li>
-          <li>
-            <a href="/peleadores" class="flex items-center justify-between p-3 rounded-xl hover:bg-quimbara-cream transition-colors group">
-              <span class="text-quimbara-purple font-medium group-hover:text-quimbara-magenta">Directorio de Peleadores</span>
-              <span class="text-quimbara-magenta">→</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </aside>
-  </div>
-
-  <!-- Campeones por División -->
-  <section id="champions" class="py-12 border-t border-border">
-    <div class="flex items-center gap-4 mb-8">
-      <div class="h-10 w-2 bg-quimbara-magenta rounded-full"></div>
-      <h2 class="text-3xl font-heading font-bold text-quimbara-purple">
-        Campeones por División
-      </h2>
-    </div>
-    <p class="text-quimbara-purple/60 mb-8 text-lg">
-      Haz clic en cualquier división para ver el ranking completo
-    </p>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-      {champions.map(({ division, champion }) => (
-        <a
-          href={`/fighters/${division.slug}`}
-          class="group block bg-white rounded-3xl overflow-hidden hover:shadow-xl transition-all duration-300 border border-border hover:border-quimbara-magenta"
-        >
-          <div class="aspect-[3/4] relative overflow-hidden bg-gradient-to-b from-quimbara-cream to-white">
-            <img
-              src={getFighterImg(champion.id)}
-              alt={champion.name}
-              class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500"
-              loading="lazy"
-              onerror="this.src='/images/fighter-placeholder.png'"
-            />
-            <div class="absolute inset-0 bg-gradient-to-t from-quimbara-purple via-quimbara-purple/30 to-transparent" />
-            
-            <!-- Badge -->
-            <div class="absolute top-4 left-4 bg-quimbara-magenta text-black px-3 py-1 rounded-full text-xs font-bold uppercase border-2 border-white shadow-lg">
-              Campeón
-            </div>
-
-            <!-- Info -->
-            <div class="absolute bottom-0 left-0 w-full p-6">
-              <h3 class="font-heading text-white text-sm uppercase tracking-wider mb-1 opacity-80">
-                {division.nameEs}
-              </h3>
-              <h4 class="font-bold text-white text-xl leading-tight mb-2 group-hover:text-quimbara-pink transition-colors">
-                {champion.name}
-              </h4>
-              <p class="text-white/70 text-xs font-mono">
-                Campeón Actual
-              </p>
-            </div>
+          {/* Footer */}
+          <div class='px-6 py-4 bg-quimbara-purple/5 text-center text-sm font-bold text-quimbara-purple group-hover:bg-quimbara-magenta group-hover:text-white transition-colors'>
+            Ver División Completa →
           </div>
         </a>
-      ))}
+      ))
+    }
+  </div>
+
+  <!-- CTA -->
+  <section class='py-12 text-center bg-quimbara-purple rounded-3xl relative overflow-hidden'>
+    <div class="absolute inset-0 bg-[url('/images/pattern.png')] opacity-10"></div>
+    <div class='relative z-10 px-6'>
+      <h2 class='text-3xl font-heading font-bold text-white mb-4'>
+        ¿Quieres ver más estadísticas?
+      </h2>
+      <p class='text-white/80 mb-8 max-w-2xl mx-auto'>
+        Explora nuestro dashboard completo con récords de finalización, datos físicos y más.
+      </p>
+      <a
+        href='/estadisticas'
+        class='inline-block px-8 py-4 bg-white text-quimbara-purple font-bold rounded-xl hover:bg-quimbara-magenta hover:text-white transition-all shadow-lg'
+      >
+        Ir al Centro de Estadísticas
+      </a>
     </div>
   </section>
 </PageLayout>
