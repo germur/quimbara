@@ -1,9 +1,10 @@
 ---
-import { getCollection } from 'astro:content'
+import { getCollection, getEntry } from 'astro:content'
 import fightersData from '@/data/fighters.json'
 
 import PageLayout from '@/layouts/BaseLayout.astro'
 import NextEventWidget from '@/components/widgets/NextEventWidget.astro'
+import { getNextFight, getWinStreak } from '@/utils/fighter-stats'
 import config from '@/site-config'
 
 export const prerender = true
@@ -16,6 +17,48 @@ const featuredFighters = fightersData.slice(0, 6).map((fighter) => ({
   href: `/peleadores/${fighter.slug}`,
   image: `https://media.api-sports.io/mma/fighters/${fighter.id}.png`
 }))
+
+// Win streaks - Load fighter data and calculate streaks
+const fightersWithStreaks = await Promise.all(
+  fightersData.map(async (fighter) => {
+    try {
+      const entry = await getEntry('fighterData', fighter.id.toString())
+      if (!entry?.data) return null
+
+      const fights = entry.data.fights || []
+      const streak = getWinStreak(fights, fighter.id)
+
+      return streak >= 3 ? { ...fighter, streak, fights } : null
+    } catch (e) {
+      return null
+    }
+  })
+)
+
+const topWinStreaks = fightersWithStreaks
+  .filter((f): f is NonNullable<typeof f> => f !== null)
+  .sort((a, b) => b.streak - a.streak)
+  .slice(0, 5)
+
+// Upcoming fights - fighters with scheduled fights
+const fightersWithUpcoming = await Promise.all(
+  fightersData.slice(0, 50).map(async (fighter) => {
+    try {
+      const entry = await getEntry('fighterData', fighter.id.toString())
+      if (!entry?.data) return null
+
+      const nextFight = getNextFight(entry.data.fights || [])
+      return nextFight ? { fighter, nextFight } : null
+    } catch (e) {
+      return null
+    }
+  })
+)
+
+const upcomingFights = fightersWithUpcoming
+  .filter((f): f is NonNullable<typeof f> => f !== null)
+  .sort((a, b) => new Date(a.nextFight.date).getTime() - new Date(b.nextFight.date).getTime())
+  .slice(0, 3)
 
 const MAX_POSTS = 6
 const allPosts = await getCollection('blog')
@@ -234,6 +277,98 @@ const allPostsByDate = allPosts
       }
     </div>
   </section>
+
+  <!-- Win Streaks Section -->
+  {
+    topWinStreaks.length > 0 && (
+      <section class='mb-20'>
+        <div class='flex items-center justify-between mb-10'>
+          <h2 class='text-4xl font-heading font-bold text-quimbara-purple'>
+            <span class='text-quimbara-magenta'>🔥</span> RACHAS GANADORAS
+          </h2>
+          <a
+            href='/estadisticas'
+            class='text-sm text-quimbara-magenta hover:text-quimbara-purple uppercase tracking-widest font-bold transition-colors'
+          >
+            Ver Más →
+          </a>
+        </div>
+
+        <div class='grid grid-cols-1 md:grid-cols-5 gap-4'>
+          {topWinStreaks.map((fighter) => (
+            <a
+              href={`/peleadores/${fighter.slug}`}
+              class='group bg-gradient-to-br from-quimbara-magenta to-[#D63384] text-white rounded-2xl p-6 hover:shadow-2xl transition-all duration-300 hover:scale-105'
+            >
+              <div class='text-6xl font-heading font-black mb-2'>{fighter.streak}</div>
+              <div class='text-sm opacity-90 mb-3'>VICTORIAS CONSECUTIVAS</div>
+              <div class='flex items-center gap-3 pt-3 border-t border-white/20'>
+                <img
+                  src={`https://media.api-sports.io/mma/fighters/${fighter.id}.png`}
+                  alt={fighter.name}
+                  class='w-12 h-12 rounded-full object-cover border-2 border-white'
+                  loading='lazy'
+                />
+                <div>
+                  <div class='font-bold text-sm leading-tight'>{fighter.name}</div>
+                  <div class='text-xs opacity-75'>{fighter.division}</div>
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  <!-- Upcoming Fights Section -->
+  {
+    upcomingFights.length > 0 && (
+      <section class='mb-20'>
+        <div class='flex items-center justify-between mb-10'>
+          <h2 class='text-4xl font-heading font-bold text-quimbara-purple'>
+            <span class='text-quimbara-magenta'>📅</span> PRÓXIMAS PELEAS
+          </h2>
+          <a
+            href='/eventos'
+            class='text-sm text-quimbara-magenta hover:text-quimbara-purple uppercase tracking-widest font-bold transition-colors'
+          >
+            Ver Calendario →
+          </a>
+        </div>
+
+        <div class='grid grid-cols-1 md:grid-cols-3 gap-6'>
+          {upcomingFights.map(({ fighter, nextFight }) => (
+            <div class='bg-white border border-border rounded-2xl p-6 hover:border-quimbara-magenta hover:shadow-lg transition-all'>
+              <div class='text-xs text-quimbara-magenta font-bold mb-2 uppercase tracking-wider'>
+                {new Date(nextFight.date).toLocaleDateString('es-ES', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
+                })}
+              </div>
+              <div class='text-sm text-quimbara-purple/60 mb-4 font-medium'>{nextFight.slug}</div>
+
+              <a href={`/peleadores/${fighter.slug}`} class='flex items-center gap-3 group'>
+                <img
+                  src={`https://media.api-sports.io/mma/fighters/${fighter.id}.png`}
+                  alt={fighter.name}
+                  class='w-16 h-16 rounded-full object-cover border-2 border-quimbara-cream group-hover:border-quimbara-magenta transition-colors'
+                  loading='lazy'
+                />
+                <div class='flex-1'>
+                  <div class='font-bold text-quimbara-purple group-hover:text-quimbara-magenta transition-colors'>
+                    {fighter.name}
+                  </div>
+                  <div class='text-sm text-quimbara-purple/60'>{fighter.division}</div>
+                </div>
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
+    )
+  }
 
   <!-- Latest News Grid (Remaining) -->
   <section class='grid grid-cols-1 lg:grid-cols-3 gap-8 mb-20'>
