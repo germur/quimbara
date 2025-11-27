@@ -1,145 +1,425 @@
-``` --- import { getEntry } from 'astro:content' import fightersData from '@/data/fighters.json'
-import { weightClasses } from '@/data/weightClasses' import PageLayout from
-'@/layouts/BaseLayout.astro' import Breadcrumbs from '@/components/Breadcrumbs.astro' import
-FighterFilter from '@/components/special/FighterFilter.astro' import { getFightsInLastMonths,
-getFinishRate, isUndefeated } from '@/utils/fighter-stats' export const prerender = true //
-Champions per division - CANNOT DETERMINE (API doesn't provide champion info) // Showing first
-fighter of each division instead const champions = weightClasses .map((wc) => { const
-divisionFighters = fightersData.filter((f) => f.division === wc.nameEn) const topFighter =
-divisionFighters[0] // First fighter, NOT necessarily champion return { division: wc, champion:
-topFighter || null } }) .filter((c) => c.champion) // Top featured fighters (first 20 from API)
-const featuredFighters = fightersData.slice(0, 20) // Load complete fighter data for statistics
-const fightersWithData = await Promise.all( fightersData.map(async (fighter) => { try { const entry
-= await getEntry('fighterData', fighter.id.toString()) if (!entry?.data) return null return {
-...fighter, records: entry.data.records, fights: entry.data.fights || [] } } catch (e) { return null
-} }) ) const validFighters = fightersWithData.filter((f): f is NonNullable<typeof f> => f !== null)
-// Undefeated fighters (0 losses) const undefeatedFighters = validFighters .filter((f) => f.records
-&& isUndefeated(f.records)) .sort((a, b) => (b.records?.total.win || 0) - (a.records?.total.win ||
-0)) .slice(0, 12) // Most active fighters (fights in last 12 months) const mostActiveFighters =
-validFighters .map((f) => ({ ...f, fightsLastYear: getFightsInLastMonths(f.fights, 12) }))
-.filter((f) => f.fightsLastYear > 0) .sort((a, b) => b.fightsLastYear - a.fightsLastYear) .slice(0,
-12) // Finish machines (high KO/SUB rate, min 5 wins) const finishMachines = validFighters
-.filter((f) => f.records && f.records.total.win >= 5) .map((f) => ({ ...f,
-...getFinishRate(f.records!) })) .filter((f) => f.finishRate >= 70) .sort((a, b) => b.finishRate -
-a.finishRate) .slice(0, 12) const meta = { title: 'Peleadores UFC - Perfiles Completos y Rankings |
-Quimbara', description: 'Directorio completo de peleadores de UFC con perfiles detallados,
-estadísticas, análisis técnico y rankings por división de peso. Tu fuente definitiva de información
-MMA en español.' } // Schema.org const schemaMarkup = { '@context': 'https://schema.org', '@type':
-'CollectionPage', name: 'Peleadores UFC', description: meta.description, url:
-'https://quimbara.org/peleadores/', numberOfItems: fightersData.length } // Helper para imagen const
-getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/${id}.png`
+---
+import { getEntry } from 'astro:content'
+import fightersData from '@/data/fighters.json'
+import { weightClasses } from '@/data/weightClasses'
 
+import PageLayout from '@/layouts/BaseLayout.astro'
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+import FighterFilter from '@/components/special/FighterFilter.astro'
+import { getFightsInLastMonths, getFinishRate, isUndefeated } from '@/utils/fighter-stats'
 
-<PageLayout {meta}> <!-- Schema.org --> <script type='application/ld+json'
-set:html={JSON.stringify(schemaMarkup)} /> <!-- Breadcrumb --> <Breadcrumbs path={[ { title:
-'Inicio', link: '/' }, { title: 'Peleadores UFC', link: '/peleadores/' } ]} /> <!-- Hero Section -
-Clean Theme --> <section class='py-16 mb-12 text-center'> <div class='inline-block
-bg-quimbara-magenta/10 text-quimbara-magenta px-4 py-1 rounded-full text-sm font-bold uppercase
-tracking-wider mb-4 border border-quimbara-magenta/20' > {fightersData.length}+ Peleadores </div>
-<h1 class='text-5xl md:text-7xl font-heading font-bold mb-6 text-quimbara-purple leading-tight'>
-DIRECTORIO DE <span class='text-quimbara-magenta'>PELEADORES</span> </h1> <p class='text-xl
-text-quimbara-purple/70 leading-relaxed max-w-4xl mx-auto mb-8'> Perfiles detallados, estadísticas
-completas, análisis técnico, historial de combates y rankings actualizados de todos los peleadores
-de UFC. </p> <!-- Quick Stats --> <div class='flex flex-wrap justify-center gap-6 mt-8'> <div
-class='bg-white px-8 py-4 rounded-2xl border border-border shadow-sm'> <div class='text-3xl
-font-bold text-quimbara-magenta font-heading'>{champions.length}</div> <div class='text-sm
-text-quimbara-purple/60 font-bold uppercase tracking-wider'> Divisiones </div> </div> <div
-class='bg-white px-8 py-4 rounded-2xl border border-border shadow-sm'> <div class='text-3xl
-font-bold text-quimbara-magenta font-heading'>{champions.length}</div> <div class='text-sm
-text-quimbara-purple/60 font-bold uppercase tracking-wider'> Campeones </div> </div> <div
-class='bg-white px-8 py-4 rounded-2xl border border-border shadow-sm'> <div class='text-3xl
-font-bold text-quimbara-magenta font-heading'> {fightersData.length} </div> <div class='text-sm
-text-quimbara-purple/60 font-bold uppercase tracking-wider'> Peleadores </div> </div> </div>
-</section> <!-- Divisiones de Peso --> <section class='py-12 mb-12'> <div class='flex items-center
-gap-4 mb-8'> <div class='h-10 w-2 bg-quimbara-magenta rounded-full'></div> <h2 class='text-3xl
-font-heading font-bold text-quimbara-purple'>Explora por División</h2> </div> <div class='grid
-grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'> { weightClasses.map((division) => { const champion
-= champions.find((c) => c.division.slug === division.slug)?.champion return ( <a
-href={`/peleadores/${division.slug}`} class='group block bg-white rounded-3xl p-6 hover:shadow-xl
-transition-all duration-300 border border-border hover:border-quimbara-magenta' > <div class='flex
-items-start justify-between mb-4'> <div class='flex-1'> <h3 class='font-heading font-bold
-text-quimbara-purple text-xl mb-1 group-hover:text-quimbara-magenta transition-colors'>
-{division.nameEs} </h3> <p class='text-xs text-quimbara-purple/50 font-mono font-bold'>
-{division.limit} </p> </div> <div class='w-12 h-12 rounded-full bg-quimbara-magenta/10 flex
-items-center justify-center group-hover:bg-quimbara-magenta transition-colors'> <svg
-xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'
-stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'
-class='text-quimbara-magenta group-hover:text-white' > <path d='M5 12h14' /> <path d='m12 5 7 7-7 7'
-/> </svg> </div> </div> {champion && ( <div class='flex items-center gap-3 pt-4 border-t
-border-border'> <img src={getFighterImg(champion.id)} alt={champion.name} class='w-10 h-10
-rounded-full object-cover bg-quimbara-cream border border-border' loading='lazy'
-onerror="this.src='/images/fighter-placeholder.png'" /> <div class='flex-1 min-w-0'> <div
-class='text-xs text-quimbara-purple/50 font-bold uppercase tracking-wider'> Campeón </div> <div
-class='text-sm font-bold text-quimbara-purple truncate'> {champion.name} </div> </div> </div> )}
-</a> ) }) } </div> </section> <!-- Undefeated Fighters Section --> { undefeatedFighters.length > 0
-&& ( <section class='mb-16'> <div class='flex items-center justify-between mb-8'> <h2
-class='text-4xl font-heading font-bold text-quimbara-purple'> <span
-class='text-quimbara-magenta'>🏆</span> Invictos </h2> <div class='text-sm text-quimbara-purple/60'>
-{undefeatedFighters.length} peleadores sin derrotas </div> </div> <div class='grid grid-cols-2
-md:grid-cols-3 lg:grid-cols-4 gap-4'> {undefeatedFighters.map((fighter) => ( <a
-href={`/peleadores/${fighter.slug}`} class='group bg-white border-2 border-quimbara-magenta/20
-rounded-2xl p-4 hover:border-quimbara-magenta hover:shadow-lg transition-all' > <div class='flex
-items-start gap-3 mb-3'> <img src={getFighterImg(fighter.id)} alt={fighter.name} class='w-16 h-16
-rounded-full object-cover border-2 border-quimbara-cream group-hover:border-quimbara-magenta
-transition-colors' loading='lazy' /> <div class='flex-1'> <div class='font-bold text-quimbara-purple
-group-hover:text-quimbara-magenta transition-colors text-sm leading-tight'> {fighter.name} </div>
-<div class='text-xs text-quimbara-purple/60 mt-1'>{fighter.division}</div> </div> </div> <div
-class='bg-quimbara-cream rounded-lg p-2 text-center'> <div class='text-2xl font-heading font-black
-text-quimbara-magenta'> {fighter.records?.total.win}-0-{fighter.records?.total.draw || 0} </div>
-<div class='text-xs text-quimbara-purple/60 uppercase tracking-wider'>INVICTO</div> </div> </a> ))}
-</div> </section> ) } <!-- Most Active Fighters Section --> { mostActiveFighters.length > 0 && (
-<section class='mb-16'> <div class='flex items-center justify-between mb-8'> <h2 class='text-4xl
-font-heading font-bold text-quimbara-purple'> <span class='text-quimbara-magenta'>⚡</span> Más
-Activos en 2024 </h2> <div class='text-sm text-quimbara-purple/60'>Últimos 12 meses</div> </div>
-<div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'> {mostActiveFighters.map((fighter)
-=> ( <a href={`/peleadores/${fighter.slug}`} class='group flex items-center gap-4 bg-white border
-border-border rounded-2xl p-4 hover:border-quimbara-magenta hover:shadow-lg transition-all' > <img
-src={getFighterImg(fighter.id)} alt={fighter.name} class='w-16 h-16 rounded-full object-cover
-border-2 border-quimbara-cream group-hover:border-quimbara-magenta transition-colors' loading='lazy'
-/> <div class='flex-1'> <div class='font-bold text-quimbara-purple group-hover:text-quimbara-magenta
-transition-colors'> {fighter.name} </div> <div class='text-sm
-text-quimbara-purple/60'>{fighter.division}</div> </div> <div class='text-center'> <div
-class='text-3xl font-heading font-black text-quimbara-magenta'> {fighter.fightsLastYear} </div> <div
-class='text-xs text-quimbara-purple/60'>PELEAS</div> </div> </a> ))} </div> </section> ) } <!--
-Finish Machines Section --> { finishMachines.length > 0 && ( <section class='mb-16'> <div
-class='flex items-center justify-between mb-8'> <h2 class='text-4xl font-heading font-bold
-text-quimbara-purple'> <span class='text-quimbara-magenta'>💥</span> Máquinas de Finalización </h2>
-<div class='text-sm text-quimbara-purple/60'>+70% finalizaciones</div> </div> <div class='grid
-grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'> {finishMachines.map((fighter) => ( <a
-href={`/peleadores/${fighter.slug}`} class='group bg-gradient-to-br from-quimbara-purple
-to-[#7209B7] text-white rounded-2xl p-5 hover:shadow-2xl transition-all hover:scale-105' > <div
-class='flex items-center gap-3 mb-4'> <img src={getFighterImg(fighter.id)} alt={fighter.name}
-class='w-14 h-14 rounded-full object-cover border-2 border-white' loading='lazy' /> <div
-class='flex-1'> <div class='font-bold text-sm leading-tight'>{fighter.name}</div> <div
-class='text-xs opacity-75'>{fighter.division}</div> </div> <div class='text-4xl font-heading
-font-black'>{fighter.finishRate}%</div> </div> <div class='grid grid-cols-3 gap-2 text-center
-text-xs'> <div class='bg-white/10 rounded-lg py-2'> <div class='font-bold'>{fighter.koRate}%</div>
-<div class='opacity-75'>KO</div> </div> <div class='bg-white/10 rounded-lg py-2'> <div
-class='font-bold'>{fighter.subRate}%</div> <div class='opacity-75'>SUB</div> </div> <div
-class='bg-white/10 rounded-lg py-2'> <div class='font-bold'>{100 - fighter.finishRate}%</div> <div
-class='opacity-75'>DEC</div> </div> </div> </a> ))} </div> </section> ) } <!-- Peleadores Destacados
---> <section class='mb-16'> <div class='flex items-center mb-8'> <h2 class='text-3xl font-heading
-font-bold text-quimbara-purple'>Peleadores Destacados</h2> </div> <div class='grid grid-cols-2
-md:grid-cols-4 lg:grid-cols-5 gap-4'> { featuredFighters.map((fighter) => ( <a
-href={`/peleadores/${fighter.slug}`} class='group block bg-white rounded-2xl overflow-hidden
-hover:shadow-lg transition-all duration-300 border border-border hover:border-quimbara-magenta' >
-<div class='aspect-[3/4] relative overflow-hidden bg-quimbara-cream'> <img
-src={getFighterImg(fighter.id)} alt={fighter.name} class='w-full h-full object-cover object-top
-group-hover:scale-110 transition-transform duration-500' loading='lazy'
-onerror="this.src='/images/fighter-placeholder.png'" /> <div class='absolute inset-0
-bg-gradient-to-t from-quimbara-purple via-transparent to-transparent opacity-60
-group-hover:opacity-80 transition-opacity' /> <div class='absolute bottom-0 left-0 w-full p-3 z-10'>
-<h3 class='font-heading font-bold text-white text-base leading-none mb-1
-group-hover:text-quimbara-pink transition-colors'> {fighter.name} </h3> <p class='text-xs
-text-white/80 uppercase tracking-wider font-medium'> {fighter.division} </p> </div> </div> </a> )) }
-</div> </section> <!-- Advanced Filters Section --> <FighterFilter fighters={validFighters} /> <!--
-CTA Final --> <section class='py-12 text-center'> <div class='bg-gradient-to-br
-from-quimbara-magenta to-quimbara-pink p-12 rounded-3xl shadow-xl' > <h2 class='text-3xl
-font-heading font-bold text-white mb-4'> ¿Buscas un Peleador Específico? </h2> <p
-class='text-white/90 mb-8 max-w-2xl mx-auto'> Explora nuestro directorio completo o navega por
-división para encontrar análisis detallados, estadísticas y el historial completo de cada atleta.
-</p> <div class='flex flex-col sm:flex-row gap-4 justify-center'> <a href='/rankings' class='px-8
-py-4 bg-white text-quimbara-magenta font-bold rounded-xl hover:bg-quimbara-cream transition-all
-shadow-md' > Ver Rankings </a> <a href='#divisiones' class='px-8 py-4 bg-quimbara-purple text-white
-font-bold rounded-xl hover:bg-[#5A189A] transition-all shadow-md' > Explorar Divisiones </a> </div>
-</div> </section> </PageLayout>
+export const prerender = true
+
+// Champions per division - CANNOT DETERMINE (API doesn't provide champion info)
+// Showing first fighter of each division instead
+const champions = weightClasses
+  .map((wc) => {
+    const divisionFighters = fightersData.filter((f) => f.division === wc.nameEn)
+    const topFighter = divisionFighters[0] // First fighter, NOT necessarily champion
+    return {
+      division: wc,
+      champion: topFighter || null
+    }
+  })
+  .filter((c) => c.champion)
+
+// Top featured fighters (first 20 from API)
+const featuredFighters = fightersData.slice(0, 20)
+
+// Load complete fighter data for statistics
+const fightersWithData = await Promise.all(
+  fightersData.map(async (fighter) => {
+    try {
+      const entry = await getEntry('fighterData', fighter.id.toString())
+      if (!entry?.data) return null
+      return {
+        ...fighter,
+        records: entry.data.records,
+        fights: entry.data.fights || []
+      }
+    } catch (e) {
+      return null
+    }
+  })
+)
+
+const validFighters = fightersWithData.filter((f): f is NonNullable<typeof f> => f !== null)
+
+// Undefeated fighters (0 losses)
+const undefeatedFighters = validFighters
+  .filter((f) => f.records && isUndefeated(f.records))
+  .sort((a, b) => (b.records?.total.win || 0) - (a.records?.total.win || 0))
+  .slice(0, 12)
+
+// Most active fighters (fights in last 12 months)
+const mostActiveFighters = validFighters
+  .map((f) => ({
+    ...f,
+    fightsLastYear: getFightsInLastMonths(f.fights, 12)
+  }))
+  .filter((f) => f.fightsLastYear > 0)
+  .sort((a, b) => b.fightsLastYear - a.fightsLastYear)
+  .slice(0, 12)
+
+// Finish machines (high KO/SUB rate, min 5 wins)
+const finishMachines = validFighters
+  .filter((f) => f.records && f.records.total.win >= 5)
+  .map((f) => ({
+    ...f,
+    ...getFinishRate(f.records!)
+  }))
+  .filter((f) => f.finishRate >= 70)
+  .sort((a, b) => b.finishRate - a.finishRate)
+  .slice(0, 12)
+
+const meta = {
+  title: 'Peleadores UFC - Perfiles Completos y Rankings | Quimbara',
+  description:
+    'Directorio completo de peleadores de UFC con perfiles detallados, estadísticas, análisis técnico y rankings por división de peso. Tu fuente definitiva de información MMA en español.'
+}
+
+// Schema.org
+const schemaMarkup = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Peleadores UFC',
+  description: meta.description,
+  url: 'https://quimbara.org/peleadores/',
+  numberOfItems: fightersData.length
+}
+
+// Helper para imagen
+const getFighterImg = (id: number) => `https://media.api-sports.io/mma/fighters/${id}.png`
+---
+
+<PageLayout {meta}>
+  <!-- Schema.org -->
+  <script type='application/ld+json' set:html={JSON.stringify(schemaMarkup)} />
+
+  <!-- Breadcrumb -->
+  <Breadcrumbs
+    path={[
+      { title: 'Inicio', link: '/' },
+      { title: 'Peleadores UFC', link: '/peleadores/' }
+    ]}
+  />
+
+  <!-- Hero Section - Clean Theme -->
+  <section class='py-16 mb-12 text-center'>
+    <div
+      class='inline-block bg-quimbara-magenta/10 text-quimbara-magenta px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wider mb-4 border border-quimbara-magenta/20'
+    >
+      {fightersData.length}+ Peleadores
+    </div>
+    <h1 class='text-5xl md:text-7xl font-heading font-bold mb-6 text-quimbara-purple leading-tight'>
+      DIRECTORIO DE <span class='text-quimbara-magenta'>PELEADORES</span>
+    </h1>
+    <p class='text-xl text-quimbara-purple/70 leading-relaxed max-w-4xl mx-auto mb-8'>
+      Perfiles detallados, estadísticas completas, análisis técnico, historial de combates y
+      rankings actualizados de todos los peleadores de UFC.
+    </p>
+
+    <!-- Quick Stats -->
+    <div class='flex flex-wrap justify-center gap-6 mt-8'>
+      <div class='bg-white px-8 py-4 rounded-2xl border border-border shadow-sm'>
+        <div class='text-3xl font-bold text-quimbara-magenta font-heading'>{champions.length}</div>
+        <div class='text-sm text-quimbara-purple/60 font-bold uppercase tracking-wider'>
+          Divisiones
+        </div>
+      </div>
+      <div class='bg-white px-8 py-4 rounded-2xl border border-border shadow-sm'>
+        <div class='text-3xl font-bold text-quimbara-magenta font-heading'>{champions.length}</div>
+        <div class='text-sm text-quimbara-purple/60 font-bold uppercase tracking-wider'>
+          Campeones
+        </div>
+      </div>
+      <div class='bg-white px-8 py-4 rounded-2xl border border-border shadow-sm'>
+        <div class='text-3xl font-bold text-quimbara-magenta font-heading'>
+          {fightersData.length}
+        </div>
+        <div class='text-sm text-quimbara-purple/60 font-bold uppercase tracking-wider'>
+          Peleadores
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divisiones de Peso -->
+  <section class='py-12 mb-12'>
+    <div class='flex items-center gap-4 mb-8'>
+      <div class='h-10 w-2 bg-quimbara-magenta rounded-full'></div>
+      <h2 class='text-3xl font-heading font-bold text-quimbara-purple'>Explora por División</h2>
+    </div>
+
+    <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
+      {
+        weightClasses.map((division) => {
+          const champion = champions.find((c) => c.division.slug === division.slug)?.champion
+          return (
+            <a
+              href={`/peleadores/${division.slug}`}
+              class='group block bg-white rounded-3xl p-6 hover:shadow-xl transition-all duration-300 border border-border hover:border-quimbara-magenta'
+            >
+              <div class='flex items-start justify-between mb-4'>
+                <div class='flex-1'>
+                  <h3 class='font-heading font-bold text-quimbara-purple text-xl mb-1 group-hover:text-quimbara-magenta transition-colors'>
+                    {division.nameEs}
+                  </h3>
+                  <p class='text-xs text-quimbara-purple/50 font-mono font-bold'>
+                    {division.limit}
+                  </p>
+                </div>
+                <div class='w-12 h-12 rounded-full bg-quimbara-magenta/10 flex items-center justify-center group-hover:bg-quimbara-magenta transition-colors'>
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    width='24'
+                    height='24'
+                    viewBox='0 0 24 24'
+                    fill='none'
+                    stroke='currentColor'
+                    stroke-width='2'
+                    stroke-linecap='round'
+                    stroke-linejoin='round'
+                    class='text-quimbara-magenta group-hover:text-white'
+                  >
+                    <path d='M5 12h14' />
+                    <path d='m12 5 7 7-7 7' />
+                  </svg>
+                </div>
+              </div>
+
+              {champion && (
+                <div class='flex items-center gap-3 pt-4 border-t border-border'>
+                  <img
+                    src={getFighterImg(champion.id)}
+                    alt={champion.name}
+                    class='w-10 h-10 rounded-full object-cover bg-quimbara-cream border border-border'
+                    loading='lazy'
+                    onerror="this.src='/images/fighter-placeholder.png'"
+                  />
+                  <div class='flex-1 min-w-0'>
+                    <div class='text-xs text-quimbara-purple/50 font-bold uppercase tracking-wider'>
+                      Campeón
+                    </div>
+                    <div class='text-sm font-bold text-quimbara-purple truncate'>
+                      {champion.name}
+                    </div>
+                  </div>
+                </div>
+              )}
+            </a>
+          )
+        })
+      }
+    </div>
+  </section>
+
+  <!-- Undefeated Fighters Section -->
+  {
+    undefeatedFighters.length > 0 && (
+      <section class='mb-16'>
+        <div class='flex items-center justify-between mb-8'>
+          <h2 class='text-4xl font-heading font-bold text-quimbara-purple'>
+            <span class='text-quimbara-magenta'>🏆</span> Invictos
+          </h2>
+          <div class='text-sm text-quimbara-purple/60'>
+            {undefeatedFighters.length} peleadores sin derrotas
+          </div>
+        </div>
+
+        <div class='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
+          {undefeatedFighters.map((fighter) => (
+            <a
+              href={`/peleadores/${fighter.slug}`}
+              class='group bg-white border-2 border-quimbara-magenta/20 rounded-2xl p-4 hover:border-quimbara-magenta hover:shadow-lg transition-all'
+            >
+              <div class='flex items-start gap-3 mb-3'>
+                <img
+                  src={getFighterImg(fighter.id)}
+                  alt={fighter.name}
+                  class='w-16 h-16 rounded-full object-cover border-2 border-quimbara-cream group-hover:border-quimbara-magenta transition-colors'
+                  loading='lazy'
+                />
+                <div class='flex-1'>
+                  <div class='font-bold text-quimbara-purple group-hover:text-quimbara-magenta transition-colors text-sm leading-tight'>
+                    {fighter.name}
+                  </div>
+                  <div class='text-xs text-quimbara-purple/60 mt-1'>{fighter.division}</div>
+                </div>
+              </div>
+              <div class='bg-quimbara-cream rounded-lg p-2 text-center'>
+                <div class='text-2xl font-heading font-black text-quimbara-magenta'>
+                  {fighter.records?.total.win}-0-{fighter.records?.total.draw || 0}
+                </div>
+                <div class='text-xs text-quimbara-purple/60 uppercase tracking-wider'>INVICTO</div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  <!-- Most Active Fighters Section -->
+  {
+    mostActiveFighters.length > 0 && (
+      <section class='mb-16'>
+        <div class='flex items-center justify-between mb-8'>
+          <h2 class='text-4xl font-heading font-bold text-quimbara-purple'>
+            <span class='text-quimbara-magenta'>⚡</span> Más Activos en 2024
+          </h2>
+          <div class='text-sm text-quimbara-purple/60'>Últimos 12 meses</div>
+        </div>
+
+        <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+          {mostActiveFighters.map((fighter) => (
+            <a
+              href={`/peleadores/${fighter.slug}`}
+              class='group flex items-center gap-4 bg-white border border-border rounded-2xl p-4 hover:border-quimbara-magenta hover:shadow-lg transition-all'
+            >
+              <img
+                src={getFighterImg(fighter.id)}
+                alt={fighter.name}
+                class='w-16 h-16 rounded-full object-cover border-2 border-quimbara-cream group-hover:border-quimbara-magenta transition-colors'
+                loading='lazy'
+              />
+              <div class='flex-1'>
+                <div class='font-bold text-quimbara-purple group-hover:text-quimbara-magenta transition-colors'>
+                  {fighter.name}
+                </div>
+                <div class='text-sm text-quimbara-purple/60'>{fighter.division}</div>
+              </div>
+              <div class='text-center'>
+                <div class='text-3xl font-heading font-black text-quimbara-magenta'>
+                  {fighter.fightsLastYear}
+                </div>
+                <div class='text-xs text-quimbara-purple/60'>PELEAS</div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  <!-- Finish Machines Section -->
+  {
+    finishMachines.length > 0 && (
+      <section class='mb-16'>
+        <div class='flex items-center justify-between mb-8'>
+          <h2 class='text-4xl font-heading font-bold text-quimbara-purple'>
+            <span class='text-quimbara-magenta'>💥</span> Máquinas de Finalización
+          </h2>
+          <div class='text-sm text-quimbara-purple/60'>+70% finalizaciones</div>
+        </div>
+
+        <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+          {finishMachines.map((fighter) => (
+            <a
+              href={`/peleadores/${fighter.slug}`}
+              class='group bg-gradient-to-br from-quimbara-purple to-[#7209B7] text-white rounded-2xl p-5 hover:shadow-2xl transition-all hover:scale-105'
+            >
+              <div class='flex items-center gap-3 mb-4'>
+                <img
+                  src={getFighterImg(fighter.id)}
+                  alt={fighter.name}
+                  class='w-14 h-14 rounded-full object-cover border-2 border-white'
+                  loading='lazy'
+                />
+                <div class='flex-1'>
+                  <div class='font-bold text-sm leading-tight'>{fighter.name}</div>
+                  <div class='text-xs opacity-75'>{fighter.division}</div>
+                </div>
+                <div class='text-4xl font-heading font-black'>{fighter.finishRate}%</div>
+              </div>
+              <div class='grid grid-cols-3 gap-2 text-center text-xs'>
+                <div class='bg-white/10 rounded-lg py-2'>
+                  <div class='font-bold'>{fighter.koRate}%</div>
+                  <div class='opacity-75'>KO</div>
+                </div>
+                <div class='bg-white/10 rounded-lg py-2'>
+                  <div class='font-bold'>{fighter.subRate}%</div>
+                  <div class='opacity-75'>SUB</div>
+                </div>
+                <div class='bg-white/10 rounded-lg py-2'>
+                  <div class='font-bold'>{100 - fighter.finishRate}%</div>
+                  <div class='opacity-75'>DEC</div>
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  <!-- Peleadores Destacados -->
+  <section class='mb-16'>
+    <div class='flex items-center mb-8'>
+      <h2 class='text-3xl font-heading font-bold text-quimbara-purple'>Peleadores Destacados</h2>
+    </div>
+
+    <div class='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4'>
+      {
+        featuredFighters.map((fighter) => (
+          <a
+            href={`/peleadores/${fighter.slug}`}
+            class='group block bg-white rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 border border-border hover:border-quimbara-magenta'
+          >
+            <div class='aspect-[3/4] relative overflow-hidden bg-quimbara-cream'>
+              <img
+                src={getFighterImg(fighter.id)}
+                alt={fighter.name}
+                class='w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500'
+                loading='lazy'
+                onerror="this.src='/images/fighter-placeholder.png'"
+              />
+              <div class='absolute inset-0 bg-gradient-to-t from-quimbara-purple via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity' />
+
+              <div class='absolute bottom-0 left-0 w-full p-3 z-10'>
+                <h3 class='font-heading font-bold text-white text-base leading-none mb-1 group-hover:text-quimbara-pink transition-colors'>
+                  {fighter.name}
+                </h3>
+                <p class='text-xs text-white/80 uppercase tracking-wider font-medium'>
+                  {fighter.division}
+                </p>
+              </div>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Advanced Filters Section -->
+  <FighterFilter fighters={validFighters} />
+
+  <!-- CTA Final -->
+  <section class='py-12 text-center'>
+    <div
+      class='bg-gradient-to-br from-quimbara-magenta to-quimbara-pink p-12 rounded-3xl shadow-xl'
+    >
+      <h2 class='text-3xl font-heading font-bold text-white mb-4'>
+        ¿Buscas un Peleador Específico?
+      </h2>
+      <p class='text-white/90 mb-8 max-w-2xl mx-auto'>
+        Explora nuestro directorio completo o navega por división para encontrar análisis
+        detallados, estadísticas y el historial completo de cada atleta.
+      </p>
+      <div class='flex flex-col sm:flex-row gap-4 justify-center'>
+        <a
+          href='/rankings'
+          class='px-8 py-4 bg-white text-quimbara-magenta font-bold rounded-xl hover:bg-quimbara-cream transition-all shadow-md'
+        >
+          Ver Rankings
+        </a>
+        <a
+          href='#divisiones'
+          class='px-8 py-4 bg-quimbara-purple text-white font-bold rounded-xl hover:bg-[#5A189A] transition-all shadow-md'
+        >
+          Explorar Divisiones
+        </a>
+      </div>
+    </div>
+  </section>
+</PageLayout>
