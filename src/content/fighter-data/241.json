@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 241,
+    "name": "Ismail Naurdiev",
+    "nickname": "The Austrian Wonderboy",
+    "photo": "https://media.api-sports.io/mma/fighters/241.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "186 lbs",
+    "reach": "74'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 128,
+      "name": "Top  Salzburg"
+    },
+    "last_update": "2025-11-27T12:02:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 241,
+      "name": "Ismail Naurdiev",
+      "photo": "https://media.api-sports.io/mma/fighters/241.png"
+    },
+    "total": {
+      "win": 24,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 12,
+      "loss": 2
+    },
+    "sub": {
+      "win": 6,
+      "loss": 2
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:43.429Z"
+}

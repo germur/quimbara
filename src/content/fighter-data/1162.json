@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 1162,
+    "name": "Nick Diaz",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/1162.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "185 lbs",
+    "reach": "76'",
+    "stance": "Southpaw",
+    "category": "Welterweight",
+    "team": {
+      "id": 248,
+      "name": "Cesar Gracie Jiu-Jitsu"
+    },
+    "last_update": "2025-06-04T22:51:36+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 1162,
+      "name": "Nick Diaz",
+      "photo": "https://media.api-sports.io/mma/fighters/1162.png"
+    },
+    "total": {
+      "win": 26,
+      "loss": 10,
+      "draw": 0
+    },
+    "ko": {
+      "win": 13,
+      "loss": 3
+    },
+    "sub": {
+      "win": 8,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:40.301Z"
+}

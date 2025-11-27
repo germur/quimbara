@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 688,
+    "name": "Amanda Lemos",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/688.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 4'",
+    "weight": "116 lbs",
+    "reach": "65'",
+    "stance": "Southpaw",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 231,
+      "name": "Marajo Brothers"
+    },
+    "last_update": "2025-09-20T12:07:33+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:18.513Z"
+}

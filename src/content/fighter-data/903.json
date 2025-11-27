@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 903,
+    "name": "Casey O&#x27;Neill",
+    "nickname": "King",
+    "photo": "https://media.api-sports.io/mma/fighters/903.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "125 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 20,
+      "name": "Fight Ready"
+    },
+    "last_update": "2025-06-04T20:42:03+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:04.706Z"
+}

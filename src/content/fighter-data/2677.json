@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2677,
+    "name": "Abdul-Kareem Al-Selwady",
+    "nickname": "Pride of Palestine",
+    "photo": "https://media.api-sports.io/mma/fighters/2677.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "155 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 2,
+      "name": "Fortis MMA"
+    },
+    "last_update": "2025-11-01T00:01:05+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:27.168Z"
+}

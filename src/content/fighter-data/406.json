@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 406,
+    "name": "Aleksandar Rakic",
+    "nickname": "Rocket",
+    "photo": "https://media.api-sports.io/mma/fighters/406.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 4'",
+    "weight": "206 lbs",
+    "reach": "78'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 193,
+      "name": "American Top  Zagreb"
+    },
+    "last_update": "2025-11-01T12:07:05+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 406,
+      "name": "Aleksandar Rakic",
+      "photo": "https://media.api-sports.io/mma/fighters/406.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 2
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:35.380Z"
+}

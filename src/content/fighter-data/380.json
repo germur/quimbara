@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 380,
+    "name": "Valentina Shevchenko",
+    "nickname": "Bullet",
+    "photo": "https://media.api-sports.io/mma/fighters/380.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "124 lbs",
+    "reach": "66.5'",
+    "stance": "Southpaw",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 35,
+      "name": "Tiger Muay Thai"
+    },
+    "last_update": "2025-11-23T00:10:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 380,
+      "name": "Valentina Shevchenko",
+      "photo": "https://media.api-sports.io/mma/fighters/380.png"
+    },
+    "total": {
+      "win": 25,
+      "loss": 4,
+      "draw": 1
+    },
+    "ko": {
+      "win": 8,
+      "loss": 1
+    },
+    "sub": {
+      "win": 7,
+      "loss": 1
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:04.689Z"
+}

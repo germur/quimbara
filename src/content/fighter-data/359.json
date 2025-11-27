@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 359,
+    "name": "Jessica Andrade",
+    "nickname": "Bate Estaca",
+    "photo": "https://media.api-sports.io/mma/fighters/359.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 1'",
+    "weight": "126 lbs",
+    "reach": "62'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 175,
+      "name": "Parana Vale Tudo"
+    },
+    "last_update": "2025-08-24T00:02:05+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 359,
+      "name": "Jessica Andrade",
+      "photo": "https://media.api-sports.io/mma/fighters/359.png"
+    },
+    "total": {
+      "win": 26,
+      "loss": 14,
+      "draw": 0
+    },
+    "ko": {
+      "win": 10,
+      "loss": 5
+    },
+    "sub": {
+      "win": 8,
+      "loss": 5
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:06:59.723Z"
+}

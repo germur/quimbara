@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 144,
+    "name": "Mickey Gall",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/144.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "171 lbs",
+    "reach": "74'",
+    "stance": "Switch",
+    "category": "Welterweight",
+    "team": {
+      "id": 145,
+      "name": "Sussex County MMA"
+    },
+    "last_update": "2025-06-04T14:22:33+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:36.928Z"
+}

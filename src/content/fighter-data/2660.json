@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2660,
+    "name": "Ramon Taveras",
+    "nickname": "The Savage",
+    "photo": "https://media.api-sports.io/mma/fighters/2660.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "136 lbs",
+    "reach": "70'",
+    "stance": "Southpaw",
+    "category": "Bantamweight",
+    "team": {
+      "id": 637,
+      "name": "Bulldog Boxing"
+    },
+    "last_update": "2025-10-04T12:04:32+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:23.749Z"
+}

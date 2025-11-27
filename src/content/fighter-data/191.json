@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 191,
+    "name": "Alexa Grasso",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/191.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "124 lbs",
+    "reach": "66'",
+    "stance": "Orthodox",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 110,
+      "name": "Lobo Gym MMA"
+    },
+    "last_update": "2025-06-04T14:46:03+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:02.632Z"
+}

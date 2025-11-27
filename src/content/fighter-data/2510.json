@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2510,
+    "name": "Piera Rodriguez",
+    "nickname": "La Fiera",
+    "photo": "https://media.api-sports.io/mma/fighters/2510.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 3'",
+    "weight": "116 lbs",
+    "reach": "63.5'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 31,
+      "name": "Xtreme Couture"
+    },
+    "last_update": "2025-08-09T12:03:33+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:09.779Z"
+}

@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2555,
+    "name": "Hailey Cowan",
+    "nickname": "All Hail",
+    "photo": "https://media.api-sports.io/mma/fighters/2555.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "136 lbs",
+    "reach": "67'",
+    "stance": "Southpaw",
+    "category": "Women's Bantamweight",
+    "team": {
+      "id": 705,
+      "name": "Blitz Sport MMA"
+    },
+    "last_update": "2025-06-05T10:28:02+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:11.814Z"
+}

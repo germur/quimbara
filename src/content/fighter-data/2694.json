@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 2694,
+    "name": "Mauricio Ruffy",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2694.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "156 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 667,
+      "name": "Fighting Nerds"
+    },
+    "last_update": "2025-09-13T12:13:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2694,
+      "name": "Mauricio Ruffy",
+      "photo": "https://media.api-sports.io/mma/fighters/2694.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 1
+    },
+    "sub": {
+      "win": 0,
+      "loss": 1
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:36.937Z"
+}

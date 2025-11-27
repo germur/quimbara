@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 697,
+    "name": "Norma Dumont",
+    "nickname": "The Immortal",
+    "photo": "https://media.api-sports.io/mma/fighters/697.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "136 lbs",
+    "reach": "67'",
+    "stance": "Orthodox",
+    "category": "Women's Bantamweight",
+    "team": {
+      "id": 308,
+      "name": "Souto"
+    },
+    "last_update": "2025-11-08T12:44:37+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 697,
+      "name": "Norma Dumont",
+      "photo": "https://media.api-sports.io/mma/fighters/697.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 0,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:09.792Z"
+}

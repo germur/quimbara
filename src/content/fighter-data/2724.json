@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2724,
+    "name": "Kiru Sahota",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2724.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "125 lbs",
+    "reach": "73'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 267,
+      "name": "Manchester Top"
+    },
+    "last_update": "2025-06-05T11:52:33+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:45.167Z"
+}

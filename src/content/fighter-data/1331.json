@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 1331,
+    "name": "Erin Blanchfield",
+    "nickname": "Cold Blooded",
+    "photo": "https://media.api-sports.io/mma/fighters/1331.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 4'",
+    "weight": "125 lbs",
+    "reach": "66'",
+    "stance": "Orthodox",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 743,
+      "name": "Silver Fox BJJ"
+    },
+    "last_update": "2025-11-23T00:04:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 1331,
+      "name": "Erin Blanchfield",
+      "photo": "https://media.api-sports.io/mma/fighters/1331.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 0
+    },
+    "sub": {
+      "win": 4,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:02.611Z"
+}

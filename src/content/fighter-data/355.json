@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 355,
+    "name": "Irene Aldana",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/355.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "136 lbs",
+    "reach": "68.5'",
+    "stance": "Orthodox",
+    "category": "Women's Bantamweight",
+    "team": {
+      "id": 110,
+      "name": "Lobo Gym MMA"
+    },
+    "last_update": "2025-06-04T16:08:02+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:15.002Z"
+}

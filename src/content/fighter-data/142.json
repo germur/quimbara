@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 142,
+    "name": "Zhang Weili",
+    "nickname": "Magnum",
+    "photo": "https://media.api-sports.io/mma/fighters/142.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 4'",
+    "weight": "125 lbs",
+    "reach": "63'",
+    "stance": "Switch",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 86,
+      "name": "Beijing Black Tiger"
+    },
+    "last_update": "2025-11-23T00:10:05+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:18.513Z"
+}

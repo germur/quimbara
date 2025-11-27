@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2500,
+    "name": "Karine Silva",
+    "nickname": "Killer",
+    "photo": "https://media.api-sports.io/mma/fighters/2500.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "126 lbs",
+    "reach": "67'",
+    "stance": "Orthodox",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 32,
+      "name": "Gile Ribeiro  / Noguchi"
+    },
+    "last_update": "2025-08-23T12:05:03+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:13.369Z"
+}

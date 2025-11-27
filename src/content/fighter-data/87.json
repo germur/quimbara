@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 87,
+    "name": "Ashlee Evans-Smith",
+    "nickname": "Rebel Girl",
+    "photo": "https://media.api-sports.io/mma/fighters/87.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "135 lbs",
+    "reach": "67'",
+    "stance": "Orthodox",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 60,
+      "name": "Reign MMA"
+    },
+    "last_update": "2025-06-04T13:54:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 87,
+      "name": "Ashlee Evans-Smith",
+      "photo": "https://media.api-sports.io/mma/fighters/87.png"
+    },
+    "total": {
+      "win": 6,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 0
+    },
+    "sub": {
+      "win": 0,
+      "loss": 2
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:16.618Z"
+}

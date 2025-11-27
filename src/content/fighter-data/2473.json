@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2473,
+    "name": "Chelsea Chandler",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2473.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "141 lbs",
+    "reach": "68'",
+    "stance": "Southpaw",
+    "category": "Women's Bantamweight",
+    "team": {
+      "id": 248,
+      "name": "Cesar Gracie Jiu-Jitsu"
+    },
+    "last_update": "2025-06-05T09:47:06+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:16.696Z"
+}

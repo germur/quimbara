@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 2650,
+    "name": "Talita Alencar",
+    "nickname": "Problem Child",
+    "photo": "https://media.api-sports.io/mma/fighters/2650.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 1'",
+    "weight": "115 lbs",
+    "reach": "58'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 819,
+      "name": "Fight Sports Deerfield Beach"
+    },
+    "last_update": "2025-11-08T12:42:07+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2650,
+      "name": "Talita Alencar",
+      "photo": "https://media.api-sports.io/mma/fighters/2650.png"
+    },
+    "total": {
+      "win": 6,
+      "loss": 1,
+      "draw": 1
+    },
+    "ko": {
+      "win": 0,
+      "loss": 0
+    },
+    "sub": {
+      "win": 3,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:21.731Z"
+}

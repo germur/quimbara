@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2667,
+    "name": "Oban Elliott",
+    "nickname": "The Welsh Gangster",
+    "photo": "https://media.api-sports.io/mma/fighters/2667.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "170 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 286,
+      "name": "Shore Mixed Martial Arts Centre of Excellence"
+    },
+    "last_update": "2025-10-04T12:09:32+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:25.373Z"
+}

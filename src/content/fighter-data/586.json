@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 586,
+    "name": "Karol Rosa",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/586.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "136 lbs",
+    "reach": "67.5'",
+    "stance": "Orthodox",
+    "category": "Women's Bantamweight",
+    "team": {
+      "id": 822,
+      "name": "GAEA Project"
+    },
+    "last_update": "2025-08-10T00:03:38+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 586,
+      "name": "Karol Rosa",
+      "photo": "https://media.api-sports.io/mma/fighters/586.png"
+    },
+    "total": {
+      "win": 19,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 0
+    },
+    "sub": {
+      "win": 2,
+      "loss": 2
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:09.786Z"
+}

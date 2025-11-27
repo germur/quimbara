@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 477,
+    "name": "Julia Avila",
+    "nickname": "Raging Panda",
+    "photo": "https://media.api-sports.io/mma/fighters/477.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "135 lbs",
+    "reach": "68'",
+    "stance": "Orthodox",
+    "category": "Women's Bantamweight",
+    "team": {
+      "id": 224,
+      "name": "Oklahoma Martial Arts Academy"
+    },
+    "last_update": "2025-06-04T17:09:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 477,
+      "name": "Julia Avila",
+      "photo": "https://media.api-sports.io/mma/fighters/477.png"
+    },
+    "total": {
+      "win": 9,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:21.708Z"
+}

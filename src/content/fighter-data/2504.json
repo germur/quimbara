@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2504,
+    "name": "Melissa Martinez",
+    "nickname": "Super Melly",
+    "photo": "https://media.api-sports.io/mma/fighters/2504.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 2'",
+    "weight": "115 lbs",
+    "reach": "66'",
+    "stance": "Southpaw",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 690,
+      "name": "Bonebreakers MMA"
+    },
+    "last_update": "2025-07-19T12:03:34+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:43.435Z"
+}

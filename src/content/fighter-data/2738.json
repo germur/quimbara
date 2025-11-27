@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2738,
+    "name": "Cortavious Romious",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2738.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 4'",
+    "weight": "139 lbs",
+    "reach": "68'",
+    "stance": "Southpaw",
+    "category": "Bantamweight",
+    "team": {
+      "id": 120,
+      "name": "Pura Vida BJJ"
+    },
+    "last_update": "2025-06-05T11:59:33+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:45.168Z"
+}

@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 499,
+    "name": "Germaine de Randamie",
+    "nickname": "The Iron Lady",
+    "photo": "https://media.api-sports.io/mma/fighters/499.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "135 lbs",
+    "reach": "71'",
+    "stance": "Orthodox",
+    "category": "Women's Bantamweight",
+    "team": {
+      "id": 64,
+      "name": "AKA (American Kickboxing Academy)"
+    },
+    "last_update": "2025-06-04T17:20:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 499,
+      "name": "Germaine de Randamie",
+      "photo": "https://media.api-sports.io/mma/fighters/499.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 1
+    },
+    "sub": {
+      "win": 1,
+      "loss": 1
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:33.227Z"
+}

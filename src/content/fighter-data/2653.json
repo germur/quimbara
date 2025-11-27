@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 2653,
+    "name": "Brendson Ribeiro",
+    "nickname": "The Gorilla",
+    "photo": "https://media.api-sports.io/mma/fighters/2653.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "206 lbs",
+    "reach": "81'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 771,
+      "name": "Brazilian TKO"
+    },
+    "last_update": "2025-09-13T12:07:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2653,
+      "name": "Brendson Ribeiro",
+      "photo": "https://media.api-sports.io/mma/fighters/2653.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 5
+    },
+    "sub": {
+      "win": 7,
+      "loss": 2
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:27.220Z"
+}

@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2627,
+    "name": "Daria Zhelezniakova",
+    "nickname": "Iron Lady",
+    "photo": "https://media.api-sports.io/mma/fighters/2627.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "135 lbs",
+    "reach": "68'",
+    "stance": "Orthodox",
+    "category": "Women's Bantamweight",
+    "team": {
+      "id": 113,
+      "name": "MMA Factory"
+    },
+    "last_update": "2025-06-28T12:04:06+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:21.837Z"
+}

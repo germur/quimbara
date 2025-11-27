@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 141,
+    "name": "Tecia Pennington",
+    "nickname": "The Tiny Tornado",
+    "photo": "https://media.api-sports.io/mma/fighters/141.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 1'",
+    "weight": "114 lbs",
+    "reach": "60.5'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 85,
+      "name": "Pound 4 Pound Fitness"
+    },
+    "last_update": "2025-11-15T12:04:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 141,
+      "name": "Tecia Pennington",
+      "photo": "https://media.api-sports.io/mma/fighters/141.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 1,
+      "loss": 0
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:36.924Z"
+}

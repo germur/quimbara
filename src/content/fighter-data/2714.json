@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2714,
+    "name": "Robert Valentin",
+    "nickname": "Robzilla",
+    "photo": "https://media.api-sports.io/mma/fighters/2714.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "185 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 366,
+      "name": "Fight Move Academy"
+    },
+    "last_update": "2025-07-26T12:06:38+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:41.816Z"
+}

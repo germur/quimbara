@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 589,
+    "name": "Mizuki",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/589.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 3'",
+    "weight": "115 lbs",
+    "reach": "65'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 58,
+      "name": "Serra-Longo Fight"
+    },
+    "last_update": "2025-11-01T12:00:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 589,
+      "name": "Mizuki",
+      "photo": "https://media.api-sports.io/mma/fighters/589.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 0,
+      "loss": 0
+    },
+    "sub": {
+      "win": 9,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:20.087Z"
+}

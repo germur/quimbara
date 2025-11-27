@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2744,
+    "name": "Roberto Romero",
+    "nickname": "El Charro Negro",
+    "photo": "https://media.api-sports.io/mma/fighters/2744.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "155 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 119,
+      "name": "Oyama"
+    },
+    "last_update": "2025-06-05T12:02:40+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:45.167Z"
+}

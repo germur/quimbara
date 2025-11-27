@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 388,
+    "name": "Ashley Yoder",
+    "nickname": "Spider Monkey",
+    "photo": "https://media.api-sports.io/mma/fighters/388.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "115 lbs",
+    "reach": "69.5'",
+    "stance": "Southpaw",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 184,
+      "name": "Quest"
+    },
+    "last_update": "2025-06-04T16:24:35+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 388,
+      "name": "Ashley Yoder",
+      "photo": "https://media.api-sports.io/mma/fighters/388.png"
+    },
+    "total": {
+      "win": 8,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 0,
+      "loss": 0
+    },
+    "sub": {
+      "win": 4,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:21.668Z"
+}

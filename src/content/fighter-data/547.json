@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 547,
+    "name": "Gabriel Benitez",
+    "nickname": "Moggly",
+    "photo": "https://media.api-sports.io/mma/fighters/547.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "155 lbs",
+    "reach": "71'",
+    "stance": "Southpaw",
+    "category": "Featherweight",
+    "team": {
+      "id": 64,
+      "name": "AKA (American Kickboxing Academy)"
+    },
+    "last_update": "2025-06-04T17:44:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 547,
+      "name": "Gabriel Benitez",
+      "photo": "https://media.api-sports.io/mma/fighters/547.png"
+    },
+    "total": {
+      "win": 23,
+      "loss": 13,
+      "draw": 0
+    },
+    "ko": {
+      "win": 9,
+      "loss": 4
+    },
+    "sub": {
+      "win": 10,
+      "loss": 3
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:23.602Z"
+}

@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 459,
+    "name": "Ramiz Brahimaj",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/459.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "171 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 180,
+      "name": "Valle Flow Striking"
+    },
+    "last_update": "2025-10-11T12:07:03+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:36.929Z"
+}

@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2509,
+    "name": "Pete Rodriguez",
+    "nickname": "Dead Game",
+    "photo": "https://media.api-sports.io/mma/fighters/2509.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "170 lbs",
+    "reach": "71'",
+    "stance": "Switch",
+    "category": "Welterweight",
+    "team": {
+      "id": 678,
+      "name": "Dominate MMA"
+    },
+    "last_update": "2025-06-05T10:05:03+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:23.748Z"
+}

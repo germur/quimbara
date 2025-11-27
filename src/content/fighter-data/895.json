@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 895,
+    "name": "Michael Chandler",
+    "nickname": "Iron",
+    "photo": "https://media.api-sports.io/mma/fighters/895.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "156 lbs",
+    "reach": "71.5'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-06-04T20:38:03+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:38.693Z"
+}

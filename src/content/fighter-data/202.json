@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 202,
+    "name": "Veronica Hardy",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/202.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 4'",
+    "weight": "126 lbs",
+    "reach": "64'",
+    "stance": "Southpaw",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 425,
+      "name": "Rough House"
+    },
+    "last_update": "2025-10-11T12:06:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 202,
+      "name": "Veronica Hardy",
+      "photo": "https://media.api-sports.io/mma/fighters/202.png"
+    },
+    "total": {
+      "win": 9,
+      "loss": 5,
+      "draw": 1
+    },
+    "ko": {
+      "win": 1,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:04.936Z"
+}

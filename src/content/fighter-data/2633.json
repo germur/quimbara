@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2633,
+    "name": "Ravena Oliveira",
+    "nickname": "Kenoudy",
+    "photo": "https://media.api-sports.io/mma/fighters/2633.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "133 lbs",
+    "reach": "65'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 321,
+      "name": "Life MMA"
+    },
+    "last_update": "2025-10-25T12:02:33+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:21.838Z"
+}

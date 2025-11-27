@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 914,
+    "name": "Liang Na",
+    "nickname": "The Dragon Girl",
+    "photo": "https://media.api-sports.io/mma/fighters/914.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "126 lbs",
+    "reach": "67'",
+    "stance": "Orthodox",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 398,
+      "name": "Longyun MMA Gym"
+    },
+    "last_update": "2025-06-04T20:47:32+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:18.516Z"
+}

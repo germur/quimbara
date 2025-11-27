@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2737,
+    "name": "Sean Sharaf",
+    "nickname": "The Smoke",
+    "photo": "https://media.api-sports.io/mma/fighters/2737.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "252 lbs",
+    "reach": "77'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 80,
+      "name": "RVCA"
+    },
+    "last_update": "2025-06-05T11:59:02+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:43.435Z"
+}

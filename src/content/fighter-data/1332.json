@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 1332,
+    "name": "Josiane Nunes",
+    "nickname": "Josi",
+    "photo": "https://media.api-sports.io/mma/fighters/1332.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 2'",
+    "weight": "136 lbs",
+    "reach": "67'",
+    "stance": "Southpaw",
+    "category": "Women's Bantamweight",
+    "team": {
+      "id": 456,
+      "name": "Striker's House"
+    },
+    "last_update": "2025-06-05T00:16:37+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 1332,
+      "name": "Josiane Nunes",
+      "photo": "https://media.api-sports.io/mma/fighters/1332.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 1
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:00.191Z"
+}

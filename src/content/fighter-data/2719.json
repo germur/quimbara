@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2719,
+    "name": "Nathan Fletcher",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2719.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "135 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 814,
+      "name": "Next Generation MMA Liverpool"
+    },
+    "last_update": "2025-08-10T00:00:06+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:41.834Z"
+}

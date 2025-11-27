@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2668,
+    "name": "Robelis Despaigne",
+    "nickname": "The Big Boy",
+    "photo": "https://media.api-sports.io/mma/fighters/2668.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 7'",
+    "weight": "264 lbs",
+    "reach": "84'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 784,
+      "name": "MMA Temple"
+    },
+    "last_update": "2025-06-05T11:24:33+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:28.999Z"
+}

@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2561,
+    "name": "Ivana Petrovic",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2561.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "125 lbs",
+    "reach": "70'",
+    "stance": "Southpaw",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 772,
+      "name": "Orion MMA Academy"
+    },
+    "last_update": "2025-06-05T10:31:04+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:15.057Z"
+}

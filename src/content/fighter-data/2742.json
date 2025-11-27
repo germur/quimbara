@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 2742,
+    "name": "Carlos Leal",
+    "nickname": "The Lion",
+    "photo": "https://media.api-sports.io/mma/fighters/2742.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "169 lbs",
+    "reach": "74'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 111,
+      "name": "Thai Brasil"
+    },
+    "last_update": "2025-06-05T12:01:39+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2742,
+      "name": "Carlos Leal",
+      "photo": "https://media.api-sports.io/mma/fighters/2742.png"
+    },
+    "total": {
+      "win": 22,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 0
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:43.528Z"
+}

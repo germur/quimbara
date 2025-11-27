@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 2617,
+    "name": "Jacqueline Cavalcanti",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2617.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "135 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Women's Bantamweight",
+    "team": {
+      "id": 17,
+      "name": "Syndicate MMA"
+    },
+    "last_update": "2025-11-15T12:05:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2617,
+      "name": "Jacqueline Cavalcanti",
+      "photo": "https://media.api-sports.io/mma/fighters/2617.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 1,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 0
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:18.513Z"
+}

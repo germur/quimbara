@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 415,
+    "name": "Calvin Kattar",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/415.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "146 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 196,
+      "name": "New England Cartel"
+    },
+    "last_update": "2025-07-20T00:03:10+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 415,
+      "name": "Calvin Kattar",
+      "photo": "https://media.api-sports.io/mma/fighters/415.png"
+    },
+    "total": {
+      "win": 23,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 11,
+      "loss": 1
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:35.380Z"
+}

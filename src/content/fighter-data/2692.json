@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2692,
+    "name": "James Llontop",
+    "nickname": "Goku",
+    "photo": "https://media.api-sports.io/mma/fighters/2692.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "166 lbs",
+    "reach": "73'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 741,
+      "name": "FFC"
+    },
+    "last_update": "2025-06-05T11:36:37+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:35.380Z"
+}

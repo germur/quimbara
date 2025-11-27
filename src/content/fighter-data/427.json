@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 427,
+    "name": "Julio Arce",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/427.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "147 lbs",
+    "reach": "70'",
+    "stance": "Southpaw",
+    "category": "Featherweight",
+    "team": {
+      "id": 36,
+      "name": "Tiger Schulman"
+    },
+    "last_update": "2025-06-04T16:44:06+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:33.227Z"
+}

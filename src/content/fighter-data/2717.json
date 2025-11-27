@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2717,
+    "name": "Mansur Abdul-Malik",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2717.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "186 lbs",
+    "reach": "79.5'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 98,
+      "name": "MMA Masters"
+    },
+    "last_update": "2025-06-22T00:06:02+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:45.093Z"
+}

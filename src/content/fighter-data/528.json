@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 528,
+    "name": "Lauren Murphy",
+    "nickname": "Lucky",
+    "photo": "https://media.api-sports.io/mma/fighters/528.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "125 lbs",
+    "reach": "67'",
+    "stance": "Orthodox",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 244,
+      "name": "Renzo Gracie Houston"
+    },
+    "last_update": "2025-07-19T12:06:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 528,
+      "name": "Lauren Murphy",
+      "photo": "https://media.api-sports.io/mma/fighters/528.png"
+    },
+    "total": {
+      "win": 16,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 8,
+      "loss": 1
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:00.145Z"
+}

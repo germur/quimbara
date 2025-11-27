@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 2715,
+    "name": "Ryan Loder",
+    "nickname": "Man of Steel",
+    "photo": "https://media.api-sports.io/mma/fighters/2715.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 2'",
+    "weight": "185 lbs",
+    "reach": "76.5'",
+    "stance": "Southpaw",
+    "category": "Middleweight",
+    "team": {
+      "id": 23,
+      "name": "Alpha Male"
+    },
+    "last_update": "2025-11-27T12:01:35+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2715,
+      "name": "Ryan Loder",
+      "photo": "https://media.api-sports.io/mma/fighters/2715.png"
+    },
+    "total": {
+      "win": 8,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 1
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:41.817Z"
+}

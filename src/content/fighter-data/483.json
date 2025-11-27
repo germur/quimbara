@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 483,
+    "name": "Antonio Trocoli",
+    "nickname": "Malvado",
+    "photo": "https://media.api-sports.io/mma/fighters/483.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 5'",
+    "weight": "186 lbs",
+    "reach": "80'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 762,
+      "name": "Full House MMA"
+    },
+    "last_update": "2025-06-04T17:12:06+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 483,
+      "name": "Antonio Trocoli",
+      "photo": "https://media.api-sports.io/mma/fighters/483.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 2
+    },
+    "sub": {
+      "win": 5,
+      "loss": 1
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:38.625Z"
+}

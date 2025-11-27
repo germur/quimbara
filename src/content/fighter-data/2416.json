@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2416,
+    "name": "Tresean Gore",
+    "nickname": "Mr. Vicious",
+    "photo": "https://media.api-sports.io/mma/fighters/2416.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "186 lbs",
+    "reach": "75'",
+    "stance": "Switch",
+    "category": "Middleweight",
+    "team": {
+      "id": 1,
+      "name": "MMA LAB"
+    },
+    "last_update": "2025-08-09T12:06:35+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:27.175Z"
+}

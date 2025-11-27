@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 112,
+    "name": "Lucie Pudilova",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/112.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "126 lbs",
+    "reach": "67.5'",
+    "stance": "Orthodox",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 40,
+      "name": "SBG Ireland"
+    },
+    "last_update": "2025-06-04T14:06:34+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:07.146Z"
+}

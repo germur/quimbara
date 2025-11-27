@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 192,
+    "name": "Marina Rodriguez",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/192.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "115 lbs",
+    "reach": "65'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 111,
+      "name": "Thai Brasil"
+    },
+    "last_update": "2025-06-04T14:46:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 192,
+      "name": "Marina Rodriguez",
+      "photo": "https://media.api-sports.io/mma/fighters/192.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 5,
+      "draw": 2
+    },
+    "ko": {
+      "win": 7,
+      "loss": 1
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:11.839Z"
+}

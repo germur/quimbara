@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 2683,
+    "name": "AJ Cunningham",
+    "nickname": "The Savage",
+    "photo": "https://media.api-sports.io/mma/fighters/2683.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "136 lbs",
+    "reach": "71'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 733,
+      "name": "Law School MMA"
+    },
+    "last_update": "2025-06-05T11:32:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2683,
+      "name": "AJ Cunningham",
+      "photo": "https://media.api-sports.io/mma/fighters/2683.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 2
+    },
+    "sub": {
+      "win": 4,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:29.057Z"
+}

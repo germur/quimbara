@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2671,
+    "name": "Danny Silva",
+    "nickname": "El Puma",
+    "photo": "https://media.api-sports.io/mma/fighters/2671.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 11'",
+    "weight": "144 lbs",
+    "reach": "70'",
+    "stance": "Switch",
+    "category": "Featherweight",
+    "team": {
+      "id": 759,
+      "name": "Bloodline Combat"
+    },
+    "last_update": "2025-08-10T00:01:40+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:31.184Z"
+}

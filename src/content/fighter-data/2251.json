@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2251,
+    "name": "Ricky Turcios",
+    "nickname": "Pretty",
+    "photo": "https://media.api-sports.io/mma/fighters/2251.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "136 lbs",
+    "reach": "71'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 619,
+      "name": "Gracie Barra Woodlands"
+    },
+    "last_update": "2025-06-05T07:56:03+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:27.171Z"
+}

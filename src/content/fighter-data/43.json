@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 43,
+    "name": "JosÃ© Aldo",
+    "nickname": "Junior",
+    "photo": "https://media.api-sports.io/mma/fighters/43.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "136 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 29,
+      "name": "Nova Uniao"
+    },
+    "last_update": "2025-06-04T13:32:03+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:36.928Z"
+}

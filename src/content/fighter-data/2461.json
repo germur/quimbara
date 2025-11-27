@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 2461,
+    "name": "Ailin Perez",
+    "nickname": "Fiona",
+    "photo": "https://media.api-sports.io/mma/fighters/2461.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "135 lbs",
+    "reach": "66'",
+    "stance": "Switch",
+    "category": "Women's Bantamweight",
+    "team": {
+      "id": 114,
+      "name": "The Goat Shed"
+    },
+    "last_update": "2025-06-05T09:41:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2461,
+      "name": "Ailin Perez",
+      "photo": "https://media.api-sports.io/mma/fighters/2461.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 0
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:15.148Z"
+}

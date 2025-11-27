@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 198,
+    "name": "Maryna Moroz",
+    "nickname": "Iron Lady",
+    "photo": "https://media.api-sports.io/mma/fighters/198.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "125 lbs",
+    "reach": "67'",
+    "stance": "Orthodox",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 21,
+      "name": "American Top"
+    },
+    "last_update": "2025-06-04T14:49:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 198,
+      "name": "Maryna Moroz",
+      "photo": "https://media.api-sports.io/mma/fighters/198.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 1,
+      "loss": 0
+    },
+    "sub": {
+      "win": 6,
+      "loss": 1
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:18.513Z"
+}

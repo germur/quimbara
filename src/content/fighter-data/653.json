@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 653,
+    "name": "Brad Riddell",
+    "nickname": "Quake",
+    "photo": "https://media.api-sports.io/mma/fighters/653.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "155 lbs",
+    "reach": "71'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 48,
+      "name": "City Kickboxing"
+    },
+    "last_update": "2025-06-04T18:37:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 653,
+      "name": "Brad Riddell",
+      "photo": "https://media.api-sports.io/mma/fighters/653.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 1
+    },
+    "sub": {
+      "win": 0,
+      "loss": 3
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:31.184Z"
+}

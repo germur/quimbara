@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 896,
+    "name": "Joselyne Edwards",
+    "nickname": "La Pantera",
+    "photo": "https://media.api-sports.io/mma/fighters/896.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "136 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Women's Bantamweight",
+    "team": {
+      "id": 90,
+      "name": "Kings MMA"
+    },
+    "last_update": "2025-08-16T00:03:07+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:09.792Z"
+}

@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 277,
+    "name": "Carla Esparza",
+    "nickname": "Cookie Monster",
+    "photo": "https://media.api-sports.io/mma/fighters/277.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 1'",
+    "weight": "115 lbs",
+    "reach": "63'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 119,
+      "name": "Oyama"
+    },
+    "last_update": "2025-06-04T15:29:04+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:41.803Z"
+}

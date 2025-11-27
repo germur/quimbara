@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 200,
+    "name": "Opponent TBA",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/200.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": null,
+    "weight": null,
+    "reach": null,
+    "stance": null,
+    "category": null,
+    "team": {
+      "id": null,
+      "name": null
+    },
+    "last_update": "2025-11-22T12:00:09+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 200,
+      "name": "Opponent TBA",
+      "photo": "https://media.api-sports.io/mma/fighters/200.png"
+    },
+    "total": {
+      "win": null,
+      "loss": null,
+      "draw": null
+    },
+    "ko": {
+      "win": null,
+      "loss": null
+    },
+    "sub": {
+      "win": null,
+      "loss": null
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:20.087Z"
+}

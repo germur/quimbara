@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 2607,
+    "name": "Viktoriia Dudakova",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2607.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "116 lbs",
+    "reach": "67'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 714,
+      "name": "Cobrinha Brazilian Jiu-Jitsu & Fitness"
+    },
+    "last_update": "2025-06-05T10:54:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2607,
+      "name": "Viktoriia Dudakova",
+      "photo": "https://media.api-sports.io/mma/fighters/2607.png"
+    },
+    "total": {
+      "win": 8,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 1
+    },
+    "sub": {
+      "win": 4,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:16.690Z"
+}

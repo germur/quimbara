@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 244,
+    "name": "Jack Hermansson",
+    "nickname": "The Joker",
+    "photo": "https://media.api-sports.io/mma/fighters/244.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 1'",
+    "weight": "185 lbs",
+    "reach": "77.5'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 130,
+      "name": "Frontline Academy"
+    },
+    "last_update": "2025-11-27T12:12:33+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:25.321Z"
+}

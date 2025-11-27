@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 360,
+    "name": "Rose Namajunas",
+    "nickname": "Thug",
+    "photo": "https://media.api-sports.io/mma/fighters/360.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "125 lbs",
+    "reach": "65'",
+    "stance": "Orthodox",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 760,
+      "name": "Genesis Training Center"
+    },
+    "last_update": "2025-06-22T00:09:03+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:18.513Z"
+}

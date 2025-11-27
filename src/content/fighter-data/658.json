@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 658,
+    "name": "Zarah Fairn",
+    "nickname": "Infinite",
+    "photo": "https://media.api-sports.io/mma/fighters/658.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "140 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Women's Featherweight",
+    "team": {
+      "id": 291,
+      "name": "10eme Round"
+    },
+    "last_update": "2025-06-04T18:39:32+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:00.707Z"
+}

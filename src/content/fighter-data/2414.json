@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2414,
+    "name": "Julia Polastri",
+    "nickname": "Psycho",
+    "photo": "https://media.api-sports.io/mma/fighters/2414.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 2'",
+    "weight": "116 lbs",
+    "reach": "63'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 664,
+      "name": "CWB Fighter"
+    },
+    "last_update": "2025-10-18T12:03:04+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:27.168Z"
+}

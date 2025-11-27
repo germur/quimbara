@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2661,
+    "name": "Robert Bryczek",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2661.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "185 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Middleweight",
+    "team": {
+      "id": 781,
+      "name": "Veto  Bielsko-Biala"
+    },
+    "last_update": "2025-09-13T12:02:33+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:25.332Z"
+}

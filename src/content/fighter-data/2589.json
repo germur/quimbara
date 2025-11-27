@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2589,
+    "name": "Nora Cornolle",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2589.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "137 lbs",
+    "reach": "67'",
+    "stance": "Orthodox",
+    "category": "Women's Bantamweight",
+    "team": {
+      "id": 774,
+      "name": "US Metro Bizot"
+    },
+    "last_update": "2025-08-10T00:03:08+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:18.518Z"
+}

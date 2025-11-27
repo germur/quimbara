@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2574,
+    "name": "Ketlen Souza",
+    "nickname": "Esquentadinha",
+    "photo": "https://media.api-sports.io/mma/fighters/2574.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 3'",
+    "weight": "116 lbs",
+    "reach": "63'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 711,
+      "name": "Carioca Academy"
+    },
+    "last_update": "2025-08-09T12:03:02+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:13.413Z"
+}

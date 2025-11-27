@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 420,
+    "name": "Mike Davis",
+    "nickname": "Beast Boy",
+    "photo": "https://media.api-sports.io/mma/fighters/420.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "155 lbs",
+    "reach": "72.5'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 164,
+      "name": "Fusion X-Cel"
+    },
+    "last_update": "2025-07-19T12:04:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 420,
+      "name": "Mike Davis",
+      "photo": "https://media.api-sports.io/mma/fighters/420.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 0
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:31.184Z"
+}

@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 900,
+    "name": "Manon Fiorot",
+    "nickname": "The Beast",
+    "photo": "https://media.api-sports.io/mma/fighters/900.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "125 lbs",
+    "reach": "65'",
+    "stance": "Orthodox",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 392,
+      "name": "Boxing Squad"
+    },
+    "last_update": "2025-10-25T12:08:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 900,
+      "name": "Manon Fiorot",
+      "photo": "https://media.api-sports.io/mma/fighters/900.png"
+    },
+    "total": {
+      "win": 12,
+      "loss": 2,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 0
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:20.150Z"
+}

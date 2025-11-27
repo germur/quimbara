@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 2481,
+    "name": "Denise Gomes",
+    "nickname": "Dee",
+    "photo": "https://media.api-sports.io/mma/fighters/2481.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 2'",
+    "weight": "115 lbs",
+    "reach": "63'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 175,
+      "name": "Parana Vale Tudo"
+    },
+    "last_update": "2025-11-15T12:03:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2481,
+      "name": "Denise Gomes",
+      "photo": "https://media.api-sports.io/mma/fighters/2481.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 1
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:09.782Z"
+}

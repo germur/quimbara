@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 601,
+    "name": "Claudio Puelles",
+    "nickname": "Prince of Peru",
+    "photo": "https://media.api-sports.io/mma/fighters/601.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "156 lbs",
+    "reach": "72'",
+    "stance": "Southpaw",
+    "category": "Lightweight",
+    "team": {
+      "id": 763,
+      "name": "Brazilian Warriors BJJ"
+    },
+    "last_update": "2025-09-20T12:09:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 601,
+      "name": "Claudio Puelles",
+      "photo": "https://media.api-sports.io/mma/fighters/601.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 2
+    },
+    "sub": {
+      "win": 7,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:27.075Z"
+}

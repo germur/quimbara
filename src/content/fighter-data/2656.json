@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2656,
+    "name": "Felipe Bunes",
+    "nickname": "Felipinho",
+    "photo": "https://media.api-sports.io/mma/fighters/2656.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "125 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 172,
+      "name": "Pitbull Brothers"
+    },
+    "last_update": "2025-08-09T12:02:07+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:23.749Z"
+}

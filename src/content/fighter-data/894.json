@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 894,
+    "name": "Sam Hughes",
+    "nickname": "Sampage",
+    "photo": "https://media.api-sports.io/mma/fighters/894.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "116 lbs",
+    "reach": "64.5'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 2,
+      "name": "Fortis MMA"
+    },
+    "last_update": "2025-09-13T12:01:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 894,
+      "name": "Sam Hughes",
+      "photo": "https://media.api-sports.io/mma/fighters/894.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 6,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 1
+    },
+    "sub": {
+      "win": 4,
+      "loss": 1
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:07.344Z"
+}

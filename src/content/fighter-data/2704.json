@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2704,
+    "name": "Mitch Raposo",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2704.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "126 lbs",
+    "reach": "64.5'",
+    "stance": "Switch",
+    "category": "Flyweight",
+    "team": {
+      "id": 212,
+      "name": "Regiment Traing Center"
+    },
+    "last_update": "2025-11-01T12:01:35+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:36.991Z"
+}

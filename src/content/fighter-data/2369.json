@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2369,
+    "name": "Tabatha Ricci",
+    "nickname": "Baby Shark",
+    "photo": "https://media.api-sports.io/mma/fighters/2369.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 1'",
+    "weight": "115 lbs",
+    "reach": "61'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 647,
+      "name": "Paragon BJJ"
+    },
+    "last_update": "2025-07-26T12:00:43+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:02.672Z"
+}

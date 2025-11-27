@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2722,
+    "name": "DongHun Choi",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2722.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "125 lbs",
+    "reach": "66'",
+    "stance": "Switch",
+    "category": "Flyweight",
+    "team": {
+      "id": 789,
+      "name": "Pohang  MAD"
+    },
+    "last_update": "2025-06-05T11:51:33+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:45.167Z"
+}

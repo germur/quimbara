@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 558,
+    "name": "Julianna PeÃ±a",
+    "nickname": "The Venezuelan Vixen",
+    "photo": "https://media.api-sports.io/mma/fighters/558.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "134 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Women's Bantamweight",
+    "team": {
+      "id": 180,
+      "name": "Valle Flow Striking"
+    },
+    "last_update": "2025-06-15T00:07:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 558,
+      "name": "Julianna PeÃ±a",
+      "photo": "https://media.api-sports.io/mma/fighters/558.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 5,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 1
+    },
+    "sub": {
+      "win": 6,
+      "loss": 2
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:41.809Z"
+}

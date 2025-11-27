@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2508,
+    "name": "Natalia Silva",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2508.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 4'",
+    "weight": "125 lbs",
+    "reach": "65'",
+    "stance": "Southpaw",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 684,
+      "name": "Borracha"
+    },
+    "last_update": "2025-06-05T10:04:33+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:13.389Z"
+}

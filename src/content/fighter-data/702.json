@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 702,
+    "name": "Youssef Zalal",
+    "nickname": "The Moroccan Devil",
+    "photo": "https://media.api-sports.io/mma/fighters/702.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "146 lbs",
+    "reach": "72'",
+    "stance": "Switch",
+    "category": "Featherweight",
+    "team": {
+      "id": 16,
+      "name": "FactoryX Muay Thai"
+    },
+    "last_update": "2025-10-12T00:02:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 702,
+      "name": "Youssef Zalal",
+      "photo": "https://media.api-sports.io/mma/fighters/702.png"
+    },
+    "total": {
+      "win": 18,
+      "loss": 5,
+      "draw": 1
+    },
+    "ko": {
+      "win": 4,
+      "loss": 0
+    },
+    "sub": {
+      "win": 10,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:31.184Z"
+}

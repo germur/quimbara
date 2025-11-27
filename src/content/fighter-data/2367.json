@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2367,
+    "name": "Chris Barnett",
+    "nickname": "Beastboy",
+    "photo": "https://media.api-sports.io/mma/fighters/2367.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "264 lbs",
+    "reach": "75'",
+    "stance": "Orthodox",
+    "category": "Heavyweight",
+    "team": {
+      "id": 552,
+      "name": "Hardcore Gym"
+    },
+    "last_update": "2025-11-01T12:02:33+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:43.427Z"
+}

@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 2664,
+    "name": "Tom Nolan",
+    "nickname": "Big Train",
+    "photo": "https://media.api-sports.io/mma/fighters/2664.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "155 lbs",
+    "reach": "73'",
+    "stance": "Southpaw",
+    "category": "Lightweight",
+    "team": {
+      "id": 783,
+      "name": "Compton Training Centre"
+    },
+    "last_update": "2025-10-05T00:03:05+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2664,
+      "name": "Tom Nolan",
+      "photo": "https://media.api-sports.io/mma/fighters/2664.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 1,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 1
+    },
+    "sub": {
+      "win": 1,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:23.750Z"
+}

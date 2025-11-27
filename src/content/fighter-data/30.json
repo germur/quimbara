@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 30,
+    "name": "Taila Santos",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/30.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "124 lbs",
+    "reach": "68'",
+    "stance": "Orthodox",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 28,
+      "name": "Taila Santos"
+    },
+    "last_update": "2025-06-04T13:25:32+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:18.513Z"
+}

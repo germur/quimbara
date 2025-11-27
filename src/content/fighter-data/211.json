@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 211,
+    "name": "Polyana Viana",
+    "nickname": "Dama de Ferro",
+    "photo": "https://media.api-sports.io/mma/fighters/211.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "115 lbs",
+    "reach": "67'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 38,
+      "name": "Chute Boxe"
+    },
+    "last_update": "2025-06-04T14:56:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 211,
+      "name": "Polyana Viana",
+      "photo": "https://media.api-sports.io/mma/fighters/211.png"
+    },
+    "total": {
+      "win": 13,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 5,
+      "loss": 1
+    },
+    "sub": {
+      "win": 8,
+      "loss": 2
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:18.514Z"
+}

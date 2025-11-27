@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 677,
+    "name": "Diana Belbita",
+    "nickname": "The Warrior Princess",
+    "photo": "https://media.api-sports.io/mma/fighters/677.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "125 lbs",
+    "reach": "68'",
+    "stance": "Orthodox",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 168,
+      "name": "House Of Champions"
+    },
+    "last_update": "2025-06-04T18:49:03+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 677,
+      "name": "Diana Belbita",
+      "photo": "https://media.api-sports.io/mma/fighters/677.png"
+    },
+    "total": {
+      "win": 15,
+      "loss": 10,
+      "draw": 0
+    },
+    "ko": {
+      "win": 6,
+      "loss": 0
+    },
+    "sub": {
+      "win": 4,
+      "loss": 6
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:15.002Z"
+}

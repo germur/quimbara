@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2735,
+    "name": "Reinier de Ridder",
+    "nickname": "RDR",
+    "photo": "https://media.api-sports.io/mma/fighters/2735.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 4'",
+    "weight": "186 lbs",
+    "reach": "78'",
+    "stance": "Southpaw",
+    "category": "Middleweight",
+    "team": {
+      "id": 748,
+      "name": "Combat Brothers"
+    },
+    "last_update": "2025-10-26T00:02:03+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:45.084Z"
+}

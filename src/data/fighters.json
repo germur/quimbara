@@ -3666,5 +3666,1755 @@
     "slug": "zhalgas-zhumagulov",
     "description": "\"Zhako\". Luchador de Flyweight.",
     "division": "Flyweight"
+  },
+  {
+    "id": 518,
+    "name": "Raquel Pennington",
+    "slug": "raquel-pennington",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 411,
+    "name": "Lina Lansberg",
+    "slug": "lina-lansberg",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 359,
+    "name": "Jessica Andrade",
+    "slug": "jessica-andrade",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 528,
+    "name": "Lauren Murphy",
+    "slug": "lauren-murphy",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 686,
+    "name": "Ketlen Vieira",
+    "slug": "ketlen-vieira",
+    "description": "Luchador de Women's Featherweight.",
+    "division": "Women's Featherweight"
+  },
+  {
+    "id": 700,
+    "name": "Mayra Bueno Silva",
+    "slug": "mayra-bueno-silva",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 680,
+    "name": "Loma Lookboonmee",
+    "slug": "loma-lookboonmee",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 1332,
+    "name": "Josiane Nunes",
+    "slug": "josiane-nunes",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 658,
+    "name": "Zarah Fairn",
+    "slug": "zarah-fairn",
+    "description": "Luchador de Women's Featherweight.",
+    "division": "Women's Featherweight"
+  },
+  {
+    "id": 2373,
+    "name": "Elise Reed",
+    "slug": "elise-reed",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 1331,
+    "name": "Erin Blanchfield",
+    "slug": "erin-blanchfield",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 2413,
+    "name": "Jasmine Jasudavicius",
+    "slug": "jasmine-jasudavicius",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 77,
+    "name": "Jessica Penne",
+    "slug": "jessica-penne",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 474,
+    "name": "Amanda Ribas",
+    "slug": "amanda-ribas",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 424,
+    "name": "Viviane Araujo",
+    "slug": "viviane-araujo",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 191,
+    "name": "Alexa Grasso",
+    "slug": "alexa-grasso",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 61,
+    "name": "Montana De La Rosa",
+    "slug": "montana-de-la-rosa",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 383,
+    "name": "Tatiana Suarez",
+    "slug": "tatiana-suarez",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2369,
+    "name": "Tabatha Ricci",
+    "slug": "tabatha-ricci",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2553,
+    "name": "Gabriella Fernandes",
+    "slug": "gabriella-fernandes",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 5,
+    "name": "Ariane da Silva",
+    "slug": "ariane-da-silva",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 380,
+    "name": "Valentina Shevchenko",
+    "slug": "valentina-shevchenko",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 357,
+    "name": "Luana Carolina",
+    "slug": "luana-carolina",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 188,
+    "name": "JJ Aldrich",
+    "slug": "jj-aldrich",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 18,
+    "name": "Joanne Wood",
+    "slug": "joanne-wood",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 178,
+    "name": "Jennifer Maia",
+    "slug": "jennifer-maia",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 158,
+    "name": "Yana Santos",
+    "slug": "yana-santos",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 202,
+    "name": "Veronica Hardy",
+    "slug": "veronica-hardy",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 903,
+    "name": "Casey O&#x27;Neill",
+    "slug": "casey-o-x27-neill",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 2499,
+    "name": "Juliana Miller",
+    "slug": "juliana-miller",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 88,
+    "name": "Andrea Lee",
+    "slug": "andrea-lee",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 127,
+    "name": "Holly Holm",
+    "slug": "holly-holm",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 187,
+    "name": "Maycee Barber",
+    "slug": "maycee-barber",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 196,
+    "name": "Michelle Waterson-Gomez",
+    "slug": "michelle-waterson-gomez",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 96,
+    "name": "Cynthia Calvillo",
+    "slug": "cynthia-calvillo",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 112,
+    "name": "Lucie Pudilova",
+    "slug": "lucie-pudilova",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 894,
+    "name": "Sam Hughes",
+    "slug": "sam-hughes",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 1334,
+    "name": "Loopy GodÃ­nez",
+    "slug": "loopy-god-nez",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 880,
+    "name": "Luana Pinheiro",
+    "slug": "luana-pinheiro",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2565,
+    "name": "Jaqueline Amorim",
+    "slug": "jaqueline-amorim",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2481,
+    "name": "Denise Gomes",
+    "slug": "denise-gomes",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 697,
+    "name": "Norma Dumont",
+    "slug": "norma-dumont",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 586,
+    "name": "Karol Rosa",
+    "slug": "karol-rosa",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 203,
+    "name": "Gillian Robertson",
+    "slug": "gillian-robertson",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2534,
+    "name": "Bruna Brasil",
+    "slug": "bruna-brasil",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 2468,
+    "name": "Brogan Walker",
+    "slug": "brogan-walker",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 2493,
+    "name": "Iasmin Lucindo",
+    "slug": "iasmin-lucindo",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 896,
+    "name": "Joselyne Edwards",
+    "slug": "joselyne-edwards",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 2510,
+    "name": "Piera Rodriguez",
+    "slug": "piera-rodriguez",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2564,
+    "name": "Jamey-Lyn Horth",
+    "slug": "jamey-lyn-horth",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 394,
+    "name": "Virna Jandiroba",
+    "slug": "virna-jandiroba",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 192,
+    "name": "Marina Rodriguez",
+    "slug": "marina-rodriguez",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 655,
+    "name": "Ji Yeon Kim",
+    "slug": "ji-yeon-kim",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 377,
+    "name": "Yan Xiaonan",
+    "slug": "yan-xiaonan",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 352,
+    "name": "Jessica-Rose Clark",
+    "slug": "jessica-rose-clark",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 858,
+    "name": "Stephanie Egger",
+    "slug": "stephanie-egger",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 2558,
+    "name": "Irina Alekseeva",
+    "slug": "irina-alekseeva",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 2555,
+    "name": "Hailey Cowan",
+    "slug": "hailey-cowan",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 2600,
+    "name": "Tainara Lisboa",
+    "slug": "tainara-lisboa",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 2401,
+    "name": "Mandy Bohm",
+    "slug": "mandy-bohm",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 186,
+    "name": "Angela Hill",
+    "slug": "angela-hill",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 738,
+    "name": "Jinh Yu Frey",
+    "slug": "jinh-yu-frey",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 663,
+    "name": "Mackenzie Dern",
+    "slug": "mackenzie-dern",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2500,
+    "name": "Karine Silva",
+    "slug": "karine-silva",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 2508,
+    "name": "Natalia Silva",
+    "slug": "natalia-silva",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 2484,
+    "name": "Emily Ducote",
+    "slug": "emily-ducote",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 884,
+    "name": "Victoria Leonardo",
+    "slug": "victoria-leonardo",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 771,
+    "name": "Vanessa Demopoulos",
+    "slug": "vanessa-demopoulos",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 195,
+    "name": "Karolina Kowalkiewicz",
+    "slug": "karolina-kowalkiewicz",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2574,
+    "name": "Ketlen Souza",
+    "slug": "ketlen-souza",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 724,
+    "name": "Miranda Maverick",
+    "slug": "miranda-maverick",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 476,
+    "name": "Melissa Gatto",
+    "slug": "melissa-gatto",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 2517,
+    "name": "Tereza Bleda",
+    "slug": "tereza-bleda",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 677,
+    "name": "Diana Belbita",
+    "slug": "diana-belbita",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 355,
+    "name": "Irene Aldana",
+    "slug": "irene-aldana",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 389,
+    "name": "Amanda Nunes",
+    "slug": "amanda-nunes",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 2357,
+    "name": "Maria Oliveira",
+    "slug": "maria-oliveira",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2561,
+    "name": "Ivana Petrovic",
+    "slug": "ivana-petrovic",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 2523,
+    "name": "Yazmin Jauregui",
+    "slug": "yazmin-jauregui",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2461,
+    "name": "Ailin Perez",
+    "slug": "ailin-perez",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 555,
+    "name": "Pannie Kianzad",
+    "slug": "pannie-kianzad",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 87,
+    "name": "Ashlee Evans-Smith",
+    "slug": "ashlee-evans-smith",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 173,
+    "name": "Molly McCann",
+    "slug": "molly-mccann",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 174,
+    "name": "Priscila Cachoeira",
+    "slug": "priscila-cachoeira",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 2607,
+    "name": "Viktoriia Dudakova",
+    "slug": "viktoriia-dudakova",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2458,
+    "name": "Istela Nunes",
+    "slug": "istela-nunes",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2578,
+    "name": "Luana Santos",
+    "slug": "luana-santos",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 2598,
+    "name": "Shauna Bannon",
+    "slug": "shauna-bannon",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2473,
+    "name": "Chelsea Chandler",
+    "slug": "chelsea-chandler",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 781,
+    "name": "Julija Stoliarenko",
+    "slug": "julija-stoliarenko",
+    "description": "Luchador de Women's Featherweight.",
+    "division": "Women's Featherweight"
+  },
+  {
+    "id": 198,
+    "name": "Maryna Moroz",
+    "slug": "maryna-moroz",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 211,
+    "name": "Polyana Viana",
+    "slug": "polyana-viana",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 911,
+    "name": "Montserrat Conejo Ruiz",
+    "slug": "montserrat-conejo-ruiz",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2617,
+    "name": "Jacqueline Cavalcanti",
+    "slug": "jacqueline-cavalcanti",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 30,
+    "name": "Taila Santos",
+    "slug": "taila-santos",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 688,
+    "name": "Amanda Lemos",
+    "slug": "amanda-lemos",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 360,
+    "name": "Rose Namajunas",
+    "slug": "rose-namajunas",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 142,
+    "name": "Zhang Weili",
+    "slug": "zhang-weili",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 914,
+    "name": "Liang Na",
+    "slug": "liang-na",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 2589,
+    "name": "Nora Cornolle",
+    "slug": "nora-cornolle",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 900,
+    "name": "Manon Fiorot",
+    "slug": "manon-fiorot",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 200,
+    "name": "Opponent TBA",
+    "slug": "opponent-tba",
+    "description": "Luchador de UFC.",
+    "division": null
+  },
+  {
+    "id": 445,
+    "name": "Hannah Goldy",
+    "slug": "hannah-goldy",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 589,
+    "name": "Mizuki",
+    "slug": "mizuki",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 199,
+    "name": "Opponent TBA",
+    "slug": "opponent-tba",
+    "description": "Luchador de UFC.",
+    "division": null
+  },
+  {
+    "id": 539,
+    "name": "Tracy Cortez",
+    "slug": "tracy-cortez",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 2622,
+    "name": "Josefine Knutsson",
+    "slug": "josefine-knutsson",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2625,
+    "name": "Marnic Mann",
+    "slug": "marnic-mann",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2515,
+    "name": "Tamires Vidal",
+    "slug": "tamires-vidal",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 2615,
+    "name": "Montserrat Rendon",
+    "slug": "montserrat-rendon",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 388,
+    "name": "Ashley Yoder",
+    "slug": "ashley-yoder",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 477,
+    "name": "Julia Avila",
+    "slug": "julia-avila",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 2650,
+    "name": "Talita Alencar",
+    "slug": "talita-alencar",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 889,
+    "name": "Kanako Murata",
+    "slug": "kanako-murata",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2623,
+    "name": "Eduarda Moura",
+    "slug": "eduarda-moura",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 2627,
+    "name": "Daria Zhelezniakova",
+    "slug": "daria-zhelezniakova",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 2629,
+    "name": "Melissa Mullins",
+    "slug": "melissa-mullins",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 1978,
+    "name": "Miesha Tate",
+    "slug": "miesha-tate",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 2633,
+    "name": "Ravena Oliveira",
+    "slug": "ravena-oliveira",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2649,
+    "name": "Rayanne dos Santos",
+    "slug": "rayanne-dos-santos",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 168,
+    "name": "Dominick Reyes",
+    "slug": "dominick-reyes",
+    "description": "Luchador de Light Heavyweight.",
+    "division": "Light Heavyweight"
+  },
+  {
+    "id": 547,
+    "name": "Gabriel Benitez",
+    "slug": "gabriel-benitez",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 2663,
+    "name": "Thomas Petersen",
+    "slug": "thomas-petersen",
+    "description": "Luchador de Heavyweight.",
+    "division": "Heavyweight"
+  },
+  {
+    "id": 2666,
+    "name": "Jean Silva",
+    "slug": "jean-silva",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 2664,
+    "name": "Tom Nolan",
+    "slug": "tom-nolan",
+    "description": "Luchador de Lightweight.",
+    "division": "Lightweight"
+  },
+  {
+    "id": 2662,
+    "name": "Serhiy Sidey",
+    "slug": "serhiy-sidey",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 2656,
+    "name": "Felipe Bunes",
+    "slug": "felipe-bunes",
+    "description": "Luchador de Flyweight.",
+    "division": "Flyweight"
+  },
+  {
+    "id": 2509,
+    "name": "Pete Rodriguez",
+    "slug": "pete-rodriguez",
+    "description": "Luchador de Welterweight.",
+    "division": "Welterweight"
+  },
+  {
+    "id": 2658,
+    "name": "MarQuel Mederos",
+    "slug": "marquel-mederos",
+    "description": "Luchador de Lightweight.",
+    "division": "Lightweight"
+  },
+  {
+    "id": 2660,
+    "name": "Ramon Taveras",
+    "slug": "ramon-taveras",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 2654,
+    "name": "Carlos Prates",
+    "slug": "carlos-prates",
+    "description": "Luchador de Welterweight.",
+    "division": "Welterweight"
+  },
+  {
+    "id": 44,
+    "name": "Renato Moicano",
+    "slug": "renato-moicano",
+    "description": "Luchador de Lightweight.",
+    "division": "Lightweight"
+  },
+  {
+    "id": 2657,
+    "name": "Hyder Amil",
+    "slug": "hyder-amil",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 244,
+    "name": "Jack Hermansson",
+    "slug": "jack-hermansson",
+    "description": "Luchador de Middleweight.",
+    "division": "Middleweight"
+  },
+  {
+    "id": 119,
+    "name": "Damir Hadzovic",
+    "slug": "damir-hadzovic",
+    "description": "Luchador de Lightweight.",
+    "division": "Lightweight"
+  },
+  {
+    "id": 2676,
+    "name": "Timmy Cuamba",
+    "slug": "timmy-cuamba",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 2661,
+    "name": "Robert Bryczek",
+    "slug": "robert-bryczek",
+    "description": "Luchador de Middleweight.",
+    "division": "Middleweight"
+  },
+  {
+    "id": 2652,
+    "name": "Bolaji Oki",
+    "slug": "bolaji-oki",
+    "description": "Luchador de Lightweight.",
+    "division": "Lightweight"
+  },
+  {
+    "id": 2667,
+    "name": "Oban Elliott",
+    "slug": "oban-elliott",
+    "description": "Luchador de Welterweight.",
+    "division": "Welterweight"
+  },
+  {
+    "id": 2655,
+    "name": "Danny Barlow",
+    "slug": "danny-barlow",
+    "description": "Luchador de Middleweight.",
+    "division": "Middleweight"
+  },
+  {
+    "id": 757,
+    "name": "Ronaldo RodrÃ­guez",
+    "slug": "ronaldo-rodr-guez",
+    "description": "Luchador de Flyweight.",
+    "division": "Flyweight"
+  },
+  {
+    "id": 601,
+    "name": "Claudio Puelles",
+    "slug": "claudio-puelles",
+    "description": "Luchador de Lightweight.",
+    "division": "Lightweight"
+  },
+  {
+    "id": 2251,
+    "name": "Ricky Turcios",
+    "slug": "ricky-turcios",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 2416,
+    "name": "Tresean Gore",
+    "slug": "tresean-gore",
+    "description": "Luchador de Middleweight.",
+    "division": "Middleweight"
+  },
+  {
+    "id": 840,
+    "name": "Brian Ortega",
+    "slug": "brian-ortega",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 2653,
+    "name": "Brendson Ribeiro",
+    "slug": "brendson-ribeiro",
+    "description": "Luchador de Light Heavyweight.",
+    "division": "Light Heavyweight"
+  },
+  {
+    "id": 2677,
+    "name": "Abdul-Kareem Al-Selwady",
+    "slug": "abdul-kareem-al-selwady",
+    "description": "Luchador de Lightweight.",
+    "division": "Lightweight"
+  },
+  {
+    "id": 2414,
+    "name": "Julia Polastri",
+    "slug": "julia-polastri",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2665,
+    "name": "Zhang Mingyang",
+    "slug": "zhang-mingyang",
+    "description": "Luchador de Light Heavyweight.",
+    "division": "Light Heavyweight"
+  },
+  {
+    "id": 2486,
+    "name": "Erik Silva",
+    "slug": "erik-silva",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 314,
+    "name": "Alex Perez",
+    "slug": "alex-perez",
+    "description": "Luchador de Flyweight.",
+    "division": "Flyweight"
+  },
+  {
+    "id": 2678,
+    "name": "Bekzat Almakhan",
+    "slug": "bekzat-almakhan",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 384,
+    "name": "Katlyn Cerminara",
+    "slug": "katlyn-cerminara",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 2683,
+    "name": "AJ Cunningham",
+    "slug": "aj-cunningham",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 2684,
+    "name": "Bernardo Sopaj",
+    "slug": "bernardo-sopaj",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 2675,
+    "name": "Vinicius Oliveira",
+    "slug": "vinicius-oliveira",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 2659,
+    "name": "Michael Page",
+    "slug": "michael-page",
+    "description": "Luchador de Middleweight.",
+    "division": "Middleweight"
+  },
+  {
+    "id": 2668,
+    "name": "Robelis Despaigne",
+    "slug": "robelis-despaigne",
+    "description": "Luchador de Heavyweight.",
+    "division": "Heavyweight"
+  },
+  {
+    "id": 770,
+    "name": "Cory McKenna",
+    "slug": "cory-mckenna",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2670,
+    "name": "Charalampos Grigoriou",
+    "slug": "charalampos-grigoriou",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 420,
+    "name": "Mike Davis",
+    "slug": "mike-davis",
+    "description": "Luchador de Lightweight.",
+    "division": "Lightweight"
+  },
+  {
+    "id": 702,
+    "name": "Youssef Zalal",
+    "slug": "youssef-zalal",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 130,
+    "name": "Macy Chiasson",
+    "slug": "macy-chiasson",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 653,
+    "name": "Brad Riddell",
+    "slug": "brad-riddell",
+    "description": "Luchador de Lightweight.",
+    "division": "Lightweight"
+  },
+  {
+    "id": 2688,
+    "name": "Mitch Ramirez",
+    "slug": "mitch-ramirez",
+    "description": "Luchador de Lightweight.",
+    "division": "Lightweight"
+  },
+  {
+    "id": 2671,
+    "name": "Danny Silva",
+    "slug": "danny-silva",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 2680,
+    "name": "Igor Severino",
+    "slug": "igor-severino",
+    "description": "Luchador de Flyweight.",
+    "division": "Flyweight"
+  },
+  {
+    "id": 537,
+    "name": "Steven Nguyen",
+    "slug": "steven-nguyen",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 2674,
+    "name": "Luis Pajuelo",
+    "slug": "luis-pajuelo",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 2679,
+    "name": "Andre Lima",
+    "slug": "andre-lima",
+    "description": "Luchador de Flyweight.",
+    "division": "Flyweight"
+  },
+  {
+    "id": 613,
+    "name": "Herbert Burns",
+    "slug": "herbert-burns",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 499,
+    "name": "Germaine de Randamie",
+    "slug": "germaine-de-randamie",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 427,
+    "name": "Julio Arce",
+    "slug": "julio-arce",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 2673,
+    "name": "Ibo Aslan",
+    "slug": "ibo-aslan",
+    "description": "Luchador de Light Heavyweight.",
+    "division": "Light Heavyweight"
+  },
+  {
+    "id": 2685,
+    "name": "Jean Matsumoto",
+    "slug": "jean-matsumoto",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 2682,
+    "name": "Connor Matthews",
+    "slug": "connor-matthews",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 2695,
+    "name": "Pedro FalcÃ£o",
+    "slug": "pedro-falc-o",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 2691,
+    "name": "Dylan Budka",
+    "slug": "dylan-budka",
+    "description": "Luchador de Middleweight.",
+    "division": "Middleweight"
+  },
+  {
+    "id": 2686,
+    "name": "Valter Walker",
+    "slug": "valter-walker",
+    "description": "Luchador de Heavyweight.",
+    "division": "Heavyweight"
+  },
+  {
+    "id": 2669,
+    "name": "Angel Pacheco",
+    "slug": "angel-pacheco",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 415,
+    "name": "Calvin Kattar",
+    "slug": "calvin-kattar",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 406,
+    "name": "Aleksandar Rakic",
+    "slug": "aleksandar-rakic",
+    "description": "Luchador de Light Heavyweight.",
+    "division": "Light Heavyweight"
+  },
+  {
+    "id": 2697,
+    "name": "Chris Padilla",
+    "slug": "chris-padilla",
+    "description": "Luchador de Lightweight.",
+    "division": "Lightweight"
+  },
+  {
+    "id": 2687,
+    "name": "Lucas Rocha",
+    "slug": "lucas-rocha",
+    "description": "Luchador de Flyweight.",
+    "division": "Flyweight"
+  },
+  {
+    "id": 2505,
+    "name": "Michal Figlak",
+    "slug": "michal-figlak",
+    "description": "Luchador de Lightweight.",
+    "division": "Lightweight"
+  },
+  {
+    "id": 2693,
+    "name": "Jhonata Diniz",
+    "slug": "jhonata-diniz",
+    "description": "Luchador de Heavyweight.",
+    "division": "Heavyweight"
+  },
+  {
+    "id": 2672,
+    "name": "Kayla Harrison",
+    "slug": "kayla-harrison",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 2690,
+    "name": "Ernesta Kareckaite",
+    "slug": "ernesta-kareckaite",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 2692,
+    "name": "James Llontop",
+    "slug": "james-llontop",
+    "description": "Luchador de Lightweight.",
+    "division": "Lightweight"
+  },
+  {
+    "id": 2689,
+    "name": "Dione Barbosa",
+    "slug": "dione-barbosa",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 141,
+    "name": "Tecia Pennington",
+    "slug": "tecia-pennington",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2696,
+    "name": "Oumar Sy",
+    "slug": "oumar-sy",
+    "description": "Luchador de Light Heavyweight.",
+    "division": "Light Heavyweight"
+  },
+  {
+    "id": 43,
+    "name": "JosÃ© Aldo",
+    "slug": "jos-aldo",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 2694,
+    "name": "Mauricio Ruffy",
+    "slug": "mauricio-ruffy",
+    "description": "Luchador de Lightweight.",
+    "division": "Lightweight"
+  },
+  {
+    "id": 567,
+    "name": "Ariane Carnelossi",
+    "slug": "ariane-carnelossi",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 459,
+    "name": "Ramiz Brahimaj",
+    "slug": "ramiz-brahimaj",
+    "description": "Luchador de Welterweight.",
+    "division": "Welterweight"
+  },
+  {
+    "id": 144,
+    "name": "Mickey Gall",
+    "slug": "mickey-gall",
+    "description": "Luchador de Welterweight.",
+    "division": "Welterweight"
+  },
+  {
+    "id": 2704,
+    "name": "Mitch Raposo",
+    "slug": "mitch-raposo",
+    "description": "Luchador de Flyweight.",
+    "division": "Flyweight"
+  },
+  {
+    "id": 2698,
+    "name": "Puja Tomar",
+    "slug": "puja-tomar",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2699,
+    "name": "Tuco Tokkos",
+    "slug": "tuco-tokkos",
+    "description": "Luchador de Light Heavyweight.",
+    "division": "Light Heavyweight"
+  },
+  {
+    "id": 483,
+    "name": "Antonio Trocoli",
+    "slug": "antonio-trocoli",
+    "description": "Luchador de Middleweight.",
+    "division": "Middleweight"
+  },
+  {
+    "id": 691,
+    "name": "Conor McGregor",
+    "slug": "conor-mcgregor",
+    "description": "Luchador de Welterweight.",
+    "division": "Welterweight"
+  },
+  {
+    "id": 538,
+    "name": "Mariya Agapova",
+    "slug": "mariya-agapova",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 460,
+    "name": "Miguel Baeza",
+    "slug": "miguel-baeza",
+    "description": "Luchador de Welterweight.",
+    "division": "Welterweight"
+  },
+  {
+    "id": 2706,
+    "name": "Fatima Kline",
+    "slug": "fatima-kline",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2705,
+    "name": "Felipe Lima",
+    "slug": "felipe-lima",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 2701,
+    "name": "Carli Judice",
+    "slug": "carli-judice",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 2702,
+    "name": "Joilton Lutterbach",
+    "slug": "joilton-lutterbach",
+    "description": "Luchador de Middleweight.",
+    "division": "Middleweight"
+  },
+  {
+    "id": 895,
+    "name": "Michael Chandler",
+    "slug": "michael-chandler",
+    "description": "Luchador de Lightweight.",
+    "division": "Lightweight"
+  },
+  {
+    "id": 2703,
+    "name": "Magomed Gadzhiyasulov",
+    "slug": "magomed-gadzhiyasulov",
+    "description": "Luchador de Light Heavyweight.",
+    "division": "Light Heavyweight"
+  },
+  {
+    "id": 587,
+    "name": "Li Jingliang",
+    "slug": "li-jingliang",
+    "description": "Luchador de Welterweight.",
+    "division": "Welterweight"
+  },
+  {
+    "id": 2707,
+    "name": "Alice Ardelean",
+    "slug": "alice-ardelean",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 1162,
+    "name": "Nick Diaz",
+    "slug": "nick-diaz",
+    "description": "Luchador de Welterweight.",
+    "division": "Welterweight"
+  },
+  {
+    "id": 2709,
+    "name": "Stewart Nicoll",
+    "slug": "stewart-nicoll",
+    "description": "Luchador de Flyweight.",
+    "division": "Flyweight"
+  },
+  {
+    "id": 2708,
+    "name": "Wang Cong",
+    "slug": "wang-cong",
+    "description": "Luchador de Women's Flyweight.",
+    "division": "Women's Flyweight"
+  },
+  {
+    "id": 2712,
+    "name": "Quang Le",
+    "slug": "quang-le",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 2710,
+    "name": "Jordan Vucenic",
+    "slug": "jordan-vucenic",
+    "description": "Luchador de Lightweight.",
+    "division": "Lightweight"
+  },
+  {
+    "id": 2711,
+    "name": "Jose Daniel Medina",
+    "slug": "jose-daniel-medina",
+    "description": "Luchador de Middleweight.",
+    "division": "Middleweight"
+  },
+  {
+    "id": 2681,
+    "name": "Stephanie Luciano",
+    "slug": "stephanie-luciano",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2424,
+    "name": "Nikolay Veretennikov",
+    "slug": "nikolay-veretennikov",
+    "description": "Luchador de Welterweight.",
+    "division": "Welterweight"
+  },
+  {
+    "id": 2718,
+    "name": "Mairon Santos",
+    "slug": "mairon-santos",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 282,
+    "name": "Vince Morales",
+    "slug": "vince-morales",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 558,
+    "name": "Julianna PeÃ±a",
+    "slug": "julianna-pe-a",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 2715,
+    "name": "Ryan Loder",
+    "slug": "ryan-loder",
+    "description": "Luchador de Middleweight.",
+    "division": "Middleweight"
+  },
+  {
+    "id": 277,
+    "name": "Carla Esparza",
+    "slug": "carla-esparza",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2714,
+    "name": "Robert Valentin",
+    "slug": "robert-valentin",
+    "description": "Luchador de Middleweight.",
+    "division": "Middleweight"
+  },
+  {
+    "id": 2720,
+    "name": "Zygimantas Ramaska",
+    "slug": "zygimantas-ramaska",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 2713,
+    "name": "Ivan Erslan",
+    "slug": "ivan-erslan",
+    "description": "Luchador de Light Heavyweight.",
+    "division": "Light Heavyweight"
+  },
+  {
+    "id": 2716,
+    "name": "Kaan Ofli",
+    "slug": "kaan-ofli",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 2719,
+    "name": "Nathan Fletcher",
+    "slug": "nathan-fletcher",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 2730,
+    "name": "Cody Haddon",
+    "slug": "cody-haddon",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 241,
+    "name": "Ismail Naurdiev",
+    "slug": "ismail-naurdiev",
+    "description": "Luchador de Middleweight.",
+    "division": "Middleweight"
+  },
+  {
+    "id": 2729,
+    "name": "Rafael Cerqueira",
+    "slug": "rafael-cerqueira",
+    "description": "Luchador de Light Heavyweight.",
+    "division": "Light Heavyweight"
+  },
+  {
+    "id": 2728,
+    "name": "Ramazan Temirov",
+    "slug": "ramazan-temirov",
+    "description": "Luchador de Flyweight.",
+    "division": "Flyweight"
+  },
+  {
+    "id": 2367,
+    "name": "Chris Barnett",
+    "slug": "chris-barnett",
+    "description": "Luchador de Heavyweight.",
+    "division": "Heavyweight"
+  },
+  {
+    "id": 2737,
+    "name": "Sean Sharaf",
+    "slug": "sean-sharaf",
+    "description": "Luchador de Heavyweight.",
+    "division": "Heavyweight"
+  },
+  {
+    "id": 2739,
+    "name": "Klaudia Sygula",
+    "slug": "klaudia-sygula",
+    "description": "Luchador de Women's Bantamweight.",
+    "division": "Women's Bantamweight"
+  },
+  {
+    "id": 2504,
+    "name": "Melissa Martinez",
+    "slug": "melissa-martinez",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2741,
+    "name": "Cameron Smotherman",
+    "slug": "cameron-smotherman",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 2742,
+    "name": "Carlos Leal",
+    "slug": "carlos-leal",
+    "description": "Luchador de Welterweight.",
+    "division": "Welterweight"
+  },
+  {
+    "id": 2735,
+    "name": "Reinier de Ridder",
+    "slug": "reinier-de-ridder",
+    "description": "Luchador de Middleweight.",
+    "division": "Middleweight"
+  },
+  {
+    "id": 2717,
+    "name": "Mansur Abdul-Malik",
+    "slug": "mansur-abdul-malik",
+    "description": "Luchador de Middleweight.",
+    "division": "Middleweight"
+  },
+  {
+    "id": 2743,
+    "name": "Zach Scroggin",
+    "slug": "zach-scroggin",
+    "description": "Luchador de Welterweight.",
+    "division": "Welterweight"
+  },
+  {
+    "id": 2722,
+    "name": "DongHun Choi",
+    "slug": "donghun-choi",
+    "description": "Luchador de Flyweight.",
+    "division": "Flyweight"
+  },
+  {
+    "id": 2726,
+    "name": "SuYoung You",
+    "slug": "suyoung-you",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 2721,
+    "name": "Baergeng Jieleyisi",
+    "slug": "baergeng-jieleyisi",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 2738,
+    "name": "Cortavious Romious",
+    "slug": "cortavious-romious",
+    "description": "Luchador de Bantamweight.",
+    "division": "Bantamweight"
+  },
+  {
+    "id": 2723,
+    "name": "Feng Xiaocan",
+    "slug": "feng-xiaocan",
+    "description": "Luchador de Women's Strawweight.",
+    "division": "Women's Strawweight"
+  },
+  {
+    "id": 2744,
+    "name": "Roberto Romero",
+    "slug": "roberto-romero",
+    "description": "Luchador de Featherweight.",
+    "division": "Featherweight"
+  },
+  {
+    "id": 2724,
+    "name": "Kiru Sahota",
+    "slug": "kiru-sahota",
+    "description": "Luchador de Flyweight.",
+    "division": "Flyweight"
   }
 ]

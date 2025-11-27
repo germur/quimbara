@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 2707,
+    "name": "Alice Ardelean",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2707.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 3'",
+    "weight": "115 lbs",
+    "reach": "62'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 164,
+      "name": "Fusion X-Cel"
+    },
+    "last_update": "2025-11-08T12:44:08+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2707,
+      "name": "Alice Ardelean",
+      "photo": "https://media.api-sports.io/mma/fighters/2707.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 0
+    },
+    "sub": {
+      "win": 4,
+      "loss": 2
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:40.240Z"
+}

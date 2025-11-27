@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 770,
+    "name": "Cory McKenna",
+    "nickname": "Poppins",
+    "photo": "https://media.api-sports.io/mma/fighters/770.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 3'",
+    "weight": "115 lbs",
+    "reach": "58.5'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 23,
+      "name": "Alpha Male"
+    },
+    "last_update": "2025-06-04T19:35:32+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:28.999Z"
+}

@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 757,
+    "name": "Ronaldo RodrÃ­guez",
+    "nickname": "Lazy Boy",
+    "photo": "https://media.api-sports.io/mma/fighters/757.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 6'",
+    "weight": "127 lbs",
+    "reach": "65.5'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 333,
+      "name": "ADAM Coatzacoalcos"
+    },
+    "last_update": "2025-06-04T19:29:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 757,
+      "name": "Ronaldo RodrÃ­guez",
+      "photo": "https://media.api-sports.io/mma/fighters/757.png"
+    },
+    "total": {
+      "win": 17,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 0
+    },
+    "sub": {
+      "win": 5,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:27.075Z"
+}

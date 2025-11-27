@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 61,
+    "name": "Montana De La Rosa",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/61.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "126 lbs",
+    "reach": "68'",
+    "stance": "Orthodox",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 801,
+      "name": "De La Rosa MMA"
+    },
+    "last_update": "2025-06-04T13:41:03+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:02.778Z"
+}

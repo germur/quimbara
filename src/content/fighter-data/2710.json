@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2710,
+    "name": "Jordan Vucenic",
+    "nickname": "The Epidemic",
+    "photo": "https://media.api-sports.io/mma/fighters/2710.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 10'",
+    "weight": "155 lbs",
+    "reach": "73'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 745,
+      "name": "Blood Sweat and Tears"
+    },
+    "last_update": "2025-06-05T11:45:36+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:40.228Z"
+}

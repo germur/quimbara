@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 587,
+    "name": "Li Jingliang",
+    "nickname": "The Leech",
+    "photo": "https://media.api-sports.io/mma/fighters/587.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 0'",
+    "weight": "171 lbs",
+    "reach": "71.5'",
+    "stance": "Orthodox",
+    "category": "Welterweight",
+    "team": {
+      "id": 67,
+      "name": "Kill Cliff FC"
+    },
+    "last_update": "2025-06-04T18:04:04+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 587,
+      "name": "Li Jingliang",
+      "photo": "https://media.api-sports.io/mma/fighters/587.png"
+    },
+    "total": {
+      "win": 19,
+      "loss": 9,
+      "draw": 0
+    },
+    "ko": {
+      "win": 10,
+      "loss": 1
+    },
+    "sub": {
+      "win": 4,
+      "loss": 2
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:40.215Z"
+}

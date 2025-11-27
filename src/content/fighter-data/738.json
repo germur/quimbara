@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 738,
+    "name": "Jinh Yu Frey",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/738.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 3'",
+    "weight": "116 lbs",
+    "reach": "65'",
+    "stance": "Southpaw",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 325,
+      "name": "Genesis BJJ"
+    },
+    "last_update": "2025-06-04T19:19:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 738,
+      "name": "Jinh Yu Frey",
+      "photo": "https://media.api-sports.io/mma/fighters/738.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 10,
+      "draw": 0
+    },
+    "ko": {
+      "win": 1,
+      "loss": 3
+    },
+    "sub": {
+      "win": 2,
+      "loss": 1
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:13.360Z"
+}

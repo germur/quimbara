@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2721,
+    "name": "Baergeng Jieleyisi",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2721.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "135 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Bantamweight",
+    "team": {
+      "id": 786,
+      "name": "UFC Performance Institute Shanghai"
+    },
+    "last_update": "2025-06-05T11:51:08+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:45.167Z"
+}

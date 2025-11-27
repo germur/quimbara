@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 655,
+    "name": "Ji Yeon Kim",
+    "nickname": "Firefist",
+    "photo": "https://media.api-sports.io/mma/fighters/655.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "126 lbs",
+    "reach": "72'",
+    "stance": "Orthodox",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 17,
+      "name": "Syndicate MMA"
+    },
+    "last_update": "2025-06-04T18:38:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 655,
+      "name": "Ji Yeon Kim",
+      "photo": "https://media.api-sports.io/mma/fighters/655.png"
+    },
+    "total": {
+      "win": 9,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 2,
+      "loss": 0
+    },
+    "sub": {
+      "win": 3,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:11.840Z"
+}

@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2723,
+    "name": "Feng Xiaocan",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2723.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 7'",
+    "weight": "115 lbs",
+    "reach": "66.5'",
+    "stance": "Southpaw",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 792,
+      "name": "Chunbo Fighting Club"
+    },
+    "last_update": "2025-06-05T11:52:07+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:45.167Z"
+}

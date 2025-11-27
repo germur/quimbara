@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2676,
+    "name": "Timmy Cuamba",
+    "nickname": "Twilight",
+    "photo": "https://media.api-sports.io/mma/fighters/2676.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "146 lbs",
+    "reach": "71'",
+    "stance": "Orthodox",
+    "category": "Featherweight",
+    "team": {
+      "id": 31,
+      "name": "Xtreme Couture"
+    },
+    "last_update": "2025-11-08T12:46:06+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:25.321Z"
+}

@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 389,
+    "name": "Amanda Nunes",
+    "nickname": "The Lioness",
+    "photo": "https://media.api-sports.io/mma/fighters/389.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "135 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Women's Bantamweight",
+    "team": {
+      "id": 5,
+      "name": "Nunes"
+    },
+    "last_update": "2025-06-04T16:25:04+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:15.002Z"
+}

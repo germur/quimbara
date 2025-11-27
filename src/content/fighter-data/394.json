@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 394,
+    "name": "Virna Jandiroba",
+    "nickname": "Carcara",
+    "photo": "https://media.api-sports.io/mma/fighters/394.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 3'",
+    "weight": "116 lbs",
+    "reach": "64'",
+    "stance": "Orthodox",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 186,
+      "name": "Academia Fight House"
+    },
+    "last_update": "2025-11-01T12:10:07+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 394,
+      "name": "Virna Jandiroba",
+      "photo": "https://media.api-sports.io/mma/fighters/394.png"
+    },
+    "total": {
+      "win": 22,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 1,
+      "loss": 0
+    },
+    "sub": {
+      "win": 14,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:11.825Z"
+}

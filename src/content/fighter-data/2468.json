@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2468,
+    "name": "Brogan Walker",
+    "nickname": "The Bear",
+    "photo": "https://media.api-sports.io/mma/fighters/2468.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 4'",
+    "weight": "125 lbs",
+    "reach": "67'",
+    "stance": "Switch",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 688,
+      "name": "Purebred BJJ Guam"
+    },
+    "last_update": "2025-10-11T12:05:34+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:09.911Z"
+}

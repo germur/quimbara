@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2728,
+    "name": "Ramazan Temirov",
+    "nickname": "Temurlan",
+    "photo": "https://media.api-sports.io/mma/fighters/2728.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 4'",
+    "weight": "125 lbs",
+    "reach": "63'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 788,
+      "name": "Muradov Legion Gym"
+    },
+    "last_update": "2025-08-02T00:00:35+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:43.429Z"
+}

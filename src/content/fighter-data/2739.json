@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2739,
+    "name": "Klaudia Sygula",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2739.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 8'",
+    "weight": "136 lbs",
+    "reach": "69'",
+    "stance": "Orthodox",
+    "category": "Women's Bantamweight",
+    "team": {
+      "id": 73,
+      "name": "Ankos MMA"
+    },
+    "last_update": "2025-06-28T12:02:33+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:43.435Z"
+}

@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2709,
+    "name": "Stewart Nicoll",
+    "nickname": "Kakamora",
+    "photo": "https://media.api-sports.io/mma/fighters/2709.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "126 lbs",
+    "reach": "65.5'",
+    "stance": "Orthodox",
+    "category": "Flyweight",
+    "team": {
+      "id": 744,
+      "name": "Broz Martial Arts"
+    },
+    "last_update": "2025-10-18T12:03:35+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:40.228Z"
+}

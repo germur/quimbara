@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 2696,
+    "name": "Oumar Sy",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/2696.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 4'",
+    "weight": "205 lbs",
+    "reach": "83'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 21,
+      "name": "American Top"
+    },
+    "last_update": "2025-09-13T12:08:02+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2696,
+      "name": "Oumar Sy",
+      "photo": "https://media.api-sports.io/mma/fighters/2696.png"
+    },
+    "total": {
+      "win": 11,
+      "loss": 0,
+      "draw": 0
+    },
+    "ko": {
+      "win": 4,
+      "loss": 0
+    },
+    "sub": {
+      "win": 4,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:36.999Z"
+}

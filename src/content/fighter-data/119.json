@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 119,
+    "name": "Damir Hadzovic",
+    "nickname": "The Bosnian Bomber",
+    "photo": "https://media.api-sports.io/mma/fighters/119.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "155 lbs",
+    "reach": "70'",
+    "stance": "Orthodox",
+    "category": "Lightweight",
+    "team": {
+      "id": 78,
+      "name": "Arte Suave Copenhagen"
+    },
+    "last_update": "2025-06-04T14:10:06+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 119,
+      "name": "Damir Hadzovic",
+      "photo": "https://media.api-sports.io/mma/fighters/119.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 8,
+      "draw": 0
+    },
+    "ko": {
+      "win": 7,
+      "loss": 2
+    },
+    "sub": {
+      "win": 3,
+      "loss": 1
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:25.321Z"
+}

@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 2690,
+    "name": "Ernesta Kareckaite",
+    "nickname": "Heavy-Handed",
+    "photo": "https://media.api-sports.io/mma/fighters/2690.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 9'",
+    "weight": "126 lbs",
+    "reach": "71'",
+    "stance": "Orthodox",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 739,
+      "name": "Fighters Land MMA"
+    },
+    "last_update": "2025-06-05T11:35:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2690,
+      "name": "Ernesta Kareckaite",
+      "photo": "https://media.api-sports.io/mma/fighters/2690.png"
+    },
+    "total": {
+      "win": 6,
+      "loss": 1,
+      "draw": 1
+    },
+    "ko": {
+      "win": 2,
+      "loss": 0
+    },
+    "sub": {
+      "win": 0,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:35.385Z"
+}

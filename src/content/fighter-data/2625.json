@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "id": 2625,
+    "name": "Marnic Mann",
+    "nickname": "The Sawed-Off Savage",
+    "photo": "https://media.api-sports.io/mma/fighters/2625.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 0'",
+    "weight": "115 lbs",
+    "reach": "64'",
+    "stance": "Southpaw",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 725,
+      "name": "Montana Mixed Martial Arts"
+    },
+    "last_update": "2025-06-05T11:03:06+00:00"
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:20.138Z"
+}

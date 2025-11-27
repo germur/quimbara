@@ -32,7 +32,7 @@ const validFighters = allFighters.filter((f): f is NonNullable<typeof f> => f !=
 
 // Get leader for each division
 const divisionLeaders = weightClasses.map((division) => {
-  const divisionFighters = validFighters.filter((f) => f.division === division.name)
+  const divisionFighters = validFighters.filter((f) => f.division === division.nameEn)
 
   // Sort by Win Streak, then Total Wins
   const leader = divisionFighters.sort((a, b) => {
@@ -79,9 +79,9 @@ const meta = {
         >
           {/* Header */}
           <div class='p-6 bg-quimbara-cream/30 border-b border-border flex justify-between items-center'>
-            <h2 class='font-heading font-bold text-quimbara-purple text-xl'>{item.name}</h2>
+            <h2 class='font-heading font-bold text-quimbara-purple text-xl'>{item.nameEs}</h2>
             <span class='text-xs font-bold text-quimbara-purple/60 uppercase tracking-wider'>
-              {item.weight}
+              {item.limit}
             </span>
           </div>
 

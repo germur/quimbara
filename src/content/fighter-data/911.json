@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 911,
+    "name": "Montserrat Conejo Ruiz",
+    "nickname": "Conejo",
+    "photo": "https://media.api-sports.io/mma/fighters/911.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 0'",
+    "weight": "114 lbs",
+    "reach": "61'",
+    "stance": "Southpaw",
+    "category": "Women's Strawweight",
+    "team": {
+      "id": 90,
+      "name": "Kings MMA"
+    },
+    "last_update": "2025-11-08T12:43:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 911,
+      "name": "Montserrat Conejo Ruiz",
+      "photo": "https://media.api-sports.io/mma/fighters/911.png"
+    },
+    "total": {
+      "win": 10,
+      "loss": 4,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 3
+    },
+    "sub": {
+      "win": 2,
+      "loss": 0
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:18.513Z"
+}

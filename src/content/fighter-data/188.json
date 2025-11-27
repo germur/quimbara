@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 188,
+    "name": "JJ Aldrich",
+    "nickname": null,
+    "photo": "https://media.api-sports.io/mma/fighters/188.png",
+    "gender": "W",
+    "birth_date": null,
+    "age": null,
+    "height": "5' 5'",
+    "weight": "126 lbs",
+    "reach": "67.5'",
+    "stance": "Southpaw",
+    "category": "Women's Flyweight",
+    "team": {
+      "id": 19,
+      "name": "Elevation Fight"
+    },
+    "last_update": "2025-08-23T12:04:33+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 188,
+      "name": "JJ Aldrich",
+      "photo": "https://media.api-sports.io/mma/fighters/188.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 7,
+      "draw": 0
+    },
+    "ko": {
+      "win": 3,
+      "loss": 1
+    },
+    "sub": {
+      "win": 0,
+      "loss": 2
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:04.694Z"
+}

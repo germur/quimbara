@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "id": 2673,
+    "name": "Ibo Aslan",
+    "nickname": "The Last Ottoman",
+    "photo": "https://media.api-sports.io/mma/fighters/2673.png",
+    "gender": "M",
+    "birth_date": null,
+    "age": null,
+    "height": "6' 3'",
+    "weight": "204 lbs",
+    "reach": "77.5'",
+    "stance": "Orthodox",
+    "category": "Light Heavyweight",
+    "team": {
+      "id": 785,
+      "name": "Gym 23"
+    },
+    "last_update": "2025-10-05T00:03:34+00:00"
+  },
+  "records": {
+    "fighter": {
+      "id": 2673,
+      "name": "Ibo Aslan",
+      "photo": "https://media.api-sports.io/mma/fighters/2673.png"
+    },
+    "total": {
+      "win": 14,
+      "loss": 3,
+      "draw": 0
+    },
+    "ko": {
+      "win": 14,
+      "loss": 0
+    },
+    "sub": {
+      "win": 0,
+      "loss": 2
+    }
+  },
+  "fights": [],
+  "cachedAt": "2025-11-27T15:07:33.228Z"
+}
