@@ -1,0 +1,335 @@
+---
+import { getEntry } from 'astro:content'
+import fightersData from '@/data/fighters.json'
+
+import PageLayout from '@/layouts/BaseLayout.astro'
+import { getFightsInLastMonths, getFinishRate, getWinStreak } from '@/utils/fighter-stats'
+
+export const prerender = true
+
+// Load all fighter data
+const allFighters = await Promise.all(
+  fightersData.map(async (fighter) => {
+    try {
+      const entry = await getEntry('fighterData', fighter.id.toString())
+      if (!entry?.data) return null
+
+      const records = entry.data.records
+      const fights = entry.data.fights || []
+      const profile = entry.data.profile
+
+      return {
+        ...fighter,
+        records,
+        fights,
+        profile,
+        // Pre-calculate stats
+        winStreak: getWinStreak(fights, fighter.id),
+        finishStats: records ? getFinishRate(records) : { finishRate: 0, koRate: 0, subRate: 0 },
+        fightsLastYear: getFightsInLastMonths(fights, 12),
+        age: profile?.age || 0,
+        height: profile?.height ? parseInt(profile.height.replace(/\D/g, '')) : 0, // Extract cm
+        reach: profile?.reach ? parseInt(profile.reach.replace(/\D/g, '')) : 0 // Extract cm
+      }
+    } catch (e) {
+      return null
+    }
+  })
+)
+
+const validFighters = allFighters.filter((f): f is NonNullable<typeof f> => f !== null)
+
+// --- STATS CALCULATIONS ---
+
+// 1. Longest Win Streaks (Active)
+const topWinStreaks = validFighters
+  .filter((f) => f.winStreak >= 5)
+  .sort((a, b) => b.winStreak - a.winStreak)
+  .slice(0, 10)
+
+// 2. Finish Machines (High Finish Rate + Min 10 Wins)
+const topFinishers = validFighters
+  .filter((f) => f.records && f.records.total.win >= 10)
+  .sort((a, b) => b.finishStats.finishRate - a.finishStats.finishRate)
+  .slice(0, 10)
+
+// 3. Most Active (Last 12 Months)
+const mostActive = validFighters
+  .filter((f) => f.fightsLastYear > 0)
+  .sort((a, b) => b.fightsLastYear - a.fightsLastYear)
+  .slice(0, 10)
+
+// 4. Physical Extremes
+const tallest = validFighters
+  .filter((f) => f.height > 0)
+  .sort((a, b) => b.height - a.height)
+  .slice(0, 5)
+
+const longestReach = validFighters
+  .filter((f) => f.reach > 0)
+  .sort((a, b) => b.reach - a.reach)
+  .slice(0, 5)
+
+// 5. Age Records (Active only, min 1 fight last 2 years)
+const activeFighters = validFighters.filter((f) => getFightsInLastMonths(f.fights, 24) > 0)
+
+const youngest = activeFighters
+  .filter((f) => f.age > 0 && f.age < 25)
+  .sort((a, b) => a.age - b.age)
+  .slice(0, 5)
+
+const oldest = activeFighters
+  .filter((f) => f.age > 0)
+  .sort((a, b) => b.age - a.age)
+  .slice(0, 5)
+
+const meta = {
+  title: 'Estadísticas UFC - Récords y Datos Curiosos | Quimbara',
+  description:
+    'Centro de estadísticas de UFC: rachas ganadoras, finalizadores, récords físicos y datos curiosos de todos los peleadores activos.'
+}
+---
+
+<PageLayout meta={meta}>
+  <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12'>
+    <!-- Header -->
+    <div class='text-center mb-16'>
+      <h1 class='text-5xl md:text-6xl font-heading font-black text-quimbara-purple mb-4'>
+        CENTRO DE <span
+          class='text-transparent bg-clip-text bg-gradient-to-r from-quimbara-magenta to-quimbara-pink'
+          >ESTADÍSTICAS</span
+        >
+      </h1>
+      <p class='text-xl text-quimbara-purple/60 max-w-2xl mx-auto'>
+        Análisis profundo de nuestra base de datos de {validFighters.length} peleadores activos. Descubre
+        quiénes dominan los números.
+      </p>
+    </div>
+
+    <!-- Top Stats Grid -->
+    <div class='grid grid-cols-1 lg:grid-cols-3 gap-8 mb-20'>
+      <!-- Win Streaks -->
+      <div
+        class='bg-white rounded-3xl border border-border p-8 shadow-sm hover:shadow-md transition-all'
+      >
+        <div class='flex items-center gap-3 mb-6'>
+          <div
+            class='w-10 h-10 rounded-full bg-green-100 flex items-center justify-center text-green-600 font-bold text-xl'
+          >
+            🔥
+          </div>
+          <h2 class='text-2xl font-heading font-bold text-quimbara-purple'>Rachas Activas</h2>
+        </div>
+        <div class='space-y-4'>
+          {
+            topWinStreaks.slice(0, 5).map((f, i) => (
+              <a href={`/peleadores/${f.slug}`} class='flex items-center gap-4 group'>
+                <div class='font-heading font-black text-3xl text-quimbara-purple/20 w-8'>
+                  {i + 1}
+                </div>
+                <img
+                  src={`https://media.api-sports.io/mma/fighters/${f.id}.png`}
+                  alt={f.name}
+                  class='w-12 h-12 rounded-full object-cover border border-border group-hover:border-quimbara-magenta transition-colors'
+                  loading='lazy'
+                />
+                <div class='flex-1'>
+                  <div class='font-bold text-quimbara-purple group-hover:text-quimbara-magenta transition-colors'>
+                    {f.name}
+                  </div>
+                  <div class='text-xs text-quimbara-purple/60'>{f.division}</div>
+                </div>
+                <div class='font-bold text-green-600 bg-green-50 px-3 py-1 rounded-full text-sm'>
+                  {f.winStreak} W
+                </div>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+
+      <!-- Finish Rates -->
+      <div
+        class='bg-white rounded-3xl border border-border p-8 shadow-sm hover:shadow-md transition-all'
+      >
+        <div class='flex items-center gap-3 mb-6'>
+          <div
+            class='w-10 h-10 rounded-full bg-red-100 flex items-center justify-center text-red-600 font-bold text-xl'
+          >
+            💥
+          </div>
+          <h2 class='text-2xl font-heading font-bold text-quimbara-purple'>Finalizadores</h2>
+        </div>
+        <div class='space-y-4'>
+          {
+            topFinishers.slice(0, 5).map((f, i) => (
+              <a href={`/peleadores/${f.slug}`} class='flex items-center gap-4 group'>
+                <div class='font-heading font-black text-3xl text-quimbara-purple/20 w-8'>
+                  {i + 1}
+                </div>
+                <img
+                  src={`https://media.api-sports.io/mma/fighters/${f.id}.png`}
+                  alt={f.name}
+                  class='w-12 h-12 rounded-full object-cover border border-border group-hover:border-quimbara-magenta transition-colors'
+                  loading='lazy'
+                />
+                <div class='flex-1'>
+                  <div class='font-bold text-quimbara-purple group-hover:text-quimbara-magenta transition-colors'>
+                    {f.name}
+                  </div>
+                  <div class='text-xs text-quimbara-purple/60'>
+                    {f.records?.total.win} victorias
+                  </div>
+                </div>
+                <div class='font-bold text-red-600 bg-red-50 px-3 py-1 rounded-full text-sm'>
+                  {f.finishStats.finishRate}%
+                </div>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+
+      <!-- Most Active -->
+      <div
+        class='bg-white rounded-3xl border border-border p-8 shadow-sm hover:shadow-md transition-all'
+      >
+        <div class='flex items-center gap-3 mb-6'>
+          <div
+            class='w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-xl'
+          >
+            ⚡
+          </div>
+          <h2 class='text-2xl font-heading font-bold text-quimbara-purple'>Más Activos</h2>
+        </div>
+        <div class='space-y-4'>
+          {
+            mostActive.slice(0, 5).map((f, i) => (
+              <a href={`/peleadores/${f.slug}`} class='flex items-center gap-4 group'>
+                <div class='font-heading font-black text-3xl text-quimbara-purple/20 w-8'>
+                  {i + 1}
+                </div>
+                <img
+                  src={`https://media.api-sports.io/mma/fighters/${f.id}.png`}
+                  alt={f.name}
+                  class='w-12 h-12 rounded-full object-cover border border-border group-hover:border-quimbara-magenta transition-colors'
+                  loading='lazy'
+                />
+                <div class='flex-1'>
+                  <div class='font-bold text-quimbara-purple group-hover:text-quimbara-magenta transition-colors'>
+                    {f.name}
+                  </div>
+                  <div class='text-xs text-quimbara-purple/60'>{f.division}</div>
+                </div>
+                <div class='font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-full text-sm'>
+                  {f.fightsLastYear} peleas
+                </div>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+
+    <!-- Physical & Age Grid -->
+    <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-20'>
+      <!-- Tallest -->
+      <div class='bg-quimbara-cream/30 rounded-2xl p-6 border border-border'>
+        <h3 class='font-bold text-quimbara-purple mb-4 flex items-center gap-2'>
+          <span>📏</span> Los Más Altos
+        </h3>
+        <div class='space-y-3'>
+          {
+            tallest.map((f) => (
+              <a
+                href={`/peleadores/${f.slug}`}
+                class='flex justify-between items-center text-sm group'
+              >
+                <span class='text-quimbara-purple/80 group-hover:text-quimbara-magenta'>
+                  {f.name}
+                </span>
+                <span class='font-bold'>{f.profile?.height}</span>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+
+      <!-- Longest Reach -->
+      <div class='bg-quimbara-cream/30 rounded-2xl p-6 border border-border'>
+        <h3 class='font-bold text-quimbara-purple mb-4 flex items-center gap-2'>
+          <span>🦍</span> Mayor Alcance
+        </h3>
+        <div class='space-y-3'>
+          {
+            longestReach.map((f) => (
+              <a
+                href={`/peleadores/${f.slug}`}
+                class='flex justify-between items-center text-sm group'
+              >
+                <span class='text-quimbara-purple/80 group-hover:text-quimbara-magenta'>
+                  {f.name}
+                </span>
+                <span class='font-bold'>{f.profile?.reach}</span>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+
+      <!-- Youngest -->
+      <div class='bg-quimbara-cream/30 rounded-2xl p-6 border border-border'>
+        <h3 class='font-bold text-quimbara-purple mb-4 flex items-center gap-2'>
+          <span>👶</span> Más Jóvenes
+        </h3>
+        <div class='space-y-3'>
+          {
+            youngest.map((f) => (
+              <a
+                href={`/peleadores/${f.slug}`}
+                class='flex justify-between items-center text-sm group'
+              >
+                <span class='text-quimbara-purple/80 group-hover:text-quimbara-magenta'>
+                  {f.name}
+                </span>
+                <span class='font-bold'>{f.age} años</span>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+
+      <!-- Oldest -->
+      <div class='bg-quimbara-cream/30 rounded-2xl p-6 border border-border'>
+        <h3 class='font-bold text-quimbara-purple mb-4 flex items-center gap-2'>
+          <span>👴</span> Veteranos Activos
+        </h3>
+        <div class='space-y-3'>
+          {
+            oldest.map((f) => (
+              <a
+                href={`/peleadores/${f.slug}`}
+                class='flex justify-between items-center text-sm group'
+              >
+                <span class='text-quimbara-purple/80 group-hover:text-quimbara-magenta'>
+                  {f.name}
+                </span>
+                <span class='font-bold'>{f.age} años</span>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class='text-center'>
+      <a
+        href='/peleadores'
+        class='inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-200 bg-quimbara-magenta rounded-xl hover:bg-quimbara-purple hover:shadow-lg hover:-translate-y-1'
+      >
+        Explorar Todos los Peleadores
+      </a>
+    </div>
+  </div>
+</PageLayout>
