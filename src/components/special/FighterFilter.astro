@@ -1,0 +1,258 @@
+---
+interface Props {
+  fighters: any[]
+}
+
+const { fighters } = Astro.props
+
+// Minify data for client-side usage
+const fightersJson = JSON.stringify(
+  fighters.map((f) => ({
+    id: f.id,
+    name: f.name,
+    slug: f.slug,
+    division: f.division,
+    image: `https://media.api-sports.io/mma/fighters/${f.id}.png`,
+    stance: f.profile?.stance,
+    wins: f.records?.total.win || 0,
+    losses: f.records?.total.loss || 0,
+    draws: f.records?.total.draw || 0,
+    winRate: f.records
+      ? Math.round(
+          (f.records.total.win /
+            (f.records.total.win + f.records.total.loss + f.records.total.draw || 1)) *
+            100
+        )
+      : 0,
+    finishRate: f.finishRate || 0,
+    koRate: f.koRate || 0,
+    subRate: f.subRate || 0,
+    fightsLastYear: f.fightsLastYear || 0
+  }))
+)
+---
+
+<div
+  id='fighter-filter-app'
+  class='bg-white rounded-3xl shadow-sm border border-border p-6 md:p-8 mb-16'
+>
+  <div class='mb-8'>
+    <h2 class='text-3xl font-heading font-bold text-quimbara-purple mb-2'>Explorador Avanzado</h2>
+    <p class='text-quimbara-purple/60'>
+      Filtra nuestra base de datos completa de peleadores por estilo, estadísticas y
+      características.
+    </p>
+  </div>
+
+  <!-- Filters UI -->
+  <div
+    class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8 p-6 bg-quimbara-cream/30 rounded-2xl'
+  >
+    <!-- Stance Filter -->
+    <div class='space-y-2'>
+      <label class='text-xs font-bold uppercase text-quimbara-purple/60 tracking-wider'
+        >Guardia (Stance)</label
+      >
+      <select
+        id='filter-stance'
+        class='w-full bg-white border border-border rounded-xl px-4 py-2 text-quimbara-purple focus:ring-2 focus:ring-quimbara-magenta outline-none'
+      >
+        <option value='all'>Todas</option>
+        <option value='Orthodox'>Orthodox (Diestro)</option>
+        <option value='Southpaw'>Southpaw (Zurdo)</option>
+        <option value='Switch'>Switch (Ambas)</option>
+      </select>
+    </div>
+
+    <!-- Style Filter -->
+    <div class='space-y-2'>
+      <label class='text-xs font-bold uppercase text-quimbara-purple/60 tracking-wider'
+        >Estilo Principal</label
+      >
+      <select
+        id='filter-style'
+        class='w-full bg-white border border-border rounded-xl px-4 py-2 text-quimbara-purple focus:ring-2 focus:ring-quimbara-magenta outline-none'
+      >
+        <option value='all'>Todos</option>
+        <option value='striker'>Striker (KO Artist)</option>
+        <option value='grappler'>Grappler (Submission)</option>
+        <option value='balanced'>Balanceado</option>
+      </select>
+    </div>
+
+    <!-- Win Rate Filter -->
+    <div class='space-y-2'>
+      <label class='text-xs font-bold uppercase text-quimbara-purple/60 tracking-wider'
+        >Efectividad</label
+      >
+      <select
+        id='filter-winrate'
+        class='w-full bg-white border border-border rounded-xl px-4 py-2 text-quimbara-purple focus:ring-2 focus:ring-quimbara-magenta outline-none'
+      >
+        <option value='all'>Cualquiera</option>
+        <option value='90'>Invictos / Élite (>90%)</option>
+        <option value='80'>Muy Alta (>80%)</option>
+        <option value='70'>Alta (>70%)</option>
+        <option value='50'>Positiva (>50%)</option>
+      </select>
+    </div>
+
+    <!-- Activity Filter -->
+    <div class='space-y-2'>
+      <label class='text-xs font-bold uppercase text-quimbara-purple/60 tracking-wider'
+        >Actividad (Último Año)</label
+      >
+      <select
+        id='filter-activity'
+        class='w-full bg-white border border-border rounded-xl px-4 py-2 text-quimbara-purple focus:ring-2 focus:ring-quimbara-magenta outline-none'
+      >
+        <option value='all'>Cualquiera</option>
+        <option value='active'>Activos (1+ peleas)</option>
+        <option value='very-active'>Muy Activos (2+ peleas)</option>
+        <option value='hyper-active'>Hyper Activos (3+ peleas)</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Results Count -->
+  <div class='flex justify-between items-center mb-6'>
+    <div class='text-sm font-bold text-quimbara-purple'>
+      Resultados: <span id='results-count' class='text-quimbara-magenta'>0</span> peleadores encontrados
+    </div>
+    <button
+      id='reset-filters'
+      class='text-xs text-quimbara-purple/60 hover:text-quimbara-magenta underline'
+    >
+      Limpiar filtros
+    </button>
+  </div>
+
+  <!-- Results Grid -->
+  <div
+    id='results-grid'
+    class='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-h-[800px] overflow-y-auto pr-2 custom-scrollbar'
+  >
+    <!-- Results will be injected here -->
+  </div>
+</div>
+
+<script define:vars={{ fightersJson }}>
+  // Parse data
+  const allFighters = JSON.parse(fightersJson)
+
+  // DOM Elements
+  const grid = document.getElementById('results-grid')
+  const countLabel = document.getElementById('results-count')
+  const resetButton = document.getElementById('reset-filters')
+
+  const filters = {
+    stance: document.getElementById('filter-stance'),
+    style: document.getElementById('filter-style'),
+    winrate: document.getElementById('filter-winrate'),
+    activity: document.getElementById('filter-activity')
+  }
+
+  // Render function
+  function renderFighters(fighters) {
+    grid.innerHTML = ''
+    countLabel.textContent = fighters.length
+
+    if (fighters.length === 0) {
+      grid.innerHTML = `
+        <div class="col-span-full text-center py-12 text-quimbara-purple/40">
+          <div class="text-4xl mb-2">🔍</div>
+          <p>No se encontraron peleadores con estos filtros.</p>
+        </div>
+      `
+      return
+    }
+
+    // Limit render to first 50 to avoid DOM overload, add "Show More" if needed
+    // For now, let's render up to 100
+    const toRender = fighters.slice(0, 100)
+
+    toRender.forEach((f) => {
+      const card = document.createElement('a')
+      card.href = `/peleadores/${f.slug}`
+      card.className =
+        'flex items-center gap-3 p-3 rounded-xl border border-border hover:border-quimbara-magenta hover:bg-quimbara-cream/20 transition-all group'
+
+      card.innerHTML = `
+        <img src="${f.image}" alt="${f.name}" class="w-12 h-12 rounded-full object-cover border border-border group-hover:border-quimbara-magenta" loading="lazy">
+        <div class="flex-1 min-w-0">
+          <div class="font-bold text-sm text-quimbara-purple truncate group-hover:text-quimbara-magenta">${f.name}</div>
+          <div class="text-xs text-quimbara-purple/60 truncate">${f.division || 'UFC'}</div>
+        </div>
+        <div class="text-right">
+          <div class="font-bold text-xs text-quimbara-purple">${f.wins}-${f.losses}</div>
+          <div class="text-[10px] text-quimbara-purple/50">${f.winRate}% Win</div>
+        </div>
+      `
+      grid.appendChild(card)
+    })
+  }
+
+  // Filter function
+  function applyFilters() {
+    const stance = filters.stance.value
+    const style = filters.style.value
+    const winrate = filters.winrate.value
+    const activity = filters.activity.value
+
+    const filtered = allFighters.filter((f) => {
+      // Stance filter
+      if (stance !== 'all' && f.stance !== stance) return false
+
+      // Style filter
+      if (style !== 'all') {
+        if (style === 'striker' && f.koRate < 50) return false
+        if (style === 'grappler' && f.subRate < 50) return false
+        if (style === 'balanced' && (f.koRate >= 50 || f.subRate >= 50)) return false
+      }
+
+      // Win Rate filter
+      if (winrate !== 'all' && f.winRate < parseInt(winrate)) return false
+
+      // Activity filter
+      if (activity !== 'all') {
+        if (activity === 'active' && f.fightsLastYear < 1) return false
+        if (activity === 'very-active' && f.fightsLastYear < 2) return false
+        if (activity === 'hyper-active' && f.fightsLastYear < 3) return false
+      }
+
+      return true
+    })
+
+    renderFighters(filtered)
+  }
+
+  // Event Listeners
+  Object.values(filters).forEach((select) => {
+    select.addEventListener('change', applyFilters)
+  })
+
+  resetButton.addEventListener('click', () => {
+    Object.values(filters).forEach((select) => (select.value = 'all'))
+    applyFilters()
+  })
+
+  // Initial render
+  renderFighters(allFighters)
+</script>
+
+<style>
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #ccc;
+  }
+</style>
