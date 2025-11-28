@@ -1,0 +1,438 @@
+---
+import PageLayout from '@/layouts/BaseLayout.astro'
+
+export const prerender = true
+
+const meta = {
+  title: 'Carlos Prates: La Pesadilla - El Camino del Héroe | Quimbara',
+  description:
+    'Análisis visual del striker brasileño Carlos Prates. Del Contender Series al Top 15 con nocauts devastadores. La historia del Fighting Nerd.'
+}
+---
+
+<PageLayout {meta}>
+  <div class='min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900'>
+    <!-- Hero Section -->
+    <header
+      class='min-h-screen flex flex-col justify-center items-center relative overflow-hidden p-6 text-center'
+    >
+      <div
+        class='absolute inset-0 z-0 bg-gradient-to-br from-slate-900 via-slate-800 to-green-900 opacity-90'
+      >
+      </div>
+
+      <div class='z-10 relative max-w-7xl mx-auto'>
+        <span class='text-yellow-400 tracking-widest text-xl font-bold mb-2 block'
+          >EL CAMINO DEL HÉROE</span
+        >
+        <h1 class='text-7xl md:text-9xl font-heading font-black text-white mb-0 leading-none'>
+          CARLOS<br /><span
+            class='text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-green-500'
+            >PRATES</span
+          >
+        </h1>
+        <h2 class='text-4xl text-slate-300 mt-2 font-heading'>"THE NIGHTMARE"</h2>
+        <p class='mt-6 text-xl max-w-2xl mx-auto text-slate-400'>
+          De las calles de Brasil al octágono más famoso del mundo. Esta es la historia visual de un
+          striker letal, un "Fighting Nerd" y la nueva sensación del Peso Welter.
+        </p>
+        <div class='mt-8 flex flex-wrap justify-center gap-4'>
+          <span class='px-4 py-2 bg-yellow-500 text-black font-bold rounded-full'>🇧🇷 Brasil</span>
+          <span class='px-4 py-2 bg-green-600 text-white font-bold rounded-full'>🥊 Striker</span>
+          <span class='px-4 py-2 bg-slate-700 text-white font-bold rounded-full'
+            >👓 Fighting Nerds</span
+          >
+        </div>
+      </div>
+
+      <div class='absolute bottom-10 animate-bounce text-yellow-400 text-4xl z-10'>&#8595;</div>
+    </header>
+
+    <main class='max-w-7xl mx-auto px-4 py-12 space-y-24'>
+      <!-- Stage 1: The Ordinary World (Stats) -->
+      <section>
+        <div class='mb-8 border-l-4 border-yellow-400 pl-4'>
+          <h3 class='text-green-400 text-xl font-bold'>Capítulo I</h3>
+          <h2 class='text-4xl md:text-5xl font-heading font-bold text-white'>
+            El Avatar del Héroe
+          </h2>
+          <p class='text-slate-400 mt-2 text-lg'>
+            Antes de iniciar la aventura, debemos conocer las estadísticas base. Prates no es un
+            luchador promedio; sus atributos físicos y su experiencia en Muay Thai lo convierten en
+            un francotirador de largo alcance.
+          </p>
+        </div>
+
+        <div class='grid grid-cols-1 md:grid-cols-4 gap-6'>
+          <div
+            class='bg-slate-800 p-6 rounded-xl shadow-lg border-t-4 border-yellow-400 text-center transform hover:scale-105 transition-transform duration-300'
+          >
+            <div class='text-5xl mb-2'>📏</div>
+            <div class='text-slate-400 text-sm uppercase tracking-wide'>Altura</div>
+            <div class='text-4xl font-bold text-white font-heading'>1.85 m</div>
+          </div>
+          <div
+            class='bg-slate-800 p-6 rounded-xl shadow-lg border-t-4 border-green-500 text-center transform hover:scale-105 transition-transform duration-300'
+          >
+            <div class='text-5xl mb-2'>👐</div>
+            <div class='text-slate-400 text-sm uppercase tracking-wide'>Alcance</div>
+            <div class='text-4xl font-bold text-white font-heading'>1.98 m</div>
+          </div>
+          <div
+            class='bg-slate-800 p-6 rounded-xl shadow-lg border-t-4 border-yellow-400 text-center transform hover:scale-105 transition-transform duration-300'
+          >
+            <div class='text-5xl mb-2'>🗓️</div>
+            <div class='text-slate-400 text-sm uppercase tracking-wide'>Edad</div>
+            <div class='text-4xl font-bold text-white font-heading'>31 Años</div>
+          </div>
+          <div
+            class='bg-slate-800 p-6 rounded-xl shadow-lg border-t-4 border-green-500 text-center transform hover:scale-105 transition-transform duration-300'
+          >
+            <div class='text-5xl mb-2'>💥</div>
+            <div class='text-slate-400 text-sm uppercase tracking-wide'>Estilo</div>
+            <div class='text-4xl font-bold text-white font-heading'>Muay Thai</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stage 2: The Mentor & Transformation -->
+      <section class='grid grid-cols-1 md:grid-cols-2 gap-12 items-center'>
+        <div class='order-2 md:order-1'>
+          <div class='bg-slate-800 rounded-xl p-6 shadow-2xl'>
+            <div class='relative h-96'>
+              <canvas id='attributesRadar'></canvas>
+            </div>
+          </div>
+          <p class='text-center text-sm text-slate-500 mt-3'>
+            Comparativa conceptual de Prates vs Promedio de la División Welter.
+          </p>
+        </div>
+
+        <div class='order-1 md:order-2'>
+          <div class='mb-6 border-l-4 border-green-500 pl-4'>
+            <h3 class='text-yellow-400 text-xl font-bold'>Capítulo II</h3>
+            <h2 class='text-4xl md:text-5xl font-heading font-bold text-white'>
+              La Transformación "Nerd"
+            </h2>
+          </div>
+          <p class='text-slate-300 text-lg leading-relaxed mb-6'>
+            Todo héroe necesita una alianza. Prates encontró su hogar en el equipo <strong
+              >"Fighting Nerds"</strong
+            > en São Paulo. Este equipo utiliza gafas y cortes "nerd" como camuflaje.
+          </p>
+          <p class='text-slate-300 text-lg leading-relaxed mb-6'>
+            Detrás de las gafas, hay técnica de Muay Thai pulida. El gráfico de radar muestra cómo
+            Prates rompe el molde: sacrifica el grappling tradicional para maximizar un <strong
+              >Striking de Precisión</strong
+            > y una <strong>Paciencia</strong> casi psicopática.
+          </p>
+          <ul class='space-y-4'>
+            <li class='flex items-center text-slate-200'>
+              <span
+                class='w-8 h-8 rounded-full bg-yellow-500 flex items-center justify-center text-black font-bold mr-3'
+                >✓</span
+              >
+              Calma bajo presión (Ritmo cardíaco bajo).
+            </li>
+            <li class='flex items-center text-slate-200'>
+              <span
+                class='w-8 h-8 rounded-full bg-green-500 flex items-center justify-center text-black font-bold mr-3'
+                >✓</span
+              >
+              Precisión quirúrgica sobre volumen.
+            </li>
+            <li class='flex items-center text-slate-200'>
+              <span
+                class='w-8 h-8 rounded-full bg-yellow-500 flex items-center justify-center text-black font-bold mr-3'
+                >✓</span
+              >
+              El "Cigarrillo": Rasgo de antihéroe que desafía la lógica atlética.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Stage 3: Tests Timeline -->
+      <section>
+        <div class='text-center mb-12'>
+          <h3 class='text-green-400 text-xl font-bold'>Capítulo III</h3>
+          <h2 class='text-4xl md:text-5xl font-heading font-bold text-white'>
+            El Sendero de las Pruebas
+          </h2>
+          <p class='text-slate-400 mt-4 max-w-2xl mx-auto'>
+            Desde su llegada al UFC, Prates ha cruzado el umbral enfrentando guardianes cada vez más
+            fuertes. Su camino está pavimentado con nocauts espectaculares.
+          </p>
+        </div>
+
+        <div class='space-y-8 max-w-3xl mx-auto'>
+          <!-- Event 1 -->
+          <div
+            class='bg-slate-800 p-6 rounded-xl border-l-4 border-yellow-400 hover:bg-slate-750 transition-colors'
+          >
+            <h4 class='text-2xl font-heading font-bold text-yellow-400'>
+              El Umbral: Contender Series
+            </h4>
+            <span class='text-slate-500 font-mono text-sm'>Agosto 2023</span>
+            <p class='text-slate-300 mt-2'>
+              KO vs Mitch Ramirez. El golpe izquierdo que le consiguió el contrato. Dana White quedó
+              impresionado instantáneamente.
+            </p>
+          </div>
+
+          <!-- Event 2 -->
+          <div
+            class='bg-slate-800 p-6 rounded-xl border-l-4 border-green-500 hover:bg-slate-750 transition-colors'
+          >
+            <h4 class='text-2xl font-heading font-bold text-green-400'>
+              La Primera Prueba: Trevin Giles
+            </h4>
+            <span class='text-slate-500 font-mono text-sm'>UFC Debut - Febrero 2024</span>
+            <p class='text-slate-300 mt-2'>
+              Un golpe directo al mentón. Prates ni siquiera miró a su oponente caer. Nace la
+              leyenda del "Sin mirar".
+            </p>
+          </div>
+
+          <!-- Event 3 -->
+          <div
+            class='bg-slate-800 p-6 rounded-xl border-l-4 border-yellow-400 hover:bg-slate-750 transition-colors'
+          >
+            <h4 class='text-2xl font-heading font-bold text-yellow-400'>
+              El Guardián: Li Jingliang
+            </h4>
+            <span class='text-slate-500 font-mono text-sm'>UFC 305 - Agosto 2024</span>
+            <p class='text-slate-300 mt-2'>
+              Enfrentando al legendario "Leech", conocido por su durabilidad. Prates lo desmanteló y
+              lo noqueó, siendo el primero en hacerlo en años.
+            </p>
+          </div>
+
+          <!-- Event 4 -->
+          <div
+            class='bg-slate-800 p-6 rounded-xl border-l-4 border-green-500 hover:bg-slate-750 transition-colors'
+          >
+            <h4 class='text-2xl font-heading font-bold text-green-400'>El Veterano: Neil Magny</h4>
+            <span class='text-slate-500 font-mono text-sm'>Main Event - Noviembre 2024</span>
+            <p class='text-slate-300 mt-2'>
+              La prueba definitiva de gatekeeper. Un gancho de izquierda rozó la sien y apagó las
+              luces. Entrada al Top 15 asegurada.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stage 4: The Weapon (Charts) -->
+      <section class='grid grid-cols-1 lg:grid-cols-3 gap-8'>
+        <!-- Chart 1 -->
+        <div
+          class='lg:col-span-1 bg-slate-800 rounded-xl p-6 shadow-lg border-b-4 border-yellow-400'
+        >
+          <h3 class='text-white text-2xl font-heading font-bold mb-2'>Método de Victoria</h3>
+          <p class='text-slate-400 text-sm mb-4'>¿Cómo gana el héroe? Violencia pura.</p>
+          <div class='relative h-80'>
+            <canvas id='victoryDonut'></canvas>
+          </div>
+          <div class='mt-4 text-center'>
+            <span class='text-4xl font-bold text-yellow-400 block font-heading'>85%+</span>
+            <span class='text-slate-500 text-sm uppercase'>Tasa de Finalización (KO/TKO)</span>
+          </div>
+        </div>
+
+        <!-- Chart 2 -->
+        <div
+          class='lg:col-span-2 bg-slate-800 rounded-xl p-6 shadow-lg border-b-4 border-green-500'
+        >
+          <div class='mb-4'>
+            <h3 class='text-white text-2xl font-heading font-bold'>Eficiencia Letal</h3>
+            <p class='text-slate-400'>
+              Golpes Significativos por Minuto vs. Precisión. Prates no desperdicia energía.
+            </p>
+          </div>
+          <div class='relative h-80'>
+            <canvas id='strikingBar'></canvas>
+          </div>
+        </div>
+      </section>
+
+      <!-- Paradox Section -->
+      <section
+        class='bg-gradient-to-r from-slate-900 to-slate-800 rounded-2xl p-8 border border-slate-700'
+      >
+        <div class='grid grid-cols-1 md:grid-cols-2 gap-8 items-center'>
+          <div>
+            <h3 class='text-green-400 text-xl font-bold'>Capítulo IV</h3>
+            <h2 class='text-4xl font-heading font-bold text-white mb-4'>La Paradoja del Héroe</h2>
+            <p class='text-slate-300 text-lg mb-4'>
+              Carlos Prates rompe el arquetipo. Es el "Anti-Héroe" que fuma cigarrillos casualmente,
+              pero entrena con la intensidad de un campeón mundial.
+            </p>
+            <p class='text-slate-300 text-lg'>
+              Esta dualidad (Relajación vs. Violencia Extrema) crea un aura de invencibilidad. Sus
+              oponentes se confunden con su lenguaje corporal relajado.
+            </p>
+          </div>
+          <div class='grid grid-cols-2 gap-4'>
+            <div class='bg-slate-900 p-4 rounded-lg text-center border border-slate-700'>
+              <span class='text-4xl block mb-2'>🚬</span>
+              <h4 class='font-bold text-white'>Factor X</h4>
+              <p class='text-xs text-slate-400'>Carisma y Nonchalance</p>
+            </div>
+            <div class='bg-slate-900 p-4 rounded-lg text-center border border-slate-700'>
+              <span class='text-4xl block mb-2'>🧟</span>
+              <h4 class='font-bold text-white'>Modo Zombie</h4>
+              <p class='text-xs text-slate-400'>Presión Incesante</p>
+            </div>
+            <div class='bg-slate-900 p-4 rounded-lg text-center border border-slate-700'>
+              <span class='text-4xl block mb-2'>🦵</span>
+              <h4 class='font-bold text-white'>Thai Clásico</h4>
+              <p class='text-xs text-slate-400'>Rodillas y Codos</p>
+            </div>
+            <div class='bg-slate-900 p-4 rounded-lg text-center border border-slate-700'>
+              <span class='text-4xl block mb-2'>🎯</span>
+              <h4 class='font-bold text-white'>Sniper</h4>
+              <p class='text-xs text-slate-400'>Izquierda Recta</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <footer class='text-center py-12'>
+        <h2 class='text-3xl md:text-5xl font-heading font-bold text-white mb-4'>EL FUTURO</h2>
+        <p class='text-xl text-slate-400 max-w-2xl mx-auto mb-8'>
+          El héroe ha superado las pruebas iniciales. Ahora, el Top 10 y el cinturón de oro brillan
+          en el horizonte. ¿Podrá "La Pesadilla" convertirse en el Rey?
+        </p>
+        <a
+          href='/peleadores/carlos-prates'
+          class='inline-block bg-gradient-to-r from-yellow-500 to-yellow-600 text-slate-900 font-bold py-3 px-8 rounded-full text-xl hover:scale-105 transition-transform shadow-lg'
+        >
+          Ver Perfil Completo
+        </a>
+      </footer>
+    </main>
+  </div>
+
+  <!-- Chart.js -->
+  <script is:inline src='https://cdn.jsdelivr.net/npm/chart.js'></script>
+  <script is:inline>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Radar Chart
+      const ctxRadar = document.getElementById('attributesRadar').getContext('2d')
+      new Chart(ctxRadar, {
+        type: 'radar',
+        data: {
+          labels: [
+            'Poder de KO',
+            'Defensa de Derribo',
+            'Volumen',
+            'Precisión',
+            'Grappling',
+            'Paciencia'
+          ],
+          datasets: [
+            {
+              label: 'Carlos Prates',
+              data: [95, 80, 70, 90, 60, 95],
+              fill: true,
+              backgroundColor: 'rgba(250, 204, 21, 0.2)',
+              borderColor: '#FACC15',
+              pointBackgroundColor: '#FACC15',
+              pointBorderColor: '#fff'
+            },
+            {
+              label: 'Promedio División',
+              data: [70, 65, 75, 50, 70, 60],
+              fill: true,
+              backgroundColor: 'rgba(255, 255, 255, 0.05)',
+              borderColor: '#94a3b8',
+              pointBackgroundColor: '#94a3b8',
+              borderDash: [5, 5]
+            }
+          ]
+        },
+        options: {
+          maintainAspectRatio: false,
+          scales: {
+            r: {
+              angleLines: { color: 'rgba(255, 255, 255, 0.1)' },
+              grid: { color: 'rgba(255, 255, 255, 0.1)' },
+              pointLabels: { color: '#e2e8f0', font: { size: 12 } },
+              ticks: { display: false }
+            }
+          },
+          plugins: {
+            legend: { labels: { color: '#e2e8f0' } }
+          }
+        }
+      })
+
+      // Donut Chart
+      const ctxDonut = document.getElementById('victoryDonut').getContext('2d')
+      new Chart(ctxDonut, {
+        type: 'doughnut',
+        data: {
+          labels: ['KO/TKO', 'Decisión', 'Sumisión'],
+          datasets: [
+            {
+              data: [16, 4, 0],
+              backgroundColor: ['#FACC15', '#22C55E', '#334155'],
+              borderWidth: 0
+            }
+          ]
+        },
+        options: {
+          maintainAspectRatio: false,
+          cutout: '70%',
+          plugins: {
+            legend: { position: 'bottom', labels: { color: '#e2e8f0' } }
+          }
+        }
+      })
+
+      // Bar Chart
+      const ctxBar = document.getElementById('strikingBar').getContext('2d')
+      new Chart(ctxBar, {
+        type: 'bar',
+        data: {
+          labels: ['M. Ramirez', 'T. Giles', 'C. Radtke', 'Li Jingliang', 'N. Magny'],
+          datasets: [
+            {
+              label: 'Golpes Significativos',
+              data: [25, 12, 35, 48, 15],
+              backgroundColor: '#22C55E',
+              borderRadius: 4
+            },
+            {
+              label: 'Golpe de Gracia',
+              data: [1, 1, 1, 1, 1],
+              backgroundColor: '#FACC15',
+              type: 'line',
+              borderColor: '#FACC15',
+              borderWidth: 2,
+              pointRadius: 6
+            }
+          ]
+        },
+        options: {
+          maintainAspectRatio: false,
+          scales: {
+            y: {
+              beginAtZero: true,
+              grid: { color: 'rgba(255, 255, 255, 0.05)' },
+              ticks: { color: '#94a3b8' }
+            },
+            x: {
+              grid: { display: false },
+              ticks: { color: '#94a3b8' }
+            }
+          },
+          plugins: {
+            legend: { labels: { color: '#e2e8f0' } }
+          }
+        }
+      })
+    })
+  </script>
+</PageLayout>
