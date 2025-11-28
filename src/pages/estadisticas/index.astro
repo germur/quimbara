@@ -319,6 +319,162 @@ const meta = {
       </div>
     </div>
 
+    <!-- HISTORICAL RECORDS SECTION -->
+    <div class='mt-24 mb-16'>
+      <div class='text-center mb-12'>
+        <h2 class='text-5xl md:text-6xl font-heading font-black text-quimbara-purple mb-4'>
+          LEYENDAS DEL <span class='text-quimbara-magenta'>OCTÁGONO</span>
+        </h2>
+        <p class='text-xl text-quimbara-purple/70 max-w-3xl mx-auto'>
+          Récords históricos que definen a los mejores peleadores de artes marciales mixtas. Desde
+          el poder devastador hasta la precisión técnica.
+        </p>
+      </div>
+
+      <!-- SECTION 1: THE FINISHERS -->
+      <section class='mb-20'>
+        <div class='mb-8 border-l-4 border-quimbara-magenta pl-4'>
+          <h3 class='text-4xl font-heading font-bold text-quimbara-purple uppercase'>
+            Los Finalizadores
+          </h3>
+          <p class='text-lg text-quimbara-purple/60 mt-2'>
+            Estos atletas buscan terminar la pelea antes que suene la campana final. Los reyes del
+            caos: artistas del Nocaut y la Sumisión.
+          </p>
+        </div>
+
+        <div class='grid grid-cols-1 md:grid-cols-2 gap-8'>
+          <!-- Chart 1: Most Knockouts -->
+          <div class='bg-white rounded-3xl shadow-sm border border-border p-8'>
+            <h4
+              class='text-2xl font-heading font-bold text-quimbara-purple mb-2 flex items-center gap-2'
+            >
+              <span class='text-3xl'>👊</span> Reyes del KO
+            </h4>
+            <p class='text-sm text-quimbara-purple/60 mb-6'>
+              Derrick Lewis posee el récord absoluto de más nocauts en la historia de la UFC. Esta
+              gráfica compara a los golpeadores más letales.
+            </p>
+            <div class='relative h-80'>
+              <canvas id='koChart'></canvas>
+            </div>
+          </div>
+
+          <!-- Chart 2: Submission Specialists -->
+          <div class='bg-white rounded-3xl shadow-sm border border-border p-8'>
+            <h4
+              class='text-2xl font-heading font-bold text-quimbara-purple mb-2 flex items-center gap-2'
+            >
+              <span class='text-3xl'>🐍</span> El Rey de la Sumisión
+            </h4>
+            <p class='text-sm text-quimbara-purple/60 mb-6'>
+              Charles "Do Bronx" Oliveira tiene el récord de sumisiones y finalizaciones totales.
+              Desglose de su arsenal letal.
+            </p>
+            <div class='relative h-80'>
+              <canvas id='subChart'></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: DOMINANCE & CHAMPIONS -->
+      <section class='bg-quimbara-cream/30 p-8 rounded-3xl shadow-inner mb-20'>
+        <div class='mb-8 text-center'>
+          <h3 class='text-4xl font-heading font-bold text-quimbara-purple uppercase'>
+            Dinastías y Defensas
+          </h3>
+          <p class='text-lg text-quimbara-purple/60 mt-2 max-w-3xl mx-auto'>
+            Ganar el cinturón es difícil; mantenerlo es legendario. Reinados que duraron años.
+          </p>
+        </div>
+
+        <div class='grid grid-cols-1 lg:grid-cols-3 gap-8'>
+          <!-- Text Card -->
+          <div
+            class='bg-quimbara-purple text-white rounded-3xl p-6 flex flex-col justify-center items-center text-center shadow-lg lg:col-span-1'
+          >
+            <div class='text-6xl mb-4'>👑</div>
+            <h4 class='text-3xl font-heading font-bold mb-4'>El Club de los 11</h4>
+            <p class='text-white/90 text-sm'>
+              Solo dos hombres comparten la cima con 11 defensas consecutivas del título
+              indiscutido. Consistencia mental y física inigualable.
+            </p>
+            <div class='mt-6 border-t border-white/20 pt-4 w-full'>
+              <div class='flex justify-between items-center mb-2'>
+                <span class='font-bold'>Jon Jones</span>
+                <span class='text-quimbara-pink font-heading text-2xl'>11 Def.</span>
+              </div>
+              <div class='flex justify-between items-center'>
+                <span class='font-bold'>D. Johnson</span>
+                <span class='text-quimbara-pink font-heading text-2xl'>11 Def.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chart 3: Title Defenses -->
+          <div class='bg-white rounded-3xl shadow-sm border border-border p-8 lg:col-span-2'>
+            <h4 class='text-2xl font-heading font-bold text-quimbara-purple mb-2'>
+              Defensas de Título Consecutivas
+            </h4>
+            <p class='text-sm text-quimbara-purple/60 mb-6'>
+              Comparativa histórica de las rachas de campeonato más largas en la UFC.
+            </p>
+            <div class='relative h-80'>
+              <canvas id='defenseChart'></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: QUICK STATS GRID -->
+      <section class='mb-12'>
+        <div class='mb-6 text-center'>
+          <h3 class='text-4xl font-heading font-bold text-quimbara-purple uppercase'>
+            Datos Relámpago
+          </h3>
+        </div>
+        <div class='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4'>
+          <!-- Stat 1 -->
+          <div
+            class='bg-quimbara-purple text-white p-6 rounded-3xl text-center border-t-4 border-quimbara-magenta'
+          >
+            <div class='text-4xl mb-2'>⏱️ 5s</div>
+            <div class='font-heading text-xl text-white/70'>KO Más Rápido</div>
+            <div class='font-bold text-lg mt-1'>Jorge Masvidal</div>
+            <div class='text-xs text-white/60'>vs Ben Askren</div>
+          </div>
+          <!-- Stat 2 -->
+          <div
+            class='bg-quimbara-purple text-white p-6 rounded-3xl text-center border-t-4 border-quimbara-magenta'
+          >
+            <div class='text-4xl mb-2'>🥋 90</div>
+            <div class='font-heading text-xl text-white/70'>Más Derribos</div>
+            <div class='font-bold text-lg mt-1'>GSP</div>
+            <div class='text-xs text-white/60'>Georges St-Pierre</div>
+          </div>
+          <!-- Stat 3 -->
+          <div
+            class='bg-quimbara-purple text-white p-6 rounded-3xl text-center border-t-4 border-quimbara-magenta'
+          >
+            <div class='text-4xl mb-2'>🩸 16</div>
+            <div class='font-heading text-xl text-white/70'>Racha de Victorias</div>
+            <div class='font-bold text-lg mt-1'>Anderson Silva</div>
+            <div class='text-xs text-white/60'>Peso Medio</div>
+          </div>
+          <!-- Stat 4 -->
+          <div
+            class='bg-quimbara-purple text-white p-6 rounded-3xl text-center border-t-4 border-quimbara-magenta'
+          >
+            <div class='text-4xl mb-2'>🏟️ 42+</div>
+            <div class='font-heading text-xl text-white/70'>Más Peleas</div>
+            <div class='font-bold text-lg mt-1'>Jim Miller</div>
+            <div class='text-xs text-white/60'>Longevidad Pura</div>
+          </div>
+        </div>
+      </section>
+    </div>
+
     <!-- CTA -->
     <div class='text-center'>
       <a
@@ -329,4 +485,158 @@ const meta = {
       </a>
     </div>
   </div>
+
+  <!-- Chart.js Script -->
+  <script is:inline src='https://cdn.jsdelivr.net/npm/chart.js'></script>
+  <script is:inline>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Utility: Split long labels
+      function splitLabel(label) {
+        if (label.length <= 16) return label
+        const words = label.split(' ')
+        const lines = []
+        let currentLine = words[0]
+        for (let i = 1; i < words.length; i++) {
+          if ((currentLine + ' ' + words[i]).length < 16) {
+            currentLine += ' ' + words[i]
+          } else {
+            lines.push(currentLine)
+            currentLine = words[i]
+          }
+        }
+        lines.push(currentLine)
+        return lines
+      }
+
+      // Common tooltip options
+      const commonTooltipOptions = {
+        callbacks: {
+          title: function (tooltipItems) {
+            const item = tooltipItems[0]
+            let label = item.chart.data.labels[item.dataIndex]
+            return Array.isArray(label) ? label.join(' ') : label
+          }
+        }
+      }
+
+      // CHART 1: KO KINGS (Horizontal Bar)
+      const koCtx = document.getElementById('koChart').getContext('2d')
+      const koLabels = [
+        'Derrick Lewis',
+        'Matt Brown',
+        'Chris Leben',
+        'Vitor Belfort',
+        'Anthony Johnson'
+      ]
+      const processedKoLabels = koLabels.map(splitLabel)
+
+      new Chart(koCtx, {
+        type: 'bar',
+        data: {
+          labels: processedKoLabels,
+          datasets: [
+            {
+              label: 'Nocauts (KO/TKO)',
+              data: [15, 13, 12, 12, 11],
+              backgroundColor: '#E83C91', // quimbara-magenta
+              borderColor: '#43334C', // quimbara-purple
+              borderWidth: 1,
+              barPercentage: 0.6
+            }
+          ]
+        },
+        options: {
+          indexAxis: 'y',
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: commonTooltipOptions
+          },
+          scales: {
+            x: {
+              beginAtZero: true,
+              grid: { color: '#e5e7eb' }
+            },
+            y: {
+              grid: { display: false }
+            }
+          }
+        }
+      })
+
+      // CHART 2: SUBMISSION SPECIALIST (Doughnut)
+      const subCtx = document.getElementById('subChart').getContext('2d')
+      const subLabels = ['Mata León', 'Guillotina', 'Triángulo', 'Palmera', 'Anaconda']
+      const processedSubLabels = subLabels.map(splitLabel)
+
+      new Chart(subCtx, {
+        type: 'doughnut',
+        data: {
+          labels: processedSubLabels,
+          datasets: [
+            {
+              label: 'Tipo de Sumisión',
+              data: [9, 3, 2, 1, 1],
+              backgroundColor: [
+                '#E83C91', // magenta
+                '#43334C', // purple
+                '#FF8FB7', // pink
+                '#6B7280', // grey
+                '#F8F4EC' // cream
+              ],
+              borderWidth: 2,
+              borderColor: '#fff'
+            }
+          ]
+        },
+        options: {
+          maintainAspectRatio: false,
+          cutout: '60%',
+          plugins: {
+            legend: {
+              position: 'right',
+              labels: { boxWidth: 15, font: { size: 11 } }
+            },
+            tooltip: commonTooltipOptions
+          }
+        }
+      })
+
+      // CHART 3: TITLE DEFENSES (Vertical Bar)
+      const defCtx = document.getElementById('defenseChart').getContext('2d')
+      const defLabels = ['Jon Jones', 'D. Johnson', 'A. Silva', 'GSP', 'A. Nunes']
+      const processedDefLabels = defLabels.map(splitLabel)
+
+      new Chart(defCtx, {
+        type: 'bar',
+        data: {
+          labels: processedDefLabels,
+          datasets: [
+            {
+              label: 'Defensas de Título',
+              data: [11, 11, 10, 9, 7],
+              backgroundColor: '#FF8FB7', // quimbara-pink for champions
+              borderRadius: 6
+            }
+          ]
+        },
+        options: {
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: commonTooltipOptions
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              grid: { color: '#e5e7eb' }
+            },
+            x: {
+              grid: { display: false }
+            }
+          }
+        }
+      })
+    })
+  </script>
 </PageLayout>
