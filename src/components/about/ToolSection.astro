@@ -13,7 +13,6 @@ interface Props {
     description: string
     href: string
     icon: Promise<typeof import('*.svg?raw')> | ImageMetadata
-    darkIcon?: Promise<typeof import('*.svg?raw')> | ImageMetadata
   }[]
 }
 
@@ -39,47 +38,15 @@ function isImageMetadata(obj: unknown): obj is ImageMetadata {
           target='_blank'
         >
           <div class='flex items-center gap-x-3 rounded-lg border border-transparent px-1.5 py-1 transition-colors hover:border-border hover:bg-muted'>
-            {tool.darkIcon ? (
-              <>
-                {isImageMetadata(tool.icon) ? (
-                  <div class='size-10 rounded-lg bg-primary-foreground p-2 dark:hidden'>
-                    <Image src={tool.icon} alt={tool.name} class='h-full w-full object-contain' />
-                  </div>
-                ) : (
-                  <Svg
-                    src={tool.icon}
-                    class='size-10 rounded-lg bg-primary-foreground fill-foreground p-2 dark:hidden'
-                  />
-                )}
-
-                {isImageMetadata(tool.darkIcon) ? (
-                  <div class='size-10 rounded-lg bg-primary-foreground p-2 hidden dark:block'>
-                    <Image
-                      src={tool.darkIcon}
-                      alt={tool.name}
-                      class='h-full w-full object-contain'
-                    />
-                  </div>
-                ) : (
-                  <Svg
-                    src={tool.darkIcon}
-                    class='size-10 rounded-lg bg-primary-foreground fill-foreground p-2 hidden dark:block'
-                  />
-                )}
-              </>
+            {isImageMetadata(tool.icon) ? (
+              <div class='size-10 rounded-lg bg-primary-foreground p-2'>
+                <Image src={tool.icon} alt={tool.name} class='h-full w-full object-contain' />
+              </div>
             ) : (
-              <>
-                {isImageMetadata(tool.icon) ? (
-                  <div class='size-10 rounded-lg bg-primary-foreground p-2'>
-                    <Image src={tool.icon} alt={tool.name} class='h-full w-full object-contain' />
-                  </div>
-                ) : (
-                  <Svg
-                    src={tool.icon}
-                    class='size-10 rounded-lg bg-primary-foreground fill-foreground p-2'
-                  />
-                )}
-              </>
+              <Svg
+                src={tool.icon}
+                class='size-10 rounded-lg bg-primary-foreground fill-foreground p-2'
+              />
             )}
             <div class='z-20 flex flex-col'>
               <div class='font-medium text-foreground'>{tool.name}</div>
