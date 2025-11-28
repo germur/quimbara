@@ -346,33 +346,35 @@ const athleteSchema = fighter
       </section>
 
       {/* 2.5 FIGHT TIMELINE */}
-      <section class="bg-white border border-border p-8 rounded-3xl shadow-sm">
-        <h2 class="text-xl font-bold text-quimbara-purple mb-6 flex items-center gap-2">
-          <span>📈</span> Racha Reciente
-        </h2>
-        <div class="flex items-center gap-4 overflow-x-auto pb-4 custom-scrollbar">
-          {recentFights.filter(f => f.status.short === 'FT').slice(0, 10).map(fight => {
-             const isWinner = (fight.fighters.first.id === fighterId && fight.fighters.first.winner) || 
-                              (fight.fighters.second.id === fighterId && fight.fighters.second.winner);
-             const opponent = fight.fighters.first.id === fighterId ? fight.fighters.second.name : fight.fighters.first.name;
-             
-             return (
-               <div class="flex flex-col items-center min-w-[100px] relative group">
-                 <div class={`w-12 h-12 rounded-full flex items-center justify-center text-white font-bold mb-2 shadow-md transition-transform group-hover:scale-110 ${isWinner ? 'bg-green-500' : 'bg-red-500'}`}>
-                   {isWinner ? 'W' : 'L'}
+      {recentFights.filter(f => f.status.short === 'FT').length > 0 && (
+        <section class="bg-white border border-border p-8 rounded-3xl shadow-sm">
+          <h2 class="text-xl font-bold text-quimbara-purple mb-6 flex items-center gap-2">
+            <span>📈</span> Racha Reciente
+          </h2>
+          <div class="flex items-center gap-4 overflow-x-auto pb-4 custom-scrollbar">
+            {recentFights.filter(f => f.status.short === 'FT').slice(0, 10).map(fight => {
+               const isWinner = (fight.fighters.first.id === fighterId && fight.fighters.first.winner) || 
+                                (fight.fighters.second.id === fighterId && fight.fighters.second.winner);
+               const opponent = fight.fighters.first.id === fighterId ? fight.fighters.second.name : fight.fighters.first.name;
+               
+               return (
+                 <div class="flex flex-col items-center min-w-[100px] relative group">
+                   <div class={`w-12 h-12 rounded-full flex items-center justify-center text-white font-bold mb-2 shadow-md transition-transform group-hover:scale-110 ${isWinner ? 'bg-green-500' : 'bg-red-500'}`}>
+                     {isWinner ? 'W' : 'L'}
+                   </div>
+                   <div class="text-xs text-center font-bold text-quimbara-purple truncate w-full px-1" title={opponent}>{opponent}</div>
+                   <div class="text-[10px] text-quimbara-purple/60">{new Date(fight.date).toLocaleDateString('es-ES', { month: 'short', year: '2-digit' })}</div>
+                   
+                   {/* Tooltip */}
+                   <div class="absolute bottom-full mb-2 hidden group-hover:block bg-quimbara-purple text-white text-xs p-2 rounded whitespace-nowrap z-10">
+                      {isWinner ? 'Victoria' : 'Derrota'} vs {opponent}
+                   </div>
                  </div>
-                 <div class="text-xs text-center font-bold text-quimbara-purple truncate w-full px-1" title={opponent}>{opponent}</div>
-                 <div class="text-[10px] text-quimbara-purple/60">{new Date(fight.date).toLocaleDateString('es-ES', { month: 'short', year: '2-digit' })}</div>
-                 
-                 {/* Tooltip */}
-                 <div class="absolute bottom-full mb-2 hidden group-hover:block bg-quimbara-purple text-white text-xs p-2 rounded whitespace-nowrap z-10">
-                    {isWinner ? 'Victoria' : 'Derrota'} vs {opponent}
-                 </div>
-               </div>
-             )
-          })}
-        </div>
-      </section>
+               )
+            })}
+          </div>
+        </section>
+      )}
 
       {/* 3. THE BODY (Analysis & Stats) */}
       <div class='grid lg:grid-cols-3 gap-8'>
