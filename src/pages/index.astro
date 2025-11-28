@@ -3,8 +3,8 @@ import { getCollection, getEntry } from 'astro:content'
 import fightersData from '@/data/fighters.json'
 
 import PageLayout from '@/layouts/BaseLayout.astro'
-import NextEventWidget from '@/components/widgets/NextEventWidget.astro'
 import NewsCarousel from '@/components/home/NewsCarousel.astro'
+import NextEventWidget from '@/components/widgets/NextEventWidget.astro'
 import { getNextFight, getWinStreak } from '@/utils/fighter-stats'
 import config from '@/site-config'
 
@@ -83,11 +83,11 @@ const allPosts = await getCollection('blog')
 const allPostsByDate = allPosts
   .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
   .slice(0, MAX_POSTS)
+---
 
 <PageLayout meta={{ title: 'Inicio' }}>
   <!-- Hero Section - DYNAMIC NEWS CAROUSEL -->
   <NewsCarousel posts={allPostsByDate} />
-
 
   <!-- Bento Grid Hub Section - CLEAN STYLE -->
   <section class='mb-20'>
