@@ -49,10 +49,10 @@ export const theme: ThemeUserConfig = {
     menu: [
       { title: 'Noticias', link: '/noticias' },
       { title: 'Análisis', link: '/analisis' },
-      { title: 'Peleadores', link: '/peleadores' },
-      { title: 'Guías', link: '/tecnicas-entrenamientos' },
-      { title: 'Cultura', link: '/cultura' },
-      { title: 'Sobre Nosotros', link: '/sobre-nosotros' }
+      { title: 'Peleadores', link: '/peleadores' }
+      // { title: 'Guías', link: '/tecnicas-entrenamientos' },
+      // { title: 'Cultura', link: '/cultura' },
+      // { title: 'Sobre Nosotros', link: '/sobre-nosotros' }
     ]
   },
 

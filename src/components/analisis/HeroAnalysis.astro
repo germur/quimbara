@@ -1,0 +1,117 @@
+---
+import type { CollectionEntry } from 'astro:content'
+
+interface Props {
+  analysis: CollectionEntry<'analisis'>
+}
+
+const { analysis } = Astro.props
+const { title, description, heroImage, category, event } = analysis.data
+
+// Category badge text mapping
+const categoryLabels = {
+  prediccion: 'Predicción Estelar',
+  tecnica: 'Análisis Técnico',
+  biomecanica: 'La Ciencia',
+  prospecto: 'El Prospecto',
+  historia: 'Historia del Octágono'
+}
+---
+
+<section class='relative h-[85vh] min-h-[600px] w-full overflow-hidden'>
+  <!-- Background Hero Image -->
+  {
+    heroImage && (
+      <div class='absolute inset-0'>
+        <img
+          src={heroImage.src}
+          alt={heroImage.alt}
+          class='h-full w-full object-cover'
+          transition:name={`hero-${analysis.id}`}
+        />
+        <div class='hero-gradient absolute inset-0' />
+      </div>
+    )
+  }
+
+  <!-- Content Overlay -->
+  <div class='relative z-10 flex h-full items-end'>
+    <div class='container mx-auto px-4 pb-16 sm:px-6 lg:px-10'>
+      <div class='max-w-4xl'>
+        <!-- Category Badge -->
+        <div
+          class={`badge-${category} mb-6 inline-block rounded-full px-6 py-2 text-sm font-bold uppercase tracking-wider`}
+        >
+          {categoryLabels[category]}
+          {event && <span class='mx-2'>•</span>}
+          {event}
+        </div>
+
+        <!-- Title -->
+        <h1
+          class='mb-6 text-4xl font-heading font-bold leading-tight text-white sm:text-5xl md:text-6xl lg:text-7xl'
+          style='text-shadow: 0 4px 20px rgba(0,0,0,0.8)'
+        >
+          {title}
+        </h1>
+
+        <!-- Description -->
+        <p
+          class='mb-8 text-lg leading-relaxed text-white/90 sm:text-xl md:text-2xl'
+          style='text-shadow: 0 2px 10px rgba(0,0,0,0.6)'
+        >
+          {description}
+        </p>
+
+        <!-- CTA Button -->
+        <a
+          href={`#contenido-completo`}
+          class='inline-flex items-center gap-3 rounded-xl bg-quimbara-magenta px-8 py-4 text-lg font-bold text-white shadow-2xl transition-all hover:scale-105 hover:bg-quimbara-purple'
+        >
+          Leer Desglose Completo
+          <svg class='h-5 w-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+            <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll Indicator -->
+  <div class='absolute bottom-8 left-1/2 z-10 -translate-x-1/2 animate-bounce'>
+    <svg class='h-8 w-8 text-white/50' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+      <path
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke-width='2'
+        d='M19 14l-7 7m0 0l-7-7m7 7V3'></path>
+    </svg>
+  </div>
+</section>
+
+<style>
+  .hero-gradient {
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.95) 0%,
+      rgba(0, 0, 0, 0.6) 40%,
+      rgba(0, 0, 0, 0.3) 70%,
+      transparent 100%
+    );
+  }
+
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(0) translateX(-50%);
+    }
+    50% {
+      transform: translateY(-10px) translateX(-50%);
+    }
+  }
+
+  .animate-bounce {
+    animation: bounce 2s infinite;
+  }
+</style>

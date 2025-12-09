@@ -1,0 +1,166 @@
+---
+import type { CollectionEntry } from 'astro:content'
+
+interface Props {
+  prospects: CollectionEntry<'analisis'>[]
+}
+
+const { prospects } = Astro.props
+---
+
+<section id='prospectos' class='py-16 bg-quimbara-purple/5'>
+  <div class='container mx-auto px-4 sm:px-6 lg:px-10'>
+    <div class='mb-12 text-center'>
+      <div
+        class='mb-4 inline-block rounded-full bg-orange-500/10 px-6 py-2 text-sm font-bold uppercase tracking-wider text-orange-600'
+      >
+        El Ojo del Experto
+      </div>
+      <h2 class='text-4xl font-heading font-bold text-quimbara-magenta md:text-5xl'>
+        El Próximo Campeón Está Aquí
+      </h2>
+      <p class='mx-auto mt-4 max-w-2xl text-lg text-quimbara-purple/70'>
+        Descubre a los prospectos antes que nadie. El viaje del héroe comienza ahora.
+      </p>
+    </div>
+
+    <!-- Horizontal Scrollable Carousel -->
+    <div class='relative'>
+      <div
+        class='no-scrollbar flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory'
+        id='prospects-carousel'
+      >
+        {
+          prospects.map((prospect) => (
+            <article class='group min-w-[300px] md:min-w-[350px] flex-shrink-0 snap-start overflow-hidden rounded-2xl border border-quimbara-purple/20 bg-white shadow-lg transition-all hover:scale-105 hover:shadow-2xl'>
+              {/* Prospect Image */}
+              <div class='relative h-48 overflow-hidden'>
+                {prospect.data.heroImage ? (
+                  <img
+                    src={prospect.data.heroImage.src}
+                    alt={prospect.data.heroImage.alt}
+                    class='h-full w-full object-cover filter grayscale transition-all duration-500 group-hover:grayscale-0 group-hover:scale-110'
+                  />
+                ) : (
+                  <div class='h-full w-full bg-gradient-to-br from-quimbara-purple/20 to-quimbara-magenta/20' />
+                )}
+                <div class='absolute inset-0 bg-gradient-to-t from-black/60 to-transparent' />
+
+                {/* Prospect Badge */}
+                <div class='absolute top-4 right-4 rounded-full bg-orange-500 px-3 py-1 text-xs font-bold text-white shadow-lg'>
+                  ⭐ Prospecto
+                </div>
+              </div>
+
+              {/* Content */}
+              <div class='p-6'>
+                {/* Fighter Name (from tags or title) */}
+                {prospect.data.fighters && prospect.data.fighters[0] && (
+                  <div class='mb-2 text-sm font-bold uppercase tracking-wider text-quimbara-purple/60'>
+                    {prospect.data.fighters[0].replace(/-/g, ' ')}
+                  </div>
+                )}
+
+                {/* Title */}
+                <h3 class='mb-3 text-xl font-heading font-bold leading-tight text-quimbara-magenta'>
+                  <a
+                    href={`/analisis/${prospect.id}/`}
+                    class='hover:text-quimbara-purple transition-colors'
+                  >
+                    {prospect.data.title}
+                  </a>
+                </h3>
+
+                {/* Short Description */}
+                <p class='mb-4 line-clamp-3 text-sm leading-relaxed text-quimbara-purple/70'>
+                  {prospect.data.description}
+                </p>
+
+                {/* Division Badge */}
+                {prospect.data.division && (
+                  <div class='mb-4'>
+                    <span class='inline-block rounded-full bg-quimbara-purple/10 px-3 py-1 text-xs font-medium text-quimbara-purple'>
+                      {prospect.data.division}
+                    </span>
+                  </div>
+                )}
+
+                {/* CTA */}
+                <a
+                  href={`/analisis/${prospect.id}/`}
+                  class='inline-flex items-center gap-2 text-sm font-bold text-orange-600 transition-colors hover:text-orange-500'
+                >
+                  Leer Historia
+                  <svg
+                    class='h-4 w-4 transition-transform group-hover:translate-x-1'
+                    fill='none'
+                    stroke='currentColor'
+                    viewBox='0 0 24 24'
+                  >
+                    <path
+                      stroke-linecap='round'
+                      stroke-linejoin='round'
+                      stroke-width='2'
+                      d='M9 5l7 7-7 7'
+                    />
+                  </svg>
+                </a>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+
+      <!-- Scroll Hint Arrows (optional) -->
+      <button
+        class='absolute left-0 top-1/2 -translate-y-1/2 hidden md:flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-xl hover:bg-quimbara-purple/10 transition-colors'
+        onclick='document.getElementById("prospects-carousel").scrollBy({left: -360, behavior: "smooth"})'
+        aria-label='Scroll left'
+      >
+        <svg
+          class='h-6 w-6 text-quimbara-purple'
+          fill='none'
+          stroke='currentColor'
+          viewBox='0 0 24 24'
+        >
+          <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M15 19l-7-7 7-7'
+          ></path>
+        </svg>
+      </button>
+      <button
+        class='absolute right-0 top-1/2 -translate-y-1/2 hidden md:flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-xl hover:bg-quimbara-purple/10 transition-colors'
+        onclick='document.getElementById("prospects-carousel").scrollBy({left: 360, behavior: "smooth"})'
+        aria-label='Scroll right'
+      >
+        <svg
+          class='h-6 w-6 text-quimbara-purple'
+          fill='none'
+          stroke='currentColor'
+          viewBox='0 0 24 24'
+        >
+          <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 5l7 7-7 7'
+          ></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Hide scrollbar but keep functionality */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Line clamp for description */
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>

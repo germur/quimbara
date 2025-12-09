@@ -1,0 +1,134 @@
+---
+import type { CollectionEntry } from 'astro:content'
+
+interface Props {
+  analyses: CollectionEntry<'analisis'>[]
+}
+
+const { analyses } = Astro.props
+---
+
+<section id='tecnica' class='py-16 bg-gradient-to-b from-white to-quimbara-purple/5'>
+  <div class='container mx-auto px-4 sm:px-6 lg:px-10'>
+    <div class='mb-12 text-center'>
+      <div
+        class='mb-4 inline-block rounded-full bg-blue-500/10 px-6 py-2 text-sm font-bold uppercase tracking-wider text-blue-600'
+      >
+        Deep Dive
+      </div>
+      <h2 class='text-4xl font-heading font-bold text-quimbara-magenta md:text-5xl'>
+        Técnica y Biomecánica
+      </h2>
+      <p class='mx-auto mt-4 max-w-2xl text-lg text-quimbara-purple/70'>
+        Donde la ciencia encuentra el arte del combate
+      </p>
+    </div>
+
+    <!-- Z-Pattern Alternating Layout -->
+    <div class='space-y-16'>
+      {
+        analyses.map((analysis, index) => (
+          <article
+            class={`z-pattern-item flex flex-col gap-8 items-center md:flex-row ${
+              index % 2 === 1 ? 'md:flex-row-reverse' : ''
+            }`}
+          >
+            {/* Image Side */}
+            <div class='w-full md:w-1/2'>
+              <a
+                href={`/analisis/${analysis.id}/`}
+                class='group block overflow-hidden rounded-2xl shadow-2xl'
+              >
+                {analysis.data.heroImage ? (
+                  <div class='relative aspect-video'>
+                    <img
+                      src={analysis.data.heroImage.src}
+                      alt={analysis.data.heroImage.alt}
+                      class='h-full w-full object-cover transition-transform duration-500 group-hover:scale-110'
+                    />
+                    {/* Annotation Overlay Hint */}
+                    <div class='absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity group-hover:opacity-100' />
+                    {analysis.data.heroImage.caption && (
+                      <div class='absolute bottom-0 left-0 right-0 bg-black/80 p-3 text-sm text-white'>
+                        {analysis.data.heroImage.caption}
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <div class='aspect-video bg-quimbara-purple/10' />
+                )}
+              </a>
+            </div>
+
+            {/* Content Side */}
+            <div class='w-full space-y-6 md:w-1/2'>
+              {/* Category Badge */}
+              <div
+                class={`inline-block rounded-full px-4 py-2 text-xs font-bold uppercase tracking-wider ${
+                  analysis.data.category === 'tecnica'
+                    ? 'bg-blue-500/10 text-blue-600'
+                    : 'bg-purple-500/10 text-purple-600'
+                }`}
+              >
+                {analysis.data.category === 'tecnica' ? 'Técnica' : 'Biomecánica'}
+              </div>
+
+              {/* Title */}
+              <h3 class='text-3xl font-heading font-bold leading-tight text-quimbara-magenta md:text-4xl'>
+                <a
+                  href={`/analisis/${analysis.id}/`}
+                  class='hover:text-quimbara-purple transition-colors'
+                >
+                  {analysis.data.title}
+                </a>
+              </h3>
+
+              {/* Description */}
+              <p class='text-lg leading-relaxed text-quimbara-purple/70'>
+                {analysis.data.description}
+              </p>
+
+              {/* Tags */}
+              {analysis.data.tags && analysis.data.tags.length > 0 && (
+                <div class='flex flex-wrap gap-2'>
+                  {analysis.data.tags.slice(0, 4).map((tag: string) => (
+                    <span class='rounded-full bg-quimbara-purple/5 px-3 py-1 text-xs font-medium text-quimbara-purple'>
+                      #{tag}
+                    </span>
+                  ))}
+                </div>
+              )}
+
+              {/* CTA */}
+              <div>
+                <a
+                  href={`/analisis/${analysis.id}/`}
+                  class='btn-secondary inline-flex items-center gap-2 border-quimbara-purple/30 py-3 px-6 hover:bg-quimbara-purple/10 hover:text-quimbara-purple'
+                >
+                  Leer Análisis Completo
+                  <svg class='h-5 w-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                    <path
+                      stroke-linecap='round'
+                      stroke-linejoin='round'
+                      stroke-width='2'
+                      d='M17 8l4 4m0 0l-4 4m4-4H3'
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Z-pattern: every even item reverses on desktop */
+  @media (min-width: 768px) {
+    .z-pattern-item:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+  }
+</style>

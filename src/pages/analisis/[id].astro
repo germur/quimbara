@@ -1,0 +1,175 @@
+---
+import type { GetStaticPaths } from 'astro'
+import { getCollection, type CollectionEntry } from 'astro:content'
+
+import PageLayout from '@/layouts/BaseLayout.astro'
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+
+export const prerender = true
+
+export const getStaticPaths = (async () => {
+  const analyses = await getCollection('analisis', ({ data }) => !data.draft)
+  return analyses.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry }
+  }))
+}) satisfies GetStaticPaths
+
+interface Props {
+  entry: CollectionEntry<'analisis'>
+}
+
+const { entry } = Astro.props
+const { Content } = await entry.render()
+const { title, description, publishDate, heroImage, category, event, fighters, tags } = entry.data
+
+// Category label mapping
+const categoryLabels = {
+  prediccion: 'Predicción',
+  tecnica: 'Análisis Técnico',
+  biomecanica: 'Biomecánica',
+  prospecto: 'Prospecto',
+  historia: 'Historia'
+}
+
+const meta = {
+  title: `${title} | Análisis | Quimbara`,
+  description,
+  articleDate: publishDate
+}
+---
+
+<PageLayout {meta}>
+  <Breadcrumbs
+    path={[
+      { title: 'Inicio', link: '/' },
+      { title: 'Análisis', link: '/analisis/' },
+      { title: categoryLabels[category], link: `/analisis/#${category}` }
+    ]}
+  />
+
+  <article class='mx-auto max-w-4xl py-12'>
+    <!-- Header -->
+    <header class='mb-12'>
+      <!-- Category + Event Badge -->
+      <div class='mb-6 flex flex-wrap items-center gap-3'>
+        <span
+          class={`badge-${category} rounded-full px-4 py-2 text-sm font-bold uppercase tracking-wider`}
+        >
+          {categoryLabels[category]}
+        </span>
+        {
+          event && (
+            <span class='rounded-full bg-quimbara-purple/10 px-4 py-2 text-sm font-bold text-quimbara-purple'>
+              {event}
+            </span>
+          )
+        }
+      </div>
+
+      <!-- Title -->
+      <h1
+        class='mb-6 text-4xl font-heading font-bold leading-tight text-quimbara-magenta md:text-5xl lg:text-6xl'
+      >
+        {title}
+      </h1>
+
+      <!-- Meta Info -->
+      <div class='flex flex-wrap items-center gap-4 text-sm text-quimbara-purple/70'>
+        <time datetime={publishDate.toISOString()}>
+          {
+            publishDate.toLocaleDateString('es-ES', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric'
+            })
+          }
+        </time>
+
+        {
+          fighters && fighters.length > 0 && (
+            <>
+              <span class='text-quimbara-purple/30'>•</span>
+              <div class='flex flex-wrap gap-2'>
+                {fighters.map((fighter) => (
+                  <a
+                    href={`/peleadores/${fighter}/`}
+                    class='font-medium text-quimbara-purple hover:text-quimbara-magenta transition-colors'
+                  >
+                    {fighter.replace(/-/g, ' ')}
+                  </a>
+                ))}
+              </div>
+            </>
+          )
+        }
+      </div>
+
+      <!-- Lead/Description -->
+      <p class='mt-6 text-xl leading-relaxed text-quimbara-purple/80'>
+        {description}
+      </p>
+    </header>
+
+    <!-- Hero Image -->
+    {
+      heroImage && (
+        <figure class='mb-12'>
+          <div class='overflow-hidden rounded-2xl shadow-2xl'>
+            <img
+              src={heroImage.src}
+              alt={heroImage.alt}
+              class='w-full'
+              transition:name={`hero-${entry.id}`}
+            />
+          </div>
+          {heroImage.caption && (
+            <figcaption class='mt-4 text-center text-sm italic text-quimbara-purple/60'>
+              {heroImage.caption}
+            </figcaption>
+          )}
+        </figure>
+      )
+    }
+
+    <!-- Article Content -->
+    <div
+      class='prose prose-lg max-w-none prose-headings:font-heading prose-headings:text-quimbara-magenta prose-p:text-quimbara-purple/80 prose-a:text-quimbara-purple prose-a:no-underline hover:prose-a:text-quimbara-magenta prose-strong:text-quimbara-purple prose-code:text-quimbara-purple prose-code:bg-quimbara-purple/5 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-pre:bg-quimbara-purple/5 prose-pre:border prose-pre:border-quimbara-purple/20 prose-table:border-quimbara-purple/20'
+    >
+      <Content />
+    </div>
+
+    <!-- Tags -->
+    {
+      tags && tags.length > 0 && (
+        <footer class='mt-12 pt-8 border-t border-quimbara-purple/20'>
+          <div class='flex flex-wrap items-center gap-3'>
+            <span class='text-sm font-bold text-quimbara-purple/60'>Etiquetas:</span>
+            {tags.map((tag) => (
+              <a
+                href={`/tags/${tag}/`}
+                class='rounded-full bg-quimbara-purple/5 px-3 py-1 text-sm font-medium text-quimbara-purple hover:bg-quimbara-purple/10 transition-colors'
+              >
+                #{tag}
+              </a>
+            ))}
+          </div>
+        </footer>
+      )
+    }
+
+    <!-- CTA Back to Analyses -->
+    <div class='mt-12 text-center'>
+      <a
+        href='/analisis/'
+        class='inline-flex items-center gap-2 text-quimbara-purple hover:text-quimbara-magenta transition-colors font-bold'
+      >
+        <svg class='h-5 w-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+          <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M15 19l-7-7 7-7'
+          ></path>
+        </svg>
+        Ver todos los análisis
+      </a>
+    </div>
+  </article>
+</PageLayout>

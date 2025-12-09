@@ -72,4 +72,36 @@ const fighterData = defineCollection({
   })
 })
 
-export const collections = { blog, docs, fighterData }
+// Define analisis collection (El Octágono Digital)
+const analisis = defineCollection({
+  loader: glob({ base: './src/content/analisis', pattern: '**/*.{md,mdx}' }),
+  schema: ({ image }) =>
+    z.object({
+      // Core metadata
+      title: z.string().max(80),
+      description: z.string().max(160),
+      publishDate: z.coerce.date(),
+      updatedDate: z.coerce.date().optional(),
+      // Visual assets
+      heroImage: z.object({
+        src: z.string(),
+        alt: z.string(),
+        caption: z.string().optional()
+      }).optional(),
+      // Categorization
+      category: z.enum(['prediccion', 'tecnica', 'biomecanica', 'prospecto', 'historia']),
+      featured: z.boolean().default(false),
+      priority: z.number().default(999),
+      // Fight/Fighter context
+      fighters: z.array(z.string()).optional(),
+      event: z.string().optional(),
+      division: z.string().optional(),
+      // SEO
+      tags: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
+      // Stats & Data
+      statistics: z.record(z.any()).optional(),
+      draft: z.boolean().default(false)
+    })
+})
+
+export const collections = { blog, docs, fighterData, analisis }

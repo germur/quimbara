@@ -1,0 +1,95 @@
+---
+// Newsletter specific to analysis content with SEO tag cloud
+const popularTags = [
+  'Peso Pesado',
+  'Peso Ligero',
+  'Peso Welter',
+  'Jiu-Jitsu',
+  'Striking',
+  'Wrestling',
+  'UFC',
+  'Bellator',
+  'ONE FC',
+  'Biomecánica',
+  'Análisis Técnico',
+  'Predicciones'
+]
+---
+
+<section class='py-16 bg-gradient-to-br from-quimbara-purple to-quimbara-magenta'>
+  <div class='container mx-auto px-4 sm:px-6 lg:px-10'>
+    <div class='mx-auto max-w-4xl text-center'>
+      {/* Newsletter Card */}
+      <div
+        class='rounded-3xl bg-white/10 backdrop-blur-lg p-8 md:p-12 shadow-2xl border border-white/20'
+      >
+        <div class='mb-6'>
+          <svg
+            class='mx-auto h-20 w-20 text-white/90'
+            fill='none'
+            stroke='currentColor'
+            viewBox='0 0 24 24'
+          >
+            <path
+              stroke-linecap='round'
+              stroke-linejoin='round'
+              stroke-width='1.5'
+              d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'
+            ></path>
+          </svg>
+        </div>
+
+        <h2 class='mb-4 text-3xl md:text-4xl font-heading font-bold text-white'>
+          No Pelees a Ciegas
+        </h2>
+        <p class='mb-8 text-lg md:text-xl text-white/90 leading-relaxed'>
+          Recibe el análisis técnico <strong>antes de cada evento numerado</strong>. Anticipaciones,
+          desglose biomecánico y las claves que los comentaristas no te cuentan.
+        </p>
+
+        {/* Newsletter Form */}
+        <form class='mx-auto flex max-w-md flex-col gap-4 sm:flex-row' action='#' method='post'>
+          <input
+            type='email'
+            placeholder='tu@email.com'
+            required
+            class='flex-1 rounded-xl bg-white/20 border border-white/30 px-6 py-4 text-white placeholder-white/60 backdrop-blur-sm focus:border-white focus:outline-none focus:ring-2 focus:ring-white/50'
+          />
+          <button
+            type='submit'
+            class='rounded-xl bg-white px-8 py-4 font-bold text-quimbara-purple shadow-lg transition-all hover:scale-105 hover:shadow-xl'
+          >
+            Suscribirme
+          </button>
+        </form>
+
+        <p class='mt-4 text-sm text-white/70'>
+          Sin spam. Solo análisis de calidad. Cancela cuando quieras.
+        </p>
+      </div>
+
+      {/* SEO Tag Cloud */}
+      <div class='mt-12'>
+        <h3 class='mb-6 text-xl font-bold text-white/90'>Explorá por Tema</h3>
+        <div class='flex flex-wrap justify-center gap-3'>
+          {
+            popularTags.map((tag) => (
+              <a
+                href={`/tags/${tag.toLowerCase().replace(/\s+/g, '-')}/`}
+                class='rounded-full bg-white/10 backdrop-blur-sm border border-white/20 px-4 py-2 text-sm font-medium text-white/90 transition-all hover:bg-white/20 hover:scale-105'
+              >
+                {tag}
+              </a>
+            ))
+          }
+        </div>
+      </div>
+
+      {/* Related Content Note */}
+      <div class='mt-8 text-sm text-white/60'>
+        Más de <strong class='text-white/90'>500 análisis</strong> publicados •{' '}
+        <strong class='text-white/90'>50,000+</strong> lectores mensuales
+      </div>
+    </div>
+  </div>
+</section>

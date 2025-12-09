@@ -1,18 +1,41 @@
 ---
-import PageLayout from '@/layouts/BaseLayout.astro'
-import Breadcrumbs from '@/components/Breadcrumbs.astro'
 import { getCollection } from 'astro:content'
+
+import PageLayout from '@/layouts/BaseLayout.astro'
+import AnalysisNewsletter from '@/components/analisis/AnalysisNewsletter.astro'
+// Import all analysis components
+import HeroAnalysis from '@/components/analisis/HeroAnalysis.astro'
+import IntentNavigation from '@/components/analisis/IntentNavigation.astro'
+import ProspectsCarousel from '@/components/analisis/ProspectsCarousel.astro'
+import TechniqueDeepDive from '@/components/analisis/TechniqueDeepDive.astro'
+import WeeklyNarrative from '@/components/analisis/WeeklyNarrative.astro'
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
 
 export const prerender = true
 
-const allPosts = await getCollection('blog')
-const analysisPosts = allPosts
-  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
-  .filter(post => post.data.tags?.some(tag => ['analisis', 'tecnica', 'prediccion', 'deep-dive'].includes(tag.toLowerCase())))
+// Fetch all analysis content
+const allAnalyses = (await getCollection('analisis', ({ data }) => !data.draft)).sort(
+  (a, b) =>
+    a.data.priority - b.data.priority || b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+)
+
+// Segment content by category
+const featured = allAnalyses.find((a) => a.data.featured) || allAnalyses[0]
+const predictions = allAnalyses.filter((a) => a.data.category === 'prediccion')
+const technique = allAnalyses.filter(
+  (a) => a.data.category === 'tecnica' || a.data.category === 'biomecanica'
+)
+const prospects = allAnalyses.filter((a) => a.data.category === 'prospecto')
+const history = allAnalyses.filter((a) => a.data.category === 'historia')
+
+// For Weekly Narrative (themed cluster) - showing technique articles
+const narrativeTheme = 'El Arte del Striking Moderno'
+const narrativeArticles = technique.slice(0, 3)
 
 const meta = {
-  title: 'Análisis Técnico y Predicciones UFC | Quimbara',
-  description: 'Desgloses técnicos detallados, análisis de estilos y predicciones fundamentadas para los grandes combates de UFC y MMA.'
+  title: 'El Octágono Digital | Análisis Técnico UFC | Quimbara',
+  description:
+    'Análisis técnico profundo, biomecánica del combate y predicciones fundamentadas. Entiende la pelea más allá del resultado.'
 }
 ---
 
@@ -20,62 +43,167 @@ const meta = {
   <Breadcrumbs
     path={[
       { title: 'Inicio', link: '/' },
-      { title: 'Análisis Técnico', link: '/analisis/' }
+      { title: 'Análisis', link: '/analisis/' }
     ]}
   />
 
-  <section class="py-12">
-    <div class="text-center max-w-3xl mx-auto mb-16">
-      <div class="seo-badge bg-quimbara-purple/10 text-quimbara-magenta mb-4">Deep Dive</div>
-      <h1 class="text-5xl md:text-6xl font-heading font-bold text-quimbara-magenta mb-6">
-        LA CIENCIA DEL <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">COMBATE</span>
-      </h1>
-      <p class="text-xl text-quimbara-purple/70 font-light">
-        Más allá del resultado. Desglosamos la estrategia, la biomecánica y la psicología detrás de cada victoria en el octágono.
-      </p>
-    </div>
+  <!-- 1. HERO SECTION - Featured Analysis -->
+  {featured && <HeroAnalysis analysis={featured} />}
 
-    <div class="grid gap-12">
-      {analysisPosts.map((post, index) => (
-        <article class={`group relative grid md:grid-cols-2 gap-8 items-center ${index % 2 !== 0 ? 'md:grid-flow-dense' : ''}`}>
-          <!-- Image Side -->
-          <a href={`/blog/${post.id}/`} class={`block overflow-hidden rounded-2xl shadow-2xl border border-white/10 aspect-[16/9] ${index % 2 !== 0 ? 'md:col-start-2' : ''}`}>
-             {post.data.heroImage ? (
-              <img 
-                src={post.data.heroImage.src.src} 
-                alt={post.data.heroImage.alt}
-                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 filter saturate-0 group-hover:saturate-100"
-                loading="lazy"
-              />
-             ) : (
-              <div class="w-full h-full bg-quimbara-purple/5"></div>
-             )}
-             <div class="absolute inset-0 bg-quimbara-purple/20 mix-blend-overlay group-hover:bg-transparent transition-colors"></div>
-          </a>
+  <!-- 2. INTENT NAVIGATION - Quick Filter Pills -->
+  <IntentNavigation />
 
-          <!-- Content Side -->
-          <div class={`space-y-6 ${index % 2 !== 0 ? 'md:col-start-1 text-right md:text-right' : ''}`}>
-            <div class={`flex items-center gap-3 text-sm text-quimbara-purple font-bold uppercase tracking-wider ${index % 2 !== 0 ? 'justify-end' : ''}`}>
-              <span>{post.data.tags?.[0] || 'Análisis'}</span>
-              <span class="w-12 h-px bg-quimbara-purple/20"></span>
+  <div id='contenido-completo'>
+    <!-- 3. WEEKLY NARRATIVE - Topic Cluster -->
+    {
+      narrativeArticles.length > 0 && (
+        <WeeklyNarrative theme={narrativeTheme} analyses={narrativeArticles} />
+      )
+    }
+
+    <!-- 4. TECHNIQUE & BIOMECHANICS - Deep Dive Section -->
+    {technique.length > 0 && <TechniqueDeepDive analyses={technique.slice(0, 4)} />}
+
+    <!-- 5. PREDICTIONS Section -->
+    {
+      predictions.length > 0 && (
+        <section id='predicciones' class='py-16'>
+          <div class='container mx-auto px-4 sm:px-6 lg:px-10'>
+            <div class='mb-12 text-center'>
+              <div class='mb-4 inline-block rounded-full bg-yellow-500/10 px-6 py-2 text-sm font-bold uppercase tracking-wider text-yellow-600'>
+                Próximos Eventos
+              </div>
+              <h2 class='text-4xl font-heading font-bold text-quimbara-magenta md:text-5xl'>
+                Predicciones
+              </h2>
             </div>
-            
-            <h2 class="text-3xl md:text-4xl font-heading font-bold text-quimbara-magenta leading-tight group-hover:text-quimbara-purple transition-colors">
-              <a href={`/blog/${post.id}/`}>{post.data.title}</a>
-            </h2>
-            
-            <p class="text-quimbara-purple/70 text-lg leading-relaxed">
-              {post.data.description}
-            </p>
-            
-            <div class={`pt-4 ${index % 2 !== 0 ? 'flex justify-end' : ''}`}>
-              <a href={`/blog/${post.id}/`} class="btn-secondary text-sm py-2 px-6 border-quimbara-purple/30 hover:bg-quimbara-purple/10 hover:text-quimbara-purple">
-                Leer Análisis
-              </a>
+
+            <div class='grid gap-8 md:grid-cols-2 lg:grid-cols-3'>
+              {predictions.slice(0, 6).map((prediction) => (
+                <article class='group overflow-hidden rounded-2xl border border-quimbara-purple/20 bg-white shadow-lg transition-all hover:scale-105 hover:shadow-2xl'>
+                  {prediction.data.heroImage && (
+                    <div class='relative h-48 overflow-hidden'>
+                      <img
+                        src={prediction.data.heroImage.src}
+                        alt={prediction.data.heroImage.alt}
+                        class='h-full w-full object-cover transition-transform duration-500 group-hover:scale-110'
+                      />
+                      {prediction.data.event && (
+                        <div class='absolute top-4 left-4 rounded-full bg-yellow-500 px-3 py-1 text-xs font-bold text-white shadow-lg'>
+                          {prediction.data.event}
+                        </div>
+                      )}
+                    </div>
+                  )}
+                  <div class='p-6'>
+                    <h3 class='mb-3 text-xl font-heading font-bold text-quimbara-magenta'>
+                      <a
+                        href={`/analisis/${prediction.id}/`}
+                        class='hover:text-quimbara-purple transition-colors'
+                      >
+                        {prediction.data.title}
+                      </a>
+                    </h3>
+                    <p class='mb-4 text-sm text-quimbara-purple/70'>
+                      {prediction.data.description}
+                    </p>
+                    <a
+                      href={`/analisis/${prediction.id}/`}
+                      class='inline-flex items-center gap-2 text-sm font-bold text-yellow-600 hover:text-yellow-500'
+                    >
+                      Ver Predicción
+                      <svg class='h-4 w-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                        <path
+                          stroke-linecap='round'
+                          stroke-linejoin='round'
+                          stroke-width='2'
+                          d='M9 5l7 7-7 7'
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </article>
+              ))}
             </div>
           </div>
-        </article>
-      ))}
-    </div>
-  </section>
+        </section>
+      )
+    }
+
+    <!-- 6. PROSPECTS CAROUSEL -->
+    {prospects.length > 0 && <ProspectsCarousel prospects={prospects} />}
+
+    <!-- 7. HISTORY Section -->
+    {
+      history.length > 0 && (
+        <section id='historia' class='py-16'>
+          <div class='container mx-auto px-4 sm:px-6 lg:px-10'>
+            <div class='mb-12 text-center'>
+              <div class='mb-4 inline-block rounded-full bg-green-500/10 px-6 py-2 text-sm font-bold uppercase tracking-wider text-green-600'>
+                Archivo Histórico
+              </div>
+              <h2 class='text-4xl font-heading font-bold text-quimbara-magenta md:text-5xl'>
+                Documentales del Octágono
+              </h2>
+            </div>
+
+            <div class='grid gap-8 md:grid-cols-2'>
+              {history.slice(0, 4).map((story) => (
+                <article class='group flex gap-6 overflow-hidden rounded-2xl border border-quimbara-purple/20 bg-white p-6 shadow-lg transition-all hover:shadow-2xl'>
+                  {story.data.heroImage && (
+                    <div class='w-32 flex-shrink-0'>
+                      <img
+                        src={story.data.heroImage.src}
+                        alt={story.data.heroImage.alt}
+                        class='h-32 w-32 rounded-xl object-cover'
+                      />
+                    </div>
+                  )}
+                  <div class='flex-1'>
+                    <h3 class='mb-2 text-xl font-heading font-bold text-quimbara-magenta'>
+                      <a
+                        href={`/analisis/${story.id}/`}
+                        class='hover:text-quimbara-purple transition-colors'
+                      >
+                        {story.data.title}
+                      </a>
+                    </h3>
+                    <p class='mb-3 text-sm text-quimbara-purple/70 line-clamp-2'>
+                      {story.data.description}
+                    </p>
+                    <a
+                      href={`/analisis/${story.id}/`}
+                      class='inline-flex items-center gap-2 text-sm font-bold text-green-600 hover:text-green-500'
+                    >
+                      Leer Historia
+                      <svg class='h-4 w-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                        <path
+                          stroke-linecap='round'
+                          stroke-linejoin='round'
+                          stroke-width='2'
+                          d='M9 5l7 7-7 7'
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+      )
+    }
+
+    <!-- 8. NEWSLETTER & SEO FOOTER -->
+    <AnalysisNewsletter />
+  </div>
 </PageLayout>
+
+<style>
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>

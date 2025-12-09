@@ -1,0 +1,87 @@
+---
+// Quick Intent Navigation - Filter bar for content types
+---
+
+<nav class='sticky top-20 z-40 mb-12 bg-background/95 py-6 backdrop-blur-sm'>
+  <div class='container mx-auto px-4 sm:px-6 lg:px-10'>
+    <div
+      class='no-scrollbar flex items-center gap-4 overflow-x-auto'
+      role='tablist'
+      aria-label='Categorías de análisis'
+    >
+      <a
+        href='#predicciones'
+        class='intent-pill flex-shrink-0 rounded-full border-2 border-yellow-500/30 bg-yellow-500/10 px-6 py-3 text-sm font-bold uppercase tracking-wide text-yellow-600 transition-all hover:border-yellow-500 hover:bg-yellow-500/20 hover:scale-105'
+        role='tab'
+      >
+        <span class='mr-2'>🎯</span>
+        Predicciones
+      </a>
+
+      <a
+        href='#tecnica'
+        class='intent-pill flex-shrink-0 rounded-full border-2 border-blue-500/30 bg-blue-500/10 px-6 py-3 text-sm font-bold uppercase tracking-wide text-blue-600 transition-all hover:border-blue-500 hover:bg-blue-500/20 hover:scale-105'
+        role='tab'
+      >
+        <span class='mr-2'>🥋</span>
+        Técnica al Detalle
+      </a>
+
+      <a
+        href='#ciencia'
+        class='intent-pill flex-shrink-0 rounded-full border-2 border-purple-500/30 bg-purple-500/10 px-6 py-3 text-sm font-bold uppercase tracking-wide text-purple-600 transition-all hover:border-purple-500 hover:bg-purple-500/20 hover:scale-105'
+        role='tab'
+      >
+        <span class='mr-2'>🔬</span>
+        La Ciencia
+      </a>
+
+      <a
+        href='#historia'
+        class='intent-pill flex-shrink-0 rounded-full border-2 border-green-500/30 bg-green-500/10 px-6 py-3 text-sm font-bold uppercase tracking-wide text-green-600 transition-all hover:border-green-500 hover:bg-green-500/20 hover:scale-105'
+        role='tab'
+      >
+        <span class='mr-2'>📚</span>
+        Historia
+      </a>
+
+      <a
+        href='#prospectos'
+        class='intent-pill flex-shrink-0 rounded-full border-2 border-orange-500/30 bg-orange-500/10 px-6 py-3 text-sm font-bold uppercase tracking-wide text-orange-600 transition-all hover:border-orange-500 hover:bg-orange-500/20 hover:scale-105'
+        role='tab'
+      >
+        <span class='mr-2'>⭐</span>
+        Prospectos
+      </a>
+    </div>
+  </div>
+</nav>
+
+<script>
+  // Smooth scroll behavior for intent navigation
+  document.querySelectorAll('.intent-pill').forEach((pill) => {
+    pill.addEventListener('click', (e) => {
+      e.preventDefault()
+      const target = (e.currentTarget as HTMLAnchorElement).getAttribute('href')
+      if (target) {
+        const element = document.querySelector(target)
+        element?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }
+    })
+  })
+</script>
+
+<style>
+  /* Hide scrollbar but keep functionality */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .intent-pill {
+    white-space: nowrap;
+  }
+</style>

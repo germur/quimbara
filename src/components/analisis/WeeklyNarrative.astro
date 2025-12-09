@@ -1,0 +1,96 @@
+---
+import type { CollectionEntry } from 'astro:content'
+
+interface Props {
+  theme: string
+  analyses: CollectionEntry<'analisis'>[]
+}
+
+const { theme, analyses } = Astro.props
+const displayAnalyses = analyses.slice(0, 3) // Show max 3 for the narrative
+---
+
+<section id='narrativa' class='py-16'>
+  <div class='container mx-auto px-4 sm:px-6 lg:px-10'>
+    <div class='mb-12 text-center'>
+      <div
+        class='mb-4 inline-block rounded-full bg-quimbara-purple/10 px-6 py-2 text-sm font-bold uppercase tracking-wider text-quimbara-magenta'
+      >
+        La Narrativa de la Semana
+      </div>
+      <h2 class='text-4xl font-heading font-bold text-quimbara-magenta md:text-5xl'>
+        {theme}
+      </h2>
+    </div>
+
+    <!-- Grid adapts to number of articles (1-3) -->
+    <div
+      class={`grid gap-8 ${displayAnalyses.length === 1 ? 'md:grid-cols-1 max-w-2xl mx-auto' : displayAnalyses.length === 2 ? 'md:grid-cols-2' : 'md:grid-cols-3'}`}
+    >
+      {
+        displayAnalyses.map((analysis, index) => {
+          const labels = ['El Origen', 'El Dato', 'El Rival', 'Análisis', 'Perspectiva']
+          return (
+            <article class='group relative overflow-hidden rounded-2xl border border-quimbara-purple/20 bg-gradient-to-br from-white to-quimbara-purple/5 p-8 shadow-lg transition-all hover:scale-105 hover:shadow-2xl'>
+              {/* Number Badge */}
+              <div class='absolute right-4 top-4 text-7xl font-heading font-bold text-quimbara-purple/10'>
+                {index + 1}
+              </div>
+
+              {/* Category Label */}
+              <div class='mb-4 relative z-10'>
+                <span class='text-sm font-bold uppercase tracking-wider text-quimbara-purple/60'>
+                  {labels[index] || `Análisis ${index + 1}`}
+                </span>
+              </div>
+
+              {/* Title */}
+              <h3 class='mb-4 text-2xl font-heading font-bold leading-tight text-quimbara-magenta transition-colors group-hover:text-quimbara-purple'>
+                <a href={`/analisis/${analysis.id}/`} class='relative z-10'>
+                  {analysis.data.title}
+                </a>
+              </h3>
+
+              {/* Description */}
+              <p class='mb-6 text-quimbara-purple/70 leading-relaxed'>
+                {analysis.data.description}
+              </p>
+
+              {/* CTA Link */}
+              <a
+                href={`/analisis/${analysis.id}/`}
+                class='inline-flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-quimbara-purple transition-colors hover:text-quimbara-magenta'
+              >
+                Leer más
+                <svg
+                  class='h-4 w-4 transition-transform group-hover:translate-x-1'
+                  fill='none'
+                  stroke='currentColor'
+                  viewBox='0 0 24 24'
+                >
+                  <path
+                    stroke-linecap='round'
+                    stroke-linejoin='round'
+                    stroke-width='2'
+                    d='M9 5l7 7-7 7'
+                  />
+                </svg>
+              </a>
+
+              {/* Hover Effect Border */}
+              <div class='absolute inset-0 rounded-2xl border-2 border-transparent transition-colors group-hover:border-quimbara-magenta/20' />
+            </article>
+          )
+        })
+      }
+    </div>
+
+    <!-- Internal Linking Explanation for SEO -->
+    <div class='mt-8 text-center'>
+      <p class='text-sm text-quimbara-purple/50'>
+        <strong class='text-quimbara-p urple'>Topic Cluster:</strong> Estos análisis están conectados
+        temáticamente para profundizar en {theme}
+      </p>
+    </div>
+  </div>
+</section>
